@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2018-01-08T14:24:46.000Z</lastmod>
+    <lastmod>2018-01-08T14:29:11.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges: Data Science on IS</title>
@@ -13,25 +13,25 @@
         
         <tag>information_system</tag>
          
-        <tag>deep_learning</tag>
-         
         <tag>machine_learning</tag>
          
         <tag>natural_language_processing</tag>
+         
+        <tag>deep_learning</tag>
+         
+        <tag>github</tag>
          
         <tag>markdown_table</tag>
          
         <tag>image</tag>
          
-        <tag>github</tag>
-         
         <tag>hexo_pdf</tag>
          
         <tag>finance</tag>
          
-        <tag>mathematics</tag>
-         
         <tag>economics</tag>
+         
+        <tag>mathematics</tag>
          
         <tag>statistics</tag>
          
@@ -86,13 +86,13 @@
         
         <tag>research</tag>
          
+        <tag>machine_learning</tag>
+         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
          
         <tag>faicon</tag>
-         
-        <tag>machine_learning</tag>
          
         <tag>natural_language_processing</tag>
          
@@ -142,17 +142,17 @@
          
         <tag>notes</tag>
          
-        <tag>research</tag>
-         
-        <tag>machine_learning</tag>
-         
-        <tag>hexo</tag>
-         
         <tag>study</tag>
+         
+        <tag>research</tag>
          
         <tag>blog</tag>
          
         <tag>logs</tag>
+         
+        <tag>hexo</tag>
+         
+        <tag>machine_learning</tag>
          
         <tag>music</tag>
          
@@ -328,9 +328,9 @@
         <title>Introduction to Sentiment Analysis</title>
         <pubTime>2017-10-22T16:00:00.000Z</pubTime>
         
-        <tag>sentiment_analysis</tag>
-         
         <tag>machine_learning</tag>
+         
+        <tag>sentiment_analysis</tag>
          
         <tag>natural_language_processing</tag>
          
@@ -426,13 +426,13 @@
          
         <tag>image</tag>
          
+        <tag>mathjax</tag>
+         
         <tag>opinion_mining</tag>
          
         <tag>time_series</tag>
          
         <tag>finance</tag>
-         
-        <tag>mathjax</tag>
          
          
            
@@ -476,9 +476,9 @@
         <title>virtualenv+tensorflow初体验</title>
         <pubTime>2017-10-12T16:00:00.000Z</pubTime>
         
-        <tag>deep_learning</tag>
-         
         <tag>machine_learning</tag>
+         
+        <tag>deep_learning</tag>
          
         <tag>python</tag>
          
@@ -548,9 +548,9 @@
          
         <tag>image</tag>
          
-        <tag>opinion_mining</tag>
-         
         <tag>mathjax</tag>
+         
+        <tag>opinion_mining</tag>
          
         <tag>feature_engineering</tag>
          
@@ -666,8 +666,6 @@
          
         <tag>r_language</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
@@ -679,6 +677,8 @@
         <tag>python</tag>
          
         <tag>mathematica</tag>
+         
+        <tag>mathjax</tag>
          
          
            
@@ -849,9 +849,9 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>tutorial</tag>
-         
         <tag>hexo</tag>
+         
+        <tag>tutorial</tag>
          
         <tag>github</tag>
          
