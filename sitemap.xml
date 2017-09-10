@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://blog.baoduge.com/Hexo/</loc>
+    
+    <lastmod>2017-09-10T10:13:59.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.baoduge.com/UG_Notes1/</loc>
+    
+    <lastmod>2017-09-10T09:44:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.baoduge.com/about/index.html</loc>
+    
+    <lastmod>2017-09-08T16:34:34.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.baoduge.com/categories/index.html</loc>
+    
+    <lastmod>2017-09-08T16:25:47.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.baoduge.com/tags/index.html</loc>
+    
+    <lastmod>2017-09-08T16:25:06.000Z</lastmod>
+    
+  </url>
+  
+</urlset>
