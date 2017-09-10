@@ -279,6 +279,327 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://blog.baoduge.com/SublimeText3+LaTex/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="BDG飽蠹閣">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://baoduge.com/wp-content/uploads/2017/03/Logo_Final-1-e1489991278245.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="NEVERLAND">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/SublimeText3+LaTex/" itemprop="url">Untitled</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-09-10T20:49:25+08:00">
+                2017-09-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/SublimeText3+LaTex/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="SublimeText3+LaTex/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/SublimeText3+LaTex/" class="leancloud_visitors" data-flag-title="">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">Visitors&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body han-init-context" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>出于工作的需要，我们经常需要使用LaTex来写学术论文或者Slides，网上有很多推荐的LaTex专用软件，但是对于使用MAC+Sublime Text习惯了的人，想尝试如何在这样的环境下流畅使用LaTex，下面就是我尝试后的小小心得。</p>
+<h2 id="Preparation"><a href="#Preparation" class="headerlink" title="Preparation"></a>Preparation</h2><ol>
+<li>检查操作系统：OS X EI Capitan Version 10.11.6;</li>
+<li>检查电脑剩余空间；（因为如果你还没有安装MacTex的话，你需要至少4G的空间）</li>
+</ol>
+<p>因为本人电脑为OS操作系统，所以针对Windows/Linux系统，本文并不是很实用。</p>
+<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><h3 id="是否安装了MacTex"><a href="#是否安装了MacTex" class="headerlink" title="是否安装了MacTex"></a>是否安装了<a href="http://www.tug.org/mactex/" target="_blank" rel="external">MacTex</a></h3><ol>
+<li>如果你已经安装了<a href="http://www.tug.org/mactex/" target="_blank" rel="external">MacTex</a>，请到<code>/usr/local/texlive/</code>文件夹里（可以Finder中按<code>Shift+option+G</code>打开<em>Go to the Folder</em>,输入<code>/usr/local/texlive/</code>）检查MacTex的版本。我的MacTex版本是<em>MacText2017</em>。</li>
+<li>如果你想更新MacTex的版本，建议你按照<a href="http://www.tug.org/mactex/uninstalling.html" target="_blank" rel="external">此说明</a>卸载旧版本的MacTex，然后按照下面的步骤按照新版本的MacTex。</li>
+<li>如果你没有安装MacTex，可以去<a href="http://www.tug.org/mactex/" target="_blank" rel="external">MaxTex官网</a>按照<a href="http://www.tug.org/mactex/mactex-download.html" target="_blank" rel="external">官方说明</a>进行安装。</li>
+</ol>
+<h3 id="是否安装了Sublime-Text-3"><a href="#是否安装了Sublime-Text-3" class="headerlink" title="是否安装了Sublime Text 3"></a>是否安装了<a href="https://www.sublimetext.com/3" target="_blank" rel="external">Sublime Text 3</a></h3><ol>
+<li>如果你已经安装了Sublime Text 3（以下简称ST3），可以直接跳至下一步。</li>
+<li>如果你没有安装ST3，请至<a href="https://www.sublimetext.com/3" target="_blank" rel="external">ST3官网</a>按照官方说明进行安装。</li>
+<li>本文针对<a href="https://www.sublimetext.com/2" target="_blank" rel="external">Sublime Text 2</a>可能并不非常实用。</li>
+</ol>
+<h3 id="是否安装了Skim"><a href="#是否安装了Skim" class="headerlink" title="是否安装了Skim"></a>是否安装了<a href="http://skim-app.sourceforge.net/" target="_blank" rel="external">Skim</a></h3><ol>
+<li>检查是否已经安装软件<a href="http://skim-app.sourceforge.net/" target="_blank" rel="external">Skim</a>。你可以到<a href="https://sourceforge.net/projects/skim-app/files/Skim/Skim-1.4.29/Skim-1.4.29.dmg/download" target="_blank" rel="external">Skim官网</a>下载安装。</li>
+<li>安装完成后：</li>
+</ol>
+<ul>
+<li>打开Skim</li>
+<li>选择<code>Skim-&gt;Preference-&gt;Sync</code></li>
+<li>在<code>PDF-Tex Sync support-&gt;Preset</code>中选择<code>Sublime Text</code></li>
+</ul>
+<h3 id="ST3中是否安装了Package-Control"><a href="#ST3中是否安装了Package-Control" class="headerlink" title="ST3中是否安装了Package Control"></a>ST3中是否安装了<a href="https://packagecontrol.io/" target="_blank" rel="external">Package Control</a></h3><ol>
+<li><p>检查Sublime Text 3中是否已经安装了<em>Package Control</em>: 快捷键<code>Shift+Command+P</code>，看看是否会跳出面板；</p>
+</li>
+<li><p>如果你没有安装，可以按照<a href="https://packagecontrol.io/installation" target="_blank" rel="external">官网说明</a>进行安装。</p>
+</li>
+</ol>
+<h3 id="安装ST3-Package-LatexTools"><a href="#安装ST3-Package-LatexTools" class="headerlink" title="安装ST3 Package: LatexTools"></a>安装<a href="https://github.com/SublimeText/LaTeXTools" target="_blank" rel="external">ST3 Package: LatexTools</a></h3><ol>
+<li>快捷键<code>Shift+Command+P</code>打开Packge Control面板；</li>
+<li>输入<em>pi</em>,选择“Package Control:Install Package”；</li>
+<li>输入“LatexTools”，选择，安装</li>
+<li><code>Control+~</code>打开<em>Console</em>检查Package的安装情况。如果最后跳出<code>Package Control Messages</code>，Console中显示<code>reloading settings Packages/User/Preferences.sublime-settings</code>语句，则表示LatexTools安装成功。</li>
+</ol>
+<h3 id="支持中文"><a href="#支持中文" class="headerlink" title="支持中文"></a>支持中文</h3><p>打开Terminal，输入</p>
+<pre><code>➜  ~ sudo tlmgr update --self
+➜  ~ sudo tlmgr install latexmk
+</code></pre><p><a href="https://www.tug.org/texlive/tlmgr.html" target="_blank" rel="external">tlmgr</a>是TeX Live的package manager，<a href="http://mg.readthedocs.io/latexmk.html" target="_blank" rel="external">Latexmk</a>是LaTeX自动编译工具。</p>
+<p>如果你之前并没有修改过User Setting的话，在ST3的<code>Sublime Text-&gt;Preference-&gt;Package Settings-&gt;LatexTools-&gt;Settings-User</code>中，找到<code>builder_settings</code>代码块如下（<code>Ctrl+F</code>打开查找，输入“builder_settings”）：</p>
+<pre><code>&quot;builder_settings&quot; : {
+        // General settings:
+        // See README or third-party documentation
+        // (built-ins): true shows the log of each command in the output panel
+        &quot;display_log&quot; : false,
+        // Platform-specific settings:
+        &quot;osx&quot; : {
+            // See README or third-party documentation
+        },
+        &quot;windows&quot; : {
+            // See README or third-party documentation
+        },
+        &quot;linux&quot; : {
+            // See README or third-party documentation
+        }
+    },
+</code></pre><p>在</p>
+<pre><code>// General settings:
+// See README or third-party documentation
+</code></pre><p>后加入</p>
+<pre><code>&quot;program&quot; : &quot;xelatex&quot;,
+&quot;command&quot; : [&quot;latexmk&quot;, &quot;-cd&quot;, &quot;-e&quot;, &quot;$pdflatex = &#39;xelatex -interaction=nonstopmode -synctex=1 %S %O&#39;&quot;, &quot;-f&quot;, &quot;-pdf&quot;],
+</code></pre><p>当然，你也可以通过在每次的<code>.tex</code>文件首列加入语句</p>
+<pre><code>%!TEX program = xelatex
+</code></pre><p>进行解决。</p>
+<p><a href="https://www.zhihu.com/question/23658979" target="_blank" rel="external">有没有简单的 LaTeX 中文支持方案？</a></p>
+<p><a href="http://www.readern.com/sublime-text-latex-chinese-under-mac.html" target="_blank" rel="external">部署MAC上的Sublime Text+LaTex中文环境——201706更新</a></p>
+<h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h3><p>粘贴复制以下内容，保存为<code>.tex</code>格式文件：</p>
+<pre><code>\documentclass{article}
+\usepackage{fontspec, xunicode, xltxtra}
+\setmainfont{Hiragino Sans GB}
+\title{Title}
+\author{}
+\begin{document}
+\maketitle{}
+\section{Introduction}
+This is where you will write your content. 在这里写上内容。
+\end{document}
+</code></pre><p>快捷键<code>Command+B</code>，进行编译，如果没有问题，Skim会自动跳出预览窗口。</p>
+<h3 id="PDF页面进行修改"><a href="#PDF页面进行修改" class="headerlink" title="PDF页面进行修改"></a>PDF页面进行修改</h3><ol>
+<li>在 Skim 窗口中，按下<code>Cammand+Shift</code>;</li>
+<li>在需要的位置按下触摸板，即可跳转回ST3到对应的代码位置</li>
+</ol>
+<h3 id="安装中遇到的问题"><a href="#安装中遇到的问题" class="headerlink" title="安装中遇到的问题"></a>安装中遇到的问题</h3><h4 id="Problem-1"><a href="#Problem-1" class="headerlink" title="Problem 1"></a>Problem 1</h4><blockquote>
+<p>Package Control: The dependency ‘python-jinja2’ is not currently installed; installing…</p>
+<p>Error loading scope:source.tsx: Unable to find syntax file for scope source.tsx in Packages/MarkdownEditing/Markdown.tmLanguage</p>
+</blockquote>
+<p>检查一下自己python的版本：</p>
+<pre><code>➜  ~ python --V
+Python 2.7.10
+</code></pre><p>检查一下自己安装的Python Package:</p>
+<pre><code>➜  ~ pip freeze
+altgraph==0.10.2
+bdist-mpkg==0.5.0
+bonjour-py==0.3
+cvxopt==1.1.8
+Jinja2==2.9.6
+macholib==1.5.1
+MarkupSafe==1.0
+matplotlib==1.3.1
+modulegraph==0.10.4
+numpy==1.8.0rc1
+pandas==0.18.1
+py2app==0.7.3
+pyobjc-core==2.5.1
+pyobjc-framework-Accounts==2.5.1
+pyobjc-framework-AddressBook==2.5.1
+pyobjc-framework-AppleScriptKit==2.5.1
+pyobjc-framework-AppleScriptObjC==2.5.1
+pyobjc-framework-Automator==2.5.1
+pyobjc-framework-CFNetwork==2.5.1
+pyobjc-framework-Cocoa==2.5.1
+pyobjc-framework-Collaboration==2.5.1
+pyobjc-framework-CoreData==2.5.1
+pyobjc-framework-CoreLocation==2.5.1
+pyobjc-framework-CoreText==2.5.1
+pyobjc-framework-DictionaryServices==2.5.1
+pyobjc-framework-EventKit==2.5.1
+pyobjc-framework-ExceptionHandling==2.5.1
+pyobjc-framework-FSEvents==2.5.1
+pyobjc-framework-InputMethodKit==2.5.1
+pyobjc-framework-InstallerPlugins==2.5.1
+pyobjc-framework-InstantMessage==2.5.1
+pyobjc-framework-LatentSemanticMapping==2.5.1
+pyobjc-framework-LaunchServices==2.5.1
+pyobjc-framework-Message==2.5.1
+pyobjc-framework-OpenDirectory==2.5.1
+pyobjc-framework-PreferencePanes==2.5.1
+pyobjc-framework-PubSub==2.5.1
+pyobjc-framework-QTKit==2.5.1
+pyobjc-framework-Quartz==2.5.1
+pyobjc-framework-ScreenSaver==2.5.1
+pyobjc-framework-ScriptingBridge==2.5.1
+pyobjc-framework-SearchKit==2.5.1
+pyobjc-framework-ServiceManagement==2.5.1
+pyobjc-framework-Social==2.5.1
+pyobjc-framework-SyncServices==2.5.1
+pyobjc-framework-SystemConfiguration==2.5.1
+pyobjc-framework-WebKit==2.5.1
+pyOpenSSL==0.13.1
+pyparsing==2.0.1
+python-dateutil==1.5
+pytz==2013.7
+requests==2.9.1
+scikit-learn==0.17.1
+scipy==0.13.0b1
+six==1.4.1
+sklearn==0.0
+vboxapi==1.0
+virtualenv==15.0.1
+xattr==0.6.4
+zope.interface==4.1.1
+You are using pip version 8.1.2, however version 9.0.1 is available.
+You should consider upgrading via the &#39;pip install --upgrade pip&#39; command.
+</code></pre><p>发现我没有jinjia2,安装<a href="http://docs.jinkan.org/docs/jinja2/intro.html#id3" target="_blank" rel="external">Jinja2 2.7 documentation</a>安装：</p>
+<pre><code>➜  ~ sudo easy_install Jinja2
+Password:
+</code></pre><h4 id="Problem-2"><a href="#Problem-2" class="headerlink" title="Problem 2"></a>Problem 2</h4><p>在测试环节，ST3 Console一直会显示：</p>
+<pre><code>  File &quot;/Users/huwei/Desktop/test.tex&quot;, line 1
+%!TEX program = xelatex
+^
+SyntaxError: invalid syntax
+</code></pre><p>或者</p>
+<pre><code>\documentclass{article}
+                       ^
+SyntaxError: unexpected character after line continuation character
+</code></pre><p>在网上查了很久也没有和我类似的问题，最后终于在<a href="https://forum.sublimetext.com/t/weird-compile-error-with-latex-tools-plugin/4346" target="_blank" rel="external">Weird compile error with Latex Tools plugin</a>找到了答案。</p>
+<p>原来因为我之前一直使用ST3编写Python，<code>Tools-&gt;Build System</code>已经被我设置成了<code>Python</code>，我们应该将其设置成<code>Automatic</code>才行。</p>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ol>
+<li><a href="http://www.jiantsou.com/using-latex-on-mac-a-simple-guide/" target="_blank" rel="external">在Mac上使用LaTeX，一份简单的指导</a></li>
+<li><a href="http://johnchancfz.github.io/blog/2014/08/10/Using-LaTeX-with-Sublime-and-Skim-for-Mac.html" target="_blank" rel="external">在Mac上通过Sublime、Skim编辑LaTeX</a></li>
+<li><a href="http://tonghuashuo.github.io/blog/latex-with-sublime-text.html" target="_blank" rel="external">使用Sublime Text编写LaTeX</a></li>
+<li><a href="https://github.com/SublimeText/LaTeXTools/blob/master/README.markdown" target="_blank" rel="external">LateXTools: A LaTeX Plugin for Sublime Text 2 and 3</a></li>
+</ol>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    <div>
+    
+    </div>
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://blog.baoduge.com/UG_Notes1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -538,18 +859,26 @@
       
         
           
-            <h2 id="MAC上搭建Hexo-Blog"><a href="#MAC上搭建Hexo-Blog" class="headerlink" title="MAC上搭建Hexo Blog"></a>MAC上搭建Hexo Blog</h2><p><a href="http://www.jianshu.com/p/fd878edb95e7" target="_blank" rel="external">MAC 上 github + hexo 搭建博客教程</a><br><a href="https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">手把手教你使用Hexo + Github Pages搭建个人独立博客</a><br><a href="https://xuanwo.org/2015/03/26/hexo-intor/" target="_blank" rel="external">史上最详细的Hexo博客搭建图文教程</a></p>
+            <p>因为静态网页的简洁和迅速，在已经搭了个WordPress网页的情形下，我还是忍不住手痒，最近又尝试搭了一个Hexo的网页。本网站就是最后的成果</p>
+<h2 id="MAC上搭建Hexo-Blog"><a href="#MAC上搭建Hexo-Blog" class="headerlink" title="MAC上搭建Hexo Blog"></a>MAC上搭建Hexo Blog</h2><p><a href="http://www.jianshu.com/p/fd878edb95e7" target="_blank" rel="external">MAC 上 github + hexo 搭建博客教程</a><br><a href="https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">手把手教你使用Hexo + Github Pages搭建个人独立博客</a><br><a href="https://xuanwo.org/2015/03/26/hexo-intor/" target="_blank" rel="external">史上最详细的Hexo博客搭建图文教程</a></p>
 <p><a href="http://jeasonstudio.github.io/2016/05/26/Mac%E4%B8%8A%E6%90%AD%E5%BB%BA%E5%9F%BA%E4%BA%8EGitHub-Page%E7%9A%84Hexo%E5%8D%9A%E5%AE%A2/" target="_blank" rel="external">Mac上搭建基于GitHub Page的Hexo博客</a>是一篇很赞的文章，但是值得注意的是”注意坑三”中的代码应该如下</p>
 <pre><code>$ npm install hexo-deploper-git --save
-</code></pre><h2 id="GitHub-Pages绑定二级域名"><a href="#GitHub-Pages绑定二级域名" class="headerlink" title="GitHub Pages绑定二级域名"></a>GitHub Pages绑定二级域名</h2><p><a href="https://segmentfault.com/a/1190000005775893" target="_blank" rel="external">Sementfault:GitHub Pages 绑定二级域名</a><br><a href="http://quantumman.me/blog/setting-up-a-domain-with-gitHub-pages.html" target="_blank" rel="external">GitHub Pages 绑定来自阿里云的域名</a><br><a href="https://www.zhihu.com/question/31377141" target="_blank" rel="external">知乎：github怎么绑定自己的域名？</a></p>
+</code></pre><h2 id="GitHub-Pages绑定二级域名"><a href="#GitHub-Pages绑定二级域名" class="headerlink" title="GitHub Pages绑定二级域名"></a>GitHub Pages绑定二级域名</h2><p>因为我已经在GoDaddy购买了域名，所以我想把Github+Hexo的网站绑定到baoduge.com的二级域名商，就叫它blog.baoduge.com好了。</p>
+<p><a href="https://segmentfault.com/a/1190000005775893" target="_blank" rel="external">Sementfault:GitHub Pages 绑定二级域名</a><br><a href="http://quantumman.me/blog/setting-up-a-domain-with-gitHub-pages.html" target="_blank" rel="external">GitHub Pages 绑定来自阿里云的域名</a><br><a href="https://www.zhihu.com/question/31377141" target="_blank" rel="external">知乎：github怎么绑定自己的域名？</a></p>
 <p><a href="https://sg.godaddy.com/zh/help/ip-4080" target="_blank" rel="external">godaddy:添加指向一个 IP 地址的子域名</a></p>
-<h2 id="Github教程"><a href="#Github教程" class="headerlink" title="Github教程"></a>Github教程</h2><p><a href="http://wiki.jikexueyuan.com/project/github-basics/github-for-mac.html" target="_blank" rel="external">GitHub for Mac</a><br><a href="http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners" target="_blank" rel="external">An Intro to Git and GitHub for Beginners (Tutorial)</a><br><a href="http://www.jianshu.com/p/d15aff38cd33" target="_blank" rel="external">mac上GitHub Desktop客户端的使用</a></p>
-<h2 id="Hexo-Markdown写作"><a href="#Hexo-Markdown写作" class="headerlink" title="Hexo+Markdown写作"></a>Hexo+Markdown写作</h2><p><a href="https://wizardforcel.gitbooks.io/markdown-simple-world/hexo-tutor-3.html" target="_blank" rel="external">Hexo 入门指南（三） - 文章 &amp; 草稿</a></p>
-<p>md文件写完后，放到<code>sourse/_posts/</code>文件夹里，然后terminal里<code>cd</code>到根目录，使用如下命令发布</p>
+<h2 id="Github教程"><a href="#Github教程" class="headerlink" title="Github教程"></a>Github教程</h2><p>要使用Github搭建网站，那么Github也可是开始加技能点了。</p>
+<p><a href="http://wiki.jikexueyuan.com/project/github-basics/github-for-mac.html" target="_blank" rel="external">GitHub for Mac</a><br><a href="http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners" target="_blank" rel="external">An Intro to Git and GitHub for Beginners (Tutorial)</a><br><a href="http://www.jianshu.com/p/d15aff38cd33" target="_blank" rel="external">mac上GitHub Desktop客户端的使用</a></p>
+<h2 id="Hexo-Markdown写作"><a href="#Hexo-Markdown写作" class="headerlink" title="Hexo+Markdown写作"></a>Hexo+Markdown写作</h2><p>Hexo吸引我的一个地方就是它支持Markdown。而后者是我最近一直在用的语言。</p>
+<p><a href="https://wizardforcel.gitbooks.io/markdown-simple-world/hexo-tutor-3.html" target="_blank" rel="external">Hexo 入门指南（三） - 文章 &amp; 草稿</a></p>
+<p><code>.md</code>文件写完后，放到<code>sourse/_posts/</code>文件夹里，然后terminal里<code>cd</code>到根目录，使用如下命令发布即可</p>
+<pre><code>$ hexo generate
+$ hexo deploy
+</code></pre><p>或者</p>
 <pre><code>$ hexo g
 $ hexo d
-</code></pre><p>十分方便！</p>
-<h2 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h2><p><a href="https://themebetter.com/wordpress-menu-blank.html" target="_blank" rel="external">WordPress菜单和自定义链接开启在新窗口打开</a><br><a href="https://zhiho.github.io/2015/09/29/hexo-next/" target="_blank" rel="external">Hexo搭建GitHub博客（三）- NexT主题配置使用</a><br><a href="http://www.jianshu.com/p/c4f65ebe23ad" target="_blank" rel="external">为Hexo博客加入Disqus评论</a><br><a href="http://www.cylong.com/blog/2017/03/26/hexo-next-disqus/" target="_blank" rel="external">Hexo 集成 Disqus 评论</a><br><a href="http://hongyitong.github.io/2016/10/24/%E5%A6%82%E4%BD%95%E5%9C%A8Hexo%E4%B8%AD%E4%BD%BF%E7%94%A8MathJax/" target="_blank" rel="external">如何在Hexo中使用MathJax</a><br><a href="http://www.jianshu.com/p/702a7aec4d00" target="_blank" rel="external">Hexo搭建博客系列：（五）Hexo添加不蒜子和LeanCloud统计无标题文章</a><br><a href="http://2wildkids.com/2016/10/06/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86Hexo%E5%92%8CMathJax%E7%9A%84%E5%85%BC%E5%AE%B9%E9%97%AE%E9%A2%98/" target="_blank" rel="external">如何处理Hexo和MathJax的兼容问题</a></p>
+</code></pre><p>十分方便，so easy！</p>
+<h2 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h2><p>当然在网站搭建的过程中，还是会遇到方方面面的问题。我想下面的资料可能会帮到大家。</p>
+<p><a href="https://themebetter.com/wordpress-menu-blank.html" target="_blank" rel="external">WordPress菜单和自定义链接开启在新窗口打开</a><br><a href="https://zhiho.github.io/2015/09/29/hexo-next/" target="_blank" rel="external">Hexo搭建GitHub博客（三）- NexT主题配置使用</a><br><a href="http://www.jianshu.com/p/c4f65ebe23ad" target="_blank" rel="external">为Hexo博客加入Disqus评论</a><br><a href="http://www.cylong.com/blog/2017/03/26/hexo-next-disqus/" target="_blank" rel="external">Hexo 集成 Disqus 评论</a><br><a href="http://hongyitong.github.io/2016/10/24/%E5%A6%82%E4%BD%95%E5%9C%A8Hexo%E4%B8%AD%E4%BD%BF%E7%94%A8MathJax/" target="_blank" rel="external">如何在Hexo中使用MathJax</a><br><a href="http://www.jianshu.com/p/702a7aec4d00" target="_blank" rel="external">Hexo搭建博客系列：（五）Hexo添加不蒜子和LeanCloud统计无标题文章</a><br><a href="http://2wildkids.com/2016/10/06/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86Hexo%E5%92%8CMathJax%E7%9A%84%E5%85%BC%E5%AE%B9%E9%97%AE%E9%A2%98/" target="_blank" rel="external">如何处理Hexo和MathJax的兼容问题</a></p>
 
           
         
@@ -638,7 +967,7 @@ $ hexo d
             
               <a href="/archives">
             
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">posts</span>
               </a>
             </div>
