@@ -17,18 +17,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[R语言的科学计算]]></title>
-    <url>%2FR_science_computing%2F</url>
-    <content type="text"><![CDATA[求解非线性方程组R语言非线性方程组求解dfsane,nleqslv请教：R语言有没有求解非线性方程组的函数！用R语言求解非线性方程Package ‘nleqslv’BB: An R Package for Solving a Large System of Nonlinear Equations and for Optimizing a High-Dimensional Nonlinear Objective Function How to solve a non-linear equation using nleqslv package in R?Solving system of nonlinear equations in R]]></content>
-      <categories>
-        <category>logs</category>
-      </categories>
-      <tags>
-        <tag>r_language</tag>
-        <tag>science_computing</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[Logs and Questions]]></title>
     <url>%2F2017_Logs_Questions%2F</url>
     <content type="text"><![CDATA[2017.7.7 What is Technology-Organization-Environment (T-O-E) Framework? What is Diffusion of Innovation (DOI) Theory? What is Feauture selection? Review Logistic Regression and OLS Reg Robostic Test? decision making virtualenv vs anaconda? Some useful linksPython—Virtualenv简明教程Python指南：虚拟环境Anacodna之conda与 virtualenv对比使用教程，创建虚拟环境 2017.7.9 Manipulate: Interactive Parametrized Plotting 【转】MATLAB GUI 入门教程 [MATLAB GUI] 最全的MATLAB Gui 教程合集 MATLAB App Designer教程连载1：如何使用App Designer进行的简单的GUI设计 2017.7.10 Make a circle illusion animation 做一个圆幻幻动画 知乎：Mathematica 到底有多厉害？ 2017.7.13 代码实现WordPress归档页面模板[速度很快] WordPress添加文章归档页面 2017.7,17 Mac键盘如何开启F1 - F12功能键 Mac快捷键大全 Does anyone know how to run selection on mac? Google大陆替代 matlab 字符串中输入单引号 how to break a long legend text into two lines Why do figures exported using the SAVEAS function and the File-&gt;Save As menu item have different resolutions and file sizes? 2017.7.21 Quantitative vs. Qualitative? What is Decision Suport System? 2017.7.31 Problem Solving with Algorithms and Data Structures using Python 知乎：有哪些用 Python 语言讲算法和数据结构的书？ Introduction to Algorithms Computational Physics, 2nd Edition Computational Physics with Python 2017.8.1 知乎：「劣后」是个什么概念？经常用于什么场景？ 房地产投资信托 信托与基金有何区别？ 2017.9.9 股票JR率? Document analysis Automatic summarization Text simplification Sentiment analysis LDA PRSL keyword Labeled LDA, Supervised ML Topic Model Topic trend: Trendsmap: Real-time Twitter Trending Topics Python textblob Domain-centric LDA Text mining Data streaming techniques? User analysis 2017.9.11 Overleaf How can I make a slide with Latex Fun with Beamer First Beamer Presentation with LaTeX and Sublime Text 2 3 Easy Steps to Digitize Your Study Notes SELF IMPROVEMENT:A Quick &amp; Dirty Guide to Perfect Digital Note-Taking Atom vs sublime? Jekyll vs Hexo? How Writing A Science Blog Saved My PhD The Top 9 Business Intelligence Blogs You Should Be Reading]]></content>
@@ -38,6 +26,18 @@
       <tags>
         <tag>study</tag>
         <tag>research</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[R语言的科学计算]]></title>
+    <url>%2FR_science_computing%2F</url>
+    <content type="text"><![CDATA[求解非线性方程组R语言非线性方程组求解dfsane,nleqslv请教：R语言有没有求解非线性方程组的函数！用R语言求解非线性方程Package ‘nleqslv’BB: An R Package for Solving a Large System of Nonlinear Equations and for Optimizing a High-Dimensional Nonlinear Objective Function How to solve a non-linear equation using nleqslv package in R?Solving system of nonlinear equations in R]]></content>
+      <categories>
+        <category>logs</category>
+      </categories>
+      <tags>
+        <tag>r_language</tag>
+        <tag>science_computing</tag>
       </tags>
   </entry>
   <entry>
@@ -70,9 +70,22 @@
         <category>notes</category>
       </categories>
       <tags>
+        <tag>tutorial</tag>
         <tag>latex</tag>
         <tag>sublime_text3</tag>
         <tag>skim</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[我在Github上搭建Hexo博客]]></title>
+    <url>%2FHexo%2F</url>
+    <content type="text"><![CDATA[因为静态网页的简洁和迅速，在已经搭了个WordPress网页的情形下，我还是忍不住手痒，最近又尝试搭了一个Hexo的网页。本网站就是最后的成果 MAC上搭建Hexo BlogMAC 上 github + hexo 搭建博客教程手把手教你使用Hexo + Github Pages搭建个人独立博客史上最详细的Hexo博客搭建图文教程 Mac上搭建基于GitHub Page的Hexo博客是一篇很赞的文章，但是值得注意的是”注意坑三”中的代码应该如下 $ npm install hexo-deploper-git --save GitHub Pages绑定二级域名因为我已经在GoDaddy购买了域名，所以我想把Github+Hexo的网站绑定到baoduge.com的二级域名商，就叫它blog.baoduge.com好了。 Sementfault:GitHub Pages 绑定二级域名GitHub Pages 绑定来自阿里云的域名知乎：github怎么绑定自己的域名？ godaddy:添加指向一个 IP 地址的子域名 Github教程要使用Github搭建网站，那么Github也可是开始加技能点了。 GitHub for MacAn Intro to Git and GitHub for Beginners (Tutorial)mac上GitHub Desktop客户端的使用 Hexo+Markdown写作Hexo吸引我的一个地方就是它支持Markdown。而后者是我最近一直在用的语言。 Hexo 入门指南（三） - 文章 &amp; 草稿 .md文件写完后，放到sourse/_posts/文件夹里，然后terminal里cd到根目录，使用如下命令发布即可 $ hexo generate $ hexo deploy 或者 $ hexo g $ hexo d 十分方便，so easy！ Others当然在网站搭建的过程中，还是会遇到方方面面的问题。我想下面的资料可能会帮到大家。 WordPress菜单和自定义链接开启在新窗口打开Hexo搭建GitHub博客（三）- NexT主题配置使用为Hexo博客加入Disqus评论Hexo 集成 Disqus 评论如何在Hexo中使用MathJaxHexo搭建博客系列：（五）Hexo添加不蒜子和LeanCloud统计无标题文章如何处理Hexo和MathJax的兼容问题]]></content>
+      <categories>
+        <category>notes</category>
+      </categories>
+      <tags>
+        <tag>github</tag>
+        <tag>hexo</tag>
         <tag>tutorial</tag>
       </tags>
   </entry>
@@ -89,24 +102,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[我在Github上搭建Hexo博客]]></title>
-    <url>%2FHexo%2F</url>
-    <content type="text"><![CDATA[因为静态网页的简洁和迅速，在已经搭了个WordPress网页的情形下，我还是忍不住手痒，最近又尝试搭了一个Hexo的网页。本网站就是最后的成果 MAC上搭建Hexo BlogMAC 上 github + hexo 搭建博客教程手把手教你使用Hexo + Github Pages搭建个人独立博客史上最详细的Hexo博客搭建图文教程 Mac上搭建基于GitHub Page的Hexo博客是一篇很赞的文章，但是值得注意的是”注意坑三”中的代码应该如下 $ npm install hexo-deploper-git --save GitHub Pages绑定二级域名因为我已经在GoDaddy购买了域名，所以我想把Github+Hexo的网站绑定到baoduge.com的二级域名商，就叫它blog.baoduge.com好了。 Sementfault:GitHub Pages 绑定二级域名GitHub Pages 绑定来自阿里云的域名知乎：github怎么绑定自己的域名？ godaddy:添加指向一个 IP 地址的子域名 Github教程要使用Github搭建网站，那么Github也可是开始加技能点了。 GitHub for MacAn Intro to Git and GitHub for Beginners (Tutorial)mac上GitHub Desktop客户端的使用 Hexo+Markdown写作Hexo吸引我的一个地方就是它支持Markdown。而后者是我最近一直在用的语言。 Hexo 入门指南（三） - 文章 &amp; 草稿 .md文件写完后，放到sourse/_posts/文件夹里，然后terminal里cd到根目录，使用如下命令发布即可 $ hexo generate $ hexo deploy 或者 $ hexo g $ hexo d 十分方便，so easy！ Others当然在网站搭建的过程中，还是会遇到方方面面的问题。我想下面的资料可能会帮到大家。 WordPress菜单和自定义链接开启在新窗口打开Hexo搭建GitHub博客（三）- NexT主题配置使用为Hexo博客加入Disqus评论Hexo 集成 Disqus 评论如何在Hexo中使用MathJaxHexo搭建博客系列：（五）Hexo添加不蒜子和LeanCloud统计无标题文章如何处理Hexo和MathJax的兼容问题]]></content>
-      <categories>
-        <category>notes</category>
-      </categories>
-      <tags>
-        <tag>github</tag>
-        <tag>tutorial</tag>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[All Categories]]></title>
-    <url>%2Fcategories%2Findex.html</url>
-    <content type="text"></content>
-  </entry>
-  <entry>
     <title><![CDATA[All Tags]]></title>
     <url>%2Ftags%2Findex.html</url>
     <content type="text"></content>
@@ -115,5 +110,10 @@
     <title><![CDATA[about]]></title>
     <url>%2Fabout%2Findex.html</url>
     <content type="text"><![CDATA[About MeAbout Me]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[All Categories]]></title>
+    <url>%2Fcategories%2Findex.html</url>
+    <content type="text"></content>
   </entry>
 </search>
