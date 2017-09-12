@@ -70,10 +70,10 @@
         <category>notes</category>
       </categories>
       <tags>
-        <tag>tutorial</tag>
         <tag>latex</tag>
         <tag>sublime_text3</tag>
         <tag>skim</tag>
+        <tag>tutorial</tag>
       </tags>
   </entry>
   <entry>
@@ -85,8 +85,8 @@
       </categories>
       <tags>
         <tag>github</tag>
-        <tag>hexo</tag>
         <tag>tutorial</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -107,13 +107,13 @@
     <content type="text"></content>
   </entry>
   <entry>
+    <title><![CDATA[All Categories]]></title>
+    <url>%2Fcategories%2Findex.html</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[about]]></title>
     <url>%2Fabout%2Findex.html</url>
     <content type="text"><![CDATA[About MeAbout Me]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[categories]]></title>
-    <url>%2Fcategories%2Findex.html</url>
-    <content type="text"></content>
   </entry>
 </search>

@@ -4,6 +4,7 @@
 
     
     
+    
   <url>
     <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
     <lastmod>2017-09-12T12:47:08.000Z</lastmod>
@@ -128,13 +129,13 @@
         <title>MAC上使用SUBLIME TEXT3编写LATEX</title>
         <pubTime>2017-09-09T16:00:00.000Z</pubTime>
         
-        <tag>tutorial</tag>
-         
         <tag>latex</tag>
          
         <tag>sublime_text3</tag>
          
         <tag>skim</tag>
+         
+        <tag>tutorial</tag>
          
          
            
@@ -156,9 +157,9 @@
         
         <tag>github</tag>
          
-        <tag>hexo</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>hexo</tag>
          
          
            
@@ -189,6 +190,5 @@
     </data>
     </url>
 
-    
     
 </urlset>
