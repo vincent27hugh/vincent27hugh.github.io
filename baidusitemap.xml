@@ -4,40 +4,8 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-09-12T15:24:21.000Z</lastmod>
-    <data>
-        <display>
-        <title>My Self-Study Plan</title>
-        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
-        
-        <tag>information_system</tag>
-         
-        <tag>study_plan</tag>
-         
-        <tag>statistics</tag>
-         
-        <tag>mathematics</tag>
-         
-        <tag>github</tag>
-         
-        <tag>materials</tag>
-         
-         
-           
-             
-              <breadCrumb title="notes" url="http://blog.baoduge.com/categories/notes/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-    
-  <url>
     <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
-    <lastmod>2017-09-12T12:47:08.000Z</lastmod>
+    <lastmod>2017-09-12T15:37:40.000Z</lastmod>
     <data>
         <display>
         <title>Logs and Questions</title>
@@ -56,6 +24,38 @@
     </data>
     </url>
 
+    
+  <url>
+    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
+    <lastmod>2017-09-12T15:24:21.000Z</lastmod>
+    <data>
+        <display>
+        <title>My Self-Study Plan</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>information_system</tag>
+         
+        <tag>github</tag>
+         
+        <tag>mathematics</tag>
+         
+        <tag>study_plan</tag>
+         
+        <tag>statistics</tag>
+         
+        <tag>materials</tag>
+         
+         
+           
+             
+              <breadCrumb title="notes" url="http://blog.baoduge.com/categories/notes/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
     
   <url>
     <loc>http://blog.baoduge.com/R_science_computing/</loc>
@@ -107,9 +107,9 @@
         <title>Undergraduate Notes 1</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>mathematics</tag>
-         
         <tag>physics</tag>
+         
+        <tag>mathematics</tag>
          
          
            
@@ -155,9 +155,9 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>github</tag>
-         
         <tag>hexo</tag>
+         
+        <tag>github</tag>
          
         <tag>tutorial</tag>
          
