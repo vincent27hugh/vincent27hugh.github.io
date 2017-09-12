@@ -4,8 +4,30 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/2017_Logs&Questions/</loc>
+    <lastmod>2017-09-12T12:47:08.000Z</lastmod>
+    <data>
+        <display>
+        <title>Logs and Questions</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>study</tag>
+         
+        <tag>research</tag>
+         
+         
+           
+             
+              <breadCrumb title="logs" url="http://blog.baoduge.com/categories/logs/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/2017%20Summer%20Plan/</loc>
-    <lastmod>2017-09-12T11:49:20.000Z</lastmod>
+    <lastmod>2017-09-12T12:09:42.000Z</lastmod>
     <data>
         <display>
         <title>My Self-Study Plan</title>
@@ -44,28 +66,6 @@
         <tag>r_language</tag>
          
         <tag>science_computing</tag>
-         
-         
-           
-             
-              <breadCrumb title="logs" url="http://blog.baoduge.com/categories/logs/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/2017_Logs&Questions/</loc>
-    <lastmod>2017-09-12T11:43:57.000Z</lastmod>
-    <data>
-        <display>
-        <title>Logs and Questions</title>
-        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
-        
-        <tag>study</tag>
-         
-        <tag>research</tag>
          
          
            
