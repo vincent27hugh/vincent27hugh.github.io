@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title><![CDATA[Logs and Questions]]></title>
+      <url>/2017_Logs_Questions/</url>
+      <content type="html"><![CDATA[<h3 id="2017-7-7"><a href="#2017-7-7" class="headerlink" title="2017.7.7"></a>2017.7.7</h3><ol>
+<li>What is Technology-Organization-Environment (T-O-E) Framework?</li>
+<li>What is Diffusion of Innovation (DOI) Theory?</li>
+<li>What is Feauture selection?</li>
+<li>Review Logistic Regression and OLS Reg</li>
+<li>Robostic Test?</li>
+<li>decision making</li>
+<li><del>virtualenv vs anaconda?</del></li>
+<li>Some useful links<br><a href="http://www.jianshu.com/p/08c657bd34f1" target="_blank" rel="external">Python—Virtualenv简明教程</a><br><a href="http://pythonguidecn.readthedocs.io/zh/latest/dev/virtualenvs.html" target="_blank" rel="external">Python指南：虚拟环境</a><br><a href="http://python.jobbole.com/85588/" target="_blank" rel="external">Anacodna之conda与 virtualenv对比使用教程，创建虚拟环境</a></li>
+</ol>
+<h3 id="2017-7-9"><a href="#2017-7-9" class="headerlink" title="2017.7.9"></a>2017.7.9</h3><ol>
+<li><a href="https://www.mathworks.com/MATLABcentral/fileexchange/36512-manipulate--interactive-parametrized-plotting" target="_blank" rel="external">Manipulate: Interactive Parametrized Plotting</a></li>
+<li><a href="http://blog.sina.com.cn/s/blog_63913ba60101329f.html" target="_blank" rel="external">【转】MATLAB GUI 入门教程</a></li>
+<li><a href="http://www.labfans.com/bbs/t17551/" target="_blank" rel="external">[MATLAB GUI] 最全的MATLAB Gui 教程合集</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/20821503" target="_blank" rel="external">MATLAB App Designer教程连载1：如何使用App Designer进行的简单的GUI设计</a></li>
+</ol>
+<h3 id="2017-7-10"><a href="#2017-7-10" class="headerlink" title="2017.7.10"></a>2017.7.10</h3><ol>
+<li><a href="https://codegolf.stackexchange.com/questions/34887/make-a-circle-illusion-animation?answertab=votes" target="_blank" rel="external">Make a circle illusion animation</a></li>
+<li><a href="https://gxnotes.com/article/16971.html" target="_blank" rel="external">做一个圆幻幻动画</a></li>
+<li><a href="https://www.zhihu.com/question/27834147" target="_blank" rel="external">知乎：Mathematica 到底有多厉害？</a></li>
+</ol>
+<h3 id="2017-7-13"><a href="#2017-7-13" class="headerlink" title="2017.7.13"></a>2017.7.13</h3><ol>
+<li><a href="https://zww.me/archives/25209" target="_blank" rel="external">代码实现WordPress归档页面模板[速度很快]</a></li>
+<li><a href="https://www.wpdaxue.com/wordpress-archives.html" target="_blank" rel="external">WordPress添加文章归档页面</a></li>
+</ol>
+<h3 id="2017-7-17"><a href="#2017-7-17" class="headerlink" title="2017.7,17"></a>2017.7,17</h3><ol>
+<li><a href="http://jingyan.baidu.com/article/84b4f565d9becc60f6da3298.html" target="_blank" rel="external">Mac键盘如何开启F1 - F12功能键</a></li>
+<li><a href="http://jingyan.baidu.com/article/08b6a591aac09614a909224f.html" target="_blank" rel="external">Mac快捷键大全</a></li>
+<li><a href="https://www.mathworks.com/matlabcentral/answers/273258-does-anyone-know-how-to-run-selection-on-mac" target="_blank" rel="external">Does anyone know how to run selection on mac?</a></li>
+<li><a href="https://guge4.firstguo.com/" target="_blank" rel="external">Google大陆替代</a></li>
+<li><a href="http://blog.csdn.net/woaixiangrikui/article/details/41808565" target="_blank" rel="external">matlab 字符串中输入单引号</a></li>
+<li><a href="https://cn.mathworks.com/matlabcentral/newsreader/view_thread/96715" target="_blank" rel="external">how to break a long legend text into two lines</a></li>
+<li><a href="https://www.mathworks.com/matlabcentral/answers/95198-why-do-figures-exported-using-the-saveas-function-and-the-file-save-as-menu-item-have-different-res" target="_blank" rel="external">Why do figures exported using the SAVEAS function and the File-&gt;Save As menu item have different resolutions and file sizes?</a></li>
+</ol>
+<h3 id="2017-7-21"><a href="#2017-7-21" class="headerlink" title="2017.7.21"></a>2017.7.21</h3><ol>
+<li><a href="https://www.snapsurveys.com/blog/qualitative-vs-quantitative-research/" target="_blank" rel="external">Quantitative vs. Qualitative?</a></li>
+<li>What is Decision Suport System?</li>
+</ol>
+<h3 id="2017-7-31"><a href="#2017-7-31" class="headerlink" title="2017.7.31"></a>2017.7.31</h3><ol>
+<li><a href="http://interactivepython.org/courselib/static/pythonds/index.html" target="_blank" rel="external">Problem Solving with Algorithms and Data Structures using Python</a></li>
+<li><a href="https://www.zhihu.com/question/19889750" target="_blank" rel="external">知乎：有哪些用 Python 语言讲算法和数据结构的书？</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Introduction_to_Algorithms" target="_blank" rel="external">Introduction to Algorithms</a></li>
+<li><a href="http://www.physics.purdue.edu/~hisao/book/" target="_blank" rel="external">Computational Physics, 2nd Edition</a></li>
+<li><a href="http://www-personal.umich.edu/~mejn/computational-physics/" target="_blank" rel="external">Computational Physics with Python</a></li>
+</ol>
+<h3 id="2017-8-1"><a href="#2017-8-1" class="headerlink" title="2017.8.1"></a>2017.8.1</h3><ol>
+<li><a href="https://www.zhihu.com/question/23274106" target="_blank" rel="external">知乎：「劣后」是个什么概念？经常用于什么场景？</a></li>
+<li><a href="http://www.jcdu.cn/baike-%E4%B8%8D%E5%8B%95%E7%94%A2%E6%8A%95%E8%B3%87%E4%BF%A1%E8%A8%97" target="_blank" rel="external">房地产投资信托</a></li>
+<li><a href="https://www.zhihu.com/question/20464550" target="_blank" rel="external">信托与基金有何区别？</a></li>
+</ol>
+<h3 id="2017-9-9"><a href="#2017-9-9" class="headerlink" title="2017.9.9"></a>2017.9.9</h3><ol>
+<li>股票JR率?</li>
+<li><a href="https://en.wikipedia.org/wiki/Documentary_analysis" target="_blank" rel="external">Document analysis</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Automatic_summarization" target="_blank" rel="external">Automatic summarization</a> </li>
+<li><a href="https://en.wikipedia.org/wiki/Text_simplification" target="_blank" rel="external">Text simplification</a></li>
+<li>Sentiment analysis</li>
+<li>LDA PRSL keyword</li>
+<li>Labeled LDA, Supervised ML</li>
+<li><a href="https://en.wikipedia.org/wiki/Topic_model" target="_blank" rel="external">Topic Model</a></li>
+<li>Topic trend: <a href="https://www.trendsmap.com/" target="_blank" rel="external">Trendsmap: Real-time Twitter Trending Topics</a></li>
+<li><a href="https://textblob.readthedocs.io/en/dev/" target="_blank" rel="external">Python textblob</a></li>
+<li>Domain-centric LDA</li>
+<li>Text mining</li>
+<li>Data streaming techniques?</li>
+<li>User analysis</li>
+</ol>
+<h3 id="2017-9-11"><a href="#2017-9-11" class="headerlink" title="2017.9.11"></a>2017.9.11</h3><ol>
+<li><a href="https://www.overleaf.com/latex/templates/presentation-template/ycwnkvzxyzwv#.WbWMp9gRWEd" target="_blank" rel="external">Overleaf</a></li>
+<li><a href="https://www.pctex.com/kb/64.html" target="_blank" rel="external">How can I make a slide with Latex</a></li>
+<li><a href="http://web.mit.edu/rsi/www/pdfs/beamer-tutorial.pdf" target="_blank" rel="external">Fun with Beamer</a></li>
+<li><a href="http://economistry.com/2013/07/first-beamer-presentation-with-latex-and-sublime-text-2/" target="_blank" rel="external">First Beamer Presentation with LaTeX and Sublime Text 2</a></li>
+<li><a href="http://www.developgoodhabits.com/digitize-study-notes/" target="_blank" rel="external">3 Easy Steps to Digitize Your Study Notes</a></li>
+<li><a href="http://www.makeuseof.com/tag/quick-dirty-guide-perfect-digital-note-taking/" target="_blank" rel="external">SELF IMPROVEMENT:A Quick &amp; Dirty Guide to Perfect Digital Note-Taking</a></li>
+<li>Atom vs sublime?</li>
+<li>Jekyll vs Hexo?</li>
+<li><a href="http://www.nextscientist.com/writing-science-blog-saved-phd/" target="_blank" rel="external">How Writing A Science Blog Saved My PhD</a></li>
+<li><a href="https://www.maptive.com/top-9-business-intelligence-blogs-reading-2/" target="_blank" rel="external">The Top 9 Business Intelligence Blogs You Should Be Reading</a></li>
+</ol>
+]]></content>
+      
+        <categories>
+            
+            <category> logs </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> study </tag>
+            
+            <tag> research </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[My Self-Study Plan]]></title>
+      <url>/2017_Summer_Plan/</url>
+      <content type="html"><![CDATA[<p>I hope that I could accomplish these goals on time. Good luck!</p>
+<h2 id="1-机器学习"><a href="#1-机器学习" class="headerlink" title="1. 机器学习"></a>1. 机器学习</h2><h3 id="Courses"><a href="#Courses" class="headerlink" title="Courses"></a>Courses</h3><h4 id="Main-stream"><a href="#Main-stream" class="headerlink" title="Main stream"></a>Main stream</h4><ul>
+<li>Basics:<a href="https://see.stanford.edu/Course/CS229/47" target="_blank" rel="external">CMU:CS229 Machine Learning by Andrew Ng</a></li>
+<li>NLP: <a href="http://cs224d.stanford.edu/syllabus.html" target="_blank" rel="external">CS224d: Deep Learning for Natural Language Processing</a></li>
+<li>Information Retrieval: <a href="https://nlp.stanford.edu/IR-book/" target="_blank" rel="external">Introduction to Information Retrieval</a></li>
+<li>Information Theory: <a href="http://videolectures.net/course_information_theory_pattern_recognition/" target="_blank" rel="external">Course on Information Theory, Pattern Recognition, and Neural Networks (David MacKay, University of Cambridge)</a></li>
+<li>知识管理</li>
+<li>社会计算、社会物理学、金融物理、金融数学</li>
+</ul>
+<h4 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h4><p><a href="http://cs109.github.io/2015/" target="_blank" rel="external">Harvard:CS109 Data Science</a><br><a href="https://www.willamette.edu/~gorr/classes/cs449/" target="_blank" rel="external">Materials of CS-449: Neural Networks (Willamette University)</a><br><a href="https://www.coursera.org/specializations/jhu-data-science" target="_blank" rel="external">Coursera:Data Science 专项课程</a><br><a href="http://www.stat.cmu.edu/~larry/=sml/" target="_blank" rel="external">CMU:Statistical Machine Learning</a><br><a href="http://fastml.com/machine-learning-courses-online/" target="_blank" rel="external">FastML: Machine Learning made easy</a><br><a href="http://videolectures.net/site/search/?q=MLSS" target="_blank" rel="external">Videolecture net：Machine learning</a><br><a href="http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/" target="_blank" rel="external">Dataschool:In-depth introduction to machine learning in 15 hours of expert videos</a><br><a href="https://www.coursereport.com/blog/learn-data-science-at-these-13-bootcamps-and-programs" target="_blank" rel="external">CourseReport: Learn Data Science at These 22 Bootcamps</a></p>
+<h3 id="Books"><a href="#Books" class="headerlink" title="Books"></a>Books</h3><ul>
+<li><a href="http://www-bcf.usc.edu/~gareth/ISL/index.html" target="_blank" rel="external">ISRL HOME</a></li>
+<li><a href="1.Machine Learning/ESL.pdf">Element</a></li>
+<li><a href="1.Machine Learning/ML in Py.pdf">ML in Python</a></li>
+<li>西瓜书<br><a href="http://blog.csdn.net/icefire_tyh/article/details/52064910" target="_blank" rel="external">机器学习(周志华西瓜书) 参考答案 总目录</a></li>
+<li>Deep Learning: <a href="http://www.deeplearningbook.org/" target="_blank" rel="external">Deep Learning:An MIT Press book</a></li>
+<li><a href="1.Machine Learning/PRML_Bishop.pdf">Bishop</a></li>
+<li><a href="1.Machine Learning/AI_Russell.pdf">AI by Ruseull</a></li>
+<li>推荐系统： <a href="https://book.douban.com/subject/10769749/" target="_blank" rel="external">推荐系统实践 by 项亮</a></li>
+<li><a href="http://www.cs.ubbcluj.ro/~gabis/DocDiplome/SistemeDeRecomandare/Recommender_systems_handbook.pdf" target="_blank" rel="external">Recommendation System Handbook</a></li>
+<li><p>自然语言处理： <a href="https://book.douban.com/subject/25746399/" target="_blank" rel="external">统计自然语言处理（第2版）by 宗成庆</a></p>
+</li>
+<li><p><a href="https://www.gitbook.com/book/htygithub/machine-learning-python/details" target="_blank" rel="external">機器學習：使用Python</a></p>
+</li>
+</ul>
+<h3 id="Projects"><a href="#Projects" class="headerlink" title="Projects"></a>Projects</h3><p><a href="http://machinelearningmastery.com/" target="_blank" rel="external">Tutorials and Projects To Help You：Learn and Apply Machine Learning – Fast!</a><br><a href="http://www.thisismetis.com/" target="_blank" rel="external">Thisismetis: DATA SCIENCE TRAINING</a><br><a href="https://www.dataquest.io/" target="_blank" rel="external">DATAQUEST:Learn real-world data science skills</a></p>
+<h4 id="数据爬取工具"><a href="#数据爬取工具" class="headerlink" title="数据爬取工具"></a>数据爬取工具</h4><p>Python Scrapy<br><a href="https://scrapy.org" target="_blank" rel="external">下载地址</a>, <a href="http://www.jb51.net/article/48607.htm" target="_blank" rel="external">安装及使用步骤</a>, <a href="http://www.jb51.net/article/57183.htm" target="_blank" rel="external">操纵指南</a></p>
+<p>（2）NITK<br>自然语言处理的Python开源工具<br><a href="http://www.nltk.org" target="_blank" rel="external">相关工具包和教程可下载</a><a href="http://blog.csdn.net/huyoo/article/details/12188573" target="_blank" rel="external">中文使用介绍</a>, <a href="http://blog.csdn.net/huang2009303513/article/details/14498473" target="_blank" rel="external">有助于了解各个包的意思和作用的链接</a></p>
+<p><a href="https://github.com/egrcc/zhihu-python - zhihu-python获取知乎信息" target="_blank" rel="external">zhihu-python：获取知乎信息</a><br>介绍：zhihu-python 采用 Python2.7 编写，用来方便地获取知乎上各种内容的信息，并且可以方便地将答案备份导出为 txt 或 markdown 文件。由于知乎官方目前没有提供 api，所以有了此项目的存在。使用 Python3 的类似项目可以参见：zhihu-py3 。使用 PHP 的类似项目可以参见：zhihu-php 。使用 Go 的类似项目可以参见：zhihu-go 。</p>
+<h3 id="List-of-list"><a href="#List-of-list" class="headerlink" title="List of list"></a>List of list</h3><p><a href="http://videolectures.net/Top/Computer_Science/Machine_Learning/" target="_blank" rel="external">Machine Learning Category on VideoLectures.Net</a><br><a href="http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/" target="_blank" rel="external">A Tour of Machine Learning Algorithms</a><br><a href="http://ml.memect.com/article/machine-learning-guide.html" target="_blank" rel="external">机器学习入门资源不完全汇总（tang_Kaka_back@新浪微博）</a><br><a href="https://github.com/ty4z2008/Qix/blob/master/dl.md#机器学习machine-learning深度学习deep-learning资料chapter-1" target="_blank" rel="external">机器学习(Machine Learning)&amp;深度学习(Deep Learning)资料(Chapter 1)</a><br><a href="https://github.com/ty4z2008/Qix/blob/master/dl2.md" target="_blank" rel="external">机器学习(Machine Learning)&amp;深度学习(Deep Learning)资料(Chapter 2)</a></p>
+<h3 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h3><p><a href="http://www.open-open.com/lib/view/open1428112201271.html" target="_blank" rel="external">深度开源OPEN经验：机器学习(Machine Learning)&amp;深度学习(Deep Learning)资料</a><br><a href="http://www.cnblogs.com/mldllearningforbai/p/5316728.html" target="_blank" rel="external">[转]机器学习入门</a></p>
+<h3 id="Blog-amp-Website"><a href="#Blog-amp-Website" class="headerlink" title="Blog&amp;Website"></a>Blog&amp;Website</h3><h4 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h4><p><a href="http://www.cnblogs.com/mldllearningforbai/p/5351584.html" target="_blank" rel="external">[转]机器学习经典书籍</a><br><a href="http://www.liaoxuefeng.com/" target="_blank" rel="external">廖雪峰的官方网站</a><br><a href="http://xccds1977.blogspot.hk/" target="_blank" rel="external">数据科学中的R和Python</a><br><a href="http://www.cnblogs.com/siegfang/" target="_blank" rel="external">学飞 从坠落开始 博客</a><br><a href="https://cos.name/" target="_blank" rel="external">统计之都</a><br><a href="http://homepage.hit.edu.cn/pages/xitongguo" target="_blank" rel="external">哈工大电子健康研究所：郭熙铜</a></p>
+<p><a href="http://rec-sys.net/forum.php" target="_blank" rel="external">推荐系统论坛</a><br><a href="http://sim.whu.edu.cn/sz/jsxq/5/2016-05-09/898.html" target="_blank" rel="external">武汉大学信息管理学院：曾子明</a><br><a href="https://zhuanlan.zhihu.com/p/23036112" target="_blank" rel="external">推荐系统常用的推荐算法</a><br><a href="https://www.microsoft.com/en-us/research/group/social-computing-beijing/" target="_blank" rel="external">Microsoft-Social Computing (Asia)</a><br><a href="http://nlp.csai.tsinghua.edu.cn/site2/index.php/zh" target="_blank" rel="external">清华大学自然语言处理与社会人文计算实验室</a><br><a href="http://idke.ruc.edu.cn/index_cn.htm" target="_blank" rel="external">中国人民大学：网络与移动数据管理实验室</a></p>
+<h4 id="English"><a href="#English" class="headerlink" title="English"></a>English</h4><p><a href="http://dicook.org/index.html" target="_blank" rel="external">Professor Di Cook, Department of Econometrics and Business Statistics, Monash Uni</a><br><a href="https://www.r-bloggers.com/" target="_blank" rel="external">R-blogger</a>: R news and tutorials contributed by (580) R bloggers<br><a href="https://prdeepakbabu.wordpress.com/" target="_blank" rel="external">wordpress: -Nest generation BI</a></p>
+<p><a href="http://public.econ.duke.edu/~ap172/code.html" target="_blank" rel="external">Andrew Patton’s MATLAB code page</a>: This page contains some of the MATLAB code I’ve written during the course of my research. If you find any mistakes or bugs in the code please let me know.<br>This code is being released under a BSD license, which means that you can do pretty much what ever you want with it, including make money by selling it.</p>
+<p><a href="http://www.datatau.com/" target="_blank" rel="external">Datatau</a><br><a href="http://sebastianruder.com/ - open" target="_blank" rel="external">Blog of Sebastian Ruder</a>: I’m a PhD student in Natural Language Processing and a research scientist at AYLIEN. I blog about Machine Learning, Deep Learning, NLP, and startups.</p>
+<h2 id="2-统计-amp-R"><a href="#2-统计-amp-R" class="headerlink" title="2. 统计&amp;R"></a>2. 统计&amp;R</h2><h3 id="Books-1"><a href="#Books-1" class="headerlink" title="Books"></a>Books</h3><ul>
+<li>Element of SL: </li>
+<li>李航</li>
+<li><a href="Stat&amp;Prob/IPSUR.pdf">IPSUR</a></li>
+</ul>
+<h3 id="Courses-1"><a href="#Courses-1" class="headerlink" title="Courses"></a>Courses</h3><h2 id="3-复习数学相关"><a href="#3-复习数学相关" class="headerlink" title="3. 复习数学相关"></a>3. 复习数学相关</h2><h3 id="Courses-2"><a href="#Courses-2" class="headerlink" title="Courses"></a>Courses</h3><ul>
+<li>最优化: <a href="http://stanford.edu/class/ee364a/index.html" target="_blank" rel="external">Stanford:EE364a: Convex Optimization I</a></li>
+<li>Data structure and algorithms: <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/" target="_blank" rel="external">MIT:Introduction to Algorithms</a></li>
+</ul>
+<h3 id="Books-2"><a href="#Books-2" class="headerlink" title="Books"></a>Books</h3><h2 id="4-Information-System"><a href="#4-Information-System" class="headerlink" title="4. Information System"></a>4. Information System</h2><h3 id="Books-3"><a href="#Books-3" class="headerlink" title="Books"></a>Books</h3><ul>
+<li><a href="">Decision Support System</a></li>
+<li>Decision theory</li>
+<li>network optimization</li>
+<li>control theory： Stichastic Control Theory</li>
+<li>Operation Research</li>
+</ul>
+<h2 id="5-Github-hexo-markdown等相关技术"><a href="#5-Github-hexo-markdown等相关技术" class="headerlink" title="5. Github hexo markdown等相关技术"></a>5. Github hexo markdown等相关技术</h2>]]></content>
+      
+        <categories>
+            
+            <category> notes </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> information_system </tag>
+            
+            <tag> study_plan </tag>
+            
+            <tag> statistics </tag>
+            
+            <tag> mathematics </tag>
+            
+            <tag> github </tag>
+            
+            <tag> materials </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[R语言的科学计算]]></title>
+      <url>/R_science_computing/</url>
+      <content type="html"><![CDATA[<h2 id="求解非线性方程组"><a href="#求解非线性方程组" class="headerlink" title="求解非线性方程组"></a>求解非线性方程组</h2><p><a href="http://blog.csdn.net/skyonefly/article/details/50899661" target="_blank" rel="external">R语言非线性方程组求解dfsane,nleqslv</a><br><a href="https://cos.name/cn/topic/11574/" target="_blank" rel="external">请教：R语言有没有求解非线性方程组的函数！</a><br><a href="http://www.cnblogs.com/dj123jary/p/4142150.html" target="_blank" rel="external">用R语言求解非线性方程</a><br><a href="https://cran.r-project.org/web/packages/nleqslv/nleqslv.pdf" target="_blank" rel="external">Package ‘nleqslv’</a><br><a href="https://cran.r-project.org/web/packages/BB/vignettes/BBvignetteJSS.pdf" target="_blank" rel="external">BB: An R Package for Solving a Large System of Nonlinear Equations and for Optimizing a High-Dimensional Nonlinear Objective Function</a></p>
+<p><a href="https://stackoverflow.com/questions/38684295/how-to-solve-a-non-linear-equation-using-nleqslv-package-in-r" target="_blank" rel="external">How to solve a non-linear equation using nleqslv package in R?</a><br><a href="https://stackoverflow.com/questions/22993787/solving-system-of-nonlinear-equations-in-r" target="_blank" rel="external">Solving system of nonlinear equations in R</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> logs </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> r_language </tag>
+            
+            <tag> science_computing </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[区块链现状]]></title>
+      <url>/current_blockchain/</url>
+      <content type="html"><![CDATA[<p>我在之前的文章<font color="#00ffff"><a href="http://baoduge.com/preliminary_study_on_blockchain_and_smart_contract/" target="_blank" rel="external">《区块链初探-综述》</a></font>中有有过对区块链的一些探究。</p>
+<h1 id="区块链核心技术"><a href="#区块链核心技术" class="headerlink" title="区块链核心技术"></a>区块链核心技术</h1><p>区块链是指一种按照时间顺序将数据区块以顺序相连的方式组合成的一种链式数据结构,并以密码学方式保证不可篡改和不可伪造的分布式账本。从本质上来说,区块链是一种去中心化,去信任的集体维护数据库技术。</p>
+<h2 id="区块链数据库"><a href="#区块链数据库" class="headerlink" title="区块链数据库"></a>区块链数据库</h2><ul>
+<li><p>“区块+链”的结构为我们提供了完整的历史数据,使得数据库内的每一笔交易都能追本溯源。</p>
+</li>
+<li><p>“区块+链+时间戳”让存在性证明变得简单可靠。</p>
+</li>
+</ul>
+<h2 id="分布式结构和去中心化的协议"><a href="#分布式结构和去中心化的协议" class="headerlink" title="分布式结构和去中心化的协议"></a>分布式结构和去中心化的协议</h2><p>通过让每一个参与数据交易的节点记录并储存所有数据,这使得部分节点的损坏,并不会影响到整个数据库的数据记录与更新,大大提高了数据库的安全性。只要不是所有节点同时崩溃,数据库就可以运转下去,因此提高了系统的永续性和可容错性。</p>
+<h2 id="非对称密码学"><a href="#非对称密码学" class="headerlink" title="非对称密码学"></a>非对称密码学</h2><p>非对称密码学让区块链 技术的信任机制建议在数学原理基础之上。这使得人们无需了解对方的基本情况仍然可以进行信任的价值交换,从而提高了系统的运营效率。</p>
+<h2 id="可编程的智能合约脚本"><a href="#可编程的智能合约脚本" class="headerlink" title="可编程的智能合约脚本"></a>可编程的智能合约脚本</h2><p>脚本本质是众多指令的列表。在区块链中,脚本通常需要价值接收者具有公钥和签名。随着具体情形要求,脚本可以灵活变通生成其他运行条件,例如需要多重私钥等等。这让区块链技术可以处理一些无法预见的交易模式,不会在未来的应用中过时。</p>
+<h1 id="区块链潜在应用方向"><a href="#区块链潜在应用方向" class="headerlink" title="区块链潜在应用方向"></a>区块链潜在应用方向</h1><h2 id="去中心化的分布式结构"><a href="#去中心化的分布式结构" class="headerlink" title="去中心化的分布式结构"></a>去中心化的分布式结构</h2><p>可以节约大量的中介成本</p>
+<h2 id="不可篡改的时间戳"><a href="#不可篡改的时间戳" class="headerlink" title="不可篡改的时间戳"></a>不可篡改的时间戳</h2><p>可以解决数据追踪与信息防伪问题 </p>
+<h2 id="安全的信任机制"><a href="#安全的信任机制" class="headerlink" title="安全的信任机制"></a>安全的信任机制</h2><p>可以解决现今物联网的核心缺陷</p>
+<h2 id="灵活的可编程性"><a href="#灵活的可编程性" class="headerlink" title="灵活的可编程性"></a>灵活的可编程性</h2><p>可以有效帮助规范市场秩序</p>
+<h1 id="区块链演化阶段"><a href="#区块链演化阶段" class="headerlink" title="区块链演化阶段"></a>区块链演化阶段</h1><h2 id="区块链1-0：可编程数字化货币"><a href="#区块链1-0：可编程数字化货币" class="headerlink" title="区块链1.0：可编程数字化货币"></a>区块链1.0：可编程数字化货币</h2><p>主要通过分布式账本的加密技术,建立了数字货币的发行、分配、币值调节等机制。众所周知的比特币,便可视为区块链的首个在金融支付领域中的应用。</p>
+<h2 id="区块链2-0：可编程的智能合约"><a href="#区块链2-0：可编程的智能合约" class="headerlink" title="区块链2.0：可编程的智能合约"></a>区块链2.0：可编程的智能合约</h2><p>2015年10月,以太坊的创始人Vitalik Buterin发表了题为<font color="#00ffff"><a href="https://blog.ethereum.org/2015/04/13/visions-part-1-the-value-of-blockchain-technology/" target="_blank" rel="external">《Visions, Part 1: The Value of Blockchain Technology》</a></font>主题演讲中,区块链被赋予了新的含义。区块链是任何人都可以上传程序并使程序自己执行的载体,并且区块链通过自我限制和安全加密,确保了上传的程序能够可信地自动执行预设的逻辑。</p>
+<h2 id="区块链3-0：可编程的社会治理"><a href="#区块链3-0：可编程的社会治理" class="headerlink" title="区块链3.0：可编程的社会治理"></a>区块链3.0：可编程的社会治理</h2><p>由于该技术具有超越货币的公正特性,该技术可以被广泛应用在司法仲裁,身份认证等领域。从长远来看,区块链的去中心化模式,将通过更好的协作与治理,来重塑整个人类社会活动。虽然现如今国内外对于区块链技术的投入使用都已经逐渐展开,但目前尚未有完全落地的应用性成果。因此,区块链技术目前仍然处于理论阶段,今后的技术转换尚需一段很长时间的实践。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> notes </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> bloackchain </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Lecture notes of CUHK-DSME6622]]></title>
+      <url>/CUHK_DSME6622_Lec2/</url>
+      <content type="html"><![CDATA[<h2 id="Bullet-Points"><a href="#Bullet-Points" class="headerlink" title="Bullet Points"></a>Bullet Points</h2><p><a href="http://dsme6622.mikezhang.com/2017/08/30/4/" target="_blank" rel="external">Advanced MIS Research Seminar</a></p>
+<ol>
+<li>Proposal each course (10 min each); </li>
+<li>There is reading list;</li>
+<li>About Econometric of IS;</li>
+<li>How to design experiments: </li>
+</ol>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Experiment" target="_blank" rel="external">Experiment</a> </li>
+<li><a href="http://www2.warwick.ac.uk/fac/soc/economics/staff/ffwaldinger/teaching/ec9a8/slides/" target="_blank" rel="external">EC 9A3 Advanced Econometric Theory - Lecture Slides</a></li>
+<li><a href="https://stats.stackexchange.com/questions/99140/difference-in-difference-in-differences-estimator" target="_blank" rel="external">CrossValidation:Difference-in-difference-in-differences estimator</a></li>
+</ul>
+<ol>
+<li>COS Analysis? Baseline? </li>
+<li><a href="https://en.wikipedia.org/wiki/Randomization" target="_blank" rel="external">Randomization</a> ~ statistical test</li>
+<li>断点回归？计量经济学？</li>
+<li><em>Theoretical Modeling</em> vs behavior vs experiment vs empirical</li>
+<li>How do we identify the way we want to ~ social psychology ~ <strong>mental map</strong></li>
+<li>impact of technology ~ topic is moving on ~ some of the topics are already understood ~ do good literature review</li>
+<li>treatment? ~ control? ~ outcome</li>
+<li><strong>DID</strong> ~ before &amp; after treatment, well controlled</li>
+</ol>
+<h2 id="Presentation"><a href="#Presentation" class="headerlink" title="Presentation"></a>Presentation</h2><h3 id="Firefox-extensions-update-classification-by-Luo-Dan"><a href="#Firefox-extensions-update-classification-by-Luo-Dan" class="headerlink" title="Firefox extensions update classification by Luo Dan"></a>Firefox extensions update classification by Luo Dan</h3><ol>
+<li>Firefox web browser (open suourse platform)~ extentions or add-ons</li>
+<li>Classification : open or close sourse</li>
+<li>Mechanism? ~ size or role of users</li>
+<li>output: influence : positive or negative</li>
+<li>rapid release strategy  vs traditional way</li>
+<li>cross? experimental design</li>
+<li>whether the add-on supplier update their products in response to the rapid release of Firefox platform?</li>
+<li>1 observation: add-on version number?</li>
+</ol>
+<h3 id="Review-online-experiment-by"><a href="#Review-online-experiment-by" class="headerlink" title="Review/online experiment by"></a>Review/online experiment by</h3><ol>
+<li>treatment: hit of newest review / high-quality</li>
+<li>control : no review</li>
+<li>social psychology ~ ab test? ~ <strong>online experiment</strong></li>
+</ol>
+<h3 id="Economic-analysis-of-social-interactions"><a href="#Economic-analysis-of-social-interactions" class="headerlink" title="Economic analysis of social interactions"></a>Economic analysis of social interactions</h3><ol>
+<li>Charles F.Manski, Journal of Economic</li>
+<li>emperical analysis</li>
+<li><strong>mutually exclusive but cllectively exhaustive</strong></li>
+<li>3 effects</li>
+</ol>
+<h3 id="Pay-NOT-to-“go-to-the-gym”-by-Ivy"><a href="#Pay-NOT-to-“go-to-the-gym”-by-Ivy" class="headerlink" title="Pay NOT to “go to the gym” by Ivy"></a>Pay <em>NOT</em> to “go to the gym” by Ivy</h3><ol>
+<li>consumer behavior -&gt; maximize utility (rational expectation vs <strong>irrational</strong>)</li>
+<li>theoretical prediction &amp; empirical testing &amp; survey</li>
+<li>behaviour IO</li>
+<li>Personal view: </li>
+</ol>
+<ul>
+<li>How to quantify the utility function? </li>
+<li>not like financial product: stock, bond or derivatives, the utility of going to gym should also include non-economic factor (price), such as the potential chance of keeping the right of going to gym </li>
+</ul>
+<h3 id="Observational-Learning-Evidence-from-a-Randomized-Natural-Field-Experiment"><a href="#Observational-Learning-Evidence-from-a-Randomized-Natural-Field-Experiment" class="headerlink" title="Observational Learning: Evidence from a Randomized Natural Field Experiment"></a>Observational Learning: Evidence from a Randomized Natural Field Experiment</h3><ol>
+<li>One restaurant: whether the randomization is not good enough?</li>
+<li>Control group: pre-experiment data, one week</li>
+<li>Raking treatment table vs salience treatment table</li>
+<li>One week data </li>
+<li>DDD</li>
+<li>Coincidence, observational learning (learn the quality, more about yourself), conformity (more from others), compliance, salience</li>
+</ol>
+<h3 id="The-Spread-of-Behavior-in-an-Online-Social-Network-Experiment"><a href="#The-Spread-of-Behavior-in-an-Online-Social-Network-Experiment" class="headerlink" title="The Spread of Behavior in an Online Social Network Experiment *"></a>The Spread of Behavior in an Online Social Network Experiment <em>*</em></h3><ol>
+<li>Small world network model</li>
+<li>Network vs photonic??</li>
+<li>Social reinforcement</li>
+</ol>
+]]></content>
+      
+        <categories>
+            
+            <category> notes </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> information_system </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[MAC上使用SUBLIME TEXT3编写LATEX]]></title>
+      <url>/SublimeText3_LaTex/</url>
+      <content type="html"><![CDATA[<p>出于工作的需要，我们经常需要使用LaTex来写学术论文或者Slides，网上有很多推荐的LaTex专用软件，但是对于使用MAC+Sublime Text习惯了的人，想尝试如何在这样的环境下流畅使用LaTex，下面就是我尝试后的小小心得。</p>
+<h2 id="Preparation"><a href="#Preparation" class="headerlink" title="Preparation"></a>Preparation</h2><ol>
+<li>检查操作系统：OS X EI Capitan Version 10.11.6;</li>
+<li>检查电脑剩余空间；（因为如果你还没有安装MacTex的话，你需要至少4G的空间）</li>
+</ol>
+<p>因为本人电脑为OS操作系统，所以针对Windows/Linux系统，本文并不是很实用。</p>
+<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><h3 id="是否安装了MacTex"><a href="#是否安装了MacTex" class="headerlink" title="是否安装了MacTex"></a>是否安装了<a href="http://www.tug.org/mactex/" target="_blank" rel="external">MacTex</a></h3><ol>
+<li>如果你已经安装了<a href="http://www.tug.org/mactex/" target="_blank" rel="external">MacTex</a>，请到<code>/usr/local/texlive/</code>文件夹里（可以Finder中按<code>Shift+option+G</code>打开<em>Go to the Folder</em>,输入<code>/usr/local/texlive/</code>）检查MacTex的版本。我的MacTex版本是<em>MacText2017</em>。</li>
+<li>如果你想更新MacTex的版本，建议你按照<a href="http://www.tug.org/mactex/uninstalling.html" target="_blank" rel="external">此说明</a>卸载旧版本的MacTex，然后按照下面的步骤按照新版本的MacTex。</li>
+<li>如果你没有安装MacTex，可以去<a href="http://www.tug.org/mactex/" target="_blank" rel="external">MaxTex官网</a>按照<a href="http://www.tug.org/mactex/mactex-download.html" target="_blank" rel="external">官方说明</a>进行安装。</li>
+</ol>
+<h3 id="是否安装了Sublime-Text-3"><a href="#是否安装了Sublime-Text-3" class="headerlink" title="是否安装了Sublime Text 3"></a>是否安装了<a href="https://www.sublimetext.com/3" target="_blank" rel="external">Sublime Text 3</a></h3><ol>
+<li>如果你已经安装了Sublime Text 3（以下简称ST3），可以直接跳至下一步。</li>
+<li>如果你没有安装ST3，请至<a href="https://www.sublimetext.com/3" target="_blank" rel="external">ST3官网</a>按照官方说明进行安装。</li>
+<li>本文针对<a href="https://www.sublimetext.com/2" target="_blank" rel="external">Sublime Text 2</a>可能并不非常实用。</li>
+</ol>
+<h3 id="是否安装了Skim"><a href="#是否安装了Skim" class="headerlink" title="是否安装了Skim"></a>是否安装了<a href="http://skim-app.sourceforge.net/" target="_blank" rel="external">Skim</a></h3><ol>
+<li>检查是否已经安装软件<a href="http://skim-app.sourceforge.net/" target="_blank" rel="external">Skim</a>。你可以到<a href="https://sourceforge.net/projects/skim-app/files/Skim/Skim-1.4.29/Skim-1.4.29.dmg/download" target="_blank" rel="external">Skim官网</a>下载安装。</li>
+<li>安装完成后：</li>
+</ol>
+<ul>
+<li>打开Skim</li>
+<li>选择<code>Skim-&gt;Preference-&gt;Sync</code></li>
+<li>在<code>PDF-Tex Sync support-&gt;Preset</code>中选择<code>Sublime Text</code></li>
+</ul>
+<h3 id="ST3中是否安装了Package-Control"><a href="#ST3中是否安装了Package-Control" class="headerlink" title="ST3中是否安装了Package Control"></a>ST3中是否安装了<a href="https://packagecontrol.io/" target="_blank" rel="external">Package Control</a></h3><ol>
+<li><p>检查Sublime Text 3中是否已经安装了<em>Package Control</em>: 快捷键<code>Shift+Command+P</code>，看看是否会跳出面板；</p>
+</li>
+<li><p>如果你没有安装，可以按照<a href="https://packagecontrol.io/installation" target="_blank" rel="external">官网说明</a>进行安装。</p>
+</li>
+</ol>
+<h3 id="安装ST3-Package-LatexTools"><a href="#安装ST3-Package-LatexTools" class="headerlink" title="安装ST3 Package: LatexTools"></a>安装<a href="https://github.com/SublimeText/LaTeXTools" target="_blank" rel="external">ST3 Package: LatexTools</a></h3><ol>
+<li>快捷键<code>Shift+Command+P</code>打开Packge Control面板；</li>
+<li>输入<em>pi</em>,选择“Package Control:Install Package”；</li>
+<li>输入“LatexTools”，选择，安装</li>
+<li><code>Control+~</code>打开<em>Console</em>检查Package的安装情况。如果最后跳出<code>Package Control Messages</code>，Console中显示<code>reloading settings Packages/User/Preferences.sublime-settings</code>语句，则表示LatexTools安装成功。</li>
+</ol>
+<h3 id="支持中文"><a href="#支持中文" class="headerlink" title="支持中文"></a>支持中文</h3><p>打开Terminal，输入</p>
+<pre><code>➜  ~ sudo tlmgr update --self
+➜  ~ sudo tlmgr install latexmk
+</code></pre><p><a href="https://www.tug.org/texlive/tlmgr.html" target="_blank" rel="external">tlmgr</a>是TeX Live的package manager，<a href="http://mg.readthedocs.io/latexmk.html" target="_blank" rel="external">Latexmk</a>是LaTeX自动编译工具。</p>
+<p>如果你之前并没有修改过User Setting的话，在ST3的<code>Sublime Text-&gt;Preference-&gt;Package Settings-&gt;LatexTools-&gt;Settings-User</code>中，找到<code>builder_settings</code>代码块如下（<code>Ctrl+F</code>打开查找，输入“builder_settings”）：</p>
+<pre><code>&quot;builder_settings&quot; : {
+        // General settings:
+        // See README or third-party documentation
+        // (built-ins): true shows the log of each command in the output panel
+        &quot;display_log&quot; : false,
+        // Platform-specific settings:
+        &quot;osx&quot; : {
+            // See README or third-party documentation
+        },
+        &quot;windows&quot; : {
+            // See README or third-party documentation
+        },
+        &quot;linux&quot; : {
+            // See README or third-party documentation
+        }
+    },
+</code></pre><p>在</p>
+<pre><code>// General settings:
+// See README or third-party documentation
+</code></pre><p>后加入</p>
+<pre><code>&quot;program&quot; : &quot;xelatex&quot;,
+&quot;command&quot; : [&quot;latexmk&quot;, &quot;-cd&quot;, &quot;-e&quot;, &quot;$pdflatex = &#39;xelatex -interaction=nonstopmode -synctex=1 %S %O&#39;&quot;, &quot;-f&quot;, &quot;-pdf&quot;],
+</code></pre><p>当然，你也可以通过在每次的<code>.tex</code>文件首列加入语句</p>
+<pre><code>%!TEX program = xelatex
+</code></pre><p>进行解决。</p>
+<p><a href="https://www.zhihu.com/question/23658979" target="_blank" rel="external">有没有简单的 LaTeX 中文支持方案？</a></p>
+<p><a href="http://www.readern.com/sublime-text-latex-chinese-under-mac.html" target="_blank" rel="external">部署MAC上的Sublime Text+LaTex中文环境——201706更新</a></p>
+<h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h3><p>粘贴复制以下内容，保存为<code>.tex</code>格式文件：</p>
+<pre><code>\documentclass{article}
+\usepackage{fontspec, xunicode, xltxtra}
+\setmainfont{Hiragino Sans GB}
+\title{Title}
+\author{}
+\begin{document}
+\maketitle{}
+\section{Introduction}
+This is where you will write your content. 在这里写上内容。
+\end{document}
+</code></pre><p>快捷键<code>Command+B</code>，进行编译，如果没有问题，Skim会自动跳出预览窗口。</p>
+<h3 id="PDF页面进行修改"><a href="#PDF页面进行修改" class="headerlink" title="PDF页面进行修改"></a>PDF页面进行修改</h3><ol>
+<li>在 Skim 窗口中，按下<code>Cammand+Shift</code>;</li>
+<li>在需要的位置按下触摸板，即可跳转回ST3到对应的代码位置</li>
+</ol>
+<h3 id="安装中遇到的问题"><a href="#安装中遇到的问题" class="headerlink" title="安装中遇到的问题"></a>安装中遇到的问题</h3><h4 id="Problem-1"><a href="#Problem-1" class="headerlink" title="Problem 1"></a>Problem 1</h4><blockquote>
+<p>Package Control: The dependency ‘python-jinja2’ is not currently installed; installing…</p>
+<p>Error loading scope:source.tsx: Unable to find syntax file for scope source.tsx in Packages/MarkdownEditing/Markdown.tmLanguage</p>
+</blockquote>
+<p>检查一下自己python的版本：</p>
+<pre><code>➜  ~ python --V
+Python 2.7.10
+</code></pre><p>检查一下自己安装的Python Package:</p>
+<pre><code>➜  ~ pip freeze
+altgraph==0.10.2
+bdist-mpkg==0.5.0
+bonjour-py==0.3
+cvxopt==1.1.8
+Jinja2==2.9.6
+macholib==1.5.1
+MarkupSafe==1.0
+matplotlib==1.3.1
+modulegraph==0.10.4
+numpy==1.8.0rc1
+pandas==0.18.1
+py2app==0.7.3
+pyobjc-core==2.5.1
+pyobjc-framework-Accounts==2.5.1
+pyobjc-framework-AddressBook==2.5.1
+pyobjc-framework-AppleScriptKit==2.5.1
+pyobjc-framework-AppleScriptObjC==2.5.1
+pyobjc-framework-Automator==2.5.1
+pyobjc-framework-CFNetwork==2.5.1
+pyobjc-framework-Cocoa==2.5.1
+pyobjc-framework-Collaboration==2.5.1
+pyobjc-framework-CoreData==2.5.1
+pyobjc-framework-CoreLocation==2.5.1
+pyobjc-framework-CoreText==2.5.1
+pyobjc-framework-DictionaryServices==2.5.1
+pyobjc-framework-EventKit==2.5.1
+pyobjc-framework-ExceptionHandling==2.5.1
+pyobjc-framework-FSEvents==2.5.1
+pyobjc-framework-InputMethodKit==2.5.1
+pyobjc-framework-InstallerPlugins==2.5.1
+pyobjc-framework-InstantMessage==2.5.1
+pyobjc-framework-LatentSemanticMapping==2.5.1
+pyobjc-framework-LaunchServices==2.5.1
+pyobjc-framework-Message==2.5.1
+pyobjc-framework-OpenDirectory==2.5.1
+pyobjc-framework-PreferencePanes==2.5.1
+pyobjc-framework-PubSub==2.5.1
+pyobjc-framework-QTKit==2.5.1
+pyobjc-framework-Quartz==2.5.1
+pyobjc-framework-ScreenSaver==2.5.1
+pyobjc-framework-ScriptingBridge==2.5.1
+pyobjc-framework-SearchKit==2.5.1
+pyobjc-framework-ServiceManagement==2.5.1
+pyobjc-framework-Social==2.5.1
+pyobjc-framework-SyncServices==2.5.1
+pyobjc-framework-SystemConfiguration==2.5.1
+pyobjc-framework-WebKit==2.5.1
+pyOpenSSL==0.13.1
+pyparsing==2.0.1
+python-dateutil==1.5
+pytz==2013.7
+requests==2.9.1
+scikit-learn==0.17.1
+scipy==0.13.0b1
+six==1.4.1
+sklearn==0.0
+vboxapi==1.0
+virtualenv==15.0.1
+xattr==0.6.4
+zope.interface==4.1.1
+You are using pip version 8.1.2, however version 9.0.1 is available.
+You should consider upgrading via the &#39;pip install --upgrade pip&#39; command.
+</code></pre><p>发现我没有jinjia2,安装<a href="http://docs.jinkan.org/docs/jinja2/intro.html#id3" target="_blank" rel="external">Jinja2 2.7 documentation</a>安装：</p>
+<pre><code>➜  ~ sudo easy_install Jinja2
+Password:
+</code></pre><h4 id="Problem-2"><a href="#Problem-2" class="headerlink" title="Problem 2"></a>Problem 2</h4><p>在测试环节，ST3 Console一直会显示：</p>
+<pre><code>  File &quot;/Users/huwei/Desktop/test.tex&quot;, line 1
+%!TEX program = xelatex
+^
+SyntaxError: invalid syntax
+</code></pre><p>或者</p>
+<pre><code>\documentclass{article}
+                       ^
+SyntaxError: unexpected character after line continuation character
+</code></pre><p>在网上查了很久也没有和我类似的问题，最后终于在<a href="https://forum.sublimetext.com/t/weird-compile-error-with-latex-tools-plugin/4346" target="_blank" rel="external">Weird compile error with Latex Tools plugin</a>找到了答案。</p>
+<p>原来因为我之前一直使用ST3编写Python，<code>Tools-&gt;Build System</code>已经被我设置成了<code>Python</code>，我们应该将其设置成<code>Automatic</code>才行。</p>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ol>
+<li><a href="http://www.jiantsou.com/using-latex-on-mac-a-simple-guide/" target="_blank" rel="external">在Mac上使用LaTeX，一份简单的指导</a></li>
+<li><a href="http://johnchancfz.github.io/blog/2014/08/10/Using-LaTeX-with-Sublime-and-Skim-for-Mac.html" target="_blank" rel="external">在Mac上通过Sublime、Skim编辑LaTeX</a></li>
+<li><a href="http://tonghuashuo.github.io/blog/latex-with-sublime-text.html" target="_blank" rel="external">使用Sublime Text编写LaTeX</a></li>
+<li><a href="https://github.com/SublimeText/LaTeXTools/blob/master/README.markdown" target="_blank" rel="external">LateXTools: A LaTeX Plugin for Sublime Text 2 and 3</a></li>
+</ol>
+]]></content>
+      
+        <categories>
+            
+            <category> notes </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> tutorial </tag>
+            
+            <tag> latex </tag>
+            
+            <tag> sublime_text3 </tag>
+            
+            <tag> skim </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[我在Github上搭建Hexo博客]]></title>
+      <url>/Hexo/</url>
+      <content type="html"><![CDATA[<p>因为静态网页的简洁和迅速，在已经搭了个WordPress网页的情形下，我还是忍不住手痒，最近又尝试搭了一个Hexo的网页。本网站就是最后的成果</p>
+<h2 id="MAC上搭建Hexo-Blog"><a href="#MAC上搭建Hexo-Blog" class="headerlink" title="MAC上搭建Hexo Blog"></a>MAC上搭建Hexo Blog</h2><p><a href="http://www.jianshu.com/p/fd878edb95e7" target="_blank" rel="external">MAC 上 github + hexo 搭建博客教程</a><br><a href="https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">手把手教你使用Hexo + Github Pages搭建个人独立博客</a><br><a href="https://xuanwo.org/2015/03/26/hexo-intor/" target="_blank" rel="external">史上最详细的Hexo博客搭建图文教程</a></p>
+<p><a href="http://jeasonstudio.github.io/2016/05/26/Mac%E4%B8%8A%E6%90%AD%E5%BB%BA%E5%9F%BA%E4%BA%8EGitHub-Page%E7%9A%84Hexo%E5%8D%9A%E5%AE%A2/" target="_blank" rel="external">Mac上搭建基于GitHub Page的Hexo博客</a>是一篇很赞的文章，但是值得注意的是”注意坑三”中的代码应该如下</p>
+<pre><code>$ npm install hexo-deploper-git --save
+</code></pre><h2 id="GitHub-Pages绑定二级域名"><a href="#GitHub-Pages绑定二级域名" class="headerlink" title="GitHub Pages绑定二级域名"></a>GitHub Pages绑定二级域名</h2><p>因为我已经在GoDaddy购买了域名，所以我想把Github+Hexo的网站绑定到baoduge.com的二级域名商，就叫它blog.baoduge.com好了。</p>
+<p><a href="https://segmentfault.com/a/1190000005775893" target="_blank" rel="external">Sementfault:GitHub Pages 绑定二级域名</a><br><a href="http://quantumman.me/blog/setting-up-a-domain-with-gitHub-pages.html" target="_blank" rel="external">GitHub Pages 绑定来自阿里云的域名</a><br><a href="https://www.zhihu.com/question/31377141" target="_blank" rel="external">知乎：github怎么绑定自己的域名？</a></p>
+<p><a href="https://sg.godaddy.com/zh/help/ip-4080" target="_blank" rel="external">godaddy:添加指向一个 IP 地址的子域名</a></p>
+<h2 id="Github教程"><a href="#Github教程" class="headerlink" title="Github教程"></a>Github教程</h2><p>要使用Github搭建网站，那么Github也可是开始加技能点了。</p>
+<p><a href="http://wiki.jikexueyuan.com/project/github-basics/github-for-mac.html" target="_blank" rel="external">GitHub for Mac</a><br><a href="http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners" target="_blank" rel="external">An Intro to Git and GitHub for Beginners (Tutorial)</a><br><a href="http://www.jianshu.com/p/d15aff38cd33" target="_blank" rel="external">mac上GitHub Desktop客户端的使用</a></p>
+<h2 id="Hexo-Markdown写作"><a href="#Hexo-Markdown写作" class="headerlink" title="Hexo+Markdown写作"></a>Hexo+Markdown写作</h2><p>Hexo吸引我的一个地方就是它支持Markdown。而后者是我最近一直在用的语言。</p>
+<p><a href="https://wizardforcel.gitbooks.io/markdown-simple-world/hexo-tutor-3.html" target="_blank" rel="external">Hexo 入门指南（三） - 文章 &amp; 草稿</a></p>
+<p><code>.md</code>文件写完后，放到<code>sourse/_posts/</code>文件夹里，然后terminal里<code>cd</code>到根目录，使用如下命令发布即可</p>
+<pre><code>$ hexo generate
+$ hexo deploy
+</code></pre><p>或者</p>
+<pre><code>$ hexo g
+$ hexo d
+</code></pre><p>十分方便，so easy！</p>
+<h2 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h2><p>当然在网站搭建的过程中，还是会遇到方方面面的问题。我想下面的资料可能会帮到大家。</p>
+<p><a href="https://themebetter.com/wordpress-menu-blank.html" target="_blank" rel="external">WordPress菜单和自定义链接开启在新窗口打开</a><br><a href="https://zhiho.github.io/2015/09/29/hexo-next/" target="_blank" rel="external">Hexo搭建GitHub博客（三）- NexT主题配置使用</a><br><a href="http://www.jianshu.com/p/c4f65ebe23ad" target="_blank" rel="external">为Hexo博客加入Disqus评论</a><br><a href="http://www.cylong.com/blog/2017/03/26/hexo-next-disqus/" target="_blank" rel="external">Hexo 集成 Disqus 评论</a><br><a href="http://hongyitong.github.io/2016/10/24/%E5%A6%82%E4%BD%95%E5%9C%A8Hexo%E4%B8%AD%E4%BD%BF%E7%94%A8MathJax/" target="_blank" rel="external">如何在Hexo中使用MathJax</a><br><a href="http://www.jianshu.com/p/702a7aec4d00" target="_blank" rel="external">Hexo搭建博客系列：（五）Hexo添加不蒜子和LeanCloud统计无标题文章</a><br><a href="http://2wildkids.com/2016/10/06/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86Hexo%E5%92%8CMathJax%E7%9A%84%E5%85%BC%E5%AE%B9%E9%97%AE%E9%A2%98/" target="_blank" rel="external">如何处理Hexo和MathJax的兼容问题</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> notes </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> github </tag>
+            
+            <tag> hexo </tag>
+            
+            <tag> tutorial </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Undergraduate Notes 1]]></title>
+      <url>/UG_Notes1/</url>
+      <content type="html"><![CDATA[<h2 id="Poisson-bracket"><a href="#Poisson-bracket" class="headerlink" title="Poisson bracket"></a><a href="https://en.wikipedia.org/wiki/Poisson_bracket" target="_blank" rel="external">Poisson bracket</a></h2><script type="math/tex; mode=display">\\{ f ,g \\} =\sum_{i=1}^{N}(\frac{\partial f}{\partial q_i} \frac{\partial g}{\partial p_i} -\frac{\partial f}{\partial p_i} \frac{\partial g}{\partial q_i} )</script><h2 id="Primality-test"><a href="#Primality-test" class="headerlink" title="Primality test"></a>Primality test</h2><h3 id="Compositeness-test"><a href="#Compositeness-test" class="headerlink" title="Compositeness test"></a><a href="https://en.wikipedia.org/wiki/Fermat_primality_test" target="_blank" rel="external">Compositeness test</a></h3><ol>
+<li>test if n is divisible by 2 or 3;</li>
+<li>check through all the numbers from $6k\pm1 \leq \sqrt{n}$</li>
+</ol>
+<h3 id="Primorial-素乘-longleftrightarrow-prime"><a href="#Primorial-素乘-longleftrightarrow-prime" class="headerlink" title="Primorial (素乘) $\longleftrightarrow$ prime"></a><a href="https://en.wikipedia.org/wiki/Primorial" target="_blank" rel="external">Primorial</a> (素乘) $\longleftrightarrow$ prime</h3><ul>
+<li>Just like factorial (阶乘) $\longleftrightarrow$ factor</li>
+<li>$nth$ prime number $P_n$ : </li>
+</ul>
+<script type="math/tex; mode=display">P_n \\# = \prod_{k=1}^{n} p_k</script><p>in which $p_k$ is the kth prime number. (e.g., $ P_5 \# = 2 \times 3 \times 5 \times 7 \times 11 = 2310 $)</p>
+<ul>
+<li>$P_0 \# = 1 \Rightarrow P_n \# = e^{(1+o(1))n \log n}$, in which $o(\cdot)$ is the little -o notation</li>
+</ul>
+<h2 id="Big-o-notaion"><a href="#Big-o-notaion" class="headerlink" title="Big-o notaion"></a><a href="https://en.wikipedia.org/wiki/Big_O_notation" target="_blank" rel="external">Big-o notaion</a></h2><ul>
+<li>eg: $f(x)=6 x^4 - 2 x^3 + 5$, $f(x) = O(x^4)$</li>
+<li>Simplification rules:</li>
+</ul>
+<ol>
+<li>If f(x) is a <em>sum</em> of several terms, the one with the largest growth rate is kept, and all others omitted</li>
+<li>If f(x) is a <em>product</em> of several factors, any constants terms in the product that do not depend on x are omitted.</li>
+</ol>
+<h2 id="关于在Markdown中输入数学公式"><a href="#关于在Markdown中输入数学公式" class="headerlink" title="关于在Markdown中输入数学公式"></a>关于在Markdown中输入数学公式</h2><p><a href="http://blog.csdn.net/xiahouzuoxin/article/details/26478179" target="_blank" rel="external">Markdown中插入数学公式的方法</a><br><a href="http://blog.kamidox.com/write-math-formula-with-mathjax.html" target="_blank" rel="external">使用 Markdown + MathJax 在博客里插入数学公式</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> notes </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> mathematics </tag>
+            
+            <tag> physics </tag>
+            
+        </tags>
+        
+    </entry>
+    
+  
+  
+    
+    <entry>
+      <title><![CDATA[categories]]></title>
+      <url>/categories/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[tags]]></title>
+      <url>/tags/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[about]]></title>
+      <url>/about/index.html</url>
+      <content type="html"><![CDATA[<h2 id="About-Me"><a href="#About-Me" class="headerlink" title="About Me"></a>About Me</h2><p><a href="http://baoduge.com/about_baoduge/" target="_blank" rel="external">About Me</a></p>
+]]></content>
+    </entry>
+    
+  
+</search>

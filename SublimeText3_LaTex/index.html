@@ -83,7 +83,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="information_system," />
+  <meta name="keywords" content="tutorial,latex,sublime_text3,skim," />
 
 
 
@@ -99,18 +99,18 @@
 
 
 
-<meta name="description" content="This is the notes of the second class of DSME6622 by Michael ZHANG at CUHK.">
-<meta name="keywords" content="information_system">
+<meta name="description" content="This is about how to use LaTex with Sublime Text 3 on MAC PC.">
+<meta name="keywords" content="tutorial,latex,sublime_text3,skim">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Lecture notes of CUHK-DSME6622">
-<meta property="og:url" content="http://blog.baoduge.com/CUHK-DSME6622 Lec2/index.html">
+<meta property="og:title" content="MAC上使用SUBLIME TEXT3编写LATEX">
+<meta property="og:url" content="http://blog.baoduge.com/SublimeText3_LaTex/index.html">
 <meta property="og:site_name" content="NEVERLAND">
-<meta property="og:description" content="This is the notes of the second class of DSME6622 by Michael ZHANG at CUHK.">
+<meta property="og:description" content="This is about how to use LaTex with Sublime Text 3 on MAC PC.">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2017-09-12T11:11:38.000Z">
+<meta property="og:updated_time" content="2017-09-12T11:14:50.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Lecture notes of CUHK-DSME6622">
-<meta name="twitter:description" content="This is the notes of the second class of DSME6622 by Michael ZHANG at CUHK.">
+<meta name="twitter:title" content="MAC上使用SUBLIME TEXT3编写LATEX">
+<meta name="twitter:description" content="This is about how to use LaTex with Sublime Text 3 on MAC PC.">
 
 
 
@@ -140,13 +140,13 @@
 
 
 
-  <link rel="canonical" href="http://blog.baoduge.com/CUHK-DSME6622 Lec2/"/>
+  <link rel="canonical" href="http://blog.baoduge.com/SublimeText3_LaTex/"/>
 
 
 
 
 
-  <title>Lecture notes of CUHK-DSME6622 | NEVERLAND</title>
+  <title>MAC上使用SUBLIME TEXT3编写LATEX | NEVERLAND</title>
   
 
 
@@ -283,7 +283,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://blog.baoduge.com/CUHK-DSME6622 Lec2/">
+    <link itemprop="mainEntityOfPage" href="http://blog.baoduge.com/SublimeText3_LaTex/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="BDG飽蠹閣">
@@ -300,7 +300,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Lecture notes of CUHK-DSME6622</h1>
+          <h1 class="post-title" itemprop="name headline">MAC上使用SUBLIME TEXT3编写LATEX</h1>
         
 
         <div class="post-meta">
@@ -312,8 +312,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-09-11T00:00:00+08:00">
-                2017-09-11
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-09-10T00:00:00+08:00">
+                2017-09-10
               </time>
             
 
@@ -353,9 +353,9 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/CUHK-DSME6622 Lec2/#comments" itemprop="discussionUrl">
+                <a href="/SublimeText3_LaTex/#comments" itemprop="discussionUrl">
                   <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="CUHK-DSME6622 Lec2/" itemprop="commentCount"></span>
+                        data-disqus-identifier="SublimeText3_LaTex/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -363,7 +363,7 @@
 
           
           
-             <span id="/CUHK-DSME6622 Lec2/" class="leancloud_visitors" data-flag-title="Lecture notes of CUHK-DSME6622">
+             <span id="/SublimeText3_LaTex/" class="leancloud_visitors" data-flag-title="MAC上使用SUBLIME TEXT3编写LATEX">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -381,7 +381,7 @@
 
           
               <div class="post-description">
-                  This is the notes of the second class of DSME6622 by Michael ZHANG at CUHK.
+                  This is about how to use LaTex with Sublime Text 3 on MAC PC.
               </div>
           
 
@@ -398,71 +398,181 @@
       
 
       
-        <h2 id="Bullet-Points"><a href="#Bullet-Points" class="headerlink" title="Bullet Points"></a>Bullet Points</h2><p><a href="http://dsme6622.mikezhang.com/2017/08/30/4/" target="_blank" rel="external">Advanced MIS Research Seminar</a></p>
-<ol>
-<li>Proposal each course (10 min each); </li>
-<li>There is reading list;</li>
-<li>About Econometric of IS;</li>
-<li>How to design experiments: </li>
+        <p>出于工作的需要，我们经常需要使用LaTex来写学术论文或者Slides，网上有很多推荐的LaTex专用软件，但是对于使用MAC+Sublime Text习惯了的人，想尝试如何在这样的环境下流畅使用LaTex，下面就是我尝试后的小小心得。</p>
+<h2 id="Preparation"><a href="#Preparation" class="headerlink" title="Preparation"></a>Preparation</h2><ol>
+<li>检查操作系统：OS X EI Capitan Version 10.11.6;</li>
+<li>检查电脑剩余空间；（因为如果你还没有安装MacTex的话，你需要至少4G的空间）</li>
+</ol>
+<p>因为本人电脑为OS操作系统，所以针对Windows/Linux系统，本文并不是很实用。</p>
+<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><h3 id="是否安装了MacTex"><a href="#是否安装了MacTex" class="headerlink" title="是否安装了MacTex"></a>是否安装了<a href="http://www.tug.org/mactex/" target="_blank" rel="external">MacTex</a></h3><ol>
+<li>如果你已经安装了<a href="http://www.tug.org/mactex/" target="_blank" rel="external">MacTex</a>，请到<code>/usr/local/texlive/</code>文件夹里（可以Finder中按<code>Shift+option+G</code>打开<em>Go to the Folder</em>,输入<code>/usr/local/texlive/</code>）检查MacTex的版本。我的MacTex版本是<em>MacText2017</em>。</li>
+<li>如果你想更新MacTex的版本，建议你按照<a href="http://www.tug.org/mactex/uninstalling.html" target="_blank" rel="external">此说明</a>卸载旧版本的MacTex，然后按照下面的步骤按照新版本的MacTex。</li>
+<li>如果你没有安装MacTex，可以去<a href="http://www.tug.org/mactex/" target="_blank" rel="external">MaxTex官网</a>按照<a href="http://www.tug.org/mactex/mactex-download.html" target="_blank" rel="external">官方说明</a>进行安装。</li>
+</ol>
+<h3 id="是否安装了Sublime-Text-3"><a href="#是否安装了Sublime-Text-3" class="headerlink" title="是否安装了Sublime Text 3"></a>是否安装了<a href="https://www.sublimetext.com/3" target="_blank" rel="external">Sublime Text 3</a></h3><ol>
+<li>如果你已经安装了Sublime Text 3（以下简称ST3），可以直接跳至下一步。</li>
+<li>如果你没有安装ST3，请至<a href="https://www.sublimetext.com/3" target="_blank" rel="external">ST3官网</a>按照官方说明进行安装。</li>
+<li>本文针对<a href="https://www.sublimetext.com/2" target="_blank" rel="external">Sublime Text 2</a>可能并不非常实用。</li>
+</ol>
+<h3 id="是否安装了Skim"><a href="#是否安装了Skim" class="headerlink" title="是否安装了Skim"></a>是否安装了<a href="http://skim-app.sourceforge.net/" target="_blank" rel="external">Skim</a></h3><ol>
+<li>检查是否已经安装软件<a href="http://skim-app.sourceforge.net/" target="_blank" rel="external">Skim</a>。你可以到<a href="https://sourceforge.net/projects/skim-app/files/Skim/Skim-1.4.29/Skim-1.4.29.dmg/download" target="_blank" rel="external">Skim官网</a>下载安装。</li>
+<li>安装完成后：</li>
 </ol>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Experiment" target="_blank" rel="external">Experiment</a> </li>
-<li><a href="http://www2.warwick.ac.uk/fac/soc/economics/staff/ffwaldinger/teaching/ec9a8/slides/" target="_blank" rel="external">EC 9A3 Advanced Econometric Theory - Lecture Slides</a></li>
-<li><a href="https://stats.stackexchange.com/questions/99140/difference-in-difference-in-differences-estimator" target="_blank" rel="external">CrossValidation:Difference-in-difference-in-differences estimator</a></li>
+<li>打开Skim</li>
+<li>选择<code>Skim-&gt;Preference-&gt;Sync</code></li>
+<li>在<code>PDF-Tex Sync support-&gt;Preset</code>中选择<code>Sublime Text</code></li>
 </ul>
-<ol>
-<li>COS Analysis? Baseline? </li>
-<li><a href="https://en.wikipedia.org/wiki/Randomization" target="_blank" rel="external">Randomization</a> ~ statistical test</li>
-<li>断点回归？计量经济学？</li>
-<li><em>Theoretical Modeling</em> vs behavior vs experiment vs empirical</li>
-<li>How do we identify the way we want to ~ social psychology ~ <strong>mental map</strong></li>
-<li>impact of technology ~ topic is moving on ~ some of the topics are already understood ~ do good literature review</li>
-<li>treatment? ~ control? ~ outcome</li>
-<li><strong>DID</strong> ~ before &amp; after treatment, well controlled</li>
+<h3 id="ST3中是否安装了Package-Control"><a href="#ST3中是否安装了Package-Control" class="headerlink" title="ST3中是否安装了Package Control"></a>ST3中是否安装了<a href="https://packagecontrol.io/" target="_blank" rel="external">Package Control</a></h3><ol>
+<li><p>检查Sublime Text 3中是否已经安装了<em>Package Control</em>: 快捷键<code>Shift+Command+P</code>，看看是否会跳出面板；</p>
+</li>
+<li><p>如果你没有安装，可以按照<a href="https://packagecontrol.io/installation" target="_blank" rel="external">官网说明</a>进行安装。</p>
+</li>
 </ol>
-<h2 id="Presentation"><a href="#Presentation" class="headerlink" title="Presentation"></a>Presentation</h2><h3 id="Firefox-extensions-update-classification-by-Luo-Dan"><a href="#Firefox-extensions-update-classification-by-Luo-Dan" class="headerlink" title="Firefox extensions update classification by Luo Dan"></a>Firefox extensions update classification by Luo Dan</h3><ol>
-<li>Firefox web browser (open suourse platform)~ extentions or add-ons</li>
-<li>Classification : open or close sourse</li>
-<li>Mechanism? ~ size or role of users</li>
-<li>output: influence : positive or negative</li>
-<li>rapid release strategy  vs traditional way</li>
-<li>cross? experimental design</li>
-<li>whether the add-on supplier update their products in response to the rapid release of Firefox platform?</li>
-<li>1 observation: add-on version number?</li>
+<h3 id="安装ST3-Package-LatexTools"><a href="#安装ST3-Package-LatexTools" class="headerlink" title="安装ST3 Package: LatexTools"></a>安装<a href="https://github.com/SublimeText/LaTeXTools" target="_blank" rel="external">ST3 Package: LatexTools</a></h3><ol>
+<li>快捷键<code>Shift+Command+P</code>打开Packge Control面板；</li>
+<li>输入<em>pi</em>,选择“Package Control:Install Package”；</li>
+<li>输入“LatexTools”，选择，安装</li>
+<li><code>Control+~</code>打开<em>Console</em>检查Package的安装情况。如果最后跳出<code>Package Control Messages</code>，Console中显示<code>reloading settings Packages/User/Preferences.sublime-settings</code>语句，则表示LatexTools安装成功。</li>
 </ol>
-<h3 id="Review-online-experiment-by"><a href="#Review-online-experiment-by" class="headerlink" title="Review/online experiment by"></a>Review/online experiment by</h3><ol>
-<li>treatment: hit of newest review / high-quality</li>
-<li>control : no review</li>
-<li>social psychology ~ ab test? ~ <strong>online experiment</strong></li>
+<h3 id="支持中文"><a href="#支持中文" class="headerlink" title="支持中文"></a>支持中文</h3><p>打开Terminal，输入</p>
+<pre><code>➜  ~ sudo tlmgr update --self
+➜  ~ sudo tlmgr install latexmk
+</code></pre><p><a href="https://www.tug.org/texlive/tlmgr.html" target="_blank" rel="external">tlmgr</a>是TeX Live的package manager，<a href="http://mg.readthedocs.io/latexmk.html" target="_blank" rel="external">Latexmk</a>是LaTeX自动编译工具。</p>
+<p>如果你之前并没有修改过User Setting的话，在ST3的<code>Sublime Text-&gt;Preference-&gt;Package Settings-&gt;LatexTools-&gt;Settings-User</code>中，找到<code>builder_settings</code>代码块如下（<code>Ctrl+F</code>打开查找，输入“builder_settings”）：</p>
+<pre><code>&quot;builder_settings&quot; : {
+        // General settings:
+        // See README or third-party documentation
+        // (built-ins): true shows the log of each command in the output panel
+        &quot;display_log&quot; : false,
+        // Platform-specific settings:
+        &quot;osx&quot; : {
+            // See README or third-party documentation
+        },
+        &quot;windows&quot; : {
+            // See README or third-party documentation
+        },
+        &quot;linux&quot; : {
+            // See README or third-party documentation
+        }
+    },
+</code></pre><p>在</p>
+<pre><code>// General settings:
+// See README or third-party documentation
+</code></pre><p>后加入</p>
+<pre><code>&quot;program&quot; : &quot;xelatex&quot;,
+&quot;command&quot; : [&quot;latexmk&quot;, &quot;-cd&quot;, &quot;-e&quot;, &quot;$pdflatex = &#39;xelatex -interaction=nonstopmode -synctex=1 %S %O&#39;&quot;, &quot;-f&quot;, &quot;-pdf&quot;],
+</code></pre><p>当然，你也可以通过在每次的<code>.tex</code>文件首列加入语句</p>
+<pre><code>%!TEX program = xelatex
+</code></pre><p>进行解决。</p>
+<p><a href="https://www.zhihu.com/question/23658979" target="_blank" rel="external">有没有简单的 LaTeX 中文支持方案？</a></p>
+<p><a href="http://www.readern.com/sublime-text-latex-chinese-under-mac.html" target="_blank" rel="external">部署MAC上的Sublime Text+LaTex中文环境——201706更新</a></p>
+<h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h3><p>粘贴复制以下内容，保存为<code>.tex</code>格式文件：</p>
+<pre><code>\documentclass{article}
+\usepackage{fontspec, xunicode, xltxtra}
+\setmainfont{Hiragino Sans GB}
+\title{Title}
+\author{}
+\begin{document}
+\maketitle{}
+\section{Introduction}
+This is where you will write your content. 在这里写上内容。
+\end{document}
+</code></pre><p>快捷键<code>Command+B</code>，进行编译，如果没有问题，Skim会自动跳出预览窗口。</p>
+<h3 id="PDF页面进行修改"><a href="#PDF页面进行修改" class="headerlink" title="PDF页面进行修改"></a>PDF页面进行修改</h3><ol>
+<li>在 Skim 窗口中，按下<code>Cammand+Shift</code>;</li>
+<li>在需要的位置按下触摸板，即可跳转回ST3到对应的代码位置</li>
 </ol>
-<h3 id="Economic-analysis-of-social-interactions"><a href="#Economic-analysis-of-social-interactions" class="headerlink" title="Economic analysis of social interactions"></a>Economic analysis of social interactions</h3><ol>
-<li>Charles F.Manski, Journal of Economic</li>
-<li>emperical analysis</li>
-<li><strong>mutually exclusive but cllectively exhaustive</strong></li>
-<li>3 effects</li>
-</ol>
-<h3 id="Pay-NOT-to-“go-to-the-gym”-by-Ivy"><a href="#Pay-NOT-to-“go-to-the-gym”-by-Ivy" class="headerlink" title="Pay NOT to “go to the gym” by Ivy"></a>Pay <em>NOT</em> to “go to the gym” by Ivy</h3><ol>
-<li>consumer behavior -&gt; maximize utility (rational expectation vs <strong>irrational</strong>)</li>
-<li>theoretical prediction &amp; empirical testing &amp; survey</li>
-<li>behaviour IO</li>
-<li>Personal view: </li>
-</ol>
-<ul>
-<li>How to quantify the utility function? </li>
-<li>not like financial product: stock, bond or derivatives, the utility of going to gym should also include non-economic factor (price), such as the potential chance of keeping the right of going to gym </li>
-</ul>
-<h3 id="Observational-Learning-Evidence-from-a-Randomized-Natural-Field-Experiment"><a href="#Observational-Learning-Evidence-from-a-Randomized-Natural-Field-Experiment" class="headerlink" title="Observational Learning: Evidence from a Randomized Natural Field Experiment"></a>Observational Learning: Evidence from a Randomized Natural Field Experiment</h3><ol>
-<li>One restaurant: whether the randomization is not good enough?</li>
-<li>Control group: pre-experiment data, one week</li>
-<li>Raking treatment table vs salience treatment table</li>
-<li>One week data </li>
-<li>DDD</li>
-<li>Coincidence, observational learning (learn the quality, more about yourself), conformity (more from others), compliance, salience</li>
-</ol>
-<h3 id="The-Spread-of-Behavior-in-an-Online-Social-Network-Experiment"><a href="#The-Spread-of-Behavior-in-an-Online-Social-Network-Experiment" class="headerlink" title="The Spread of Behavior in an Online Social Network Experiment *"></a>The Spread of Behavior in an Online Social Network Experiment <em>*</em></h3><ol>
-<li>Small world network model</li>
-<li>Network vs photonic??</li>
-<li>Social reinforcement</li>
+<h3 id="安装中遇到的问题"><a href="#安装中遇到的问题" class="headerlink" title="安装中遇到的问题"></a>安装中遇到的问题</h3><h4 id="Problem-1"><a href="#Problem-1" class="headerlink" title="Problem 1"></a>Problem 1</h4><blockquote>
+<p>Package Control: The dependency ‘python-jinja2’ is not currently installed; installing…</p>
+<p>Error loading scope:source.tsx: Unable to find syntax file for scope source.tsx in Packages/MarkdownEditing/Markdown.tmLanguage</p>
+</blockquote>
+<p>检查一下自己python的版本：</p>
+<pre><code>➜  ~ python --V
+Python 2.7.10
+</code></pre><p>检查一下自己安装的Python Package:</p>
+<pre><code>➜  ~ pip freeze
+altgraph==0.10.2
+bdist-mpkg==0.5.0
+bonjour-py==0.3
+cvxopt==1.1.8
+Jinja2==2.9.6
+macholib==1.5.1
+MarkupSafe==1.0
+matplotlib==1.3.1
+modulegraph==0.10.4
+numpy==1.8.0rc1
+pandas==0.18.1
+py2app==0.7.3
+pyobjc-core==2.5.1
+pyobjc-framework-Accounts==2.5.1
+pyobjc-framework-AddressBook==2.5.1
+pyobjc-framework-AppleScriptKit==2.5.1
+pyobjc-framework-AppleScriptObjC==2.5.1
+pyobjc-framework-Automator==2.5.1
+pyobjc-framework-CFNetwork==2.5.1
+pyobjc-framework-Cocoa==2.5.1
+pyobjc-framework-Collaboration==2.5.1
+pyobjc-framework-CoreData==2.5.1
+pyobjc-framework-CoreLocation==2.5.1
+pyobjc-framework-CoreText==2.5.1
+pyobjc-framework-DictionaryServices==2.5.1
+pyobjc-framework-EventKit==2.5.1
+pyobjc-framework-ExceptionHandling==2.5.1
+pyobjc-framework-FSEvents==2.5.1
+pyobjc-framework-InputMethodKit==2.5.1
+pyobjc-framework-InstallerPlugins==2.5.1
+pyobjc-framework-InstantMessage==2.5.1
+pyobjc-framework-LatentSemanticMapping==2.5.1
+pyobjc-framework-LaunchServices==2.5.1
+pyobjc-framework-Message==2.5.1
+pyobjc-framework-OpenDirectory==2.5.1
+pyobjc-framework-PreferencePanes==2.5.1
+pyobjc-framework-PubSub==2.5.1
+pyobjc-framework-QTKit==2.5.1
+pyobjc-framework-Quartz==2.5.1
+pyobjc-framework-ScreenSaver==2.5.1
+pyobjc-framework-ScriptingBridge==2.5.1
+pyobjc-framework-SearchKit==2.5.1
+pyobjc-framework-ServiceManagement==2.5.1
+pyobjc-framework-Social==2.5.1
+pyobjc-framework-SyncServices==2.5.1
+pyobjc-framework-SystemConfiguration==2.5.1
+pyobjc-framework-WebKit==2.5.1
+pyOpenSSL==0.13.1
+pyparsing==2.0.1
+python-dateutil==1.5
+pytz==2013.7
+requests==2.9.1
+scikit-learn==0.17.1
+scipy==0.13.0b1
+six==1.4.1
+sklearn==0.0
+vboxapi==1.0
+virtualenv==15.0.1
+xattr==0.6.4
+zope.interface==4.1.1
+You are using pip version 8.1.2, however version 9.0.1 is available.
+You should consider upgrading via the &#39;pip install --upgrade pip&#39; command.
+</code></pre><p>发现我没有jinjia2,安装<a href="http://docs.jinkan.org/docs/jinja2/intro.html#id3" target="_blank" rel="external">Jinja2 2.7 documentation</a>安装：</p>
+<pre><code>➜  ~ sudo easy_install Jinja2
+Password:
+</code></pre><h4 id="Problem-2"><a href="#Problem-2" class="headerlink" title="Problem 2"></a>Problem 2</h4><p>在测试环节，ST3 Console一直会显示：</p>
+<pre><code>  File &quot;/Users/huwei/Desktop/test.tex&quot;, line 1
+%!TEX program = xelatex
+^
+SyntaxError: invalid syntax
+</code></pre><p>或者</p>
+<pre><code>\documentclass{article}
+                       ^
+SyntaxError: unexpected character after line continuation character
+</code></pre><p>在网上查了很久也没有和我类似的问题，最后终于在<a href="https://forum.sublimetext.com/t/weird-compile-error-with-latex-tools-plugin/4346" target="_blank" rel="external">Weird compile error with Latex Tools plugin</a>找到了答案。</p>
+<p>原来因为我之前一直使用ST3编写Python，<code>Tools-&gt;Build System</code>已经被我设置成了<code>Python</code>，我们应该将其设置成<code>Automatic</code>才行。</p>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ol>
+<li><a href="http://www.jiantsou.com/using-latex-on-mac-a-simple-guide/" target="_blank" rel="external">在Mac上使用LaTeX，一份简单的指导</a></li>
+<li><a href="http://johnchancfz.github.io/blog/2014/08/10/Using-LaTeX-with-Sublime-and-Skim-for-Mac.html" target="_blank" rel="external">在Mac上通过Sublime、Skim编辑LaTeX</a></li>
+<li><a href="http://tonghuashuo.github.io/blog/latex-with-sublime-text.html" target="_blank" rel="external">使用Sublime Text编写LaTeX</a></li>
+<li><a href="https://github.com/SublimeText/LaTeXTools/blob/master/README.markdown" target="_blank" rel="external">LateXTools: A LaTeX Plugin for Sublime Text 2 and 3</a></li>
 </ol>
 
       
@@ -492,7 +602,13 @@
       
         <div class="post-tags">
           
-            <a href="/tags/information-system/" rel="tag"># information_system</a>
+            <a href="/tags/tutorial/" rel="tag"># tutorial</a>
+          
+            <a href="/tags/latex/" rel="tag"># latex</a>
+          
+            <a href="/tags/sublime-text3/" rel="tag"># sublime_text3</a>
+          
+            <a href="/tags/skim/" rel="tag"># skim</a>
           
         </div>
       
@@ -505,8 +621,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/SublimeText3+LaTex/" rel="next" title="MAC上使用SUBLIME TEXT3编写LATEX">
-                <i class="fa fa-chevron-left"></i> MAC上使用SUBLIME TEXT3编写LATEX
+              <a href="/Hexo/" rel="next" title="我在Github上搭建Hexo博客">
+                <i class="fa fa-chevron-left"></i> 我在Github上搭建Hexo博客
               </a>
             
           </div>
@@ -515,8 +631,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/区块链技术现状/" rel="prev" title="区块链现状">
-                区块链现状 <i class="fa fa-chevron-right"></i>
+              <a href="/CUHK_DSME6622_Lec2/" rel="prev" title="Lecture notes of CUHK-DSME6622">
+                Lecture notes of CUHK-DSME6622 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -683,7 +799,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Bullet-Points"><span class="nav-number">1.</span> <span class="nav-text">Bullet Points</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Presentation"><span class="nav-number">2.</span> <span class="nav-text">Presentation</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Firefox-extensions-update-classification-by-Luo-Dan"><span class="nav-number">2.1.</span> <span class="nav-text">Firefox extensions update classification by Luo Dan</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Review-online-experiment-by"><span class="nav-number">2.2.</span> <span class="nav-text">Review/online experiment by</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Economic-analysis-of-social-interactions"><span class="nav-number">2.3.</span> <span class="nav-text">Economic analysis of social interactions</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Pay-NOT-to-“go-to-the-gym”-by-Ivy"><span class="nav-number">2.4.</span> <span class="nav-text">Pay NOT to “go to the gym” by Ivy</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Observational-Learning-Evidence-from-a-Randomized-Natural-Field-Experiment"><span class="nav-number">2.5.</span> <span class="nav-text">Observational Learning: Evidence from a Randomized Natural Field Experiment</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#The-Spread-of-Behavior-in-an-Online-Social-Network-Experiment"><span class="nav-number">2.6.</span> <span class="nav-text">The Spread of Behavior in an Online Social Network Experiment *</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Preparation"><span class="nav-number">1.</span> <span class="nav-text">Preparation</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#步骤"><span class="nav-number">2.</span> <span class="nav-text">步骤</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#是否安装了MacTex"><span class="nav-number">2.1.</span> <span class="nav-text">是否安装了MacTex</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#是否安装了Sublime-Text-3"><span class="nav-number">2.2.</span> <span class="nav-text">是否安装了Sublime Text 3</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#是否安装了Skim"><span class="nav-number">2.3.</span> <span class="nav-text">是否安装了Skim</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ST3中是否安装了Package-Control"><span class="nav-number">2.4.</span> <span class="nav-text">ST3中是否安装了Package Control</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装ST3-Package-LatexTools"><span class="nav-number">2.5.</span> <span class="nav-text">安装ST3 Package: LatexTools</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#支持中文"><span class="nav-number">2.6.</span> <span class="nav-text">支持中文</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#测试"><span class="nav-number">2.7.</span> <span class="nav-text">测试</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#PDF页面进行修改"><span class="nav-number">2.8.</span> <span class="nav-text">PDF页面进行修改</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装中遇到的问题"><span class="nav-number">2.9.</span> <span class="nav-text">安装中遇到的问题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Problem-1"><span class="nav-number">2.9.1.</span> <span class="nav-text">Problem 1</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Problem-2"><span class="nav-number">2.9.2.</span> <span class="nav-text">Problem 2</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#References"><span class="nav-number">3.</span> <span class="nav-text">References</span></a></li></ol></div>
             
 
           </div>
@@ -847,9 +963,9 @@
     
       <script type="text/javascript">
         var disqus_config = function () {
-          this.page.url = 'http://blog.baoduge.com/CUHK-DSME6622 Lec2/';
-          this.page.identifier = 'CUHK-DSME6622 Lec2/';
-          this.page.title = 'Lecture notes of CUHK-DSME6622';
+          this.page.url = 'http://blog.baoduge.com/SublimeText3_LaTex/';
+          this.page.identifier = 'SublimeText3_LaTex/';
+          this.page.title = 'MAC上使用SUBLIME TEXT3编写LATEX';
         };
         var d = document, s = d.createElement('script');
         s.src = 'https://baoduge.disqus.com/embed.js';
