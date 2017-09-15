@@ -256,6 +256,10 @@
 <li>用R搭建Blogdown:<br><a href="http://dapengde.com/archives/19304" target="_blank" rel="external">用 R blogdown 搭建个人博客或科研网站</a><br><a href="https://yihui.name/cn/2017/06/notebooks/#fn:-1" target="_blank" rel="external">R Markdown Notebook 与 Jupyter / IPython Notebook</a><br><a href="http://rmarkdown.rstudio.com/" target="_blank" rel="external">R Markdown</a><br><a href="https://www.r-bloggers.com/blogging-with-rmarkdown-knitr-and-jekyll/" target="_blank" rel="external">Blogging with Rmarkdown, knitr, and Jekyll | R-bloggers</a></li>
 <li>Hexo博客实现中英双语言：<br><a href="http://trigon.me/zh-cn/finish-i18n/" target="_blank" rel="external">简单方法实现Hexo中的多语言</a><br><a href="https://hexo.io/zh-cn/docs/internationalization.html" target="_blank" rel="external">Hexo:国际化（i18n）</a><br><a href="http://kvh.io/cn/hexo-nginx-multi-lingual.html" target="_blank" rel="external">Hexo 与 Nginx 实现沉浸式多语言博客</a><br><a href="https://chenyxmr.github.io/2016/08/04/hexo-bilingual/" target="_blank" rel="external">hexo实现中英双语博客教程</a></li>
 </ol>
+<h3 id="2017-09-15"><a href="#2017-09-15" class="headerlink" title="2017-09-15"></a>2017-09-15</h3><ol>
+<li>Sufficient statistics?</li>
+<li>Count Data?</li>
+</ol>
 ]]></content>
       
         <categories>
@@ -346,13 +350,13 @@
             
             <tag> information_system </tag>
             
+            <tag> github </tag>
+            
             <tag> study_plan </tag>
             
             <tag> statistics </tag>
             
             <tag> mathematics </tag>
-            
-            <tag> github </tag>
             
             <tag> materials </tag>
             
@@ -744,9 +748,9 @@ $ hexo d
         
         <tags>
             
-            <tag> github </tag>
-            
             <tag> hexo </tag>
+            
+            <tag> github </tag>
             
             <tag> tutorial </tag>
             
@@ -801,12 +805,6 @@ $ hexo d
   
     
     <entry>
-      <title><![CDATA[All Tags]]></title>
-      <url>/tags/index.html</url>
-      <content type="html"></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[about]]></title>
       <url>/about/index.html</url>
       <content type="html"><![CDATA[<h2 id="About-Me"><a href="#About-Me" class="headerlink" title="About Me"></a>About Me</h2><p><a href="http://baoduge.com/about_baoduge/" target="_blank" rel="external">About Me</a></p>
@@ -816,6 +814,12 @@ $ hexo d
     <entry>
       <title><![CDATA[All Categories]]></title>
       <url>/categories/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[All Tags]]></title>
+      <url>/tags/index.html</url>
       <content type="html"></content>
     </entry>
     
