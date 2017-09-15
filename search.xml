@@ -114,9 +114,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[about]]></title>
-    <url>%2Fabout%2Findex.html</url>
-    <content type="text"><![CDATA[About MeAbout Me]]></content>
+    <title><![CDATA[All Tags]]></title>
+    <url>%2Ftags%2Findex.html</url>
+    <content type="text"></content>
   </entry>
   <entry>
     <title><![CDATA[All Categories]]></title>
@@ -124,8 +124,8 @@
     <content type="text"></content>
   </entry>
   <entry>
-    <title><![CDATA[All Tags]]></title>
-    <url>%2Ftags%2Findex.html</url>
-    <content type="text"></content>
+    <title><![CDATA[about]]></title>
+    <url>%2Fabout%2Findex.html</url>
+    <content type="text"><![CDATA[About MeAbout Me]]></content>
   </entry>
 </search>
