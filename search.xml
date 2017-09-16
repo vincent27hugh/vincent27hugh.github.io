@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Project plan of IS-Robo-Adisor]]></title>
-    <url>%2Fra_project_plan%2F</url>
-    <content type="text"><![CDATA[Please enter the password! U2FsdGVkX19UszG/Q8tR578WU8w/xjcaHC52UQsgdFg=]]></content>
-      <categories>
-        <category>notes</category>
-      </categories>
-      <tags>
-        <tag>robo_advisor</tag>
-        <tag>fintech</tag>
-        <tag>project</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[Robo-Advisor Introduction]]></title>
     <url>%2FRobo_Advisor_Introduction%2F</url>
     <content type="text"><![CDATA[What is Robo-Advisor? Robo-advisors or Robo-advisers are a class of financial adviser that provide financial advice or portfolio management online with moderate to minimal human intervention. -Wikipedia Robo-advisor (A.K.A. Intelligent Investment) can provide automated investment management services, which requires little or low human interactions once the clients ensure their initial preferences. General Process &amp; Mechanism of Robo-AdvisorRisk Tolerance Questionnaire (RTQ)RTQ is a questionnaire about customers’ personal financial goals and tolerance for risk. Rebalancing Process Robo provides asset allocation and investment selection. Automatic deposits from payroll, systematic investment plans, and automatic rebalancing The robo-advisor software will make periodic adjustments over time. Theories &amp; TechniquesMordern Portfolio Theory Input: User Info; Output: Portfolio; Mean-Variance Optimization Deferential Manifold and Topology Use tensor to describe the portfolio space; Find topological invariant and predict； Deferential Manifold； Machine Learning Random effect function Reinforcement learning Finance Risk Management Mutual Fund FOF product Diversified Investment: — Passive management: mainly index fund or ETF (Exchange-Trade Funds) — Stocks, bonds, mutual funds, futures, and real estate may be used Websites about Robo Advisor nerdwallet-investing investmentzen-best robo advisor Independent Robo-Advisors (Overseas) Betterment Wealthfront Personal Capital Sigfig Vanguard Rebalance IRA WiseBanyan Wealthsimple Blooom Schwab Intelligent Portfolios Ally:TradeKing Advisor Hedgeable FutureAdvisor Motif Investing TD Ameritrade Merill Edge ETRADE Acorns Eoption tradestation InteractiveBrokers Fiedelity GO Alpha Architect Robo Cambria Digital Advisor Independent Robo-Advisors (Domestic)1 Ant Group: iGoldenBeta 招商银行：摩羯智投 金融界：灵犀智投 宜信财富：投米RA 理财魔方 蛋卷基金 平安壹账通：智能财富管家 华夏银行智能投顾 Features Optimal investment strategy to non-professional investors Customized Automation Low commission fee DisadvantagesNo too much AI&amp;Big Data yet in the industry (Speech Recognition, Big Data) Academic Readings Moody, J., Wu, L., Liao, Y., &amp; Saffell, M. (1998). Performance functions and reinforcement learning for trading systems and portfolios. Journal of Forecasting, 17(56), 441-470. Neuneier, R., &amp; Mihatsch, O. (1999). Risk sensitive reinforcement learning. In Advances in Neural Information Processing Systems (pp. 1031-1037). Dempster, M. A., &amp; Jones, C. M. (2001). A real-time adaptive trading system using genetic programming. Quantitative Finance, 1(4), 397-413. Li, B., &amp; Hoi, S. C. (2014). Online portfolio selection: A survey. ACM Computing Surveys (CSUR), 46(3), 35. Galindo, J., &amp; Tamayo, P. (2000). Credit risk assessment using statistical and machine learning: basic methodology and risk modeling applications. Computational Economics, 15(1), 107-143. Dempster, M. A., &amp; Leemans, V. (2006). An automated FX trading system using adaptive reinforcement learning. Expert Systems with Applications, 30(3), 543-552. Nevmyvaka, Y., Feng, Y., &amp; Kearns, M. (2006, June). Reinforcement learning for optimized trade execution. In Proceedings of the 23rd international conference on Machine learning (pp. 673-680). ACM. Jiang, Z., &amp; Liang, J. (2016). Cryptocurrency Portfolio Management with Deep Reinforcement Learning. arXiv preprint arXiv:1612.01277. Moody, J. E., Saffell, M., Liao, Y., &amp; Wu, L. (1998, August). Reinforcement Learning for Trading Systems and Portfolios. In KDD (pp. 279-283). Non-academic Readings ACCENTURE: The Rise of Robo-Advice: Changing the Concept of Wealth Management CGI: [Beyond Robo-Advisors:Using Technology to Power New Methods of Client Advice and Interaction] Deloitte: Robo-Advisory in Wealth Management IPSOS: Robo-advisors: the rise of automated financial advice McKinsey &amp; Company: ARTIFICIAL INTELLIGENCE THE NEXT DIGITAL FRONTIER? Wealthfront Investment: Methodology White Paper Betterment - White Paper: Tax Loss Harvesting+™ Schwab - Rebalancing and Tax-Loss Harvesting in Schwab Intelligent Portfolios™ Casual Readings 知乎：智能投顾是什么？「智能」体现在哪些方面？ 一文读懂智能投顾的商业逻辑和模型算法 知乎：什么是智能投顾？ 华尔街见闻：智能投顾是怎样炼成的？ 知乎LIVE:智能投顾是什么？ CNBC: Goldman building robo-adviser to give investment advice to the masses CNBC: Machine learning is transforming investment strategies for asset managers American Banker: Beyond Robo-Advisers: How AI Could Rewire Wealth Management The Economist: Ask the algorithm Quora: Is there any hedge fund using Machine learning based algorithms for trading? Quora: Can deep reinforcement learning be used to make automated trading better? INSIGHT: Machine Learning in Finance: Is a Robo-Advisor Smart Enough to Invest Your Savings? NerdWallet: Best Robo-Advisors: 2017 Top Picks INVESTOPEDIA: 9 Top Robo-Advisors for Financial Advisors StackExchange:Which algorithms do robo-advisors use? Mr Money Mustache Blog: The Betterment Experiment – Results NerdWallet: Best Online Brokers for Stock Trading 2017 The Balance: A Look at the Top Robo-Advisor Services Artificial Intelligence led disruption in Trading Possible TopicsMarket/Strategy Survey of Robo-Advisor Market and its impact Behavior Survey: How do human trust Robo-Advisor? Economics Trend analysis of Robot-Advisor Technology Portfolio Management view of Robo-Advisor In-depth exploration of Robo-Advisor framework 1. 中国智能投顾行业2017年8月发展月报 &#8617;]]></content>
@@ -23,18 +10,6 @@
       <tags>
         <tag>robo_advisor</tag>
         <tag>fintech</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Logs and Questions]]></title>
-    <url>%2F2017_Logs_Questions%2F</url>
-    <content type="text"><![CDATA[2017-07-07 What is Technology-Organization-Environment (T-O-E) Framework? What is Diffusion of Innovation (DOI) Theory? What is Feauture selection? Review Logistic Regression and OLS Reg Robostic Test? decision making virtualenv vs anaconda? Some useful links: Python—Virtualenv简明教程Python指南：虚拟环境Anacodna之conda与 virtualenv对比使用教程，创建虚拟环境 2017-07-09 Manipulate: Interactive Parametrized Plotting 【转】MATLAB GUI 入门教程 [MATLAB GUI] 最全的MATLAB Gui 教程合集 MATLAB App Designer教程连载1：如何使用App Designer进行的简单的GUI设计 2017-07-10 Make a circle illusion animation 做一个圆幻幻动画 知乎：Mathematica 到底有多厉害？ 2017-07-13 代码实现WordPress归档页面模板[速度很快] WordPress添加文章归档页面 2017-07-17 Mac键盘如何开启F1 - F12功能键 Mac快捷键大全 Does anyone know how to run selection on mac? Google大陆替代 matlab 字符串中输入单引号 how to break a long legend text into two lines Why do figures exported using the SAVEAS function and the File-&gt;Save As menu item have different resolutions and file sizes? 2017-07-21 Quantitative vs. Qualitative? What is Decision Suport System? 2017-07-31 Problem Solving with Algorithms and Data Structures using Python 知乎：有哪些用 Python 语言讲算法和数据结构的书？ Introduction to Algorithms Computational Physics, 2nd Edition Computational Physics with Python 2017-08-01 知乎：「劣后」是个什么概念？经常用于什么场景？ 房地产投资信托 信托与基金有何区别？ 2017-09-09 Document analysis Automatic summarization Text simplification Sentiment analysis LDA PRSL keyword Labeled LDA, Supervised ML Topic Model Topic trend: Trendsmap: Real-time Twitter Trending Topics Python textblob Domain-centric LDA Text mining Data streaming techniques? User analysis 2017-09-11Latex template Overleaf How can I make a slide with Latex Fun with Beamer First Beamer Presentation with LaTeX and Sublime Text 2 Note System 3 Easy Steps to Digitize Your Study Notes SELF IMPROVEMENT:A Quick &amp; Dirty Guide to Perfect Digital Note-Taking About Blog Atom vs sublime? Jekyll vs Hexo? How Writing A Science Blog Saved My PhD The Top 9 Business Intelligence Blogs You Should Be Reading 2017-09-12 Is there any toy models for ML? Quora: What are some really interesting machine learning projects for beginners? 机器学习笔记:机器学习以及tensorflow笔记 by Ni Pengfei 学习Bookdown：How to Start a Bookdown Book 用R搭建Blogdown:用 R blogdown 搭建个人博客或科研网站R Markdown Notebook 与 Jupyter / IPython NotebookR MarkdownBlogging with Rmarkdown, knitr, and Jekyll | R-bloggers Hexo博客实现中英双语言：简单方法实现Hexo中的多语言Hexo:国际化（i18n）Hexo 与 Nginx 实现沉浸式多语言博客hexo实现中英双语博客教程 2017-09-15 Sufficient statistics? Count Data? 2017-09-16 hexo-blog-encrypt]]></content>
-      <categories>
-        <category>logs</category>
-      </categories>
-      <tags>
-        <tag>study</tag>
-        <tag>research</tag>
       </tags>
   </entry>
   <entry>
@@ -51,6 +26,18 @@
         <tag>mathematics</tag>
         <tag>github</tag>
         <tag>materials</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Logs and Questions]]></title>
+    <url>%2F2017_Logs_Questions%2F</url>
+    <content type="text"><![CDATA[2017-07-07 What is Technology-Organization-Environment (T-O-E) Framework? What is Diffusion of Innovation (DOI) Theory? What is Feauture selection? Review Logistic Regression and OLS Reg Robostic Test? decision making virtualenv vs anaconda? Some useful links: Python—Virtualenv简明教程Python指南：虚拟环境Anacodna之conda与 virtualenv对比使用教程，创建虚拟环境 2017-07-09 Manipulate: Interactive Parametrized Plotting 【转】MATLAB GUI 入门教程 [MATLAB GUI] 最全的MATLAB Gui 教程合集 MATLAB App Designer教程连载1：如何使用App Designer进行的简单的GUI设计 2017-07-10 Make a circle illusion animation 做一个圆幻幻动画 知乎：Mathematica 到底有多厉害？ 2017-07-13 代码实现WordPress归档页面模板[速度很快] WordPress添加文章归档页面 2017-07-17 Mac键盘如何开启F1 - F12功能键 Mac快捷键大全 Does anyone know how to run selection on mac? Google大陆替代 matlab 字符串中输入单引号 how to break a long legend text into two lines Why do figures exported using the SAVEAS function and the File-&gt;Save As menu item have different resolutions and file sizes? 2017-07-21 Quantitative vs. Qualitative? What is Decision Suport System? 2017-07-31 Problem Solving with Algorithms and Data Structures using Python 知乎：有哪些用 Python 语言讲算法和数据结构的书？ Introduction to Algorithms Computational Physics, 2nd Edition Computational Physics with Python 2017-08-01 知乎：「劣后」是个什么概念？经常用于什么场景？ 房地产投资信托 信托与基金有何区别？ 2017-09-09 Document analysis Automatic summarization Text simplification Sentiment analysis LDA PRSL keyword Labeled LDA, Supervised ML Topic Model Topic trend: Trendsmap: Real-time Twitter Trending Topics Python textblob Domain-centric LDA Text mining Data streaming techniques? User analysis 2017-09-11Latex template Overleaf How can I make a slide with Latex Fun with Beamer First Beamer Presentation with LaTeX and Sublime Text 2 Note System 3 Easy Steps to Digitize Your Study Notes SELF IMPROVEMENT:A Quick &amp; Dirty Guide to Perfect Digital Note-Taking About Blog Atom vs sublime? Jekyll vs Hexo? How Writing A Science Blog Saved My PhD The Top 9 Business Intelligence Blogs You Should Be Reading 2017-09-12 Is there any toy models for ML? Quora: What are some really interesting machine learning projects for beginners? 机器学习笔记:机器学习以及tensorflow笔记 by Ni Pengfei 学习Bookdown：How to Start a Bookdown Book 用R搭建Blogdown:用 R blogdown 搭建个人博客或科研网站R Markdown Notebook 与 Jupyter / IPython NotebookR MarkdownBlogging with Rmarkdown, knitr, and Jekyll | R-bloggers Hexo博客实现中英双语言：简单方法实现Hexo中的多语言Hexo:国际化（i18n）Hexo 与 Nginx 实现沉浸式多语言博客hexo实现中英双语博客教程 2017-09-15 Sufficient statistics? Count Data? 2017-09-16 hexo-blog-encrypt]]></content>
+      <categories>
+        <category>logs</category>
+      </categories>
+      <tags>
+        <tag>study</tag>
+        <tag>research</tag>
       </tags>
   </entry>
   <entry>
@@ -129,16 +116,16 @@
   <entry>
     <title><![CDATA[About Me]]></title>
     <url>%2Fabout%2Findex.html</url>
-    <content type="text"><![CDATA[Hello, welcome to the NERVERLAND, a blog supported by GitHub and Hexo. Neverland is a fictional location featured in the works of J. M. Barrie and those based on them. It is an imaginary faraway place, where Peter Pan, Tinker Bell, the Lost Boys and other mythical creatures and beings live. —Wikipedia NEVERLAND is a place of fantacy and I hope to build a blog full of bold innovation and wonderful ideas. If you have any creative thoughs on no matter science&amp;technology or phylosophy of life, feel free to contact with me via email &#x68;&#x75;&#x77;&#101;&#105;&#x68;&#117;&#103;&#104;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#109;. (You can find my email on the sidebar of this page.) I am a PhD. of Information System from City University of Hong Kong. If you would like to know more about me, you can click BAODUGE-About.]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[All Tags]]></title>
-    <url>%2Ftags%2Findex.html</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[Hello, welcome to the NERVERLAND, a blog supported by GitHub and Hexo. Neverland is a fictional location featured in the works of J. M. Barrie and those based on them. It is an imaginary faraway place, where Peter Pan, Tinker Bell, the Lost Boys and other mythical creatures and beings live. —Wikipedia NEVERLAND is a place of fantacy and I hope to build a blog full of bold innovation and wonderful ideas. If you have any creative thoughs on no matter science&amp;technology or phylosophy of life, feel free to contact with me via email &#x68;&#117;&#119;&#101;&#105;&#x68;&#117;&#103;&#x68;&#64;&#x67;&#x6d;&#97;&#x69;&#108;&#x2e;&#99;&#111;&#x6d;. (You can find my email on the sidebar of this page.) I am a PhD. of Information System from City University of Hong Kong. If you would like to know more about me, you can click BAODUGE-About.]]></content>
   </entry>
   <entry>
     <title><![CDATA[All Categories]]></title>
     <url>%2Fcategories%2Findex.html</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[All Tags]]></title>
+    <url>%2Ftags%2Findex.html</url>
     <content type="text"></content>
   </entry>
 </search>
