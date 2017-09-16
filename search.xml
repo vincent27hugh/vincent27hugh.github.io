@@ -165,6 +165,97 @@
     </entry>
     
     <entry>
+      <title><![CDATA[My Self-Study Plan]]></title>
+      <url>/2017_Study_Plan/</url>
+      <content type="html"><![CDATA[<p>I hope that I could accomplish these goals on time. Good luck!</p>
+<h2 id="1-机器学习"><a href="#1-机器学习" class="headerlink" title="1. 机器学习"></a>1. 机器学习</h2><h3 id="Courses"><a href="#Courses" class="headerlink" title="Courses"></a>Courses</h3><h4 id="Main-stream"><a href="#Main-stream" class="headerlink" title="Main stream"></a>Main stream</h4><ul>
+<li>Basics:<a href="https://see.stanford.edu/Course/CS229/47" target="_blank" rel="external">CMU:CS229 Machine Learning by Andrew Ng</a></li>
+<li>NLP: <a href="http://cs224d.stanford.edu/syllabus.html" target="_blank" rel="external">CS224d: Deep Learning for Natural Language Processing</a></li>
+<li>Information Retrieval: <a href="https://nlp.stanford.edu/IR-book/" target="_blank" rel="external">Introduction to Information Retrieval</a></li>
+<li>Information Theory: <a href="http://videolectures.net/course_information_theory_pattern_recognition/" target="_blank" rel="external">Course on Information Theory, Pattern Recognition, and Neural Networks (David MacKay, University of Cambridge)</a></li>
+<li>Deep Learning: <a href="https://www.youtube.com/watch?v=yp9rwI_LZX8&amp;list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg" target="_blank" rel="external">CS231N - Convolutional Neural Networks</a></li>
+<li>Deep Learning: <a href="https://www.youtube.com/watch?v=M8-7vWfJ1jQ&amp;list=PLG2vLZDgC_ZtmIBB5ERZE4EmMS__n_9GV" target="_blank" rel="external">Neural Networks and Deep Learning - Andrew Ng, deeplearning.ai (Coursera)</a></li>
+<li><a href="https://www.youtube.com/results?search_query=machien+learning+finance" target="_blank" rel="external">Machine Learning for Trading | Udacity</a></li>
+<li><a href="https://www.youtube.com/watch?v=gCaOa3W9kM0&amp;list=PLu4tKdGHFGNUpt9R6tWNraxJvnBh--xP0" target="_blank" rel="external">Machine Learning - Recommender systems</a></li>
+<li>知识管理</li>
+<li>社会计算、社会物理学、金融物理、金融数学</li>
+</ul>
+<h4 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h4><p><a href="http://cs109.github.io/2015/" target="_blank" rel="external">Harvard:CS109 Data Science</a><br><a href="https://www.willamette.edu/~gorr/classes/cs449/" target="_blank" rel="external">Materials of CS-449: Neural Networks (Willamette University)</a><br><a href="https://www.coursera.org/specializations/jhu-data-science" target="_blank" rel="external">Coursera:Data Science 专项课程</a><br><a href="http://www.stat.cmu.edu/~larry/=sml/" target="_blank" rel="external">CMU:Statistical Machine Learning</a><br><a href="http://fastml.com/machine-learning-courses-online/" target="_blank" rel="external">FastML: Machine Learning made easy</a><br><a href="http://videolectures.net/site/search/?q=MLSS" target="_blank" rel="external">Videolecture net：Machine learning</a><br><a href="http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/" target="_blank" rel="external">Dataschool:In-depth introduction to machine learning in 15 hours of expert videos</a><br><a href="https://www.coursereport.com/blog/learn-data-science-at-these-13-bootcamps-and-programs" target="_blank" rel="external">CourseReport: Learn Data Science at These 22 Bootcamps</a></p>
+<h3 id="Books"><a href="#Books" class="headerlink" title="Books"></a>Books</h3><h4 id="Intro-to-AI"><a href="#Intro-to-AI" class="headerlink" title="Intro to AI"></a>Intro to AI</h4><ul>
+<li><a href="1.Machine Learning/AI_Russell.pdf">AI by Ruseull</a></li>
+</ul>
+<h4 id="Machine-Learning"><a href="#Machine-Learning" class="headerlink" title="Machine Learning"></a>Machine Learning</h4><ul>
+<li><a href="1.Machine Learning/PRML_Bishop.pdf">Bishop</a></li>
+<li><a href="https://www.cs.ubc.ca/~murphyk/MLbook/" target="_blank" rel="external">MLAPP</a></li>
+<li><a href="https://github.com/probml/pmtk3" target="_blank" rel="external">MLAPP Code</a></li>
+<li><a href="1.Machine Learning/ML in Py.pdf">ML in Python</a></li>
+<li><a href="https://www.amazon.cn/%E5%9B%BE%E4%B9%A6/dp/B01ARKEV1G" target="_blank" rel="external">西瓜书</a> </li>
+<li><a href="http://blog.csdn.net/icefire_tyh/article/details/52064910" target="_blank" rel="external">机器学习(周志华西瓜书) 参考答案 总目录</a></li>
+<li><a href="https://www.gitbook.com/book/htygithub/machine-learning-python/details" target="_blank" rel="external">機器學習：使用Python</a></li>
+</ul>
+<h4 id="Deep-Learning"><a href="#Deep-Learning" class="headerlink" title="Deep Learning:"></a>Deep Learning:</h4><p><a href="http://www.deeplearningbook.org/" target="_blank" rel="external">Deep Learning: An MIT Press book</a></p>
+<h4 id="推荐系统："><a href="#推荐系统：" class="headerlink" title="推荐系统："></a>推荐系统：</h4><ul>
+<li><a href="https://book.douban.com/subject/10769749/" target="_blank" rel="external">推荐系统实践 by 项亮</a></li>
+<li><a href="http://www.cs.ubbcluj.ro/~gabis/DocDiplome/SistemeDeRecomandare/Recommender_systems_handbook.pdf" target="_blank" rel="external">Recommendation System Handbook</a></li>
+</ul>
+<h4 id="自然语言处理"><a href="#自然语言处理" class="headerlink" title="自然语言处理"></a>自然语言处理</h4><p><a href="https://book.douban.com/subject/25746399/" target="_blank" rel="external">统计自然语言处理（第2版）by 宗成庆</a></p>
+<h4 id="课外读物推荐"><a href="#课外读物推荐" class="headerlink" title="课外读物推荐"></a>课外读物推荐</h4><p><a href="https://book.douban.com/subject/26931905/" target="_blank" rel="external">终极算法</a></p>
+<h3 id="Projects"><a href="#Projects" class="headerlink" title="Projects"></a>Projects</h3><p><a href="http://machinelearningmastery.com/" target="_blank" rel="external">Tutorials and Projects To Help You：Learn and Apply Machine Learning – Fast!</a><br><a href="http://www.thisismetis.com/" target="_blank" rel="external">Thisismetis: DATA SCIENCE TRAINING</a><br><a href="https://www.dataquest.io/" target="_blank" rel="external">DATAQUEST:Learn real-world data science skills</a></p>
+<h4 id="数据爬取工具"><a href="#数据爬取工具" class="headerlink" title="数据爬取工具"></a>数据爬取工具</h4><p>Python Scrapy<br><a href="https://scrapy.org" target="_blank" rel="external">下载地址</a>, <a href="http://www.jb51.net/article/48607.htm" target="_blank" rel="external">安装及使用步骤</a>, <a href="http://www.jb51.net/article/57183.htm" target="_blank" rel="external">操纵指南</a></p>
+<p>（2）NITK<br>自然语言处理的Python开源工具<br><a href="http://www.nltk.org" target="_blank" rel="external">相关工具包和教程可下载</a><a href="http://blog.csdn.net/huyoo/article/details/12188573" target="_blank" rel="external">中文使用介绍</a>, <a href="http://blog.csdn.net/huang2009303513/article/details/14498473" target="_blank" rel="external">有助于了解各个包的意思和作用的链接</a></p>
+<p><a href="https://github.com/egrcc/zhihu-python - zhihu-python获取知乎信息" target="_blank" rel="external">zhihu-python：获取知乎信息</a><br>介绍：zhihu-python 采用 Python2.7 编写，用来方便地获取知乎上各种内容的信息，并且可以方便地将答案备份导出为 txt 或 markdown 文件。由于知乎官方目前没有提供 api，所以有了此项目的存在。使用 Python3 的类似项目可以参见：zhihu-py3 。使用 PHP 的类似项目可以参见：zhihu-php 。使用 Go 的类似项目可以参见：zhihu-go 。</p>
+<h3 id="List-of-list"><a href="#List-of-list" class="headerlink" title="List of list"></a>List of list</h3><p><a href="http://videolectures.net/Top/Computer_Science/Machine_Learning/" target="_blank" rel="external">Machine Learning Category on VideoLectures.Net</a><br><a href="http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/" target="_blank" rel="external">A Tour of Machine Learning Algorithms</a><br><a href="http://ml.memect.com/article/machine-learning-guide.html" target="_blank" rel="external">机器学习入门资源不完全汇总（tang_Kaka_back@新浪微博）</a><br><a href="https://github.com/ty4z2008/Qix/blob/master/dl.md#机器学习machine-learning深度学习deep-learning资料chapter-1" target="_blank" rel="external">机器学习(Machine Learning)&amp;深度学习(Deep Learning)资料(Chapter 1)</a><br><a href="https://github.com/ty4z2008/Qix/blob/master/dl2.md" target="_blank" rel="external">机器学习(Machine Learning)&amp;深度学习(Deep Learning)资料(Chapter 2)</a></p>
+<h3 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h3><p><a href="http://www.open-open.com/lib/view/open1428112201271.html" target="_blank" rel="external">深度开源OPEN经验：机器学习(Machine Learning)&amp;深度学习(Deep Learning)资料</a><br><a href="http://www.cnblogs.com/mldllearningforbai/p/5316728.html" target="_blank" rel="external">[转]机器学习入门</a></p>
+<h3 id="Blog-amp-Website"><a href="#Blog-amp-Website" class="headerlink" title="Blog &amp; Website"></a>Blog &amp; Website</h3><h4 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h4><p><a href="http://www.cnblogs.com/mldllearningforbai/p/5351584.html" target="_blank" rel="external">[转]机器学习经典书籍</a><br><a href="http://www.liaoxuefeng.com/" target="_blank" rel="external">廖雪峰的官方网站</a><br><a href="http://xccds1977.blogspot.hk/" target="_blank" rel="external">数据科学中的R和Python</a><br><a href="http://www.cnblogs.com/siegfang/" target="_blank" rel="external">学飞 从坠落开始 博客</a><br><a href="https://cos.name/" target="_blank" rel="external">统计之都</a><br><a href="http://homepage.hit.edu.cn/pages/xitongguo" target="_blank" rel="external">哈工大电子健康研究所：郭熙铜</a></p>
+<p><a href="http://rec-sys.net/forum.php" target="_blank" rel="external">推荐系统论坛</a><br><a href="http://sim.whu.edu.cn/sz/jsxq/5/2016-05-09/898.html" target="_blank" rel="external">武汉大学信息管理学院：曾子明</a><br><a href="https://zhuanlan.zhihu.com/p/23036112" target="_blank" rel="external">推荐系统常用的推荐算法</a><br><a href="https://www.microsoft.com/en-us/research/group/social-computing-beijing/" target="_blank" rel="external">Microsoft-Social Computing (Asia)</a><br><a href="http://nlp.csai.tsinghua.edu.cn/site2/index.php/zh" target="_blank" rel="external">清华大学自然语言处理与社会人文计算实验室</a><br><a href="http://idke.ruc.edu.cn/index_cn.htm" target="_blank" rel="external">中国人民大学：网络与移动数据管理实验室</a></p>
+<h4 id="English"><a href="#English" class="headerlink" title="English"></a>English</h4><p><a href="http://dicook.org/index.html" target="_blank" rel="external">Professor Di Cook, Department of Econometrics and Business Statistics, Monash Uni</a><br><a href="https://www.r-bloggers.com/" target="_blank" rel="external">R-blogger</a>: R news and tutorials contributed by (580) R bloggers<br><a href="https://prdeepakbabu.wordpress.com/" target="_blank" rel="external">wordpress: -Nest generation BI</a></p>
+<p><a href="http://public.econ.duke.edu/~ap172/code.html" target="_blank" rel="external">Andrew Patton’s MATLAB code page</a>: This page contains some of the MATLAB code I’ve written during the course of my research. If you find any mistakes or bugs in the code please let me know.<br>This code is being released under a BSD license, which means that you can do pretty much what ever you want with it, including make money by selling it.</p>
+<p><a href="http://www.datatau.com/" target="_blank" rel="external">Datatau</a><br><a href="http://sebastianruder.com/ - open" target="_blank" rel="external">Blog of Sebastian Ruder</a>: I’m a PhD student in Natural Language Processing and a research scientist at AYLIEN. I blog about Machine Learning, Deep Learning, NLP, and startups.</p>
+<h2 id="2-统计"><a href="#2-统计" class="headerlink" title="2. 统计"></a>2. 统计</h2><h3 id="Books-1"><a href="#Books-1" class="headerlink" title="Books"></a>Books</h3><ul>
+<li><a href="http://www-bcf.usc.edu/~gareth/ISL/index.html" target="_blank" rel="external">ISLR</a></li>
+<li><a href="1.Machine Learning/ESL.pdf">ESL by Hastie</a></li>
+<li><a href="https://www.amazon.cn/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E6%9D%8E%E8%88%AA/dp/B007TSFMTA" target="_blank" rel="external">统计学习 by 李航</a></li>
+<li><a href="Stat&amp;Prob/IPSUR.pdf">IPSUR</a></li>
+</ul>
+<h3 id="Courses-1"><a href="#Courses-1" class="headerlink" title="Courses"></a>Courses</h3><h2 id="3-复习数学相关"><a href="#3-复习数学相关" class="headerlink" title="3. 复习数学相关"></a>3. 复习数学相关</h2><h3 id="Courses-2"><a href="#Courses-2" class="headerlink" title="Courses"></a>Courses</h3><h4 id="最优化"><a href="#最优化" class="headerlink" title="最优化"></a>最优化</h4><ul>
+<li><a href="http://stanford.edu/class/ee364a/index.html" target="_blank" rel="external">Stanford:EE364a: Convex Optimization I</a></li>
+</ul>
+<h4 id="Data-structure-and-algorithms"><a href="#Data-structure-and-algorithms" class="headerlink" title="Data structure and algorithms"></a>Data structure and algorithms</h4><p><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/" target="_blank" rel="external">MIT:Introduction to Algorithms</a></p>
+<h3 id="Books-2"><a href="#Books-2" class="headerlink" title="Books"></a>Books</h3><h2 id="4-Information-System"><a href="#4-Information-System" class="headerlink" title="4. Information System"></a>4. Information System</h2><h3 id="Books-3"><a href="#Books-3" class="headerlink" title="Books"></a>Books</h3><ul>
+<li><a href="">Decision Support System</a></li>
+<li>Decision theory</li>
+<li>network optimization</li>
+<li>control theory： Stichastic Control Theory</li>
+<li>Operation Research</li>
+</ul>
+<h2 id="5-Github-hexo-markdown等"><a href="#5-Github-hexo-markdown等" class="headerlink" title="5. Github/hexo/markdown等"></a>5. Github/hexo/markdown等</h2>]]></content>
+      
+        <categories>
+            
+            <category> notes </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> information_system </tag>
+            
+            <tag> study_plan </tag>
+            
+            <tag> statistics </tag>
+            
+            <tag> mathematics </tag>
+            
+            <tag> github </tag>
+            
+            <tag> materials </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Logs and Questions]]></title>
       <url>/2017_Logs_Questions/</url>
       <content type="html"><![CDATA[<h3 id="2017-07-07"><a href="#2017-07-07" class="headerlink" title="2017-07-07"></a>2017-07-07</h3><ol>
@@ -274,97 +365,6 @@
             <tag> study </tag>
             
             <tag> research </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[My Self-Study Plan]]></title>
-      <url>/2017_Study_Plan/</url>
-      <content type="html"><![CDATA[<p>I hope that I could accomplish these goals on time. Good luck!</p>
-<h2 id="1-机器学习"><a href="#1-机器学习" class="headerlink" title="1. 机器学习"></a>1. 机器学习</h2><h3 id="Courses"><a href="#Courses" class="headerlink" title="Courses"></a>Courses</h3><h4 id="Main-stream"><a href="#Main-stream" class="headerlink" title="Main stream"></a>Main stream</h4><ul>
-<li>Basics:<a href="https://see.stanford.edu/Course/CS229/47" target="_blank" rel="external">CMU:CS229 Machine Learning by Andrew Ng</a></li>
-<li>NLP: <a href="http://cs224d.stanford.edu/syllabus.html" target="_blank" rel="external">CS224d: Deep Learning for Natural Language Processing</a></li>
-<li>Information Retrieval: <a href="https://nlp.stanford.edu/IR-book/" target="_blank" rel="external">Introduction to Information Retrieval</a></li>
-<li>Information Theory: <a href="http://videolectures.net/course_information_theory_pattern_recognition/" target="_blank" rel="external">Course on Information Theory, Pattern Recognition, and Neural Networks (David MacKay, University of Cambridge)</a></li>
-<li>Deep Learning: <a href="https://www.youtube.com/watch?v=yp9rwI_LZX8&amp;list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg" target="_blank" rel="external">CS231N - Convolutional Neural Networks</a></li>
-<li>Deep Learning: <a href="https://www.youtube.com/watch?v=M8-7vWfJ1jQ&amp;list=PLG2vLZDgC_ZtmIBB5ERZE4EmMS__n_9GV" target="_blank" rel="external">Neural Networks and Deep Learning - Andrew Ng, deeplearning.ai (Coursera)</a></li>
-<li><a href="https://www.youtube.com/results?search_query=machien+learning+finance" target="_blank" rel="external">Machine Learning for Trading | Udacity</a></li>
-<li><a href="https://www.youtube.com/watch?v=gCaOa3W9kM0&amp;list=PLu4tKdGHFGNUpt9R6tWNraxJvnBh--xP0" target="_blank" rel="external">Machine Learning - Recommender systems</a></li>
-<li>知识管理</li>
-<li>社会计算、社会物理学、金融物理、金融数学</li>
-</ul>
-<h4 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h4><p><a href="http://cs109.github.io/2015/" target="_blank" rel="external">Harvard:CS109 Data Science</a><br><a href="https://www.willamette.edu/~gorr/classes/cs449/" target="_blank" rel="external">Materials of CS-449: Neural Networks (Willamette University)</a><br><a href="https://www.coursera.org/specializations/jhu-data-science" target="_blank" rel="external">Coursera:Data Science 专项课程</a><br><a href="http://www.stat.cmu.edu/~larry/=sml/" target="_blank" rel="external">CMU:Statistical Machine Learning</a><br><a href="http://fastml.com/machine-learning-courses-online/" target="_blank" rel="external">FastML: Machine Learning made easy</a><br><a href="http://videolectures.net/site/search/?q=MLSS" target="_blank" rel="external">Videolecture net：Machine learning</a><br><a href="http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/" target="_blank" rel="external">Dataschool:In-depth introduction to machine learning in 15 hours of expert videos</a><br><a href="https://www.coursereport.com/blog/learn-data-science-at-these-13-bootcamps-and-programs" target="_blank" rel="external">CourseReport: Learn Data Science at These 22 Bootcamps</a></p>
-<h3 id="Books"><a href="#Books" class="headerlink" title="Books"></a>Books</h3><h4 id="Intro-to-AI"><a href="#Intro-to-AI" class="headerlink" title="Intro to AI"></a>Intro to AI</h4><ul>
-<li><a href="1.Machine Learning/AI_Russell.pdf">AI by Ruseull</a></li>
-</ul>
-<h4 id="Machine-Learning"><a href="#Machine-Learning" class="headerlink" title="Machine Learning"></a>Machine Learning</h4><ul>
-<li><a href="1.Machine Learning/PRML_Bishop.pdf">Bishop</a></li>
-<li><a href="https://www.cs.ubc.ca/~murphyk/MLbook/" target="_blank" rel="external">MLAPP</a></li>
-<li><a href="https://github.com/probml/pmtk3" target="_blank" rel="external">MLAPP Code</a></li>
-<li><a href="1.Machine Learning/ML in Py.pdf">ML in Python</a></li>
-<li><a href="https://www.amazon.cn/%E5%9B%BE%E4%B9%A6/dp/B01ARKEV1G" target="_blank" rel="external">西瓜书</a> </li>
-<li><a href="http://blog.csdn.net/icefire_tyh/article/details/52064910" target="_blank" rel="external">机器学习(周志华西瓜书) 参考答案 总目录</a></li>
-<li><a href="https://www.gitbook.com/book/htygithub/machine-learning-python/details" target="_blank" rel="external">機器學習：使用Python</a></li>
-</ul>
-<h4 id="Deep-Learning"><a href="#Deep-Learning" class="headerlink" title="Deep Learning:"></a>Deep Learning:</h4><p><a href="http://www.deeplearningbook.org/" target="_blank" rel="external">Deep Learning: An MIT Press book</a></p>
-<h4 id="推荐系统："><a href="#推荐系统：" class="headerlink" title="推荐系统："></a>推荐系统：</h4><ul>
-<li><a href="https://book.douban.com/subject/10769749/" target="_blank" rel="external">推荐系统实践 by 项亮</a></li>
-<li><a href="http://www.cs.ubbcluj.ro/~gabis/DocDiplome/SistemeDeRecomandare/Recommender_systems_handbook.pdf" target="_blank" rel="external">Recommendation System Handbook</a></li>
-</ul>
-<h4 id="自然语言处理"><a href="#自然语言处理" class="headerlink" title="自然语言处理"></a>自然语言处理</h4><p><a href="https://book.douban.com/subject/25746399/" target="_blank" rel="external">统计自然语言处理（第2版）by 宗成庆</a></p>
-<h4 id="课外读物推荐"><a href="#课外读物推荐" class="headerlink" title="课外读物推荐"></a>课外读物推荐</h4><p><a href="https://book.douban.com/subject/26931905/" target="_blank" rel="external">终极算法</a></p>
-<h3 id="Projects"><a href="#Projects" class="headerlink" title="Projects"></a>Projects</h3><p><a href="http://machinelearningmastery.com/" target="_blank" rel="external">Tutorials and Projects To Help You：Learn and Apply Machine Learning – Fast!</a><br><a href="http://www.thisismetis.com/" target="_blank" rel="external">Thisismetis: DATA SCIENCE TRAINING</a><br><a href="https://www.dataquest.io/" target="_blank" rel="external">DATAQUEST:Learn real-world data science skills</a></p>
-<h4 id="数据爬取工具"><a href="#数据爬取工具" class="headerlink" title="数据爬取工具"></a>数据爬取工具</h4><p>Python Scrapy<br><a href="https://scrapy.org" target="_blank" rel="external">下载地址</a>, <a href="http://www.jb51.net/article/48607.htm" target="_blank" rel="external">安装及使用步骤</a>, <a href="http://www.jb51.net/article/57183.htm" target="_blank" rel="external">操纵指南</a></p>
-<p>（2）NITK<br>自然语言处理的Python开源工具<br><a href="http://www.nltk.org" target="_blank" rel="external">相关工具包和教程可下载</a><a href="http://blog.csdn.net/huyoo/article/details/12188573" target="_blank" rel="external">中文使用介绍</a>, <a href="http://blog.csdn.net/huang2009303513/article/details/14498473" target="_blank" rel="external">有助于了解各个包的意思和作用的链接</a></p>
-<p><a href="https://github.com/egrcc/zhihu-python - zhihu-python获取知乎信息" target="_blank" rel="external">zhihu-python：获取知乎信息</a><br>介绍：zhihu-python 采用 Python2.7 编写，用来方便地获取知乎上各种内容的信息，并且可以方便地将答案备份导出为 txt 或 markdown 文件。由于知乎官方目前没有提供 api，所以有了此项目的存在。使用 Python3 的类似项目可以参见：zhihu-py3 。使用 PHP 的类似项目可以参见：zhihu-php 。使用 Go 的类似项目可以参见：zhihu-go 。</p>
-<h3 id="List-of-list"><a href="#List-of-list" class="headerlink" title="List of list"></a>List of list</h3><p><a href="http://videolectures.net/Top/Computer_Science/Machine_Learning/" target="_blank" rel="external">Machine Learning Category on VideoLectures.Net</a><br><a href="http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/" target="_blank" rel="external">A Tour of Machine Learning Algorithms</a><br><a href="http://ml.memect.com/article/machine-learning-guide.html" target="_blank" rel="external">机器学习入门资源不完全汇总（tang_Kaka_back@新浪微博）</a><br><a href="https://github.com/ty4z2008/Qix/blob/master/dl.md#机器学习machine-learning深度学习deep-learning资料chapter-1" target="_blank" rel="external">机器学习(Machine Learning)&amp;深度学习(Deep Learning)资料(Chapter 1)</a><br><a href="https://github.com/ty4z2008/Qix/blob/master/dl2.md" target="_blank" rel="external">机器学习(Machine Learning)&amp;深度学习(Deep Learning)资料(Chapter 2)</a></p>
-<h3 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h3><p><a href="http://www.open-open.com/lib/view/open1428112201271.html" target="_blank" rel="external">深度开源OPEN经验：机器学习(Machine Learning)&amp;深度学习(Deep Learning)资料</a><br><a href="http://www.cnblogs.com/mldllearningforbai/p/5316728.html" target="_blank" rel="external">[转]机器学习入门</a></p>
-<h3 id="Blog-amp-Website"><a href="#Blog-amp-Website" class="headerlink" title="Blog &amp; Website"></a>Blog &amp; Website</h3><h4 id="中文"><a href="#中文" class="headerlink" title="中文"></a>中文</h4><p><a href="http://www.cnblogs.com/mldllearningforbai/p/5351584.html" target="_blank" rel="external">[转]机器学习经典书籍</a><br><a href="http://www.liaoxuefeng.com/" target="_blank" rel="external">廖雪峰的官方网站</a><br><a href="http://xccds1977.blogspot.hk/" target="_blank" rel="external">数据科学中的R和Python</a><br><a href="http://www.cnblogs.com/siegfang/" target="_blank" rel="external">学飞 从坠落开始 博客</a><br><a href="https://cos.name/" target="_blank" rel="external">统计之都</a><br><a href="http://homepage.hit.edu.cn/pages/xitongguo" target="_blank" rel="external">哈工大电子健康研究所：郭熙铜</a></p>
-<p><a href="http://rec-sys.net/forum.php" target="_blank" rel="external">推荐系统论坛</a><br><a href="http://sim.whu.edu.cn/sz/jsxq/5/2016-05-09/898.html" target="_blank" rel="external">武汉大学信息管理学院：曾子明</a><br><a href="https://zhuanlan.zhihu.com/p/23036112" target="_blank" rel="external">推荐系统常用的推荐算法</a><br><a href="https://www.microsoft.com/en-us/research/group/social-computing-beijing/" target="_blank" rel="external">Microsoft-Social Computing (Asia)</a><br><a href="http://nlp.csai.tsinghua.edu.cn/site2/index.php/zh" target="_blank" rel="external">清华大学自然语言处理与社会人文计算实验室</a><br><a href="http://idke.ruc.edu.cn/index_cn.htm" target="_blank" rel="external">中国人民大学：网络与移动数据管理实验室</a></p>
-<h4 id="English"><a href="#English" class="headerlink" title="English"></a>English</h4><p><a href="http://dicook.org/index.html" target="_blank" rel="external">Professor Di Cook, Department of Econometrics and Business Statistics, Monash Uni</a><br><a href="https://www.r-bloggers.com/" target="_blank" rel="external">R-blogger</a>: R news and tutorials contributed by (580) R bloggers<br><a href="https://prdeepakbabu.wordpress.com/" target="_blank" rel="external">wordpress: -Nest generation BI</a></p>
-<p><a href="http://public.econ.duke.edu/~ap172/code.html" target="_blank" rel="external">Andrew Patton’s MATLAB code page</a>: This page contains some of the MATLAB code I’ve written during the course of my research. If you find any mistakes or bugs in the code please let me know.<br>This code is being released under a BSD license, which means that you can do pretty much what ever you want with it, including make money by selling it.</p>
-<p><a href="http://www.datatau.com/" target="_blank" rel="external">Datatau</a><br><a href="http://sebastianruder.com/ - open" target="_blank" rel="external">Blog of Sebastian Ruder</a>: I’m a PhD student in Natural Language Processing and a research scientist at AYLIEN. I blog about Machine Learning, Deep Learning, NLP, and startups.</p>
-<h2 id="2-统计"><a href="#2-统计" class="headerlink" title="2. 统计"></a>2. 统计</h2><h3 id="Books-1"><a href="#Books-1" class="headerlink" title="Books"></a>Books</h3><ul>
-<li><a href="http://www-bcf.usc.edu/~gareth/ISL/index.html" target="_blank" rel="external">ISLR</a></li>
-<li><a href="1.Machine Learning/ESL.pdf">ESL by Hastie</a></li>
-<li><a href="https://www.amazon.cn/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E6%9D%8E%E8%88%AA/dp/B007TSFMTA" target="_blank" rel="external">统计学习 by 李航</a></li>
-<li><a href="Stat&amp;Prob/IPSUR.pdf">IPSUR</a></li>
-</ul>
-<h3 id="Courses-1"><a href="#Courses-1" class="headerlink" title="Courses"></a>Courses</h3><h2 id="3-复习数学相关"><a href="#3-复习数学相关" class="headerlink" title="3. 复习数学相关"></a>3. 复习数学相关</h2><h3 id="Courses-2"><a href="#Courses-2" class="headerlink" title="Courses"></a>Courses</h3><h4 id="最优化"><a href="#最优化" class="headerlink" title="最优化"></a>最优化</h4><ul>
-<li><a href="http://stanford.edu/class/ee364a/index.html" target="_blank" rel="external">Stanford:EE364a: Convex Optimization I</a></li>
-</ul>
-<h4 id="Data-structure-and-algorithms"><a href="#Data-structure-and-algorithms" class="headerlink" title="Data structure and algorithms"></a>Data structure and algorithms</h4><p><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/" target="_blank" rel="external">MIT:Introduction to Algorithms</a></p>
-<h3 id="Books-2"><a href="#Books-2" class="headerlink" title="Books"></a>Books</h3><h2 id="4-Information-System"><a href="#4-Information-System" class="headerlink" title="4. Information System"></a>4. Information System</h2><h3 id="Books-3"><a href="#Books-3" class="headerlink" title="Books"></a>Books</h3><ul>
-<li><a href="">Decision Support System</a></li>
-<li>Decision theory</li>
-<li>network optimization</li>
-<li>control theory： Stichastic Control Theory</li>
-<li>Operation Research</li>
-</ul>
-<h2 id="5-Github-hexo-markdown等"><a href="#5-Github-hexo-markdown等" class="headerlink" title="5. Github/hexo/markdown等"></a>5. Github/hexo/markdown等</h2>]]></content>
-      
-        <categories>
-            
-            <category> notes </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> information_system </tag>
-            
-            <tag> study_plan </tag>
-            
-            <tag> statistics </tag>
-            
-            <tag> mathematics </tag>
-            
-            <tag> github </tag>
-            
-            <tag> materials </tag>
             
         </tags>
         
@@ -708,11 +708,55 @@ SyntaxError: unexpected character after line continuation character
         
         <tags>
             
+            <tag> tutorial </tag>
+            
             <tag> latex </tag>
             
             <tag> sublime_text3 </tag>
             
             <tag> skim </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[我在Github上搭建Hexo博客]]></title>
+      <url>/Hexo/</url>
+      <content type="html"><![CDATA[<p>因为静态网页的简洁和迅速，在已经搭了个WordPress网页的情形下，我还是忍不住手痒，最近又尝试搭了一个Hexo的网页。本网站就是最后的成果</p>
+<h2 id="MAC上搭建Hexo-Blog"><a href="#MAC上搭建Hexo-Blog" class="headerlink" title="MAC上搭建Hexo Blog"></a>MAC上搭建Hexo Blog</h2><p><a href="http://www.jianshu.com/p/fd878edb95e7" target="_blank" rel="external">MAC 上 github + hexo 搭建博客教程</a><br><a href="https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">手把手教你使用Hexo + Github Pages搭建个人独立博客</a><br><a href="https://xuanwo.org/2015/03/26/hexo-intor/" target="_blank" rel="external">史上最详细的Hexo博客搭建图文教程</a></p>
+<p><a href="http://jeasonstudio.github.io/2016/05/26/Mac%E4%B8%8A%E6%90%AD%E5%BB%BA%E5%9F%BA%E4%BA%8EGitHub-Page%E7%9A%84Hexo%E5%8D%9A%E5%AE%A2/" target="_blank" rel="external">Mac上搭建基于GitHub Page的Hexo博客</a>是一篇很赞的文章，但是值得注意的是”注意坑三”中的代码应该如下</p>
+<pre><code>$ npm install hexo-deploper-git --save
+</code></pre><h2 id="GitHub-Pages绑定二级域名"><a href="#GitHub-Pages绑定二级域名" class="headerlink" title="GitHub Pages绑定二级域名"></a>GitHub Pages绑定二级域名</h2><p>因为我已经在GoDaddy购买了域名，所以我想把Github+Hexo的网站绑定到baoduge.com的二级域名商，就叫它blog.baoduge.com好了。</p>
+<p><a href="https://segmentfault.com/a/1190000005775893" target="_blank" rel="external">Sementfault:GitHub Pages 绑定二级域名</a><br><a href="http://quantumman.me/blog/setting-up-a-domain-with-gitHub-pages.html" target="_blank" rel="external">GitHub Pages 绑定来自阿里云的域名</a><br><a href="https://www.zhihu.com/question/31377141" target="_blank" rel="external">知乎：github怎么绑定自己的域名？</a></p>
+<p><a href="https://sg.godaddy.com/zh/help/ip-4080" target="_blank" rel="external">godaddy:添加指向一个 IP 地址的子域名</a></p>
+<h2 id="Github教程"><a href="#Github教程" class="headerlink" title="Github教程"></a>Github教程</h2><p>要使用Github搭建网站，那么Github也可是开始加技能点了。</p>
+<p><a href="http://wiki.jikexueyuan.com/project/github-basics/github-for-mac.html" target="_blank" rel="external">GitHub for Mac</a><br><a href="http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners" target="_blank" rel="external">An Intro to Git and GitHub for Beginners (Tutorial)</a><br><a href="http://www.jianshu.com/p/d15aff38cd33" target="_blank" rel="external">mac上GitHub Desktop客户端的使用</a></p>
+<h2 id="Hexo-Markdown写作"><a href="#Hexo-Markdown写作" class="headerlink" title="Hexo+Markdown写作"></a>Hexo+Markdown写作</h2><p>Hexo吸引我的一个地方就是它支持Markdown。而后者是我最近一直在用的语言。</p>
+<p><a href="https://wizardforcel.gitbooks.io/markdown-simple-world/hexo-tutor-3.html" target="_blank" rel="external">Hexo 入门指南（三） - 文章 &amp; 草稿</a></p>
+<p><code>.md</code>文件写完后，放到<code>sourse/_posts/</code>文件夹里，然后terminal里<code>cd</code>到根目录，使用如下命令发布即可</p>
+<pre><code>$ hexo generate
+$ hexo deploy
+</code></pre><p>或者</p>
+<pre><code>$ hexo g
+$ hexo d
+</code></pre><p>十分方便，so easy！</p>
+<h2 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h2><p>当然在网站搭建的过程中，还是会遇到方方面面的问题。我想下面的资料可能会帮到大家。</p>
+<p><a href="https://themebetter.com/wordpress-menu-blank.html" target="_blank" rel="external">WordPress菜单和自定义链接开启在新窗口打开</a><br><a href="https://zhiho.github.io/2015/09/29/hexo-next/" target="_blank" rel="external">Hexo搭建GitHub博客（三）- NexT主题配置使用</a><br><a href="http://www.jianshu.com/p/c4f65ebe23ad" target="_blank" rel="external">为Hexo博客加入Disqus评论</a><br><a href="http://www.cylong.com/blog/2017/03/26/hexo-next-disqus/" target="_blank" rel="external">Hexo 集成 Disqus 评论</a><br><a href="http://hongyitong.github.io/2016/10/24/%E5%A6%82%E4%BD%95%E5%9C%A8Hexo%E4%B8%AD%E4%BD%BF%E7%94%A8MathJax/" target="_blank" rel="external">如何在Hexo中使用MathJax</a><br><a href="http://www.jianshu.com/p/702a7aec4d00" target="_blank" rel="external">Hexo搭建博客系列：（五）Hexo添加不蒜子和LeanCloud统计无标题文章</a><br><a href="http://2wildkids.com/2016/10/06/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86Hexo%E5%92%8CMathJax%E7%9A%84%E5%85%BC%E5%AE%B9%E9%97%AE%E9%A2%98/" target="_blank" rel="external">如何处理Hexo和MathJax的兼容问题</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> notes </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> github </tag>
+            
+            <tag> hexo </tag>
             
             <tag> tutorial </tag>
             
@@ -763,50 +807,6 @@ SyntaxError: unexpected character after line continuation character
         
     </entry>
     
-    <entry>
-      <title><![CDATA[我在Github上搭建Hexo博客]]></title>
-      <url>/Hexo/</url>
-      <content type="html"><![CDATA[<p>因为静态网页的简洁和迅速，在已经搭了个WordPress网页的情形下，我还是忍不住手痒，最近又尝试搭了一个Hexo的网页。本网站就是最后的成果</p>
-<h2 id="MAC上搭建Hexo-Blog"><a href="#MAC上搭建Hexo-Blog" class="headerlink" title="MAC上搭建Hexo Blog"></a>MAC上搭建Hexo Blog</h2><p><a href="http://www.jianshu.com/p/fd878edb95e7" target="_blank" rel="external">MAC 上 github + hexo 搭建博客教程</a><br><a href="https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">手把手教你使用Hexo + Github Pages搭建个人独立博客</a><br><a href="https://xuanwo.org/2015/03/26/hexo-intor/" target="_blank" rel="external">史上最详细的Hexo博客搭建图文教程</a></p>
-<p><a href="http://jeasonstudio.github.io/2016/05/26/Mac%E4%B8%8A%E6%90%AD%E5%BB%BA%E5%9F%BA%E4%BA%8EGitHub-Page%E7%9A%84Hexo%E5%8D%9A%E5%AE%A2/" target="_blank" rel="external">Mac上搭建基于GitHub Page的Hexo博客</a>是一篇很赞的文章，但是值得注意的是”注意坑三”中的代码应该如下</p>
-<pre><code>$ npm install hexo-deploper-git --save
-</code></pre><h2 id="GitHub-Pages绑定二级域名"><a href="#GitHub-Pages绑定二级域名" class="headerlink" title="GitHub Pages绑定二级域名"></a>GitHub Pages绑定二级域名</h2><p>因为我已经在GoDaddy购买了域名，所以我想把Github+Hexo的网站绑定到baoduge.com的二级域名商，就叫它blog.baoduge.com好了。</p>
-<p><a href="https://segmentfault.com/a/1190000005775893" target="_blank" rel="external">Sementfault:GitHub Pages 绑定二级域名</a><br><a href="http://quantumman.me/blog/setting-up-a-domain-with-gitHub-pages.html" target="_blank" rel="external">GitHub Pages 绑定来自阿里云的域名</a><br><a href="https://www.zhihu.com/question/31377141" target="_blank" rel="external">知乎：github怎么绑定自己的域名？</a></p>
-<p><a href="https://sg.godaddy.com/zh/help/ip-4080" target="_blank" rel="external">godaddy:添加指向一个 IP 地址的子域名</a></p>
-<h2 id="Github教程"><a href="#Github教程" class="headerlink" title="Github教程"></a>Github教程</h2><p>要使用Github搭建网站，那么Github也可是开始加技能点了。</p>
-<p><a href="http://wiki.jikexueyuan.com/project/github-basics/github-for-mac.html" target="_blank" rel="external">GitHub for Mac</a><br><a href="http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners" target="_blank" rel="external">An Intro to Git and GitHub for Beginners (Tutorial)</a><br><a href="http://www.jianshu.com/p/d15aff38cd33" target="_blank" rel="external">mac上GitHub Desktop客户端的使用</a></p>
-<h2 id="Hexo-Markdown写作"><a href="#Hexo-Markdown写作" class="headerlink" title="Hexo+Markdown写作"></a>Hexo+Markdown写作</h2><p>Hexo吸引我的一个地方就是它支持Markdown。而后者是我最近一直在用的语言。</p>
-<p><a href="https://wizardforcel.gitbooks.io/markdown-simple-world/hexo-tutor-3.html" target="_blank" rel="external">Hexo 入门指南（三） - 文章 &amp; 草稿</a></p>
-<p><code>.md</code>文件写完后，放到<code>sourse/_posts/</code>文件夹里，然后terminal里<code>cd</code>到根目录，使用如下命令发布即可</p>
-<pre><code>$ hexo generate
-$ hexo deploy
-</code></pre><p>或者</p>
-<pre><code>$ hexo g
-$ hexo d
-</code></pre><p>十分方便，so easy！</p>
-<h2 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h2><p>当然在网站搭建的过程中，还是会遇到方方面面的问题。我想下面的资料可能会帮到大家。</p>
-<p><a href="https://themebetter.com/wordpress-menu-blank.html" target="_blank" rel="external">WordPress菜单和自定义链接开启在新窗口打开</a><br><a href="https://zhiho.github.io/2015/09/29/hexo-next/" target="_blank" rel="external">Hexo搭建GitHub博客（三）- NexT主题配置使用</a><br><a href="http://www.jianshu.com/p/c4f65ebe23ad" target="_blank" rel="external">为Hexo博客加入Disqus评论</a><br><a href="http://www.cylong.com/blog/2017/03/26/hexo-next-disqus/" target="_blank" rel="external">Hexo 集成 Disqus 评论</a><br><a href="http://hongyitong.github.io/2016/10/24/%E5%A6%82%E4%BD%95%E5%9C%A8Hexo%E4%B8%AD%E4%BD%BF%E7%94%A8MathJax/" target="_blank" rel="external">如何在Hexo中使用MathJax</a><br><a href="http://www.jianshu.com/p/702a7aec4d00" target="_blank" rel="external">Hexo搭建博客系列：（五）Hexo添加不蒜子和LeanCloud统计无标题文章</a><br><a href="http://2wildkids.com/2016/10/06/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86Hexo%E5%92%8CMathJax%E7%9A%84%E5%85%BC%E5%AE%B9%E9%97%AE%E9%A2%98/" target="_blank" rel="external">如何处理Hexo和MathJax的兼容问题</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> notes </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> github </tag>
-            
-            <tag> tutorial </tag>
-            
-            <tag> hexo </tag>
-            
-        </tags>
-        
-    </entry>
-    
   
   
     
@@ -815,7 +815,7 @@ $ hexo d
       <url>/about/index.html</url>
       <content type="html"><![CDATA[<h2 id="About-Me"><a href="#About-Me" class="headerlink" title="About Me"></a>About Me</h2><p>Hello, welcome to the NERVERLAND, a blog supported by GitHub and Hexo.</p>
 <p>I am a PhD. of Information System from City University of Hong Kong.</p>
-<p>If you would like to know more about me, you can click <a href="http://baoduge.com/about_baoduge/" target="_blank" rel="external"><i class="fa fa-bandcomp"></i>BAODUGE</a>.</p>
+<p>If you would like to know more about me, you can click <i class="icon-external-link"></i> <a href="http://baoduge.com/about_baoduge/" target="_blank" rel="external">BAODUGE-About</a>.</p>
 ]]></content>
     </entry>
     
