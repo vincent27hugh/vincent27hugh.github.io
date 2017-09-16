@@ -33,9 +33,9 @@
       </categories>
       <tags>
         <tag>information_system</tag>
+        <tag>mathematics</tag>
         <tag>study_plan</tag>
         <tag>statistics</tag>
-        <tag>mathematics</tag>
         <tag>github</tag>
         <tag>materials</tag>
       </tags>
@@ -59,19 +59,19 @@
         <category>notes</category>
       </categories>
       <tags>
-        <tag>mathematics</tag>
         <tag>physics</tag>
+        <tag>mathematics</tag>
       </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[All Categories]]></title>
-    <url>%2Fcategories%2Findex.html</url>
-    <content type="text"></content>
   </entry>
   <entry>
     <title><![CDATA[about]]></title>
     <url>%2Fabout%2Findex.html</url>
     <content type="text"><![CDATA[About MeAbout Me]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[All Categories]]></title>
+    <url>%2Fcategories%2Findex.html</url>
+    <content type="text"></content>
   </entry>
   <entry>
     <title><![CDATA[All Tags]]></title>
