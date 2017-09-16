@@ -3,6 +3,30 @@
   
     
     <entry>
+      <title><![CDATA[Project plan of IS-Robo-Adisor]]></title>
+      <url>/hexo_encrypt/</url>
+      <content type="html"><![CDATA[<link href="/style.css" rel="stylesheet" type="text/css"><script src="/crypto-js.js"></script><script src="/mcommon.js"></script><script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script> <div id="security"> <div> <div class="input-container"> <input type="password" class="form-control" id="pass" placeholder=" Please enter the password to read the blog. "/> <label for="pass"> Please enter the password to read the blog. </label> <div class="bottom-line"></div> </div> </div> </div> <div id="encrypt-blog" style="display:none"> U2FsdGVkX1+g4N3aKtqXfMuPSm+1GwX70mC7NIVTj6k= </div>]]></content>
+      
+        <categories>
+            
+            <category> notes </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> robo_advisor </tag>
+            
+            <tag> fintech </tag>
+            
+            <tag> project </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Robo-Advisor Introduction]]></title>
       <url>/Robo_Advisor_Introduction/</url>
       <content type="html"><![CDATA[<h2 id="What-is-Robo-Advisor"><a href="#What-is-Robo-Advisor" class="headerlink" title="What is Robo-Advisor?"></a>What is Robo-Advisor?</h2><blockquote>
@@ -286,6 +310,30 @@
     </entry>
     
     <entry>
+      <title><![CDATA[R语言的科学计算]]></title>
+      <url>/R_science_computing/</url>
+      <content type="html"><![CDATA[<h2 id="求解非线性方程组"><a href="#求解非线性方程组" class="headerlink" title="求解非线性方程组"></a>求解非线性方程组</h2><p><a href="http://blog.csdn.net/skyonefly/article/details/50899661" target="_blank" rel="external">R语言非线性方程组求解dfsane,nleqslv</a><br><a href="https://cos.name/cn/topic/11574/" target="_blank" rel="external">请教：R语言有没有求解非线性方程组的函数！</a><br><a href="http://www.cnblogs.com/dj123jary/p/4142150.html" target="_blank" rel="external">用R语言求解非线性方程</a><br><a href="https://cran.r-project.org/web/packages/nleqslv/nleqslv.pdf" target="_blank" rel="external">Package ‘nleqslv’</a><br><a href="https://cran.r-project.org/web/packages/BB/vignettes/BBvignetteJSS.pdf" target="_blank" rel="external">BB: An R Package for Solving a Large System of Nonlinear Equations and for Optimizing a High-Dimensional Nonlinear Objective Function</a></p>
+<p><a href="https://stackoverflow.com/questions/38684295/how-to-solve-a-non-linear-equation-using-nleqslv-package-in-r" target="_blank" rel="external">How to solve a non-linear equation using nleqslv package in R?</a><br><a href="https://stackoverflow.com/questions/22993787/solving-system-of-nonlinear-equations-in-r" target="_blank" rel="external">Solving system of nonlinear equations in R</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> logs </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> r_language </tag>
+            
+            <tag> science_computing </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[My Self-Study Plan]]></title>
       <url>/2017_Study_Plan/</url>
       <content type="html"><![CDATA[<p>I hope that I could accomplish these goals on time. Good luck!</p>
@@ -360,6 +408,8 @@
         
         <tags>
             
+            <tag> github </tag>
+            
             <tag> information_system </tag>
             
             <tag> study_plan </tag>
@@ -368,33 +418,7 @@
             
             <tag> mathematics </tag>
             
-            <tag> github </tag>
-            
             <tag> materials </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[R语言的科学计算]]></title>
-      <url>/R_science_computing/</url>
-      <content type="html"><![CDATA[<h2 id="求解非线性方程组"><a href="#求解非线性方程组" class="headerlink" title="求解非线性方程组"></a>求解非线性方程组</h2><p><a href="http://blog.csdn.net/skyonefly/article/details/50899661" target="_blank" rel="external">R语言非线性方程组求解dfsane,nleqslv</a><br><a href="https://cos.name/cn/topic/11574/" target="_blank" rel="external">请教：R语言有没有求解非线性方程组的函数！</a><br><a href="http://www.cnblogs.com/dj123jary/p/4142150.html" target="_blank" rel="external">用R语言求解非线性方程</a><br><a href="https://cran.r-project.org/web/packages/nleqslv/nleqslv.pdf" target="_blank" rel="external">Package ‘nleqslv’</a><br><a href="https://cran.r-project.org/web/packages/BB/vignettes/BBvignetteJSS.pdf" target="_blank" rel="external">BB: An R Package for Solving a Large System of Nonlinear Equations and for Optimizing a High-Dimensional Nonlinear Objective Function</a></p>
-<p><a href="https://stackoverflow.com/questions/38684295/how-to-solve-a-non-linear-equation-using-nleqslv-package-in-r" target="_blank" rel="external">How to solve a non-linear equation using nleqslv package in R?</a><br><a href="https://stackoverflow.com/questions/22993787/solving-system-of-nonlinear-equations-in-r" target="_blank" rel="external">Solving system of nonlinear equations in R</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> logs </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> r_language </tag>
-            
-            <tag> science_computing </tag>
             
         </tags>
         
@@ -760,9 +784,9 @@ $ hexo d
         
         <tags>
             
-            <tag> github </tag>
-            
             <tag> hexo </tag>
+            
+            <tag> github </tag>
             
             <tag> tutorial </tag>
             
@@ -823,7 +847,7 @@ $ hexo d
 <blockquote>
 <p>Neverland is a fictional location featured in the works of J. M. Barrie and those based on them. It is an imaginary faraway place, where Peter Pan, Tinker Bell, the Lost Boys and other mythical creatures and beings live. —Wikipedia</p>
 </blockquote>
-<p><a href="https://en.wikipedia.org/wiki/Neverland" target="_blank" rel="external">NEVERLAND</a> is a place of fantacy and I hope to build a blog full of bold innovation and wonderful ideas. If you have any creative thoughs on no matter science&amp;technology or phylosophy of life, feel free to contact with me via email <a href="&#109;&#97;&#x69;&#x6c;&#116;&#111;&#58;&#104;&#x75;&#119;&#x65;&#105;&#104;&#117;&#103;&#104;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;">&#104;&#x75;&#119;&#x65;&#105;&#104;&#117;&#103;&#104;&#64;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#x6f;&#x6d;</a>. (You can find my email on the sidebar of this page.)</p>
+<p><a href="https://en.wikipedia.org/wiki/Neverland" target="_blank" rel="external">NEVERLAND</a> is a place of fantacy and I hope to build a blog full of bold innovation and wonderful ideas. If you have any creative thoughs on no matter science&amp;technology or phylosophy of life, feel free to contact with me via email <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#x3a;&#104;&#x75;&#x77;&#x65;&#105;&#104;&#x75;&#x67;&#104;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#109;">&#104;&#x75;&#x77;&#x65;&#105;&#104;&#x75;&#x67;&#104;&#x40;&#103;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#109;</a>. (You can find my email on the sidebar of this page.)</p>
 <p>I am a PhD. of Information System from City University of Hong Kong.</p>
 <p>If you would like to know more about me, you can click <a href="http://baoduge.com/about_baoduge/" target="_blank" rel="external">BAODUGE-About</a>.</p>
 ]]></content>

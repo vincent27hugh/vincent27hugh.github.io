@@ -4,6 +4,30 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/hexo_encrypt/</loc>
+    <lastmod>2017-09-16T13:29:48.000Z</lastmod>
+    <data>
+        <display>
+        <title>Project plan of IS-Robo-Adisor</title>
+        <pubTime>2017-09-15T16:00:00.000Z</pubTime>
+        
+        <tag>robo_advisor</tag>
+         
+        <tag>fintech</tag>
+         
+        <tag>project</tag>
+         
+         
+           
+             
+              <breadCrumb title="notes" url="http://blog.baoduge.com/categories/notes/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/Robo_Advisor_Introduction/</loc>
     <lastmod>2017-09-16T13:11:11.000Z</lastmod>
     <data>
@@ -36,6 +60,8 @@
         <title>My Self-Study Plan</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
+        <tag>github</tag>
+         
         <tag>information_system</tag>
          
         <tag>study_plan</tag>
@@ -43,8 +69,6 @@
         <tag>statistics</tag>
          
         <tag>mathematics</tag>
-         
-        <tag>github</tag>
          
         <tag>materials</tag>
          
@@ -178,9 +202,9 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>github</tag>
-         
         <tag>hexo</tag>
+         
+        <tag>github</tag>
          
         <tag>tutorial</tag>
          
