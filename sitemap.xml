@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.baoduge.com/about/index.html</loc>
+    
+    <lastmod>2017-09-16T10:30:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.baoduge.com/categories/index.html</loc>
+    
+    <lastmod>2017-09-16T10:16:29.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.baoduge.com/tags/index.html</loc>
     
     <lastmod>2017-09-16T07:27:23.000Z</lastmod>
@@ -26,13 +40,6 @@
     <loc>http://blog.baoduge.com/Robo_Advisor_Introduction/</loc>
     
     <lastmod>2017-09-14T14:26:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.baoduge.com/categories/index.html</loc>
-    
-    <lastmod>2017-09-12T14:20:15.000Z</lastmod>
     
   </url>
   
@@ -75,13 +82,6 @@
     <loc>http://blog.baoduge.com/CUHK_DSME6622_Lec2/</loc>
     
     <lastmod>2017-09-12T11:11:38.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.baoduge.com/about/index.html</loc>
-    
-    <lastmod>2017-09-08T16:34:34.000Z</lastmod>
     
   </url>
   
