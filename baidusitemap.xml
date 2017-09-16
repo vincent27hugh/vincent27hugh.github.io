@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/ra_project_plan/</loc>
-    <lastmod>2017-09-16T13:37:10.000Z</lastmod>
+    <lastmod>2017-09-16T13:38:34.000Z</lastmod>
     <data>
         <display>
         <title>Project plan of IS-Robo-Adisor</title>
@@ -82,8 +82,6 @@
         <title>My Self-Study Plan</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>github</tag>
-         
         <tag>information_system</tag>
          
         <tag>study_plan</tag>
@@ -91,6 +89,8 @@
         <tag>statistics</tag>
          
         <tag>mathematics</tag>
+         
+        <tag>github</tag>
          
         <tag>materials</tag>
          
@@ -202,9 +202,9 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>hexo</tag>
-         
         <tag>github</tag>
+         
+        <tag>hexo</tag>
          
         <tag>tutorial</tag>
          
