@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Project plan of IS-Robo-Adisor]]></title>
     <url>%2Fra_project_plan%2F</url>
-    <content type="text"><![CDATA[Please enter the password to read the blog. U2FsdGVkX1/G8IBTX71f1KNVJ2Cuo1ojH3Qro4soPHc=]]></content>
+    <content type="text"><![CDATA[Please enter the password to read the blog. U2FsdGVkX18zn5dqn/SZqL1pTVRtNTRRhpIFpMb06gM=]]></content>
       <categories>
         <category>notes</category>
       </categories>
@@ -38,22 +38,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[My Self-Study Plan]]></title>
-    <url>%2F2017_Study_Plan%2F</url>
-    <content type="text"><![CDATA[I hope that I could accomplish these goals on time. Good luck! 1. 机器学习CoursesMain stream Basics:CMU:CS229 Machine Learning by Andrew Ng NLP: CS224d: Deep Learning for Natural Language Processing Information Retrieval: Introduction to Information Retrieval Information Theory: Course on Information Theory, Pattern Recognition, and Neural Networks (David MacKay, University of Cambridge) Deep Learning: CS231N - Convolutional Neural Networks Deep Learning: Neural Networks and Deep Learning - Andrew Ng, deeplearning.ai (Coursera) Machine Learning for Trading | Udacity Machine Learning - Recommender systems 知识管理 社会计算、社会物理学、金融物理、金融数学 OthersHarvard:CS109 Data ScienceMaterials of CS-449: Neural Networks (Willamette University)Coursera:Data Science 专项课程CMU:Statistical Machine LearningFastML: Machine Learning made easyVideolecture net：Machine learningDataschool:In-depth introduction to machine learning in 15 hours of expert videosCourseReport: Learn Data Science at These 22 Bootcamps BooksIntro to AI AI by Ruseull Machine Learning Bishop MLAPP MLAPP Code ML in Python 西瓜书 机器学习(周志华西瓜书) 参考答案 总目录 機器學習：使用Python Deep Learning:Deep Learning: An MIT Press book 推荐系统： 推荐系统实践 by 项亮 Recommendation System Handbook 自然语言处理统计自然语言处理（第2版）by 宗成庆 课外读物推荐终极算法 ProjectsTutorials and Projects To Help You：Learn and Apply Machine Learning – Fast!Thisismetis: DATA SCIENCE TRAININGDATAQUEST:Learn real-world data science skills 数据爬取工具Python Scrapy下载地址, 安装及使用步骤, 操纵指南 （2）NITK自然语言处理的Python开源工具相关工具包和教程可下载中文使用介绍, 有助于了解各个包的意思和作用的链接 zhihu-python：获取知乎信息介绍：zhihu-python 采用 Python2.7 编写，用来方便地获取知乎上各种内容的信息，并且可以方便地将答案备份导出为 txt 或 markdown 文件。由于知乎官方目前没有提供 api，所以有了此项目的存在。使用 Python3 的类似项目可以参见：zhihu-py3 。使用 PHP 的类似项目可以参见：zhihu-php 。使用 Go 的类似项目可以参见：zhihu-go 。 List of listMachine Learning Category on VideoLectures.NetA Tour of Machine Learning Algorithms机器学习入门资源不完全汇总（tang_Kaka_back@新浪微博）机器学习(Machine Learning)&amp;深度学习(Deep Learning)资料(Chapter 1)机器学习(Machine Learning)&amp;深度学习(Deep Learning)资料(Chapter 2) Notes深度开源OPEN经验：机器学习(Machine Learning)&amp;深度学习(Deep Learning)资料[转]机器学习入门 Blog &amp; Website中文[转]机器学习经典书籍廖雪峰的官方网站数据科学中的R和Python学飞 从坠落开始 博客统计之都哈工大电子健康研究所：郭熙铜 推荐系统论坛武汉大学信息管理学院：曾子明推荐系统常用的推荐算法Microsoft-Social Computing (Asia)清华大学自然语言处理与社会人文计算实验室中国人民大学：网络与移动数据管理实验室 EnglishProfessor Di Cook, Department of Econometrics and Business Statistics, Monash UniR-blogger: R news and tutorials contributed by (580) R bloggerswordpress: -Nest generation BI Andrew Patton’s MATLAB code page: This page contains some of the MATLAB code I’ve written during the course of my research. If you find any mistakes or bugs in the code please let me know.This code is being released under a BSD license, which means that you can do pretty much what ever you want with it, including make money by selling it. DatatauBlog of Sebastian Ruder: I’m a PhD student in Natural Language Processing and a research scientist at AYLIEN. I blog about Machine Learning, Deep Learning, NLP, and startups. 2. 统计Books ISLR ESL by Hastie 统计学习 by 李航 IPSUR Courses3. 复习数学相关Courses最优化 Stanford:EE364a: Convex Optimization I Data structure and algorithmsMIT:Introduction to Algorithms Books4. Information SystemBooks Decision Support System Decision theory network optimization control theory： Stichastic Control Theory Operation Research 5. Github/hexo/markdown等]]></content>
-      <categories>
-        <category>notes</category>
-      </categories>
-      <tags>
-        <tag>information_system</tag>
-        <tag>study_plan</tag>
-        <tag>statistics</tag>
-        <tag>mathematics</tag>
-        <tag>github</tag>
-        <tag>materials</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[R语言的科学计算]]></title>
     <url>%2FR_science_computing%2F</url>
     <content type="text"><![CDATA[求解非线性方程组R语言非线性方程组求解dfsane,nleqslv请教：R语言有没有求解非线性方程组的函数！用R语言求解非线性方程Package ‘nleqslv’BB: An R Package for Solving a Large System of Nonlinear Equations and for Optimizing a High-Dimensional Nonlinear Objective Function How to solve a non-linear equation using nleqslv package in R?Solving system of nonlinear equations in R]]></content>
@@ -63,6 +47,22 @@
       <tags>
         <tag>r_language</tag>
         <tag>science_computing</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[My Self-Study Plan]]></title>
+    <url>%2F2017_Study_Plan%2F</url>
+    <content type="text"><![CDATA[I hope that I could accomplish these goals on time. Good luck! 1. 机器学习CoursesMain stream Basics:CMU:CS229 Machine Learning by Andrew Ng NLP: CS224d: Deep Learning for Natural Language Processing Information Retrieval: Introduction to Information Retrieval Information Theory: Course on Information Theory, Pattern Recognition, and Neural Networks (David MacKay, University of Cambridge) Deep Learning: CS231N - Convolutional Neural Networks Deep Learning: Neural Networks and Deep Learning - Andrew Ng, deeplearning.ai (Coursera) Machine Learning for Trading | Udacity Machine Learning - Recommender systems 知识管理 社会计算、社会物理学、金融物理、金融数学 OthersHarvard:CS109 Data ScienceMaterials of CS-449: Neural Networks (Willamette University)Coursera:Data Science 专项课程CMU:Statistical Machine LearningFastML: Machine Learning made easyVideolecture net：Machine learningDataschool:In-depth introduction to machine learning in 15 hours of expert videosCourseReport: Learn Data Science at These 22 Bootcamps BooksIntro to AI AI by Ruseull Machine Learning Bishop MLAPP MLAPP Code ML in Python 西瓜书 机器学习(周志华西瓜书) 参考答案 总目录 機器學習：使用Python Deep Learning:Deep Learning: An MIT Press book 推荐系统： 推荐系统实践 by 项亮 Recommendation System Handbook 自然语言处理统计自然语言处理（第2版）by 宗成庆 课外读物推荐终极算法 ProjectsTutorials and Projects To Help You：Learn and Apply Machine Learning – Fast!Thisismetis: DATA SCIENCE TRAININGDATAQUEST:Learn real-world data science skills 数据爬取工具Python Scrapy下载地址, 安装及使用步骤, 操纵指南 （2）NITK自然语言处理的Python开源工具相关工具包和教程可下载中文使用介绍, 有助于了解各个包的意思和作用的链接 zhihu-python：获取知乎信息介绍：zhihu-python 采用 Python2.7 编写，用来方便地获取知乎上各种内容的信息，并且可以方便地将答案备份导出为 txt 或 markdown 文件。由于知乎官方目前没有提供 api，所以有了此项目的存在。使用 Python3 的类似项目可以参见：zhihu-py3 。使用 PHP 的类似项目可以参见：zhihu-php 。使用 Go 的类似项目可以参见：zhihu-go 。 List of listMachine Learning Category on VideoLectures.NetA Tour of Machine Learning Algorithms机器学习入门资源不完全汇总（tang_Kaka_back@新浪微博）机器学习(Machine Learning)&amp;深度学习(Deep Learning)资料(Chapter 1)机器学习(Machine Learning)&amp;深度学习(Deep Learning)资料(Chapter 2) Notes深度开源OPEN经验：机器学习(Machine Learning)&amp;深度学习(Deep Learning)资料[转]机器学习入门 Blog &amp; Website中文[转]机器学习经典书籍廖雪峰的官方网站数据科学中的R和Python学飞 从坠落开始 博客统计之都哈工大电子健康研究所：郭熙铜 推荐系统论坛武汉大学信息管理学院：曾子明推荐系统常用的推荐算法Microsoft-Social Computing (Asia)清华大学自然语言处理与社会人文计算实验室中国人民大学：网络与移动数据管理实验室 EnglishProfessor Di Cook, Department of Econometrics and Business Statistics, Monash UniR-blogger: R news and tutorials contributed by (580) R bloggerswordpress: -Nest generation BI Andrew Patton’s MATLAB code page: This page contains some of the MATLAB code I’ve written during the course of my research. If you find any mistakes or bugs in the code please let me know.This code is being released under a BSD license, which means that you can do pretty much what ever you want with it, including make money by selling it. DatatauBlog of Sebastian Ruder: I’m a PhD student in Natural Language Processing and a research scientist at AYLIEN. I blog about Machine Learning, Deep Learning, NLP, and startups. 2. 统计Books ISLR ESL by Hastie 统计学习 by 李航 IPSUR Courses3. 复习数学相关Courses最优化 Stanford:EE364a: Convex Optimization I Data structure and algorithmsMIT:Introduction to Algorithms Books4. Information SystemBooks Decision Support System Decision theory network optimization control theory： Stichastic Control Theory Operation Research 5. Github/hexo/markdown等]]></content>
+      <categories>
+        <category>notes</category>
+      </categories>
+      <tags>
+        <tag>github</tag>
+        <tag>information_system</tag>
+        <tag>study_plan</tag>
+        <tag>statistics</tag>
+        <tag>mathematics</tag>
+        <tag>materials</tag>
       </tags>
   </entry>
   <entry>
@@ -109,8 +109,8 @@
         <category>notes</category>
       </categories>
       <tags>
-        <tag>github</tag>
         <tag>hexo</tag>
+        <tag>github</tag>
         <tag>tutorial</tag>
       </tags>
   </entry>
@@ -129,7 +129,7 @@
   <entry>
     <title><![CDATA[About Me]]></title>
     <url>%2Fabout%2Findex.html</url>
-    <content type="text"><![CDATA[Hello, welcome to the NERVERLAND, a blog supported by GitHub and Hexo. Neverland is a fictional location featured in the works of J. M. Barrie and those based on them. It is an imaginary faraway place, where Peter Pan, Tinker Bell, the Lost Boys and other mythical creatures and beings live. —Wikipedia NEVERLAND is a place of fantacy and I hope to build a blog full of bold innovation and wonderful ideas. If you have any creative thoughs on no matter science&amp;technology or phylosophy of life, feel free to contact with me via email &#104;&#117;&#x77;&#x65;&#x69;&#x68;&#117;&#103;&#104;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#46;&#x63;&#111;&#109;. (You can find my email on the sidebar of this page.) I am a PhD. of Information System from City University of Hong Kong. If you would like to know more about me, you can click BAODUGE-About.]]></content>
+    <content type="text"><![CDATA[Hello, welcome to the NERVERLAND, a blog supported by GitHub and Hexo. Neverland is a fictional location featured in the works of J. M. Barrie and those based on them. It is an imaginary faraway place, where Peter Pan, Tinker Bell, the Lost Boys and other mythical creatures and beings live. —Wikipedia NEVERLAND is a place of fantacy and I hope to build a blog full of bold innovation and wonderful ideas. If you have any creative thoughs on no matter science&amp;technology or phylosophy of life, feel free to contact with me via email &#104;&#117;&#119;&#101;&#105;&#104;&#117;&#103;&#104;&#64;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#99;&#x6f;&#x6d;. (You can find my email on the sidebar of this page.) I am a PhD. of Information System from City University of Hong Kong. If you would like to know more about me, you can click BAODUGE-About.]]></content>
   </entry>
   <entry>
     <title><![CDATA[All Categories]]></title>
