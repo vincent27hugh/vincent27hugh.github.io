@@ -13,11 +13,11 @@
         
         <tag>information_system</tag>
          
-        <tag>mathematics</tag>
-         
         <tag>study_plan</tag>
          
         <tag>statistics</tag>
+         
+        <tag>mathematics</tag>
          
         <tag>github</tag>
          
@@ -80,6 +80,48 @@
     
     
   <url>
+    <loc>http://blog.baoduge.com/R_science_computing/</loc>
+    <lastmod>2017-09-12T11:47:48.000Z</lastmod>
+    <data>
+        <display>
+        <title>R语言的科学计算</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>r_language</tag>
+         
+        <tag>science_computing</tag>
+         
+         
+           
+             
+              <breadCrumb title="logs" url="http://blog.baoduge.com/categories/logs/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/current_blockchain/</loc>
+    <lastmod>2017-09-12T11:24:07.000Z</lastmod>
+    <data>
+        <display>
+        <title>区块链现状</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>bloackchain</tag>
+         
+         
+           
+             
+              <breadCrumb title="notes" url="http://blog.baoduge.com/categories/notes/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/UG_Notes1/</loc>
     <lastmod>2017-09-12T11:15:07.000Z</lastmod>
     <data>
@@ -87,9 +129,59 @@
         <title>Undergraduate Notes 1</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
+        <tag>mathematics</tag>
+         
         <tag>physics</tag>
          
-        <tag>mathematics</tag>
+         
+           
+             
+              <breadCrumb title="notes" url="http://blog.baoduge.com/categories/notes/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/SublimeText3_LaTex/</loc>
+    <lastmod>2017-09-12T11:14:50.000Z</lastmod>
+    <data>
+        <display>
+        <title>MAC上使用SUBLIME TEXT3编写LATEX</title>
+        <pubTime>2017-09-09T16:00:00.000Z</pubTime>
+        
+        <tag>tutorial</tag>
+         
+        <tag>latex</tag>
+         
+        <tag>sublime_text3</tag>
+         
+        <tag>skim</tag>
+         
+         
+           
+             
+              <breadCrumb title="notes" url="http://blog.baoduge.com/categories/notes/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/Hexo/</loc>
+    <lastmod>2017-09-12T11:13:51.000Z</lastmod>
+    <data>
+        <display>
+        <title>我在Github上搭建Hexo博客</title>
+        <pubTime>2017-09-07T16:00:00.000Z</pubTime>
+        
+        <tag>github</tag>
+         
+        <tag>hexo</tag>
+         
+        <tag>tutorial</tag>
          
          
            

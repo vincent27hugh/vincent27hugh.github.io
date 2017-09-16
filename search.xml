@@ -33,11 +33,34 @@
       </categories>
       <tags>
         <tag>information_system</tag>
-        <tag>mathematics</tag>
         <tag>study_plan</tag>
         <tag>statistics</tag>
+        <tag>mathematics</tag>
         <tag>github</tag>
         <tag>materials</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[R语言的科学计算]]></title>
+    <url>%2FR_science_computing%2F</url>
+    <content type="text"><![CDATA[求解非线性方程组R语言非线性方程组求解dfsane,nleqslv请教：R语言有没有求解非线性方程组的函数！用R语言求解非线性方程Package ‘nleqslv’BB: An R Package for Solving a Large System of Nonlinear Equations and for Optimizing a High-Dimensional Nonlinear Objective Function How to solve a non-linear equation using nleqslv package in R?Solving system of nonlinear equations in R]]></content>
+      <categories>
+        <category>logs</category>
+      </categories>
+      <tags>
+        <tag>r_language</tag>
+        <tag>science_computing</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[区块链现状]]></title>
+    <url>%2Fcurrent_blockchain%2F</url>
+    <content type="text"><![CDATA[我在之前的文章《区块链初探-综述》中有有过对区块链的一些探究。 区块链核心技术区块链是指一种按照时间顺序将数据区块以顺序相连的方式组合成的一种链式数据结构,并以密码学方式保证不可篡改和不可伪造的分布式账本。从本质上来说,区块链是一种去中心化,去信任的集体维护数据库技术。 区块链数据库 “区块+链”的结构为我们提供了完整的历史数据,使得数据库内的每一笔交易都能追本溯源。 “区块+链+时间戳”让存在性证明变得简单可靠。 分布式结构和去中心化的协议通过让每一个参与数据交易的节点记录并储存所有数据,这使得部分节点的损坏,并不会影响到整个数据库的数据记录与更新,大大提高了数据库的安全性。只要不是所有节点同时崩溃,数据库就可以运转下去,因此提高了系统的永续性和可容错性。 非对称密码学非对称密码学让区块链 技术的信任机制建议在数学原理基础之上。这使得人们无需了解对方的基本情况仍然可以进行信任的价值交换,从而提高了系统的运营效率。 可编程的智能合约脚本脚本本质是众多指令的列表。在区块链中,脚本通常需要价值接收者具有公钥和签名。随着具体情形要求,脚本可以灵活变通生成其他运行条件,例如需要多重私钥等等。这让区块链技术可以处理一些无法预见的交易模式,不会在未来的应用中过时。 区块链潜在应用方向去中心化的分布式结构可以节约大量的中介成本 不可篡改的时间戳可以解决数据追踪与信息防伪问题 安全的信任机制可以解决现今物联网的核心缺陷 灵活的可编程性可以有效帮助规范市场秩序 区块链演化阶段区块链1.0：可编程数字化货币主要通过分布式账本的加密技术,建立了数字货币的发行、分配、币值调节等机制。众所周知的比特币,便可视为区块链的首个在金融支付领域中的应用。 区块链2.0：可编程的智能合约2015年10月,以太坊的创始人Vitalik Buterin发表了题为《Visions, Part 1: The Value of Blockchain Technology》主题演讲中,区块链被赋予了新的含义。区块链是任何人都可以上传程序并使程序自己执行的载体,并且区块链通过自我限制和安全加密,确保了上传的程序能够可信地自动执行预设的逻辑。 区块链3.0：可编程的社会治理由于该技术具有超越货币的公正特性,该技术可以被广泛应用在司法仲裁,身份认证等领域。从长远来看,区块链的去中心化模式,将通过更好的协作与治理,来重塑整个人类社会活动。虽然现如今国内外对于区块链技术的投入使用都已经逐渐展开,但目前尚未有完全落地的应用性成果。因此,区块链技术目前仍然处于理论阶段,今后的技术转换尚需一段很长时间的实践。]]></content>
+      <categories>
+        <category>notes</category>
+      </categories>
+      <tags>
+        <tag>bloackchain</tag>
       </tags>
   </entry>
   <entry>
@@ -52,6 +75,33 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[MAC上使用SUBLIME TEXT3编写LATEX]]></title>
+    <url>%2FSublimeText3_LaTex%2F</url>
+    <content type="text"><![CDATA[出于工作的需要，我们经常需要使用LaTex来写学术论文或者Slides，网上有很多推荐的LaTex专用软件，但是对于使用MAC+Sublime Text习惯了的人，想尝试如何在这样的环境下流畅使用LaTex，下面就是我尝试后的小小心得。 Preparation 检查操作系统：OS X EI Capitan Version 10.11.6; 检查电脑剩余空间；（因为如果你还没有安装MacTex的话，你需要至少4G的空间） 因为本人电脑为OS操作系统，所以针对Windows/Linux系统，本文并不是很实用。 步骤是否安装了MacTex 如果你已经安装了MacTex，请到/usr/local/texlive/文件夹里（可以Finder中按Shift+option+G打开Go to the Folder,输入/usr/local/texlive/）检查MacTex的版本。我的MacTex版本是MacText2017。 如果你想更新MacTex的版本，建议你按照此说明卸载旧版本的MacTex，然后按照下面的步骤按照新版本的MacTex。 如果你没有安装MacTex，可以去MaxTex官网按照官方说明进行安装。 是否安装了Sublime Text 3 如果你已经安装了Sublime Text 3（以下简称ST3），可以直接跳至下一步。 如果你没有安装ST3，请至ST3官网按照官方说明进行安装。 本文针对Sublime Text 2可能并不非常实用。 是否安装了Skim 检查是否已经安装软件Skim。你可以到Skim官网下载安装。 安装完成后： 打开Skim 选择Skim-&gt;Preference-&gt;Sync 在PDF-Tex Sync support-&gt;Preset中选择Sublime Text ST3中是否安装了Package Control 检查Sublime Text 3中是否已经安装了Package Control: 快捷键Shift+Command+P，看看是否会跳出面板； 如果你没有安装，可以按照官网说明进行安装。 安装ST3 Package: LatexTools 快捷键Shift+Command+P打开Packge Control面板； 输入pi,选择“Package Control:Install Package”； 输入“LatexTools”，选择，安装 Control+~打开Console检查Package的安装情况。如果最后跳出Package Control Messages，Console中显示reloading settings Packages/User/Preferences.sublime-settings语句，则表示LatexTools安装成功。 支持中文打开Terminal，输入 ➜ ~ sudo tlmgr update --self ➜ ~ sudo tlmgr install latexmk tlmgr是TeX Live的package manager，Latexmk是LaTeX自动编译工具。 如果你之前并没有修改过User Setting的话，在ST3的Sublime Text-&gt;Preference-&gt;Package Settings-&gt;LatexTools-&gt;Settings-User中，找到builder_settings代码块如下（Ctrl+F打开查找，输入“builder_settings”）： &quot;builder_settings&quot; : { // General settings: // See README or third-party documentation // (built-ins): true shows the log of each command in the output panel &quot;display_log&quot; : false, // Platform-specific settings: &quot;osx&quot; : { // See README or third-party documentation }, &quot;windows&quot; : { // See README or third-party documentation }, &quot;linux&quot; : { // See README or third-party documentation } }, 在 // General settings: // See README or third-party documentation 后加入 &quot;program&quot; : &quot;xelatex&quot;, &quot;command&quot; : [&quot;latexmk&quot;, &quot;-cd&quot;, &quot;-e&quot;, &quot;$pdflatex = &#39;xelatex -interaction=nonstopmode -synctex=1 %S %O&#39;&quot;, &quot;-f&quot;, &quot;-pdf&quot;], 当然，你也可以通过在每次的.tex文件首列加入语句 %!TEX program = xelatex 进行解决。 有没有简单的 LaTeX 中文支持方案？ 部署MAC上的Sublime Text+LaTex中文环境——201706更新 测试粘贴复制以下内容，保存为.tex格式文件： \documentclass{article} \usepackage{fontspec, xunicode, xltxtra} \setmainfont{Hiragino Sans GB} \title{Title} \author{} \begin{document} \maketitle{} \section{Introduction} This is where you will write your content. 在这里写上内容。 \end{document} 快捷键Command+B，进行编译，如果没有问题，Skim会自动跳出预览窗口。 PDF页面进行修改 在 Skim 窗口中，按下Cammand+Shift; 在需要的位置按下触摸板，即可跳转回ST3到对应的代码位置 安装中遇到的问题Problem 1 Package Control: The dependency ‘python-jinja2’ is not currently installed; installing… Error loading scope:source.tsx: Unable to find syntax file for scope source.tsx in Packages/MarkdownEditing/Markdown.tmLanguage 检查一下自己python的版本： ➜ ~ python --V Python 2.7.10 检查一下自己安装的Python Package: ➜ ~ pip freeze altgraph==0.10.2 bdist-mpkg==0.5.0 bonjour-py==0.3 cvxopt==1.1.8 Jinja2==2.9.6 macholib==1.5.1 MarkupSafe==1.0 matplotlib==1.3.1 modulegraph==0.10.4 numpy==1.8.0rc1 pandas==0.18.1 py2app==0.7.3 pyobjc-core==2.5.1 pyobjc-framework-Accounts==2.5.1 pyobjc-framework-AddressBook==2.5.1 pyobjc-framework-AppleScriptKit==2.5.1 pyobjc-framework-AppleScriptObjC==2.5.1 pyobjc-framework-Automator==2.5.1 pyobjc-framework-CFNetwork==2.5.1 pyobjc-framework-Cocoa==2.5.1 pyobjc-framework-Collaboration==2.5.1 pyobjc-framework-CoreData==2.5.1 pyobjc-framework-CoreLocation==2.5.1 pyobjc-framework-CoreText==2.5.1 pyobjc-framework-DictionaryServices==2.5.1 pyobjc-framework-EventKit==2.5.1 pyobjc-framework-ExceptionHandling==2.5.1 pyobjc-framework-FSEvents==2.5.1 pyobjc-framework-InputMethodKit==2.5.1 pyobjc-framework-InstallerPlugins==2.5.1 pyobjc-framework-InstantMessage==2.5.1 pyobjc-framework-LatentSemanticMapping==2.5.1 pyobjc-framework-LaunchServices==2.5.1 pyobjc-framework-Message==2.5.1 pyobjc-framework-OpenDirectory==2.5.1 pyobjc-framework-PreferencePanes==2.5.1 pyobjc-framework-PubSub==2.5.1 pyobjc-framework-QTKit==2.5.1 pyobjc-framework-Quartz==2.5.1 pyobjc-framework-ScreenSaver==2.5.1 pyobjc-framework-ScriptingBridge==2.5.1 pyobjc-framework-SearchKit==2.5.1 pyobjc-framework-ServiceManagement==2.5.1 pyobjc-framework-Social==2.5.1 pyobjc-framework-SyncServices==2.5.1 pyobjc-framework-SystemConfiguration==2.5.1 pyobjc-framework-WebKit==2.5.1 pyOpenSSL==0.13.1 pyparsing==2.0.1 python-dateutil==1.5 pytz==2013.7 requests==2.9.1 scikit-learn==0.17.1 scipy==0.13.0b1 six==1.4.1 sklearn==0.0 vboxapi==1.0 virtualenv==15.0.1 xattr==0.6.4 zope.interface==4.1.1 You are using pip version 8.1.2, however version 9.0.1 is available. You should consider upgrading via the &#39;pip install --upgrade pip&#39; command. 发现我没有jinjia2,安装Jinja2 2.7 documentation安装： ➜ ~ sudo easy_install Jinja2 Password: Problem 2在测试环节，ST3 Console一直会显示： File &quot;/Users/huwei/Desktop/test.tex&quot;, line 1 %!TEX program = xelatex ^ SyntaxError: invalid syntax 或者 \documentclass{article} ^ SyntaxError: unexpected character after line continuation character 在网上查了很久也没有和我类似的问题，最后终于在Weird compile error with Latex Tools plugin找到了答案。 原来因为我之前一直使用ST3编写Python，Tools-&gt;Build System已经被我设置成了Python，我们应该将其设置成Automatic才行。 References 在Mac上使用LaTeX，一份简单的指导 在Mac上通过Sublime、Skim编辑LaTeX 使用Sublime Text编写LaTeX LateXTools: A LaTeX Plugin for Sublime Text 2 and 3]]></content>
+      <categories>
+        <category>notes</category>
+      </categories>
+      <tags>
+        <tag>tutorial</tag>
+        <tag>latex</tag>
+        <tag>sublime_text3</tag>
+        <tag>skim</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[我在Github上搭建Hexo博客]]></title>
+    <url>%2FHexo%2F</url>
+    <content type="text"><![CDATA[因为静态网页的简洁和迅速，在已经搭了个WordPress网页的情形下，我还是忍不住手痒，最近又尝试搭了一个Hexo的网页。本网站就是最后的成果 MAC上搭建Hexo BlogMAC 上 github + hexo 搭建博客教程手把手教你使用Hexo + Github Pages搭建个人独立博客史上最详细的Hexo博客搭建图文教程 Mac上搭建基于GitHub Page的Hexo博客是一篇很赞的文章，但是值得注意的是”注意坑三”中的代码应该如下 $ npm install hexo-deploper-git --save GitHub Pages绑定二级域名因为我已经在GoDaddy购买了域名，所以我想把Github+Hexo的网站绑定到baoduge.com的二级域名商，就叫它blog.baoduge.com好了。 Sementfault:GitHub Pages 绑定二级域名GitHub Pages 绑定来自阿里云的域名知乎：github怎么绑定自己的域名？ godaddy:添加指向一个 IP 地址的子域名 Github教程要使用Github搭建网站，那么Github也可是开始加技能点了。 GitHub for MacAn Intro to Git and GitHub for Beginners (Tutorial)mac上GitHub Desktop客户端的使用 Hexo+Markdown写作Hexo吸引我的一个地方就是它支持Markdown。而后者是我最近一直在用的语言。 Hexo 入门指南（三） - 文章 &amp; 草稿 .md文件写完后，放到sourse/_posts/文件夹里，然后terminal里cd到根目录，使用如下命令发布即可 $ hexo generate $ hexo deploy 或者 $ hexo g $ hexo d 十分方便，so easy！ Others当然在网站搭建的过程中，还是会遇到方方面面的问题。我想下面的资料可能会帮到大家。 WordPress菜单和自定义链接开启在新窗口打开Hexo搭建GitHub博客（三）- NexT主题配置使用为Hexo博客加入Disqus评论Hexo 集成 Disqus 评论如何在Hexo中使用MathJaxHexo搭建博客系列：（五）Hexo添加不蒜子和LeanCloud统计无标题文章如何处理Hexo和MathJax的兼容问题]]></content>
+      <categories>
+        <category>notes</category>
+      </categories>
+      <tags>
+        <tag>github</tag>
+        <tag>hexo</tag>
+        <tag>tutorial</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Undergraduate Notes 1]]></title>
     <url>%2FUG_Notes1%2F</url>
     <content type="text"><![CDATA[Poisson bracket\\{ f ,g \\} =\sum_{i=1}^{N}(\frac{\partial f}{\partial q_i} \frac{\partial g}{\partial p_i} -\frac{\partial f}{\partial p_i} \frac{\partial g}{\partial q_i} )Primality testCompositeness test test if n is divisible by 2 or 3; check through all the numbers from $6k\pm1 \leq \sqrt{n}$ Primorial (素乘) $\longleftrightarrow$ prime Just like factorial (阶乘) $\longleftrightarrow$ factor $nth$ prime number $P_n$ : P_n \\# = \prod_{k=1}^{n} p_kin which $p_k$ is the kth prime number. (e.g., $ P_5 \# = 2 \times 3 \times 5 \times 7 \times 11 = 2310 $) $P_0 \# = 1 \Rightarrow P_n \# = e^{(1+o(1))n \log n}$, in which $o(\cdot)$ is the little -o notation Big-o notaion eg: $f(x)=6 x^4 - 2 x^3 + 5$, $f(x) = O(x^4)$ Simplification rules: If f(x) is a sum of several terms, the one with the largest growth rate is kept, and all others omitted If f(x) is a product of several factors, any constants terms in the product that do not depend on x are omitted. 关于在Markdown中输入数学公式Markdown中插入数学公式的方法使用 Markdown + MathJax 在博客里插入数学公式]]></content>
@@ -59,14 +109,9 @@
         <category>notes</category>
       </categories>
       <tags>
-        <tag>physics</tag>
         <tag>mathematics</tag>
+        <tag>physics</tag>
       </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[about]]></title>
-    <url>%2Fabout%2Findex.html</url>
-    <content type="text"><![CDATA[About MeAbout Me]]></content>
   </entry>
   <entry>
     <title><![CDATA[All Categories]]></title>
@@ -77,5 +122,10 @@
     <title><![CDATA[All Tags]]></title>
     <url>%2Ftags%2Findex.html</url>
     <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[about]]></title>
+    <url>%2Fabout%2Findex.html</url>
+    <content type="text"><![CDATA[About MeAbout Me]]></content>
   </entry>
 </search>
