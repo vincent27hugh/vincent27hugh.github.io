@@ -4,6 +4,32 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/gogle_citation_isr/</loc>
+    <lastmod>2017-09-19T15:18:44.000Z</lastmod>
+    <data>
+        <display>
+        <title>Use MATLAB to batch search citation of IS research paper</title>
+        <pubTime>2017-09-07T16:00:00.000Z</pubTime>
+        
+        <tag>information_system</tag>
+         
+        <tag>matlab</tag>
+         
+        <tag>google_scholar</tag>
+         
+        <tag>reference</tag>
+         
+         
+           
+             
+              <breadCrumb title="notes" url="http://blog.baoduge.com/categories/notes/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/Robo_Advisor_Introduction/</loc>
     <lastmod>2017-09-18T12:43:49.000Z</lastmod>
     <data>
@@ -33,6 +59,8 @@
         <title>My Self-Study Plan</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
+        <tag>github</tag>
+         
         <tag>information_system</tag>
          
         <tag>study_plan</tag>
@@ -40,8 +68,6 @@
         <tag>statistics</tag>
          
         <tag>mathematics</tag>
-         
-        <tag>github</tag>
          
         <tag>materials</tag>
          
@@ -178,9 +204,9 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>github</tag>
-         
         <tag>hexo</tag>
+         
+        <tag>github</tag>
          
         <tag>tutorial</tag>
          
