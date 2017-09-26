@@ -4,20 +4,24 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/gogle_citation_isr/</loc>
-    <lastmod>2017-09-19T15:32:44.000Z</lastmod>
+    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
+    <lastmod>2017-09-26T06:53:00.000Z</lastmod>
     <data>
         <display>
-        <title>Use MATLAB to batch search citation of IS research paper</title>
-        <pubTime>2017-09-18T16:00:00.000Z</pubTime>
+        <title>My Self-Study Plan</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
         <tag>information_system</tag>
          
-        <tag>matlab</tag>
+        <tag>study_plan</tag>
          
-        <tag>google_scholar</tag>
+        <tag>statistics</tag>
          
-        <tag>reference</tag>
+        <tag>mathematics</tag>
+         
+        <tag>github</tag>
+         
+        <tag>materials</tag>
          
          
            
@@ -31,7 +35,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/Robo_Advisor_Introduction/</loc>
-    <lastmod>2017-09-18T12:43:49.000Z</lastmod>
+    <lastmod>2017-09-25T12:55:52.000Z</lastmod>
     <data>
         <display>
         <title>Robo-Advisor Introduction</title>
@@ -52,24 +56,20 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-09-17T04:35:15.000Z</lastmod>
+    <loc>http://blog.baoduge.com/gogle_citation_isr/</loc>
+    <lastmod>2017-09-19T15:32:44.000Z</lastmod>
     <data>
         <display>
-        <title>My Self-Study Plan</title>
-        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        <title>Use MATLAB to batch search citation of IS research paper</title>
+        <pubTime>2017-09-18T16:00:00.000Z</pubTime>
         
-        <tag>github</tag>
-         
         <tag>information_system</tag>
          
-        <tag>mathematics</tag>
+        <tag>matlab</tag>
          
-        <tag>study_plan</tag>
+        <tag>google_scholar</tag>
          
-        <tag>statistics</tag>
-         
-        <tag>materials</tag>
+        <tag>reference</tag>
          
          
            
@@ -156,9 +156,9 @@
         <title>Undergraduate Notes 1</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>physics</tag>
-         
         <tag>mathematics</tag>
+         
+        <tag>physics</tag>
          
          
            
@@ -204,9 +204,9 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>hexo</tag>
-         
         <tag>github</tag>
+         
+        <tag>hexo</tag>
          
         <tag>tutorial</tag>
          
