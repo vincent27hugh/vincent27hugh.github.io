@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/Robo_Advisor_Introduction/</loc>
+    <lastmod>2017-09-27T05:13:32.000Z</lastmod>
+    <data>
+        <display>
+        <title>Robo-Advisor Introduction</title>
+        <pubTime>2017-09-13T16:00:00.000Z</pubTime>
+        
+        <tag>robo_advisor</tag>
+         
+        <tag>fintech</tag>
+         
+         
+           
+             
+              <breadCrumb title="notes" url="http://blog.baoduge.com/categories/notes/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
     <lastmod>2017-09-27T05:06:19.000Z</lastmod>
     <data>
@@ -33,28 +55,6 @@
     </url>
 
     
-    
-  <url>
-    <loc>http://blog.baoduge.com/Robo_Advisor_Introduction/</loc>
-    <lastmod>2017-09-25T12:55:52.000Z</lastmod>
-    <data>
-        <display>
-        <title>Robo-Advisor Introduction</title>
-        <pubTime>2017-09-13T16:00:00.000Z</pubTime>
-        
-        <tag>robo_advisor</tag>
-         
-        <tag>fintech</tag>
-         
-         
-           
-             
-              <breadCrumb title="notes" url="http://blog.baoduge.com/categories/notes/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>http://blog.baoduge.com/gogle_citation_isr/</loc>
@@ -178,13 +178,13 @@
         <title>MAC上使用SUBLIME TEXT3编写LATEX</title>
         <pubTime>2017-09-09T16:00:00.000Z</pubTime>
         
-        <tag>tutorial</tag>
-         
         <tag>latex</tag>
          
         <tag>sublime_text3</tag>
          
         <tag>skim</tag>
+         
+        <tag>tutorial</tag>
          
          
            
@@ -206,9 +206,9 @@
         
         <tag>github</tag>
          
-        <tag>hexo</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>hexo</tag>
          
          
            
