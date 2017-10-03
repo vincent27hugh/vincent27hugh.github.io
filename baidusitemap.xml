@@ -5,21 +5,21 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-10-03T02:41:44.000Z</lastmod>
+    <lastmod>2017-10-03T12:27:30.000Z</lastmod>
     <data>
         <display>
-        <title>My Self-Study Plan</title>
+        <title>Self-Study Plan</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
         <tag>information_system</tag>
+         
+        <tag>github</tag>
          
         <tag>study_plan</tag>
          
         <tag>statistics</tag>
          
         <tag>mathematics</tag>
-         
-        <tag>github</tag>
          
         <tag>materials</tag>
          
@@ -226,9 +226,9 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>github</tag>
-         
         <tag>hexo</tag>
+         
+        <tag>github</tag>
          
         <tag>tutorial</tag>
          
