@@ -4,16 +4,24 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/Use_ST3_manage_reference/</loc>
-    <lastmod>2017-09-29T15:41:31.000Z</lastmod>
+    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
+    <lastmod>2017-10-03T02:41:44.000Z</lastmod>
     <data>
         <display>
-        <title>用Sublime Text 3管理文献</title>
-        <pubTime>2017-09-27T16:00:00.000Z</pubTime>
+        <title>My Self-Study Plan</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>sublime_text_3</tag>
+        <tag>information_system</tag>
          
-        <tag>academic_reference</tag>
+        <tag>study_plan</tag>
+         
+        <tag>statistics</tag>
+         
+        <tag>mathematics</tag>
+         
+        <tag>github</tag>
+         
+        <tag>materials</tag>
          
          
            
@@ -26,24 +34,16 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-09-28T09:42:32.000Z</lastmod>
+    <loc>http://blog.baoduge.com/Use_ST3_manage_reference/</loc>
+    <lastmod>2017-09-29T15:41:31.000Z</lastmod>
     <data>
         <display>
-        <title>My Self-Study Plan</title>
-        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        <title>用Sublime Text 3管理文献</title>
+        <pubTime>2017-09-27T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
+        <tag>sublime_text_3</tag>
          
-        <tag>github</tag>
-         
-        <tag>study_plan</tag>
-         
-        <tag>statistics</tag>
-         
-        <tag>mathematics</tag>
-         
-        <tag>materials</tag>
+        <tag>academic_reference</tag>
          
          
            
@@ -226,9 +226,9 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>hexo</tag>
-         
         <tag>github</tag>
+         
+        <tag>hexo</tag>
          
         <tag>tutorial</tag>
          
