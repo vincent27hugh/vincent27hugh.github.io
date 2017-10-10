@@ -1,157 +1,1138 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[用Sublime Text 3管理文献]]></title>
-    <url>%2FUse_ST3_manage_reference%2F</url>
-    <content type="text"><![CDATA[&#x7B80;&#x4ECB;&#x6700;&#x8FD1;&#x6C89;&#x8FF7;&#x4E8E;&#x6363;&#x9F13;Sublime Text 3&#xFF08;&#x7B80;&#x79F0;ST3&#xFF09;&#xFF0C;&#x518D;&#x52A0;&#x4E0A;&#x6709;&#x4E00;&#x95E8;&#x8BFE;&#x9700;&#x8981;&#x6CDB;&#x8BFB;&#x5927;&#x91CF;&#x7684;&#x82F1;&#x6587;&#x6587;&#x732E;&#xFF0C;&#x56E0;&#x6B64;&#x4ECA;&#x5929;&#x6211;&#x60F3;&#x5C1D;&#x8BD5;&#x5B66;&#x4E60;&#x4E00;&#x4E0B;&#x5982;&#x4F55;&#x7528;ST3&#x7BA1;&#x7406;&#x6587;&#x732E;&#x3002;&#x5E0C;&#x671B;&#x4E0B;&#x9762;&#x7684;&#x5185;&#x5BB9;&#x53EF;&#x4EE5;&#x5BF9;&#x5927;&#x5BB6;&#x6709;&#x4E9B;&#x8BB8;&#x5E2E;&#x52A9;&#x3002; &#x672C;&#x6587;&#x6682;&#x65F6;&#x53EA;&#x9002;&#x7528;&#x4E8E;&#x82F1;&#x6587;&#x6587;&#x732E;&#x3002; &#x51C6;&#x5907;&#x5DE5;&#x4F5C; &#x5B89;&#x88C5;ST3&#xFF0C;&#x5E76;&#x914D;&#x7F6E;Markdown&#x76F8;&#x5173;&#x63D2;&#x4EF6;&#xFF0C;&#x53EF;&#x53C2;&#x7167;&#x672C;&#x4EBA;&#x4E4B;&#x524D;&#x7684;&#x672C;&#x7AE0;&#xFF1A;SUBLIME TEXT&#x4E0B;&#x4F7F;&#x7528;MARKDOWN&#xFF0C;MARKDOWN+SUBLIME TEXT 3+PANDOC+MACTEX &#x914D;&#x7F6E;Sublime Text 3&#x7684;Latex&#x73AF;&#x5883;&#x3002;&#x60A8;&#x53EF;&#x53C2;&#x7167;&#x672C;&#x4EBA;&#x4E4B;&#x524D;&#x7684;&#x6587;&#x7AE0;-MAC&#x4E0A;&#x4F7F;&#x7528;SUBLIME TEXT3&#x7F16;&#x5199;LATEX &#x68C0;&#x67E5;&#x4E00;&#x4E0B;&#x60A8;&#x7684;&#x7535;&#x8111;&#x73AF;&#x5883;&#x3002;&#x4EE5;&#x4E0B;&#x662F;&#x6211;&#x7684;&#x7535;&#x8111;&#x5DE5;&#x4F5C;&#x73AF;&#x5883;&#xFF1A; &#x68C0;&#x67E5;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF1A;OS X EI Capitan Version 10.11.6; Sublime Text: Version 3.0 &#x5B89;&#x88C5;&#x6B65;&#x9AA4;Citation Styles repository&#x8FD9;&#x662F;&#x4E00;&#x4E2A;Citation Style Language&#x5E93;&#xFF0C;CloneCitation Styles repository|GitHub&#x5230;&#x672C;&#x5730;&#x3002;1 &#x521B;&#x5EFA;BibTex&#x6587;&#x4EF6;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x7EAF;&#x6587;&#x672C;&#x6587;&#x4EF6;&#xFF0C;&#x7136;&#x540E;&#x4FDD;&#x5B58;&#x4E3A;&#x6587;&#x4EF6;&#x540E;&#x7F00;&#x540D;&#x4E3A;.bib&#x7684;BibTex&#x6587;&#x4EF6;&#xFF0C;&#x4F8B;&#x5982;mybibtext.bib&#x3002;&#x5728;Windows&#x7CFB;&#x7EDF;&#x4E2D;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;Notepad&#x521B;&#x5EFA;&#x7EAF;&#x6587;&#x672C;&#x6587;&#x4EF6;&#x3002;&#x5728;MAC OS&#x4E2D;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;TextEdit&#x3002;&#x5F53;&#x7136;&#xFF0C;&#x5982;&#x679C;&#x4F60;&#x5DF2;&#x7ECF;&#x5B89;&#x88C5;&#x4E86;ST3&#xFF0C;&#x4F60;&#x4E5F;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x5728;ST3&#x4E2D;&#x521B;&#x5EFA;&#x3002; &#x8FD9;&#x91CC;&#x662F;BibTex&#x7684;&#x5B98;&#x65B9;&#x6307;&#x5357;&#xFF1A;How to use BibTeX &#x67E5;&#x627E;&#x6587;&#x732E;&#x7684;BibTex&#x4F7F;&#x7528;GoogleScholar&#xFF08;&#x4E5F;&#x8BB8;&#x4F60;&#x9700;&#x8981;VPN&#xFF09;&#x6216;&#x8005;&#x5176;&#x4ED6;&#x6587;&#x732E;&#x6570;&#x636E;&#x5E93;&#x67E5;&#x627E;&#x4F60;&#x7684;&#x6587;&#x732E;&#xFF0C;&#x5E76;&#x83B7;&#x53D6;BibTex&#x683C;&#x5F0F;&#x7684;&#x5F15;&#x7528;&#x4EE3;&#x7801;&#x3002;&#x4EE5;GoogleScholar&#x4E3A;&#x4F8B;&#xFF0C;&#x5F53;&#x4F60;&#x641C;&#x7D22;&#x5230;&#x4E86;&#x60F3;&#x8981;&#x7684;&#x6587;&#x732E;&#x540E;&#xFF0C;&#x70B9;&#x51FB;Cite&#xFF0C;&#x5728;&#x5DE6;&#x4E0B;&#x89D2;&#x4F60;&#x53EF;&#x4EE5;&#x770B;&#x5230;BibTex&#xFF0C;&#x70B9;&#x51FB;&#x5B83;&#xFF0C;&#x7136;&#x540E;&#x6D4F;&#x89C8;&#x5668;&#x4F1A;&#x5F39;&#x51FA;&#x8BE5;&#x6587;&#x732E;&#x7684;BibTex&#x683C;&#x5F0F;&#x5185;&#x5BB9;&#x3002;&#x7C98;&#x8D34;&#x590D;&#x5236;&#x5230;&#x4F60;&#x7684;.bib&#x6587;&#x4EF6;&#x4E2D;&#x3002;&#x4EE5;&#x4E0B;&#x662F;BibTex&#x683C;&#x5F0F;&#x6587;&#x732E;&#x5F15;&#x7528;&#x7684;&#x4E00;&#x4E2A;&#x4F8B;&#x5B50;&#xFF1A; @inproceedings{zheng2014time, title={Time series classification using multi-channels deep convolutional neural networks}, author={Zheng, Yi and Liu, Qi and Chen, Enhong and Ge, Yong and Zhao, J Leon}, booktitle={International Conference on Web-Age Information Management}, pages={298--310}, year={2014}, organization={Springer} } &#x5176;&#x4E2D;{&#x540E;&#x7684;&#x4E3A;&#x4F60;&#x4E3A;&#x8BE5;&#x6587;&#x732E;&#x547D;&#x540D;&#x7684;Key&#xFF0C;&#x5728;LaTex&#x7684;Bibliography&#x4E2D;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;\cite{&#x67E5;&#x627E;&#x3002; ST3&#x4E2D;&#x4E0B;&#x8F7D;CiteBibTex&#x63D2;&#x4EF6;&#x901A;&#x8FC7;Ctrl+Command&#x6253;&#x5F00;Command Palette&#xFF0C;&#x8F93;&#x5165;pi&#xFF0C;&#x9009;&#x4E2D;Package Control:Install Package&#x3002;&#x7136;&#x540E;&#x8F93;&#x5165;CiteBibTex,&#x9009;&#x4E2D;&#x5373;&#x53EF;&#x4E0B;&#x8F7D;&#x3002; &#x5728;ST3&#x7684;Preferences-&gt;Package Settings-&gt;CiteBibTex-&gt;Settings-Default&#x4E2D;&#x9700;&#x8981;&#x505A;&#x4E00;&#x70B9;&#x4FEE;&#x6539;&#xFF0C;&#x627E;&#x5230;&#x5982;&#x4E0B;&#x8BED;&#x53E5;&#xFF0C;&#x5C06;&#x8DEF;&#x5F84;&#x6362;&#x6210;&#x4F60;&#x7684;.bib&#x6587;&#x4EF6;&#x8DEF;&#x5F84;&#x3002; 12// (can be overridden on a per-project basis)&quot;bibtex_file&quot;: &quot;/Users/huwei/Documents/WP_Blog/&#x7528;ST3&#x7BA1;&#x7406;&#x6587;&#x732E;/citation.bib&quot;, ST3&#x4E2D;&#x4E66;&#x5199;.md&#x6587;&#x4EF6;34&#x5047;&#x8BBE;&#x6211;&#x6709;&#x4EE5;&#x4E0B;Markdown&#x7684;&#x6E90;&#x6587;&#x4EF6;&#xFF0C;&#x5C06;.md&#x6587;&#x4EF6;&#x548C;.csl&#x6587;&#x4EF6;&#x653E;&#x5728;&#x540C;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x5939;&#x3002; 1234567891011121314151617181920212223242526272829303132---title: &quot;Tutorial of Reference List&quot;author: - &quot;HU WEI (PhD student, IS, CityUHK)&quot;date: 28 Sep 2017csl: science.csl---# Create your own BibTex fileCreate a plain text file and save it as a BibTex file with file extension `.bib`, for example `mybibtext.bib`. On Windows, you can use `Notepad` to create plain text file and on MAC OS, you can use `TextEdit` app.Here is a official tutorial: [How to use BibTeX](http://www.bibtex.org/Using/)# Get BibTex of reference paperGo to GoogleScholar and search your reference. When you find out your reference, you can click `Cite`. And on the left corner on the bottom, you can find `BibTex`. Click it and copy the content on your web browser (See the example as below) and paste it to your `.bib` file. @inproceedings{zheng2014time, title={Time series classification using multi-channels deep convolutional neural networks}, author={Zheng, Yi and Liu, Qi and Chen, Enhong and Ge, Yong and Zhao, J Leon}, booktitle={International Conference on Web-Age Information Management}, pages={298--310}, year={2014}, organization={Springer} }# ReferenceEster, Martin, Kriegel, Hans-peter, Sander, J&#xF6;rg, Xu, Xiaowei (1996). A density-based algorithm for discovering clusters in large spatial databases with noiseKom Samo, Yves-Laurent, Vervuurt, Alexander (2016). Stochastic portfolio theory: a machine learning perspective &#x5F53;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x5728;Reference&#x540E;&#x63D2;&#x5165;&#x6587;&#x732E;&#x65F6;&#xFF0C;&#x53EF;&#x4EE5;&#x6309;CiteBibTex&#x7684;&#x5FEB;&#x6377;&#x952E;F9&#xFF08;cite_bibtex_show_citation_selector&#xFF09;&#xFF0C;ST3&#x4F1A;&#x8DF3;&#x51FA;.bib&#x4E2D;&#x7684;&#x6240;&#x6709;&#x6587;&#x732E;&#xFF0C;&#x76F4;&#x63A5;&#x9009;&#x4E2D;&#x60F3;&#x8981;&#x63D2;&#x5165;&#x7684;&#x6587;&#x732E;&#x5373;&#x53EF;&#x3002; &#x6700;&#x7EC8;&#x6548;&#x679C;&#x53EF;&#x89C1;&#x4EE5;&#x4E0B;PDF&#x6587;&#x4EF6;: &#x4E66;&#x5199;.tex&#x6587;&#x4EF6;note2&#x5C06;.bib&#x6587;&#x4EF6;&#x548C;.tex&#x6587;&#x4EF6;&#x653E;&#x5728;&#x540C;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x5939;&#x3002;&#x5047;&#x8BBE;&#x6709;&#x4EE5;&#x4E0B;.tex&#x6587;&#x4EF6; \documentclass{article} \usepackage{fontspec, xunicode, xltxtra} \setmainfont{Hiragino Sans GB} \title{An example} \author{BDG} \begin{document} \maketitle{} \section{Introduction} This is where you will write your content.\par Ref 1\cite{Ester96adensity-based}\par Ref 2\cite{kom2016stochastic} % ---- bibliography ------% \bibliographystyle{IEEEtran} \bibliography{citation} \end{document} ST3&#x4E2D;&#x76F4;&#x63A5;&#x6309;&#x5FEB;&#x6377;&#x952E;Command+B&#x8FDB;&#x884C;&#x7F16;&#x8BD1;&#xFF0C;&#x7CFB;&#x7EDF;&#x4F1A;&#x8DF3;&#x51FA;skim&#x8F6F;&#x4EF6;&#x9884;&#x89C8;&#x7F16;&#x8BD1;&#x597D;&#x7684;PDF&#x6587;&#x4EF6;&#x3002; &#x7F16;&#x8BD1;&#x51FA;&#x7684;&#x6548;&#x679C;&#x53EF;&#x89C1;&#x4EE5;&#x4E0B;PDF&#x6587;&#x4EF6;: &#x4F7F;&#x7528;Mendeley&#x9664;&#x4E86;&#x53EF;&#x4EE5;&#x5728;ST3&#x4E2D;&#x8FDB;&#x884C;&#x5B66;&#x672F;&#x98CE;&#x683C;&#x7684;&#x4E66;&#x5199;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;Mendeley&#xFF08;Wikipedia|Mendeley&#xFF09;&#x8F6F;&#x4EF6;&#x6765;&#x7BA1;&#x7406;&#x81EA;&#x5DF1;PC&#x4E0A;&#x7684;&#x6587;&#x732E;&#x3002;Mendeley&#x771F;&#x7684;&#x662F;&#x4E00;&#x6B3E;&#x5341;&#x5206;&#x5F3A;&#x5927;&#x7684;&#x6587;&#x732E;&#x7BA1;&#x7406;&#x8F6F;&#x4EF6;&#x3002;5 &#x7528;.bib&#x6587;&#x4EF6;&#x5728;Mendeley&#x4E2D;&#x5BFC;&#x5165;&#x6587;&#x732E;&#x6253;&#x5F00;Mendeley,File-&gt;Import-&gt;BibTex(*.bib)&#x5373;&#x53EF;&#x5BFC;&#x5165;.bib&#x6587;&#x4EF6;&#x3002;Mendeley&#x53EF;&#x4EE5;&#x81EA;&#x52A8;&#x5BFC;&#x5165;.bib&#x6587;&#x4EF6;&#x4E2D;&#x5305;&#x542B;&#x7684;&#x6240;&#x6709;&#x6587;&#x732E;&#x3002;&#x540C;&#x65F6;&#x5728;Mendeley&#x4E2D;&#x9009;&#x4E2D;&#x6587;&#x732E;&#xFF0C;File-&gt;Export&#x4E5F;&#x53EF;&#x5BFC;&#x51FA;&#x8FD9;&#x51E0;&#x7BC7;&#x6587;&#x732E;&#x7684;.bib&#x6587;&#x4EF6; &#x540C;&#x6B65;BibTex&#x6587;&#x4EF6;Preference-&gt;BibTex&#xFF0C;&#x9009;&#x4E2D;Enable BibTex Syncing&#xFF0C;&#x5EFA;&#x8BAE;&#x63A5;&#x4E0B;&#x6765;&#x9009;Create one BibTex file per Group&#xFF0C;&#x7136;&#x540E;&#x5728;Path&#x4E00;&#x680F;&#x4E2D;&#x586B;&#x4E00;&#x4E2A;&#x4F60;&#x60F3;&#x5B58;&#x653E;BibTex&#x6587;&#x4EF6;&#x7684;&#x5730;&#x65B9;&#xFF0C;&#x8FD9;&#x6837;Mendeley&#x4F1A;&#x6839;&#x636E;&#x6BCF;&#x4E2A;&#x6587;&#x4EF6;&#x5939;&#x521B;&#x5EFA;&#x8BE5;&#x6587;&#x4EF6;&#x5939;&#x4E0B;&#x5DF2;&#x7ECF;&#x5BFC;&#x5165;&#x4E86;Mendeley&#x4E2D;&#x7684;&#x6240;&#x6709;&#x6587;&#x732E;&#x7684;BibTex&#x6587;&#x4EF6;&#xFF0C;&#x5E76;&#x5B9E;&#x65F6;&#x66F4;&#x65B0;&#x3002;6 References&#x5982;&#x4F55;&#x5728;LaTeX&#x5199;&#x4F5C;&#x4E2D;&#x7BA1;&#x7406;&#x53C2;&#x8003;&#x6587;&#x732E;?|&#x77E5;&#x4E4E;&#x5982;&#x4F55;&#x603B;&#x7ED3;&#x548C;&#x6574;&#x7406;&#x5B66;&#x672F;&#x6587;&#x732E;&#xFF1F;|&#x77E5;&#x4E4E;&#x5982;&#x4F55;&#x5728;LaTeX&#x5199;&#x4F5C;&#x4E2D;&#x7BA1;&#x7406;&#x53C2;&#x8003;&#x6587;&#x732E;?|&#x77E5;&#x4E4E;How to use Markdown and Pandoc in Sublime Text 3&#x7528; Mac &#x641E;&#x5B66;&#x672F;&#x4E4B; Papers 1. Tooling up for Plain Text Academic Writing in Markdown &#x21A9; 2. How to make a scientific looking PDF from markdown (with bibliography) &#x21A9; 3. Academic Writing With Markdown &#x21A9; 4. Academic Markdown and Citations &#x21A9; 5. Getting started with Mendeley Desktop &#x21A9; 6. How-to series: Generate BibTeX files for your collections for use in LaTeX 3/12 &#x21A9;]]></content>
-      <categories>
-        <category>notes</category>
-      </categories>
-      <tags>
-        <tag>sublime_text_3</tag>
-        <tag>academic_reference</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Use MATLAB to batch search citation of IS research paper]]></title>
-    <url>%2Fgogle_citation_isr%2F</url>
-    <content type="text"><![CDATA[PurposeThere is one course which requires us to do research on the methods and theories of some specific period of time. And we need to read all of the papers issued on the top journals in the target period. After briefly browsing, I found that I need to read about 100 papers which is frankly impossible to be done in just two weeks. Then I just want to know the current citation numbers of this bunch of papers, which can make it easier to decide which one is more worth to read at first. Then I did some work on MATLAB and hope it can help you.Sepecific Code here Basic info Version: 1.0 Copyright: HU WEI Date: 2017-09-18 Method: Use MATLAB Environment: OS: Mac OS X EI Capitan MATLAB: R2014b Default Web Browser: Chrome Version 60.0.3112.113 (Official Build) (64-bit) Google Scholar Language: English Acknowledge google2link.m is built on the basis of Fahad Al Mahmood&#x2019;s work &#x2018;google.m&#x2019;, please refer to google by Fahad Al Mahmood on File Exchange About pdfRead.m, I should totally give credit to Derek Wood. Please refer to Read text from a PDF document by Derek Wood|File Exchange Prerequisites&#xFF1A; Make a new folder named PDF files and move the PDF files that you want to search for their academic catations in this folder. Make sure that your network is open; This google_citation.m can only recognize 3 journals paper: [X] Management Information System Quarterly [X] INFORMS Journal of Computing [X] Information System Research Usage&#xFF1A; Run Google_Citation.m file and you will get: citation.mat data file which stores the title and ciataion # of the Ciatation folder which stores the renamed PDF files in the format as Citation #-Old name.pdf; If you want to load the data citation.mat file to check the data, you can turn to import_demo.m as reference; Others Sometimes the google scholar need you to verify that you are not robot. Just like the error as follow: The server returned the message: &#x201C;Service Unavailable&#x201D; for URL, &#x2018;http://scholar.google.com/scholar?q=Setup+and+Open-Stacks+Minimization+in+One-Dimensional+Stock+Cutting.&#x2019; (with HTTP response code 503). The HTTP response code 503 means that: The server is currently unable to handle the request due to a temporary overload or scheduled maintenance, which will likely be alleviated after some delay. You may need to try again later. TODO Use Text Mining Techniques to recognize &#x2018;titile&#x2019;, &#x2018;author&#x2019; and some other segment automatically Convert to Python Build an API]]></content>
-      <categories>
-        <category>notes</category>
-      </categories>
-      <tags>
-        <tag>information_system</tag>
-        <tag>matlab</tag>
-        <tag>google_scholar</tag>
-        <tag>reference</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Robo-Advisor Introduction]]></title>
-    <url>%2FRobo_Advisor_Introduction%2F</url>
-    <content type="text"><![CDATA[What is Robo-Advisor? Robo-advisors or Robo-advisers are a class of financial adviser that provide financial advice or portfolio management online with moderate to minimal human intervention. -Wikipedia Robo-advisor (A.K.A. Intelligent Investment) can provide automated investment management services, which requires little or low human interactions once the clients ensure their initial preferences. Here is a PowerPoint about the introduction of Robo Advisor: General Process &amp; Mechanism of Robo-AdvisorRisk Tolerance Questionnaire (RTQ)RTQ is a questionnaire about customers&#x2019; personal financial goals and tolerance for risk. Rebalancing Process Robo provides asset allocation and investment selection. Automatic deposits from payroll, systematic investment plans, and automatic rebalancing The robo-advisor software will make periodic adjustments over time. Theories &amp; TechniquesMordern Portfolio Theory Input: User Info; Output: Portfolio; Mean-Variance Optimization Deferential Manifold and Topology Use tensor to describe the portfolio space; Find topological invariant and predict&#xFF1B; Deferential Manifold&#xFF1B; Machine Learning Random effect function Reinforcement learning Finance Risk Management Mutual Fund FOF product Diversified Investment: &#x2014; Passive management: mainly index fund or ETF (Exchange-Trade Funds) &#x2014; Stocks, bonds, mutual funds, futures, and real estate may be used Websites about Robo Advisor nerdwallet-investing investmentzen-best robo advisor Independent Robo-Advisors (Overseas) Betterment Wealthfront Personal Capital Sigfig Vanguard Rebalance IRA WiseBanyan Wealthsimple Blooom Schwab Intelligent Portfolios Ally:TradeKing Advisor Hedgeable FutureAdvisor Motif Investing TD Ameritrade Merill Edge ETRADE Acorns Eoption tradestation InteractiveBrokers Fiedelity GO Alpha Architect Robo Cambria Digital Advisor Independent Robo-Advisors (Domestic)1 Ant Group: iGoldenBeta &#x62DB;&#x5546;&#x94F6;&#x884C;&#xFF1A;&#x6469;&#x7FAF;&#x667A;&#x6295; &#x91D1;&#x878D;&#x754C;&#xFF1A;&#x7075;&#x7280;&#x667A;&#x6295; &#x5B9C;&#x4FE1;&#x8D22;&#x5BCC;&#xFF1A;&#x6295;&#x7C73;RA &#x7406;&#x8D22;&#x9B54;&#x65B9; &#x86CB;&#x5377;&#x57FA;&#x91D1; &#x5E73;&#x5B89;&#x58F9;&#x8D26;&#x901A;&#xFF1A;&#x667A;&#x80FD;&#x8D22;&#x5BCC;&#x7BA1;&#x5BB6; &#x534E;&#x590F;&#x94F6;&#x884C;&#x667A;&#x80FD;&#x6295;&#x987E; Features Optimal investment strategy to non-professional investors Customized Automation Low commission fee DisadvantagesNo too much AI&amp;Big Data yet in the industry (Speech Recognition, Big Data) Academic Readings Moody, J., Wu, L., Liao, Y., &amp; Saffell, M. (1998). Performance functions and reinforcement learning for trading systems and portfolios. Journal of Forecasting, 17(56), 441-470. Neuneier, R., &amp; Mihatsch, O. (1999). Risk sensitive reinforcement learning. In Advances in Neural Information Processing Systems (pp. 1031-1037). Dempster, M. A., &amp; Jones, C. M. (2001). A real-time adaptive trading system using genetic programming. Quantitative Finance, 1(4), 397-413. Li, B., &amp; Hoi, S. C. (2014). Online portfolio selection: A survey. ACM Computing Surveys (CSUR), 46(3), 35. Galindo, J., &amp; Tamayo, P. (2000). Credit risk assessment using statistical and machine learning: basic methodology and risk modeling applications. Computational Economics, 15(1), 107-143. Dempster, M. A., &amp; Leemans, V. (2006). An automated FX trading system using adaptive reinforcement learning. Expert Systems with Applications, 30(3), 543-552. Nevmyvaka, Y., Feng, Y., &amp; Kearns, M. (2006, June). Reinforcement learning for optimized trade execution. In Proceedings of the 23rd international conference on Machine learning (pp. 673-680). ACM. Jiang, Z., &amp; Liang, J. (2016). Cryptocurrency Portfolio Management with Deep Reinforcement Learning. arXiv preprint arXiv:1612.01277. Moody, J. E., Saffell, M., Liao, Y., &amp; Wu, L. (1998, August). Reinforcement Learning for Trading Systems and Portfolios. In KDD (pp. 279-283). Non-academic Readings ACCENTURE: The Rise of Robo-Advice: Changing the Concept of Wealth Management CGI: [Beyond Robo-Advisors:Using Technology to Power New Methods of Client Advice and Interaction] Deloitte: Robo-Advisory in Wealth Management IPSOS: Robo-advisors: the rise of automated financial advice McKinsey &amp; Company: ARTIFICIAL INTELLIGENCE THE NEXT DIGITAL FRONTIER? Wealthfront Investment: Methodology White Paper Betterment - White Paper: Tax Loss Harvesting+&#x2122; Schwab - Rebalancing and Tax-Loss Harvesting in Schwab Intelligent Portfolios&#x2122; Casual Readings &#x77E5;&#x4E4E;&#xFF1A;&#x667A;&#x80FD;&#x6295;&#x987E;&#x662F;&#x4EC0;&#x4E48;&#xFF1F;&#x300C;&#x667A;&#x80FD;&#x300D;&#x4F53;&#x73B0;&#x5728;&#x54EA;&#x4E9B;&#x65B9;&#x9762;&#xFF1F; &#x4E00;&#x6587;&#x8BFB;&#x61C2;&#x667A;&#x80FD;&#x6295;&#x987E;&#x7684;&#x5546;&#x4E1A;&#x903B;&#x8F91;&#x548C;&#x6A21;&#x578B;&#x7B97;&#x6CD5; &#x77E5;&#x4E4E;&#xFF1A;&#x4EC0;&#x4E48;&#x662F;&#x667A;&#x80FD;&#x6295;&#x987E;&#xFF1F; &#x534E;&#x5C14;&#x8857;&#x89C1;&#x95FB;&#xFF1A;&#x667A;&#x80FD;&#x6295;&#x987E;&#x662F;&#x600E;&#x6837;&#x70BC;&#x6210;&#x7684;&#xFF1F; &#x77E5;&#x4E4E;LIVE:&#x667A;&#x80FD;&#x6295;&#x987E;&#x662F;&#x4EC0;&#x4E48;&#xFF1F; CNBC: Goldman building robo-adviser to give investment advice to the masses CNBC: Machine learning is transforming investment strategies for asset managers American Banker: Beyond Robo-Advisers: How AI Could Rewire Wealth Management The Economist: Ask the algorithm Quora: Is there any hedge fund using Machine learning based algorithms for trading? Quora: Can deep reinforcement learning be used to make automated trading better? INSIGHT: Machine Learning in Finance: Is a Robo-Advisor Smart Enough to Invest Your Savings? NerdWallet: Best Robo-Advisors: 2017 Top Picks INVESTOPEDIA: 9 Top Robo-Advisors for Financial Advisors StackExchange:Which algorithms do robo-advisors use? Mr Money Mustache Blog: The Betterment Experiment &#x2013; Results NerdWallet: Best Online Brokers for Stock Trading 2017 The Balance: A Look at the Top Robo-Advisor Services Artificial Intelligence led disruption in Trading How Machine Learning Is Helping Morgan Stanley Better Understand Client Needs Possible TopicsA. Market/Strategy Survey of Robo-Advisor Market and its impact B. Technology Portfolio Management view of Robo-Advisor In-depth exploration of Robo-Advisor framework C. Statistics/Data Analysis Trend analysis of Robot-Advisor D. Behavior Survey: How do human trust Robo-Advisor? 1. &#x4E2D;&#x56FD;&#x667A;&#x80FD;&#x6295;&#x987E;&#x884C;&#x4E1A;2017&#x5E74;8&#x6708;&#x53D1;&#x5C55;&#x6708;&#x62A5; &#x21A9;]]></content>
-      <categories>
-        <category>notes</category>
-      </categories>
-      <tags>
-        <tag>robo_advisor</tag>
-        <tag>fintech</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[区块链现状]]></title>
-    <url>%2Fcurrent_blockchain%2F</url>
-    <content type="text"><![CDATA[&#x6211;&#x5728;&#x4E4B;&#x524D;&#x7684;&#x6587;&#x7AE0;&#x300A;&#x533A;&#x5757;&#x94FE;&#x521D;&#x63A2;-&#x7EFC;&#x8FF0;&#x300B;&#x4E2D;&#x6709;&#x6709;&#x8FC7;&#x5BF9;&#x533A;&#x5757;&#x94FE;&#x7684;&#x4E00;&#x4E9B;&#x63A2;&#x7A76;&#x3002; &#x533A;&#x5757;&#x94FE;&#x6838;&#x5FC3;&#x6280;&#x672F;&#x533A;&#x5757;&#x94FE;&#x662F;&#x6307;&#x4E00;&#x79CD;&#x6309;&#x7167;&#x65F6;&#x95F4;&#x987A;&#x5E8F;&#x5C06;&#x6570;&#x636E;&#x533A;&#x5757;&#x4EE5;&#x987A;&#x5E8F;&#x76F8;&#x8FDE;&#x7684;&#x65B9;&#x5F0F;&#x7EC4;&#x5408;&#x6210;&#x7684;&#x4E00;&#x79CD;&#x94FE;&#x5F0F;&#x6570;&#x636E;&#x7ED3;&#x6784;,&#x5E76;&#x4EE5;&#x5BC6;&#x7801;&#x5B66;&#x65B9;&#x5F0F;&#x4FDD;&#x8BC1;&#x4E0D;&#x53EF;&#x7BE1;&#x6539;&#x548C;&#x4E0D;&#x53EF;&#x4F2A;&#x9020;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x8D26;&#x672C;&#x3002;&#x4ECE;&#x672C;&#x8D28;&#x4E0A;&#x6765;&#x8BF4;,&#x533A;&#x5757;&#x94FE;&#x662F;&#x4E00;&#x79CD;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;,&#x53BB;&#x4FE1;&#x4EFB;&#x7684;&#x96C6;&#x4F53;&#x7EF4;&#x62A4;&#x6570;&#x636E;&#x5E93;&#x6280;&#x672F;&#x3002; &#x533A;&#x5757;&#x94FE;&#x6570;&#x636E;&#x5E93; &#x201C;&#x533A;&#x5757;+&#x94FE;&#x201D;&#x7684;&#x7ED3;&#x6784;&#x4E3A;&#x6211;&#x4EEC;&#x63D0;&#x4F9B;&#x4E86;&#x5B8C;&#x6574;&#x7684;&#x5386;&#x53F2;&#x6570;&#x636E;,&#x4F7F;&#x5F97;&#x6570;&#x636E;&#x5E93;&#x5185;&#x7684;&#x6BCF;&#x4E00;&#x7B14;&#x4EA4;&#x6613;&#x90FD;&#x80FD;&#x8FFD;&#x672C;&#x6EAF;&#x6E90;&#x3002; &#x201C;&#x533A;&#x5757;+&#x94FE;+&#x65F6;&#x95F4;&#x6233;&#x201D;&#x8BA9;&#x5B58;&#x5728;&#x6027;&#x8BC1;&#x660E;&#x53D8;&#x5F97;&#x7B80;&#x5355;&#x53EF;&#x9760;&#x3002; &#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;&#x548C;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x534F;&#x8BAE;&#x901A;&#x8FC7;&#x8BA9;&#x6BCF;&#x4E00;&#x4E2A;&#x53C2;&#x4E0E;&#x6570;&#x636E;&#x4EA4;&#x6613;&#x7684;&#x8282;&#x70B9;&#x8BB0;&#x5F55;&#x5E76;&#x50A8;&#x5B58;&#x6240;&#x6709;&#x6570;&#x636E;,&#x8FD9;&#x4F7F;&#x5F97;&#x90E8;&#x5206;&#x8282;&#x70B9;&#x7684;&#x635F;&#x574F;,&#x5E76;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x5230;&#x6574;&#x4E2A;&#x6570;&#x636E;&#x5E93;&#x7684;&#x6570;&#x636E;&#x8BB0;&#x5F55;&#x4E0E;&#x66F4;&#x65B0;,&#x5927;&#x5927;&#x63D0;&#x9AD8;&#x4E86;&#x6570;&#x636E;&#x5E93;&#x7684;&#x5B89;&#x5168;&#x6027;&#x3002;&#x53EA;&#x8981;&#x4E0D;&#x662F;&#x6240;&#x6709;&#x8282;&#x70B9;&#x540C;&#x65F6;&#x5D29;&#x6E83;,&#x6570;&#x636E;&#x5E93;&#x5C31;&#x53EF;&#x4EE5;&#x8FD0;&#x8F6C;&#x4E0B;&#x53BB;,&#x56E0;&#x6B64;&#x63D0;&#x9AD8;&#x4E86;&#x7CFB;&#x7EDF;&#x7684;&#x6C38;&#x7EED;&#x6027;&#x548C;&#x53EF;&#x5BB9;&#x9519;&#x6027;&#x3002; &#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x7801;&#x5B66;&#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x7801;&#x5B66;&#x8BA9;&#x533A;&#x5757;&#x94FE; &#x6280;&#x672F;&#x7684;&#x4FE1;&#x4EFB;&#x673A;&#x5236;&#x5EFA;&#x8BAE;&#x5728;&#x6570;&#x5B66;&#x539F;&#x7406;&#x57FA;&#x7840;&#x4E4B;&#x4E0A;&#x3002;&#x8FD9;&#x4F7F;&#x5F97;&#x4EBA;&#x4EEC;&#x65E0;&#x9700;&#x4E86;&#x89E3;&#x5BF9;&#x65B9;&#x7684;&#x57FA;&#x672C;&#x60C5;&#x51B5;&#x4ECD;&#x7136;&#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x4FE1;&#x4EFB;&#x7684;&#x4EF7;&#x503C;&#x4EA4;&#x6362;,&#x4ECE;&#x800C;&#x63D0;&#x9AD8;&#x4E86;&#x7CFB;&#x7EDF;&#x7684;&#x8FD0;&#x8425;&#x6548;&#x7387;&#x3002; &#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;&#x811A;&#x672C;&#x811A;&#x672C;&#x672C;&#x8D28;&#x662F;&#x4F17;&#x591A;&#x6307;&#x4EE4;&#x7684;&#x5217;&#x8868;&#x3002;&#x5728;&#x533A;&#x5757;&#x94FE;&#x4E2D;,&#x811A;&#x672C;&#x901A;&#x5E38;&#x9700;&#x8981;&#x4EF7;&#x503C;&#x63A5;&#x6536;&#x8005;&#x5177;&#x6709;&#x516C;&#x94A5;&#x548C;&#x7B7E;&#x540D;&#x3002;&#x968F;&#x7740;&#x5177;&#x4F53;&#x60C5;&#x5F62;&#x8981;&#x6C42;,&#x811A;&#x672C;&#x53EF;&#x4EE5;&#x7075;&#x6D3B;&#x53D8;&#x901A;&#x751F;&#x6210;&#x5176;&#x4ED6;&#x8FD0;&#x884C;&#x6761;&#x4EF6;,&#x4F8B;&#x5982;&#x9700;&#x8981;&#x591A;&#x91CD;&#x79C1;&#x94A5;&#x7B49;&#x7B49;&#x3002;&#x8FD9;&#x8BA9;&#x533A;&#x5757;&#x94FE;&#x6280;&#x672F;&#x53EF;&#x4EE5;&#x5904;&#x7406;&#x4E00;&#x4E9B;&#x65E0;&#x6CD5;&#x9884;&#x89C1;&#x7684;&#x4EA4;&#x6613;&#x6A21;&#x5F0F;,&#x4E0D;&#x4F1A;&#x5728;&#x672A;&#x6765;&#x7684;&#x5E94;&#x7528;&#x4E2D;&#x8FC7;&#x65F6;&#x3002; &#x533A;&#x5757;&#x94FE;&#x6F5C;&#x5728;&#x5E94;&#x7528;&#x65B9;&#x5411;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;&#x53EF;&#x4EE5;&#x8282;&#x7EA6;&#x5927;&#x91CF;&#x7684;&#x4E2D;&#x4ECB;&#x6210;&#x672C; &#x4E0D;&#x53EF;&#x7BE1;&#x6539;&#x7684;&#x65F6;&#x95F4;&#x6233;&#x53EF;&#x4EE5;&#x89E3;&#x51B3;&#x6570;&#x636E;&#x8FFD;&#x8E2A;&#x4E0E;&#x4FE1;&#x606F;&#x9632;&#x4F2A;&#x95EE;&#x9898; &#x5B89;&#x5168;&#x7684;&#x4FE1;&#x4EFB;&#x673A;&#x5236;&#x53EF;&#x4EE5;&#x89E3;&#x51B3;&#x73B0;&#x4ECA;&#x7269;&#x8054;&#x7F51;&#x7684;&#x6838;&#x5FC3;&#x7F3A;&#x9677; &#x7075;&#x6D3B;&#x7684;&#x53EF;&#x7F16;&#x7A0B;&#x6027;&#x53EF;&#x4EE5;&#x6709;&#x6548;&#x5E2E;&#x52A9;&#x89C4;&#x8303;&#x5E02;&#x573A;&#x79E9;&#x5E8F; &#x533A;&#x5757;&#x94FE;&#x6F14;&#x5316;&#x9636;&#x6BB5;&#x533A;&#x5757;&#x94FE;1.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x6570;&#x5B57;&#x5316;&#x8D27;&#x5E01;&#x4E3B;&#x8981;&#x901A;&#x8FC7;&#x5206;&#x5E03;&#x5F0F;&#x8D26;&#x672C;&#x7684;&#x52A0;&#x5BC6;&#x6280;&#x672F;,&#x5EFA;&#x7ACB;&#x4E86;&#x6570;&#x5B57;&#x8D27;&#x5E01;&#x7684;&#x53D1;&#x884C;&#x3001;&#x5206;&#x914D;&#x3001;&#x5E01;&#x503C;&#x8C03;&#x8282;&#x7B49;&#x673A;&#x5236;&#x3002;&#x4F17;&#x6240;&#x5468;&#x77E5;&#x7684;&#x6BD4;&#x7279;&#x5E01;,&#x4FBF;&#x53EF;&#x89C6;&#x4E3A;&#x533A;&#x5757;&#x94FE;&#x7684;&#x9996;&#x4E2A;&#x5728;&#x91D1;&#x878D;&#x652F;&#x4ED8;&#x9886;&#x57DF;&#x4E2D;&#x7684;&#x5E94;&#x7528;&#x3002; &#x533A;&#x5757;&#x94FE;2.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;2015&#x5E74;10&#x6708;,&#x4EE5;&#x592A;&#x574A;&#x7684;&#x521B;&#x59CB;&#x4EBA;Vitalik Buterin&#x53D1;&#x8868;&#x4E86;&#x9898;&#x4E3A;&#x300A;Visions, Part 1: The Value of Blockchain Technology&#x300B;&#x4E3B;&#x9898;&#x6F14;&#x8BB2;&#x4E2D;,&#x533A;&#x5757;&#x94FE;&#x88AB;&#x8D4B;&#x4E88;&#x4E86;&#x65B0;&#x7684;&#x542B;&#x4E49;&#x3002;&#x533A;&#x5757;&#x94FE;&#x662F;&#x4EFB;&#x4F55;&#x4EBA;&#x90FD;&#x53EF;&#x4EE5;&#x4E0A;&#x4F20;&#x7A0B;&#x5E8F;&#x5E76;&#x4F7F;&#x7A0B;&#x5E8F;&#x81EA;&#x5DF1;&#x6267;&#x884C;&#x7684;&#x8F7D;&#x4F53;,&#x5E76;&#x4E14;&#x533A;&#x5757;&#x94FE;&#x901A;&#x8FC7;&#x81EA;&#x6211;&#x9650;&#x5236;&#x548C;&#x5B89;&#x5168;&#x52A0;&#x5BC6;,&#x786E;&#x4FDD;&#x4E86;&#x4E0A;&#x4F20;&#x7684;&#x7A0B;&#x5E8F;&#x80FD;&#x591F;&#x53EF;&#x4FE1;&#x5730;&#x81EA;&#x52A8;&#x6267;&#x884C;&#x9884;&#x8BBE;&#x7684;&#x903B;&#x8F91;&#x3002; &#x533A;&#x5757;&#x94FE;3.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x793E;&#x4F1A;&#x6CBB;&#x7406;&#x7531;&#x4E8E;&#x8BE5;&#x6280;&#x672F;&#x5177;&#x6709;&#x8D85;&#x8D8A;&#x8D27;&#x5E01;&#x7684;&#x516C;&#x6B63;&#x7279;&#x6027;,&#x8BE5;&#x6280;&#x672F;&#x53EF;&#x4EE5;&#x88AB;&#x5E7F;&#x6CDB;&#x5E94;&#x7528;&#x5728;&#x53F8;&#x6CD5;&#x4EF2;&#x88C1;,&#x8EAB;&#x4EFD;&#x8BA4;&#x8BC1;&#x7B49;&#x9886;&#x57DF;&#x3002;&#x4ECE;&#x957F;&#x8FDC;&#x6765;&#x770B;,&#x533A;&#x5757;&#x94FE;&#x7684;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x6A21;&#x5F0F;,&#x5C06;&#x901A;&#x8FC7;&#x66F4;&#x597D;&#x7684;&#x534F;&#x4F5C;&#x4E0E;&#x6CBB;&#x7406;,&#x6765;&#x91CD;&#x5851;&#x6574;&#x4E2A;&#x4EBA;&#x7C7B;&#x793E;&#x4F1A;&#x6D3B;&#x52A8;&#x3002;&#x867D;&#x7136;&#x73B0;&#x5982;&#x4ECA;&#x56FD;&#x5185;&#x5916;&#x5BF9;&#x4E8E;&#x533A;&#x5757;&#x94FE;&#x6280;&#x672F;&#x7684;&#x6295;&#x5165;&#x4F7F;&#x7528;&#x90FD;&#x5DF2;&#x7ECF;&#x9010;&#x6E10;&#x5C55;&#x5F00;,&#x4F46;&#x76EE;&#x524D;&#x5C1A;&#x672A;&#x6709;&#x5B8C;&#x5168;&#x843D;&#x5730;&#x7684;&#x5E94;&#x7528;&#x6027;&#x6210;&#x679C;&#x3002;&#x56E0;&#x6B64;,&#x533A;&#x5757;&#x94FE;&#x6280;&#x672F;&#x76EE;&#x524D;&#x4ECD;&#x7136;&#x5904;&#x4E8E;&#x7406;&#x8BBA;&#x9636;&#x6BB5;,&#x4ECA;&#x540E;&#x7684;&#x6280;&#x672F;&#x8F6C;&#x6362;&#x5C1A;&#x9700;&#x4E00;&#x6BB5;&#x5F88;&#x957F;&#x65F6;&#x95F4;&#x7684;&#x5B9E;&#x8DF5;&#x3002;]]></content>
-      <categories>
-        <category>notes</category>
-      </categories>
-      <tags>
-        <tag>bloackchain</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Logs and Questions]]></title>
-    <url>%2F2017_Logs_Questions%2F</url>
-    <content type="text"><![CDATA[2017-07-07 What is Technology-Organization-Environment (T-O-E) Framework? What is Diffusion of Innovation (DOI) Theory? What is Feauture selection? Review Logistic Regression and OLS Reg Robostic Test? decision making virtualenv vs anaconda? Some useful links: Python&#x2014;Virtualenv&#x7B80;&#x660E;&#x6559;&#x7A0B;Python&#x6307;&#x5357;&#xFF1A;&#x865A;&#x62DF;&#x73AF;&#x5883;Anacodna&#x4E4B;conda&#x4E0E; virtualenv&#x5BF9;&#x6BD4;&#x4F7F;&#x7528;&#x6559;&#x7A0B;&#xFF0C;&#x521B;&#x5EFA;&#x865A;&#x62DF;&#x73AF;&#x5883; 2017-07-09 Manipulate: Interactive Parametrized Plotting &#x3010;&#x8F6C;&#x3011;MATLAB GUI &#x5165;&#x95E8;&#x6559;&#x7A0B; [MATLAB GUI] &#x6700;&#x5168;&#x7684;MATLAB Gui &#x6559;&#x7A0B;&#x5408;&#x96C6; MATLAB App Designer&#x6559;&#x7A0B;&#x8FDE;&#x8F7D;1&#xFF1A;&#x5982;&#x4F55;&#x4F7F;&#x7528;App Designer&#x8FDB;&#x884C;&#x7684;&#x7B80;&#x5355;&#x7684;GUI&#x8BBE;&#x8BA1; 2017-07-10 Make a circle illusion animation &#x505A;&#x4E00;&#x4E2A;&#x5706;&#x5E7B;&#x5E7B;&#x52A8;&#x753B; &#x77E5;&#x4E4E;&#xFF1A;Mathematica &#x5230;&#x5E95;&#x6709;&#x591A;&#x5389;&#x5BB3;&#xFF1F; 2017-07-13 &#x4EE3;&#x7801;&#x5B9E;&#x73B0;WordPress&#x5F52;&#x6863;&#x9875;&#x9762;&#x6A21;&#x677F;[&#x901F;&#x5EA6;&#x5F88;&#x5FEB;] WordPress&#x6DFB;&#x52A0;&#x6587;&#x7AE0;&#x5F52;&#x6863;&#x9875;&#x9762; 2017-07-17 Mac&#x952E;&#x76D8;&#x5982;&#x4F55;&#x5F00;&#x542F;F1 - F12&#x529F;&#x80FD;&#x952E; Mac&#x5FEB;&#x6377;&#x952E;&#x5927;&#x5168; Does anyone know how to run selection on mac? Google&#x5927;&#x9646;&#x66FF;&#x4EE3; matlab &#x5B57;&#x7B26;&#x4E32;&#x4E2D;&#x8F93;&#x5165;&#x5355;&#x5F15;&#x53F7; how to break a long legend text into two lines Why do figures exported using the SAVEAS function and the File-&gt;Save As menu item have different resolutions and file sizes? 2017-07-21 Quantitative vs. Qualitative? What is Decision Suport System? 2017-07-31 Problem Solving with Algorithms and Data Structures using Python &#x77E5;&#x4E4E;&#xFF1A;&#x6709;&#x54EA;&#x4E9B;&#x7528; Python &#x8BED;&#x8A00;&#x8BB2;&#x7B97;&#x6CD5;&#x548C;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x7684;&#x4E66;&#xFF1F; Introduction to Algorithms Computational Physics, 2nd Edition Computational Physics with Python 2017-08-01 &#x77E5;&#x4E4E;&#xFF1A;&#x300C;&#x52A3;&#x540E;&#x300D;&#x662F;&#x4E2A;&#x4EC0;&#x4E48;&#x6982;&#x5FF5;&#xFF1F;&#x7ECF;&#x5E38;&#x7528;&#x4E8E;&#x4EC0;&#x4E48;&#x573A;&#x666F;&#xFF1F; &#x623F;&#x5730;&#x4EA7;&#x6295;&#x8D44;&#x4FE1;&#x6258; &#x4FE1;&#x6258;&#x4E0E;&#x57FA;&#x91D1;&#x6709;&#x4F55;&#x533A;&#x522B;&#xFF1F; 2017-09-09 Document analysis Automatic summarization Text simplification Sentiment analysis LDA PRSL keyword Labeled LDA, Supervised ML Topic Model Topic trend: Trendsmap: Real-time Twitter Trending Topics Python textblob Domain-centric LDA Text mining Data streaming techniques? User analysis 2017-09-11Latex template Overleaf How can I make a slide with Latex Fun with Beamer First Beamer Presentation with LaTeX and Sublime Text 2 Note System 3 Easy Steps to Digitize Your Study Notes SELF IMPROVEMENT:A Quick &amp; Dirty Guide to Perfect Digital Note-Taking About Blog Atom vs sublime? Jekyll vs Hexo? How Writing A Science Blog Saved My PhD The Top 9 Business Intelligence Blogs You Should Be Reading 2017-09-12 Is there any toy models for ML? Quora: What are some really interesting machine learning projects for beginners? &#x673A;&#x5668;&#x5B66;&#x4E60;&#x7B14;&#x8BB0;:&#x673A;&#x5668;&#x5B66;&#x4E60;&#x4EE5;&#x53CA;tensorflow&#x7B14;&#x8BB0; by Ni Pengfei &#x5B66;&#x4E60;Bookdown&#xFF1A;How to Start a Bookdown Book &#x7528;R&#x642D;&#x5EFA;Blogdown:&#x7528; R blogdown &#x642D;&#x5EFA;&#x4E2A;&#x4EBA;&#x535A;&#x5BA2;&#x6216;&#x79D1;&#x7814;&#x7F51;&#x7AD9;R Markdown Notebook &#x4E0E; Jupyter / IPython NotebookR MarkdownBlogging with Rmarkdown, knitr, and Jekyll | R-bloggers Hexo&#x535A;&#x5BA2;&#x5B9E;&#x73B0;&#x4E2D;&#x82F1;&#x53CC;&#x8BED;&#x8A00;&#xFF1A;&#x7B80;&#x5355;&#x65B9;&#x6CD5;&#x5B9E;&#x73B0;Hexo&#x4E2D;&#x7684;&#x591A;&#x8BED;&#x8A00;Hexo:&#x56FD;&#x9645;&#x5316;&#xFF08;i18n&#xFF09;Hexo &#x4E0E; Nginx &#x5B9E;&#x73B0;&#x6C89;&#x6D78;&#x5F0F;&#x591A;&#x8BED;&#x8A00;&#x535A;&#x5BA2;hexo&#x5B9E;&#x73B0;&#x4E2D;&#x82F1;&#x53CC;&#x8BED;&#x535A;&#x5BA2;&#x6559;&#x7A0B; 2017-09-15 Sufficient statistics? Count Data? 2017-09-16 hexo-blog-encrypt 2017-09-17 hexo-article-emoji]]></content>
-      <categories>
-        <category>logs</category>
-      </categories>
-      <tags>
-        <tag>study</tag>
-        <tag>research</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Self-Study Plan]]></title>
-    <url>%2F2017_Study_Plan%2F</url>
-    <content type="text"><![CDATA[I hope that I could accomplish these goals on time. Good luck! Machine LearningCoursesMain stream Basical ML: Stanford CS229 - Machine Learning by Andrew Ng: 1h15min/Lec, 20 Lectures, Course Page, Videos Stanford CS224D - Deep Learning for Natural Language Processing by Chris Manning: 1h15min/Lec, 18 Lectures, Course Page, Videos UCambridge - Course on Information Theory, Pattern Recognition, and Neural Networks by David MacKay: 1h30min/Lec, 16 Lectures, Course Page Coursera - Neural Networks for Machine Learning by Hinton: 16 Lectures, Course Page, Videos Stanford CS231N - Convolutional Neural Networks by Li Feifei: 1h15min/Lec, 15 Lectures, Course Page,Videos Coursera - Neural Networks and Deep Learning by Andrew Ng: 46 parts, Course Page,Videos Udacity|Georgia Tech CS7646 - Machine Learning for Trading by Tucker Balch: 28 parts, Course Page, Videos Sub Streams CMU 10-701/15-781 - Machine Learning by Tom Mitchell, Spring 2011: 1h15min/Lec, 26 Lectures, Course Page, Videos CMU 10-702/36-702 - Statistical Machine Learning by Larry Wasserman, Spring 2016: 1h15min, 24 Lectures, Course Page, Videos &#x56FD;&#x7ACB;&#x53F0;&#x6E7E;&#x5927;&#x5B66; - &#x6A5F;&#x5668;&#x5B78;&#x7FD2;&#x57FA;&#x77F3; (Machine Learning Foundations) by &#x6797;&#x8ED2;&#x7530;: 65 parts, Course Page, Videos &#x56FD;&#x7ACB;&#x53F0;&#x6E7E;&#x5927;&#x5B66; - &#x6A5F;&#x5668;&#x5B78;&#x7FD2;&#x6280;&#x6CD5; (Machine Learning Techniques) by &#x6797;&#x8ED2;&#x7530;: 65 parts, Videos CMU 10-701 - Introduction to Machine Learning by Alexander J. Smola, 2015: 31 parts, Course Page, Videos Harvard CS109 - Data Science: 1h15min/Lec, 20 Lectures, Course Page, Videos &#x9F99;&#x661F;&#x8BA1;&#x5212; &#x6E05;&#x534E;&#x5927;&#x5B66;-&#x673A;&#x5668;&#x5B66;&#x4E60; by &#x4F59;&#x51EF; &#x5F20;&#x6F7C;: 50min/Lec, 19 Lectures, Videos Willamette University CS449 - Neural Networks: Course Page, No Videos found Coursera: Data Science &#x4E13;&#x9879;&#x8BFE;&#x7A0B;: 10 Programs, Course Page BooksIntroduction to AI AI by Ruseull Machine Learning Bishop MLAPP MLAPP Code ML in Python &#x897F;&#x74DC;&#x4E66; &#x673A;&#x5668;&#x5B66;&#x4E60;(&#x5468;&#x5FD7;&#x534E;&#x897F;&#x74DC;&#x4E66;) &#x53C2;&#x8003;&#x7B54;&#x6848; &#x603B;&#x76EE;&#x5F55; &#x6A5F;&#x5668;&#x5B78;&#x7FD2;&#xFF1A;&#x4F7F;&#x7528;Python Information Retrieval Introduction to Information Retrieval Deep Learning:Deep Learning: An MIT Press book Recommender System &#x63A8;&#x8350;&#x7CFB;&#x7EDF;&#x5B9E;&#x8DF5; by &#x9879;&#x4EAE; Recommendation System Handbook Natural Language Processing &#x7EDF;&#x8BA1;&#x81EA;&#x7136;&#x8BED;&#x8A00;&#x5904;&#x7406;&#xFF08;&#x7B2C;2&#x7248;&#xFF09;by &#x5B97;&#x6210;&#x5E86; Others &#x7EC8;&#x6781;&#x7B97;&#x6CD5; Projects Tutorials and Projects To Help You&#xFF1A;Learn and Apply Machine Learning &#x2013; Fast! Thisismetis: DATA SCIENCE TRAINING DATAQUEST:Learn real-world data science skills Tianqi Chen&#x2019;s Project Python&#x5B66;&#x4E60;&#x8DEF;&#x5F84;&#x53CA;&#x7EC3;&#x624B;&#x9879;&#x76EE;&#x5408;&#x96C6; Tools for Crawler Python Scrapy: &#x4E0B;&#x8F7D;&#x5730;&#x5740;, &#x5B89;&#x88C5;&#x53CA;&#x4F7F;&#x7528;&#x6B65;&#x9AA4;, &#x64CD;&#x7EB5;&#x6307;&#x5357; NITK: &#x81EA;&#x7136;&#x8BED;&#x8A00;&#x5904;&#x7406;&#x7684;Python&#x5F00;&#x6E90;&#x5DE5;&#x5177;: &#x76F8;&#x5173;&#x5DE5;&#x5177;&#x5305;&#x548C;&#x6559;&#x7A0B;&#x53EF;&#x4E0B;&#x8F7D;&#x4E2D;&#x6587;&#x4F7F;&#x7528;&#x4ECB;&#x7ECD;, &#x6709;&#x52A9;&#x4E8E;&#x4E86;&#x89E3;&#x5404;&#x4E2A;&#x5305;&#x7684;&#x610F;&#x601D;&#x548C;&#x4F5C;&#x7528;&#x7684;&#x94FE;&#x63A5; zhihu-python&#xFF1A;&#x83B7;&#x53D6;&#x77E5;&#x4E4E;&#x4FE1;&#x606F;&#x4ECB;&#x7ECD;&#xFF1A;zhihu-python &#x91C7;&#x7528; Python2.7 &#x7F16;&#x5199;&#xFF0C;&#x7528;&#x6765;&#x65B9;&#x4FBF;&#x5730;&#x83B7;&#x53D6;&#x77E5;&#x4E4E;&#x4E0A;&#x5404;&#x79CD;&#x5185;&#x5BB9;&#x7684;&#x4FE1;&#x606F;&#xFF0C;&#x5E76;&#x4E14;&#x53EF;&#x4EE5;&#x65B9;&#x4FBF;&#x5730;&#x5C06;&#x7B54;&#x6848;&#x5907;&#x4EFD;&#x5BFC;&#x51FA;&#x4E3A; txt &#x6216; markdown &#x6587;&#x4EF6;&#x3002;&#x7531;&#x4E8E;&#x77E5;&#x4E4E;&#x5B98;&#x65B9;&#x76EE;&#x524D;&#x6CA1;&#x6709;&#x63D0;&#x4F9B; api&#xFF0C;&#x6240;&#x4EE5;&#x6709;&#x4E86;&#x6B64;&#x9879;&#x76EE;&#x7684;&#x5B58;&#x5728;&#x3002;&#x4F7F;&#x7528; Python3 &#x7684;&#x7C7B;&#x4F3C;&#x9879;&#x76EE;&#x53EF;&#x4EE5;&#x53C2;&#x89C1;&#xFF1A;zhihu-py3 &#x3002;&#x4F7F;&#x7528; PHP &#x7684;&#x7C7B;&#x4F3C;&#x9879;&#x76EE;&#x53EF;&#x4EE5;&#x53C2;&#x89C1;&#xFF1A;zhihu-php &#x3002;&#x4F7F;&#x7528; Go &#x7684;&#x7C7B;&#x4F3C;&#x9879;&#x76EE;&#x53EF;&#x4EE5;&#x53C2;&#x89C1;&#xFF1A;zhihu-go &#x3002; List of list FastML: Machine Learning made easy Machine Learning Category on VideoLectures.Net A Tour of Machine Learning Algorithms &#x673A;&#x5668;&#x5B66;&#x4E60;&#x5165;&#x95E8;&#x8D44;&#x6E90;&#x4E0D;&#x5B8C;&#x5168;&#x6C47;&#x603B;&#xFF08;tang_Kaka_back@&#x65B0;&#x6D6A;&#x5FAE;&#x535A;&#xFF09; &#x673A;&#x5668;&#x5B66;&#x4E60;(Machine Learning)&amp;&#x6DF1;&#x5EA6;&#x5B66;&#x4E60;(Deep Learning)&#x8D44;&#x6599;(Chapter 1) &#x673A;&#x5668;&#x5B66;&#x4E60;(Machine Learning)&amp;&#x6DF1;&#x5EA6;&#x5B66;&#x4E60;(Deep Learning)&#x8D44;&#x6599;(Chapter 2) qianjiye|&#x673A;&#x5668;&#x5B66;&#x4E60;&#x8D44;&#x6E90; Notes &#x6DF1;&#x5EA6;&#x5F00;&#x6E90;OPEN&#x7ECF;&#x9A8C;&#xFF1A;&#x673A;&#x5668;&#x5B66;&#x4E60;(Machine Learning)&amp;&#x6DF1;&#x5EA6;&#x5B66;&#x4E60;(Deep Learning)&#x8D44;&#x6599; [&#x8F6C;]&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5165;&#x95E8; Blog, Talks and so on&#x4E2D;&#x6587; [&#x8F6C;]&#x673A;&#x5668;&#x5B66;&#x4E60;&#x7ECF;&#x5178;&#x4E66;&#x7C4D; &#x5ED6;&#x96EA;&#x5CF0;&#x7684;&#x5B98;&#x65B9;&#x7F51;&#x7AD9; &#x6570;&#x636E;&#x79D1;&#x5B66;&#x4E2D;&#x7684;R&#x548C;Python &#x5B66;&#x98DE; &#x4ECE;&#x5760;&#x843D;&#x5F00;&#x59CB; &#x535A;&#x5BA2; &#x7EDF;&#x8BA1;&#x4E4B;&#x90FD; &#x54C8;&#x5DE5;&#x5927;&#x7535;&#x5B50;&#x5065;&#x5EB7;&#x7814;&#x7A76;&#x6240;&#xFF1A;&#x90ED;&#x7199;&#x94DC; &#x63A8;&#x8350;&#x7CFB;&#x7EDF;&#x8BBA;&#x575B; &#x6B66;&#x6C49;&#x5927;&#x5B66;&#x4FE1;&#x606F;&#x7BA1;&#x7406;&#x5B66;&#x9662;&#xFF1A;&#x66FE;&#x5B50;&#x660E; &#x63A8;&#x8350;&#x7CFB;&#x7EDF;&#x5E38;&#x7528;&#x7684;&#x63A8;&#x8350;&#x7B97;&#x6CD5; Microsoft-Social Computing (Asia) &#x6E05;&#x534E;&#x5927;&#x5B66;&#x81EA;&#x7136;&#x8BED;&#x8A00;&#x5904;&#x7406;&#x4E0E;&#x793E;&#x4F1A;&#x4EBA;&#x6587;&#x8BA1;&#x7B97;&#x5B9E;&#x9A8C;&#x5BA4; &#x4E2D;&#x56FD;&#x4EBA;&#x6C11;&#x5927;&#x5B66;&#xFF1A;&#x7F51;&#x7EDC;&#x4E0E;&#x79FB;&#x52A8;&#x6570;&#x636E;&#x7BA1;&#x7406;&#x5B9E;&#x9A8C;&#x5BA4; &#x793E;&#x4F1A;&#x8BA1;&#x7B97;:&#x6DF1;&#x5EA6;&#x5B66;&#x4E60;&#x4E0E;&#x793E;&#x4F1A;&#x8BA1;&#x7B97;&#xFF08;PPT)&#xFF0C;&#x6E05;&#x534E;NLP&#x5B9E;&#x9A8C;&#x5BA4;&#x5218;&#x77E5;&#x8FDC; &#x793E;&#x4F1A;&#x8BA1;&#x7B97;: &#x7F51;&#x7EDC;&#x793E;&#x4EA4;&#x5A92;&#x4F53;&#x7684;&#x60C5;&#x611F;&#x8BA4;&#x77E5;&#x4E0E;&#x8BA1;&#x7B97;, &#x6E05;&#x534E;&#x9EC4;&#x6C38;&#x5CF0; English Professor Di Cook, Department of Econometrics and Business Statistics, Monash Uni R-blogger: R news and tutorials contributed by (580) R bloggers wordpress: -Nest generation BI Andrew Patton&#x2019;s MATLAB code page: This page contains some of the MATLAB code I&#x2019;ve written during the course of my research. If you find any mistakes or bugs in the code please let me know.This code is being released under a BSD license, which means that you can do pretty much what ever you want with it, including make money by selling it. Datatau Blog of Sebastian Ruder: I&#x2019;m a PhD student in Natural Language Processing and a research scientist at AYLIEN. I blog about Machine Learning, Deep Learning, NLP, and startups. Videolecture net&#xFF1A;Machine learning Dataschool:In-depth introduction to machine learning in 15 hours of expert videos CourseReport: Learn Data Science at These 22 Bootcamps A Machine Learning-Based Trading Strategy Using Sentiment Analysis Data: Videos Statistics &amp; ProbabilityCourses MIT 18.650 - Statistics for Applications, Fall 2016: 1h15min/Lec, 21 Lectures, Course Page, Video Stanford Online-StatLearning Statistical Learning: 10 Lectures, Course Page Books ISLR ESL by Hastie &#x7EDF;&#x8BA1;&#x5B66;&#x4E60; by &#x674E;&#x822A; IPSUR MathematicsCoursesFinancial Mathematics Coursera - Financial Engineering and Risk Management: 51 parts, Course Page, Videos MIT 18.S096 - Topics in Mathematics with Applications in Finance: 1h20min/Lec, 26 Lectures, Course Page, Videos Optimization Stanford EE364A: Convex Optimization I: 1h15min/Lec, 19 Lectures, Course Page Stanford EE364B: Convex Optimization II: 1h15min/Lec, 18 Lectures, Course Page Stochastic Analysis MIT EECS 6.262 - Discrete Stochastic Processes, Spring 2011: 1h20min/Lec, 25 Lectures, Course Page, Videos Data structure and algorithms MIT 6.006 - Introduction to Algorithms, Fall 2011: 50min/Lec, 47 Lectures, Course Page, Videos BooksInformation SystemBooks Decision Support System Decision theory network optimization control theory&#xFF1A; Stichastic Control Theory Operation Research Finance &amp; Economics MIT 15.401 - Finance Theory I by Andrew Lo, Fall 2008: 1h10min/Lec, 20 Lectures, Course Page, Videos MIT 15.402 - Finance Theory II by Dirk Jenter &amp; Katharina Lewellen, Spring 2003: Course Page Economic421 - Econometrics by Mark Thoma: 1h20min/Lec, 19 Lectures, Course Page, Videos Github/hexo/markdown&#x7B49; Github Hexo Markdown LatTex]]></content>
-      <categories>
-        <category>notes</category>
-      </categories>
-      <tags>
-        <tag>information_system</tag>
-        <tag>study_plan</tag>
-        <tag>statistics</tag>
-        <tag>mathematics</tag>
-        <tag>github</tag>
-        <tag>materials</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[R语言的科学计算]]></title>
-    <url>%2FR_science_computing%2F</url>
-    <content type="text"><![CDATA[&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;R&#x8BED;&#x8A00;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x6C42;&#x89E3;dfsane,nleqslv&#x8BF7;&#x6559;&#xFF1A;R&#x8BED;&#x8A00;&#x6709;&#x6CA1;&#x6709;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x7684;&#x51FD;&#x6570;&#xFF01;&#x7528;R&#x8BED;&#x8A00;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;Package &#x2018;nleqslv&#x2019;BB: An R Package for Solving a Large System of Nonlinear Equations and for Optimizing a High-Dimensional Nonlinear Objective Function How to solve a non-linear equation using nleqslv package in R?Solving system of nonlinear equations in R]]></content>
-      <categories>
-        <category>logs</category>
-      </categories>
-      <tags>
-        <tag>r_language</tag>
-        <tag>science_computing</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Lecture notes of CUHK-DSME6622]]></title>
-    <url>%2FCUHK_DSME6622_Lec2%2F</url>
-    <content type="text"><![CDATA[Bullet PointsAdvanced MIS Research Seminar Proposal each course (10 min each); There is reading list; About Econometric of IS; How to design experiments: Experiment EC 9A3 Advanced Econometric Theory - Lecture Slides CrossValidation:Difference-in-difference-in-differences estimator COS Analysis? Baseline? Randomization ~ statistical test &#x65AD;&#x70B9;&#x56DE;&#x5F52;&#xFF1F;&#x8BA1;&#x91CF;&#x7ECF;&#x6D4E;&#x5B66;&#xFF1F; Theoretical Modeling vs behavior vs experiment vs empirical How do we identify the way we want to ~ social psychology ~ mental map impact of technology ~ topic is moving on ~ some of the topics are already understood ~ do good literature review treatment? ~ control? ~ outcome DID ~ before &amp; after treatment, well controlled PresentationFirefox extensions update classification by Luo Dan Firefox web browser (open suourse platform)~ extentions or add-ons Classification : open or close sourse Mechanism? ~ size or role of users output: influence : positive or negative rapid release strategy vs traditional way cross? experimental design whether the add-on supplier update their products in response to the rapid release of Firefox platform? 1 observation: add-on version number? Review/online experiment by treatment: hit of newest review / high-quality control : no review social psychology ~ ab test? ~ online experiment Economic analysis of social interactions Charles F.Manski, Journal of Economic emperical analysis mutually exclusive but cllectively exhaustive 3 effects Pay NOT to &#x201C;go to the gym&#x201D; by Ivy consumer behavior -&gt; maximize utility (rational expectation vs irrational) theoretical prediction &amp; empirical testing &amp; survey behaviour IO Personal view: How to quantify the utility function? not like financial product: stock, bond or derivatives, the utility of going to gym should also include non-economic factor (price), such as the potential chance of keeping the right of going to gym Observational Learning: Evidence from a Randomized Natural Field Experiment One restaurant: whether the randomization is not good enough? Control group: pre-experiment data, one week Raking treatment table vs salience treatment table One week data DDD Coincidence, observational learning (learn the quality, more about yourself), conformity (more from others), compliance, salience The Spread of Behavior in an Online Social Network Experiment * Small world network model Network vs photonic?? Social reinforcement]]></content>
-      <categories>
-        <category>notes</category>
-      </categories>
-      <tags>
-        <tag>information_system</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[MAC上使用SUBLIME TEXT3编写LATEX]]></title>
-    <url>%2FSublimeText3_LaTex%2F</url>
-    <content type="text"><![CDATA[&#x51FA;&#x4E8E;&#x5DE5;&#x4F5C;&#x7684;&#x9700;&#x8981;&#xFF0C;&#x6211;&#x4EEC;&#x7ECF;&#x5E38;&#x9700;&#x8981;&#x4F7F;&#x7528;LaTex&#x6765;&#x5199;&#x5B66;&#x672F;&#x8BBA;&#x6587;&#x6216;&#x8005;Slides&#xFF0C;&#x7F51;&#x4E0A;&#x6709;&#x5F88;&#x591A;&#x63A8;&#x8350;&#x7684;LaTex&#x4E13;&#x7528;&#x8F6F;&#x4EF6;&#xFF0C;&#x4F46;&#x662F;&#x5BF9;&#x4E8E;&#x4F7F;&#x7528;MAC+Sublime Text&#x4E60;&#x60EF;&#x4E86;&#x7684;&#x4EBA;&#xFF0C;&#x60F3;&#x5C1D;&#x8BD5;&#x5982;&#x4F55;&#x5728;&#x8FD9;&#x6837;&#x7684;&#x73AF;&#x5883;&#x4E0B;&#x6D41;&#x7545;&#x4F7F;&#x7528;LaTex&#xFF0C;&#x4E0B;&#x9762;&#x5C31;&#x662F;&#x6211;&#x5C1D;&#x8BD5;&#x540E;&#x7684;&#x5C0F;&#x5C0F;&#x5FC3;&#x5F97;&#x3002; Preparation &#x68C0;&#x67E5;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF1A;OS X EI Capitan Version 10.11.6; &#x68C0;&#x67E5;&#x7535;&#x8111;&#x5269;&#x4F59;&#x7A7A;&#x95F4;&#xFF1B;&#xFF08;&#x56E0;&#x4E3A;&#x5982;&#x679C;&#x4F60;&#x8FD8;&#x6CA1;&#x6709;&#x5B89;&#x88C5;MacTex&#x7684;&#x8BDD;&#xFF0C;&#x4F60;&#x9700;&#x8981;&#x81F3;&#x5C11;4G&#x7684;&#x7A7A;&#x95F4;&#xFF09; &#x56E0;&#x4E3A;&#x672C;&#x4EBA;&#x7535;&#x8111;&#x4E3A;OS&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF0C;&#x6240;&#x4EE5;&#x9488;&#x5BF9;Windows/Linux&#x7CFB;&#x7EDF;&#xFF0C;&#x672C;&#x6587;&#x5E76;&#x4E0D;&#x662F;&#x5F88;&#x5B9E;&#x7528;&#x3002; &#x6B65;&#x9AA4;&#x662F;&#x5426;&#x5B89;&#x88C5;&#x4E86;MacTex &#x5982;&#x679C;&#x4F60;&#x5DF2;&#x7ECF;&#x5B89;&#x88C5;&#x4E86;MacTex&#xFF0C;&#x8BF7;&#x5230;/usr/local/texlive/&#x6587;&#x4EF6;&#x5939;&#x91CC;&#xFF08;&#x53EF;&#x4EE5;Finder&#x4E2D;&#x6309;Shift+option+G&#x6253;&#x5F00;Go to the Folder,&#x8F93;&#x5165;/usr/local/texlive/&#xFF09;&#x68C0;&#x67E5;MacTex&#x7684;&#x7248;&#x672C;&#x3002;&#x6211;&#x7684;MacTex&#x7248;&#x672C;&#x662F;MacText2017&#x3002; &#x5982;&#x679C;&#x4F60;&#x60F3;&#x66F4;&#x65B0;MacTex&#x7684;&#x7248;&#x672C;&#xFF0C;&#x5EFA;&#x8BAE;&#x4F60;&#x6309;&#x7167;&#x6B64;&#x8BF4;&#x660E;&#x5378;&#x8F7D;&#x65E7;&#x7248;&#x672C;&#x7684;MacTex&#xFF0C;&#x7136;&#x540E;&#x6309;&#x7167;&#x4E0B;&#x9762;&#x7684;&#x6B65;&#x9AA4;&#x6309;&#x7167;&#x65B0;&#x7248;&#x672C;&#x7684;MacTex&#x3002; &#x5982;&#x679C;&#x4F60;&#x6CA1;&#x6709;&#x5B89;&#x88C5;MacTex&#xFF0C;&#x53EF;&#x4EE5;&#x53BB;MaxTex&#x5B98;&#x7F51;&#x6309;&#x7167;&#x5B98;&#x65B9;&#x8BF4;&#x660E;&#x8FDB;&#x884C;&#x5B89;&#x88C5;&#x3002; &#x662F;&#x5426;&#x5B89;&#x88C5;&#x4E86;Sublime Text 3 &#x5982;&#x679C;&#x4F60;&#x5DF2;&#x7ECF;&#x5B89;&#x88C5;&#x4E86;Sublime Text 3&#xFF08;&#x4EE5;&#x4E0B;&#x7B80;&#x79F0;ST3&#xFF09;&#xFF0C;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x8DF3;&#x81F3;&#x4E0B;&#x4E00;&#x6B65;&#x3002; &#x5982;&#x679C;&#x4F60;&#x6CA1;&#x6709;&#x5B89;&#x88C5;ST3&#xFF0C;&#x8BF7;&#x81F3;ST3&#x5B98;&#x7F51;&#x6309;&#x7167;&#x5B98;&#x65B9;&#x8BF4;&#x660E;&#x8FDB;&#x884C;&#x5B89;&#x88C5;&#x3002; &#x672C;&#x6587;&#x9488;&#x5BF9;Sublime Text 2&#x53EF;&#x80FD;&#x5E76;&#x4E0D;&#x975E;&#x5E38;&#x5B9E;&#x7528;&#x3002; &#x662F;&#x5426;&#x5B89;&#x88C5;&#x4E86;Skim &#x68C0;&#x67E5;&#x662F;&#x5426;&#x5DF2;&#x7ECF;&#x5B89;&#x88C5;&#x8F6F;&#x4EF6;Skim&#x3002;&#x4F60;&#x53EF;&#x4EE5;&#x5230;Skim&#x5B98;&#x7F51;&#x4E0B;&#x8F7D;&#x5B89;&#x88C5;&#x3002; &#x5B89;&#x88C5;&#x5B8C;&#x6210;&#x540E;&#xFF1A; &#x6253;&#x5F00;Skim &#x9009;&#x62E9;Skim-&gt;Preference-&gt;Sync &#x5728;PDF-Tex Sync support-&gt;Preset&#x4E2D;&#x9009;&#x62E9;Sublime Text ST3&#x4E2D;&#x662F;&#x5426;&#x5B89;&#x88C5;&#x4E86;Package Control &#x68C0;&#x67E5;Sublime Text 3&#x4E2D;&#x662F;&#x5426;&#x5DF2;&#x7ECF;&#x5B89;&#x88C5;&#x4E86;Package Control: &#x5FEB;&#x6377;&#x952E;Shift+Command+P&#xFF0C;&#x770B;&#x770B;&#x662F;&#x5426;&#x4F1A;&#x8DF3;&#x51FA;&#x9762;&#x677F;&#xFF1B; &#x5982;&#x679C;&#x4F60;&#x6CA1;&#x6709;&#x5B89;&#x88C5;&#xFF0C;&#x53EF;&#x4EE5;&#x6309;&#x7167;&#x5B98;&#x7F51;&#x8BF4;&#x660E;&#x8FDB;&#x884C;&#x5B89;&#x88C5;&#x3002; &#x5B89;&#x88C5;ST3 Package: LatexTools &#x5FEB;&#x6377;&#x952E;Shift+Command+P&#x6253;&#x5F00;Packge Control&#x9762;&#x677F;&#xFF1B; &#x8F93;&#x5165;pi,&#x9009;&#x62E9;&#x201C;Package Control:Install Package&#x201D;&#xFF1B; &#x8F93;&#x5165;&#x201C;LatexTools&#x201D;&#xFF0C;&#x9009;&#x62E9;&#xFF0C;&#x5B89;&#x88C5; Control+~&#x6253;&#x5F00;Console&#x68C0;&#x67E5;Package&#x7684;&#x5B89;&#x88C5;&#x60C5;&#x51B5;&#x3002;&#x5982;&#x679C;&#x6700;&#x540E;&#x8DF3;&#x51FA;Package Control Messages&#xFF0C;Console&#x4E2D;&#x663E;&#x793A;reloading settings Packages/User/Preferences.sublime-settings&#x8BED;&#x53E5;&#xFF0C;&#x5219;&#x8868;&#x793A;LatexTools&#x5B89;&#x88C5;&#x6210;&#x529F;&#x3002; &#x652F;&#x6301;&#x4E2D;&#x6587;&#x6253;&#x5F00;Terminal&#xFF0C;&#x8F93;&#x5165; &#x279C; ~ sudo tlmgr update --self &#x279C; ~ sudo tlmgr install latexmk tlmgr&#x662F;TeX Live&#x7684;package manager&#xFF0C;Latexmk&#x662F;LaTeX&#x81EA;&#x52A8;&#x7F16;&#x8BD1;&#x5DE5;&#x5177;&#x3002; &#x5982;&#x679C;&#x4F60;&#x4E4B;&#x524D;&#x5E76;&#x6CA1;&#x6709;&#x4FEE;&#x6539;&#x8FC7;User Setting&#x7684;&#x8BDD;&#xFF0C;&#x5728;ST3&#x7684;Sublime Text-&gt;Preference-&gt;Package Settings-&gt;LatexTools-&gt;Settings-User&#x4E2D;&#xFF0C;&#x627E;&#x5230;builder_settings&#x4EE3;&#x7801;&#x5757;&#x5982;&#x4E0B;&#xFF08;Ctrl+F&#x6253;&#x5F00;&#x67E5;&#x627E;&#xFF0C;&#x8F93;&#x5165;&#x201C;builder_settings&#x201D;&#xFF09;&#xFF1A; &quot;builder_settings&quot; : { // General settings: // See README or third-party documentation // (built-ins): true shows the log of each command in the output panel &quot;display_log&quot; : false, // Platform-specific settings: &quot;osx&quot; : { // See README or third-party documentation }, &quot;windows&quot; : { // See README or third-party documentation }, &quot;linux&quot; : { // See README or third-party documentation } }, &#x5728; // General settings: // See README or third-party documentation &#x540E;&#x52A0;&#x5165; &quot;program&quot; : &quot;xelatex&quot;, &quot;command&quot; : [&quot;latexmk&quot;, &quot;-cd&quot;, &quot;-e&quot;, &quot;$pdflatex = &apos;xelatex -interaction=nonstopmode -synctex=1 %S %O&apos;&quot;, &quot;-f&quot;, &quot;-pdf&quot;], &#x5F53;&#x7136;&#xFF0C;&#x4F60;&#x4E5F;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5728;&#x6BCF;&#x6B21;&#x7684;.tex&#x6587;&#x4EF6;&#x9996;&#x5217;&#x52A0;&#x5165;&#x8BED;&#x53E5; %!TEX program = xelatex &#x8FDB;&#x884C;&#x89E3;&#x51B3;&#x3002; &#x6709;&#x6CA1;&#x6709;&#x7B80;&#x5355;&#x7684; LaTeX &#x4E2D;&#x6587;&#x652F;&#x6301;&#x65B9;&#x6848;&#xFF1F; &#x90E8;&#x7F72;MAC&#x4E0A;&#x7684;Sublime Text+LaTex&#x4E2D;&#x6587;&#x73AF;&#x5883;&#x2014;&#x2014;201706&#x66F4;&#x65B0; &#x6D4B;&#x8BD5;&#x7C98;&#x8D34;&#x590D;&#x5236;&#x4EE5;&#x4E0B;&#x5185;&#x5BB9;&#xFF0C;&#x4FDD;&#x5B58;&#x4E3A;.tex&#x683C;&#x5F0F;&#x6587;&#x4EF6;&#xFF1A; \documentclass{article} \usepackage{fontspec, xunicode, xltxtra} \setmainfont{Hiragino Sans GB} \title{Title} \author{} \begin{document} \maketitle{} \section{Introduction} This is where you will write your content. &#x5728;&#x8FD9;&#x91CC;&#x5199;&#x4E0A;&#x5185;&#x5BB9;&#x3002; \end{document} &#x5FEB;&#x6377;&#x952E;Command+B&#xFF0C;&#x8FDB;&#x884C;&#x7F16;&#x8BD1;&#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x95EE;&#x9898;&#xFF0C;Skim&#x4F1A;&#x81EA;&#x52A8;&#x8DF3;&#x51FA;&#x9884;&#x89C8;&#x7A97;&#x53E3;&#x3002; PDF&#x9875;&#x9762;&#x8FDB;&#x884C;&#x4FEE;&#x6539; &#x5728; Skim &#x7A97;&#x53E3;&#x4E2D;&#xFF0C;&#x6309;&#x4E0B;Cammand+Shift; &#x5728;&#x9700;&#x8981;&#x7684;&#x4F4D;&#x7F6E;&#x6309;&#x4E0B;&#x89E6;&#x6478;&#x677F;&#xFF0C;&#x5373;&#x53EF;&#x8DF3;&#x8F6C;&#x56DE;ST3&#x5230;&#x5BF9;&#x5E94;&#x7684;&#x4EE3;&#x7801;&#x4F4D;&#x7F6E; &#x5B89;&#x88C5;&#x4E2D;&#x9047;&#x5230;&#x7684;&#x95EE;&#x9898;Problem 1 Package Control: The dependency &#x2018;python-jinja2&#x2019; is not currently installed; installing&#x2026; Error loading scope:source.tsx: Unable to find syntax file for scope source.tsx in Packages/MarkdownEditing/Markdown.tmLanguage &#x68C0;&#x67E5;&#x4E00;&#x4E0B;&#x81EA;&#x5DF1;python&#x7684;&#x7248;&#x672C;&#xFF1A; &#x279C; ~ python --V Python 2.7.10 &#x68C0;&#x67E5;&#x4E00;&#x4E0B;&#x81EA;&#x5DF1;&#x5B89;&#x88C5;&#x7684;Python Package: &#x279C; ~ pip freeze altgraph==0.10.2 bdist-mpkg==0.5.0 bonjour-py==0.3 cvxopt==1.1.8 Jinja2==2.9.6 macholib==1.5.1 MarkupSafe==1.0 matplotlib==1.3.1 modulegraph==0.10.4 numpy==1.8.0rc1 pandas==0.18.1 py2app==0.7.3 pyobjc-core==2.5.1 pyobjc-framework-Accounts==2.5.1 pyobjc-framework-AddressBook==2.5.1 pyobjc-framework-AppleScriptKit==2.5.1 pyobjc-framework-AppleScriptObjC==2.5.1 pyobjc-framework-Automator==2.5.1 pyobjc-framework-CFNetwork==2.5.1 pyobjc-framework-Cocoa==2.5.1 pyobjc-framework-Collaboration==2.5.1 pyobjc-framework-CoreData==2.5.1 pyobjc-framework-CoreLocation==2.5.1 pyobjc-framework-CoreText==2.5.1 pyobjc-framework-DictionaryServices==2.5.1 pyobjc-framework-EventKit==2.5.1 pyobjc-framework-ExceptionHandling==2.5.1 pyobjc-framework-FSEvents==2.5.1 pyobjc-framework-InputMethodKit==2.5.1 pyobjc-framework-InstallerPlugins==2.5.1 pyobjc-framework-InstantMessage==2.5.1 pyobjc-framework-LatentSemanticMapping==2.5.1 pyobjc-framework-LaunchServices==2.5.1 pyobjc-framework-Message==2.5.1 pyobjc-framework-OpenDirectory==2.5.1 pyobjc-framework-PreferencePanes==2.5.1 pyobjc-framework-PubSub==2.5.1 pyobjc-framework-QTKit==2.5.1 pyobjc-framework-Quartz==2.5.1 pyobjc-framework-ScreenSaver==2.5.1 pyobjc-framework-ScriptingBridge==2.5.1 pyobjc-framework-SearchKit==2.5.1 pyobjc-framework-ServiceManagement==2.5.1 pyobjc-framework-Social==2.5.1 pyobjc-framework-SyncServices==2.5.1 pyobjc-framework-SystemConfiguration==2.5.1 pyobjc-framework-WebKit==2.5.1 pyOpenSSL==0.13.1 pyparsing==2.0.1 python-dateutil==1.5 pytz==2013.7 requests==2.9.1 scikit-learn==0.17.1 scipy==0.13.0b1 six==1.4.1 sklearn==0.0 vboxapi==1.0 virtualenv==15.0.1 xattr==0.6.4 zope.interface==4.1.1 You are using pip version 8.1.2, however version 9.0.1 is available. You should consider upgrading via the &apos;pip install --upgrade pip&apos; command. &#x53D1;&#x73B0;&#x6211;&#x6CA1;&#x6709;jinjia2,&#x5B89;&#x88C5;Jinja2 2.7 documentation&#x5B89;&#x88C5;&#xFF1A; &#x279C; ~ sudo easy_install Jinja2 Password: Problem 2&#x5728;&#x6D4B;&#x8BD5;&#x73AF;&#x8282;&#xFF0C;ST3 Console&#x4E00;&#x76F4;&#x4F1A;&#x663E;&#x793A;&#xFF1A; File &quot;/Users/huwei/Desktop/test.tex&quot;, line 1 %!TEX program = xelatex ^ SyntaxError: invalid syntax &#x6216;&#x8005; \documentclass{article} ^ SyntaxError: unexpected character after line continuation character &#x5728;&#x7F51;&#x4E0A;&#x67E5;&#x4E86;&#x5F88;&#x4E45;&#x4E5F;&#x6CA1;&#x6709;&#x548C;&#x6211;&#x7C7B;&#x4F3C;&#x7684;&#x95EE;&#x9898;&#xFF0C;&#x6700;&#x540E;&#x7EC8;&#x4E8E;&#x5728;Weird compile error with Latex Tools plugin&#x627E;&#x5230;&#x4E86;&#x7B54;&#x6848;&#x3002; &#x539F;&#x6765;&#x56E0;&#x4E3A;&#x6211;&#x4E4B;&#x524D;&#x4E00;&#x76F4;&#x4F7F;&#x7528;ST3&#x7F16;&#x5199;Python&#xFF0C;Tools-&gt;Build System&#x5DF2;&#x7ECF;&#x88AB;&#x6211;&#x8BBE;&#x7F6E;&#x6210;&#x4E86;Python&#xFF0C;&#x6211;&#x4EEC;&#x5E94;&#x8BE5;&#x5C06;&#x5176;&#x8BBE;&#x7F6E;&#x6210;Automatic&#x624D;&#x884C;&#x3002; References &#x5728;Mac&#x4E0A;&#x4F7F;&#x7528;LaTeX&#xFF0C;&#x4E00;&#x4EFD;&#x7B80;&#x5355;&#x7684;&#x6307;&#x5BFC; &#x5728;Mac&#x4E0A;&#x901A;&#x8FC7;Sublime&#x3001;Skim&#x7F16;&#x8F91;LaTeX &#x4F7F;&#x7528;Sublime Text&#x7F16;&#x5199;LaTeX LateXTools: A LaTeX Plugin for Sublime Text 2 and 3]]></content>
-      <categories>
-        <category>notes</category>
-      </categories>
-      <tags>
-        <tag>tutorial</tag>
-        <tag>latex</tag>
-        <tag>sublime_text3</tag>
-        <tag>skim</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Undergraduate Notes 1]]></title>
-    <url>%2FUG_Notes1%2F</url>
-    <content type="text"><![CDATA[Poisson bracket\\{ f ,g \\} =\sum_{i=1}^{N}(\frac{\partial f}{\partial q_i} \frac{\partial g}{\partial p_i} -\frac{\partial f}{\partial p_i} \frac{\partial g}{\partial q_i} )Primality testCompositeness test test if n is divisible by 2 or 3; check through all the numbers from $6k\pm1 \leq \sqrt{n}$ Primorial (&#x7D20;&#x4E58;) $\longleftrightarrow$ prime Just like factorial (&#x9636;&#x4E58;) $\longleftrightarrow$ factor $nth$ prime number $P_n$ : P_n \\# = \prod_{k=1}^{n} p_kin which $p_k$ is the kth prime number. (e.g., $ P_5 \# = 2 \times 3 \times 5 \times 7 \times 11 = 2310 $) $P_0 \# = 1 \Rightarrow P_n \# = e^{(1+o(1))n \log n}$, in which $o(\cdot)$ is the little -o notation Big-o notaion eg: $f(x)=6 x^4 - 2 x^3 + 5$, $f(x) = O(x^4)$ Simplification rules: If f(x) is a sum of several terms, the one with the largest growth rate is kept, and all others omitted If f(x) is a product of several factors, any constants terms in the product that do not depend on x are omitted. &#x5173;&#x4E8E;&#x5728;Markdown&#x4E2D;&#x8F93;&#x5165;&#x6570;&#x5B66;&#x516C;&#x5F0F;Markdown&#x4E2D;&#x63D2;&#x5165;&#x6570;&#x5B66;&#x516C;&#x5F0F;&#x7684;&#x65B9;&#x6CD5;&#x4F7F;&#x7528; Markdown + MathJax &#x5728;&#x535A;&#x5BA2;&#x91CC;&#x63D2;&#x5165;&#x6570;&#x5B66;&#x516C;&#x5F0F;]]></content>
-      <categories>
-        <category>notes</category>
-      </categories>
-      <tags>
-        <tag>mathematics</tag>
-        <tag>physics</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[我在Github上搭建Hexo博客]]></title>
-    <url>%2FHexo%2F</url>
-    <content type="text"><![CDATA[&#x56E0;&#x4E3A;&#x9759;&#x6001;&#x7F51;&#x9875;&#x7684;&#x7B80;&#x6D01;&#x548C;&#x8FC5;&#x901F;&#xFF0C;&#x5728;&#x5DF2;&#x7ECF;&#x642D;&#x4E86;&#x4E2A;WordPress&#x7F51;&#x9875;&#x7684;&#x60C5;&#x5F62;&#x4E0B;&#xFF0C;&#x6211;&#x8FD8;&#x662F;&#x5FCD;&#x4E0D;&#x4F4F;&#x624B;&#x75D2;&#xFF0C;&#x6700;&#x8FD1;&#x53C8;&#x5C1D;&#x8BD5;&#x642D;&#x4E86;&#x4E00;&#x4E2A;Hexo&#x7684;&#x7F51;&#x9875;&#x3002;&#x672C;&#x7F51;&#x7AD9;&#x5C31;&#x662F;&#x6700;&#x540E;&#x7684;&#x6210;&#x679C; MAC&#x4E0A;&#x642D;&#x5EFA;Hexo BlogMAC &#x4E0A; github + hexo &#x642D;&#x5EFA;&#x535A;&#x5BA2;&#x6559;&#x7A0B;&#x624B;&#x628A;&#x624B;&#x6559;&#x4F60;&#x4F7F;&#x7528;Hexo + Github Pages&#x642D;&#x5EFA;&#x4E2A;&#x4EBA;&#x72EC;&#x7ACB;&#x535A;&#x5BA2;&#x53F2;&#x4E0A;&#x6700;&#x8BE6;&#x7EC6;&#x7684;Hexo&#x535A;&#x5BA2;&#x642D;&#x5EFA;&#x56FE;&#x6587;&#x6559;&#x7A0B; Mac&#x4E0A;&#x642D;&#x5EFA;&#x57FA;&#x4E8E;GitHub Page&#x7684;Hexo&#x535A;&#x5BA2;&#x662F;&#x4E00;&#x7BC7;&#x5F88;&#x8D5E;&#x7684;&#x6587;&#x7AE0;&#xFF0C;&#x4F46;&#x662F;&#x503C;&#x5F97;&#x6CE8;&#x610F;&#x7684;&#x662F;&#x201D;&#x6CE8;&#x610F;&#x5751;&#x4E09;&#x201D;&#x4E2D;&#x7684;&#x4EE3;&#x7801;&#x5E94;&#x8BE5;&#x5982;&#x4E0B; $ npm install hexo-deploper-git --save GitHub Pages&#x7ED1;&#x5B9A;&#x4E8C;&#x7EA7;&#x57DF;&#x540D;&#x56E0;&#x4E3A;&#x6211;&#x5DF2;&#x7ECF;&#x5728;GoDaddy&#x8D2D;&#x4E70;&#x4E86;&#x57DF;&#x540D;&#xFF0C;&#x6240;&#x4EE5;&#x6211;&#x60F3;&#x628A;Github+Hexo&#x7684;&#x7F51;&#x7AD9;&#x7ED1;&#x5B9A;&#x5230;baoduge.com&#x7684;&#x4E8C;&#x7EA7;&#x57DF;&#x540D;&#x5546;&#xFF0C;&#x5C31;&#x53EB;&#x5B83;blog.baoduge.com&#x597D;&#x4E86;&#x3002; Sementfault:GitHub Pages &#x7ED1;&#x5B9A;&#x4E8C;&#x7EA7;&#x57DF;&#x540D;GitHub Pages &#x7ED1;&#x5B9A;&#x6765;&#x81EA;&#x963F;&#x91CC;&#x4E91;&#x7684;&#x57DF;&#x540D;&#x77E5;&#x4E4E;&#xFF1A;github&#x600E;&#x4E48;&#x7ED1;&#x5B9A;&#x81EA;&#x5DF1;&#x7684;&#x57DF;&#x540D;&#xFF1F; godaddy:&#x6DFB;&#x52A0;&#x6307;&#x5411;&#x4E00;&#x4E2A; IP &#x5730;&#x5740;&#x7684;&#x5B50;&#x57DF;&#x540D; Github&#x6559;&#x7A0B;&#x8981;&#x4F7F;&#x7528;Github&#x642D;&#x5EFA;&#x7F51;&#x7AD9;&#xFF0C;&#x90A3;&#x4E48;Github&#x4E5F;&#x53EF;&#x662F;&#x5F00;&#x59CB;&#x52A0;&#x6280;&#x80FD;&#x70B9;&#x4E86;&#x3002; GitHub for MacAn Intro to Git and GitHub for Beginners (Tutorial)mac&#x4E0A;GitHub Desktop&#x5BA2;&#x6237;&#x7AEF;&#x7684;&#x4F7F;&#x7528; Hexo+Markdown&#x5199;&#x4F5C;Hexo&#x5438;&#x5F15;&#x6211;&#x7684;&#x4E00;&#x4E2A;&#x5730;&#x65B9;&#x5C31;&#x662F;&#x5B83;&#x652F;&#x6301;Markdown&#x3002;&#x800C;&#x540E;&#x8005;&#x662F;&#x6211;&#x6700;&#x8FD1;&#x4E00;&#x76F4;&#x5728;&#x7528;&#x7684;&#x8BED;&#x8A00;&#x3002; Hexo &#x5165;&#x95E8;&#x6307;&#x5357;&#xFF08;&#x4E09;&#xFF09; - &#x6587;&#x7AE0; &amp; &#x8349;&#x7A3F; .md&#x6587;&#x4EF6;&#x5199;&#x5B8C;&#x540E;&#xFF0C;&#x653E;&#x5230;sourse/_posts/&#x6587;&#x4EF6;&#x5939;&#x91CC;&#xFF0C;&#x7136;&#x540E;terminal&#x91CC;cd&#x5230;&#x6839;&#x76EE;&#x5F55;&#xFF0C;&#x4F7F;&#x7528;&#x5982;&#x4E0B;&#x547D;&#x4EE4;&#x53D1;&#x5E03;&#x5373;&#x53EF; $ hexo generate $ hexo deploy &#x6216;&#x8005; $ hexo g $ hexo d &#x5341;&#x5206;&#x65B9;&#x4FBF;&#xFF0C;so easy&#xFF01; Others&#x5F53;&#x7136;&#x5728;&#x7F51;&#x7AD9;&#x642D;&#x5EFA;&#x7684;&#x8FC7;&#x7A0B;&#x4E2D;&#xFF0C;&#x8FD8;&#x662F;&#x4F1A;&#x9047;&#x5230;&#x65B9;&#x65B9;&#x9762;&#x9762;&#x7684;&#x95EE;&#x9898;&#x3002;&#x6211;&#x60F3;&#x4E0B;&#x9762;&#x7684;&#x8D44;&#x6599;&#x53EF;&#x80FD;&#x4F1A;&#x5E2E;&#x5230;&#x5927;&#x5BB6;&#x3002; WordPress&#x83DC;&#x5355;&#x548C;&#x81EA;&#x5B9A;&#x4E49;&#x94FE;&#x63A5;&#x5F00;&#x542F;&#x5728;&#x65B0;&#x7A97;&#x53E3;&#x6253;&#x5F00;Hexo&#x642D;&#x5EFA;GitHub&#x535A;&#x5BA2;&#xFF08;&#x4E09;&#xFF09;- NexT&#x4E3B;&#x9898;&#x914D;&#x7F6E;&#x4F7F;&#x7528;&#x4E3A;Hexo&#x535A;&#x5BA2;&#x52A0;&#x5165;Disqus&#x8BC4;&#x8BBA;Hexo &#x96C6;&#x6210; Disqus &#x8BC4;&#x8BBA;&#x5982;&#x4F55;&#x5728;Hexo&#x4E2D;&#x4F7F;&#x7528;MathJaxHexo&#x642D;&#x5EFA;&#x535A;&#x5BA2;&#x7CFB;&#x5217;&#xFF1A;&#xFF08;&#x4E94;&#xFF09;Hexo&#x6DFB;&#x52A0;&#x4E0D;&#x849C;&#x5B50;&#x548C;LeanCloud&#x7EDF;&#x8BA1;&#x65E0;&#x6807;&#x9898;&#x6587;&#x7AE0;&#x5982;&#x4F55;&#x5904;&#x7406;Hexo&#x548C;MathJax&#x7684;&#x517C;&#x5BB9;&#x95EE;&#x9898;]]></content>
-      <categories>
-        <category>notes</category>
-      </categories>
-      <tags>
-        <tag>github</tag>
-        <tag>hexo</tag>
-        <tag>tutorial</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[About Me]]></title>
-    <url>%2Fabout%2Findex.html</url>
-    <content type="text"><![CDATA[Hello, I am a PhD. student in Information System Department at City University of Hong Kong (2017-2021). If you would like to know more about me, you can click BAODUGE-About. What&#x2019;s more, welcome to my blog, the NERVERLAND, which is supported by GitHub and Hexo. Neverland is a fictional location featured in the works of J. M. Barrie and those based on them. It is an imaginary faraway place, where Peter Pan, Tinker Bell, the Lost Boys and other mythical creatures and beings live. &#x2014;Wikipedia NEVERLAND is a place of fantacy and I hope to build a blog full of bold innovation and wonderful ideas. If you have any creative thoughs on no matter science&amp;technology or phylosophy of life, feel free to contact with me via email huweihugh@gmail.com. (You can find my email on the sidebar of this page.)]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[All Categories]]></title>
-    <url>%2Fcategories%2Findex.html</url>
-    <content type="text"></content>
-  </entry>
-  <entry>
-    <title><![CDATA[All Tags]]></title>
-    <url>%2Ftags%2Findex.html</url>
-    <content type="text"></content>
-  </entry>
+<search> 
+  
+    
+    <entry>
+      <title><![CDATA[用Sublime Text 3管理文献]]></title>
+      <url>/Use_ST3_manage_reference/</url>
+      <content type="html"><![CDATA[<h2 id="&#x7B80;&#x4ECB;"><a href="#&#x7B80;&#x4ECB;" class="headerlink" title="&#x7B80;&#x4ECB;"></a>&#x7B80;&#x4ECB;</h2><p>&#x6700;&#x8FD1;&#x6C89;&#x8FF7;&#x4E8E;&#x6363;&#x9F13;<a href="https://www.sublimetext.com/3" target="_blank" rel="external">Sublime Text 3</a>&#xFF08;&#x7B80;&#x79F0;ST3&#xFF09;&#xFF0C;&#x518D;&#x52A0;&#x4E0A;&#x6709;&#x4E00;&#x95E8;&#x8BFE;&#x9700;&#x8981;&#x6CDB;&#x8BFB;&#x5927;&#x91CF;&#x7684;&#x82F1;&#x6587;&#x6587;&#x732E;&#xFF0C;&#x56E0;&#x6B64;&#x4ECA;&#x5929;&#x6211;&#x60F3;&#x5C1D;&#x8BD5;&#x5B66;&#x4E60;&#x4E00;&#x4E0B;&#x5982;&#x4F55;&#x7528;ST3&#x7BA1;&#x7406;&#x6587;&#x732E;&#x3002;&#x5E0C;&#x671B;&#x4E0B;&#x9762;&#x7684;&#x5185;&#x5BB9;&#x53EF;&#x4EE5;&#x5BF9;&#x5927;&#x5BB6;&#x6709;&#x4E9B;&#x8BB8;&#x5E2E;&#x52A9;&#x3002;</p>
+<p>&#x672C;&#x6587;&#x6682;&#x65F6;&#x53EA;&#x9002;&#x7528;&#x4E8E;&#x82F1;&#x6587;&#x6587;&#x732E;&#x3002;</p>
+<h2 id="&#x51C6;&#x5907;&#x5DE5;&#x4F5C;"><a href="#&#x51C6;&#x5907;&#x5DE5;&#x4F5C;" class="headerlink" title="&#x51C6;&#x5907;&#x5DE5;&#x4F5C;"></a>&#x51C6;&#x5907;&#x5DE5;&#x4F5C;</h2><ol>
+<li>&#x5B89;&#x88C5;ST3&#xFF0C;&#x5E76;&#x914D;&#x7F6E;Markdown&#x76F8;&#x5173;&#x63D2;&#x4EF6;&#xFF0C;&#x53EF;&#x53C2;&#x7167;&#x672C;&#x4EBA;&#x4E4B;&#x524D;&#x7684;&#x672C;&#x7AE0;&#xFF1A;<a href="http://baoduge.com/sublime-text_markdown/" target="_blank" rel="external">SUBLIME TEXT&#x4E0B;&#x4F7F;&#x7528;MARKDOWN</a>&#xFF0C;<a href="http://baoduge.com/md-st3-pandoc-text/" target="_blank" rel="external">MARKDOWN+SUBLIME TEXT 3+PANDOC+MACTEX</a></li>
+<li>&#x914D;&#x7F6E;Sublime Text 3&#x7684;Latex&#x73AF;&#x5883;&#x3002;&#x60A8;&#x53EF;&#x53C2;&#x7167;&#x672C;&#x4EBA;&#x4E4B;&#x524D;&#x7684;&#x6587;&#x7AE0;-<a href="http://blog.baoduge.com/SublimeText3_LaTex/">MAC&#x4E0A;&#x4F7F;&#x7528;SUBLIME TEXT3&#x7F16;&#x5199;LATEX</a></li>
+<li>&#x68C0;&#x67E5;&#x4E00;&#x4E0B;&#x60A8;&#x7684;&#x7535;&#x8111;&#x73AF;&#x5883;&#x3002;&#x4EE5;&#x4E0B;&#x662F;&#x6211;&#x7684;&#x7535;&#x8111;&#x5DE5;&#x4F5C;&#x73AF;&#x5883;&#xFF1A;</li>
+</ol>
+<ul>
+<li>&#x68C0;&#x67E5;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF1A;OS X EI Capitan Version 10.11.6;</li>
+<li>Sublime Text: Version 3.0</li>
+</ul>
+<h2 id="&#x5B89;&#x88C5;&#x6B65;&#x9AA4;"><a href="#&#x5B89;&#x88C5;&#x6B65;&#x9AA4;" class="headerlink" title="&#x5B89;&#x88C5;&#x6B65;&#x9AA4;"></a>&#x5B89;&#x88C5;&#x6B65;&#x9AA4;</h2><h3 id="Citation-Styles-repository"><a href="#Citation-Styles-repository" class="headerlink" title="Citation Styles repository"></a>Citation Styles repository</h3><p>&#x8FD9;&#x662F;&#x4E00;&#x4E2A;<a href="https://en.wikipedia.org/wiki/Citation_Style_Language" target="_blank" rel="external"><strong>Citation Style Language</strong></a>&#x5E93;&#xFF0C;Clone<a href="https://github.com/citation-style-language/styles" target="_blank" rel="external">Citation Styles repository|GitHub</a>&#x5230;&#x672C;&#x5730;&#x3002;<sup><a href="#fn_1" id="reffn_1">1</a></sup></p>
+<h3 id="&#x521B;&#x5EFA;BibTex&#x6587;&#x4EF6;"><a href="#&#x521B;&#x5EFA;BibTex&#x6587;&#x4EF6;" class="headerlink" title="&#x521B;&#x5EFA;BibTex&#x6587;&#x4EF6;"></a>&#x521B;&#x5EFA;BibTex&#x6587;&#x4EF6;</h3><p>&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x7EAF;&#x6587;&#x672C;&#x6587;&#x4EF6;&#xFF0C;&#x7136;&#x540E;&#x4FDD;&#x5B58;&#x4E3A;&#x6587;&#x4EF6;&#x540E;&#x7F00;&#x540D;&#x4E3A;<code>.bib</code>&#x7684;BibTex&#x6587;&#x4EF6;&#xFF0C;&#x4F8B;&#x5982;<code>mybibtext.bib</code>&#x3002;&#x5728;Windows&#x7CFB;&#x7EDF;&#x4E2D;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;<code>Notepad</code>&#x521B;&#x5EFA;&#x7EAF;&#x6587;&#x672C;&#x6587;&#x4EF6;&#x3002;&#x5728;MAC OS&#x4E2D;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;<code>TextEdit</code>&#x3002;&#x5F53;&#x7136;&#xFF0C;&#x5982;&#x679C;&#x4F60;&#x5DF2;&#x7ECF;&#x5B89;&#x88C5;&#x4E86;ST3&#xFF0C;&#x4F60;&#x4E5F;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x5728;ST3&#x4E2D;&#x521B;&#x5EFA;&#x3002;</p>
+<p>&#x8FD9;&#x91CC;&#x662F;BibTex&#x7684;&#x5B98;&#x65B9;&#x6307;&#x5357;&#xFF1A;<a href="http://www.bibtex.org/Using/" target="_blank" rel="external">How to use BibTeX</a></p>
+<h3 id="&#x67E5;&#x627E;&#x6587;&#x732E;&#x7684;BibTex"><a href="#&#x67E5;&#x627E;&#x6587;&#x732E;&#x7684;BibTex" class="headerlink" title="&#x67E5;&#x627E;&#x6587;&#x732E;&#x7684;BibTex"></a>&#x67E5;&#x627E;&#x6587;&#x732E;&#x7684;BibTex</h3><p>&#x4F7F;&#x7528;GoogleScholar&#xFF08;&#x4E5F;&#x8BB8;&#x4F60;&#x9700;&#x8981;VPN&#xFF09;&#x6216;&#x8005;&#x5176;&#x4ED6;&#x6587;&#x732E;&#x6570;&#x636E;&#x5E93;&#x67E5;&#x627E;&#x4F60;&#x7684;&#x6587;&#x732E;&#xFF0C;&#x5E76;&#x83B7;&#x53D6;BibTex&#x683C;&#x5F0F;&#x7684;&#x5F15;&#x7528;&#x4EE3;&#x7801;&#x3002;&#x4EE5;GoogleScholar&#x4E3A;&#x4F8B;&#xFF0C;&#x5F53;&#x4F60;&#x641C;&#x7D22;&#x5230;&#x4E86;&#x60F3;&#x8981;&#x7684;&#x6587;&#x732E;&#x540E;&#xFF0C;&#x70B9;&#x51FB;<code>Cite</code>&#xFF0C;&#x5728;&#x5DE6;&#x4E0B;&#x89D2;&#x4F60;&#x53EF;&#x4EE5;&#x770B;&#x5230;<code>BibTex</code>&#xFF0C;&#x70B9;&#x51FB;&#x5B83;&#xFF0C;&#x7136;&#x540E;&#x6D4F;&#x89C8;&#x5668;&#x4F1A;&#x5F39;&#x51FA;&#x8BE5;&#x6587;&#x732E;&#x7684;BibTex&#x683C;&#x5F0F;&#x5185;&#x5BB9;&#x3002;&#x7C98;&#x8D34;&#x590D;&#x5236;&#x5230;&#x4F60;&#x7684;<code>.bib</code>&#x6587;&#x4EF6;&#x4E2D;&#x3002;&#x4EE5;&#x4E0B;&#x662F;BibTex&#x683C;&#x5F0F;&#x6587;&#x732E;&#x5F15;&#x7528;&#x7684;&#x4E00;&#x4E2A;&#x4F8B;&#x5B50;&#xFF1A;</p>
+<pre><code>@inproceedings{zheng2014time,
+  title={Time series classification using multi-channels deep convolutional neural networks},
+  author={Zheng, Yi and Liu, Qi and Chen, Enhong and Ge, Yong and Zhao, J Leon},
+  booktitle={International Conference on Web-Age Information Management},
+  pages={298--310},
+  year={2014},
+  organization={Springer}
+}
+</code></pre><p>&#x5176;&#x4E2D;<code>{</code>&#x540E;&#x7684;&#x4E3A;&#x4F60;&#x4E3A;&#x8BE5;&#x6587;&#x732E;&#x547D;&#x540D;&#x7684;<code>Key</code>&#xFF0C;&#x5728;LaTex&#x7684;Bibliography&#x4E2D;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;<code>\cite{</code>&#x67E5;&#x627E;&#x3002;</p>
+<h3 id="ST3&#x4E2D;&#x4E0B;&#x8F7D;CiteBibTex&#x63D2;&#x4EF6;"><a href="#ST3&#x4E2D;&#x4E0B;&#x8F7D;CiteBibTex&#x63D2;&#x4EF6;" class="headerlink" title="ST3&#x4E2D;&#x4E0B;&#x8F7D;CiteBibTex&#x63D2;&#x4EF6;"></a>ST3&#x4E2D;&#x4E0B;&#x8F7D;CiteBibTex&#x63D2;&#x4EF6;</h3><p>&#x901A;&#x8FC7;<code>Ctrl+Command</code>&#x6253;&#x5F00;<code>Command Palette</code>&#xFF0C;&#x8F93;&#x5165;<code>pi</code>&#xFF0C;&#x9009;&#x4E2D;<strong>Package Control:Install Package</strong>&#x3002;&#x7136;&#x540E;&#x8F93;&#x5165;CiteBibTex,&#x9009;&#x4E2D;&#x5373;&#x53EF;&#x4E0B;&#x8F7D;&#x3002;</p>
+<p>&#x5728;ST3&#x7684;<code>Preferences-&gt;Package Settings-&gt;CiteBibTex-&gt;Settings-Default</code>&#x4E2D;&#x9700;&#x8981;&#x505A;&#x4E00;&#x70B9;&#x4FEE;&#x6539;&#xFF0C;&#x627E;&#x5230;&#x5982;&#x4E0B;&#x8BED;&#x53E5;&#xFF0C;&#x5C06;&#x8DEF;&#x5F84;&#x6362;&#x6210;&#x4F60;&#x7684;<code>.bib</code>&#x6587;&#x4EF6;&#x8DEF;&#x5F84;&#x3002;</p>
+  <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">// (can be overridden on a per-project basis)</div><div class="line">&quot;bibtex_file&quot;: &quot;/Users/huwei/Documents/WP_Blog/&#x7528;ST3&#x7BA1;&#x7406;&#x6587;&#x732E;/citation.bib&quot;,</div></pre></td></tr></table></figure>
+<h3 id="ST3&#x4E2D;&#x4E66;&#x5199;-md&#x6587;&#x4EF6;34"><a href="#ST3&#x4E2D;&#x4E66;&#x5199;-md&#x6587;&#x4EF6;34" class="headerlink" title="ST3&#x4E2D;&#x4E66;&#x5199;.md&#x6587;&#x4EF6;34"></a>ST3&#x4E2D;&#x4E66;&#x5199;<code>.md</code>&#x6587;&#x4EF6;<sup><a href="#fn_3" id="reffn_3">3</a></sup><sup><a href="#fn_4" id="reffn_4">4</a></sup></h3><p>&#x5047;&#x8BBE;&#x6211;&#x6709;&#x4EE5;&#x4E0B;<code>Markdown</code>&#x7684;&#x6E90;&#x6587;&#x4EF6;&#xFF0C;&#x5C06;<code>.md</code>&#x6587;&#x4EF6;&#x548C;<code>.csl</code>&#x6587;&#x4EF6;&#x653E;&#x5728;&#x540C;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x5939;&#x3002;</p>
+  <figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: &quot;Tutorial of Reference List&quot;</div><div class="line">author: </div><div class="line"><span class="bullet">- </span>&quot;HU WEI (PhD student, IS, CityUHK)&quot;</div><div class="line">date: 28 Sep 2017</div><div class="line">csl: science.csl</div><div class="line">---</div><div class="line"></div><div class="line"><span class="section"># Create your own BibTex file</span></div><div class="line"></div><div class="line">Create a plain text file and save it as a BibTex file with file extension <span class="code">`.bib`</span>, for example <span class="code">`mybibtext.bib`</span>. On Windows, you can use <span class="code">`Notepad`</span> to create plain text file and on MAC OS, you can use <span class="code">`TextEdit`</span> app.</div><div class="line"></div><div class="line">Here is a official tutorial: [<span class="string">How to use BibTeX</span>](<span class="link">http://www.bibtex.org/Using/</span>)</div><div class="line"></div><div class="line"><span class="section"># Get BibTex of reference paper</span></div><div class="line"></div><div class="line">Go to GoogleScholar and search your reference. When you find out your reference, you can click <span class="code">`Cite`</span>. And on the left corner on the bottom, you can find <span class="code">`BibTex`</span>. Click it and copy the content on your web browser (See the example as below) and paste it to your <span class="code">`.bib`</span> file.</div><div class="line"></div><div class="line"><span class="code">    @inproceedings{zheng2014time,</span></div><div class="line"><span class="code">      title={Time series classification using multi-channels deep convolutional neural networks},</span></div><div class="line"><span class="code">      author={Zheng, Yi and Liu, Qi and Chen, Enhong and Ge, Yong and Zhao, J Leon},</span></div><div class="line"><span class="code">      booktitle={International Conference on Web-Age Information Management},</span></div><div class="line"><span class="code">      pages={298--310},</span></div><div class="line"><span class="code">      year={2014},</span></div><div class="line"><span class="code">      organization={Springer}</span></div><div class="line"><span class="code">    }</span></div><div class="line"></div><div class="line"><span class="section"># Reference</span></div><div class="line"></div><div class="line">Ester, Martin, Kriegel, Hans-peter, Sander, J&#xF6;rg, Xu, Xiaowei (1996). A density-based algorithm for discovering clusters in large spatial databases with noise</div><div class="line"></div><div class="line">Kom Samo, Yves-Laurent, Vervuurt, Alexander (2016). Stochastic portfolio theory: a machine learning perspective</div></pre></td></tr></table></figure>
+<p>&#x5F53;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x5728;<code>Reference</code>&#x540E;&#x63D2;&#x5165;&#x6587;&#x732E;&#x65F6;&#xFF0C;&#x53EF;&#x4EE5;&#x6309;<code>CiteBibTex</code>&#x7684;&#x5FEB;&#x6377;&#x952E;<code>F9</code>&#xFF08;<code>cite_bibtex_show_citation_selector</code>&#xFF09;&#xFF0C;ST3&#x4F1A;&#x8DF3;&#x51FA;<code>.bib</code>&#x4E2D;&#x7684;&#x6240;&#x6709;&#x6587;&#x732E;&#xFF0C;&#x76F4;&#x63A5;&#x9009;&#x4E2D;&#x60F3;&#x8981;&#x63D2;&#x5165;&#x7684;&#x6587;&#x732E;&#x5373;&#x53EF;&#x3002;</p>
+<p>&#x6700;&#x7EC8;&#x6548;&#x679C;&#x53EF;&#x89C1;&#x4EE5;&#x4E0B;PDF&#x6587;&#x4EF6;:</p>
+
+
+	<div class="row">
+		<iframe src="https://drive.google.com/file/d/0ByuqsS9ThqpcNUJtSjg0Nm5PVHc/preview" style="width:100%; height:550px"></iframe>
+	</div>
+
+
+
+<h3 id="&#x4E66;&#x5199;-tex&#x6587;&#x4EF6;note2"><a href="#&#x4E66;&#x5199;-tex&#x6587;&#x4EF6;note2" class="headerlink" title="&#x4E66;&#x5199;.tex&#x6587;&#x4EF6;note2"></a>&#x4E66;&#x5199;<code>.tex</code>&#x6587;&#x4EF6;<sup><a href="#fn_note2" id="reffn_note2">note2</a></sup></h3><p>&#x5C06;<code>.bib</code>&#x6587;&#x4EF6;&#x548C;<code>.tex</code>&#x6587;&#x4EF6;&#x653E;&#x5728;&#x540C;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x5939;&#x3002;&#x5047;&#x8BBE;&#x6709;&#x4EE5;&#x4E0B;<code>.tex</code>&#x6587;&#x4EF6;</p>
+<pre><code>\documentclass{article}
+\usepackage{fontspec, xunicode, xltxtra}
+\setmainfont{Hiragino Sans GB}
+\title{An example}
+\author{BDG}
+\begin{document}
+\maketitle{}
+\section{Introduction}
+This is where you will write your content.\par
+Ref 1\cite{Ester96adensity-based}\par
+Ref 2\cite{kom2016stochastic}
+% ---- bibliography ------%
+\bibliographystyle{IEEEtran}
+\bibliography{citation}
+\end{document}
+</code></pre><p>ST3&#x4E2D;&#x76F4;&#x63A5;&#x6309;&#x5FEB;&#x6377;&#x952E;<code>Command+B</code>&#x8FDB;&#x884C;&#x7F16;&#x8BD1;&#xFF0C;&#x7CFB;&#x7EDF;&#x4F1A;&#x8DF3;&#x51FA;<strong>skim</strong>&#x8F6F;&#x4EF6;&#x9884;&#x89C8;&#x7F16;&#x8BD1;&#x597D;&#x7684;PDF&#x6587;&#x4EF6;&#x3002;</p>
+<p>&#x7F16;&#x8BD1;&#x51FA;&#x7684;&#x6548;&#x679C;&#x53EF;&#x89C1;&#x4EE5;&#x4E0B;PDF&#x6587;&#x4EF6;:</p>
+
+
+	<div class="row">
+		<iframe src="https://drive.google.com/file/d/0ByuqsS9ThqpcS0ltcC1iX1FmSVU/preview" style="width:100%; height:550px"></iframe>
+	</div>
+
+
+
+<h3 id="&#x4F7F;&#x7528;Mendeley"><a href="#&#x4F7F;&#x7528;Mendeley" class="headerlink" title="&#x4F7F;&#x7528;Mendeley"></a>&#x4F7F;&#x7528;Mendeley</h3><p>&#x9664;&#x4E86;&#x53EF;&#x4EE5;&#x5728;ST3&#x4E2D;&#x8FDB;&#x884C;&#x5B66;&#x672F;&#x98CE;&#x683C;&#x7684;&#x4E66;&#x5199;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;<a href="https://www.mendeley.com/" target="_blank" rel="external">Mendeley</a>&#xFF08;<a href="https://en.wikipedia.org/wiki/Mendeley" target="_blank" rel="external">Wikipedia|Mendeley</a>&#xFF09;&#x8F6F;&#x4EF6;&#x6765;&#x7BA1;&#x7406;&#x81EA;&#x5DF1;PC&#x4E0A;&#x7684;&#x6587;&#x732E;&#x3002;Mendeley&#x771F;&#x7684;&#x662F;&#x4E00;&#x6B3E;&#x5341;&#x5206;&#x5F3A;&#x5927;&#x7684;&#x6587;&#x732E;&#x7BA1;&#x7406;&#x8F6F;&#x4EF6;&#x3002;<sup><a href="#fn_5" id="reffn_5">5</a></sup></p>
+<h4 id="&#x7528;-bib&#x6587;&#x4EF6;&#x5728;Mendeley&#x4E2D;&#x5BFC;&#x5165;&#x6587;&#x732E;"><a href="#&#x7528;-bib&#x6587;&#x4EF6;&#x5728;Mendeley&#x4E2D;&#x5BFC;&#x5165;&#x6587;&#x732E;" class="headerlink" title="&#x7528;.bib&#x6587;&#x4EF6;&#x5728;Mendeley&#x4E2D;&#x5BFC;&#x5165;&#x6587;&#x732E;"></a>&#x7528;<code>.bib</code>&#x6587;&#x4EF6;&#x5728;Mendeley&#x4E2D;&#x5BFC;&#x5165;&#x6587;&#x732E;</h4><p>&#x6253;&#x5F00;Mendeley,<code>File-&gt;Import-&gt;BibTex(*.bib)</code>&#x5373;&#x53EF;&#x5BFC;&#x5165;<code>.bib</code>&#x6587;&#x4EF6;&#x3002;Mendeley&#x53EF;&#x4EE5;&#x81EA;&#x52A8;&#x5BFC;&#x5165;<code>.bib</code>&#x6587;&#x4EF6;&#x4E2D;&#x5305;&#x542B;&#x7684;&#x6240;&#x6709;&#x6587;&#x732E;&#x3002;&#x540C;&#x65F6;&#x5728;Mendeley&#x4E2D;&#x9009;&#x4E2D;&#x6587;&#x732E;&#xFF0C;<code>File-&gt;Export</code>&#x4E5F;&#x53EF;&#x5BFC;&#x51FA;&#x8FD9;&#x51E0;&#x7BC7;&#x6587;&#x732E;&#x7684;<code>.bib</code>&#x6587;&#x4EF6;</p>
+<h4 id="&#x540C;&#x6B65;BibTex&#x6587;&#x4EF6;"><a href="#&#x540C;&#x6B65;BibTex&#x6587;&#x4EF6;" class="headerlink" title="&#x540C;&#x6B65;BibTex&#x6587;&#x4EF6;"></a>&#x540C;&#x6B65;BibTex&#x6587;&#x4EF6;</h4><p><code>Preference-&gt;BibTex</code>&#xFF0C;&#x9009;&#x4E2D;<strong>Enable BibTex Syncing</strong>&#xFF0C;&#x5EFA;&#x8BAE;&#x63A5;&#x4E0B;&#x6765;&#x9009;<strong>Create one BibTex file per Group</strong>&#xFF0C;&#x7136;&#x540E;&#x5728;<strong>Path</strong>&#x4E00;&#x680F;&#x4E2D;&#x586B;&#x4E00;&#x4E2A;&#x4F60;&#x60F3;&#x5B58;&#x653E;<code>BibTex</code>&#x6587;&#x4EF6;&#x7684;&#x5730;&#x65B9;&#xFF0C;&#x8FD9;&#x6837;Mendeley&#x4F1A;&#x6839;&#x636E;&#x6BCF;&#x4E2A;&#x6587;&#x4EF6;&#x5939;&#x521B;&#x5EFA;&#x8BE5;&#x6587;&#x4EF6;&#x5939;&#x4E0B;&#x5DF2;&#x7ECF;&#x5BFC;&#x5165;&#x4E86;Mendeley&#x4E2D;&#x7684;&#x6240;&#x6709;&#x6587;&#x732E;&#x7684;BibTex&#x6587;&#x4EF6;&#xFF0C;&#x5E76;&#x5B9E;&#x65F6;&#x66F4;&#x65B0;&#x3002;<sup><a href="#fn_6" id="reffn_6">6</a></sup></p>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><p><a href="https://www.zhihu.com/question/23565739" target="_blank" rel="external">&#x5982;&#x4F55;&#x5728;LaTeX&#x5199;&#x4F5C;&#x4E2D;&#x7BA1;&#x7406;&#x53C2;&#x8003;&#x6587;&#x732E;?|&#x77E5;&#x4E4E;</a><br><a href="https://www.zhihu.com/question/26901116" target="_blank" rel="external">&#x5982;&#x4F55;&#x603B;&#x7ED3;&#x548C;&#x6574;&#x7406;&#x5B66;&#x672F;&#x6587;&#x732E;&#xFF1F;|&#x77E5;&#x4E4E;</a><br><a href="https://www.zhihu.com/question/23565739/answer/57289625" target="_blank" rel="external">&#x5982;&#x4F55;&#x5728;LaTeX&#x5199;&#x4F5C;&#x4E2D;&#x7BA1;&#x7406;&#x53C2;&#x8003;&#x6587;&#x732E;?|&#x77E5;&#x4E4E;</a><br><a href="https://donlelek.github.io/2015-03-25-how-to-use-markdown-and-pandoc-in-sublime-text-3/" target="_blank" rel="external">How to use Markdown and Pandoc in Sublime Text 3</a><br><a href="http://shengmingzhiqing.com/mac-app-papers/" target="_blank" rel="external">&#x7528; Mac &#x641E;&#x5B66;&#x672F;&#x4E4B; Papers</a></p>
+<blockquote id="fn_1">
+<sup>1</sup>. <a href="http://www.ericmjl.com/blog/2016/6/22/tooling-up-for-plain-text-academic-writing-in-markdown/" target="_blank" rel="external">Tooling up for Plain Text Academic Writing in Markdown</a><a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_2">
+<sup>2</sup>. <a href="https://gist.github.com/maxogden/97190db73ac19fc6c1d9beee1a6e4fc8" target="_blank" rel="external">How to make a scientific looking PDF from markdown (with bibliography)</a><a href="#reffn_2" title="Jump back to footnote [2] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_3">
+<sup>3</sup>. <a href="http://dylanstorey.com/2015/12/Academic_Writing_With_Markdown.html" target="_blank" rel="external">Academic Writing With Markdown</a><a href="#reffn_3" title="Jump back to footnote [3] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_4">
+<sup>4</sup>. <a href="http://www.chriskrycho.com/2015/academic-markdown-and-citations.html" target="_blank" rel="external">Academic Markdown and Citations</a><a href="#reffn_4" title="Jump back to footnote [4] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_5">
+<sup>5</sup>. <a href="https://www.mendeley.com/guides/desktop/" target="_blank" rel="external">Getting started with Mendeley Desktop</a><a href="#reffn_5" title="Jump back to footnote [5] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_6">
+<sup>6</sup>. <a href="https://blog.mendeley.com/tag/bibtex/" target="_blank" rel="external">How-to series: Generate BibTeX files for your collections for use in LaTeX 3/12</a><a href="#reffn_6" title="Jump back to footnote [6] in the text."> &#x21A9;</a>
+</blockquote>
+]]></content>
+      
+        <categories>
+            
+            <category> notes </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> sublime_text_3 </tag>
+            
+            <tag> academic_reference </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Use MATLAB to batch search citation of IS research paper]]></title>
+      <url>/gogle_citation_isr/</url>
+      <content type="html"><![CDATA[<h2 id="Purpose"><a href="#Purpose" class="headerlink" title="Purpose"></a>Purpose</h2><p>There is one course which requires us to do research on the methods and theories of some specific period of time. And we need to read all of the papers issued on the top journals in the target period. After briefly browsing, I found that I need to read about 100 papers which is frankly impossible to be done in just two weeks. </p>
+<p>Then I just want to know the <code>current citation numbers</code> of this bunch of papers, which can make it easier to decide which one is more worth to read at first. Then I did some work on MATLAB and hope it can help you.<strong><a href="https://github.com/vincent27hugh/Google_Citation" target="_blank" rel="external">Sepecific Code here</a></strong></p>
+<h2 id="Basic-info"><a href="#Basic-info" class="headerlink" title="Basic info"></a>Basic info</h2><ol>
+<li>Version: 1.0 </li>
+<li>Copyright: HU WEI</li>
+<li>Date: 2017-09-18</li>
+<li>Method: Use MATLAB</li>
+<li>Environment:</li>
+</ol>
+<ul>
+<li>OS: Mac OS X EI Capitan</li>
+<li>MATLAB: R2014b</li>
+<li>Default Web Browser: Chrome Version 60.0.3112.113 (Official Build) (64-bit)</li>
+<li>Google Scholar Language: English</li>
+</ul>
+<h2 id="Acknowledge"><a href="#Acknowledge" class="headerlink" title="Acknowledge"></a>Acknowledge</h2><ol>
+<li><code>google2link.m</code> is built on the basis of Fahad Al Mahmood&#x2019;s work &#x2018;google.m&#x2019;, please refer to <a href="https://www.mathworks.com/matlabcentral/fileexchange/6535-google" target="_blank" rel="external">google by Fahad Al Mahmood on File Exchange</a></li>
+<li>About <code>pdfRead.m</code>, I should totally give credit to Derek Wood. Please refer to <a href="https://www.mathworks.com/matlabcentral/fileexchange/63615-read-text-from-a-pdf-document" target="_blank" rel="external">Read text from a PDF document by Derek Wood|File Exchange</a></li>
+</ol>
+<h2 id="Prerequisites&#xFF1A;"><a href="#Prerequisites&#xFF1A;" class="headerlink" title="Prerequisites&#xFF1A;"></a>Prerequisites&#xFF1A;</h2><ol>
+<li>Make a new folder named <code>PDF files</code> and move the PDF files that you want to search for their academic catations in this folder.</li>
+<li>Make sure that your network is open;</li>
+<li>This <code>google_citation.m</code> can only recognize 3 journals paper:</li>
+</ol>
+<ul>
+<li>[X] Management Information System Quarterly</li>
+<li>[X] INFORMS Journal of Computing</li>
+<li>[X] Information System Research</li>
+</ul>
+<h2 id="Usage&#xFF1A;"><a href="#Usage&#xFF1A;" class="headerlink" title="Usage&#xFF1A;"></a>Usage&#xFF1A;</h2><ol>
+<li>Run <code>Google_Citation.m</code> file and you will get:</li>
+</ol>
+<ul>
+<li><code>citation.mat</code> data file which stores the title and ciataion # of the </li>
+<li><code>Ciatation</code> folder which stores the renamed PDF files in the format as <code>Citation #-Old name.pdf</code>;</li>
+</ul>
+<ol>
+<li>If you want to load the data <code>citation.mat</code> file to check the data, you can turn to <code>import_demo.m</code> as reference;</li>
+</ol>
+<h2 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h2><ol>
+<li><p>Sometimes the google scholar need you to verify that you are not robot. Just like the error as follow:</p>
+<p> The server returned the message: &#x201C;Service Unavailable&#x201D; for URL,<br> &#x2018;<a href="http://scholar.google.com/scholar?q=Setup+and+Open-Stacks+Minimization+in+One-Dimensional+Stock+Cutting" target="_blank" rel="external">http://scholar.google.com/scholar?q=Setup+and+Open-Stacks+Minimization+in+One-Dimensional+Stock+Cutting</a>.&#x2019;<br> (with HTTP response code 503).</p>
+</li>
+</ol>
+<p>The <code>HTTP response code 503</code> means that:</p>
+<blockquote>
+<p>The server is currently unable to handle the request due to a temporary overload or scheduled maintenance, which will likely be alleviated after some delay.</p>
+</blockquote>
+<p>You may need to try again later.</p>
+<h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2><ul>
+<li>Use Text Mining Techniques to recognize &#x2018;titile&#x2019;, &#x2018;author&#x2019; and some other segment automatically</li>
+<li>Convert to Python</li>
+<li>Build an API</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> notes </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> information_system </tag>
+            
+            <tag> matlab </tag>
+            
+            <tag> google_scholar </tag>
+            
+            <tag> reference </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Robo-Advisor Introduction]]></title>
+      <url>/Robo_Advisor_Introduction/</url>
+      <content type="html"><![CDATA[<h2 id="What-is-Robo-Advisor"><a href="#What-is-Robo-Advisor" class="headerlink" title="What is Robo-Advisor?"></a>What is Robo-Advisor?</h2><blockquote>
+<p>Robo-advisors or Robo-advisers are a class of financial adviser that provide financial advice or portfolio management online with moderate to minimal human intervention. -<a href="https://en.wikipedia.org/wiki/Robo-advisor" target="_blank" rel="external">Wikipedia</a></p>
+</blockquote>
+<p>Robo-advisor (A.K.A. Intelligent Investment) can provide automated investment management services, which requires little or low human interactions once the clients ensure their initial preferences.</p>
+<p>Here is a PowerPoint about the introduction of Robo Advisor:</p>
+
+
+	<div class="row">
+		<iframe src="https://drive.google.com/file/d/0ByuqsS9ThqpcNGhOQlFwSVBUQ2M/preview" style="width:100%; height:550px"></iframe>
+	</div>
+
+
+
+<h2 id="General-Process-amp-Mechanism-of-Robo-Advisor"><a href="#General-Process-amp-Mechanism-of-Robo-Advisor" class="headerlink" title="General Process &amp; Mechanism of Robo-Advisor"></a>General Process &amp; Mechanism of Robo-Advisor</h2><h3 id="Risk-Tolerance-Questionnaire-RTQ"><a href="#Risk-Tolerance-Questionnaire-RTQ" class="headerlink" title="Risk Tolerance Questionnaire (RTQ)"></a>Risk Tolerance Questionnaire (RTQ)</h3><p>RTQ is a questionnaire about customers&#x2019; personal financial goals and tolerance for risk.</p>
+<h3 id="Rebalancing-Process"><a href="#Rebalancing-Process" class="headerlink" title="Rebalancing Process"></a>Rebalancing Process</h3><ul>
+<li><p>Robo provides asset allocation and investment selection.</p>
+</li>
+<li><p>Automatic deposits from payroll, systematic investment plans, and automatic rebalancing</p>
+</li>
+<li><p>The robo-advisor software will make periodic adjustments over time.</p>
+</li>
+</ul>
+<h2 id="Theories-amp-Techniques"><a href="#Theories-amp-Techniques" class="headerlink" title="Theories &amp; Techniques"></a>Theories &amp; Techniques</h2><h3 id="Mordern-Portfolio-Theory"><a href="#Mordern-Portfolio-Theory" class="headerlink" title="Mordern Portfolio Theory"></a>Mordern Portfolio Theory</h3><ul>
+<li>Input: User Info; </li>
+<li>Output: Portfolio;</li>
+<li>Mean-Variance Optimization</li>
+</ul>
+<h3 id="Deferential-Manifold-and-Topology"><a href="#Deferential-Manifold-and-Topology" class="headerlink" title="Deferential Manifold and Topology"></a>Deferential Manifold and Topology</h3><ul>
+<li>Use tensor to describe the portfolio space; </li>
+<li>Find topological invariant and predict&#xFF1B; </li>
+<li>Deferential Manifold&#xFF1B;</li>
+</ul>
+<h3 id="Machine-Learning"><a href="#Machine-Learning" class="headerlink" title="Machine Learning"></a>Machine Learning</h3><ul>
+<li><p>Random effect function </p>
+</li>
+<li><p>Reinforcement learning</p>
+</li>
+</ul>
+<h3 id="Finance"><a href="#Finance" class="headerlink" title="Finance"></a>Finance</h3><ul>
+<li><p>Risk Management</p>
+</li>
+<li><p>Mutual Fund</p>
+</li>
+<li><p>FOF product</p>
+</li>
+<li><p>Diversified Investment:</p>
+</li>
+</ul>
+<p>&#x2014; Passive management: mainly index fund or ETF (Exchange-Trade Funds)</p>
+<p>&#x2014; Stocks, bonds, mutual funds, futures, and real estate may be used</p>
+<h2 id="Websites-about-Robo-Advisor"><a href="#Websites-about-Robo-Advisor" class="headerlink" title="Websites about Robo Advisor"></a>Websites about Robo Advisor</h2><ol>
+<li><a href="https://www.nerdwallet.com/blog/category/investing/?trk=nw_gn_4.0" target="_blank" rel="external">nerdwallet-investing</a></li>
+<li><a href="http://www.investmentzen.com/best-robo-advisors" target="_blank" rel="external">investmentzen-best robo advisor</a></li>
+</ol>
+<h2 id="Independent-Robo-Advisors-Overseas"><a href="#Independent-Robo-Advisors-Overseas" class="headerlink" title="Independent Robo-Advisors (Overseas)"></a>Independent Robo-Advisors (Overseas)</h2><ol>
+<li><a href="https://www.betterment.com/" target="_blank" rel="external">Betterment</a></li>
+<li><a href="https://www.wealthfront.com/" target="_blank" rel="external">Wealthfront</a></li>
+<li><a href="https://www.personalcapital.com/" target="_blank" rel="external">Personal Capital</a></li>
+<li><a href="https://www.sigfig.com/site/#/home/am" target="_blank" rel="external">Sigfig</a></li>
+<li><a href="https://investor.vanguard.com/advice/personal-advisor" target="_blank" rel="external">Vanguard</a></li>
+<li><a href="https://www.rebalance-ira.com/" target="_blank" rel="external">Rebalance IRA</a></li>
+<li><a href="https://www.wisebanyan.com/r/aRR8hZwJP" target="_blank" rel="external">WiseBanyan</a></li>
+<li><a href="https://www.wealthsimple.com/en-us/investmentzen" target="_blank" rel="external">Wealthsimple</a></li>
+<li><a href="https://www.blooom.com/a/investment-zen/?utm_source=investmentzen&amp;utm_medium=affiliate&amp;utm_campaign=investmentzen_blog&amp;utm_content=review" target="_blank" rel="external">Blooom</a></li>
+<li><a href="https://intelligent.schwab.com/" target="_blank" rel="external">Schwab Intelligent Portfolios</a></li>
+<li><a href="https://www.ally.com/invest/managed-portfolios/?ADTRK=ACJ0116tka" target="_blank" rel="external">Ally:TradeKing Advisor</a></li>
+<li><a href="https://www.hedgeable.com/" target="_blank" rel="external">Hedgeable</a></li>
+<li><a href="https://www.futureadvisor.com/?utm_source=FlexOffers&amp;utm_medium=cpa&amp;utm_campaign=Affiliate_FlexOffers_FullSignup" target="_blank" rel="external">FutureAdvisor</a></li>
+<li><a href="https://www.motifinvesting.com/" target="_blank" rel="external">Motif Investing</a></li>
+<li><a href="https://www.tdameritrade.com/home.page" target="_blank" rel="external">TD Ameritrade</a></li>
+<li><a href="https://www.merrilledge.com/" target="_blank" rel="external">Merill Edge</a></li>
+<li><a href="https://us.etrade.com/home" target="_blank" rel="external">ETRADE</a></li>
+<li><a href="https://www.acorns.com/" target="_blank" rel="external">Acorns</a> </li>
+<li><a href="http://www.eoption.com/" target="_blank" rel="external">Eoption</a></li>
+<li><a href="https://www.tradestation.com/" target="_blank" rel="external">tradestation</a></li>
+<li><a href="https://www.interactivebrokers.com/en/home.php" target="_blank" rel="external">InteractiveBrokers</a></li>
+<li><a href="https://dpcs.fidelity.com/prgw/dpcs/dma/?ccsource=vn_fgo" target="_blank" rel="external">Fiedelity GO</a></li>
+<li><a href="https://alphaarchitect.com/robo/" target="_blank" rel="external">Alpha Architect Robo</a></li>
+<li><a href="http://www.cambriainvestments.com/" target="_blank" rel="external">Cambria Digital Advisor</a></li>
+</ol>
+<h2 id="Independent-Robo-Advisors-Domestic-1"><a href="#Independent-Robo-Advisors-Domestic-1" class="headerlink" title="Independent Robo-Advisors (Domestic)1"></a>Independent Robo-Advisors (Domestic)<sup><a href="#fn_1" id="reffn_1">1</a></sup></h2><ol>
+<li><a href="https://www.igoldenbeta.com/" target="_blank" rel="external">Ant Group: iGoldenBeta</a></li>
+<li>&#x62DB;&#x5546;&#x94F6;&#x884C;&#xFF1A;&#x6469;&#x7FAF;&#x667A;&#x6295;</li>
+<li>&#x91D1;&#x878D;&#x754C;&#xFF1A;&#x7075;&#x7280;&#x667A;&#x6295;</li>
+<li>&#x5B9C;&#x4FE1;&#x8D22;&#x5BCC;&#xFF1A;&#x6295;&#x7C73;RA</li>
+<li>&#x7406;&#x8D22;&#x9B54;&#x65B9;</li>
+<li>&#x86CB;&#x5377;&#x57FA;&#x91D1;</li>
+<li>&#x5E73;&#x5B89;&#x58F9;&#x8D26;&#x901A;&#xFF1A;&#x667A;&#x80FD;&#x8D22;&#x5BCC;&#x7BA1;&#x5BB6;</li>
+<li>&#x534E;&#x590F;&#x94F6;&#x884C;&#x667A;&#x80FD;&#x6295;&#x987E;</li>
+</ol>
+<h2 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h2><ol>
+<li>Optimal investment strategy to non-professional investors</li>
+<li>Customized</li>
+<li>Automation</li>
+<li>Low commission fee</li>
+</ol>
+<h2 id="Disadvantages"><a href="#Disadvantages" class="headerlink" title="Disadvantages"></a>Disadvantages</h2><p>No too much AI&amp;Big Data yet in the industry (Speech Recognition, Big Data)</p>
+<h2 id="Academic-Readings"><a href="#Academic-Readings" class="headerlink" title="Academic Readings"></a>Academic Readings</h2><ol>
+<li>Moody, J., Wu, L., Liao, Y., &amp; Saffell, M. (1998). Performance functions and reinforcement learning for trading systems and portfolios. Journal of Forecasting, 17(56), 441-470.</li>
+<li>Neuneier, R., &amp; Mihatsch, O. (1999). Risk sensitive reinforcement learning. In Advances in Neural Information Processing Systems (pp. 1031-1037).</li>
+<li>Dempster, M. A., &amp; Jones, C. M. (2001). A real-time adaptive trading system using genetic programming. Quantitative Finance, 1(4), 397-413.</li>
+<li>Li, B., &amp; Hoi, S. C. (2014). Online portfolio selection: A survey. ACM Computing Surveys (CSUR), 46(3), 35.</li>
+<li>Galindo, J., &amp; Tamayo, P. (2000). Credit risk assessment using statistical and machine learning: basic methodology and risk modeling applications. Computational Economics, 15(1), 107-143.</li>
+<li>Dempster, M. A., &amp; Leemans, V. (2006). An automated FX trading system using adaptive reinforcement learning. Expert Systems with Applications, 30(3), 543-552.</li>
+<li>Nevmyvaka, Y., Feng, Y., &amp; Kearns, M. (2006, June). Reinforcement learning for optimized trade execution. In Proceedings of the 23rd international conference on Machine learning (pp. 673-680). ACM.</li>
+<li>Jiang, Z., &amp; Liang, J. (2016). Cryptocurrency Portfolio Management with Deep Reinforcement Learning. arXiv preprint arXiv:1612.01277.</li>
+<li>Moody, J. E., Saffell, M., Liao, Y., &amp; Wu, L. (1998, August). Reinforcement Learning for Trading Systems and Portfolios. In KDD (pp. 279-283).</li>
+</ol>
+<h2 id="Non-academic-Readings"><a href="#Non-academic-Readings" class="headerlink" title="Non-academic Readings"></a>Non-academic Readings</h2><ol>
+<li><a href="https://www.accenture.com/us-en/new-applied-now" target="_blank" rel="external">ACCENTURE</a>: <a href="https://www.accenture.com/_acnmedia/PDF-2/Accenture-Wealth-Management-Rise-of-Robo-Advice.pdf" target="_blank" rel="external">The Rise of Robo-Advice: Changing the Concept of Wealth Management</a> </li>
+<li><a href="https://www.cgi.com/en" target="_blank" rel="external">CGI</a>: [Beyond Robo-Advisors:Using Technology to Power New Methods of Client Advice and Interaction]</li>
+<li><a href="https://www2.deloitte.com/us/en.html" target="_blank" rel="external">Deloitte</a>: <a href="https://www2.deloitte.com/content/dam/Deloitte/de/Documents/financial-services/Robo_No_2.pdf" target="_blank" rel="external">Robo-Advisory in Wealth Management</a></li>
+<li><a href="https://www.ipsos.com/en" target="_blank" rel="external">IPSOS</a>: <a href="https://www.ipsos.com/sites/default/files/2017-07/IpsosMarketing_POV_RoboAdvisors.pdf" target="_blank" rel="external">Robo-advisors: the rise of automated financial advice</a></li>
+<li><a href="http://www.mckinsey.com/" target="_blank" rel="external">McKinsey &amp; Company</a>: <a href="https://www.google.com.hk/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;ved=0ahUKEwjWzYPrm6TWAhWEXLwKHc1DCxAQFgglMAA&amp;url=http%3A%2F%2Fwww.mckinsey.com%2F~%2Fmedia%2FMcKinsey%2FIndustries%2FAdvanced%2520Electronics%2FOur%2520Insights%2FHow%2520artificial%2520intelligence%2520can%2520deliver%2520real%2520value%2520to%2520companies%2FMGI-Artificial-Intelligence-Discussion-paper.ashx&amp;usg=AFQjCNFSaCBL0-0Ddg3vRxdBW4rDINbJwg" target="_blank" rel="external">ARTIFICIAL INTELLIGENCE THE NEXT DIGITAL FRONTIER?</a></li>
+<li><a href="https://research.wealthfront.com/whitepapers/investment-methodology/" target="_blank" rel="external">Wealthfront Investment: Methodology White Paper</a></li>
+<li><a href="https://www.betterment.com/resources/research/tax-loss-harvesting-white-paper/" target="_blank" rel="external">Betterment - White Paper: Tax Loss Harvesting+&#x2122;</a></li>
+<li><a href="https://intelligent.schwab.com/public/intelligent/insights/whitepapers/tax-loss-harvesting-rebalancing.html" target="_blank" rel="external">Schwab - Rebalancing and Tax-Loss Harvesting in Schwab Intelligent Portfolios&#x2122;</a></li>
+</ol>
+<h2 id="Casual-Readings"><a href="#Casual-Readings" class="headerlink" title="Casual Readings"></a>Casual Readings</h2><ol>
+<li><a href="https://www.zhihu.com/question/40505552" target="_blank" rel="external">&#x77E5;&#x4E4E;&#xFF1A;&#x667A;&#x80FD;&#x6295;&#x987E;&#x662F;&#x4EC0;&#x4E48;&#xFF1F;&#x300C;&#x667A;&#x80FD;&#x300D;&#x4F53;&#x73B0;&#x5728;&#x54EA;&#x4E9B;&#x65B9;&#x9762;&#xFF1F;</a></li>
+<li><a href="http://www.sohu.com/a/131087376_387563" target="_blank" rel="external">&#x4E00;&#x6587;&#x8BFB;&#x61C2;&#x667A;&#x80FD;&#x6295;&#x987E;&#x7684;&#x5546;&#x4E1A;&#x903B;&#x8F91;&#x548C;&#x6A21;&#x578B;&#x7B97;&#x6CD5;</a></li>
+<li><a href="https://www.zhihu.com/question/46379749" target="_blank" rel="external">&#x77E5;&#x4E4E;&#xFF1A;&#x4EC0;&#x4E48;&#x662F;&#x667A;&#x80FD;&#x6295;&#x987E;&#xFF1F;</a></li>
+<li><a href="https://wallstreetcn.com/articles/278840" target="_blank" rel="external">&#x534E;&#x5C14;&#x8857;&#x89C1;&#x95FB;&#xFF1A;&#x667A;&#x80FD;&#x6295;&#x987E;&#x662F;&#x600E;&#x6837;&#x70BC;&#x6210;&#x7684;&#xFF1F;</a></li>
+<li><a href="https://www.zhihu.com/lives/820277401912221696/messages" target="_blank" rel="external">&#x77E5;&#x4E4E;LIVE:&#x667A;&#x80FD;&#x6295;&#x987E;&#x662F;&#x4EC0;&#x4E48;&#xFF1F;</a></li>
+<li><a href="http://www.cnbc.com/2017/03/21/goldman-building-robo-adviser-to-give-investment-advice-to-the-masses.html" target="_blank" rel="external">CNBC: Goldman building robo-adviser to give investment advice to the masses</a></li>
+<li><a href="https://www.cnbc.com/2017/06/06/machine-learning-transforms-investment-strategies-for-asset-managers.html" target="_blank" rel="external">CNBC: Machine learning is transforming investment strategies for asset managers</a></li>
+<li><a href="https://www.americanbanker.com/news/beyond-robo-advisers-how-ai-could-rewire-wealth-management" target="_blank" rel="external">American Banker: Beyond Robo-Advisers: How AI Could Rewire Wealth Management</a></li>
+<li><a href="http://www.economist.com/news/special-report/21650292-human-wealth-advisers-are-going-out-fashion-ask-algorithm" target="_blank" rel="external">The Economist: Ask the algorithm</a></li>
+<li><a href="https://www.quora.com/Is-there-any-hedge-fund-using-Machine-learning-based-algorithms-for-trading" target="_blank" rel="external">Quora: Is there any hedge fund using Machine learning based algorithms for trading?</a></li>
+<li><a href="https://www.quora.com/Can-deep-reinforcement-learning-be-used-to-make-automated-trading-better" target="_blank" rel="external">Quora: Can deep reinforcement learning be used to make automated trading better?</a></li>
+<li><a href="https://insights.samsung.com/2017/06/08/machine-learning-in-finance-is-a-robo-advisor-smart-enough-to-invest-your-savings/" target="_blank" rel="external">INSIGHT: Machine Learning in Finance: Is a Robo-Advisor Smart Enough to Invest Your Savings?</a></li>
+<li><a href="https://www.nerdwallet.com/blog/investing/best-robo-advisors/" target="_blank" rel="external">NerdWallet: Best Robo-Advisors: 2017 Top Picks</a></li>
+<li><a href="http://www.investopedia.com/articles/financial-advisor/062316/9-top-roboadvisors-financial-advisors.asp" target="_blank" rel="external">INVESTOPEDIA: 9 Top Robo-Advisors for Financial Advisors</a></li>
+<li><a href="https://quant.stackexchange.com/questions/21149/which-algorithms-do-robo-advisors-use" target="_blank" rel="external">StackExchange:Which algorithms do robo-advisors use?</a></li>
+<li><a href="http://www.mrmoneymustache.com/betterment-vs-vanguard/" target="_blank" rel="external">Mr Money Mustache Blog: The Betterment Experiment &#x2013; Results</a></li>
+<li><a href="https://www.nerdwallet.com/blog/investing/best-online-brokers-for-stock-trading/?trk=globalrecs&amp;rcg=investing_recs&amp;topic=brokers_recs" target="_blank" rel="external">NerdWallet: Best Online Brokers for Stock Trading 2017</a></li>
+<li><a href="https://www.thebalance.com/top-robo-advisor-services-4143359" target="_blank" rel="external">The Balance: A Look at the Top Robo-Advisor Services</a></li>
+<li><a href="https://www.qplum.co/documents/quant_to_AI_in_trading" target="_blank" rel="external">Artificial Intelligence led disruption in Trading</a></li>
+<li><a href="https://hbr.org/2017/08/how-machine-learning-is-helping-morgan-stanley-better-understand-client-needs" target="_blank" rel="external">How Machine Learning Is Helping Morgan Stanley Better Understand Client Needs</a></li>
+</ol>
+<h2 id="Possible-Topics"><a href="#Possible-Topics" class="headerlink" title="Possible Topics"></a>Possible Topics</h2><h3 id="A-Market-Strategy"><a href="#A-Market-Strategy" class="headerlink" title="A. Market/Strategy"></a>A. Market/Strategy</h3><ul>
+<li>Survey of Robo-Advisor Market and its impact</li>
+</ul>
+<h3 id="B-Technology"><a href="#B-Technology" class="headerlink" title="B. Technology"></a>B. Technology</h3><ul>
+<li>Portfolio Management view of Robo-Advisor</li>
+<li>In-depth exploration of Robo-Advisor framework </li>
+</ul>
+<h3 id="C-Statistics-Data-Analysis"><a href="#C-Statistics-Data-Analysis" class="headerlink" title="C. Statistics/Data Analysis"></a>C. Statistics/Data Analysis</h3><ul>
+<li>Trend analysis of Robot-Advisor</li>
+</ul>
+<h3 id="D-Behavior"><a href="#D-Behavior" class="headerlink" title="D. Behavior"></a>D. Behavior</h3><ul>
+<li>Survey: How do human trust Robo-Advisor?</li>
+</ul>
+<blockquote id="fn_1">
+<sup>1</sup>. <a href="http://fund.jrj.com.cn/2017/09/12175123102384.shtml" target="_blank" rel="external">&#x4E2D;&#x56FD;&#x667A;&#x80FD;&#x6295;&#x987E;&#x884C;&#x4E1A;2017&#x5E74;8&#x6708;&#x53D1;&#x5C55;&#x6708;&#x62A5;</a><a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#x21A9;</a>
+</blockquote>
+]]></content>
+      
+        <categories>
+            
+            <category> notes </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> robo_advisor </tag>
+            
+            <tag> fintech </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[区块链现状]]></title>
+      <url>/current_blockchain/</url>
+      <content type="html"><![CDATA[<p>&#x6211;&#x5728;&#x4E4B;&#x524D;&#x7684;&#x6587;&#x7AE0;<font color="#00ffff"><a href="http://baoduge.com/preliminary_study_on_blockchain_and_smart_contract/" target="_blank" rel="external">&#x300A;&#x533A;&#x5757;&#x94FE;&#x521D;&#x63A2;-&#x7EFC;&#x8FF0;&#x300B;</a></font>&#x4E2D;&#x6709;&#x6709;&#x8FC7;&#x5BF9;&#x533A;&#x5757;&#x94FE;&#x7684;&#x4E00;&#x4E9B;&#x63A2;&#x7A76;&#x3002;</p>
+<h1 id="&#x533A;&#x5757;&#x94FE;&#x6838;&#x5FC3;&#x6280;&#x672F;"><a href="#&#x533A;&#x5757;&#x94FE;&#x6838;&#x5FC3;&#x6280;&#x672F;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;&#x6838;&#x5FC3;&#x6280;&#x672F;"></a>&#x533A;&#x5757;&#x94FE;&#x6838;&#x5FC3;&#x6280;&#x672F;</h1><p>&#x533A;&#x5757;&#x94FE;&#x662F;&#x6307;&#x4E00;&#x79CD;&#x6309;&#x7167;&#x65F6;&#x95F4;&#x987A;&#x5E8F;&#x5C06;&#x6570;&#x636E;&#x533A;&#x5757;&#x4EE5;&#x987A;&#x5E8F;&#x76F8;&#x8FDE;&#x7684;&#x65B9;&#x5F0F;&#x7EC4;&#x5408;&#x6210;&#x7684;&#x4E00;&#x79CD;&#x94FE;&#x5F0F;&#x6570;&#x636E;&#x7ED3;&#x6784;,&#x5E76;&#x4EE5;&#x5BC6;&#x7801;&#x5B66;&#x65B9;&#x5F0F;&#x4FDD;&#x8BC1;&#x4E0D;&#x53EF;&#x7BE1;&#x6539;&#x548C;&#x4E0D;&#x53EF;&#x4F2A;&#x9020;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x8D26;&#x672C;&#x3002;&#x4ECE;&#x672C;&#x8D28;&#x4E0A;&#x6765;&#x8BF4;,&#x533A;&#x5757;&#x94FE;&#x662F;&#x4E00;&#x79CD;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;,&#x53BB;&#x4FE1;&#x4EFB;&#x7684;&#x96C6;&#x4F53;&#x7EF4;&#x62A4;&#x6570;&#x636E;&#x5E93;&#x6280;&#x672F;&#x3002;</p>
+<h2 id="&#x533A;&#x5757;&#x94FE;&#x6570;&#x636E;&#x5E93;"><a href="#&#x533A;&#x5757;&#x94FE;&#x6570;&#x636E;&#x5E93;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;&#x6570;&#x636E;&#x5E93;"></a>&#x533A;&#x5757;&#x94FE;&#x6570;&#x636E;&#x5E93;</h2><ul>
+<li><p>&#x201C;&#x533A;&#x5757;+&#x94FE;&#x201D;&#x7684;&#x7ED3;&#x6784;&#x4E3A;&#x6211;&#x4EEC;&#x63D0;&#x4F9B;&#x4E86;&#x5B8C;&#x6574;&#x7684;&#x5386;&#x53F2;&#x6570;&#x636E;,&#x4F7F;&#x5F97;&#x6570;&#x636E;&#x5E93;&#x5185;&#x7684;&#x6BCF;&#x4E00;&#x7B14;&#x4EA4;&#x6613;&#x90FD;&#x80FD;&#x8FFD;&#x672C;&#x6EAF;&#x6E90;&#x3002;</p>
+</li>
+<li><p>&#x201C;&#x533A;&#x5757;+&#x94FE;+&#x65F6;&#x95F4;&#x6233;&#x201D;&#x8BA9;&#x5B58;&#x5728;&#x6027;&#x8BC1;&#x660E;&#x53D8;&#x5F97;&#x7B80;&#x5355;&#x53EF;&#x9760;&#x3002;</p>
+</li>
+</ul>
+<h2 id="&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;&#x548C;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x534F;&#x8BAE;"><a href="#&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;&#x548C;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x534F;&#x8BAE;" class="headerlink" title="&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;&#x548C;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x534F;&#x8BAE;"></a>&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;&#x548C;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x534F;&#x8BAE;</h2><p>&#x901A;&#x8FC7;&#x8BA9;&#x6BCF;&#x4E00;&#x4E2A;&#x53C2;&#x4E0E;&#x6570;&#x636E;&#x4EA4;&#x6613;&#x7684;&#x8282;&#x70B9;&#x8BB0;&#x5F55;&#x5E76;&#x50A8;&#x5B58;&#x6240;&#x6709;&#x6570;&#x636E;,&#x8FD9;&#x4F7F;&#x5F97;&#x90E8;&#x5206;&#x8282;&#x70B9;&#x7684;&#x635F;&#x574F;,&#x5E76;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x5230;&#x6574;&#x4E2A;&#x6570;&#x636E;&#x5E93;&#x7684;&#x6570;&#x636E;&#x8BB0;&#x5F55;&#x4E0E;&#x66F4;&#x65B0;,&#x5927;&#x5927;&#x63D0;&#x9AD8;&#x4E86;&#x6570;&#x636E;&#x5E93;&#x7684;&#x5B89;&#x5168;&#x6027;&#x3002;&#x53EA;&#x8981;&#x4E0D;&#x662F;&#x6240;&#x6709;&#x8282;&#x70B9;&#x540C;&#x65F6;&#x5D29;&#x6E83;,&#x6570;&#x636E;&#x5E93;&#x5C31;&#x53EF;&#x4EE5;&#x8FD0;&#x8F6C;&#x4E0B;&#x53BB;,&#x56E0;&#x6B64;&#x63D0;&#x9AD8;&#x4E86;&#x7CFB;&#x7EDF;&#x7684;&#x6C38;&#x7EED;&#x6027;&#x548C;&#x53EF;&#x5BB9;&#x9519;&#x6027;&#x3002;</p>
+<h2 id="&#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x7801;&#x5B66;"><a href="#&#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x7801;&#x5B66;" class="headerlink" title="&#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x7801;&#x5B66;"></a>&#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x7801;&#x5B66;</h2><p>&#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x7801;&#x5B66;&#x8BA9;&#x533A;&#x5757;&#x94FE; &#x6280;&#x672F;&#x7684;&#x4FE1;&#x4EFB;&#x673A;&#x5236;&#x5EFA;&#x8BAE;&#x5728;&#x6570;&#x5B66;&#x539F;&#x7406;&#x57FA;&#x7840;&#x4E4B;&#x4E0A;&#x3002;&#x8FD9;&#x4F7F;&#x5F97;&#x4EBA;&#x4EEC;&#x65E0;&#x9700;&#x4E86;&#x89E3;&#x5BF9;&#x65B9;&#x7684;&#x57FA;&#x672C;&#x60C5;&#x51B5;&#x4ECD;&#x7136;&#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x4FE1;&#x4EFB;&#x7684;&#x4EF7;&#x503C;&#x4EA4;&#x6362;,&#x4ECE;&#x800C;&#x63D0;&#x9AD8;&#x4E86;&#x7CFB;&#x7EDF;&#x7684;&#x8FD0;&#x8425;&#x6548;&#x7387;&#x3002;</p>
+<h2 id="&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;&#x811A;&#x672C;"><a href="#&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;&#x811A;&#x672C;" class="headerlink" title="&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;&#x811A;&#x672C;"></a>&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;&#x811A;&#x672C;</h2><p>&#x811A;&#x672C;&#x672C;&#x8D28;&#x662F;&#x4F17;&#x591A;&#x6307;&#x4EE4;&#x7684;&#x5217;&#x8868;&#x3002;&#x5728;&#x533A;&#x5757;&#x94FE;&#x4E2D;,&#x811A;&#x672C;&#x901A;&#x5E38;&#x9700;&#x8981;&#x4EF7;&#x503C;&#x63A5;&#x6536;&#x8005;&#x5177;&#x6709;&#x516C;&#x94A5;&#x548C;&#x7B7E;&#x540D;&#x3002;&#x968F;&#x7740;&#x5177;&#x4F53;&#x60C5;&#x5F62;&#x8981;&#x6C42;,&#x811A;&#x672C;&#x53EF;&#x4EE5;&#x7075;&#x6D3B;&#x53D8;&#x901A;&#x751F;&#x6210;&#x5176;&#x4ED6;&#x8FD0;&#x884C;&#x6761;&#x4EF6;,&#x4F8B;&#x5982;&#x9700;&#x8981;&#x591A;&#x91CD;&#x79C1;&#x94A5;&#x7B49;&#x7B49;&#x3002;&#x8FD9;&#x8BA9;&#x533A;&#x5757;&#x94FE;&#x6280;&#x672F;&#x53EF;&#x4EE5;&#x5904;&#x7406;&#x4E00;&#x4E9B;&#x65E0;&#x6CD5;&#x9884;&#x89C1;&#x7684;&#x4EA4;&#x6613;&#x6A21;&#x5F0F;,&#x4E0D;&#x4F1A;&#x5728;&#x672A;&#x6765;&#x7684;&#x5E94;&#x7528;&#x4E2D;&#x8FC7;&#x65F6;&#x3002;</p>
+<h1 id="&#x533A;&#x5757;&#x94FE;&#x6F5C;&#x5728;&#x5E94;&#x7528;&#x65B9;&#x5411;"><a href="#&#x533A;&#x5757;&#x94FE;&#x6F5C;&#x5728;&#x5E94;&#x7528;&#x65B9;&#x5411;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;&#x6F5C;&#x5728;&#x5E94;&#x7528;&#x65B9;&#x5411;"></a>&#x533A;&#x5757;&#x94FE;&#x6F5C;&#x5728;&#x5E94;&#x7528;&#x65B9;&#x5411;</h1><h2 id="&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;"><a href="#&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;" class="headerlink" title="&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;"></a>&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;</h2><p>&#x53EF;&#x4EE5;&#x8282;&#x7EA6;&#x5927;&#x91CF;&#x7684;&#x4E2D;&#x4ECB;&#x6210;&#x672C;</p>
+<h2 id="&#x4E0D;&#x53EF;&#x7BE1;&#x6539;&#x7684;&#x65F6;&#x95F4;&#x6233;"><a href="#&#x4E0D;&#x53EF;&#x7BE1;&#x6539;&#x7684;&#x65F6;&#x95F4;&#x6233;" class="headerlink" title="&#x4E0D;&#x53EF;&#x7BE1;&#x6539;&#x7684;&#x65F6;&#x95F4;&#x6233;"></a>&#x4E0D;&#x53EF;&#x7BE1;&#x6539;&#x7684;&#x65F6;&#x95F4;&#x6233;</h2><p>&#x53EF;&#x4EE5;&#x89E3;&#x51B3;&#x6570;&#x636E;&#x8FFD;&#x8E2A;&#x4E0E;&#x4FE1;&#x606F;&#x9632;&#x4F2A;&#x95EE;&#x9898; </p>
+<h2 id="&#x5B89;&#x5168;&#x7684;&#x4FE1;&#x4EFB;&#x673A;&#x5236;"><a href="#&#x5B89;&#x5168;&#x7684;&#x4FE1;&#x4EFB;&#x673A;&#x5236;" class="headerlink" title="&#x5B89;&#x5168;&#x7684;&#x4FE1;&#x4EFB;&#x673A;&#x5236;"></a>&#x5B89;&#x5168;&#x7684;&#x4FE1;&#x4EFB;&#x673A;&#x5236;</h2><p>&#x53EF;&#x4EE5;&#x89E3;&#x51B3;&#x73B0;&#x4ECA;&#x7269;&#x8054;&#x7F51;&#x7684;&#x6838;&#x5FC3;&#x7F3A;&#x9677;</p>
+<h2 id="&#x7075;&#x6D3B;&#x7684;&#x53EF;&#x7F16;&#x7A0B;&#x6027;"><a href="#&#x7075;&#x6D3B;&#x7684;&#x53EF;&#x7F16;&#x7A0B;&#x6027;" class="headerlink" title="&#x7075;&#x6D3B;&#x7684;&#x53EF;&#x7F16;&#x7A0B;&#x6027;"></a>&#x7075;&#x6D3B;&#x7684;&#x53EF;&#x7F16;&#x7A0B;&#x6027;</h2><p>&#x53EF;&#x4EE5;&#x6709;&#x6548;&#x5E2E;&#x52A9;&#x89C4;&#x8303;&#x5E02;&#x573A;&#x79E9;&#x5E8F;</p>
+<h1 id="&#x533A;&#x5757;&#x94FE;&#x6F14;&#x5316;&#x9636;&#x6BB5;"><a href="#&#x533A;&#x5757;&#x94FE;&#x6F14;&#x5316;&#x9636;&#x6BB5;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;&#x6F14;&#x5316;&#x9636;&#x6BB5;"></a>&#x533A;&#x5757;&#x94FE;&#x6F14;&#x5316;&#x9636;&#x6BB5;</h1><h2 id="&#x533A;&#x5757;&#x94FE;1-0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x6570;&#x5B57;&#x5316;&#x8D27;&#x5E01;"><a href="#&#x533A;&#x5757;&#x94FE;1-0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x6570;&#x5B57;&#x5316;&#x8D27;&#x5E01;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;1.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x6570;&#x5B57;&#x5316;&#x8D27;&#x5E01;"></a>&#x533A;&#x5757;&#x94FE;1.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x6570;&#x5B57;&#x5316;&#x8D27;&#x5E01;</h2><p>&#x4E3B;&#x8981;&#x901A;&#x8FC7;&#x5206;&#x5E03;&#x5F0F;&#x8D26;&#x672C;&#x7684;&#x52A0;&#x5BC6;&#x6280;&#x672F;,&#x5EFA;&#x7ACB;&#x4E86;&#x6570;&#x5B57;&#x8D27;&#x5E01;&#x7684;&#x53D1;&#x884C;&#x3001;&#x5206;&#x914D;&#x3001;&#x5E01;&#x503C;&#x8C03;&#x8282;&#x7B49;&#x673A;&#x5236;&#x3002;&#x4F17;&#x6240;&#x5468;&#x77E5;&#x7684;&#x6BD4;&#x7279;&#x5E01;,&#x4FBF;&#x53EF;&#x89C6;&#x4E3A;&#x533A;&#x5757;&#x94FE;&#x7684;&#x9996;&#x4E2A;&#x5728;&#x91D1;&#x878D;&#x652F;&#x4ED8;&#x9886;&#x57DF;&#x4E2D;&#x7684;&#x5E94;&#x7528;&#x3002;</p>
+<h2 id="&#x533A;&#x5757;&#x94FE;2-0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;"><a href="#&#x533A;&#x5757;&#x94FE;2-0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;2.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;"></a>&#x533A;&#x5757;&#x94FE;2.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;</h2><p>2015&#x5E74;10&#x6708;,&#x4EE5;&#x592A;&#x574A;&#x7684;&#x521B;&#x59CB;&#x4EBA;Vitalik Buterin&#x53D1;&#x8868;&#x4E86;&#x9898;&#x4E3A;<font color="#00ffff"><a href="https://blog.ethereum.org/2015/04/13/visions-part-1-the-value-of-blockchain-technology/" target="_blank" rel="external">&#x300A;Visions, Part 1: The Value of Blockchain Technology&#x300B;</a></font>&#x4E3B;&#x9898;&#x6F14;&#x8BB2;&#x4E2D;,&#x533A;&#x5757;&#x94FE;&#x88AB;&#x8D4B;&#x4E88;&#x4E86;&#x65B0;&#x7684;&#x542B;&#x4E49;&#x3002;&#x533A;&#x5757;&#x94FE;&#x662F;&#x4EFB;&#x4F55;&#x4EBA;&#x90FD;&#x53EF;&#x4EE5;&#x4E0A;&#x4F20;&#x7A0B;&#x5E8F;&#x5E76;&#x4F7F;&#x7A0B;&#x5E8F;&#x81EA;&#x5DF1;&#x6267;&#x884C;&#x7684;&#x8F7D;&#x4F53;,&#x5E76;&#x4E14;&#x533A;&#x5757;&#x94FE;&#x901A;&#x8FC7;&#x81EA;&#x6211;&#x9650;&#x5236;&#x548C;&#x5B89;&#x5168;&#x52A0;&#x5BC6;,&#x786E;&#x4FDD;&#x4E86;&#x4E0A;&#x4F20;&#x7684;&#x7A0B;&#x5E8F;&#x80FD;&#x591F;&#x53EF;&#x4FE1;&#x5730;&#x81EA;&#x52A8;&#x6267;&#x884C;&#x9884;&#x8BBE;&#x7684;&#x903B;&#x8F91;&#x3002;</p>
+<h2 id="&#x533A;&#x5757;&#x94FE;3-0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x793E;&#x4F1A;&#x6CBB;&#x7406;"><a href="#&#x533A;&#x5757;&#x94FE;3-0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x793E;&#x4F1A;&#x6CBB;&#x7406;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;3.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x793E;&#x4F1A;&#x6CBB;&#x7406;"></a>&#x533A;&#x5757;&#x94FE;3.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x793E;&#x4F1A;&#x6CBB;&#x7406;</h2><p>&#x7531;&#x4E8E;&#x8BE5;&#x6280;&#x672F;&#x5177;&#x6709;&#x8D85;&#x8D8A;&#x8D27;&#x5E01;&#x7684;&#x516C;&#x6B63;&#x7279;&#x6027;,&#x8BE5;&#x6280;&#x672F;&#x53EF;&#x4EE5;&#x88AB;&#x5E7F;&#x6CDB;&#x5E94;&#x7528;&#x5728;&#x53F8;&#x6CD5;&#x4EF2;&#x88C1;,&#x8EAB;&#x4EFD;&#x8BA4;&#x8BC1;&#x7B49;&#x9886;&#x57DF;&#x3002;&#x4ECE;&#x957F;&#x8FDC;&#x6765;&#x770B;,&#x533A;&#x5757;&#x94FE;&#x7684;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x6A21;&#x5F0F;,&#x5C06;&#x901A;&#x8FC7;&#x66F4;&#x597D;&#x7684;&#x534F;&#x4F5C;&#x4E0E;&#x6CBB;&#x7406;,&#x6765;&#x91CD;&#x5851;&#x6574;&#x4E2A;&#x4EBA;&#x7C7B;&#x793E;&#x4F1A;&#x6D3B;&#x52A8;&#x3002;&#x867D;&#x7136;&#x73B0;&#x5982;&#x4ECA;&#x56FD;&#x5185;&#x5916;&#x5BF9;&#x4E8E;&#x533A;&#x5757;&#x94FE;&#x6280;&#x672F;&#x7684;&#x6295;&#x5165;&#x4F7F;&#x7528;&#x90FD;&#x5DF2;&#x7ECF;&#x9010;&#x6E10;&#x5C55;&#x5F00;,&#x4F46;&#x76EE;&#x524D;&#x5C1A;&#x672A;&#x6709;&#x5B8C;&#x5168;&#x843D;&#x5730;&#x7684;&#x5E94;&#x7528;&#x6027;&#x6210;&#x679C;&#x3002;&#x56E0;&#x6B64;,&#x533A;&#x5757;&#x94FE;&#x6280;&#x672F;&#x76EE;&#x524D;&#x4ECD;&#x7136;&#x5904;&#x4E8E;&#x7406;&#x8BBA;&#x9636;&#x6BB5;,&#x4ECA;&#x540E;&#x7684;&#x6280;&#x672F;&#x8F6C;&#x6362;&#x5C1A;&#x9700;&#x4E00;&#x6BB5;&#x5F88;&#x957F;&#x65F6;&#x95F4;&#x7684;&#x5B9E;&#x8DF5;&#x3002;</p>
+]]></content>
+      
+        <categories>
+            
+            <category> notes </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> bloackchain </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[R语言的科学计算]]></title>
+      <url>/R_science_computing/</url>
+      <content type="html"><![CDATA[<h2 id="&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;"><a href="#&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;" class="headerlink" title="&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;"></a>&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;</h2><p><a href="http://blog.csdn.net/skyonefly/article/details/50899661" target="_blank" rel="external">R&#x8BED;&#x8A00;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x6C42;&#x89E3;dfsane,nleqslv</a><br><a href="https://cos.name/cn/topic/11574/" target="_blank" rel="external">&#x8BF7;&#x6559;&#xFF1A;R&#x8BED;&#x8A00;&#x6709;&#x6CA1;&#x6709;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x7684;&#x51FD;&#x6570;&#xFF01;</a><br><a href="http://www.cnblogs.com/dj123jary/p/4142150.html" target="_blank" rel="external">&#x7528;R&#x8BED;&#x8A00;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;</a><br><a href="https://cran.r-project.org/web/packages/nleqslv/nleqslv.pdf" target="_blank" rel="external">Package &#x2018;nleqslv&#x2019;</a><br><a href="https://cran.r-project.org/web/packages/BB/vignettes/BBvignetteJSS.pdf" target="_blank" rel="external">BB: An R Package for Solving a Large System of Nonlinear Equations and for Optimizing a High-Dimensional Nonlinear Objective Function</a></p>
+<p><a href="https://stackoverflow.com/questions/38684295/how-to-solve-a-non-linear-equation-using-nleqslv-package-in-r" target="_blank" rel="external">How to solve a non-linear equation using nleqslv package in R?</a><br><a href="https://stackoverflow.com/questions/22993787/solving-system-of-nonlinear-equations-in-r" target="_blank" rel="external">Solving system of nonlinear equations in R</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> logs </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> r_language </tag>
+            
+            <tag> science_computing </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Self-Study Plan]]></title>
+      <url>/2017_Study_Plan/</url>
+      <content type="html"><![CDATA[<p>I hope that I could accomplish these goals on time. Good luck!</p>
+<h2 id="Machine-Learning"><a href="#Machine-Learning" class="headerlink" title="Machine Learning"></a>Machine Learning</h2><h3 id="Courses"><a href="#Courses" class="headerlink" title="Courses"></a>Courses</h3><h4 id="Main-stream"><a href="#Main-stream" class="headerlink" title="Main stream"></a>Main stream</h4><ol>
+<li><strong>Basical ML</strong>: Stanford CS229 - Machine Learning by <strong>Andrew Ng</strong>: 1h15min/Lec, 20 Lectures, <a href="http://cs229.stanford.edu/" target="_blank" rel="external">Course Page</a>, <a href="https://see.stanford.edu/Course/CS229/47" target="_blank" rel="external">Videos</a></li>
+<li>Stanford CS224D - Deep Learning for Natural Language Processing by <strong>Chris Manning</strong>: 1h15min/Lec, 18 Lectures, <a href="http://web.stanford.edu/class/cs224n/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/watch?v=OQQ-W_63UgQ&amp;list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6" target="_blank" rel="external">Videos</a></li>
+<li>UCambridge - Course on Information Theory, Pattern Recognition, and Neural Networks by <strong>David MacKay</strong>: 1h30min/Lec, 16 Lectures, <a href="http://www.inference.org.uk/itprnn/" target="_blank" rel="external">Course Page</a>, <a href="http://videolectures.net/course_information_theory_pattern_recognition/" target="_blank" rel="external">Videos-1</a>, <a href="https://www.youtube.com/watch?v=BCiZc0n6COY&amp;list=PLruBu5BI5n4aFpG32iMbdWoRVAA-Vcso6" target="_blank" rel="external">Videos-2</a></li>
+<li>Coursera - Neural Networks for Machine Learning by <strong>Hinton</strong>: 16 Lectures, <a href="https://www.coursera.org/learn/neural-networks" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/watch?v=cbeTc-Urqak&amp;list=PLoRl3Ht4JOcdU872GhiYWf6jwrk_SNhz9" target="_blank" rel="external">Videos</a></li>
+<li>Stanford CS231N - Convolutional Neural Networks by <strong>Li Feifei</strong>: 1h15min/Lec, 15 Lectures, <a href="http://cs231n.stanford.edu/" target="_blank" rel="external">Course Page</a>,<a href="https://www.youtube.com/watch?v=yp9rwI_LZX8&amp;list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg" target="_blank" rel="external">Videos</a></li>
+<li>Coursera - Neural Networks and Deep Learning by <strong>Andrew Ng</strong>: 46 parts, <a href="https://www.coursera.org/learn/neural-networks-deep-learning" target="_blank" rel="external">Course Page</a>,<a href="https://www.youtube.com/watch?v=M8-7vWfJ1jQ&amp;list=PLG2vLZDgC_ZtmIBB5ERZE4EmMS__n_9GV" target="_blank" rel="external">Videos</a></li>
+<li>Udacity|Georgia Tech CS7646 - Machine Learning for Trading by <strong>Tucker Balch</strong>: 28 parts, <a href="https://www.udacity.com/Lec/machine-learning-for-trading--ud501" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/watch?v=s5xKxliBMTo&amp;list=PLAwxTw4SYaPnIRwl6rad_mYwEk4Gmj7Mx" target="_blank" rel="external">Videos</a></li>
+</ol>
+<h4 id="Sub-Streams"><a href="#Sub-Streams" class="headerlink" title="Sub Streams"></a>Sub Streams</h4><ol>
+<li>CMU 10-701/15-781 - Machine Learning by <strong>Tom Mitchell</strong>, Spring 2011: 1h15min/Lec, 26 Lectures, <a href="http://www.cs.cmu.edu/~tom/10701_sp11/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/watch?v=m4NlfvrRCdg&amp;list=PLl-BBnDxtUt1hLXmIwu27P22bTi6VwMkN" target="_blank" rel="external">Videos</a></li>
+<li>CMU 10-702/36-702 - Statistical Machine Learning by <strong>Larry Wasserman</strong>, Spring 2016: 1h15min, 24 Lectures, <a href="http://www.stat.cmu.edu/~larry/=sml/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/watch?v=zcMnu-3wkWo&amp;list=PLTB9VQq8WiaCBK2XrtYn5t9uuPdsNm7YE" target="_blank" rel="external">Videos</a></li>
+<li>&#x56FD;&#x7ACB;&#x53F0;&#x6E7E;&#x5927;&#x5B66; - &#x6A5F;&#x5668;&#x5B78;&#x7FD2;&#x57FA;&#x77F3; (Machine Learning Foundations) by <strong>&#x6797;&#x8ED2;&#x7530;</strong>: 65 parts, <a href="https://www.coursera.org/instructor/htlin" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLXVfgk9fNX2I7tB6oIINGBmW50rrmFTqf" target="_blank" rel="external">Videos</a></li>
+<li>&#x56FD;&#x7ACB;&#x53F0;&#x6E7E;&#x5927;&#x5B66; - &#x6A5F;&#x5668;&#x5B78;&#x7FD2;&#x6280;&#x6CD5; (Machine Learning Techniques) by <strong>&#x6797;&#x8ED2;&#x7530;</strong>: 65 parts, <a href="https://www.youtube.com/playlist?list=PLXVfgk9fNX2IQOYPmqjqWsNUFl2kpk1U2" target="_blank" rel="external">Videos</a></li>
+<li>CMU 10-701 - Introduction to Machine Learning by <strong>Alexander J. Smola</strong>, 2015: 31 parts, <a href="http://www.cs.cmu.edu/~epxing/Class/10701/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/watch?v=UtcKm8i5Xro&amp;list=PLZSO_6-bSqHTTV7w9u7grTXBHMH-mw3qn" target="_blank" rel="external">Videos</a></li>
+<li>Harvard CS109 - Data Science: 1h15min/Lec, 20 Lectures, <a href="http://cs109.github.io/2015/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLb4G5axmLqiuneCqlJD2bYFkBwHuOzKus" target="_blank" rel="external">Videos</a></li>
+<li>&#x9F99;&#x661F;&#x8BA1;&#x5212; &#x6E05;&#x534E;&#x5927;&#x5B66;-&#x673A;&#x5668;&#x5B66;&#x4E60; by &#x4F59;&#x51EF; &#x5F20;&#x6F7C;: 50min/Lec, 19 Lectures, <a href="https://www.bilibili.com/video/av9016433/" target="_blank" rel="external">Videos</a></li>
+<li>Willamette University CS449 - Neural Networks: <a href="https://www.willamette.edu/~gorr/classes/cs449/intro.html" target="_blank" rel="external">Course Page</a>, No Videos found</li>
+<li>Coursera: Data Science &#x4E13;&#x9879;&#x8BFE;&#x7A0B;: 10 Programs, <a href="https://www.coursera.org/specializations/jhu-data-science" target="_blank" rel="external">Course Page</a></li>
+</ol>
+<h3 id="Books"><a href="#Books" class="headerlink" title="Books"></a>Books</h3><h4 id="Introduction-to-AI"><a href="#Introduction-to-AI" class="headerlink" title="Introduction to AI"></a>Introduction to AI</h4><ul>
+<li><a href="1.Machine Learning/AI_Russell.pdf">AI by Ruseull</a></li>
+</ul>
+<h4 id="Machine-Learning-1"><a href="#Machine-Learning-1" class="headerlink" title="Machine Learning"></a>Machine Learning</h4><ul>
+<li><strong><a href="1.Machine Learning/PRML_Bishop.pdf">Bishop</a></strong></li>
+<li><a href="https://www.cs.ubc.ca/~murphyk/MLbook/" target="_blank" rel="external">MLAPP</a></li>
+<li><a href="https://github.com/probml/pmtk3" target="_blank" rel="external">MLAPP Code</a></li>
+<li><a href="1.Machine Learning/ML in Py.pdf">ML in Python</a></li>
+<li><a href="https://www.amazon.cn/%E5%9B%BE%E4%B9%A6/dp/B01ARKEV1G" target="_blank" rel="external">&#x897F;&#x74DC;&#x4E66;</a></li>
+<li><a href="http://blog.csdn.net/icefire_tyh/article/details/52064910" target="_blank" rel="external">&#x673A;&#x5668;&#x5B66;&#x4E60;(&#x5468;&#x5FD7;&#x534E;&#x897F;&#x74DC;&#x4E66;) &#x53C2;&#x8003;&#x7B54;&#x6848; &#x603B;&#x76EE;&#x5F55;</a></li>
+<li><a href="https://www.gitbook.com/book/htygithub/machine-learning-python/details" target="_blank" rel="external">&#x6A5F;&#x5668;&#x5B78;&#x7FD2;&#xFF1A;&#x4F7F;&#x7528;Python</a></li>
+</ul>
+<h4 id="Information-Retrieval"><a href="#Information-Retrieval" class="headerlink" title="Information Retrieval"></a>Information Retrieval</h4><ul>
+<li><a href="https://nlp.stanford.edu/IR-book/" target="_blank" rel="external">Introduction to Information Retrieval</a></li>
+</ul>
+<h4 id="Deep-Learning"><a href="#Deep-Learning" class="headerlink" title="Deep Learning:"></a>Deep Learning:</h4><p><a href="http://www.deeplearningbook.org/" target="_blank" rel="external">Deep Learning: An MIT Press book</a></p>
+<h4 id="Recommender-System"><a href="#Recommender-System" class="headerlink" title="Recommender System"></a>Recommender System</h4><ul>
+<li><a href="https://book.douban.com/subject/10769749/" target="_blank" rel="external">&#x63A8;&#x8350;&#x7CFB;&#x7EDF;&#x5B9E;&#x8DF5; by &#x9879;&#x4EAE;</a></li>
+<li><a href="http://www.cs.ubbcluj.ro/~gabis/DocDiplome/SistemeDeRecomandare/Recommender_systems_handbook.pdf" target="_blank" rel="external">Recommendation System Handbook</a></li>
+</ul>
+<h4 id="Natural-Language-Processing"><a href="#Natural-Language-Processing" class="headerlink" title="Natural Language Processing"></a>Natural Language Processing</h4><ul>
+<li><a href="https://book.douban.com/subject/25746399/" target="_blank" rel="external">&#x7EDF;&#x8BA1;&#x81EA;&#x7136;&#x8BED;&#x8A00;&#x5904;&#x7406;&#xFF08;&#x7B2C;2&#x7248;&#xFF09;by &#x5B97;&#x6210;&#x5E86;</a></li>
+</ul>
+<h4 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h4><ul>
+<li><a href="https://book.douban.com/subject/26931905/" target="_blank" rel="external">&#x7EC8;&#x6781;&#x7B97;&#x6CD5;</a></li>
+</ul>
+<h3 id="Projects"><a href="#Projects" class="headerlink" title="Projects"></a>Projects</h3><ul>
+<li><a href="http://machinelearningmastery.com/" target="_blank" rel="external">Tutorials and Projects To Help You&#xFF1A;Learn and Apply Machine Learning &#x2013; Fast!</a></li>
+<li><a href="http://www.thisismetis.com/" target="_blank" rel="external">Thisismetis: DATA SCIENCE TRAINING</a></li>
+<li><a href="https://www.dataquest.io/" target="_blank" rel="external">DATAQUEST:Learn real-world data science skills</a></li>
+<li><a href="https://homes.cs.washington.edu/~tqchen/projects.html" target="_blank" rel="external">Tianqi Chen&#x2019;s Project</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/23561159" target="_blank" rel="external">Python&#x5B66;&#x4E60;&#x8DEF;&#x5F84;&#x53CA;&#x7EC3;&#x624B;&#x9879;&#x76EE;&#x5408;&#x96C6;</a></li>
+</ul>
+<h4 id="Tools-for-Crawler"><a href="#Tools-for-Crawler" class="headerlink" title="Tools for Crawler"></a>Tools for Crawler</h4><ul>
+<li><p>Python Scrapy: <a href="https://scrapy.org" target="_blank" rel="external">&#x4E0B;&#x8F7D;&#x5730;&#x5740;</a>, <a href="http://www.jb51.net/article/48607.htm" target="_blank" rel="external">&#x5B89;&#x88C5;&#x53CA;&#x4F7F;&#x7528;&#x6B65;&#x9AA4;</a>, <a href="http://www.jb51.net/article/57183.htm" target="_blank" rel="external">&#x64CD;&#x7EB5;&#x6307;&#x5357;</a></p>
+</li>
+<li><p>NITK: &#x81EA;&#x7136;&#x8BED;&#x8A00;&#x5904;&#x7406;&#x7684;Python&#x5F00;&#x6E90;&#x5DE5;&#x5177;: <a href="http://www.nltk.org" target="_blank" rel="external">&#x76F8;&#x5173;&#x5DE5;&#x5177;&#x5305;&#x548C;&#x6559;&#x7A0B;&#x53EF;&#x4E0B;&#x8F7D;</a><a href="http://blog.csdn.net/huyoo/article/details/12188573" target="_blank" rel="external">&#x4E2D;&#x6587;&#x4F7F;&#x7528;&#x4ECB;&#x7ECD;</a>, <a href="http://blog.csdn.net/huang2009303513/article/details/14498473" target="_blank" rel="external">&#x6709;&#x52A9;&#x4E8E;&#x4E86;&#x89E3;&#x5404;&#x4E2A;&#x5305;&#x7684;&#x610F;&#x601D;&#x548C;&#x4F5C;&#x7528;&#x7684;&#x94FE;&#x63A5;</a></p>
+</li>
+<li><p><a href="https://github.com/egrcc/zhihu-python - zhihu-python&#x83B7;&#x53D6;&#x77E5;&#x4E4E;&#x4FE1;&#x606F;" target="_blank" rel="external">zhihu-python&#xFF1A;&#x83B7;&#x53D6;&#x77E5;&#x4E4E;&#x4FE1;&#x606F;</a><br>&#x4ECB;&#x7ECD;&#xFF1A;zhihu-python &#x91C7;&#x7528; Python2.7 &#x7F16;&#x5199;&#xFF0C;&#x7528;&#x6765;&#x65B9;&#x4FBF;&#x5730;&#x83B7;&#x53D6;&#x77E5;&#x4E4E;&#x4E0A;&#x5404;&#x79CD;&#x5185;&#x5BB9;&#x7684;&#x4FE1;&#x606F;&#xFF0C;&#x5E76;&#x4E14;&#x53EF;&#x4EE5;&#x65B9;&#x4FBF;&#x5730;&#x5C06;&#x7B54;&#x6848;&#x5907;&#x4EFD;&#x5BFC;&#x51FA;&#x4E3A; txt &#x6216; markdown &#x6587;&#x4EF6;&#x3002;&#x7531;&#x4E8E;&#x77E5;&#x4E4E;&#x5B98;&#x65B9;&#x76EE;&#x524D;&#x6CA1;&#x6709;&#x63D0;&#x4F9B; api&#xFF0C;&#x6240;&#x4EE5;&#x6709;&#x4E86;&#x6B64;&#x9879;&#x76EE;&#x7684;&#x5B58;&#x5728;&#x3002;&#x4F7F;&#x7528; Python3 &#x7684;&#x7C7B;&#x4F3C;&#x9879;&#x76EE;&#x53EF;&#x4EE5;&#x53C2;&#x89C1;&#xFF1A;zhihu-py3 &#x3002;&#x4F7F;&#x7528; PHP &#x7684;&#x7C7B;&#x4F3C;&#x9879;&#x76EE;&#x53EF;&#x4EE5;&#x53C2;&#x89C1;&#xFF1A;zhihu-php &#x3002;&#x4F7F;&#x7528; Go &#x7684;&#x7C7B;&#x4F3C;&#x9879;&#x76EE;&#x53EF;&#x4EE5;&#x53C2;&#x89C1;&#xFF1A;zhihu-go &#x3002;</p>
+</li>
+</ul>
+<h3 id="List-of-list"><a href="#List-of-list" class="headerlink" title="List of list"></a>List of list</h3><ul>
+<li><a href="http://fastml.com/machine-learning-courses-online/" target="_blank" rel="external">FastML: Machine Learning made easy</a></li>
+<li><a href="http://videolectures.net/Top/Computer_Science/Machine_Learning/" target="_blank" rel="external">Machine Learning Category on VideoLectures.Net</a></li>
+<li><a href="http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/" target="_blank" rel="external">A Tour of Machine Learning Algorithms</a></li>
+<li><a href="http://ml.memect.com/article/machine-learning-guide.html" target="_blank" rel="external">&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5165;&#x95E8;&#x8D44;&#x6E90;&#x4E0D;&#x5B8C;&#x5168;&#x6C47;&#x603B;&#xFF08;tang_Kaka_back@&#x65B0;&#x6D6A;&#x5FAE;&#x535A;&#xFF09;</a></li>
+<li><a href="https://github.com/ty4z2008/Qix/blob/master/dl.md#&#x673A;&#x5668;&#x5B66;&#x4E60;machine-learning&#x6DF1;&#x5EA6;&#x5B66;&#x4E60;deep-learning&#x8D44;&#x6599;chapter-1" target="_blank" rel="external">&#x673A;&#x5668;&#x5B66;&#x4E60;(Machine Learning)&amp;&#x6DF1;&#x5EA6;&#x5B66;&#x4E60;(Deep Learning)&#x8D44;&#x6599;(Chapter 1)</a></li>
+<li><a href="https://github.com/ty4z2008/Qix/blob/master/dl2.md" target="_blank" rel="external">&#x673A;&#x5668;&#x5B66;&#x4E60;(Machine Learning)&amp;&#x6DF1;&#x5EA6;&#x5B66;&#x4E60;(Deep Learning)&#x8D44;&#x6599;(Chapter 2)</a></li>
+<li><a href="http://qianjiye.de/2014/11/machine-learning-resources/" target="_blank" rel="external">qianjiye|&#x673A;&#x5668;&#x5B66;&#x4E60;&#x8D44;&#x6E90;</a></li>
+</ul>
+<h3 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h3><ul>
+<li><a href="http://www.open-open.com/lib/view/open1428112201271.html" target="_blank" rel="external">&#x6DF1;&#x5EA6;&#x5F00;&#x6E90;OPEN&#x7ECF;&#x9A8C;&#xFF1A;&#x673A;&#x5668;&#x5B66;&#x4E60;(Machine Learning)&amp;&#x6DF1;&#x5EA6;&#x5B66;&#x4E60;(Deep Learning)&#x8D44;&#x6599;</a></li>
+<li><a href="http://www.cnblogs.com/mldllearningforbai/p/5316728.html" target="_blank" rel="external">[&#x8F6C;]&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5165;&#x95E8;</a></li>
+</ul>
+<h3 id="Blog-Talks-and-so-on"><a href="#Blog-Talks-and-so-on" class="headerlink" title="Blog, Talks and so on"></a>Blog, Talks and so on</h3><h4 id="&#x4E2D;&#x6587;"><a href="#&#x4E2D;&#x6587;" class="headerlink" title="&#x4E2D;&#x6587;"></a>&#x4E2D;&#x6587;</h4><ul>
+<li><a href="http://www.cnblogs.com/mldllearningforbai/p/5351584.html" target="_blank" rel="external">[&#x8F6C;]&#x673A;&#x5668;&#x5B66;&#x4E60;&#x7ECF;&#x5178;&#x4E66;&#x7C4D;</a></li>
+<li><a href="http://www.liaoxuefeng.com/" target="_blank" rel="external">&#x5ED6;&#x96EA;&#x5CF0;&#x7684;&#x5B98;&#x65B9;&#x7F51;&#x7AD9;</a></li>
+<li><a href="http://xccds1977.blogspot.hk/" target="_blank" rel="external">&#x6570;&#x636E;&#x79D1;&#x5B66;&#x4E2D;&#x7684;R&#x548C;Python</a></li>
+<li><a href="http://www.cnblogs.com/siegfang/" target="_blank" rel="external">&#x5B66;&#x98DE; &#x4ECE;&#x5760;&#x843D;&#x5F00;&#x59CB; &#x535A;&#x5BA2;</a></li>
+<li><a href="https://cos.name/" target="_blank" rel="external">&#x7EDF;&#x8BA1;&#x4E4B;&#x90FD;</a></li>
+<li><p><a href="http://homepage.hit.edu.cn/pages/xitongguo" target="_blank" rel="external">&#x54C8;&#x5DE5;&#x5927;&#x7535;&#x5B50;&#x5065;&#x5EB7;&#x7814;&#x7A76;&#x6240;&#xFF1A;&#x90ED;&#x7199;&#x94DC;</a></p>
+</li>
+<li><p><a href="http://rec-sys.net/forum.php" target="_blank" rel="external">&#x63A8;&#x8350;&#x7CFB;&#x7EDF;&#x8BBA;&#x575B;</a></p>
+</li>
+<li><a href="http://sim.whu.edu.cn/sz/jsxq/5/2016-05-09/898.html" target="_blank" rel="external">&#x6B66;&#x6C49;&#x5927;&#x5B66;&#x4FE1;&#x606F;&#x7BA1;&#x7406;&#x5B66;&#x9662;&#xFF1A;&#x66FE;&#x5B50;&#x660E;</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/23036112" target="_blank" rel="external">&#x63A8;&#x8350;&#x7CFB;&#x7EDF;&#x5E38;&#x7528;&#x7684;&#x63A8;&#x8350;&#x7B97;&#x6CD5;</a></li>
+<li><a href="https://www.microsoft.com/en-us/research/group/social-computing-beijing/" target="_blank" rel="external">Microsoft-Social Computing (Asia)</a></li>
+<li><a href="http://nlp.csai.tsinghua.edu.cn/site2/index.php/zh" target="_blank" rel="external">&#x6E05;&#x534E;&#x5927;&#x5B66;&#x81EA;&#x7136;&#x8BED;&#x8A00;&#x5904;&#x7406;&#x4E0E;&#x793E;&#x4F1A;&#x4EBA;&#x6587;&#x8BA1;&#x7B97;&#x5B9E;&#x9A8C;&#x5BA4;</a></li>
+<li><a href="http://idke.ruc.edu.cn/index_cn.htm" target="_blank" rel="external">&#x4E2D;&#x56FD;&#x4EBA;&#x6C11;&#x5927;&#x5B66;&#xFF1A;&#x7F51;&#x7EDC;&#x4E0E;&#x79FB;&#x52A8;&#x6570;&#x636E;&#x7BA1;&#x7406;&#x5B9E;&#x9A8C;&#x5BA4;</a></li>
+<li>&#x793E;&#x4F1A;&#x8BA1;&#x7B97;:<a href="http://www.sohu.com/a/118411822_473283" target="_blank" rel="external">&#x6DF1;&#x5EA6;&#x5B66;&#x4E60;&#x4E0E;&#x793E;&#x4F1A;&#x8BA1;&#x7B97;&#xFF08;PPT)&#xFF0C;&#x6E05;&#x534E;NLP&#x5B9E;&#x9A8C;&#x5BA4;&#x5218;&#x77E5;&#x8FDC;</a></li>
+<li>&#x793E;&#x4F1A;&#x8BA1;&#x7B97;: <a href="http://study.big-data.org.cn/Lec/kanke/143" target="_blank" rel="external">&#x7F51;&#x7EDC;&#x793E;&#x4EA4;&#x5A92;&#x4F53;&#x7684;&#x60C5;&#x611F;&#x8BA4;&#x77E5;&#x4E0E;&#x8BA1;&#x7B97;, &#x6E05;&#x534E;&#x9EC4;&#x6C38;&#x5CF0;</a></li>
+</ul>
+<h4 id="English"><a href="#English" class="headerlink" title="English"></a>English</h4><ul>
+<li><a href="http://dicook.org/index.html" target="_blank" rel="external">Professor Di Cook, Department of Econometrics and Business Statistics, Monash Uni</a></li>
+<li><a href="https://www.r-bloggers.com/" target="_blank" rel="external">R-blogger</a>: R news and tutorials contributed by (580) R bloggers</li>
+<li><a href="https://prdeepakbabu.wordpress.com/" target="_blank" rel="external">wordpress: -Nest generation BI</a></li>
+<li><p><a href="http://public.econ.duke.edu/~ap172/code.html" target="_blank" rel="external">Andrew Patton&#x2019;s MATLAB code page</a>: This page contains some of the MATLAB code I&#x2019;ve written during the course of my research. If you find any mistakes or bugs in the code please let me know.<br>This code is being released under a BSD license, which means that you can do pretty much what ever you want with it, including make money by selling it.</p>
+</li>
+<li><p><a href="http://www.datatau.com/" target="_blank" rel="external">Datatau</a></p>
+</li>
+<li><a href="http://sebastianruder.com/ - open" target="_blank" rel="external">Blog of Sebastian Ruder</a>: I&#x2019;m a PhD student in Natural Language Processing and a research scientist at AYLIEN. I blog about Machine Learning, Deep Learning, NLP, and startups.</li>
+<li><a href="http://videolectures.net/site/search/?q=MLSS" target="_blank" rel="external">Videolecture net&#xFF1A;Machine learning</a></li>
+<li><a href="http://www.dataschool.io/15-hours-of-expert-machine-learning-videos/" target="_blank" rel="external">Dataschool:In-depth introduction to machine learning in 15 hours of expert videos</a></li>
+<li><a href="https://www.coursereport.com/blog/learn-data-science-at-these-13-bootcamps-and-programs" target="_blank" rel="external">CourseReport: Learn Data Science at These 22 Bootcamps</a></li>
+<li>A Machine Learning-Based Trading Strategy Using Sentiment Analysis Data: <a href="https://www.youtube.com/watch?v=kxwHv-12E7A" target="_blank" rel="external">Videos</a></li>
+</ul>
+<h2 id="Statistics-amp-Probability"><a href="#Statistics-amp-Probability" class="headerlink" title="Statistics &amp; Probability"></a>Statistics &amp; Probability</h2><h3 id="Courses-1"><a href="#Courses-1" class="headerlink" title="Courses"></a>Courses</h3><ul>
+<li>MIT 18.650 - Statistics for Applications, Fall 2016: 1h15min/Lec, 21 Lectures, <a href="https://ocw.mit.edu/Lecs/mathematics/18-443-statistics-for-applications-fall-2006/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP60uVBMaoNERc6knT_MgPKS0" target="_blank" rel="external">Video</a></li>
+<li>Stanford Online-StatLearning Statistical Learning: 10 Lectures, <a href="https://lagunita.stanford.edu/Lecs/HumanitiesScience/StatLearning/Winter2014/Lecware/" target="_blank" rel="external">Course Page</a></li>
+</ul>
+<h3 id="Books-1"><a href="#Books-1" class="headerlink" title="Books"></a>Books</h3><ul>
+<li><strong><a href="http://www-bcf.usc.edu/~gareth/ISL/index.html" target="_blank" rel="external">ISLR</a></strong></li>
+<li><strong><a href="1.Machine Learning/ESL.pdf">ESL by Hastie</a></strong></li>
+<li><a href="https://www.amazon.cn/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E6%9D%8E%E8%88%AA/dp/B007TSFMTA" target="_blank" rel="external">&#x7EDF;&#x8BA1;&#x5B66;&#x4E60; by &#x674E;&#x822A;</a></li>
+<li><a href="Stat&amp;Prob/IPSUR.pdf">IPSUR</a></li>
+</ul>
+<h2 id="Mathematics"><a href="#Mathematics" class="headerlink" title="Mathematics"></a>Mathematics</h2><h3 id="Courses-2"><a href="#Courses-2" class="headerlink" title="Courses"></a>Courses</h3><h4 id="Financial-Mathematics"><a href="#Financial-Mathematics" class="headerlink" title="Financial Mathematics"></a>Financial Mathematics</h4><ul>
+<li>Coursera - Financial Engineering and Risk Management: 51 parts, <a href="https://www.coursera.org/learn/financial-engineering-1" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/watch?v=yVCwl4Hc67U&amp;list=PLqTFK2NTi6RUWbo8SVeIa_GzfUqvjqnnp" target="_blank" rel="external">Videos</a></li>
+<li><strong>MIT 18.S096 - Topics in Mathematics with Applications in Finance</strong>: 1h20min/Lec, 26 Lectures, <a href="https://ocw.mit.edu/Lecs/mathematics/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/index.htm" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63ctJIEC1UnZ0btsphnnoHR" target="_blank" rel="external">Videos</a></li>
+</ul>
+<h4 id="Optimization"><a href="#Optimization" class="headerlink" title="Optimization"></a>Optimization</h4><ul>
+<li><strong>Stanford EE364A: Convex Optimization I</strong>: 1h15min/Lec, 19 Lectures, <a href="https://see.stanford.edu/Course/EE364A" target="_blank" rel="external">Course Page</a></li>
+<li>Stanford EE364B: Convex Optimization II: 1h15min/Lec, 18 Lectures, <a href="https://see.stanford.edu/Course/EE364B" target="_blank" rel="external">Course Page</a></li>
+</ul>
+<h4 id="Stochastic-Analysis"><a href="#Stochastic-Analysis" class="headerlink" title="Stochastic Analysis"></a>Stochastic Analysis</h4><ul>
+<li>MIT EECS 6.262 - Discrete Stochastic Processes, Spring 2011: 1h20min/Lec, 25 Lectures, <a href="https://ocw.mit.edu/Lecs/electrical-engineering-and-computer-science/6-262-discrete-stochastic-processes-spring-2011/index.htm" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLEEF5322B331C1B98" target="_blank" rel="external">Videos</a></li>
+</ul>
+<h4 id="Data-structure-and-algorithms"><a href="#Data-structure-and-algorithms" class="headerlink" title="Data structure and algorithms"></a>Data structure and algorithms</h4><ul>
+<li>MIT 6.006 - Introduction to Algorithms, Fall 2011: 50min/Lec, 47 Lectures, <a href="https://ocw.mit.edu/Lecs/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb" target="_blank" rel="external">Videos</a></li>
+</ul>
+<h3 id="Books-2"><a href="#Books-2" class="headerlink" title="Books"></a>Books</h3><h2 id="Information-System"><a href="#Information-System" class="headerlink" title="Information System"></a>Information System</h2><h3 id="Books-3"><a href="#Books-3" class="headerlink" title="Books"></a>Books</h3><ul>
+<li>Decision Support System</li>
+<li>Decision theory</li>
+<li>network optimization</li>
+<li>control theory&#xFF1A; Stichastic Control Theory</li>
+<li>Operation Research</li>
+</ul>
+<h2 id="Finance-amp-Economics"><a href="#Finance-amp-Economics" class="headerlink" title="Finance &amp; Economics"></a>Finance &amp; Economics</h2><ul>
+<li>MIT 15.401 - Finance Theory I by <strong>Andrew Lo</strong>, Fall 2008: 1h10min/Lec, 20 Lectures, <a href="https://ocw.mit.edu/courses/sloan-school-of-management/15-401-finance-theory-i-fall-2008/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/watch?v=HdHlfiOAJyE&amp;list=PLUl4u3cNGP63B2lDhyKOsImI7FjCf6eDW" target="_blank" rel="external">Videos</a></li>
+<li>MIT 15.402 - Finance Theory II by <strong>Dirk Jenter &amp; Katharina Lewellen</strong>, Spring 2003: <a href="https://ocw.mit.edu/courses/sloan-school-of-management/15-402-finance-theory-ii-spring-2003/index.htm" target="_blank" rel="external">Course Page</a></li>
+<li>Economic421 - Econometrics by <strong>Mark Thoma</strong>: 1h20min/Lec, 19 Lectures, <a href="http://economistsview.typepad.com/economics421/winter-2010/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/watch?v=WK03XgoVsPM&amp;list=PLD15D38DC7AA3B737" target="_blank" rel="external">Videos</a></li>
+</ul>
+<h2 id="Github-hexo-markdown&#x7B49;"><a href="#Github-hexo-markdown&#x7B49;" class="headerlink" title="Github/hexo/markdown&#x7B49;"></a>Github/hexo/markdown&#x7B49;</h2><ul>
+<li><del>Github</del></li>
+<li><del>Hexo</del></li>
+<li><del>Markdown</del></li>
+<li><del>LatTex</del></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> notes </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> information_system </tag>
+            
+            <tag> study_plan </tag>
+            
+            <tag> statistics </tag>
+            
+            <tag> mathematics </tag>
+            
+            <tag> github </tag>
+            
+            <tag> materials </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Logs and Questions]]></title>
+      <url>/2017_Logs_Questions/</url>
+      <content type="html"><![CDATA[<h3 id="2017-07-07"><a href="#2017-07-07" class="headerlink" title="2017-07-07"></a>2017-07-07</h3><ol>
+<li>What is <strong>Technology-Organization-Environment (T-O-E)</strong> Framework?</li>
+<li>What is <strong>Diffusion of Innovation (DOI) Theory</strong>?</li>
+<li>What is Feauture selection?</li>
+<li>Review Logistic Regression and OLS Reg</li>
+<li>Robostic Test?</li>
+<li>decision making</li>
+<li><del>virtualenv vs anaconda?</del></li>
+<li>Some useful links:</li>
+</ol>
+<p><a href="http://www.jianshu.com/p/08c657bd34f1" target="_blank" rel="external">Python&#x2014;Virtualenv&#x7B80;&#x660E;&#x6559;&#x7A0B;</a><br><a href="http://pythonguidecn.readthedocs.io/zh/latest/dev/virtualenvs.html" target="_blank" rel="external">Python&#x6307;&#x5357;&#xFF1A;&#x865A;&#x62DF;&#x73AF;&#x5883;</a><br><a href="http://python.jobbole.com/85588/" target="_blank" rel="external">Anacodna&#x4E4B;conda&#x4E0E; virtualenv&#x5BF9;&#x6BD4;&#x4F7F;&#x7528;&#x6559;&#x7A0B;&#xFF0C;&#x521B;&#x5EFA;&#x865A;&#x62DF;&#x73AF;&#x5883;</a></p>
+<h3 id="2017-07-09"><a href="#2017-07-09" class="headerlink" title="2017-07-09"></a>2017-07-09</h3><ol>
+<li><a href="https://www.mathworks.com/MATLABcentral/fileexchange/36512-manipulate--interactive-parametrized-plotting" target="_blank" rel="external">Manipulate: Interactive Parametrized Plotting</a></li>
+<li><a href="http://blog.sina.com.cn/s/blog_63913ba60101329f.html" target="_blank" rel="external">&#x3010;&#x8F6C;&#x3011;MATLAB GUI &#x5165;&#x95E8;&#x6559;&#x7A0B;</a></li>
+<li><a href="http://www.labfans.com/bbs/t17551/" target="_blank" rel="external">[MATLAB GUI] &#x6700;&#x5168;&#x7684;MATLAB Gui &#x6559;&#x7A0B;&#x5408;&#x96C6;</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/20821503" target="_blank" rel="external">MATLAB App Designer&#x6559;&#x7A0B;&#x8FDE;&#x8F7D;1&#xFF1A;&#x5982;&#x4F55;&#x4F7F;&#x7528;App Designer&#x8FDB;&#x884C;&#x7684;&#x7B80;&#x5355;&#x7684;GUI&#x8BBE;&#x8BA1;</a></li>
+</ol>
+<h3 id="2017-07-10"><a href="#2017-07-10" class="headerlink" title="2017-07-10"></a>2017-07-10</h3><ol>
+<li><a href="https://codegolf.stackexchange.com/questions/34887/make-a-circle-illusion-animation?answertab=votes" target="_blank" rel="external">Make a circle illusion animation</a></li>
+<li><a href="https://gxnotes.com/article/16971.html" target="_blank" rel="external">&#x505A;&#x4E00;&#x4E2A;&#x5706;&#x5E7B;&#x5E7B;&#x52A8;&#x753B;</a></li>
+<li><a href="https://www.zhihu.com/question/27834147" target="_blank" rel="external">&#x77E5;&#x4E4E;&#xFF1A;Mathematica &#x5230;&#x5E95;&#x6709;&#x591A;&#x5389;&#x5BB3;&#xFF1F;</a></li>
+</ol>
+<h3 id="2017-07-13"><a href="#2017-07-13" class="headerlink" title="2017-07-13"></a>2017-07-13</h3><ol>
+<li><a href="https://zww.me/archives/25209" target="_blank" rel="external">&#x4EE3;&#x7801;&#x5B9E;&#x73B0;WordPress&#x5F52;&#x6863;&#x9875;&#x9762;&#x6A21;&#x677F;[&#x901F;&#x5EA6;&#x5F88;&#x5FEB;]</a></li>
+<li><a href="https://www.wpdaxue.com/wordpress-archives.html" target="_blank" rel="external">WordPress&#x6DFB;&#x52A0;&#x6587;&#x7AE0;&#x5F52;&#x6863;&#x9875;&#x9762;</a></li>
+</ol>
+<h3 id="2017-07-17"><a href="#2017-07-17" class="headerlink" title="2017-07-17"></a>2017-07-17</h3><ol>
+<li><a href="http://jingyan.baidu.com/article/84b4f565d9becc60f6da3298.html" target="_blank" rel="external">Mac&#x952E;&#x76D8;&#x5982;&#x4F55;&#x5F00;&#x542F;F1 - F12&#x529F;&#x80FD;&#x952E;</a></li>
+<li><a href="http://jingyan.baidu.com/article/08b6a591aac09614a909224f.html" target="_blank" rel="external">Mac&#x5FEB;&#x6377;&#x952E;&#x5927;&#x5168;</a></li>
+<li><a href="https://www.mathworks.com/matlabcentral/answers/273258-does-anyone-know-how-to-run-selection-on-mac" target="_blank" rel="external">Does anyone know how to run selection on mac?</a></li>
+<li><a href="https://guge4.firstguo.com/" target="_blank" rel="external">Google&#x5927;&#x9646;&#x66FF;&#x4EE3;</a></li>
+<li><a href="http://blog.csdn.net/woaixiangrikui/article/details/41808565" target="_blank" rel="external">matlab &#x5B57;&#x7B26;&#x4E32;&#x4E2D;&#x8F93;&#x5165;&#x5355;&#x5F15;&#x53F7;</a></li>
+<li><a href="https://cn.mathworks.com/matlabcentral/newsreader/view_thread/96715" target="_blank" rel="external">how to break a long legend text into two lines</a></li>
+<li><a href="https://www.mathworks.com/matlabcentral/answers/95198-why-do-figures-exported-using-the-saveas-function-and-the-file-save-as-menu-item-have-different-res" target="_blank" rel="external">Why do figures exported using the SAVEAS function and the File-&gt;Save As menu item have different resolutions and file sizes?</a></li>
+</ol>
+<h3 id="2017-07-21"><a href="#2017-07-21" class="headerlink" title="2017-07-21"></a>2017-07-21</h3><ol>
+<li><a href="https://www.snapsurveys.com/blog/qualitative-vs-quantitative-research/" target="_blank" rel="external">Quantitative vs. Qualitative?</a></li>
+<li><strong>What is Decision Suport System?</strong></li>
+</ol>
+<h3 id="2017-07-31"><a href="#2017-07-31" class="headerlink" title="2017-07-31"></a>2017-07-31</h3><ol>
+<li><a href="http://interactivepython.org/courselib/static/pythonds/index.html" target="_blank" rel="external">Problem Solving with Algorithms and Data Structures using Python</a></li>
+<li><a href="https://www.zhihu.com/question/19889750" target="_blank" rel="external">&#x77E5;&#x4E4E;&#xFF1A;&#x6709;&#x54EA;&#x4E9B;&#x7528; Python &#x8BED;&#x8A00;&#x8BB2;&#x7B97;&#x6CD5;&#x548C;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x7684;&#x4E66;&#xFF1F;</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Introduction_to_Algorithms" target="_blank" rel="external">Introduction to Algorithms</a></li>
+<li><a href="http://www.physics.purdue.edu/~hisao/book/" target="_blank" rel="external">Computational Physics, 2nd Edition</a></li>
+<li><a href="http://www-personal.umich.edu/~mejn/computational-physics/" target="_blank" rel="external">Computational Physics with Python</a></li>
+</ol>
+<h3 id="2017-08-01"><a href="#2017-08-01" class="headerlink" title="2017-08-01"></a>2017-08-01</h3><ol>
+<li><a href="https://www.zhihu.com/question/23274106" target="_blank" rel="external">&#x77E5;&#x4E4E;&#xFF1A;&#x300C;&#x52A3;&#x540E;&#x300D;&#x662F;&#x4E2A;&#x4EC0;&#x4E48;&#x6982;&#x5FF5;&#xFF1F;&#x7ECF;&#x5E38;&#x7528;&#x4E8E;&#x4EC0;&#x4E48;&#x573A;&#x666F;&#xFF1F;</a></li>
+<li><a href="http://www.jcdu.cn/baike-%E4%B8%8D%E5%8B%95%E7%94%A2%E6%8A%95%E8%B3%87%E4%BF%A1%E8%A8%97" target="_blank" rel="external">&#x623F;&#x5730;&#x4EA7;&#x6295;&#x8D44;&#x4FE1;&#x6258;</a></li>
+<li><a href="https://www.zhihu.com/question/20464550" target="_blank" rel="external">&#x4FE1;&#x6258;&#x4E0E;&#x57FA;&#x91D1;&#x6709;&#x4F55;&#x533A;&#x522B;&#xFF1F;</a></li>
+</ol>
+<h3 id="2017-09-09"><a href="#2017-09-09" class="headerlink" title="2017-09-09"></a>2017-09-09</h3><ol>
+<li><a href="https://en.wikipedia.org/wiki/Documentary_analysis" target="_blank" rel="external">Document analysis</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Automatic_summarization" target="_blank" rel="external">Automatic summarization</a> </li>
+<li><a href="https://en.wikipedia.org/wiki/Text_simplification" target="_blank" rel="external">Text simplification</a></li>
+<li>Sentiment analysis</li>
+<li>LDA PRSL keyword</li>
+<li>Labeled LDA, Supervised ML</li>
+<li><a href="https://en.wikipedia.org/wiki/Topic_model" target="_blank" rel="external">Topic Model</a></li>
+<li>Topic trend: <a href="https://www.trendsmap.com/" target="_blank" rel="external">Trendsmap: Real-time Twitter Trending Topics</a></li>
+<li><a href="https://textblob.readthedocs.io/en/dev/" target="_blank" rel="external">Python textblob</a></li>
+<li>Domain-centric LDA</li>
+<li>Text mining</li>
+<li>Data streaming techniques?</li>
+<li>User analysis</li>
+</ol>
+<h3 id="2017-09-11"><a href="#2017-09-11" class="headerlink" title="2017-09-11"></a>2017-09-11</h3><h4 id="Latex-template"><a href="#Latex-template" class="headerlink" title="Latex template"></a>Latex template</h4><ol>
+<li><a href="https://www.overleaf.com/latex/templates/presentation-template/ycwnkvzxyzwv#.WbWMp9gRWEd" target="_blank" rel="external">Overleaf</a></li>
+<li><a href="https://www.pctex.com/kb/64.html" target="_blank" rel="external">How can I make a slide with Latex</a></li>
+<li><a href="http://web.mit.edu/rsi/www/pdfs/beamer-tutorial.pdf" target="_blank" rel="external">Fun with Beamer</a></li>
+<li><a href="http://economistry.com/2013/07/first-beamer-presentation-with-latex-and-sublime-text-2/" target="_blank" rel="external">First Beamer Presentation with LaTeX and Sublime Text 2</a></li>
+</ol>
+<h4 id="Note-System"><a href="#Note-System" class="headerlink" title="Note System"></a>Note System</h4><ol>
+<li><a href="http://www.developgoodhabits.com/digitize-study-notes/" target="_blank" rel="external">3 Easy Steps to Digitize Your Study Notes</a></li>
+<li><a href="http://www.makeuseof.com/tag/quick-dirty-guide-perfect-digital-note-taking/" target="_blank" rel="external">SELF IMPROVEMENT:A Quick &amp; Dirty Guide to Perfect Digital Note-Taking</a></li>
+</ol>
+<h4 id="About-Blog"><a href="#About-Blog" class="headerlink" title="About Blog"></a>About Blog</h4><ol>
+<li>Atom vs sublime?</li>
+<li>Jekyll vs Hexo?</li>
+<li><a href="http://www.nextscientist.com/writing-science-blog-saved-phd/" target="_blank" rel="external">How Writing A Science Blog Saved My PhD</a></li>
+<li><a href="https://www.maptive.com/top-9-business-intelligence-blogs-reading-2/" target="_blank" rel="external">The Top 9 Business Intelligence Blogs You Should Be Reading</a></li>
+</ol>
+<h3 id="2017-09-12"><a href="#2017-09-12" class="headerlink" title="2017-09-12"></a>2017-09-12</h3><ol>
+<li><del>Is there any toy models for ML?</del> <a href="https://www.quora.com/What-are-some-really-interesting-machine-learning-projects-for-beginners" target="_blank" rel="external">Quora: What are some really interesting machine learning projects for beginners?</a></li>
+<li><a href="http://feisky.xyz/machine-learning/" target="_blank" rel="external">&#x673A;&#x5668;&#x5B66;&#x4E60;&#x7B14;&#x8BB0;:&#x673A;&#x5668;&#x5B66;&#x4E60;&#x4EE5;&#x53CA;tensorflow&#x7B14;&#x8BB0; by Ni Pengfei</a></li>
+<li>&#x5B66;&#x4E60;Bookdown&#xFF1A;<a href="http://seankross.com/2016/11/17/How-to-Start-a-Bookdown-Book.html" target="_blank" rel="external">How to Start a Bookdown Book</a></li>
+<li>&#x7528;R&#x642D;&#x5EFA;Blogdown:<br><a href="http://dapengde.com/archives/19304" target="_blank" rel="external">&#x7528; R blogdown &#x642D;&#x5EFA;&#x4E2A;&#x4EBA;&#x535A;&#x5BA2;&#x6216;&#x79D1;&#x7814;&#x7F51;&#x7AD9;</a><br><a href="https://yihui.name/cn/2017/06/notebooks/#fn:-1" target="_blank" rel="external">R Markdown Notebook &#x4E0E; Jupyter / IPython Notebook</a><br><a href="http://rmarkdown.rstudio.com/" target="_blank" rel="external">R Markdown</a><br><a href="https://www.r-bloggers.com/blogging-with-rmarkdown-knitr-and-jekyll/" target="_blank" rel="external">Blogging with Rmarkdown, knitr, and Jekyll | R-bloggers</a></li>
+<li>Hexo&#x535A;&#x5BA2;&#x5B9E;&#x73B0;&#x4E2D;&#x82F1;&#x53CC;&#x8BED;&#x8A00;&#xFF1A;<br><a href="http://trigon.me/zh-cn/finish-i18n/" target="_blank" rel="external">&#x7B80;&#x5355;&#x65B9;&#x6CD5;&#x5B9E;&#x73B0;Hexo&#x4E2D;&#x7684;&#x591A;&#x8BED;&#x8A00;</a><br><a href="https://hexo.io/zh-cn/docs/internationalization.html" target="_blank" rel="external">Hexo:&#x56FD;&#x9645;&#x5316;&#xFF08;i18n&#xFF09;</a><br><a href="http://kvh.io/cn/hexo-nginx-multi-lingual.html" target="_blank" rel="external">Hexo &#x4E0E; Nginx &#x5B9E;&#x73B0;&#x6C89;&#x6D78;&#x5F0F;&#x591A;&#x8BED;&#x8A00;&#x535A;&#x5BA2;</a><br><a href="https://chenyxmr.github.io/2016/08/04/hexo-bilingual/" target="_blank" rel="external">hexo&#x5B9E;&#x73B0;&#x4E2D;&#x82F1;&#x53CC;&#x8BED;&#x535A;&#x5BA2;&#x6559;&#x7A0B;</a></li>
+</ol>
+<h3 id="2017-09-15"><a href="#2017-09-15" class="headerlink" title="2017-09-15"></a>2017-09-15</h3><ol>
+<li>Sufficient statistics?</li>
+<li>Count Data?</li>
+</ol>
+<h3 id="2017-09-16"><a href="#2017-09-16" class="headerlink" title="2017-09-16"></a>2017-09-16</h3><ol>
+<li><a href="https://www.npmjs.com/package/hexo-blog-encrypt" target="_blank" rel="external">hexo-blog-encrypt</a></li>
+</ol>
+<h3 id="2017-09-17"><a href="#2017-09-17" class="headerlink" title="2017-09-17"></a>2017-09-17</h3><ol>
+<li><a href="https://www.npmjs.com/package/hexo-article-emoji" target="_blank" rel="external">hexo-article-emoji</a></li>
+</ol>
+]]></content>
+      
+        <categories>
+            
+            <category> logs </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> study </tag>
+            
+            <tag> research </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Lecture notes of CUHK-DSME6622]]></title>
+      <url>/CUHK_DSME6622_Lec2/</url>
+      <content type="html"><![CDATA[<h2 id="Bullet-Points"><a href="#Bullet-Points" class="headerlink" title="Bullet Points"></a>Bullet Points</h2><p><a href="http://dsme6622.mikezhang.com/2017/08/30/4/" target="_blank" rel="external">Advanced MIS Research Seminar</a></p>
+<ol>
+<li>Proposal each course (10 min each); </li>
+<li>There is reading list;</li>
+<li>About Econometric of IS;</li>
+<li>How to design experiments: </li>
+</ol>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Experiment" target="_blank" rel="external">Experiment</a> </li>
+<li><a href="http://www2.warwick.ac.uk/fac/soc/economics/staff/ffwaldinger/teaching/ec9a8/slides/" target="_blank" rel="external">EC 9A3 Advanced Econometric Theory - Lecture Slides</a></li>
+<li><a href="https://stats.stackexchange.com/questions/99140/difference-in-difference-in-differences-estimator" target="_blank" rel="external">CrossValidation:Difference-in-difference-in-differences estimator</a></li>
+</ul>
+<ol>
+<li>COS Analysis? Baseline? </li>
+<li><a href="https://en.wikipedia.org/wiki/Randomization" target="_blank" rel="external">Randomization</a> ~ statistical test</li>
+<li>&#x65AD;&#x70B9;&#x56DE;&#x5F52;&#xFF1F;&#x8BA1;&#x91CF;&#x7ECF;&#x6D4E;&#x5B66;&#xFF1F;</li>
+<li><em>Theoretical Modeling</em> vs behavior vs experiment vs empirical</li>
+<li>How do we identify the way we want to ~ social psychology ~ <strong>mental map</strong></li>
+<li>impact of technology ~ topic is moving on ~ some of the topics are already understood ~ do good literature review</li>
+<li>treatment? ~ control? ~ outcome</li>
+<li><strong>DID</strong> ~ before &amp; after treatment, well controlled</li>
+</ol>
+<h2 id="Presentation"><a href="#Presentation" class="headerlink" title="Presentation"></a>Presentation</h2><h3 id="Firefox-extensions-update-classification-by-Luo-Dan"><a href="#Firefox-extensions-update-classification-by-Luo-Dan" class="headerlink" title="Firefox extensions update classification by Luo Dan"></a>Firefox extensions update classification by Luo Dan</h3><ol>
+<li>Firefox web browser (open suourse platform)~ extentions or add-ons</li>
+<li>Classification : open or close sourse</li>
+<li>Mechanism? ~ size or role of users</li>
+<li>output: influence : positive or negative</li>
+<li>rapid release strategy  vs traditional way</li>
+<li>cross? experimental design</li>
+<li>whether the add-on supplier update their products in response to the rapid release of Firefox platform?</li>
+<li>1 observation: add-on version number?</li>
+</ol>
+<h3 id="Review-online-experiment-by"><a href="#Review-online-experiment-by" class="headerlink" title="Review/online experiment by"></a>Review/online experiment by</h3><ol>
+<li>treatment: hit of newest review / high-quality</li>
+<li>control : no review</li>
+<li>social psychology ~ ab test? ~ <strong>online experiment</strong></li>
+</ol>
+<h3 id="Economic-analysis-of-social-interactions"><a href="#Economic-analysis-of-social-interactions" class="headerlink" title="Economic analysis of social interactions"></a>Economic analysis of social interactions</h3><ol>
+<li>Charles F.Manski, Journal of Economic</li>
+<li>emperical analysis</li>
+<li><strong>mutually exclusive but cllectively exhaustive</strong></li>
+<li>3 effects</li>
+</ol>
+<h3 id="Pay-NOT-to-&#x201C;go-to-the-gym&#x201D;-by-Ivy"><a href="#Pay-NOT-to-&#x201C;go-to-the-gym&#x201D;-by-Ivy" class="headerlink" title="Pay NOT to &#x201C;go to the gym&#x201D; by Ivy"></a>Pay <em>NOT</em> to &#x201C;go to the gym&#x201D; by Ivy</h3><ol>
+<li>consumer behavior -&gt; maximize utility (rational expectation vs <strong>irrational</strong>)</li>
+<li>theoretical prediction &amp; empirical testing &amp; survey</li>
+<li>behaviour IO</li>
+<li>Personal view: </li>
+</ol>
+<ul>
+<li>How to quantify the utility function? </li>
+<li>not like financial product: stock, bond or derivatives, the utility of going to gym should also include non-economic factor (price), such as the potential chance of keeping the right of going to gym </li>
+</ul>
+<h3 id="Observational-Learning-Evidence-from-a-Randomized-Natural-Field-Experiment"><a href="#Observational-Learning-Evidence-from-a-Randomized-Natural-Field-Experiment" class="headerlink" title="Observational Learning: Evidence from a Randomized Natural Field Experiment"></a>Observational Learning: Evidence from a Randomized Natural Field Experiment</h3><ol>
+<li>One restaurant: whether the randomization is not good enough?</li>
+<li>Control group: pre-experiment data, one week</li>
+<li>Raking treatment table vs salience treatment table</li>
+<li>One week data </li>
+<li>DDD</li>
+<li>Coincidence, observational learning (learn the quality, more about yourself), conformity (more from others), compliance, salience</li>
+</ol>
+<h3 id="The-Spread-of-Behavior-in-an-Online-Social-Network-Experiment"><a href="#The-Spread-of-Behavior-in-an-Online-Social-Network-Experiment" class="headerlink" title="The Spread of Behavior in an Online Social Network Experiment *"></a>The Spread of Behavior in an Online Social Network Experiment <em>*</em></h3><ol>
+<li>Small world network model</li>
+<li>Network vs photonic??</li>
+<li>Social reinforcement</li>
+</ol>
+]]></content>
+      
+        <categories>
+            
+            <category> notes </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> information_system </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[MAC上使用SUBLIME TEXT3编写LATEX]]></title>
+      <url>/SublimeText3_LaTex/</url>
+      <content type="html"><![CDATA[<p>&#x51FA;&#x4E8E;&#x5DE5;&#x4F5C;&#x7684;&#x9700;&#x8981;&#xFF0C;&#x6211;&#x4EEC;&#x7ECF;&#x5E38;&#x9700;&#x8981;&#x4F7F;&#x7528;LaTex&#x6765;&#x5199;&#x5B66;&#x672F;&#x8BBA;&#x6587;&#x6216;&#x8005;Slides&#xFF0C;&#x7F51;&#x4E0A;&#x6709;&#x5F88;&#x591A;&#x63A8;&#x8350;&#x7684;LaTex&#x4E13;&#x7528;&#x8F6F;&#x4EF6;&#xFF0C;&#x4F46;&#x662F;&#x5BF9;&#x4E8E;&#x4F7F;&#x7528;MAC+Sublime Text&#x4E60;&#x60EF;&#x4E86;&#x7684;&#x4EBA;&#xFF0C;&#x60F3;&#x5C1D;&#x8BD5;&#x5982;&#x4F55;&#x5728;&#x8FD9;&#x6837;&#x7684;&#x73AF;&#x5883;&#x4E0B;&#x6D41;&#x7545;&#x4F7F;&#x7528;LaTex&#xFF0C;&#x4E0B;&#x9762;&#x5C31;&#x662F;&#x6211;&#x5C1D;&#x8BD5;&#x540E;&#x7684;&#x5C0F;&#x5C0F;&#x5FC3;&#x5F97;&#x3002;</p>
+<h2 id="Preparation"><a href="#Preparation" class="headerlink" title="Preparation"></a>Preparation</h2><ol>
+<li>&#x68C0;&#x67E5;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF1A;OS X EI Capitan Version 10.11.6;</li>
+<li>&#x68C0;&#x67E5;&#x7535;&#x8111;&#x5269;&#x4F59;&#x7A7A;&#x95F4;&#xFF1B;&#xFF08;&#x56E0;&#x4E3A;&#x5982;&#x679C;&#x4F60;&#x8FD8;&#x6CA1;&#x6709;&#x5B89;&#x88C5;MacTex&#x7684;&#x8BDD;&#xFF0C;&#x4F60;&#x9700;&#x8981;&#x81F3;&#x5C11;4G&#x7684;&#x7A7A;&#x95F4;&#xFF09;</li>
+</ol>
+<p>&#x56E0;&#x4E3A;&#x672C;&#x4EBA;&#x7535;&#x8111;&#x4E3A;OS&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF0C;&#x6240;&#x4EE5;&#x9488;&#x5BF9;Windows/Linux&#x7CFB;&#x7EDF;&#xFF0C;&#x672C;&#x6587;&#x5E76;&#x4E0D;&#x662F;&#x5F88;&#x5B9E;&#x7528;&#x3002;</p>
+<h2 id="&#x6B65;&#x9AA4;"><a href="#&#x6B65;&#x9AA4;" class="headerlink" title="&#x6B65;&#x9AA4;"></a>&#x6B65;&#x9AA4;</h2><h3 id="&#x662F;&#x5426;&#x5B89;&#x88C5;&#x4E86;MacTex"><a href="#&#x662F;&#x5426;&#x5B89;&#x88C5;&#x4E86;MacTex" class="headerlink" title="&#x662F;&#x5426;&#x5B89;&#x88C5;&#x4E86;MacTex"></a>&#x662F;&#x5426;&#x5B89;&#x88C5;&#x4E86;<a href="http://www.tug.org/mactex/" target="_blank" rel="external">MacTex</a></h3><ol>
+<li>&#x5982;&#x679C;&#x4F60;&#x5DF2;&#x7ECF;&#x5B89;&#x88C5;&#x4E86;<a href="http://www.tug.org/mactex/" target="_blank" rel="external">MacTex</a>&#xFF0C;&#x8BF7;&#x5230;<code>/usr/local/texlive/</code>&#x6587;&#x4EF6;&#x5939;&#x91CC;&#xFF08;&#x53EF;&#x4EE5;Finder&#x4E2D;&#x6309;<code>Shift+option+G</code>&#x6253;&#x5F00;<em>Go to the Folder</em>,&#x8F93;&#x5165;<code>/usr/local/texlive/</code>&#xFF09;&#x68C0;&#x67E5;MacTex&#x7684;&#x7248;&#x672C;&#x3002;&#x6211;&#x7684;MacTex&#x7248;&#x672C;&#x662F;<em>MacText2017</em>&#x3002;</li>
+<li>&#x5982;&#x679C;&#x4F60;&#x60F3;&#x66F4;&#x65B0;MacTex&#x7684;&#x7248;&#x672C;&#xFF0C;&#x5EFA;&#x8BAE;&#x4F60;&#x6309;&#x7167;<a href="http://www.tug.org/mactex/uninstalling.html" target="_blank" rel="external">&#x6B64;&#x8BF4;&#x660E;</a>&#x5378;&#x8F7D;&#x65E7;&#x7248;&#x672C;&#x7684;MacTex&#xFF0C;&#x7136;&#x540E;&#x6309;&#x7167;&#x4E0B;&#x9762;&#x7684;&#x6B65;&#x9AA4;&#x6309;&#x7167;&#x65B0;&#x7248;&#x672C;&#x7684;MacTex&#x3002;</li>
+<li>&#x5982;&#x679C;&#x4F60;&#x6CA1;&#x6709;&#x5B89;&#x88C5;MacTex&#xFF0C;&#x53EF;&#x4EE5;&#x53BB;<a href="http://www.tug.org/mactex/" target="_blank" rel="external">MaxTex&#x5B98;&#x7F51;</a>&#x6309;&#x7167;<a href="http://www.tug.org/mactex/mactex-download.html" target="_blank" rel="external">&#x5B98;&#x65B9;&#x8BF4;&#x660E;</a>&#x8FDB;&#x884C;&#x5B89;&#x88C5;&#x3002;</li>
+</ol>
+<h3 id="&#x662F;&#x5426;&#x5B89;&#x88C5;&#x4E86;Sublime-Text-3"><a href="#&#x662F;&#x5426;&#x5B89;&#x88C5;&#x4E86;Sublime-Text-3" class="headerlink" title="&#x662F;&#x5426;&#x5B89;&#x88C5;&#x4E86;Sublime Text 3"></a>&#x662F;&#x5426;&#x5B89;&#x88C5;&#x4E86;<a href="https://www.sublimetext.com/3" target="_blank" rel="external">Sublime Text 3</a></h3><ol>
+<li>&#x5982;&#x679C;&#x4F60;&#x5DF2;&#x7ECF;&#x5B89;&#x88C5;&#x4E86;Sublime Text 3&#xFF08;&#x4EE5;&#x4E0B;&#x7B80;&#x79F0;ST3&#xFF09;&#xFF0C;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x8DF3;&#x81F3;&#x4E0B;&#x4E00;&#x6B65;&#x3002;</li>
+<li>&#x5982;&#x679C;&#x4F60;&#x6CA1;&#x6709;&#x5B89;&#x88C5;ST3&#xFF0C;&#x8BF7;&#x81F3;<a href="https://www.sublimetext.com/3" target="_blank" rel="external">ST3&#x5B98;&#x7F51;</a>&#x6309;&#x7167;&#x5B98;&#x65B9;&#x8BF4;&#x660E;&#x8FDB;&#x884C;&#x5B89;&#x88C5;&#x3002;</li>
+<li>&#x672C;&#x6587;&#x9488;&#x5BF9;<a href="https://www.sublimetext.com/2" target="_blank" rel="external">Sublime Text 2</a>&#x53EF;&#x80FD;&#x5E76;&#x4E0D;&#x975E;&#x5E38;&#x5B9E;&#x7528;&#x3002;</li>
+</ol>
+<h3 id="&#x662F;&#x5426;&#x5B89;&#x88C5;&#x4E86;Skim"><a href="#&#x662F;&#x5426;&#x5B89;&#x88C5;&#x4E86;Skim" class="headerlink" title="&#x662F;&#x5426;&#x5B89;&#x88C5;&#x4E86;Skim"></a>&#x662F;&#x5426;&#x5B89;&#x88C5;&#x4E86;<a href="http://skim-app.sourceforge.net/" target="_blank" rel="external">Skim</a></h3><ol>
+<li>&#x68C0;&#x67E5;&#x662F;&#x5426;&#x5DF2;&#x7ECF;&#x5B89;&#x88C5;&#x8F6F;&#x4EF6;<a href="http://skim-app.sourceforge.net/" target="_blank" rel="external">Skim</a>&#x3002;&#x4F60;&#x53EF;&#x4EE5;&#x5230;<a href="https://sourceforge.net/projects/skim-app/files/Skim/Skim-1.4.29/Skim-1.4.29.dmg/download" target="_blank" rel="external">Skim&#x5B98;&#x7F51;</a>&#x4E0B;&#x8F7D;&#x5B89;&#x88C5;&#x3002;</li>
+<li>&#x5B89;&#x88C5;&#x5B8C;&#x6210;&#x540E;&#xFF1A;</li>
+</ol>
+<ul>
+<li>&#x6253;&#x5F00;Skim</li>
+<li>&#x9009;&#x62E9;<code>Skim-&gt;Preference-&gt;Sync</code></li>
+<li>&#x5728;<code>PDF-Tex Sync support-&gt;Preset</code>&#x4E2D;&#x9009;&#x62E9;<code>Sublime Text</code></li>
+</ul>
+<h3 id="ST3&#x4E2D;&#x662F;&#x5426;&#x5B89;&#x88C5;&#x4E86;Package-Control"><a href="#ST3&#x4E2D;&#x662F;&#x5426;&#x5B89;&#x88C5;&#x4E86;Package-Control" class="headerlink" title="ST3&#x4E2D;&#x662F;&#x5426;&#x5B89;&#x88C5;&#x4E86;Package Control"></a>ST3&#x4E2D;&#x662F;&#x5426;&#x5B89;&#x88C5;&#x4E86;<a href="https://packagecontrol.io/" target="_blank" rel="external">Package Control</a></h3><ol>
+<li><p>&#x68C0;&#x67E5;Sublime Text 3&#x4E2D;&#x662F;&#x5426;&#x5DF2;&#x7ECF;&#x5B89;&#x88C5;&#x4E86;<em>Package Control</em>: &#x5FEB;&#x6377;&#x952E;<code>Shift+Command+P</code>&#xFF0C;&#x770B;&#x770B;&#x662F;&#x5426;&#x4F1A;&#x8DF3;&#x51FA;&#x9762;&#x677F;&#xFF1B;</p>
+</li>
+<li><p>&#x5982;&#x679C;&#x4F60;&#x6CA1;&#x6709;&#x5B89;&#x88C5;&#xFF0C;&#x53EF;&#x4EE5;&#x6309;&#x7167;<a href="https://packagecontrol.io/installation" target="_blank" rel="external">&#x5B98;&#x7F51;&#x8BF4;&#x660E;</a>&#x8FDB;&#x884C;&#x5B89;&#x88C5;&#x3002;</p>
+</li>
+</ol>
+<h3 id="&#x5B89;&#x88C5;ST3-Package-LatexTools"><a href="#&#x5B89;&#x88C5;ST3-Package-LatexTools" class="headerlink" title="&#x5B89;&#x88C5;ST3 Package: LatexTools"></a>&#x5B89;&#x88C5;<a href="https://github.com/SublimeText/LaTeXTools" target="_blank" rel="external">ST3 Package: LatexTools</a></h3><ol>
+<li>&#x5FEB;&#x6377;&#x952E;<code>Shift+Command+P</code>&#x6253;&#x5F00;Packge Control&#x9762;&#x677F;&#xFF1B;</li>
+<li>&#x8F93;&#x5165;<em>pi</em>,&#x9009;&#x62E9;&#x201C;Package Control:Install Package&#x201D;&#xFF1B;</li>
+<li>&#x8F93;&#x5165;&#x201C;LatexTools&#x201D;&#xFF0C;&#x9009;&#x62E9;&#xFF0C;&#x5B89;&#x88C5;</li>
+<li><code>Control+~</code>&#x6253;&#x5F00;<em>Console</em>&#x68C0;&#x67E5;Package&#x7684;&#x5B89;&#x88C5;&#x60C5;&#x51B5;&#x3002;&#x5982;&#x679C;&#x6700;&#x540E;&#x8DF3;&#x51FA;<code>Package Control Messages</code>&#xFF0C;Console&#x4E2D;&#x663E;&#x793A;<code>reloading settings Packages/User/Preferences.sublime-settings</code>&#x8BED;&#x53E5;&#xFF0C;&#x5219;&#x8868;&#x793A;LatexTools&#x5B89;&#x88C5;&#x6210;&#x529F;&#x3002;</li>
+</ol>
+<h3 id="&#x652F;&#x6301;&#x4E2D;&#x6587;"><a href="#&#x652F;&#x6301;&#x4E2D;&#x6587;" class="headerlink" title="&#x652F;&#x6301;&#x4E2D;&#x6587;"></a>&#x652F;&#x6301;&#x4E2D;&#x6587;</h3><p>&#x6253;&#x5F00;Terminal&#xFF0C;&#x8F93;&#x5165;</p>
+<pre><code>&#x279C;  ~ sudo tlmgr update --self
+&#x279C;  ~ sudo tlmgr install latexmk
+</code></pre><p><a href="https://www.tug.org/texlive/tlmgr.html" target="_blank" rel="external">tlmgr</a>&#x662F;TeX Live&#x7684;package manager&#xFF0C;<a href="http://mg.readthedocs.io/latexmk.html" target="_blank" rel="external">Latexmk</a>&#x662F;LaTeX&#x81EA;&#x52A8;&#x7F16;&#x8BD1;&#x5DE5;&#x5177;&#x3002;</p>
+<p>&#x5982;&#x679C;&#x4F60;&#x4E4B;&#x524D;&#x5E76;&#x6CA1;&#x6709;&#x4FEE;&#x6539;&#x8FC7;User Setting&#x7684;&#x8BDD;&#xFF0C;&#x5728;ST3&#x7684;<code>Sublime Text-&gt;Preference-&gt;Package Settings-&gt;LatexTools-&gt;Settings-User</code>&#x4E2D;&#xFF0C;&#x627E;&#x5230;<code>builder_settings</code>&#x4EE3;&#x7801;&#x5757;&#x5982;&#x4E0B;&#xFF08;<code>Ctrl+F</code>&#x6253;&#x5F00;&#x67E5;&#x627E;&#xFF0C;&#x8F93;&#x5165;&#x201C;builder_settings&#x201D;&#xFF09;&#xFF1A;</p>
+<pre><code>&quot;builder_settings&quot; : {
+        // General settings:
+        // See README or third-party documentation
+        // (built-ins): true shows the log of each command in the output panel
+        &quot;display_log&quot; : false,
+        // Platform-specific settings:
+        &quot;osx&quot; : {
+            // See README or third-party documentation
+        },
+        &quot;windows&quot; : {
+            // See README or third-party documentation
+        },
+        &quot;linux&quot; : {
+            // See README or third-party documentation
+        }
+    },
+</code></pre><p>&#x5728;</p>
+<pre><code>// General settings:
+// See README or third-party documentation
+</code></pre><p>&#x540E;&#x52A0;&#x5165;</p>
+<pre><code>&quot;program&quot; : &quot;xelatex&quot;,
+&quot;command&quot; : [&quot;latexmk&quot;, &quot;-cd&quot;, &quot;-e&quot;, &quot;$pdflatex = &apos;xelatex -interaction=nonstopmode -synctex=1 %S %O&apos;&quot;, &quot;-f&quot;, &quot;-pdf&quot;],
+</code></pre><p>&#x5F53;&#x7136;&#xFF0C;&#x4F60;&#x4E5F;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5728;&#x6BCF;&#x6B21;&#x7684;<code>.tex</code>&#x6587;&#x4EF6;&#x9996;&#x5217;&#x52A0;&#x5165;&#x8BED;&#x53E5;</p>
+<pre><code>%!TEX program = xelatex
+</code></pre><p>&#x8FDB;&#x884C;&#x89E3;&#x51B3;&#x3002;</p>
+<p><a href="https://www.zhihu.com/question/23658979" target="_blank" rel="external">&#x6709;&#x6CA1;&#x6709;&#x7B80;&#x5355;&#x7684; LaTeX &#x4E2D;&#x6587;&#x652F;&#x6301;&#x65B9;&#x6848;&#xFF1F;</a></p>
+<p><a href="http://www.readern.com/sublime-text-latex-chinese-under-mac.html" target="_blank" rel="external">&#x90E8;&#x7F72;MAC&#x4E0A;&#x7684;Sublime Text+LaTex&#x4E2D;&#x6587;&#x73AF;&#x5883;&#x2014;&#x2014;201706&#x66F4;&#x65B0;</a></p>
+<h3 id="&#x6D4B;&#x8BD5;"><a href="#&#x6D4B;&#x8BD5;" class="headerlink" title="&#x6D4B;&#x8BD5;"></a>&#x6D4B;&#x8BD5;</h3><p>&#x7C98;&#x8D34;&#x590D;&#x5236;&#x4EE5;&#x4E0B;&#x5185;&#x5BB9;&#xFF0C;&#x4FDD;&#x5B58;&#x4E3A;<code>.tex</code>&#x683C;&#x5F0F;&#x6587;&#x4EF6;&#xFF1A;</p>
+<pre><code>\documentclass{article}
+\usepackage{fontspec, xunicode, xltxtra}
+\setmainfont{Hiragino Sans GB}
+\title{Title}
+\author{}
+\begin{document}
+\maketitle{}
+\section{Introduction}
+This is where you will write your content. &#x5728;&#x8FD9;&#x91CC;&#x5199;&#x4E0A;&#x5185;&#x5BB9;&#x3002;
+\end{document}
+</code></pre><p>&#x5FEB;&#x6377;&#x952E;<code>Command+B</code>&#xFF0C;&#x8FDB;&#x884C;&#x7F16;&#x8BD1;&#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x95EE;&#x9898;&#xFF0C;Skim&#x4F1A;&#x81EA;&#x52A8;&#x8DF3;&#x51FA;&#x9884;&#x89C8;&#x7A97;&#x53E3;&#x3002;</p>
+<h3 id="PDF&#x9875;&#x9762;&#x8FDB;&#x884C;&#x4FEE;&#x6539;"><a href="#PDF&#x9875;&#x9762;&#x8FDB;&#x884C;&#x4FEE;&#x6539;" class="headerlink" title="PDF&#x9875;&#x9762;&#x8FDB;&#x884C;&#x4FEE;&#x6539;"></a>PDF&#x9875;&#x9762;&#x8FDB;&#x884C;&#x4FEE;&#x6539;</h3><ol>
+<li>&#x5728; Skim &#x7A97;&#x53E3;&#x4E2D;&#xFF0C;&#x6309;&#x4E0B;<code>Cammand+Shift</code>;</li>
+<li>&#x5728;&#x9700;&#x8981;&#x7684;&#x4F4D;&#x7F6E;&#x6309;&#x4E0B;&#x89E6;&#x6478;&#x677F;&#xFF0C;&#x5373;&#x53EF;&#x8DF3;&#x8F6C;&#x56DE;ST3&#x5230;&#x5BF9;&#x5E94;&#x7684;&#x4EE3;&#x7801;&#x4F4D;&#x7F6E;</li>
+</ol>
+<h3 id="&#x5B89;&#x88C5;&#x4E2D;&#x9047;&#x5230;&#x7684;&#x95EE;&#x9898;"><a href="#&#x5B89;&#x88C5;&#x4E2D;&#x9047;&#x5230;&#x7684;&#x95EE;&#x9898;" class="headerlink" title="&#x5B89;&#x88C5;&#x4E2D;&#x9047;&#x5230;&#x7684;&#x95EE;&#x9898;"></a>&#x5B89;&#x88C5;&#x4E2D;&#x9047;&#x5230;&#x7684;&#x95EE;&#x9898;</h3><h4 id="Problem-1"><a href="#Problem-1" class="headerlink" title="Problem 1"></a>Problem 1</h4><blockquote>
+<p>Package Control: The dependency &#x2018;python-jinja2&#x2019; is not currently installed; installing&#x2026;</p>
+<p>Error loading scope:source.tsx: Unable to find syntax file for scope source.tsx in Packages/MarkdownEditing/Markdown.tmLanguage</p>
+</blockquote>
+<p>&#x68C0;&#x67E5;&#x4E00;&#x4E0B;&#x81EA;&#x5DF1;python&#x7684;&#x7248;&#x672C;&#xFF1A;</p>
+<pre><code>&#x279C;  ~ python --V
+Python 2.7.10
+</code></pre><p>&#x68C0;&#x67E5;&#x4E00;&#x4E0B;&#x81EA;&#x5DF1;&#x5B89;&#x88C5;&#x7684;Python Package:</p>
+<pre><code>&#x279C;  ~ pip freeze
+altgraph==0.10.2
+bdist-mpkg==0.5.0
+bonjour-py==0.3
+cvxopt==1.1.8
+Jinja2==2.9.6
+macholib==1.5.1
+MarkupSafe==1.0
+matplotlib==1.3.1
+modulegraph==0.10.4
+numpy==1.8.0rc1
+pandas==0.18.1
+py2app==0.7.3
+pyobjc-core==2.5.1
+pyobjc-framework-Accounts==2.5.1
+pyobjc-framework-AddressBook==2.5.1
+pyobjc-framework-AppleScriptKit==2.5.1
+pyobjc-framework-AppleScriptObjC==2.5.1
+pyobjc-framework-Automator==2.5.1
+pyobjc-framework-CFNetwork==2.5.1
+pyobjc-framework-Cocoa==2.5.1
+pyobjc-framework-Collaboration==2.5.1
+pyobjc-framework-CoreData==2.5.1
+pyobjc-framework-CoreLocation==2.5.1
+pyobjc-framework-CoreText==2.5.1
+pyobjc-framework-DictionaryServices==2.5.1
+pyobjc-framework-EventKit==2.5.1
+pyobjc-framework-ExceptionHandling==2.5.1
+pyobjc-framework-FSEvents==2.5.1
+pyobjc-framework-InputMethodKit==2.5.1
+pyobjc-framework-InstallerPlugins==2.5.1
+pyobjc-framework-InstantMessage==2.5.1
+pyobjc-framework-LatentSemanticMapping==2.5.1
+pyobjc-framework-LaunchServices==2.5.1
+pyobjc-framework-Message==2.5.1
+pyobjc-framework-OpenDirectory==2.5.1
+pyobjc-framework-PreferencePanes==2.5.1
+pyobjc-framework-PubSub==2.5.1
+pyobjc-framework-QTKit==2.5.1
+pyobjc-framework-Quartz==2.5.1
+pyobjc-framework-ScreenSaver==2.5.1
+pyobjc-framework-ScriptingBridge==2.5.1
+pyobjc-framework-SearchKit==2.5.1
+pyobjc-framework-ServiceManagement==2.5.1
+pyobjc-framework-Social==2.5.1
+pyobjc-framework-SyncServices==2.5.1
+pyobjc-framework-SystemConfiguration==2.5.1
+pyobjc-framework-WebKit==2.5.1
+pyOpenSSL==0.13.1
+pyparsing==2.0.1
+python-dateutil==1.5
+pytz==2013.7
+requests==2.9.1
+scikit-learn==0.17.1
+scipy==0.13.0b1
+six==1.4.1
+sklearn==0.0
+vboxapi==1.0
+virtualenv==15.0.1
+xattr==0.6.4
+zope.interface==4.1.1
+You are using pip version 8.1.2, however version 9.0.1 is available.
+You should consider upgrading via the &apos;pip install --upgrade pip&apos; command.
+</code></pre><p>&#x53D1;&#x73B0;&#x6211;&#x6CA1;&#x6709;jinjia2,&#x5B89;&#x88C5;<a href="http://docs.jinkan.org/docs/jinja2/intro.html#id3" target="_blank" rel="external">Jinja2 2.7 documentation</a>&#x5B89;&#x88C5;&#xFF1A;</p>
+<pre><code>&#x279C;  ~ sudo easy_install Jinja2
+Password:
+</code></pre><h4 id="Problem-2"><a href="#Problem-2" class="headerlink" title="Problem 2"></a>Problem 2</h4><p>&#x5728;&#x6D4B;&#x8BD5;&#x73AF;&#x8282;&#xFF0C;ST3 Console&#x4E00;&#x76F4;&#x4F1A;&#x663E;&#x793A;&#xFF1A;</p>
+<pre><code>  File &quot;/Users/huwei/Desktop/test.tex&quot;, line 1
+%!TEX program = xelatex
+^
+SyntaxError: invalid syntax
+</code></pre><p>&#x6216;&#x8005;</p>
+<pre><code>\documentclass{article}
+                       ^
+SyntaxError: unexpected character after line continuation character
+</code></pre><p>&#x5728;&#x7F51;&#x4E0A;&#x67E5;&#x4E86;&#x5F88;&#x4E45;&#x4E5F;&#x6CA1;&#x6709;&#x548C;&#x6211;&#x7C7B;&#x4F3C;&#x7684;&#x95EE;&#x9898;&#xFF0C;&#x6700;&#x540E;&#x7EC8;&#x4E8E;&#x5728;<a href="https://forum.sublimetext.com/t/weird-compile-error-with-latex-tools-plugin/4346" target="_blank" rel="external">Weird compile error with Latex Tools plugin</a>&#x627E;&#x5230;&#x4E86;&#x7B54;&#x6848;&#x3002;</p>
+<p>&#x539F;&#x6765;&#x56E0;&#x4E3A;&#x6211;&#x4E4B;&#x524D;&#x4E00;&#x76F4;&#x4F7F;&#x7528;ST3&#x7F16;&#x5199;Python&#xFF0C;<code>Tools-&gt;Build System</code>&#x5DF2;&#x7ECF;&#x88AB;&#x6211;&#x8BBE;&#x7F6E;&#x6210;&#x4E86;<code>Python</code>&#xFF0C;&#x6211;&#x4EEC;&#x5E94;&#x8BE5;&#x5C06;&#x5176;&#x8BBE;&#x7F6E;&#x6210;<code>Automatic</code>&#x624D;&#x884C;&#x3002;</p>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ol>
+<li><a href="http://www.jiantsou.com/using-latex-on-mac-a-simple-guide/" target="_blank" rel="external">&#x5728;Mac&#x4E0A;&#x4F7F;&#x7528;LaTeX&#xFF0C;&#x4E00;&#x4EFD;&#x7B80;&#x5355;&#x7684;&#x6307;&#x5BFC;</a></li>
+<li><a href="http://johnchancfz.github.io/blog/2014/08/10/Using-LaTeX-with-Sublime-and-Skim-for-Mac.html" target="_blank" rel="external">&#x5728;Mac&#x4E0A;&#x901A;&#x8FC7;Sublime&#x3001;Skim&#x7F16;&#x8F91;LaTeX</a></li>
+<li><a href="http://tonghuashuo.github.io/blog/latex-with-sublime-text.html" target="_blank" rel="external">&#x4F7F;&#x7528;Sublime Text&#x7F16;&#x5199;LaTeX</a></li>
+<li><a href="https://github.com/SublimeText/LaTeXTools/blob/master/README.markdown" target="_blank" rel="external">LateXTools: A LaTeX Plugin for Sublime Text 2 and 3</a></li>
+</ol>
+]]></content>
+      
+        <categories>
+            
+            <category> notes </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> tutorial </tag>
+            
+            <tag> latex </tag>
+            
+            <tag> sublime_text3 </tag>
+            
+            <tag> skim </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[我在Github上搭建Hexo博客]]></title>
+      <url>/Hexo/</url>
+      <content type="html"><![CDATA[<p>&#x56E0;&#x4E3A;&#x9759;&#x6001;&#x7F51;&#x9875;&#x7684;&#x7B80;&#x6D01;&#x548C;&#x8FC5;&#x901F;&#xFF0C;&#x5728;&#x5DF2;&#x7ECF;&#x642D;&#x4E86;&#x4E2A;WordPress&#x7F51;&#x9875;&#x7684;&#x60C5;&#x5F62;&#x4E0B;&#xFF0C;&#x6211;&#x8FD8;&#x662F;&#x5FCD;&#x4E0D;&#x4F4F;&#x624B;&#x75D2;&#xFF0C;&#x6700;&#x8FD1;&#x53C8;&#x5C1D;&#x8BD5;&#x642D;&#x4E86;&#x4E00;&#x4E2A;Hexo&#x7684;&#x7F51;&#x9875;&#x3002;&#x672C;&#x7F51;&#x7AD9;&#x5C31;&#x662F;&#x6700;&#x540E;&#x7684;&#x6210;&#x679C;</p>
+<h2 id="MAC&#x4E0A;&#x642D;&#x5EFA;Hexo-Blog"><a href="#MAC&#x4E0A;&#x642D;&#x5EFA;Hexo-Blog" class="headerlink" title="MAC&#x4E0A;&#x642D;&#x5EFA;Hexo Blog"></a>MAC&#x4E0A;&#x642D;&#x5EFA;Hexo Blog</h2><p><a href="http://www.jianshu.com/p/fd878edb95e7" target="_blank" rel="external">MAC &#x4E0A; github + hexo &#x642D;&#x5EFA;&#x535A;&#x5BA2;&#x6559;&#x7A0B;</a><br><a href="https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">&#x624B;&#x628A;&#x624B;&#x6559;&#x4F60;&#x4F7F;&#x7528;Hexo + Github Pages&#x642D;&#x5EFA;&#x4E2A;&#x4EBA;&#x72EC;&#x7ACB;&#x535A;&#x5BA2;</a><br><a href="https://xuanwo.org/2015/03/26/hexo-intor/" target="_blank" rel="external">&#x53F2;&#x4E0A;&#x6700;&#x8BE6;&#x7EC6;&#x7684;Hexo&#x535A;&#x5BA2;&#x642D;&#x5EFA;&#x56FE;&#x6587;&#x6559;&#x7A0B;</a></p>
+<p><a href="http://jeasonstudio.github.io/2016/05/26/Mac%E4%B8%8A%E6%90%AD%E5%BB%BA%E5%9F%BA%E4%BA%8EGitHub-Page%E7%9A%84Hexo%E5%8D%9A%E5%AE%A2/" target="_blank" rel="external">Mac&#x4E0A;&#x642D;&#x5EFA;&#x57FA;&#x4E8E;GitHub Page&#x7684;Hexo&#x535A;&#x5BA2;</a>&#x662F;&#x4E00;&#x7BC7;&#x5F88;&#x8D5E;&#x7684;&#x6587;&#x7AE0;&#xFF0C;&#x4F46;&#x662F;&#x503C;&#x5F97;&#x6CE8;&#x610F;&#x7684;&#x662F;&#x201D;&#x6CE8;&#x610F;&#x5751;&#x4E09;&#x201D;&#x4E2D;&#x7684;&#x4EE3;&#x7801;&#x5E94;&#x8BE5;&#x5982;&#x4E0B;</p>
+<pre><code>$ npm install hexo-deploper-git --save
+</code></pre><h2 id="GitHub-Pages&#x7ED1;&#x5B9A;&#x4E8C;&#x7EA7;&#x57DF;&#x540D;"><a href="#GitHub-Pages&#x7ED1;&#x5B9A;&#x4E8C;&#x7EA7;&#x57DF;&#x540D;" class="headerlink" title="GitHub Pages&#x7ED1;&#x5B9A;&#x4E8C;&#x7EA7;&#x57DF;&#x540D;"></a>GitHub Pages&#x7ED1;&#x5B9A;&#x4E8C;&#x7EA7;&#x57DF;&#x540D;</h2><p>&#x56E0;&#x4E3A;&#x6211;&#x5DF2;&#x7ECF;&#x5728;GoDaddy&#x8D2D;&#x4E70;&#x4E86;&#x57DF;&#x540D;&#xFF0C;&#x6240;&#x4EE5;&#x6211;&#x60F3;&#x628A;Github+Hexo&#x7684;&#x7F51;&#x7AD9;&#x7ED1;&#x5B9A;&#x5230;baoduge.com&#x7684;&#x4E8C;&#x7EA7;&#x57DF;&#x540D;&#x5546;&#xFF0C;&#x5C31;&#x53EB;&#x5B83;blog.baoduge.com&#x597D;&#x4E86;&#x3002;</p>
+<p><a href="https://segmentfault.com/a/1190000005775893" target="_blank" rel="external">Sementfault:GitHub Pages &#x7ED1;&#x5B9A;&#x4E8C;&#x7EA7;&#x57DF;&#x540D;</a><br><a href="http://quantumman.me/blog/setting-up-a-domain-with-gitHub-pages.html" target="_blank" rel="external">GitHub Pages &#x7ED1;&#x5B9A;&#x6765;&#x81EA;&#x963F;&#x91CC;&#x4E91;&#x7684;&#x57DF;&#x540D;</a><br><a href="https://www.zhihu.com/question/31377141" target="_blank" rel="external">&#x77E5;&#x4E4E;&#xFF1A;github&#x600E;&#x4E48;&#x7ED1;&#x5B9A;&#x81EA;&#x5DF1;&#x7684;&#x57DF;&#x540D;&#xFF1F;</a></p>
+<p><a href="https://sg.godaddy.com/zh/help/ip-4080" target="_blank" rel="external">godaddy:&#x6DFB;&#x52A0;&#x6307;&#x5411;&#x4E00;&#x4E2A; IP &#x5730;&#x5740;&#x7684;&#x5B50;&#x57DF;&#x540D;</a></p>
+<h2 id="Github&#x6559;&#x7A0B;"><a href="#Github&#x6559;&#x7A0B;" class="headerlink" title="Github&#x6559;&#x7A0B;"></a>Github&#x6559;&#x7A0B;</h2><p>&#x8981;&#x4F7F;&#x7528;Github&#x642D;&#x5EFA;&#x7F51;&#x7AD9;&#xFF0C;&#x90A3;&#x4E48;Github&#x4E5F;&#x53EF;&#x662F;&#x5F00;&#x59CB;&#x52A0;&#x6280;&#x80FD;&#x70B9;&#x4E86;&#x3002;</p>
+<p><a href="http://wiki.jikexueyuan.com/project/github-basics/github-for-mac.html" target="_blank" rel="external">GitHub for Mac</a><br><a href="http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners" target="_blank" rel="external">An Intro to Git and GitHub for Beginners (Tutorial)</a><br><a href="http://www.jianshu.com/p/d15aff38cd33" target="_blank" rel="external">mac&#x4E0A;GitHub Desktop&#x5BA2;&#x6237;&#x7AEF;&#x7684;&#x4F7F;&#x7528;</a></p>
+<h2 id="Hexo-Markdown&#x5199;&#x4F5C;"><a href="#Hexo-Markdown&#x5199;&#x4F5C;" class="headerlink" title="Hexo+Markdown&#x5199;&#x4F5C;"></a>Hexo+Markdown&#x5199;&#x4F5C;</h2><p>Hexo&#x5438;&#x5F15;&#x6211;&#x7684;&#x4E00;&#x4E2A;&#x5730;&#x65B9;&#x5C31;&#x662F;&#x5B83;&#x652F;&#x6301;Markdown&#x3002;&#x800C;&#x540E;&#x8005;&#x662F;&#x6211;&#x6700;&#x8FD1;&#x4E00;&#x76F4;&#x5728;&#x7528;&#x7684;&#x8BED;&#x8A00;&#x3002;</p>
+<p><a href="https://wizardforcel.gitbooks.io/markdown-simple-world/hexo-tutor-3.html" target="_blank" rel="external">Hexo &#x5165;&#x95E8;&#x6307;&#x5357;&#xFF08;&#x4E09;&#xFF09; - &#x6587;&#x7AE0; &amp; &#x8349;&#x7A3F;</a></p>
+<p><code>.md</code>&#x6587;&#x4EF6;&#x5199;&#x5B8C;&#x540E;&#xFF0C;&#x653E;&#x5230;<code>sourse/_posts/</code>&#x6587;&#x4EF6;&#x5939;&#x91CC;&#xFF0C;&#x7136;&#x540E;terminal&#x91CC;<code>cd</code>&#x5230;&#x6839;&#x76EE;&#x5F55;&#xFF0C;&#x4F7F;&#x7528;&#x5982;&#x4E0B;&#x547D;&#x4EE4;&#x53D1;&#x5E03;&#x5373;&#x53EF;</p>
+<pre><code>$ hexo generate
+$ hexo deploy
+</code></pre><p>&#x6216;&#x8005;</p>
+<pre><code>$ hexo g
+$ hexo d
+</code></pre><p>&#x5341;&#x5206;&#x65B9;&#x4FBF;&#xFF0C;so easy&#xFF01;</p>
+<h2 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h2><p>&#x5F53;&#x7136;&#x5728;&#x7F51;&#x7AD9;&#x642D;&#x5EFA;&#x7684;&#x8FC7;&#x7A0B;&#x4E2D;&#xFF0C;&#x8FD8;&#x662F;&#x4F1A;&#x9047;&#x5230;&#x65B9;&#x65B9;&#x9762;&#x9762;&#x7684;&#x95EE;&#x9898;&#x3002;&#x6211;&#x60F3;&#x4E0B;&#x9762;&#x7684;&#x8D44;&#x6599;&#x53EF;&#x80FD;&#x4F1A;&#x5E2E;&#x5230;&#x5927;&#x5BB6;&#x3002;</p>
+<p><a href="https://themebetter.com/wordpress-menu-blank.html" target="_blank" rel="external">WordPress&#x83DC;&#x5355;&#x548C;&#x81EA;&#x5B9A;&#x4E49;&#x94FE;&#x63A5;&#x5F00;&#x542F;&#x5728;&#x65B0;&#x7A97;&#x53E3;&#x6253;&#x5F00;</a><br><a href="https://zhiho.github.io/2015/09/29/hexo-next/" target="_blank" rel="external">Hexo&#x642D;&#x5EFA;GitHub&#x535A;&#x5BA2;&#xFF08;&#x4E09;&#xFF09;- NexT&#x4E3B;&#x9898;&#x914D;&#x7F6E;&#x4F7F;&#x7528;</a><br><a href="http://www.jianshu.com/p/c4f65ebe23ad" target="_blank" rel="external">&#x4E3A;Hexo&#x535A;&#x5BA2;&#x52A0;&#x5165;Disqus&#x8BC4;&#x8BBA;</a><br><a href="http://www.cylong.com/blog/2017/03/26/hexo-next-disqus/" target="_blank" rel="external">Hexo &#x96C6;&#x6210; Disqus &#x8BC4;&#x8BBA;</a><br><a href="http://hongyitong.github.io/2016/10/24/%E5%A6%82%E4%BD%95%E5%9C%A8Hexo%E4%B8%AD%E4%BD%BF%E7%94%A8MathJax/" target="_blank" rel="external">&#x5982;&#x4F55;&#x5728;Hexo&#x4E2D;&#x4F7F;&#x7528;MathJax</a><br><a href="http://www.jianshu.com/p/702a7aec4d00" target="_blank" rel="external">Hexo&#x642D;&#x5EFA;&#x535A;&#x5BA2;&#x7CFB;&#x5217;&#xFF1A;&#xFF08;&#x4E94;&#xFF09;Hexo&#x6DFB;&#x52A0;&#x4E0D;&#x849C;&#x5B50;&#x548C;LeanCloud&#x7EDF;&#x8BA1;&#x65E0;&#x6807;&#x9898;&#x6587;&#x7AE0;</a><br><a href="http://2wildkids.com/2016/10/06/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86Hexo%E5%92%8CMathJax%E7%9A%84%E5%85%BC%E5%AE%B9%E9%97%AE%E9%A2%98/" target="_blank" rel="external">&#x5982;&#x4F55;&#x5904;&#x7406;Hexo&#x548C;MathJax&#x7684;&#x517C;&#x5BB9;&#x95EE;&#x9898;</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> notes </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> github </tag>
+            
+            <tag> hexo </tag>
+            
+            <tag> tutorial </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Undergraduate Notes 1]]></title>
+      <url>/UG_Notes1/</url>
+      <content type="html"><![CDATA[<h2 id="Poisson-bracket"><a href="#Poisson-bracket" class="headerlink" title="Poisson bracket"></a><a href="https://en.wikipedia.org/wiki/Poisson_bracket" target="_blank" rel="external">Poisson bracket</a></h2><script type="math/tex; mode=display">\\{ f ,g \\} =\sum_{i=1}^{N}(\frac{\partial f}{\partial q_i} \frac{\partial g}{\partial p_i} -\frac{\partial f}{\partial p_i} \frac{\partial g}{\partial q_i} )</script><h2 id="Primality-test"><a href="#Primality-test" class="headerlink" title="Primality test"></a>Primality test</h2><h3 id="Compositeness-test"><a href="#Compositeness-test" class="headerlink" title="Compositeness test"></a><a href="https://en.wikipedia.org/wiki/Fermat_primality_test" target="_blank" rel="external">Compositeness test</a></h3><ol>
+<li>test if n is divisible by 2 or 3;</li>
+<li>check through all the numbers from $6k\pm1 \leq \sqrt{n}$</li>
+</ol>
+<h3 id="Primorial-&#x7D20;&#x4E58;-longleftrightarrow-prime"><a href="#Primorial-&#x7D20;&#x4E58;-longleftrightarrow-prime" class="headerlink" title="Primorial (&#x7D20;&#x4E58;) $\longleftrightarrow$ prime"></a><a href="https://en.wikipedia.org/wiki/Primorial" target="_blank" rel="external">Primorial</a> (&#x7D20;&#x4E58;) $\longleftrightarrow$ prime</h3><ul>
+<li>Just like factorial (&#x9636;&#x4E58;) $\longleftrightarrow$ factor</li>
+<li>$nth$ prime number $P_n$ : </li>
+</ul>
+<script type="math/tex; mode=display">P_n \\# = \prod_{k=1}^{n} p_k</script><p>in which $p_k$ is the kth prime number. (e.g., $ P_5 \# = 2 \times 3 \times 5 \times 7 \times 11 = 2310 $)</p>
+<ul>
+<li>$P_0 \# = 1 \Rightarrow P_n \# = e^{(1+o(1))n \log n}$, in which $o(\cdot)$ is the little -o notation</li>
+</ul>
+<h2 id="Big-o-notaion"><a href="#Big-o-notaion" class="headerlink" title="Big-o notaion"></a><a href="https://en.wikipedia.org/wiki/Big_O_notation" target="_blank" rel="external">Big-o notaion</a></h2><ul>
+<li>eg: $f(x)=6 x^4 - 2 x^3 + 5$, $f(x) = O(x^4)$</li>
+<li>Simplification rules:</li>
+</ul>
+<ol>
+<li>If f(x) is a <em>sum</em> of several terms, the one with the largest growth rate is kept, and all others omitted</li>
+<li>If f(x) is a <em>product</em> of several factors, any constants terms in the product that do not depend on x are omitted.</li>
+</ol>
+<h2 id="&#x5173;&#x4E8E;&#x5728;Markdown&#x4E2D;&#x8F93;&#x5165;&#x6570;&#x5B66;&#x516C;&#x5F0F;"><a href="#&#x5173;&#x4E8E;&#x5728;Markdown&#x4E2D;&#x8F93;&#x5165;&#x6570;&#x5B66;&#x516C;&#x5F0F;" class="headerlink" title="&#x5173;&#x4E8E;&#x5728;Markdown&#x4E2D;&#x8F93;&#x5165;&#x6570;&#x5B66;&#x516C;&#x5F0F;"></a>&#x5173;&#x4E8E;&#x5728;Markdown&#x4E2D;&#x8F93;&#x5165;&#x6570;&#x5B66;&#x516C;&#x5F0F;</h2><p><a href="http://blog.csdn.net/xiahouzuoxin/article/details/26478179" target="_blank" rel="external">Markdown&#x4E2D;&#x63D2;&#x5165;&#x6570;&#x5B66;&#x516C;&#x5F0F;&#x7684;&#x65B9;&#x6CD5;</a><br><a href="http://blog.kamidox.com/write-math-formula-with-mathjax.html" target="_blank" rel="external">&#x4F7F;&#x7528; Markdown + MathJax &#x5728;&#x535A;&#x5BA2;&#x91CC;&#x63D2;&#x5165;&#x6570;&#x5B66;&#x516C;&#x5F0F;</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> notes </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> mathematics </tag>
+            
+            <tag> physics </tag>
+            
+        </tags>
+        
+    </entry>
+    
+  
+  
+    
+    <entry>
+      <title><![CDATA[About Me]]></title>
+      <url>/about/index.html</url>
+      <content type="html"><![CDATA[<p>Hello, I am a PhD. student in Information System Department at City University of Hong Kong (2017-2021). </p>
+<p>If you would like to know more about me, you can click <a href="http://baoduge.com/about_baoduge/" target="_blank" rel="external">BAODUGE-About</a>.</p>
+<p>What&#x2019;s more, welcome to my blog, the NERVERLAND, which is supported by GitHub and Hexo. </p>
+<blockquote>
+<p>Neverland is a fictional location featured in the works of J. M. Barrie and those based on them. It is an imaginary faraway place, where Peter Pan, Tinker Bell, the Lost Boys and other mythical creatures and beings live. &#x2014;Wikipedia</p>
+</blockquote>
+<p><a href="https://en.wikipedia.org/wiki/Neverland" target="_blank" rel="external">NEVERLAND</a> is a place of fantacy and I hope to build a blog full of bold innovation and wonderful ideas. If you have any creative thoughs on no matter science&amp;technology or phylosophy of life, feel free to contact with me via email <a href="mailto:huweihugh@gmail.com">huweihugh@gmail.com</a>. (You can find my email on the sidebar of this page.)</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[All Categories]]></title>
+      <url>/categories/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[All Tags]]></title>
+      <url>/tags/index.html</url>
+      <content type="html"></content>
+    </entry>
+    
+  
 </search>
