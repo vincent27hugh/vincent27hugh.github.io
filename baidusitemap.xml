@@ -4,6 +4,36 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
+    <lastmod>2017-10-13T08:59:45.000Z</lastmod>
+    <data>
+        <display>
+        <title>Self-Study Plan</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>information_system</tag>
+         
+        <tag>study_plan</tag>
+         
+        <tag>statistics</tag>
+         
+        <tag>mathematics</tag>
+         
+        <tag>github</tag>
+         
+        <tag>materials</tag>
+         
+         
+           
+             
+              <breadCrumb title="notes" url="http://blog.baoduge.com/categories/notes/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/virtualenv_tensorflow/</loc>
     <lastmod>2017-10-13T08:42:53.000Z</lastmod>
     <data>
@@ -24,36 +54,6 @@
         <tag>tensorflow</tag>
          
         <tag>tflearn</tag>
-         
-         
-           
-             
-              <breadCrumb title="notes" url="http://blog.baoduge.com/categories/notes/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-10-13T08:42:50.000Z</lastmod>
-    <data>
-        <display>
-        <title>Self-Study Plan</title>
-        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
-        
-        <tag>information_system</tag>
-         
-        <tag>github</tag>
-         
-        <tag>study_plan</tag>
-         
-        <tag>statistics</tag>
-         
-        <tag>mathematics</tag>
-         
-        <tag>materials</tag>
          
          
            
@@ -258,9 +258,9 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>hexo</tag>
-         
         <tag>github</tag>
+         
+        <tag>hexo</tag>
          
         <tag>tutorial</tag>
          
