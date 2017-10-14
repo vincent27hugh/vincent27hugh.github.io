@@ -4,29 +4,21 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-10-13T08:59:45.000Z</lastmod>
+    <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
+    <lastmod>2017-10-14T14:14:13.000Z</lastmod>
     <data>
         <display>
-        <title>Self-Study Plan</title>
+        <title>Logs and Questions</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
+        <tag>study</tag>
          
-        <tag>study_plan</tag>
-         
-        <tag>statistics</tag>
-         
-        <tag>mathematics</tag>
-         
-        <tag>github</tag>
-         
-        <tag>materials</tag>
+        <tag>research</tag>
          
          
            
              
-              <breadCrumb title="notes" url="http://blog.baoduge.com/categories/notes/"/>
+              <breadCrumb title="logs" url="http://blog.baoduge.com/categories/logs/"/>
           
         </display>
     </data>
@@ -35,7 +27,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/virtualenv_tensorflow/</loc>
-    <lastmod>2017-10-13T08:42:53.000Z</lastmod>
+    <lastmod>2017-10-14T03:28:01.000Z</lastmod>
     <data>
         <display>
         <title>virtualenv+tensorflow初体验</title>
@@ -54,6 +46,36 @@
         <tag>tensorflow</tag>
          
         <tag>tflearn</tag>
+         
+         
+           
+             
+              <breadCrumb title="notes" url="http://blog.baoduge.com/categories/notes/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
+    <lastmod>2017-10-13T08:59:45.000Z</lastmod>
+    <data>
+        <display>
+        <title>Self-Study Plan</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>information_system</tag>
+         
+        <tag>study_plan</tag>
+         
+        <tag>statistics</tag>
+         
+        <tag>mathematics</tag>
+         
+        <tag>github</tag>
+         
+        <tag>materials</tag>
          
          
            
@@ -135,28 +157,6 @@
     </url>
 
     
-    
-  <url>
-    <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
-    <lastmod>2017-09-17T04:09:34.000Z</lastmod>
-    <data>
-        <display>
-        <title>Logs and Questions</title>
-        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
-        
-        <tag>study</tag>
-         
-        <tag>research</tag>
-         
-         
-           
-             
-              <breadCrumb title="logs" url="http://blog.baoduge.com/categories/logs/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
     
     
