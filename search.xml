@@ -574,30 +574,6 @@ Ref 2\cite{kom2016stochastic}
     </entry>
     
     <entry>
-      <title><![CDATA[R语言的科学计算]]></title>
-      <url>/R_science_computing/</url>
-      <content type="html"><![CDATA[<h2 id="&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;"><a href="#&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;" class="headerlink" title="&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;"></a>&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;</h2><p><a href="http://blog.csdn.net/skyonefly/article/details/50899661" target="_blank" rel="external">R&#x8BED;&#x8A00;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x6C42;&#x89E3;dfsane,nleqslv</a><br><a href="https://cos.name/cn/topic/11574/" target="_blank" rel="external">&#x8BF7;&#x6559;&#xFF1A;R&#x8BED;&#x8A00;&#x6709;&#x6CA1;&#x6709;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x7684;&#x51FD;&#x6570;&#xFF01;</a><br><a href="http://www.cnblogs.com/dj123jary/p/4142150.html" target="_blank" rel="external">&#x7528;R&#x8BED;&#x8A00;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;</a><br><a href="https://cran.r-project.org/web/packages/nleqslv/nleqslv.pdf" target="_blank" rel="external">Package &#x2018;nleqslv&#x2019;</a><br><a href="https://cran.r-project.org/web/packages/BB/vignettes/BBvignetteJSS.pdf" target="_blank" rel="external">BB: An R Package for Solving a Large System of Nonlinear Equations and for Optimizing a High-Dimensional Nonlinear Objective Function</a></p>
-<p><a href="https://stackoverflow.com/questions/38684295/how-to-solve-a-non-linear-equation-using-nleqslv-package-in-r" target="_blank" rel="external">How to solve a non-linear equation using nleqslv package in R?</a><br><a href="https://stackoverflow.com/questions/22993787/solving-system-of-nonlinear-equations-in-r" target="_blank" rel="external">Solving system of nonlinear equations in R</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> logs </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> r_language </tag>
-            
-            <tag> science_computing </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Self-Study Plan]]></title>
       <url>/2017_Study_Plan/</url>
       <content type="html"><![CDATA[<p>I hope that I could accomplish these goals on time. Good luck!</p>
@@ -725,7 +701,7 @@ Ref 2\cite{kom2016stochastic}
 <li>MIT 18.409 - Algorithmic Aspects of Machine Learning Spring 2015 MIT: For Graduate, <a href="http://people.csail.mit.edu/moitra/409.html" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/watch?v=nsHbkVMaUGk&amp;list=PLB3sDpSRdrOvI1hYXNsa6Lety7K8FhPpx" target="_blank" rel="external">Videos</a></li>
 </ul>
 <h2 id="Statistics-amp-Probability"><a href="#Statistics-amp-Probability" class="headerlink" title="Statistics &amp; Probability"></a>Statistics &amp; Probability</h2><h3 id="Courses-2"><a href="#Courses-2" class="headerlink" title="Courses"></a>Courses</h3><ul>
-<li>MIT 18.650 - Statistics for Applications, Fall 2016: 1h15min/Lec, 21 Lectures, <a href="https://ocw.mit.edu/courses/mathematics/18-443-statistics-for-applications-fall-2006/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP60uVBMaoNERc6knT_MgPKS0" target="_blank" rel="external">Video</a></li>
+<li>MIT 18.650 - Statistics for Applications, Fall 2016: 1h15min/Lec, 21 Lectures, <a href="https://ocw.mit.edu/courses/mathematics/18-650-statistics-for-applications-fall-2016/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP60uVBMaoNERc6knT_MgPKS0" target="_blank" rel="external">Video</a></li>
 <li>Stanford Online-StatLearning Statistical Learning: 10 Lectures, <a href="https://lagunita.stanford.edu/Lecs/HumanitiesScience/StatLearning/Winter2014/Lecware/" target="_blank" rel="external">Course Page</a></li>
 </ul>
 <h3 id="Books-1"><a href="#Books-1" class="headerlink" title="Books"></a>Books</h3><ul>
@@ -778,15 +754,15 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
-            <tag> github </tag>
-            
             <tag> information_system </tag>
-            
-            <tag> mathematics </tag>
             
             <tag> study_plan </tag>
             
             <tag> statistics </tag>
+            
+            <tag> mathematics </tag>
+            
+            <tag> github </tag>
             
             <tag> materials </tag>
             
@@ -934,6 +910,30 @@ Ref 2\cite{kom2016stochastic}
             <tag> study </tag>
             
             <tag> research </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[R语言的科学计算]]></title>
+      <url>/R_science_computing/</url>
+      <content type="html"><![CDATA[<h2 id="&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;"><a href="#&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;" class="headerlink" title="&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;"></a>&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;</h2><p><a href="http://blog.csdn.net/skyonefly/article/details/50899661" target="_blank" rel="external">R&#x8BED;&#x8A00;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x6C42;&#x89E3;dfsane,nleqslv</a><br><a href="https://cos.name/cn/topic/11574/" target="_blank" rel="external">&#x8BF7;&#x6559;&#xFF1A;R&#x8BED;&#x8A00;&#x6709;&#x6CA1;&#x6709;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x7684;&#x51FD;&#x6570;&#xFF01;</a><br><a href="http://www.cnblogs.com/dj123jary/p/4142150.html" target="_blank" rel="external">&#x7528;R&#x8BED;&#x8A00;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;</a><br><a href="https://cran.r-project.org/web/packages/nleqslv/nleqslv.pdf" target="_blank" rel="external">Package &#x2018;nleqslv&#x2019;</a><br><a href="https://cran.r-project.org/web/packages/BB/vignettes/BBvignetteJSS.pdf" target="_blank" rel="external">BB: An R Package for Solving a Large System of Nonlinear Equations and for Optimizing a High-Dimensional Nonlinear Objective Function</a></p>
+<p><a href="https://stackoverflow.com/questions/38684295/how-to-solve-a-non-linear-equation-using-nleqslv-package-in-r" target="_blank" rel="external">How to solve a non-linear equation using nleqslv package in R?</a><br><a href="https://stackoverflow.com/questions/22993787/solving-system-of-nonlinear-equations-in-r" target="_blank" rel="external">Solving system of nonlinear equations in R</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> logs </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> r_language </tag>
+            
+            <tag> science_computing </tag>
             
         </tags>
         
@@ -1262,9 +1262,9 @@ SyntaxError: unexpected character after line continuation character
         
         <tags>
             
-            <tag> physics </tag>
-            
             <tag> mathematics </tag>
+            
+            <tag> physics </tag>
             
         </tags>
         
@@ -1304,9 +1304,9 @@ $ hexo d
         
         <tags>
             
-            <tag> hexo </tag>
-            
             <tag> github </tag>
+            
+            <tag> hexo </tag>
             
             <tag> tutorial </tag>
             
@@ -1316,6 +1316,12 @@ $ hexo d
     
   
   
+    
+    <entry>
+      <title><![CDATA[All Categories]]></title>
+      <url>/categories/index.html</url>
+      <content type="html"></content>
+    </entry>
     
     <entry>
       <title><![CDATA[About Me]]></title>
@@ -1328,12 +1334,6 @@ $ hexo d
 </blockquote>
 <p><a href="https://en.wikipedia.org/wiki/Neverland" target="_blank" rel="external">NEVERLAND</a> is a place of fantacy and I hope to build a blog full of bold innovation and wonderful ideas. If you have any creative thoughs on no matter science&amp;technology or phylosophy of life, feel free to contact with me via email <a href="mailto:huweihugh@gmail.com">huweihugh@gmail.com</a>. (You can find my email on the sidebar of this page.)</p>
 ]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[All Categories]]></title>
-      <url>/categories/index.html</url>
-      <content type="html"></content>
     </entry>
     
     <entry>
