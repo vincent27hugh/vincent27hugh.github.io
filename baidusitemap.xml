@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-10-17T04:31:52.000Z</lastmod>
+    <lastmod>2017-10-17T04:40:41.000Z</lastmod>
     <data>
         <display>
         <title>Self-Study Plan</title>
@@ -232,13 +232,13 @@
         <title>MAC上使用SUBLIME TEXT3编写LATEX</title>
         <pubTime>2017-09-09T16:00:00.000Z</pubTime>
         
-        <tag>tutorial</tag>
-         
         <tag>latex</tag>
          
         <tag>sublime_text3</tag>
          
         <tag>skim</tag>
+         
+        <tag>tutorial</tag>
          
          
            
@@ -260,9 +260,9 @@
         
         <tag>github</tag>
          
-        <tag>hexo</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>hexo</tag>
          
          
            
