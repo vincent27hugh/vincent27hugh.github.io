@@ -560,17 +560,18 @@ Ref 2\cite{kom2016stochastic}
     </entry>
     
     <entry>
-      <title><![CDATA[Self-Study Plan]]></title>
+      <title><![CDATA[Useful Study Materials]]></title>
       <url>/2017_Study_Plan/</url>
-      <content type="html"><![CDATA[<p>I hope that I could accomplish these goals on time. Good luck!</p>
+      <content type="html"><![CDATA[<p>I hope that I could accomplish these goals in the academic year 2017-18. Good luck!</p>
 <h2 id="Machine-Learning"><a href="#Machine-Learning" class="headerlink" title="Machine Learning"></a>Machine Learning</h2><p><img src="/images/ml_cheatsheet2.png" alt="Machine Learning Cheat Sheet"></p>
 <h3 id="Courses"><a href="#Courses" class="headerlink" title="Courses"></a>Courses</h3><h4 id="Machine-Learning-1"><a href="#Machine-Learning-1" class="headerlink" title="Machine Learning"></a>Machine Learning</h4><ol>
-<li><strong>Basical ML</strong>: Stanford CS229 - Machine Learning by <strong>Andrew Ng</strong>: Undergraduate, 1h15min/Lec, 20 Lectures, <a href="http://cs229.stanford.edu/" target="_blank" rel="external">Course Page</a>, <a href="https://see.stanford.edu/Course/CS229/47" target="_blank" rel="external">Videos-1</a>, <a href="https://www.youtube.com/playlist?list=PLA89DCFA6ADACE599" target="_blank" rel="external">Videos-2</a></li>
+<li><strong>Stanford CS229 - Machine Learning</strong> by <strong>Andrew Ng</strong>: Undergraduate, 1h15min/Lec, 20 Lectures, <a href="http://cs229.stanford.edu/" target="_blank" rel="external">Course Page</a>, <a href="https://see.stanford.edu/Course/CS229/47" target="_blank" rel="external">Videos-1</a>, <a href="https://www.youtube.com/playlist?list=PLA89DCFA6ADACE599" target="_blank" rel="external">Videos-2</a></li>
 <li>UCambridge - Course on Information Theory, Pattern Recognition, and Neural Networks by <strong>David MacKay</strong>: Undergraduate, 1h30min/Lec, 16 Lectures, <a href="http://www.inference.org.uk/itprnn/" target="_blank" rel="external">Course Page</a>, <a href="http://videolectures.net/course_information_theory_pattern_recognition/" target="_blank" rel="external">Videos-1</a>, <a href="https://www.youtube.com/watch?v=BCiZc0n6COY&amp;list=PLruBu5BI5n4aFpG32iMbdWoRVAA-Vcso6" target="_blank" rel="external">Videos-2</a></li>
 <li>Coursera - Neural Networks for Machine Learning by <strong>Hinton</strong>: Undergraduate, 16 Lectures, <a href="https://www.coursera.org/learn/neural-networks-deep-learning/home/welcome" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLBAGcD3siRDguyYYzhVwZ3tLvOyyG5k6K" target="_blank" rel="external">Videos</a></li>
 <li>Stanford CS231N - Convolutional Neural Networks by <strong>Li Feifei</strong>: Undergraduate, 1h15min/Lec, 15 Lectures, <a href="http://cs231n.stanford.edu/" target="_blank" rel="external">Course Page</a>,<a href="https://www.youtube.com/watch?v=yp9rwI_LZX8&amp;list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg" target="_blank" rel="external">Videos</a></li>
 <li>Coursera - Neural Networks and Deep Learning by <strong>Andrew Ng</strong>: Undergraduate, 46 parts, <a href="https://www.coursera.org/learn/neural-networks-deep-learning" target="_blank" rel="external">Course Page</a>,<a href="https://www.youtube.com/watch?v=M8-7vWfJ1jQ&amp;list=PLG2vLZDgC_ZtmIBB5ERZE4EmMS__n_9GV" target="_blank" rel="external">Videos</a></li>
 <li>Udacity|Georgia Tech CS7646 - Machine Learning for Trading by <strong>Tucker Balch</strong>: Undergraduate, 28 parts, <a href="https://www.udacity.com/Lec/machine-learning-for-trading--ud501" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/watch?v=s5xKxliBMTo&amp;list=PLAwxTw4SYaPnIRwl6rad_mYwEk4Gmj7Mx" target="_blank" rel="external">Videos</a></li>
+<li>Coursera - Probabilistic Graphical Models by <strong>Daphne Koller</strong>:<a href="https://www.coursera.org/specializations/probabilistic-graphical-models?authMode=login" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PL50E6E80E8525B59C" target="_blank" rel="external">Videos</a></li>
 </ol>
 <h4 id="Natural-Language-Processing"><a href="#Natural-Language-Processing" class="headerlink" title="Natural Language Processing"></a>Natural Language Processing</h4><ol>
 <li>Coursera - Natural Language Processing by <strong>Dan Jurafsky</strong> &amp; <strong>Chris Manning</strong>: <a href="https://class.coursera.org/nlp/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/watch?v=nfoudtpBV68&amp;list=PL6397E4B26D00A269" target="_blank" rel="external">Videos</a>, <a href="http://www.mohamedaly.info/teaching/cmp-462-spring-2013" target="_blank" rel="external">Resources</a></li>
@@ -1251,6 +1252,49 @@ SyntaxError: unexpected character after line continuation character
     </entry>
     
     <entry>
+      <title><![CDATA[Undergraduate Notes 1]]></title>
+      <url>/UG_Notes1/</url>
+      <content type="html"><![CDATA[<h2 id="Poisson-bracket"><a href="#Poisson-bracket" class="headerlink" title="Poisson bracket"></a><a href="https://en.wikipedia.org/wiki/Poisson_bracket" target="_blank" rel="external">Poisson bracket</a></h2><script type="math/tex; mode=display">\\{ f ,g \\} =\sum_{i=1}^{N}(\frac{\partial f}{\partial q_i} \frac{\partial g}{\partial p_i} -\frac{\partial f}{\partial p_i} \frac{\partial g}{\partial q_i} )</script><h2 id="Primality-test"><a href="#Primality-test" class="headerlink" title="Primality test"></a>Primality test</h2><h3 id="Compositeness-test"><a href="#Compositeness-test" class="headerlink" title="Compositeness test"></a><a href="https://en.wikipedia.org/wiki/Fermat_primality_test" target="_blank" rel="external">Compositeness test</a></h3><ol>
+<li>test if n is divisible by 2 or 3;</li>
+<li>check through all the numbers from $6k\pm1 \leq \sqrt{n}$</li>
+</ol>
+<h3 id="Primorial-&#x7D20;&#x4E58;-longleftrightarrow-prime"><a href="#Primorial-&#x7D20;&#x4E58;-longleftrightarrow-prime" class="headerlink" title="Primorial (&#x7D20;&#x4E58;) $\longleftrightarrow$ prime"></a><a href="https://en.wikipedia.org/wiki/Primorial" target="_blank" rel="external">Primorial</a> (&#x7D20;&#x4E58;) $\longleftrightarrow$ prime</h3><ul>
+<li>Just like factorial (&#x9636;&#x4E58;) $\longleftrightarrow$ factor</li>
+<li>$nth$ prime number $P_n$ : </li>
+</ul>
+<script type="math/tex; mode=display">P_n \\# = \prod_{k=1}^{n} p_k</script><p>in which $p_k$ is the kth prime number. (e.g., $ P_5 \# = 2 \times 3 \times 5 \times 7 \times 11 = 2310 $)</p>
+<ul>
+<li>$P_0 \# = 1 \Rightarrow P_n \# = e^{(1+o(1))n \log n}$, in which $o(\cdot)$ is the little -o notation</li>
+</ul>
+<h2 id="Big-o-notaion"><a href="#Big-o-notaion" class="headerlink" title="Big-o notaion"></a><a href="https://en.wikipedia.org/wiki/Big_O_notation" target="_blank" rel="external">Big-o notaion</a></h2><ul>
+<li>eg: $f(x)=6 x^4 - 2 x^3 + 5$, $f(x) = O(x^4)$</li>
+<li>Simplification rules:</li>
+</ul>
+<ol>
+<li>If f(x) is a <em>sum</em> of several terms, the one with the largest growth rate is kept, and all others omitted</li>
+<li>If f(x) is a <em>product</em> of several factors, any constants terms in the product that do not depend on x are omitted.</li>
+</ol>
+<h2 id="&#x5173;&#x4E8E;&#x5728;Markdown&#x4E2D;&#x8F93;&#x5165;&#x6570;&#x5B66;&#x516C;&#x5F0F;"><a href="#&#x5173;&#x4E8E;&#x5728;Markdown&#x4E2D;&#x8F93;&#x5165;&#x6570;&#x5B66;&#x516C;&#x5F0F;" class="headerlink" title="&#x5173;&#x4E8E;&#x5728;Markdown&#x4E2D;&#x8F93;&#x5165;&#x6570;&#x5B66;&#x516C;&#x5F0F;"></a>&#x5173;&#x4E8E;&#x5728;Markdown&#x4E2D;&#x8F93;&#x5165;&#x6570;&#x5B66;&#x516C;&#x5F0F;</h2><p><a href="http://blog.csdn.net/xiahouzuoxin/article/details/26478179" target="_blank" rel="external">Markdown&#x4E2D;&#x63D2;&#x5165;&#x6570;&#x5B66;&#x516C;&#x5F0F;&#x7684;&#x65B9;&#x6CD5;</a><br><a href="http://blog.kamidox.com/write-math-formula-with-mathjax.html" target="_blank" rel="external">&#x4F7F;&#x7528; Markdown + MathJax &#x5728;&#x535A;&#x5BA2;&#x91CC;&#x63D2;&#x5165;&#x6570;&#x5B66;&#x516C;&#x5F0F;</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> notes </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> mathematics </tag>
+            
+            <tag> physics </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[我在Github上搭建Hexo博客]]></title>
       <url>/Hexo/</url>
       <content type="html"><![CDATA[<p>&#x56E0;&#x4E3A;&#x9759;&#x6001;&#x7F51;&#x9875;&#x7684;&#x7B80;&#x6D01;&#x548C;&#x8FC5;&#x901F;&#xFF0C;&#x5728;&#x5DF2;&#x7ECF;&#x642D;&#x4E86;&#x4E2A;WordPress&#x7F51;&#x9875;&#x7684;&#x60C5;&#x5F62;&#x4E0B;&#xFF0C;&#x6211;&#x8FD8;&#x662F;&#x5FCD;&#x4E0D;&#x4F4F;&#x624B;&#x75D2;&#xFF0C;&#x6700;&#x8FD1;&#x53C8;&#x5C1D;&#x8BD5;&#x642D;&#x4E86;&#x4E00;&#x4E2A;Hexo&#x7684;&#x7F51;&#x9875;&#x3002;&#x672C;&#x7F51;&#x7AD9;&#x5C31;&#x662F;&#x6700;&#x540E;&#x7684;&#x6210;&#x679C;</p>
@@ -1294,51 +1338,14 @@ $ hexo d
         
     </entry>
     
-    <entry>
-      <title><![CDATA[Undergraduate Notes 1]]></title>
-      <url>/UG_Notes1/</url>
-      <content type="html"><![CDATA[<h2 id="Poisson-bracket"><a href="#Poisson-bracket" class="headerlink" title="Poisson bracket"></a><a href="https://en.wikipedia.org/wiki/Poisson_bracket" target="_blank" rel="external">Poisson bracket</a></h2><script type="math/tex; mode=display">\\{ f ,g \\} =\sum_{i=1}^{N}(\frac{\partial f}{\partial q_i} \frac{\partial g}{\partial p_i} -\frac{\partial f}{\partial p_i} \frac{\partial g}{\partial q_i} )</script><h2 id="Primality-test"><a href="#Primality-test" class="headerlink" title="Primality test"></a>Primality test</h2><h3 id="Compositeness-test"><a href="#Compositeness-test" class="headerlink" title="Compositeness test"></a><a href="https://en.wikipedia.org/wiki/Fermat_primality_test" target="_blank" rel="external">Compositeness test</a></h3><ol>
-<li>test if n is divisible by 2 or 3;</li>
-<li>check through all the numbers from $6k\pm1 \leq \sqrt{n}$</li>
-</ol>
-<h3 id="Primorial-&#x7D20;&#x4E58;-longleftrightarrow-prime"><a href="#Primorial-&#x7D20;&#x4E58;-longleftrightarrow-prime" class="headerlink" title="Primorial (&#x7D20;&#x4E58;) $\longleftrightarrow$ prime"></a><a href="https://en.wikipedia.org/wiki/Primorial" target="_blank" rel="external">Primorial</a> (&#x7D20;&#x4E58;) $\longleftrightarrow$ prime</h3><ul>
-<li>Just like factorial (&#x9636;&#x4E58;) $\longleftrightarrow$ factor</li>
-<li>$nth$ prime number $P_n$ : </li>
-</ul>
-<script type="math/tex; mode=display">P_n \\# = \prod_{k=1}^{n} p_k</script><p>in which $p_k$ is the kth prime number. (e.g., $ P_5 \# = 2 \times 3 \times 5 \times 7 \times 11 = 2310 $)</p>
-<ul>
-<li>$P_0 \# = 1 \Rightarrow P_n \# = e^{(1+o(1))n \log n}$, in which $o(\cdot)$ is the little -o notation</li>
-</ul>
-<h2 id="Big-o-notaion"><a href="#Big-o-notaion" class="headerlink" title="Big-o notaion"></a><a href="https://en.wikipedia.org/wiki/Big_O_notation" target="_blank" rel="external">Big-o notaion</a></h2><ul>
-<li>eg: $f(x)=6 x^4 - 2 x^3 + 5$, $f(x) = O(x^4)$</li>
-<li>Simplification rules:</li>
-</ul>
-<ol>
-<li>If f(x) is a <em>sum</em> of several terms, the one with the largest growth rate is kept, and all others omitted</li>
-<li>If f(x) is a <em>product</em> of several factors, any constants terms in the product that do not depend on x are omitted.</li>
-</ol>
-<h2 id="&#x5173;&#x4E8E;&#x5728;Markdown&#x4E2D;&#x8F93;&#x5165;&#x6570;&#x5B66;&#x516C;&#x5F0F;"><a href="#&#x5173;&#x4E8E;&#x5728;Markdown&#x4E2D;&#x8F93;&#x5165;&#x6570;&#x5B66;&#x516C;&#x5F0F;" class="headerlink" title="&#x5173;&#x4E8E;&#x5728;Markdown&#x4E2D;&#x8F93;&#x5165;&#x6570;&#x5B66;&#x516C;&#x5F0F;"></a>&#x5173;&#x4E8E;&#x5728;Markdown&#x4E2D;&#x8F93;&#x5165;&#x6570;&#x5B66;&#x516C;&#x5F0F;</h2><p><a href="http://blog.csdn.net/xiahouzuoxin/article/details/26478179" target="_blank" rel="external">Markdown&#x4E2D;&#x63D2;&#x5165;&#x6570;&#x5B66;&#x516C;&#x5F0F;&#x7684;&#x65B9;&#x6CD5;</a><br><a href="http://blog.kamidox.com/write-math-formula-with-mathjax.html" target="_blank" rel="external">&#x4F7F;&#x7528; Markdown + MathJax &#x5728;&#x535A;&#x5BA2;&#x91CC;&#x63D2;&#x5165;&#x6570;&#x5B66;&#x516C;&#x5F0F;</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> notes </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> mathematics </tag>
-            
-            <tag> physics </tag>
-            
-        </tags>
-        
-    </entry>
+  
+  
     
-  
-  
+    <entry>
+      <title><![CDATA[All Categories]]></title>
+      <url>/categories/index.html</url>
+      <content type="html"></content>
+    </entry>
     
     <entry>
       <title><![CDATA[About Me]]></title>
@@ -1351,12 +1358,6 @@ $ hexo d
 </blockquote>
 <p><a href="https://en.wikipedia.org/wiki/Neverland" target="_blank" rel="external">NEVERLAND</a> is a place of fantacy and I hope to build a blog full of bold innovation and wonderful ideas. If you have any creative thoughs on no matter science&amp;technology or phylosophy of life, feel free to contact with me via email <a href="mailto:huweihugh@gmail.com">huweihugh@gmail.com</a>. (You can find my email on the sidebar of this page.)</p>
 ]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[All Categories]]></title>
-      <url>/categories/index.html</url>
-      <content type="html"></content>
     </entry>
     
     <entry>
