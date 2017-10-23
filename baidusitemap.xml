@@ -4,6 +4,36 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
+    <lastmod>2017-10-23T11:05:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>Useful Study Materials</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>information_system</tag>
+         
+        <tag>study_plan</tag>
+         
+        <tag>statistics</tag>
+         
+        <tag>mathematics</tag>
+         
+        <tag>github</tag>
+         
+        <tag>materials</tag>
+         
+         
+           
+             
+              <breadCrumb title="notes" url="http://blog.baoduge.com/categories/notes/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/Introduction_to_Sentiment_Analysis/</loc>
     <lastmod>2017-10-23T11:04:59.000Z</lastmod>
     <data>
@@ -38,36 +68,6 @@
         <tag>robo_advisor</tag>
          
         <tag>fintech</tag>
-         
-         
-           
-             
-              <breadCrumb title="notes" url="http://blog.baoduge.com/categories/notes/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-10-20T16:58:37.000Z</lastmod>
-    <data>
-        <display>
-        <title>Useful Study Materials</title>
-        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
-        
-        <tag>github</tag>
-         
-        <tag>mathematics</tag>
-         
-        <tag>information_system</tag>
-         
-        <tag>study_plan</tag>
-         
-        <tag>statistics</tag>
-         
-        <tag>materials</tag>
          
          
            
@@ -234,9 +234,9 @@
         <title>Undergraduate Notes 1</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>physics</tag>
-         
         <tag>mathematics</tag>
+         
+        <tag>physics</tag>
          
          
            
@@ -282,9 +282,9 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>hexo</tag>
-         
         <tag>github</tag>
+         
+        <tag>hexo</tag>
          
         <tag>tutorial</tag>
          
