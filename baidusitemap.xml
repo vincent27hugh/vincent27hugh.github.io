@@ -4,6 +4,52 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/Introduction_to_Sentiment_Analysis/</loc>
+    <lastmod>2017-10-23T11:04:59.000Z</lastmod>
+    <data>
+        <display>
+        <title>Introduction to Sentiment Analysis</title>
+        <pubTime>2017-10-22T16:00:00.000Z</pubTime>
+        
+        <tag>sentiment_analysis</tag>
+         
+        <tag>natural_language_processing</tag>
+         
+        <tag>machine_learning</tag>
+         
+         
+           
+             
+              <breadCrumb title="notes" url="http://blog.baoduge.com/categories/notes/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/Robo_Advisor_Introduction/</loc>
+    <lastmod>2017-10-23T10:54:10.000Z</lastmod>
+    <data>
+        <display>
+        <title>Robo-Advisor Introduction</title>
+        <pubTime>2017-09-13T16:00:00.000Z</pubTime>
+        
+        <tag>robo_advisor</tag>
+         
+        <tag>fintech</tag>
+         
+         
+           
+             
+              <breadCrumb title="notes" url="http://blog.baoduge.com/categories/notes/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
     <lastmod>2017-10-20T16:58:37.000Z</lastmod>
     <data>
@@ -11,15 +57,15 @@
         <title>Useful Study Materials</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
+        <tag>github</tag>
+         
+        <tag>mathematics</tag>
+         
         <tag>information_system</tag>
          
         <tag>study_plan</tag>
          
         <tag>statistics</tag>
-         
-        <tag>mathematics</tag>
-         
-        <tag>github</tag>
          
         <tag>materials</tag>
          
@@ -63,9 +109,9 @@
         <title>virtualenv+tensorflow初体验</title>
         <pubTime>2017-10-12T16:00:00.000Z</pubTime>
         
-        <tag>python</tag>
-         
         <tag>machine_learning</tag>
+         
+        <tag>python</tag>
          
         <tag>deep_learning</tag>
          
@@ -135,28 +181,6 @@
     </url>
 
     
-  <url>
-    <loc>http://blog.baoduge.com/Robo_Advisor_Introduction/</loc>
-    <lastmod>2017-09-27T05:17:18.000Z</lastmod>
-    <data>
-        <display>
-        <title>Robo-Advisor Introduction</title>
-        <pubTime>2017-09-13T16:00:00.000Z</pubTime>
-        
-        <tag>robo_advisor</tag>
-         
-        <tag>fintech</tag>
-         
-         
-           
-             
-              <breadCrumb title="notes" url="http://blog.baoduge.com/categories/notes/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
     
     
     
@@ -210,9 +234,9 @@
         <title>Undergraduate Notes 1</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>mathematics</tag>
-         
         <tag>physics</tag>
+         
+        <tag>mathematics</tag>
          
          
            
@@ -258,9 +282,9 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>github</tag>
-         
         <tag>hexo</tag>
+         
+        <tag>github</tag>
          
         <tag>tutorial</tag>
          

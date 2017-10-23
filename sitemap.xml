@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.baoduge.com/Introduction_to_Sentiment_Analysis/</loc>
+    
+    <lastmod>2017-10-23T11:04:59.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.baoduge.com/Robo_Advisor_Introduction/</loc>
+    
+    <lastmod>2017-10-23T10:54:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
     
     <lastmod>2017-10-20T16:58:37.000Z</lastmod>
@@ -33,13 +47,6 @@
     <loc>http://blog.baoduge.com/gogle_citation_isr/</loc>
     
     <lastmod>2017-09-27T06:43:14.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.baoduge.com/Robo_Advisor_Introduction/</loc>
-    
-    <lastmod>2017-09-27T05:17:18.000Z</lastmod>
     
   </url>
   
