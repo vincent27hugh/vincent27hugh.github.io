@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-10-24T09:02:08.000Z</lastmod>
+    <lastmod>2017-10-24T13:37:04.000Z</lastmod>
     <data>
         <display>
         <title>Useful Study Materials</title>
@@ -13,13 +13,13 @@
         
         <tag>information_system</tag>
          
-        <tag>github</tag>
-         
         <tag>study_plan</tag>
          
         <tag>statistics</tag>
          
         <tag>mathematics</tag>
+         
+        <tag>github</tag>
          
         <tag>materials</tag>
          
@@ -282,9 +282,9 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>hexo</tag>
-         
         <tag>github</tag>
+         
+        <tag>hexo</tag>
          
         <tag>tutorial</tag>
          
