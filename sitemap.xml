@@ -2,65 +2,93 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    
-    <lastmod>2017-10-26T06:31:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.baoduge.com/gogle_citation_isr/</loc>
-    
-    <lastmod>2017-10-26T04:54:35.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.baoduge.com/Terminal_tutorial/</loc>
-    
-    <lastmod>2017-10-25T07:51:53.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.baoduge.com/IS_reseources/</loc>
-    
-    <lastmod>2017-10-24T15:58:08.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
-    
-    <lastmod>2017-10-24T14:13:54.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.baoduge.com/Introduction_to_Sentiment_Analysis/</loc>
-    
-    <lastmod>2017-10-23T11:04:59.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.baoduge.com/Robo_Advisor_Introduction/</loc>
-    
-    <lastmod>2017-10-23T10:54:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://blog.baoduge.com/virtualenv_tensorflow/</loc>
     
-    <lastmod>2017-10-14T03:28:01.000Z</lastmod>
+    <lastmod>2017-10-26T07:03:13.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://blog.baoduge.com/Use_ST3_manage_reference/</loc>
     
-    <lastmod>2017-09-29T15:41:31.000Z</lastmod>
+    <lastmod>2017-10-26T07:03:04.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.baoduge.com/Terminal_tutorial/</loc>
+    
+    <lastmod>2017-10-26T07:02:55.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.baoduge.com/SublimeText3_LaTex/</loc>
+    
+    <lastmod>2017-10-26T07:02:47.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.baoduge.com/Robo_Advisor_Introduction/</loc>
+    
+    <lastmod>2017-10-26T07:02:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.baoduge.com/R_science_computing/</loc>
+    
+    <lastmod>2017-10-26T07:02:27.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.baoduge.com/IS_reseources/</loc>
+    
+    <lastmod>2017-10-26T07:02:05.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.baoduge.com/Introduction_to_Sentiment_Analysis/</loc>
+    
+    <lastmod>2017-10-26T07:01:56.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.baoduge.com/Hexo/</loc>
+    
+    <lastmod>2017-10-26T07:01:47.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
+    
+    <lastmod>2017-10-26T07:01:28.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
+    
+    <lastmod>2017-10-26T07:01:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.baoduge.com/gogle_citation_isr/</loc>
+    
+    <lastmod>2017-10-26T07:01:14.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.baoduge.com/current_blockchain/</loc>
+    
+    <lastmod>2017-10-26T07:01:04.000Z</lastmod>
     
   </url>
   
@@ -82,34 +110,6 @@
     <loc>http://blog.baoduge.com/tags/index.html</loc>
     
     <lastmod>2017-09-16T07:27:23.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.baoduge.com/R_science_computing/</loc>
-    
-    <lastmod>2017-09-12T11:47:48.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.baoduge.com/current_blockchain/</loc>
-    
-    <lastmod>2017-09-12T11:24:07.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.baoduge.com/SublimeText3_LaTex/</loc>
-    
-    <lastmod>2017-09-12T11:14:50.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.baoduge.com/Hexo/</loc>
-    
-    <lastmod>2017-09-12T11:13:51.000Z</lastmod>
     
   </url>
   
