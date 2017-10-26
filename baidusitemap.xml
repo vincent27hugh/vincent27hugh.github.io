@@ -111,9 +111,9 @@
         <title>Logs and Questions</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>study</tag>
+         
+        <tag>research</tag>
          
          
            
@@ -271,28 +271,6 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/UG_Notes1/</loc>
-    <lastmod>2017-09-12T11:15:07.000Z</lastmod>
-    <data>
-        <display>
-        <title>Undergraduate Notes 1</title>
-        <pubTime>2017-09-07T16:00:00.000Z</pubTime>
-        
-        <tag>mathematics</tag>
-         
-        <tag>physics</tag>
-         
-         
-           
-             
-              <breadCrumb title="notes" url="http://blog.baoduge.com/categories/notes/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.baoduge.com/SublimeText3_LaTex/</loc>
     <lastmod>2017-09-12T11:14:50.000Z</lastmod>
     <data>
@@ -331,26 +309,6 @@
         <tag>hexo</tag>
          
         <tag>tutorial</tag>
-         
-         
-           
-             
-              <breadCrumb title="notes" url="http://blog.baoduge.com/categories/notes/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/CUHK_DSME6622_Lec2/</loc>
-    <lastmod>2017-09-12T11:11:38.000Z</lastmod>
-    <data>
-        <display>
-        <title>Lecture notes of CUHK-DSME6622</title>
-        <pubTime>2017-09-10T16:00:00.000Z</pubTime>
-        
-        <tag>information_system</tag>
          
          
            
