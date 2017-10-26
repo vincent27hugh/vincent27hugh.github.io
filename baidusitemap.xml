@@ -4,6 +4,36 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
+    <lastmod>2017-10-26T05:18:57.000Z</lastmod>
+    <data>
+        <display>
+        <title>2017-18 Open-Course Challenges</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>information_system</tag>
+         
+        <tag>study_plan</tag>
+         
+        <tag>statistics</tag>
+         
+        <tag>mathematics</tag>
+         
+        <tag>github</tag>
+         
+        <tag>materials</tag>
+         
+         
+           
+             
+              <breadCrumb title="notes" url="http://blog.baoduge.com/categories/notes/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/gogle_citation_isr/</loc>
     <lastmod>2017-10-26T04:54:35.000Z</lastmod>
     <data>
@@ -18,36 +48,6 @@
         <tag>google_scholar</tag>
          
         <tag>reference</tag>
-         
-         
-           
-             
-              <breadCrumb title="notes" url="http://blog.baoduge.com/categories/notes/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-10-25T10:15:09.000Z</lastmod>
-    <data>
-        <display>
-        <title>Useful Study Materials</title>
-        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
-        
-        <tag>information_system</tag>
-         
-        <tag>github</tag>
-         
-        <tag>study_plan</tag>
-         
-        <tag>statistics</tag>
-         
-        <tag>mathematics</tag>
-         
-        <tag>materials</tag>
          
          
            
@@ -326,9 +326,9 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>hexo</tag>
-         
         <tag>github</tag>
+         
+        <tag>hexo</tag>
          
         <tag>tutorial</tag>
          
