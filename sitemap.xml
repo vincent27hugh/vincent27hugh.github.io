@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
+    
+    <lastmod>2017-10-26T15:03:30.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.baoduge.com/virtualenv_tensorflow/</loc>
     
     <lastmod>2017-10-26T07:03:13.000Z</lastmod>
@@ -68,13 +75,6 @@
     <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
     
     <lastmod>2017-10-26T07:01:28.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    
-    <lastmod>2017-10-26T07:01:22.000Z</lastmod>
     
   </url>
   
