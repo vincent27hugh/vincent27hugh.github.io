@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
+    
+    <lastmod>2017-10-29T07:37:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
     
     <lastmod>2017-10-29T07:28:55.000Z</lastmod>
@@ -68,13 +75,6 @@
     <loc>http://blog.baoduge.com/Hexo/</loc>
     
     <lastmod>2017-10-26T07:01:47.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
-    
-    <lastmod>2017-10-26T07:01:28.000Z</lastmod>
     
   </url>
   
