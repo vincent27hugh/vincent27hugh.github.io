@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
+    <lastmod>2017-10-30T11:34:18.000Z</lastmod>
+    <data>
+        <display>
+        <title>Logs and Questions</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>study</tag>
+         
+        <tag>research</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
     <lastmod>2017-10-30T05:47:06.000Z</lastmod>
     <data>
@@ -27,28 +49,6 @@
            
              
               <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
-    <lastmod>2017-10-30T05:03:56.000Z</lastmod>
-    <data>
-        <display>
-        <title>Logs and Questions</title>
-        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
-        
-        <tag>study</tag>
-         
-        <tag>research</tag>
-         
-         
-           
-             
-              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
           
         </display>
     </data>
