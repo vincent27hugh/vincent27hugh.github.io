@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
+    <lastmod>2017-10-30T05:03:56.000Z</lastmod>
+    <data>
+        <display>
+        <title>Logs and Questions</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>study</tag>
+         
+        <tag>research</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
     <lastmod>2017-10-29T14:38:31.000Z</lastmod>
     <data>
@@ -11,6 +33,8 @@
         <title>2017-18 Open-Course Challenges</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
+        <tag>github</tag>
+         
         <tag>information_system</tag>
          
         <tag>study_plan</tag>
@@ -19,36 +43,12 @@
          
         <tag>mathematics</tag>
          
-        <tag>github</tag>
-         
         <tag>materials</tag>
          
          
            
              
               <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
-    <lastmod>2017-10-29T07:45:35.000Z</lastmod>
-    <data>
-        <display>
-        <title>Logs and Questions</title>
-        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
-        
-        <tag>research</tag>
-         
-        <tag>study</tag>
-         
-         
-           
-             
-              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
           
         </display>
     </data>
@@ -209,9 +209,9 @@
         <title>Resources of Information System Research</title>
         <pubTime>2017-10-23T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>research</tag>
+         
+        <tag>information_system</tag>
          
          
            
@@ -255,9 +255,9 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>github</tag>
-         
         <tag>hexo</tag>
+         
+        <tag>github</tag>
          
         <tag>tutorial</tag>
          
