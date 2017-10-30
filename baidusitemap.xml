@@ -4,6 +4,31 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/expectation_on_online%20scoring/</loc>
+    <lastmod>2017-10-30T18:00:24.000Z</lastmod>
+    <data>
+        <display>
+        <title>Can online scoring really reflects the rankings of products?</title>
+        <pubTime>2017-10-30T16:00:00.000Z</pubTime>
+        
+        <tag>research</tag>
+         
+        <tag>notes</tag>
+         
+        <tag>economics</tag>
+         
+        <tag>online_scoring</tag>
+         
+        <tag>modeling</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
     <lastmod>2017-10-30T11:34:18.000Z</lastmod>
     <data>
@@ -33,8 +58,6 @@
         <title>2017-18 Open-Course Challenges</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>github</tag>
-         
         <tag>information_system</tag>
          
         <tag>study_plan</tag>
@@ -42,6 +65,8 @@
         <tag>statistics</tag>
          
         <tag>mathematics</tag>
+         
+        <tag>github</tag>
          
         <tag>materials</tag>
          
@@ -255,9 +280,9 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>hexo</tag>
-         
         <tag>github</tag>
+         
+        <tag>hexo</tag>
          
         <tag>tutorial</tag>
          
