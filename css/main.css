@@ -2022,7 +2022,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9c414a;
+  background: #c2ddff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3125,4 +3125,10 @@ hr {
     width: auto;
     text-align: center;
   }
+}
+#days {
+  display: block;
+  color: rgba(34,244,246,0.75);
+  font-size: 13px;
+  margin-top: 15px;
 }
