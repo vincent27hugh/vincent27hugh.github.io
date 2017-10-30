@@ -528,8 +528,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/R_science_computing/" rel="next" title="R语言的科学计算">
-                <i class="fa fa-chevron-left"></i> R语言的科学计算
+              <a href="/2017_Study_Plan/" rel="next" title="2017-18 Open-Course Challenges">
+                <i class="fa fa-chevron-left"></i> 2017-18 Open-Course Challenges
               </a>
             
           </div>
@@ -538,8 +538,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017_Study_Plan/" rel="prev" title="2017-18 Open-Course Challenges">
-                2017-18 Open-Course Challenges <i class="fa fa-chevron-right"></i>
+              <a href="/Robo_Advisor_Introduction/" rel="prev" title="Robo-Advisor Introduction">
+                Robo-Advisor Introduction <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -696,10 +696,65 @@
                 </li>
               
             </ul>
+            
+            <div id="days"></div>
+</script>
+<script language="javascript">
+function show_date_time(){
+window.setTimeout("show_date_time()", 1000);
+BirthDay=new Date("09/08/2017 00:00:00");
+today=new Date();
+timeold=(today.getTime()-BirthDay.getTime());
+sectimeold=timeold/1000
+secondsold=Math.floor(sectimeold);
+msPerDay=24*60*60*1000
+e_daysold=timeold/msPerDay
+daysold=Math.floor(e_daysold);
+e_hrsold=(e_daysold-daysold)*24;
+hrsold=setzero(Math.floor(e_hrsold));
+e_minsold=(e_hrsold-hrsold)*60;
+minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+seconds=setzero(Math.floor((e_minsold-minsold)*60));
+document.getElementById('days').innerHTML="Has been runing"+daysold+"Days"+hrsold+"Hours"+minsold+"Min"+seconds+"Sec";
+}
+function setzero(i){
+if (i<10)
+{i="0" + i};
+return i;
+}
+show_date_time();
+</script>
+
           </div>
         
 
-        
+        <div id="days"></div>
+</script>
+<script language="javascript">
+function show_date_time(){
+window.setTimeout("show_date_time()", 1000);
+BirthDay=new Date("09/08/2017 00:00:00");
+today=new Date();
+timeold=(today.getTime()-BirthDay.getTime());
+sectimeold=timeold/1000
+secondsold=Math.floor(sectimeold);
+msPerDay=24*60*60*1000
+e_daysold=timeold/msPerDay
+daysold=Math.floor(e_daysold);
+e_hrsold=(e_daysold-daysold)*24;
+hrsold=setzero(Math.floor(e_hrsold));
+e_minsold=(e_hrsold-hrsold)*60;
+minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+seconds=setzero(Math.floor((e_minsold-minsold)*60));
+document.getElementById('days').innerHTML="Has been runing"+daysold+"Days"+hrsold+"Hours"+minsold+"Min"+seconds+"Sec";
+}
+function setzero(i){
+if (i<10)
+{i="0" + i};
+return i;
+}
+show_date_time();
+</script>
 
 
       </section>
