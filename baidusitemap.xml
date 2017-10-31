@@ -4,6 +4,61 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/expectation_on_online%20scoring/</loc>
+    <lastmod>2017-10-31T13:22:12.000Z</lastmod>
+    <data>
+        <display>
+        <title>Can online scoring really reflects the rankings of products?</title>
+        <pubTime>2017-10-29T16:00:00.000Z</pubTime>
+        
+        <tag>research</tag>
+         
+        <tag>notes</tag>
+         
+        <tag>economics</tag>
+         
+        <tag>online_scoring</tag>
+         
+        <tag>modeling</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/SA_FN/</loc>
+    <lastmod>2017-10-31T13:20:52.000Z</lastmod>
+    <data>
+        <display>
+        <title>Using sentiment analysis methods on financial news to predict financial market</title>
+        <pubTime>2017-10-30T16:00:00.000Z</pubTime>
+        
+        <tag>research</tag>
+         
+        <tag>information_system</tag>
+         
+        <tag>sentiment_analysis</tag>
+         
+        <tag>user_generated_content</tag>
+         
+        <tag>word_of_mouth</tag>
+         
+        <tag>literature_review</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/CUHK_DSME6622_Lec2/</loc>
     <lastmod>2017-10-31T08:20:00.000Z</lastmod>
     <data>
@@ -72,31 +127,6 @@
              
               <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/expectation_on_online%20scoring/</loc>
-    <lastmod>2017-10-30T18:15:13.000Z</lastmod>
-    <data>
-        <display>
-        <title>Can online scoring really reflects the rankings of products?</title>
-        <pubTime>2017-10-30T16:00:00.000Z</pubTime>
-        
-        <tag>research</tag>
-         
-        <tag>notes</tag>
-         
-        <tag>economics</tag>
-         
-        <tag>online_scoring</tag>
-         
-        <tag>modeling</tag>
-         
-         
-           
         </display>
     </data>
     </url>
