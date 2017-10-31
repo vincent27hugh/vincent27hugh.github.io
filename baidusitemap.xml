@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/CUHK_DSME6622_Lec2/</loc>
+    <lastmod>2017-10-31T08:20:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>Experiments in IS research</title>
+        <pubTime>2017-09-10T16:00:00.000Z</pubTime>
+        
+        <tag>information_system</tag>
+         
+        <tag>notes</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
     <lastmod>2017-10-31T02:13:15.000Z</lastmod>
     <data>
@@ -11,6 +33,8 @@
         <title>2017-18 Open-Course Challenges</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
+        <tag>github</tag>
+         
         <tag>information_system</tag>
          
         <tag>study_plan</tag>
@@ -18,8 +42,6 @@
         <tag>statistics</tag>
          
         <tag>mathematics</tag>
-         
-        <tag>github</tag>
          
         <tag>materials</tag>
          
@@ -280,9 +302,9 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>github</tag>
-         
         <tag>hexo</tag>
+         
+        <tag>github</tag>
          
         <tag>tutorial</tag>
          
