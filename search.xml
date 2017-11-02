@@ -254,11 +254,11 @@
         
         <tags>
             
+            <tag> information_system </tag>
+            
             <tag> research </tag>
             
             <tag> sentiment_analysis </tag>
-            
-            <tag> information_system </tag>
             
             <tag> user_generated_content </tag>
             
@@ -314,9 +314,9 @@
         
         <tags>
             
-            <tag> research </tag>
-            
             <tag> notes </tag>
+            
+            <tag> research </tag>
             
             <tag> economics </tag>
             
@@ -1189,9 +1189,9 @@ killall Finder
         
         <tags>
             
-            <tag> research </tag>
-            
             <tag> information_system </tag>
+            
+            <tag> research </tag>
             
         </tags>
         
@@ -1904,7 +1904,7 @@ Ref 2\cite{kom2016stochastic}
 </ol>
 <h1 id="Machine-Learning"><a href="#Machine-Learning" class="headerlink" title="Machine Learning"></a>Machine Learning</h1><p><img src="/images/ml_cheatsheet2.png" alt="Machine Learning Cheat Sheet"></p>
 <h2 id="Courses"><a href="#Courses" class="headerlink" title="Courses"></a>Courses</h2><h3 id="Machine-Learning-1"><a href="#Machine-Learning-1" class="headerlink" title="Machine Learning"></a>Machine Learning</h3><ol>
-<li><strong>Stanford CS229 - Machine Learning</strong> by <strong>Andrew Ng</strong>: Undergraduate, 1h15min/Lec, 20 Lectures, <a href="http://cs229.stanford.edu/" target="_blank" rel="external">Course Page</a>, <a href="https://see.stanford.edu/Course/CS229/47" target="_blank" rel="external">Videos-1</a>, <a href="https://www.youtube.com/playlist?list=PLA89DCFA6ADACE599" target="_blank" rel="external">Videos-2</a> <img src="http://progressed.io/bar/90?title=done" alt="18/20"></li>
+<li><strong>Stanford CS229 - Machine Learning</strong> by <strong>Andrew Ng</strong>: Undergraduate, 1h15min/Lec, 20 Lectures, <a href="http://cs229.stanford.edu/" target="_blank" rel="external">Course Page</a>, <a href="https://see.stanford.edu/Course/CS229/47" target="_blank" rel="external">Videos-1</a>, <a href="https://www.youtube.com/playlist?list=PLA89DCFA6ADACE599" target="_blank" rel="external">Videos-2</a> <img src="http://progressed.io/bar/95?title=done" alt="19/20"></li>
 <li><strong>UCambridge - Course on Information Theory, Pattern Recognition, and Neural Networks</strong> by <strong>David MacKay</strong>: Undergraduate, 1h30min/Lec, 16 Lectures, <a href="http://www.inference.org.uk/itprnn/" target="_blank" rel="external">Course Page</a>, <a href="http://videolectures.net/course_information_theory_pattern_recognition/" target="_blank" rel="external">Videos-1</a>, <a href="https://www.youtube.com/playlist?list=PLruBu5BI5n4aFpG32iMbdWoRVAA-Vcso6" target="_blank" rel="external">Videos-2</a> <img src="http://progressed.io/bar/19?title=done" alt="3/16"></li>
 <li><strong>Coursera - Neural Networks for Machine Learning</strong> by <strong>Geoffrey Hinton</strong>: Undergraduate, 16 Lectures, <a href="https://www.coursera.org/learn/neural-networks" target="_blank" rel="external">Course Page 1</a>, <a href="http://www.cs.toronto.edu/~tijmen/csc321/" target="_blank" rel="external">Course Page 2</a>, <a href="https://www.youtube.com/playlist?list=PLoRl3Ht4JOcdU872GhiYWf6jwrk_SNhz9" target="_blank" rel="external">Videos</a> <img src="http://progressed.io/bar/6?title=done" alt="6.25"></li>
 <li>Coursera - Probabilistic Graphical Models by <strong>Daphne Koller</strong>: 15 Lectures, <a href="https://www.coursera.org/learn/probabilistic-graphical-models/home/welcome" target="_blank" rel="external">Course Page 1 - Representation</a>, <a href="https://www.coursera.org/learn/probabilistic-graphical-models-2-inference/home/welcome" target="_blank" rel="external">Course Page 2 - Inference</a>, <a href="https://www.coursera.org/learn/probabilistic-graphical-models-3-learning/home/welcome" target="_blank" rel="external">Course Page 3 - Learning</a>, <a href="https://www.youtube.com/playlist?list=PL50E6E80E8525B59C" target="_blank" rel="external">Videos</a>, <a href="https://mitpress.mit.edu/books/probabilistic-graphical-models" target="_blank" rel="external">Textbook</a>, <a href="http://people.csail.mit.edu/dsontag/courses/pgm13/" target="_blank" rel="external">PGM@MIT, Spring 2013</a> <img src="http://progressed.io/bar/7?title=done" alt="6.67"></li>
@@ -1913,7 +1913,7 @@ Ref 2\cite{kom2016stochastic}
 <li>Stanford CS231N - Convolutional Neural Networks by <strong>Li Feifei</strong>: Undergraduate, 1h15min/Lec, 15 Lectures, <a href="http://cs231n.stanford.edu/" target="_blank" rel="external">Course Page</a>,<a href="https://www.youtube.com/playlist?list=PL16j5WbGpaM0_Tj8CRmurZ8Kk1gEBc7fg" target="_blank" rel="external">Videos</a> <img src="http://progressed.io/bar/0?title=done" alt="0"></li>
 </ol>
 <h3 id="Natural-Language-Processing"><a href="#Natural-Language-Processing" class="headerlink" title="Natural Language Processing"></a>Natural Language Processing</h3><ol>
-<li><strong>Coursera - Natural Language Processing</strong> by <strong>Dan Jurafsky</strong> &amp; <strong>Chris Manning</strong>: 23 Lectures, <a href="https://class.coursera.org/nlp/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PL6397E4B26D00A269" target="_blank" rel="external">Videos</a>, <a href="http://www.mohamedaly.info/teaching/cmp-462-spring-2013" target="_blank" rel="external">Resources</a> <img src="http://progressed.io/bar/6?title=done" alt="2/23"></li>
+<li><strong>Coursera - Natural Language Processing</strong> by <strong>Dan Jurafsky</strong> &amp; <strong>Chris Manning</strong>: 23 Lectures, <a href="https://class.coursera.org/nlp/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PL6397E4B26D00A269" target="_blank" rel="external">Videos</a>, <a href="http://www.mohamedaly.info/teaching/cmp-462-spring-2013" target="_blank" rel="external">Resources</a> <img src="http://progressed.io/bar/11?title=done" alt="3/23"></li>
 <li><strong>Stanford CS224N - Deep Learning for Natural Language Processing</strong> by <strong>Chris Manning</strong>: Undergraduate, 1h15min/Lec, 18 Lectures, <a href="http://web.stanford.edu/class/cs224n/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6" target="_blank" rel="external">Videos</a> <img src="http://progressed.io/bar/11?title=done" alt="11.11"></li>
 <li>Columbia COMS W4705 - Natural Language Processing by <strong>Michael Collins</strong>: <a href="http://www.cs.columbia.edu/~cs4705/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/watch?v=mieV29RVpuQ&amp;list=PL0ap34RKaADMjqjdSkWolD-W2VSCyRUQC" target="_blank" rel="external">Videos</a> <img src="http://progressed.io/bar/0?title=done" alt="0"></li>
 </ol>
@@ -2109,77 +2109,15 @@ Ref 2\cite{kom2016stochastic}
             
             <tag> information_system </tag>
             
-            <tag> github </tag>
-            
             <tag> study_plan </tag>
             
             <tag> statistics </tag>
             
             <tag> mathematics </tag>
             
+            <tag> github </tag>
+            
             <tag> materials </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[R语言的科学计算]]></title>
-      <url>/R_science_computing/</url>
-      <content type="html"><![CDATA[<h2 id="&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;"><a href="#&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;" class="headerlink" title="&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;"></a>&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;</h2><p><a href="http://blog.csdn.net/skyonefly/article/details/50899661" target="_blank" rel="external">R&#x8BED;&#x8A00;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x6C42;&#x89E3;dfsane,nleqslv</a><br><a href="https://cos.name/cn/topic/11574/" target="_blank" rel="external">&#x8BF7;&#x6559;&#xFF1A;R&#x8BED;&#x8A00;&#x6709;&#x6CA1;&#x6709;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x7684;&#x51FD;&#x6570;&#xFF01;</a><br><a href="http://www.cnblogs.com/dj123jary/p/4142150.html" target="_blank" rel="external">&#x7528;R&#x8BED;&#x8A00;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;</a><br><a href="https://cran.r-project.org/web/packages/nleqslv/nleqslv.pdf" target="_blank" rel="external">Package &#x2018;nleqslv&#x2019;</a><br><a href="https://cran.r-project.org/web/packages/BB/vignettes/BBvignetteJSS.pdf" target="_blank" rel="external">BB: An R Package for Solving a Large System of Nonlinear Equations and for Optimizing a High-Dimensional Nonlinear Objective Function</a></p>
-<p><a href="https://stackoverflow.com/questions/38684295/how-to-solve-a-non-linear-equation-using-nleqslv-package-in-r" target="_blank" rel="external">How to solve a non-linear equation using nleqslv package in R?</a><br><a href="https://stackoverflow.com/questions/22993787/solving-system-of-nonlinear-equations-in-r" target="_blank" rel="external">Solving system of nonlinear equations in R</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> 中文 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> r_language </tag>
-            
-            <tag> science_computing </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[区块链现状]]></title>
-      <url>/current_blockchain/</url>
-      <content type="html"><![CDATA[<p>&#x6211;&#x5728;&#x4E4B;&#x524D;&#x7684;&#x6587;&#x7AE0;<font color="#00ffff"><a href="http://baoduge.com/preliminary_study_on_blockchain_and_smart_contract/" target="_blank" rel="external">&#x300A;&#x533A;&#x5757;&#x94FE;&#x521D;&#x63A2;-&#x7EFC;&#x8FF0;&#x300B;</a></font>&#x4E2D;&#x6709;&#x6709;&#x8FC7;&#x5BF9;&#x533A;&#x5757;&#x94FE;&#x7684;&#x4E00;&#x4E9B;&#x63A2;&#x7A76;&#x3002;</p>
-<h1 id="&#x533A;&#x5757;&#x94FE;&#x6838;&#x5FC3;&#x6280;&#x672F;"><a href="#&#x533A;&#x5757;&#x94FE;&#x6838;&#x5FC3;&#x6280;&#x672F;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;&#x6838;&#x5FC3;&#x6280;&#x672F;"></a>&#x533A;&#x5757;&#x94FE;&#x6838;&#x5FC3;&#x6280;&#x672F;</h1><p>&#x533A;&#x5757;&#x94FE;&#x662F;&#x6307;&#x4E00;&#x79CD;&#x6309;&#x7167;&#x65F6;&#x95F4;&#x987A;&#x5E8F;&#x5C06;&#x6570;&#x636E;&#x533A;&#x5757;&#x4EE5;&#x987A;&#x5E8F;&#x76F8;&#x8FDE;&#x7684;&#x65B9;&#x5F0F;&#x7EC4;&#x5408;&#x6210;&#x7684;&#x4E00;&#x79CD;&#x94FE;&#x5F0F;&#x6570;&#x636E;&#x7ED3;&#x6784;,&#x5E76;&#x4EE5;&#x5BC6;&#x7801;&#x5B66;&#x65B9;&#x5F0F;&#x4FDD;&#x8BC1;&#x4E0D;&#x53EF;&#x7BE1;&#x6539;&#x548C;&#x4E0D;&#x53EF;&#x4F2A;&#x9020;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x8D26;&#x672C;&#x3002;&#x4ECE;&#x672C;&#x8D28;&#x4E0A;&#x6765;&#x8BF4;,&#x533A;&#x5757;&#x94FE;&#x662F;&#x4E00;&#x79CD;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;,&#x53BB;&#x4FE1;&#x4EFB;&#x7684;&#x96C6;&#x4F53;&#x7EF4;&#x62A4;&#x6570;&#x636E;&#x5E93;&#x6280;&#x672F;&#x3002;</p>
-<h2 id="&#x533A;&#x5757;&#x94FE;&#x6570;&#x636E;&#x5E93;"><a href="#&#x533A;&#x5757;&#x94FE;&#x6570;&#x636E;&#x5E93;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;&#x6570;&#x636E;&#x5E93;"></a>&#x533A;&#x5757;&#x94FE;&#x6570;&#x636E;&#x5E93;</h2><ul>
-<li><p>&#x201C;&#x533A;&#x5757;+&#x94FE;&#x201D;&#x7684;&#x7ED3;&#x6784;&#x4E3A;&#x6211;&#x4EEC;&#x63D0;&#x4F9B;&#x4E86;&#x5B8C;&#x6574;&#x7684;&#x5386;&#x53F2;&#x6570;&#x636E;,&#x4F7F;&#x5F97;&#x6570;&#x636E;&#x5E93;&#x5185;&#x7684;&#x6BCF;&#x4E00;&#x7B14;&#x4EA4;&#x6613;&#x90FD;&#x80FD;&#x8FFD;&#x672C;&#x6EAF;&#x6E90;&#x3002;</p>
-</li>
-<li><p>&#x201C;&#x533A;&#x5757;+&#x94FE;+&#x65F6;&#x95F4;&#x6233;&#x201D;&#x8BA9;&#x5B58;&#x5728;&#x6027;&#x8BC1;&#x660E;&#x53D8;&#x5F97;&#x7B80;&#x5355;&#x53EF;&#x9760;&#x3002;</p>
-</li>
-</ul>
-<h2 id="&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;&#x548C;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x534F;&#x8BAE;"><a href="#&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;&#x548C;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x534F;&#x8BAE;" class="headerlink" title="&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;&#x548C;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x534F;&#x8BAE;"></a>&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;&#x548C;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x534F;&#x8BAE;</h2><p>&#x901A;&#x8FC7;&#x8BA9;&#x6BCF;&#x4E00;&#x4E2A;&#x53C2;&#x4E0E;&#x6570;&#x636E;&#x4EA4;&#x6613;&#x7684;&#x8282;&#x70B9;&#x8BB0;&#x5F55;&#x5E76;&#x50A8;&#x5B58;&#x6240;&#x6709;&#x6570;&#x636E;,&#x8FD9;&#x4F7F;&#x5F97;&#x90E8;&#x5206;&#x8282;&#x70B9;&#x7684;&#x635F;&#x574F;,&#x5E76;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x5230;&#x6574;&#x4E2A;&#x6570;&#x636E;&#x5E93;&#x7684;&#x6570;&#x636E;&#x8BB0;&#x5F55;&#x4E0E;&#x66F4;&#x65B0;,&#x5927;&#x5927;&#x63D0;&#x9AD8;&#x4E86;&#x6570;&#x636E;&#x5E93;&#x7684;&#x5B89;&#x5168;&#x6027;&#x3002;&#x53EA;&#x8981;&#x4E0D;&#x662F;&#x6240;&#x6709;&#x8282;&#x70B9;&#x540C;&#x65F6;&#x5D29;&#x6E83;,&#x6570;&#x636E;&#x5E93;&#x5C31;&#x53EF;&#x4EE5;&#x8FD0;&#x8F6C;&#x4E0B;&#x53BB;,&#x56E0;&#x6B64;&#x63D0;&#x9AD8;&#x4E86;&#x7CFB;&#x7EDF;&#x7684;&#x6C38;&#x7EED;&#x6027;&#x548C;&#x53EF;&#x5BB9;&#x9519;&#x6027;&#x3002;</p>
-<h2 id="&#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x7801;&#x5B66;"><a href="#&#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x7801;&#x5B66;" class="headerlink" title="&#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x7801;&#x5B66;"></a>&#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x7801;&#x5B66;</h2><p>&#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x7801;&#x5B66;&#x8BA9;&#x533A;&#x5757;&#x94FE; &#x6280;&#x672F;&#x7684;&#x4FE1;&#x4EFB;&#x673A;&#x5236;&#x5EFA;&#x8BAE;&#x5728;&#x6570;&#x5B66;&#x539F;&#x7406;&#x57FA;&#x7840;&#x4E4B;&#x4E0A;&#x3002;&#x8FD9;&#x4F7F;&#x5F97;&#x4EBA;&#x4EEC;&#x65E0;&#x9700;&#x4E86;&#x89E3;&#x5BF9;&#x65B9;&#x7684;&#x57FA;&#x672C;&#x60C5;&#x51B5;&#x4ECD;&#x7136;&#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x4FE1;&#x4EFB;&#x7684;&#x4EF7;&#x503C;&#x4EA4;&#x6362;,&#x4ECE;&#x800C;&#x63D0;&#x9AD8;&#x4E86;&#x7CFB;&#x7EDF;&#x7684;&#x8FD0;&#x8425;&#x6548;&#x7387;&#x3002;</p>
-<h2 id="&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;&#x811A;&#x672C;"><a href="#&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;&#x811A;&#x672C;" class="headerlink" title="&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;&#x811A;&#x672C;"></a>&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;&#x811A;&#x672C;</h2><p>&#x811A;&#x672C;&#x672C;&#x8D28;&#x662F;&#x4F17;&#x591A;&#x6307;&#x4EE4;&#x7684;&#x5217;&#x8868;&#x3002;&#x5728;&#x533A;&#x5757;&#x94FE;&#x4E2D;,&#x811A;&#x672C;&#x901A;&#x5E38;&#x9700;&#x8981;&#x4EF7;&#x503C;&#x63A5;&#x6536;&#x8005;&#x5177;&#x6709;&#x516C;&#x94A5;&#x548C;&#x7B7E;&#x540D;&#x3002;&#x968F;&#x7740;&#x5177;&#x4F53;&#x60C5;&#x5F62;&#x8981;&#x6C42;,&#x811A;&#x672C;&#x53EF;&#x4EE5;&#x7075;&#x6D3B;&#x53D8;&#x901A;&#x751F;&#x6210;&#x5176;&#x4ED6;&#x8FD0;&#x884C;&#x6761;&#x4EF6;,&#x4F8B;&#x5982;&#x9700;&#x8981;&#x591A;&#x91CD;&#x79C1;&#x94A5;&#x7B49;&#x7B49;&#x3002;&#x8FD9;&#x8BA9;&#x533A;&#x5757;&#x94FE;&#x6280;&#x672F;&#x53EF;&#x4EE5;&#x5904;&#x7406;&#x4E00;&#x4E9B;&#x65E0;&#x6CD5;&#x9884;&#x89C1;&#x7684;&#x4EA4;&#x6613;&#x6A21;&#x5F0F;,&#x4E0D;&#x4F1A;&#x5728;&#x672A;&#x6765;&#x7684;&#x5E94;&#x7528;&#x4E2D;&#x8FC7;&#x65F6;&#x3002;</p>
-<h1 id="&#x533A;&#x5757;&#x94FE;&#x6F5C;&#x5728;&#x5E94;&#x7528;&#x65B9;&#x5411;"><a href="#&#x533A;&#x5757;&#x94FE;&#x6F5C;&#x5728;&#x5E94;&#x7528;&#x65B9;&#x5411;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;&#x6F5C;&#x5728;&#x5E94;&#x7528;&#x65B9;&#x5411;"></a>&#x533A;&#x5757;&#x94FE;&#x6F5C;&#x5728;&#x5E94;&#x7528;&#x65B9;&#x5411;</h1><h2 id="&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;"><a href="#&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;" class="headerlink" title="&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;"></a>&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;</h2><p>&#x53EF;&#x4EE5;&#x8282;&#x7EA6;&#x5927;&#x91CF;&#x7684;&#x4E2D;&#x4ECB;&#x6210;&#x672C;</p>
-<h2 id="&#x4E0D;&#x53EF;&#x7BE1;&#x6539;&#x7684;&#x65F6;&#x95F4;&#x6233;"><a href="#&#x4E0D;&#x53EF;&#x7BE1;&#x6539;&#x7684;&#x65F6;&#x95F4;&#x6233;" class="headerlink" title="&#x4E0D;&#x53EF;&#x7BE1;&#x6539;&#x7684;&#x65F6;&#x95F4;&#x6233;"></a>&#x4E0D;&#x53EF;&#x7BE1;&#x6539;&#x7684;&#x65F6;&#x95F4;&#x6233;</h2><p>&#x53EF;&#x4EE5;&#x89E3;&#x51B3;&#x6570;&#x636E;&#x8FFD;&#x8E2A;&#x4E0E;&#x4FE1;&#x606F;&#x9632;&#x4F2A;&#x95EE;&#x9898; </p>
-<h2 id="&#x5B89;&#x5168;&#x7684;&#x4FE1;&#x4EFB;&#x673A;&#x5236;"><a href="#&#x5B89;&#x5168;&#x7684;&#x4FE1;&#x4EFB;&#x673A;&#x5236;" class="headerlink" title="&#x5B89;&#x5168;&#x7684;&#x4FE1;&#x4EFB;&#x673A;&#x5236;"></a>&#x5B89;&#x5168;&#x7684;&#x4FE1;&#x4EFB;&#x673A;&#x5236;</h2><p>&#x53EF;&#x4EE5;&#x89E3;&#x51B3;&#x73B0;&#x4ECA;&#x7269;&#x8054;&#x7F51;&#x7684;&#x6838;&#x5FC3;&#x7F3A;&#x9677;</p>
-<h2 id="&#x7075;&#x6D3B;&#x7684;&#x53EF;&#x7F16;&#x7A0B;&#x6027;"><a href="#&#x7075;&#x6D3B;&#x7684;&#x53EF;&#x7F16;&#x7A0B;&#x6027;" class="headerlink" title="&#x7075;&#x6D3B;&#x7684;&#x53EF;&#x7F16;&#x7A0B;&#x6027;"></a>&#x7075;&#x6D3B;&#x7684;&#x53EF;&#x7F16;&#x7A0B;&#x6027;</h2><p>&#x53EF;&#x4EE5;&#x6709;&#x6548;&#x5E2E;&#x52A9;&#x89C4;&#x8303;&#x5E02;&#x573A;&#x79E9;&#x5E8F;</p>
-<h1 id="&#x533A;&#x5757;&#x94FE;&#x6F14;&#x5316;&#x9636;&#x6BB5;"><a href="#&#x533A;&#x5757;&#x94FE;&#x6F14;&#x5316;&#x9636;&#x6BB5;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;&#x6F14;&#x5316;&#x9636;&#x6BB5;"></a>&#x533A;&#x5757;&#x94FE;&#x6F14;&#x5316;&#x9636;&#x6BB5;</h1><h2 id="&#x533A;&#x5757;&#x94FE;1-0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x6570;&#x5B57;&#x5316;&#x8D27;&#x5E01;"><a href="#&#x533A;&#x5757;&#x94FE;1-0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x6570;&#x5B57;&#x5316;&#x8D27;&#x5E01;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;1.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x6570;&#x5B57;&#x5316;&#x8D27;&#x5E01;"></a>&#x533A;&#x5757;&#x94FE;1.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x6570;&#x5B57;&#x5316;&#x8D27;&#x5E01;</h2><p>&#x4E3B;&#x8981;&#x901A;&#x8FC7;&#x5206;&#x5E03;&#x5F0F;&#x8D26;&#x672C;&#x7684;&#x52A0;&#x5BC6;&#x6280;&#x672F;,&#x5EFA;&#x7ACB;&#x4E86;&#x6570;&#x5B57;&#x8D27;&#x5E01;&#x7684;&#x53D1;&#x884C;&#x3001;&#x5206;&#x914D;&#x3001;&#x5E01;&#x503C;&#x8C03;&#x8282;&#x7B49;&#x673A;&#x5236;&#x3002;&#x4F17;&#x6240;&#x5468;&#x77E5;&#x7684;&#x6BD4;&#x7279;&#x5E01;,&#x4FBF;&#x53EF;&#x89C6;&#x4E3A;&#x533A;&#x5757;&#x94FE;&#x7684;&#x9996;&#x4E2A;&#x5728;&#x91D1;&#x878D;&#x652F;&#x4ED8;&#x9886;&#x57DF;&#x4E2D;&#x7684;&#x5E94;&#x7528;&#x3002;</p>
-<h2 id="&#x533A;&#x5757;&#x94FE;2-0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;"><a href="#&#x533A;&#x5757;&#x94FE;2-0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;2.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;"></a>&#x533A;&#x5757;&#x94FE;2.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;</h2><p>2015&#x5E74;10&#x6708;,&#x4EE5;&#x592A;&#x574A;&#x7684;&#x521B;&#x59CB;&#x4EBA;Vitalik Buterin&#x53D1;&#x8868;&#x4E86;&#x9898;&#x4E3A;<font color="#00ffff"><a href="https://blog.ethereum.org/2015/04/13/visions-part-1-the-value-of-blockchain-technology/" target="_blank" rel="external">&#x300A;Visions, Part 1: The Value of Blockchain Technology&#x300B;</a></font>&#x4E3B;&#x9898;&#x6F14;&#x8BB2;&#x4E2D;,&#x533A;&#x5757;&#x94FE;&#x88AB;&#x8D4B;&#x4E88;&#x4E86;&#x65B0;&#x7684;&#x542B;&#x4E49;&#x3002;&#x533A;&#x5757;&#x94FE;&#x662F;&#x4EFB;&#x4F55;&#x4EBA;&#x90FD;&#x53EF;&#x4EE5;&#x4E0A;&#x4F20;&#x7A0B;&#x5E8F;&#x5E76;&#x4F7F;&#x7A0B;&#x5E8F;&#x81EA;&#x5DF1;&#x6267;&#x884C;&#x7684;&#x8F7D;&#x4F53;,&#x5E76;&#x4E14;&#x533A;&#x5757;&#x94FE;&#x901A;&#x8FC7;&#x81EA;&#x6211;&#x9650;&#x5236;&#x548C;&#x5B89;&#x5168;&#x52A0;&#x5BC6;,&#x786E;&#x4FDD;&#x4E86;&#x4E0A;&#x4F20;&#x7684;&#x7A0B;&#x5E8F;&#x80FD;&#x591F;&#x53EF;&#x4FE1;&#x5730;&#x81EA;&#x52A8;&#x6267;&#x884C;&#x9884;&#x8BBE;&#x7684;&#x903B;&#x8F91;&#x3002;</p>
-<h2 id="&#x533A;&#x5757;&#x94FE;3-0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x793E;&#x4F1A;&#x6CBB;&#x7406;"><a href="#&#x533A;&#x5757;&#x94FE;3-0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x793E;&#x4F1A;&#x6CBB;&#x7406;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;3.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x793E;&#x4F1A;&#x6CBB;&#x7406;"></a>&#x533A;&#x5757;&#x94FE;3.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x793E;&#x4F1A;&#x6CBB;&#x7406;</h2><p>&#x7531;&#x4E8E;&#x8BE5;&#x6280;&#x672F;&#x5177;&#x6709;&#x8D85;&#x8D8A;&#x8D27;&#x5E01;&#x7684;&#x516C;&#x6B63;&#x7279;&#x6027;,&#x8BE5;&#x6280;&#x672F;&#x53EF;&#x4EE5;&#x88AB;&#x5E7F;&#x6CDB;&#x5E94;&#x7528;&#x5728;&#x53F8;&#x6CD5;&#x4EF2;&#x88C1;,&#x8EAB;&#x4EFD;&#x8BA4;&#x8BC1;&#x7B49;&#x9886;&#x57DF;&#x3002;&#x4ECE;&#x957F;&#x8FDC;&#x6765;&#x770B;,&#x533A;&#x5757;&#x94FE;&#x7684;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x6A21;&#x5F0F;,&#x5C06;&#x901A;&#x8FC7;&#x66F4;&#x597D;&#x7684;&#x534F;&#x4F5C;&#x4E0E;&#x6CBB;&#x7406;,&#x6765;&#x91CD;&#x5851;&#x6574;&#x4E2A;&#x4EBA;&#x7C7B;&#x793E;&#x4F1A;&#x6D3B;&#x52A8;&#x3002;&#x867D;&#x7136;&#x73B0;&#x5982;&#x4ECA;&#x56FD;&#x5185;&#x5916;&#x5BF9;&#x4E8E;&#x533A;&#x5757;&#x94FE;&#x6280;&#x672F;&#x7684;&#x6295;&#x5165;&#x4F7F;&#x7528;&#x90FD;&#x5DF2;&#x7ECF;&#x9010;&#x6E10;&#x5C55;&#x5F00;,&#x4F46;&#x76EE;&#x524D;&#x5C1A;&#x672A;&#x6709;&#x5B8C;&#x5168;&#x843D;&#x5730;&#x7684;&#x5E94;&#x7528;&#x6027;&#x6210;&#x679C;&#x3002;&#x56E0;&#x6B64;,&#x533A;&#x5757;&#x94FE;&#x6280;&#x672F;&#x76EE;&#x524D;&#x4ECD;&#x7136;&#x5904;&#x4E8E;&#x7406;&#x8BBA;&#x9636;&#x6BB5;,&#x4ECA;&#x540E;&#x7684;&#x6280;&#x672F;&#x8F6C;&#x6362;&#x5C1A;&#x9700;&#x4E00;&#x6BB5;&#x5F88;&#x957F;&#x65F6;&#x95F4;&#x7684;&#x5B9E;&#x8DF5;&#x3002;</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 中文 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> bloackchain </tag>
             
         </tags>
         
@@ -2363,6 +2301,68 @@ Ref 2\cite{kom2016stochastic}
             <tag> study </tag>
             
             <tag> research </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[R语言的科学计算]]></title>
+      <url>/R_science_computing/</url>
+      <content type="html"><![CDATA[<h2 id="&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;"><a href="#&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;" class="headerlink" title="&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;"></a>&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;</h2><p><a href="http://blog.csdn.net/skyonefly/article/details/50899661" target="_blank" rel="external">R&#x8BED;&#x8A00;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x6C42;&#x89E3;dfsane,nleqslv</a><br><a href="https://cos.name/cn/topic/11574/" target="_blank" rel="external">&#x8BF7;&#x6559;&#xFF1A;R&#x8BED;&#x8A00;&#x6709;&#x6CA1;&#x6709;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x7684;&#x51FD;&#x6570;&#xFF01;</a><br><a href="http://www.cnblogs.com/dj123jary/p/4142150.html" target="_blank" rel="external">&#x7528;R&#x8BED;&#x8A00;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;</a><br><a href="https://cran.r-project.org/web/packages/nleqslv/nleqslv.pdf" target="_blank" rel="external">Package &#x2018;nleqslv&#x2019;</a><br><a href="https://cran.r-project.org/web/packages/BB/vignettes/BBvignetteJSS.pdf" target="_blank" rel="external">BB: An R Package for Solving a Large System of Nonlinear Equations and for Optimizing a High-Dimensional Nonlinear Objective Function</a></p>
+<p><a href="https://stackoverflow.com/questions/38684295/how-to-solve-a-non-linear-equation-using-nleqslv-package-in-r" target="_blank" rel="external">How to solve a non-linear equation using nleqslv package in R?</a><br><a href="https://stackoverflow.com/questions/22993787/solving-system-of-nonlinear-equations-in-r" target="_blank" rel="external">Solving system of nonlinear equations in R</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 中文 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> r_language </tag>
+            
+            <tag> science_computing </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[区块链现状]]></title>
+      <url>/current_blockchain/</url>
+      <content type="html"><![CDATA[<p>&#x6211;&#x5728;&#x4E4B;&#x524D;&#x7684;&#x6587;&#x7AE0;<font color="#00ffff"><a href="http://baoduge.com/preliminary_study_on_blockchain_and_smart_contract/" target="_blank" rel="external">&#x300A;&#x533A;&#x5757;&#x94FE;&#x521D;&#x63A2;-&#x7EFC;&#x8FF0;&#x300B;</a></font>&#x4E2D;&#x6709;&#x6709;&#x8FC7;&#x5BF9;&#x533A;&#x5757;&#x94FE;&#x7684;&#x4E00;&#x4E9B;&#x63A2;&#x7A76;&#x3002;</p>
+<h1 id="&#x533A;&#x5757;&#x94FE;&#x6838;&#x5FC3;&#x6280;&#x672F;"><a href="#&#x533A;&#x5757;&#x94FE;&#x6838;&#x5FC3;&#x6280;&#x672F;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;&#x6838;&#x5FC3;&#x6280;&#x672F;"></a>&#x533A;&#x5757;&#x94FE;&#x6838;&#x5FC3;&#x6280;&#x672F;</h1><p>&#x533A;&#x5757;&#x94FE;&#x662F;&#x6307;&#x4E00;&#x79CD;&#x6309;&#x7167;&#x65F6;&#x95F4;&#x987A;&#x5E8F;&#x5C06;&#x6570;&#x636E;&#x533A;&#x5757;&#x4EE5;&#x987A;&#x5E8F;&#x76F8;&#x8FDE;&#x7684;&#x65B9;&#x5F0F;&#x7EC4;&#x5408;&#x6210;&#x7684;&#x4E00;&#x79CD;&#x94FE;&#x5F0F;&#x6570;&#x636E;&#x7ED3;&#x6784;,&#x5E76;&#x4EE5;&#x5BC6;&#x7801;&#x5B66;&#x65B9;&#x5F0F;&#x4FDD;&#x8BC1;&#x4E0D;&#x53EF;&#x7BE1;&#x6539;&#x548C;&#x4E0D;&#x53EF;&#x4F2A;&#x9020;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x8D26;&#x672C;&#x3002;&#x4ECE;&#x672C;&#x8D28;&#x4E0A;&#x6765;&#x8BF4;,&#x533A;&#x5757;&#x94FE;&#x662F;&#x4E00;&#x79CD;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;,&#x53BB;&#x4FE1;&#x4EFB;&#x7684;&#x96C6;&#x4F53;&#x7EF4;&#x62A4;&#x6570;&#x636E;&#x5E93;&#x6280;&#x672F;&#x3002;</p>
+<h2 id="&#x533A;&#x5757;&#x94FE;&#x6570;&#x636E;&#x5E93;"><a href="#&#x533A;&#x5757;&#x94FE;&#x6570;&#x636E;&#x5E93;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;&#x6570;&#x636E;&#x5E93;"></a>&#x533A;&#x5757;&#x94FE;&#x6570;&#x636E;&#x5E93;</h2><ul>
+<li><p>&#x201C;&#x533A;&#x5757;+&#x94FE;&#x201D;&#x7684;&#x7ED3;&#x6784;&#x4E3A;&#x6211;&#x4EEC;&#x63D0;&#x4F9B;&#x4E86;&#x5B8C;&#x6574;&#x7684;&#x5386;&#x53F2;&#x6570;&#x636E;,&#x4F7F;&#x5F97;&#x6570;&#x636E;&#x5E93;&#x5185;&#x7684;&#x6BCF;&#x4E00;&#x7B14;&#x4EA4;&#x6613;&#x90FD;&#x80FD;&#x8FFD;&#x672C;&#x6EAF;&#x6E90;&#x3002;</p>
+</li>
+<li><p>&#x201C;&#x533A;&#x5757;+&#x94FE;+&#x65F6;&#x95F4;&#x6233;&#x201D;&#x8BA9;&#x5B58;&#x5728;&#x6027;&#x8BC1;&#x660E;&#x53D8;&#x5F97;&#x7B80;&#x5355;&#x53EF;&#x9760;&#x3002;</p>
+</li>
+</ul>
+<h2 id="&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;&#x548C;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x534F;&#x8BAE;"><a href="#&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;&#x548C;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x534F;&#x8BAE;" class="headerlink" title="&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;&#x548C;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x534F;&#x8BAE;"></a>&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;&#x548C;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x534F;&#x8BAE;</h2><p>&#x901A;&#x8FC7;&#x8BA9;&#x6BCF;&#x4E00;&#x4E2A;&#x53C2;&#x4E0E;&#x6570;&#x636E;&#x4EA4;&#x6613;&#x7684;&#x8282;&#x70B9;&#x8BB0;&#x5F55;&#x5E76;&#x50A8;&#x5B58;&#x6240;&#x6709;&#x6570;&#x636E;,&#x8FD9;&#x4F7F;&#x5F97;&#x90E8;&#x5206;&#x8282;&#x70B9;&#x7684;&#x635F;&#x574F;,&#x5E76;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x5230;&#x6574;&#x4E2A;&#x6570;&#x636E;&#x5E93;&#x7684;&#x6570;&#x636E;&#x8BB0;&#x5F55;&#x4E0E;&#x66F4;&#x65B0;,&#x5927;&#x5927;&#x63D0;&#x9AD8;&#x4E86;&#x6570;&#x636E;&#x5E93;&#x7684;&#x5B89;&#x5168;&#x6027;&#x3002;&#x53EA;&#x8981;&#x4E0D;&#x662F;&#x6240;&#x6709;&#x8282;&#x70B9;&#x540C;&#x65F6;&#x5D29;&#x6E83;,&#x6570;&#x636E;&#x5E93;&#x5C31;&#x53EF;&#x4EE5;&#x8FD0;&#x8F6C;&#x4E0B;&#x53BB;,&#x56E0;&#x6B64;&#x63D0;&#x9AD8;&#x4E86;&#x7CFB;&#x7EDF;&#x7684;&#x6C38;&#x7EED;&#x6027;&#x548C;&#x53EF;&#x5BB9;&#x9519;&#x6027;&#x3002;</p>
+<h2 id="&#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x7801;&#x5B66;"><a href="#&#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x7801;&#x5B66;" class="headerlink" title="&#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x7801;&#x5B66;"></a>&#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x7801;&#x5B66;</h2><p>&#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x7801;&#x5B66;&#x8BA9;&#x533A;&#x5757;&#x94FE; &#x6280;&#x672F;&#x7684;&#x4FE1;&#x4EFB;&#x673A;&#x5236;&#x5EFA;&#x8BAE;&#x5728;&#x6570;&#x5B66;&#x539F;&#x7406;&#x57FA;&#x7840;&#x4E4B;&#x4E0A;&#x3002;&#x8FD9;&#x4F7F;&#x5F97;&#x4EBA;&#x4EEC;&#x65E0;&#x9700;&#x4E86;&#x89E3;&#x5BF9;&#x65B9;&#x7684;&#x57FA;&#x672C;&#x60C5;&#x51B5;&#x4ECD;&#x7136;&#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x4FE1;&#x4EFB;&#x7684;&#x4EF7;&#x503C;&#x4EA4;&#x6362;,&#x4ECE;&#x800C;&#x63D0;&#x9AD8;&#x4E86;&#x7CFB;&#x7EDF;&#x7684;&#x8FD0;&#x8425;&#x6548;&#x7387;&#x3002;</p>
+<h2 id="&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;&#x811A;&#x672C;"><a href="#&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;&#x811A;&#x672C;" class="headerlink" title="&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;&#x811A;&#x672C;"></a>&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;&#x811A;&#x672C;</h2><p>&#x811A;&#x672C;&#x672C;&#x8D28;&#x662F;&#x4F17;&#x591A;&#x6307;&#x4EE4;&#x7684;&#x5217;&#x8868;&#x3002;&#x5728;&#x533A;&#x5757;&#x94FE;&#x4E2D;,&#x811A;&#x672C;&#x901A;&#x5E38;&#x9700;&#x8981;&#x4EF7;&#x503C;&#x63A5;&#x6536;&#x8005;&#x5177;&#x6709;&#x516C;&#x94A5;&#x548C;&#x7B7E;&#x540D;&#x3002;&#x968F;&#x7740;&#x5177;&#x4F53;&#x60C5;&#x5F62;&#x8981;&#x6C42;,&#x811A;&#x672C;&#x53EF;&#x4EE5;&#x7075;&#x6D3B;&#x53D8;&#x901A;&#x751F;&#x6210;&#x5176;&#x4ED6;&#x8FD0;&#x884C;&#x6761;&#x4EF6;,&#x4F8B;&#x5982;&#x9700;&#x8981;&#x591A;&#x91CD;&#x79C1;&#x94A5;&#x7B49;&#x7B49;&#x3002;&#x8FD9;&#x8BA9;&#x533A;&#x5757;&#x94FE;&#x6280;&#x672F;&#x53EF;&#x4EE5;&#x5904;&#x7406;&#x4E00;&#x4E9B;&#x65E0;&#x6CD5;&#x9884;&#x89C1;&#x7684;&#x4EA4;&#x6613;&#x6A21;&#x5F0F;,&#x4E0D;&#x4F1A;&#x5728;&#x672A;&#x6765;&#x7684;&#x5E94;&#x7528;&#x4E2D;&#x8FC7;&#x65F6;&#x3002;</p>
+<h1 id="&#x533A;&#x5757;&#x94FE;&#x6F5C;&#x5728;&#x5E94;&#x7528;&#x65B9;&#x5411;"><a href="#&#x533A;&#x5757;&#x94FE;&#x6F5C;&#x5728;&#x5E94;&#x7528;&#x65B9;&#x5411;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;&#x6F5C;&#x5728;&#x5E94;&#x7528;&#x65B9;&#x5411;"></a>&#x533A;&#x5757;&#x94FE;&#x6F5C;&#x5728;&#x5E94;&#x7528;&#x65B9;&#x5411;</h1><h2 id="&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;"><a href="#&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;" class="headerlink" title="&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;"></a>&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;</h2><p>&#x53EF;&#x4EE5;&#x8282;&#x7EA6;&#x5927;&#x91CF;&#x7684;&#x4E2D;&#x4ECB;&#x6210;&#x672C;</p>
+<h2 id="&#x4E0D;&#x53EF;&#x7BE1;&#x6539;&#x7684;&#x65F6;&#x95F4;&#x6233;"><a href="#&#x4E0D;&#x53EF;&#x7BE1;&#x6539;&#x7684;&#x65F6;&#x95F4;&#x6233;" class="headerlink" title="&#x4E0D;&#x53EF;&#x7BE1;&#x6539;&#x7684;&#x65F6;&#x95F4;&#x6233;"></a>&#x4E0D;&#x53EF;&#x7BE1;&#x6539;&#x7684;&#x65F6;&#x95F4;&#x6233;</h2><p>&#x53EF;&#x4EE5;&#x89E3;&#x51B3;&#x6570;&#x636E;&#x8FFD;&#x8E2A;&#x4E0E;&#x4FE1;&#x606F;&#x9632;&#x4F2A;&#x95EE;&#x9898; </p>
+<h2 id="&#x5B89;&#x5168;&#x7684;&#x4FE1;&#x4EFB;&#x673A;&#x5236;"><a href="#&#x5B89;&#x5168;&#x7684;&#x4FE1;&#x4EFB;&#x673A;&#x5236;" class="headerlink" title="&#x5B89;&#x5168;&#x7684;&#x4FE1;&#x4EFB;&#x673A;&#x5236;"></a>&#x5B89;&#x5168;&#x7684;&#x4FE1;&#x4EFB;&#x673A;&#x5236;</h2><p>&#x53EF;&#x4EE5;&#x89E3;&#x51B3;&#x73B0;&#x4ECA;&#x7269;&#x8054;&#x7F51;&#x7684;&#x6838;&#x5FC3;&#x7F3A;&#x9677;</p>
+<h2 id="&#x7075;&#x6D3B;&#x7684;&#x53EF;&#x7F16;&#x7A0B;&#x6027;"><a href="#&#x7075;&#x6D3B;&#x7684;&#x53EF;&#x7F16;&#x7A0B;&#x6027;" class="headerlink" title="&#x7075;&#x6D3B;&#x7684;&#x53EF;&#x7F16;&#x7A0B;&#x6027;"></a>&#x7075;&#x6D3B;&#x7684;&#x53EF;&#x7F16;&#x7A0B;&#x6027;</h2><p>&#x53EF;&#x4EE5;&#x6709;&#x6548;&#x5E2E;&#x52A9;&#x89C4;&#x8303;&#x5E02;&#x573A;&#x79E9;&#x5E8F;</p>
+<h1 id="&#x533A;&#x5757;&#x94FE;&#x6F14;&#x5316;&#x9636;&#x6BB5;"><a href="#&#x533A;&#x5757;&#x94FE;&#x6F14;&#x5316;&#x9636;&#x6BB5;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;&#x6F14;&#x5316;&#x9636;&#x6BB5;"></a>&#x533A;&#x5757;&#x94FE;&#x6F14;&#x5316;&#x9636;&#x6BB5;</h1><h2 id="&#x533A;&#x5757;&#x94FE;1-0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x6570;&#x5B57;&#x5316;&#x8D27;&#x5E01;"><a href="#&#x533A;&#x5757;&#x94FE;1-0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x6570;&#x5B57;&#x5316;&#x8D27;&#x5E01;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;1.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x6570;&#x5B57;&#x5316;&#x8D27;&#x5E01;"></a>&#x533A;&#x5757;&#x94FE;1.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x6570;&#x5B57;&#x5316;&#x8D27;&#x5E01;</h2><p>&#x4E3B;&#x8981;&#x901A;&#x8FC7;&#x5206;&#x5E03;&#x5F0F;&#x8D26;&#x672C;&#x7684;&#x52A0;&#x5BC6;&#x6280;&#x672F;,&#x5EFA;&#x7ACB;&#x4E86;&#x6570;&#x5B57;&#x8D27;&#x5E01;&#x7684;&#x53D1;&#x884C;&#x3001;&#x5206;&#x914D;&#x3001;&#x5E01;&#x503C;&#x8C03;&#x8282;&#x7B49;&#x673A;&#x5236;&#x3002;&#x4F17;&#x6240;&#x5468;&#x77E5;&#x7684;&#x6BD4;&#x7279;&#x5E01;,&#x4FBF;&#x53EF;&#x89C6;&#x4E3A;&#x533A;&#x5757;&#x94FE;&#x7684;&#x9996;&#x4E2A;&#x5728;&#x91D1;&#x878D;&#x652F;&#x4ED8;&#x9886;&#x57DF;&#x4E2D;&#x7684;&#x5E94;&#x7528;&#x3002;</p>
+<h2 id="&#x533A;&#x5757;&#x94FE;2-0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;"><a href="#&#x533A;&#x5757;&#x94FE;2-0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;2.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;"></a>&#x533A;&#x5757;&#x94FE;2.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;</h2><p>2015&#x5E74;10&#x6708;,&#x4EE5;&#x592A;&#x574A;&#x7684;&#x521B;&#x59CB;&#x4EBA;Vitalik Buterin&#x53D1;&#x8868;&#x4E86;&#x9898;&#x4E3A;<font color="#00ffff"><a href="https://blog.ethereum.org/2015/04/13/visions-part-1-the-value-of-blockchain-technology/" target="_blank" rel="external">&#x300A;Visions, Part 1: The Value of Blockchain Technology&#x300B;</a></font>&#x4E3B;&#x9898;&#x6F14;&#x8BB2;&#x4E2D;,&#x533A;&#x5757;&#x94FE;&#x88AB;&#x8D4B;&#x4E88;&#x4E86;&#x65B0;&#x7684;&#x542B;&#x4E49;&#x3002;&#x533A;&#x5757;&#x94FE;&#x662F;&#x4EFB;&#x4F55;&#x4EBA;&#x90FD;&#x53EF;&#x4EE5;&#x4E0A;&#x4F20;&#x7A0B;&#x5E8F;&#x5E76;&#x4F7F;&#x7A0B;&#x5E8F;&#x81EA;&#x5DF1;&#x6267;&#x884C;&#x7684;&#x8F7D;&#x4F53;,&#x5E76;&#x4E14;&#x533A;&#x5757;&#x94FE;&#x901A;&#x8FC7;&#x81EA;&#x6211;&#x9650;&#x5236;&#x548C;&#x5B89;&#x5168;&#x52A0;&#x5BC6;,&#x786E;&#x4FDD;&#x4E86;&#x4E0A;&#x4F20;&#x7684;&#x7A0B;&#x5E8F;&#x80FD;&#x591F;&#x53EF;&#x4FE1;&#x5730;&#x81EA;&#x52A8;&#x6267;&#x884C;&#x9884;&#x8BBE;&#x7684;&#x903B;&#x8F91;&#x3002;</p>
+<h2 id="&#x533A;&#x5757;&#x94FE;3-0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x793E;&#x4F1A;&#x6CBB;&#x7406;"><a href="#&#x533A;&#x5757;&#x94FE;3-0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x793E;&#x4F1A;&#x6CBB;&#x7406;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;3.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x793E;&#x4F1A;&#x6CBB;&#x7406;"></a>&#x533A;&#x5757;&#x94FE;3.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x793E;&#x4F1A;&#x6CBB;&#x7406;</h2><p>&#x7531;&#x4E8E;&#x8BE5;&#x6280;&#x672F;&#x5177;&#x6709;&#x8D85;&#x8D8A;&#x8D27;&#x5E01;&#x7684;&#x516C;&#x6B63;&#x7279;&#x6027;,&#x8BE5;&#x6280;&#x672F;&#x53EF;&#x4EE5;&#x88AB;&#x5E7F;&#x6CDB;&#x5E94;&#x7528;&#x5728;&#x53F8;&#x6CD5;&#x4EF2;&#x88C1;,&#x8EAB;&#x4EFD;&#x8BA4;&#x8BC1;&#x7B49;&#x9886;&#x57DF;&#x3002;&#x4ECE;&#x957F;&#x8FDC;&#x6765;&#x770B;,&#x533A;&#x5757;&#x94FE;&#x7684;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x6A21;&#x5F0F;,&#x5C06;&#x901A;&#x8FC7;&#x66F4;&#x597D;&#x7684;&#x534F;&#x4F5C;&#x4E0E;&#x6CBB;&#x7406;,&#x6765;&#x91CD;&#x5851;&#x6574;&#x4E2A;&#x4EBA;&#x7C7B;&#x793E;&#x4F1A;&#x6D3B;&#x52A8;&#x3002;&#x867D;&#x7136;&#x73B0;&#x5982;&#x4ECA;&#x56FD;&#x5185;&#x5916;&#x5BF9;&#x4E8E;&#x533A;&#x5757;&#x94FE;&#x6280;&#x672F;&#x7684;&#x6295;&#x5165;&#x4F7F;&#x7528;&#x90FD;&#x5DF2;&#x7ECF;&#x9010;&#x6E10;&#x5C55;&#x5F00;,&#x4F46;&#x76EE;&#x524D;&#x5C1A;&#x672A;&#x6709;&#x5B8C;&#x5168;&#x843D;&#x5730;&#x7684;&#x5E94;&#x7528;&#x6027;&#x6210;&#x679C;&#x3002;&#x56E0;&#x6B64;,&#x533A;&#x5757;&#x94FE;&#x6280;&#x672F;&#x76EE;&#x524D;&#x4ECD;&#x7136;&#x5904;&#x4E8E;&#x7406;&#x8BBA;&#x9636;&#x6BB5;,&#x4ECA;&#x540E;&#x7684;&#x6280;&#x672F;&#x8F6C;&#x6362;&#x5C1A;&#x9700;&#x4E00;&#x6BB5;&#x5F88;&#x957F;&#x65F6;&#x95F4;&#x7684;&#x5B9E;&#x8DF5;&#x3002;</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 中文 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> bloackchain </tag>
             
         </tags>
         
@@ -2719,9 +2719,9 @@ $ hexo d
         
         <tags>
             
-            <tag> hexo </tag>
-            
             <tag> github </tag>
+            
+            <tag> hexo </tag>
             
             <tag> tutorial </tag>
             

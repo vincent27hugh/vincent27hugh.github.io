@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
+    
+    <lastmod>2017-11-02T06:09:43.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.baoduge.com/SA_FN/</loc>
     
     <lastmod>2017-11-01T11:06:38.000Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>http://blog.baoduge.com/CUHK_DSME6622_Lec2/</loc>
     
     <lastmod>2017-10-31T08:20:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    
-    <lastmod>2017-10-31T02:13:15.000Z</lastmod>
     
   </url>
   
