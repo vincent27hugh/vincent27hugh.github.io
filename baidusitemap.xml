@@ -4,6 +4,36 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/SA_FN2/</loc>
+    <lastmod>2017-11-02T14:28:09.000Z</lastmod>
+    <data>
+        <display>
+        <title>Literature review on social media in financial market</title>
+        <pubTime>2017-11-01T16:00:00.000Z</pubTime>
+        
+        <tag>research</tag>
+         
+        <tag>information_system</tag>
+         
+        <tag>sentiment_analysis</tag>
+         
+        <tag>user_generated_content</tag>
+         
+        <tag>word_of_mouth</tag>
+         
+        <tag>literature_review</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
     <lastmod>2017-11-02T07:33:46.000Z</lastmod>
     <data>
@@ -11,8 +41,6 @@
         <title>2017-18 Open-Course Challenges</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>github</tag>
-         
         <tag>information_system</tag>
          
         <tag>study_plan</tag>
@@ -20,6 +48,8 @@
         <tag>statistics</tag>
          
         <tag>mathematics</tag>
+         
+        <tag>github</tag>
          
         <tag>materials</tag>
          
@@ -140,9 +170,9 @@
         <title>virtualenv+tensorflow初体验</title>
         <pubTime>2017-10-12T16:00:00.000Z</pubTime>
         
-        <tag>python</tag>
-         
         <tag>machine_learning</tag>
+         
+        <tag>python</tag>
          
         <tag>deep_learning</tag>
          
@@ -310,9 +340,9 @@
         
         <tag>sentiment_analysis</tag>
          
-        <tag>machine_learning</tag>
-         
         <tag>natural_language_processing</tag>
+         
+        <tag>machine_learning</tag>
          
          
            
@@ -332,9 +362,9 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>hexo</tag>
-         
         <tag>github</tag>
+         
+        <tag>hexo</tag>
          
         <tag>tutorial</tag>
          
