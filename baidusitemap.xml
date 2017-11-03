@@ -4,38 +4,8 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-11-03T07:55:39.000Z</lastmod>
-    <data>
-        <display>
-        <title>2017-18 Open-Course Challenges</title>
-        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
-        
-        <tag>information_system</tag>
-         
-        <tag>study_plan</tag>
-         
-        <tag>statistics</tag>
-         
-        <tag>mathematics</tag>
-         
-        <tag>github</tag>
-         
-        <tag>materials</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.baoduge.com/SA_FN3/</loc>
-    <lastmod>2017-11-03T07:41:24.000Z</lastmod>
+    <lastmod>2017-11-03T08:12:09.000Z</lastmod>
     <data>
         <display>
         <title>Literature Review on Special Paper: Feature Engineering + Neural Network</title>
@@ -56,6 +26,36 @@
         <tag>twitter</tag>
          
         <tag>neural_network</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
+    <lastmod>2017-11-03T07:55:39.000Z</lastmod>
+    <data>
+        <display>
+        <title>2017-18 Open-Course Challenges</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>information_system</tag>
+         
+        <tag>study_plan</tag>
+         
+        <tag>statistics</tag>
+         
+        <tag>mathematics</tag>
+         
+        <tag>github</tag>
+         
+        <tag>materials</tag>
          
          
            
