@@ -4,8 +4,72 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/SA_FN3/</loc>
+    <lastmod>2017-11-03T07:37:26.000Z</lastmod>
+    <data>
+        <display>
+        <title>Literature Review on Special Paper</title>
+        <pubTime>2017-11-02T16:00:00.000Z</pubTime>
+        
+        <tag>research</tag>
+         
+        <tag>sentiment_analysis</tag>
+         
+        <tag>literature_review</tag>
+         
+        <tag>opinion_mining</tag>
+         
+        <tag>feature_engineering</tag>
+         
+        <tag>brand_marketing</tag>
+         
+        <tag>twitter</tag>
+         
+        <tag>neural_network</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/SA_FN/</loc>
+    <lastmod>2017-11-03T07:23:17.000Z</lastmod>
+    <data>
+        <display>
+        <title>Literature Review on UGC/WOM</title>
+        <pubTime>2017-10-30T16:00:00.000Z</pubTime>
+        
+        <tag>research</tag>
+         
+        <tag>information_system</tag>
+         
+        <tag>sentiment_analysis</tag>
+         
+        <tag>literature_review</tag>
+         
+        <tag>user_generated_content</tag>
+         
+        <tag>word_of_mouth</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/SA_FN2/</loc>
-    <lastmod>2017-11-02T14:32:55.000Z</lastmod>
+    <lastmod>2017-11-03T07:06:23.000Z</lastmod>
     <data>
         <display>
         <title>Literature Review on Social Media in Financial Market</title>
@@ -45,45 +109,15 @@
         
         <tag>information_system</tag>
          
-        <tag>github</tag>
-         
         <tag>study_plan</tag>
          
         <tag>statistics</tag>
          
         <tag>mathematics</tag>
          
+        <tag>github</tag>
+         
         <tag>materials</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/SA_FN/</loc>
-    <lastmod>2017-11-01T11:06:38.000Z</lastmod>
-    <data>
-        <display>
-        <title>Literature Review on UGC/WOM</title>
-        <pubTime>2017-10-30T16:00:00.000Z</pubTime>
-        
-        <tag>research</tag>
-         
-        <tag>information_system</tag>
-         
-        <tag>sentiment_analysis</tag>
-         
-        <tag>user_generated_content</tag>
-         
-        <tag>word_of_mouth</tag>
-         
-        <tag>literature_review</tag>
          
          
            
@@ -364,9 +398,9 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>hexo</tag>
-         
         <tag>github</tag>
+         
+        <tag>hexo</tag>
          
         <tag>tutorial</tag>
          
