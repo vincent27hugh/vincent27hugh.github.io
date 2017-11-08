@@ -4,6 +4,30 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/DL_hardware/</loc>
+    <lastmod>2017-11-08T08:49:26.000Z</lastmod>
+    <data>
+        <display>
+        <title>Deep Learning hardware</title>
+        <pubTime>2017-11-07T16:00:00.000Z</pubTime>
+        
+        <tag>deap_learning</tag>
+         
+        <tag>hardware</tag>
+         
+        <tag>tutorial</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
     <lastmod>2017-11-07T08:44:47.000Z</lastmod>
     <data>
@@ -11,8 +35,6 @@
         <title>2017-18 Open-Course Challenges</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>github</tag>
-         
         <tag>information_system</tag>
          
         <tag>study_plan</tag>
@@ -20,6 +42,8 @@
         <tag>statistics</tag>
          
         <tag>mathematics</tag>
+         
+        <tag>github</tag>
          
         <tag>materials</tag>
          
@@ -75,9 +99,9 @@
         <title>Literature Review on UGC/WOM</title>
         <pubTime>2017-10-30T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>research</tag>
          
         <tag>sentiment_analysis</tag>
          
@@ -105,9 +129,9 @@
         <title>Literature Review on Social Media in Financial Market</title>
         <pubTime>2017-11-01T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>research</tag>
          
         <tag>sentiment_analysis</tag>
          
@@ -184,9 +208,9 @@
         <title>Logs and Questions</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>study</tag>
-         
         <tag>research</tag>
+         
+        <tag>study</tag>
          
          
            
@@ -352,9 +376,9 @@
         <title>Resources of Information System Research</title>
         <pubTime>2017-10-23T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>research</tag>
          
          
            
@@ -398,11 +422,11 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>hexo</tag>
+        <tag>tutorial</tag>
          
         <tag>github</tag>
          
-        <tag>tutorial</tag>
+        <tag>hexo</tag>
          
          
            
