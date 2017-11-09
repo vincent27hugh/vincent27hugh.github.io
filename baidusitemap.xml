@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-11-08T09:00:50.000Z</lastmod>
+    <lastmod>2017-11-09T06:17:52.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges</title>
@@ -35,17 +35,17 @@
     
   <url>
     <loc>http://blog.baoduge.com/DL_hardware/</loc>
-    <lastmod>2017-11-08T08:53:04.000Z</lastmod>
+    <lastmod>2017-11-08T12:25:39.000Z</lastmod>
     <data>
         <display>
         <title>Deep Learning hardware</title>
         <pubTime>2017-11-07T16:00:00.000Z</pubTime>
         
+        <tag>tutorial</tag>
+         
         <tag>deap_learning</tag>
          
         <tag>hardware</tag>
-         
-        <tag>tutorial</tag>
          
          
            
@@ -105,11 +105,11 @@
          
         <tag>sentiment_analysis</tag>
          
-        <tag>literature_review</tag>
-         
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
+         
+        <tag>literature_review</tag>
          
          
            
@@ -422,11 +422,11 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>tutorial</tag>
-         
         <tag>github</tag>
          
         <tag>hexo</tag>
+         
+        <tag>tutorial</tag>
          
          
            
