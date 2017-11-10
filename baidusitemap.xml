@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
+    <lastmod>2017-11-10T08:08:07.000Z</lastmod>
+    <data>
+        <display>
+        <title>Logs and Questions</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>study</tag>
+         
+        <tag>research</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
     <lastmod>2017-11-10T07:55:58.000Z</lastmod>
     <data>
@@ -117,9 +139,9 @@
         <title>Resources of Information System Research</title>
         <pubTime>2017-10-23T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>research</tag>
          
          
            
@@ -204,28 +226,6 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
-    <lastmod>2017-11-10T07:28:03.000Z</lastmod>
-    <data>
-        <display>
-        <title>Logs and Questions</title>
-        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
-        
-        <tag>study</tag>
-         
-        <tag>research</tag>
-         
-         
-           
-             
-              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.baoduge.com/SA_FN3/</loc>
     <lastmod>2017-11-10T07:25:57.000Z</lastmod>
     <data>
@@ -267,9 +267,9 @@
         <title>Literature Review on Social Media in Financial Market</title>
         <pubTime>2017-11-01T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>research</tag>
          
         <tag>sentiment_analysis</tag>
          
@@ -299,9 +299,9 @@
         <title>Literature Review on UGC/WOM</title>
         <pubTime>2017-10-30T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>research</tag>
          
         <tag>sentiment_analysis</tag>
          
@@ -329,9 +329,9 @@
         <title>Can online scoring really reflects the rankings of products?</title>
         <pubTime>2017-10-29T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>notes</tag>
+         
+        <tag>research</tag>
          
         <tag>economics</tag>
          
@@ -448,9 +448,9 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>tutorial</tag>
-         
         <tag>github</tag>
+         
+        <tag>tutorial</tag>
          
         <tag>hexo</tag>
          
