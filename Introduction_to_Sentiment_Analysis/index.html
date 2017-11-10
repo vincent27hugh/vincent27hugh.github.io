@@ -111,7 +111,7 @@
 <meta property="og:locale" content="en">
 <meta property="og:image" content="http://blog.baoduge.com/images/social_media2.jpg">
 <meta property="og:image" content="http://blog.baoduge.com/images/emotion.jpg">
-<meta property="og:updated_time" content="2017-10-26T07:01:56.000Z">
+<meta property="og:updated_time" content="2017-11-10T07:43:11.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Introduction to Sentiment Analysis">
 <meta name="twitter:description" content="This is an introduction to the Sentiment Analysis.">
@@ -438,28 +438,28 @@
 
       
         <p>Hello, everyone! Today I&#x2019;m going to introduce some basic ideas about the sentiment analysis.</p>
-<h1 id="How-can-you-know-what-other-people-are-thinking"><a href="#How-can-you-know-what-other-people-are-thinking" class="headerlink" title="How can you know what other people are thinking?"></a>How can you know what other people are thinking?</h1><p>We can judge from the gesture or facial experssion (Facial Recognition) and we can also talk with them, give them a call or email/texting them (Natural Language). We can extract different kind of information from different information channels.</p>
+<h1 id="How-can-you-know-what-other-people-are-thinking"><a href="#How-can-you-know-what-other-people-are-thinking" class="headerlink" title="How can you know what other people are thinking?"></a>How can you know what other people are thinking?</h1><p>We can judge from the gesture or facial expression (Facial Recognition) and we can also talk with them, give them a call or email/text them (Natural Language). We can extract different kind of information from different information channels.</p>
 <p>In sentiment analysis, we are supposed to deal with the natural language (unstructured data). We extract other peoples&#x2019; opinion from words, sentences or documents.</p>
 <h1 id="What&#x2019;s-sentiment-analysis"><a href="#What&#x2019;s-sentiment-analysis" class="headerlink" title="What&#x2019;s sentiment analysis"></a>What&#x2019;s sentiment analysis</h1><p>It&#x2019;s a computational treatment to identify, extract, quantify and study affective states and subjective information, from which we can take use of some models and algorithms to compute.<sup><a href="#fn_1" id="reffn_1">1</a></sup></p>
 <blockquote>
-<p>Affective state means the moods, feelings or attitues.</p>
+<p>Affective state means the moods, feelings or attitudes.</p>
 <p>Subjective information means the information based on personal feelings.</p>
 </blockquote>
 <h1 id="Terminologies"><a href="#Terminologies" class="headerlink" title="Terminologies"></a>Terminologies</h1><p>Before I describe the details, I&#x2019;d like to explain quintuple terminologies.<sup><a href="#fn_3" id="reffn_3">3</a></sup></p>
 <ol>
-<li><strong>The target entity</strong> is the object that we describe, such as the opinion on Micael Jackson.</li>
+<li><strong>The target entity</strong> is the object that we describe, such as the opinion on Michael Jackson.</li>
 <li><strong>Aspect or feature of the entity</strong> is an attribute or component of an entity, such as the screen of a cell phone.</li>
 <li><strong>Opinion holder</strong> is the person who expresses the opinion.</li>
 <li><strong>The time</strong> is the when the opinion is expressed.</li>
-<li><em>The polarity or sentiment value*</em> can be defined as positive, neutral and negtive. Sometimes, we can use score to assess the sentiment.</li>
+<li><em>The polarity or sentiment value*</em> can be defined as positive, neutral and negative. Sometimes, we can use score to assess the sentiment.</li>
 </ol>
-<h1 id="History-of-WWW-social-media-big-data"><a href="#History-of-WWW-social-media-big-data" class="headerlink" title="History of WWW, social media, big data"></a>History of WWW, social media, big data</h1><p>As World Wide Web was invented in 1989, there emerged numerous information on the web where we can easily get. With the birth of social media in around 2004, we entered into the era of Web 2.0. More and more user-generated contents, which are also opinion rich contents, become accessible: the online reviews, the microblogging, the comments on items and so on. We can say that it is a really chanllenging task to mining the opinion online with such kind of large amount of data.</p>
+<h1 id="History-of-WWW-social-media-big-data"><a href="#History-of-WWW-social-media-big-data" class="headerlink" title="History of WWW, social media, big data"></a>History of WWW, social media, big data</h1><p>As World Wide Web was invented in 1989, there emerged numerous information on the web where we can easily get. With the birth of social media in around 2004, we entered into the era of Web 2.0. More and more user-generated contents, which are also opinion rich contents, become accessible: the online reviews, the microblogging, the comments on items and so on. We can say that it is a really challenging task to mining the opinion online with such kind of large amount of data.</p>
 <p>Figure 1<sup><a href="#fn_2" id="reffn_2">2</a></sup>:<br><img src="/images/social_media2.jpg" alt="figure_1"></p>
 <p>However, with the development of some technologies such as distributed system, and the increasing computational capacity of computers, it become achievable to mining opinion online.</p>
 <h1 id="Types"><a href="#Types" class="headerlink" title="Types"></a>Types</h1><p>The basic task of sentiment analysis is classify the opinion of the opinion holder on some entities. Based on the classification task, we can group the sentiment analysis as such several types.<sup><a href="#fn_1" id="reffn_1">1</a></sup></p>
 <ul>
 <li>If the sentiment value is binary or ternary, such as positive, negative and neutral, we can say that it&#x2019;s polarity type of sentiment analysis.</li>
-<li>If the sentiment value is diverse (for example, angry, sad and happy), we can say that it&#x2019;s emotional state type. In figure 2, there are really lots of level of emotional state. Generally, we use 6~20 disctinct emotional states.</li>
+<li>If the sentiment value is diverse (for example, angry, sad and happy), we can say that it&#x2019;s emotional state type. In figure 2, there are really lots of level of emotional state. Generally, we use 6~20 distinctive emotional states.</li>
 <li>If we would like to classify the text into objective or subjective, we can say that it is a subjectivity and objectivity identification type.</li>
 </ul>
 <p>Figure 2<sup><a href="#fn_4" id="reffn_4">4</a></sup>:<br><img src="/images/emotion.jpg" alt="figure_2"></p>
@@ -468,8 +468,8 @@
 <p>What&#x2019;s more, sentiment analysis can also be a component in other technologies. For example:</p>
 <ul>
 <li>Recommendation system - the website can recommend some product or music to you based on your history of opinions.</li>
-<li>Detection of &#x201C;flames&#x201D; - the emial system can detect the emails with overly heated or sensitive or inappropriate content.</li>
-<li>In Question answering system, opinion-oriented questions may require different treatment. For example, if you ask Siri, Do you like doing presentation in the morning of sunday. It would give you the answer.</li>
+<li>Detection of &#x201C;flames&#x201D; - the email system can detect the emails with overly heated or sensitive or inappropriate content.</li>
+<li>In Question answering system, opinion-oriented questions may require different treatment. For example, if you ask Siri, Do you like doing presentation in the morning of Sunday. It would give you the answer.</li>
 </ul>
 <p>For the Business Intelligence &amp; Government Intelligence, sentiment analysis can be used for:</p>
 <ul>
@@ -487,8 +487,8 @@
 
 
 
-<p>The #1~#4 is obvious. But the #5 and #6 might be a little bit tricky. Based on English grammer, they are double negation. But in spoken english, it can still express negation.</p>
-<p>For the #11, there is negative word in the positive sentense. If we just use lexicon to count the positive word or negative words, sometimes we might get into trouble.</p>
+<p>The #1~#4 is obvious. But the #5 and #6 might be a little bit tricky. Based on English grammar, they are double negation. But in spoken English, it can still express negation.</p>
+<p>For the #11, there is negative word in the positive sentence. If we just use lexicon to count the positive word or negative words, sometimes we might get into trouble.</p>
 <p>For the #12, <strong>decadent</strong> means <code>moral or cultural decline</code>, which is a negative word. However, the decadent dessert is a kind of dessert. Like this figure.</p>
 <p>And for the #14, there is a multilingual problem. <code>koide9</code> is homophonic with &#x2018;Quoi de neuf&#x2019; in French, which means &#x2018;What&#x2019;s up&#x2019; in English. It is a very popular Internet slang on Twitter even in the English environment. However, newly minted terms can be highly attitudinal but volatile in polarity and often out of known vocabulary.</p>
 <h1 id="General-Challenges6"><a href="#General-Challenges6" class="headerlink" title="General Challenges6"></a>General Challenges<sup><a href="#fn_6" id="reffn_6">6</a></sup></h1><p>The roots of sentiment analysis is said to be in the studies on public opinion analysis at the beginning of 20th century and performed by the computational linguistics community in 1990&#x2019;s. Even though, studies on sentiment analysis has developed for around 30 years. There are still lots of challenges. We can have a taste on the difficulties of sentiment analysis from previous task.</p>
@@ -500,10 +500,10 @@
 <li>NLP Overheads (Ambiguity/Short Abbreviations/Sacasm&#x2026;)</li>
 <li>World knowledge</li>
 <li>Negation</li>
-<li>Domain dependance</li>
+<li>Domain dependence</li>
 <li>Spam and fake</li>
 </ul>
-<h1 id="Knowledge-based-techniques"><a href="#Knowledge-based-techniques" class="headerlink" title="Knowledge-based techniques"></a>Knowledge-based techniques</h1><p>First of all, I&#x2019;ll introduce one of the mainly used techniques, which is knowledge-based techniqeus. Based on the knowledge we have, we can artificially classify some affect word and label them, such as positive or negative.</p>
+<h1 id="Knowledge-based-techniques"><a href="#Knowledge-based-techniques" class="headerlink" title="Knowledge-based techniques"></a>Knowledge-based techniques</h1><p>First of all, I&#x2019;ll introduce one of the mainly used techniques, which is knowledge-based techniques. Based on the knowledge we have, we can artificially classify some affect word and label them, such as positive or negative.</p>
 <p>Tokenization is splitting a string into its desired constituent parts. (Read more on <a href="https://en.wikipedia.org/wiki/Lexical_analysis#Tokenization" target="_blank" rel="external">Wikipedia: Lexical analysis</a>)</p>
 <p>In <a href="https://en.wikipedia.org/wiki/Bag-of-words_model" target="_blank" rel="external">Bag of word model</a>, a text (such as a sentence or a document) is represented as the bag (multiset) of its words, disregarding grammar and even word order but keeping multiplicity.</p>
 <p>For example,</p>
@@ -522,18 +522,18 @@
 &quot;football&quot;,
 &quot;games&quot;
 ]
-</code></pre><p>And based on the <code>#occurance</code> of the word in the lexicon, we get a vector.</p>
+</code></pre><p>And based on the <code>#occurrence</code> of the word in the lexicon, we get a vector.</p>
 <pre><code>(1) [1, 2, 1, 1, 2, 1, 1, 0, 0, 0]
 (2) [1, 1, 1, 1, 0, 0, 0, 1, 1, 1]
 </code></pre><p>And then we can use some model such <a href="https://en.wikipedia.org/wiki/Naive_Bayes_classifier" target="_blank" rel="external">navie bayes classifier</a> to classify the text. It is successfully applied in email filtering.</p>
 <h1 id="Statistical-Method"><a href="#Statistical-Method" class="headerlink" title="Statistical Method"></a>Statistical Method</h1><p>After the <strong>tokenization</strong> and <strong>vectorization</strong>, we get the vectors of the text. Then generally we would use machine learning techniques.</p>
 <ul>
-<li><p><strong>Supervised learning</strong> is the method with specific labeled data for training. For example, if we have a bunch of documents and we already manully labeled the sentiment values of the text, we can take use of models such as <a href="https://en.wikipedia.org/wiki/Support_vector_machine" target="_blank" rel="external">Support Vector Machine</a> to do the classification task.</p>
+<li><p><strong>Supervised learning</strong> is the method with specific labeled data for training. For example, if we have a bunch of documents and we already manually labeled the sentiment values of the text, we can take use of models such as <a href="https://en.wikipedia.org/wiki/Support_vector_machine" target="_blank" rel="external">Support Vector Machine</a> to do the classification task.</p>
 </li>
-<li><p><strong>Unsupervised Learning</strong> is the method for data without labels, such as <a href="https://en.wikipedia.org/wiki/Latent_semantic_analysis" target="_blank" rel="external">Latent Sementic Analysis (LSA)</a>. LSA is similar to <a href="https://en.wikipedia.org/wiki/Principal_component_analysis" target="_blank" rel="external">Principle Component Analysis</a> and can get the eigenvectors of the text vis <a href="https://en.wikipedia.org/wiki/Singular_value_decomposition" target="_blank" rel="external">Singular Value Decomposition</a>. After selecting the main top eigenvectors, we can analyze a set of concepts (such as <code>topics</code>) related to the text.</p>
+<li><p><strong>Unsupervised Learning</strong> is the method for data without labels, such as <a href="https://en.wikipedia.org/wiki/Latent_semantic_analysis" target="_blank" rel="external">Latent Semantic Analysis (LSA)</a>. LSA is similar to <a href="https://en.wikipedia.org/wiki/Principal_component_analysis" target="_blank" rel="external">Principle Component Analysis</a> and can get the eigenvectors of the text vis <a href="https://en.wikipedia.org/wiki/Singular_value_decomposition" target="_blank" rel="external">Singular Value Decomposition</a>. After selecting the main top eigenvectors, we can analyze a set of concepts (such as <code>topics</code>) related to the text.</p>
 </li>
 </ul>
-<h1 id="Usefule-resources7"><a href="#Usefule-resources7" class="headerlink" title="Usefule resources7"></a>Usefule resources<sup><a href="#fn_7" id="reffn_7">7</a></sup></h1><h2 id="Tools-amp-Packages"><a href="#Tools-amp-Packages" class="headerlink" title="Tools &amp; Packages"></a>Tools &amp; Packages</h2><ul>
+<h1 id="Useful-resources7"><a href="#Useful-resources7" class="headerlink" title="Useful resources7"></a>Useful resources<sup><a href="#fn_7" id="reffn_7">7</a></sup></h1><h2 id="Tools-amp-Packages"><a href="#Tools-amp-Packages" class="headerlink" title="Tools &amp; Packages"></a>Tools &amp; Packages</h2><ul>
 <li><a href="http://www.nltk.org/" target="_blank" rel="external">Python - NLTK (Natural Language Toolkit)</a></li>
 <li><a href="http://cran.r-project.org/web/packages/tm/index.html" target="_blank" rel="external">R - TM (text mining) module</a></li>
 <li><a href="http://rapid-i.com/content/view/184/196/" target="_blank" rel="external">RapidMiner</a></li>
@@ -905,7 +905,7 @@ show_date_time();
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#How-can-you-know-what-other-people-are-thinking"><span class="nav-number">1.</span> <span class="nav-text">How can you know what other people are thinking?</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#What’s-sentiment-analysis"><span class="nav-number">2.</span> <span class="nav-text">What’s sentiment analysis</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Terminologies"><span class="nav-number">3.</span> <span class="nav-text">Terminologies</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#History-of-WWW-social-media-big-data"><span class="nav-number">4.</span> <span class="nav-text">History of WWW, social media, big data</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Types"><span class="nav-number">5.</span> <span class="nav-text">Types</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Applications"><span class="nav-number">6.</span> <span class="nav-text">Applications</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Task"><span class="nav-number">7.</span> <span class="nav-text">Task</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#General-Challenges6"><span class="nav-number">8.</span> <span class="nav-text">General Challenges6</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Knowledge-based-techniques"><span class="nav-number">9.</span> <span class="nav-text">Knowledge-based techniques</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Statistical-Method"><span class="nav-number">10.</span> <span class="nav-text">Statistical Method</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Usefule-resources7"><span class="nav-number">11.</span> <span class="nav-text">Usefule resources7</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Tools-amp-Packages"><span class="nav-number">11.1.</span> <span class="nav-text">Tools & Packages</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Some-Corporas-amp-Datasets"><span class="nav-number">11.2.</span> <span class="nav-text">Some Corporas & Datasets</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Some-Projects"><span class="nav-number">11.3.</span> <span class="nav-text">Some Projects</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#More"><span class="nav-number">11.4.</span> <span class="nav-text">More</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#How-can-you-know-what-other-people-are-thinking"><span class="nav-number">1.</span> <span class="nav-text">How can you know what other people are thinking?</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#What’s-sentiment-analysis"><span class="nav-number">2.</span> <span class="nav-text">What’s sentiment analysis</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Terminologies"><span class="nav-number">3.</span> <span class="nav-text">Terminologies</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#History-of-WWW-social-media-big-data"><span class="nav-number">4.</span> <span class="nav-text">History of WWW, social media, big data</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Types"><span class="nav-number">5.</span> <span class="nav-text">Types</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Applications"><span class="nav-number">6.</span> <span class="nav-text">Applications</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Task"><span class="nav-number">7.</span> <span class="nav-text">Task</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#General-Challenges6"><span class="nav-number">8.</span> <span class="nav-text">General Challenges6</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Knowledge-based-techniques"><span class="nav-number">9.</span> <span class="nav-text">Knowledge-based techniques</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Statistical-Method"><span class="nav-number">10.</span> <span class="nav-text">Statistical Method</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Useful-resources7"><span class="nav-number">11.</span> <span class="nav-text">Useful resources7</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Tools-amp-Packages"><span class="nav-number">11.1.</span> <span class="nav-text">Tools & Packages</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Some-Corporas-amp-Datasets"><span class="nav-number">11.2.</span> <span class="nav-text">Some Corporas & Datasets</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Some-Projects"><span class="nav-number">11.3.</span> <span class="nav-text">Some Projects</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#More"><span class="nav-number">11.4.</span> <span class="nav-text">More</span></a></li></ol></li></ol></div>
             
 
           </div>

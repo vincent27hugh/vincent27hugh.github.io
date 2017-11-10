@@ -109,7 +109,7 @@
 <meta property="og:site_name" content="NEVERLAND">
 <meta property="og:description" content="A Matlab program to search for citation for a pdf paper and rename it.">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2017-10-26T07:01:14.000Z">
+<meta property="og:updated_time" content="2017-11-10T07:38:56.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Using MATLAB to batch search #citation of IS papers">
 <meta name="twitter:description" content="A Matlab program to search for citation for a pdf paper and rename it.">
@@ -434,10 +434,10 @@
       
 
       
-        <h2 id="Purpose"><a href="#Purpose" class="headerlink" title="Purpose"></a>Purpose</h2><p>There is one course which requires us to do research on the methods and theories of some specific period of time. And we need to read all of the papers issued on the top journals in the target period. After briefly browsing, I found that I need to read about 100 papers which is frankly impossible to be done in just two weeks. </p>
-<p>Then I just want to know the <code>current citation numbers</code> of this bunch of papers, which can make it easier to decide which one is more worth to read at first. Then I did some work on MATLAB and hope it can help you.<strong><a href="https://github.com/vincent27hugh/Google_Citation" target="_blank" rel="external">Sepecific Code here</a></strong></p>
+        <h2 id="Purpose"><a href="#Purpose" class="headerlink" title="Purpose"></a>Purpose</h2><p>There is one course which requires us to do research on the methods and theories of some specific period of time. And we need to read all of the papers issued on the top journals in the target period. After briefly browsing, I found that I need to read about 100 papers which is frankly impossible to be done in just two weeks.</p>
+<p>Then I just want to know the <code>current citation numbers</code> of this bunch of papers, which can make it easier to decide which one is more worth to read at first. Then I did some work on MATLAB and hope it can help you.<strong><a href="https://github.com/vincent27hugh/Google_Citation" target="_blank" rel="external">Specific Code here</a></strong></p>
 <h2 id="Basic-info"><a href="#Basic-info" class="headerlink" title="Basic info"></a>Basic info</h2><ol>
-<li>Version: 1.0 </li>
+<li>Version: 1.0</li>
 <li>Copyright: HU WEI</li>
 <li>Date: 2017-09-18</li>
 <li>Method: Use MATLAB</li>
@@ -453,8 +453,8 @@
 <li><code>google2link.m</code> is built on the basis of Fahad Al Mahmood&#x2019;s work &#x2018;google.m&#x2019;, please refer to <a href="https://www.mathworks.com/matlabcentral/fileexchange/6535-google" target="_blank" rel="external">google by Fahad Al Mahmood on File Exchange</a></li>
 <li>About <code>pdfRead.m</code>, I should totally give credit to Derek Wood. Please refer to <a href="https://www.mathworks.com/matlabcentral/fileexchange/63615-read-text-from-a-pdf-document" target="_blank" rel="external">Read text from a PDF document by Derek Wood|File Exchange</a></li>
 </ol>
-<h2 id="Prerequisites&#xFF1A;"><a href="#Prerequisites&#xFF1A;" class="headerlink" title="Prerequisites&#xFF1A;"></a>Prerequisites&#xFF1A;</h2><ol>
-<li>Make a new folder named <code>PDF files</code> and move the PDF files that you want to search for their academic catations in this folder.</li>
+<h2 id="Prerequisites"><a href="#Prerequisites" class="headerlink" title="Prerequisites:"></a>Prerequisites:</h2><ol>
+<li>Make a new folder named <code>PDF files</code> and move the PDF files that you want to search for their academic citations in this folder.</li>
 <li>Make sure that your network is open;</li>
 <li>This <code>google_citation.m</code> can only recognize 3 journals paper:</li>
 </ol>
@@ -463,18 +463,18 @@
 <li>[X] INFORMS Journal of Computing</li>
 <li>[X] Information System Research</li>
 </ul>
-<h2 id="Usage&#xFF1A;"><a href="#Usage&#xFF1A;" class="headerlink" title="Usage&#xFF1A;"></a>Usage&#xFF1A;</h2><ol>
+<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage:"></a>Usage:</h2><ol>
 <li>Run <code>Google_Citation.m</code> file and you will get:</li>
 </ol>
 <ul>
-<li><code>citation.mat</code> data file which stores the title and ciataion # of the </li>
+<li><code>citation.mat</code> data file which stores the title and ciataion # of the</li>
 <li><code>Ciatation</code> folder which stores the renamed PDF files in the format as <code>Citation #-Old name.pdf</code>;</li>
 </ul>
 <ol>
 <li>If you want to load the data <code>citation.mat</code> file to check the data, you can turn to <code>import_demo.m</code> as reference;</li>
 </ol>
 <h2 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h2><ol>
-<li><p>Sometimes the google scholar need you to verify that you are not robot. Just like the error as follow:</p>
+<li><p>Sometimes the Google scholar need you to verify that you are not robot. Just like the error as follow:</p>
 <p> The server returned the message: &#x201C;Service Unavailable&#x201D; for URL,<br> &#x2018;<a href="http://scholar.google.com/scholar?q=Setup+and+Open-Stacks+Minimization+in+One-Dimensional+Stock+Cutting" target="_blank" rel="external">http://scholar.google.com/scholar?q=Setup+and+Open-Stacks+Minimization+in+One-Dimensional+Stock+Cutting</a>.&#x2019;<br> (with HTTP response code 503).</p>
 </li>
 </ol>
@@ -484,7 +484,7 @@
 </blockquote>
 <p>You may need to try again later.</p>
 <h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2><ul>
-<li>Use Text Mining Techniques to recognize &#x2018;titile&#x2019;, &#x2018;author&#x2019; and some other segment automatically</li>
+<li>Use Text Mining Techniques to recognize &#x2018;title&#x2019;, &#x2018;author&#x2019; and some other segment automatically</li>
 <li>Convert to Python</li>
 <li>Build an API</li>
 </ul>
@@ -820,7 +820,7 @@ show_date_time();
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Purpose"><span class="nav-number">1.</span> <span class="nav-text">Purpose</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Basic-info"><span class="nav-number">2.</span> <span class="nav-text">Basic info</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Acknowledge"><span class="nav-number">3.</span> <span class="nav-text">Acknowledge</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Prerequisites："><span class="nav-number">4.</span> <span class="nav-text">Prerequisites：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Usage："><span class="nav-number">5.</span> <span class="nav-text">Usage：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Others"><span class="nav-number">6.</span> <span class="nav-text">Others</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#TODO"><span class="nav-number">7.</span> <span class="nav-text">TODO</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Purpose"><span class="nav-number">1.</span> <span class="nav-text">Purpose</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Basic-info"><span class="nav-number">2.</span> <span class="nav-text">Basic info</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Acknowledge"><span class="nav-number">3.</span> <span class="nav-text">Acknowledge</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Prerequisites"><span class="nav-number">4.</span> <span class="nav-text">Prerequisites:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Usage"><span class="nav-number">5.</span> <span class="nav-text">Usage:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Others"><span class="nav-number">6.</span> <span class="nav-text">Others</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#TODO"><span class="nav-number">7.</span> <span class="nav-text">TODO</span></a></li></ol></div>
             
 
           </div>

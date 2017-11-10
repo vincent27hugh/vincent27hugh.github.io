@@ -4,8 +4,156 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/virtualenv_tensorflow/</loc>
+    <lastmod>2017-11-10T07:45:48.000Z</lastmod>
+    <data>
+        <display>
+        <title>virtualenv+tensorflow初体验</title>
+        <pubTime>2017-10-12T16:00:00.000Z</pubTime>
+        
+        <tag>machine_learning</tag>
+         
+        <tag>python</tag>
+         
+        <tag>deep_learning</tag>
+         
+        <tag>virtualenv</tag>
+         
+        <tag>virtualwrapper</tag>
+         
+        <tag>tensorflow</tag>
+         
+        <tag>tflearn</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/Terminal_tutorial/</loc>
+    <lastmod>2017-11-10T07:45:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>Linux/Mac Terminal Tutorial</title>
+        <pubTime>2017-10-24T16:00:00.000Z</pubTime>
+        
+        <tag>tutorial</tag>
+         
+        <tag>terminal</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/Robo_Advisor_Introduction/</loc>
+    <lastmod>2017-11-10T07:45:04.000Z</lastmod>
+    <data>
+        <display>
+        <title>Robo-Advisor Introduction</title>
+        <pubTime>2017-09-13T16:00:00.000Z</pubTime>
+        
+        <tag>robo_advisor</tag>
+         
+        <tag>fintech</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/IS_reseources/</loc>
+    <lastmod>2017-11-10T07:43:50.000Z</lastmod>
+    <data>
+        <display>
+        <title>Resources of Information System Research</title>
+        <pubTime>2017-10-23T16:00:00.000Z</pubTime>
+        
+        <tag>information_system</tag>
+         
+        <tag>research</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/Introduction_to_Sentiment_Analysis/</loc>
+    <lastmod>2017-11-10T07:43:11.000Z</lastmod>
+    <data>
+        <display>
+        <title>Introduction to Sentiment Analysis</title>
+        <pubTime>2017-10-22T16:00:00.000Z</pubTime>
+        
+        <tag>sentiment_analysis</tag>
+         
+        <tag>natural_language_processing</tag>
+         
+        <tag>machine_learning</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/gogle_citation_isr/</loc>
+    <lastmod>2017-11-10T07:38:56.000Z</lastmod>
+    <data>
+        <display>
+        <title>Using MATLAB to batch search #citation of IS papers</title>
+        <pubTime>2017-09-18T16:00:00.000Z</pubTime>
+        
+        <tag>information_system</tag>
+         
+        <tag>matlab</tag>
+         
+        <tag>google_scholar</tag>
+         
+        <tag>reference</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/CUHK_DSME6622_Lec2/</loc>
-    <lastmod>2017-11-10T07:30:30.000Z</lastmod>
+    <lastmod>2017-11-10T07:37:47.000Z</lastmod>
     <data>
         <display>
         <title>Experiments in IS research</title>
@@ -127,11 +275,11 @@
          
         <tag>sentiment_analysis</tag>
          
+        <tag>literature_review</tag>
+         
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
-         
-        <tag>literature_review</tag>
          
          
            
@@ -151,9 +299,9 @@
         <title>Can online scoring really reflects the rankings of products?</title>
         <pubTime>2017-10-29T16:00:00.000Z</pubTime>
         
-        <tag>notes</tag>
-         
         <tag>research</tag>
+         
+        <tag>notes</tag>
          
         <tag>economics</tag>
          
@@ -223,38 +371,6 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/virtualenv_tensorflow/</loc>
-    <lastmod>2017-10-26T07:03:13.000Z</lastmod>
-    <data>
-        <display>
-        <title>virtualenv+tensorflow初体验</title>
-        <pubTime>2017-10-12T16:00:00.000Z</pubTime>
-        
-        <tag>machine_learning</tag>
-         
-        <tag>python</tag>
-         
-        <tag>deep_learning</tag>
-         
-        <tag>virtualenv</tag>
-         
-        <tag>virtualwrapper</tag>
-         
-        <tag>tensorflow</tag>
-         
-        <tag>tflearn</tag>
-         
-         
-           
-             
-              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.baoduge.com/Use_ST3_manage_reference/</loc>
     <lastmod>2017-10-26T07:03:04.000Z</lastmod>
     <data>
@@ -270,28 +386,6 @@
            
              
               <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/Terminal_tutorial/</loc>
-    <lastmod>2017-10-26T07:02:55.000Z</lastmod>
-    <data>
-        <display>
-        <title>Linux/Mac Terminal Tutorial</title>
-        <pubTime>2017-10-24T16:00:00.000Z</pubTime>
-        
-        <tag>tutorial</tag>
-         
-        <tag>terminal</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
           
         </display>
     </data>
@@ -325,28 +419,6 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/Robo_Advisor_Introduction/</loc>
-    <lastmod>2017-10-26T07:02:38.000Z</lastmod>
-    <data>
-        <display>
-        <title>Robo-Advisor Introduction</title>
-        <pubTime>2017-09-13T16:00:00.000Z</pubTime>
-        
-        <tag>robo_advisor</tag>
-         
-        <tag>fintech</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.baoduge.com/R_science_computing/</loc>
     <lastmod>2017-10-26T07:02:27.000Z</lastmod>
     <data>
@@ -362,52 +434,6 @@
            
              
               <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/IS_reseources/</loc>
-    <lastmod>2017-10-26T07:02:05.000Z</lastmod>
-    <data>
-        <display>
-        <title>Resources of Information System Research</title>
-        <pubTime>2017-10-23T16:00:00.000Z</pubTime>
-        
-        <tag>information_system</tag>
-         
-        <tag>research</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/Introduction_to_Sentiment_Analysis/</loc>
-    <lastmod>2017-10-26T07:01:56.000Z</lastmod>
-    <data>
-        <display>
-        <title>Introduction to Sentiment Analysis</title>
-        <pubTime>2017-10-22T16:00:00.000Z</pubTime>
-        
-        <tag>sentiment_analysis</tag>
-         
-        <tag>natural_language_processing</tag>
-         
-        <tag>machine_learning</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
           
         </display>
     </data>
@@ -432,32 +458,6 @@
            
              
               <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/gogle_citation_isr/</loc>
-    <lastmod>2017-10-26T07:01:14.000Z</lastmod>
-    <data>
-        <display>
-        <title>Using MATLAB to batch search #citation of IS papers</title>
-        <pubTime>2017-09-18T16:00:00.000Z</pubTime>
-        
-        <tag>information_system</tag>
-         
-        <tag>matlab</tag>
-         
-        <tag>google_scholar</tag>
-         
-        <tag>reference</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
           
         </display>
     </data>

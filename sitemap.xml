@@ -2,9 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.baoduge.com/virtualenv_tensorflow/</loc>
+    
+    <lastmod>2017-11-10T07:45:48.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.baoduge.com/Terminal_tutorial/</loc>
+    
+    <lastmod>2017-11-10T07:45:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.baoduge.com/Robo_Advisor_Introduction/</loc>
+    
+    <lastmod>2017-11-10T07:45:04.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.baoduge.com/IS_reseources/</loc>
+    
+    <lastmod>2017-11-10T07:43:50.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.baoduge.com/Introduction_to_Sentiment_Analysis/</loc>
+    
+    <lastmod>2017-11-10T07:43:11.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.baoduge.com/gogle_citation_isr/</loc>
+    
+    <lastmod>2017-11-10T07:38:56.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.baoduge.com/CUHK_DSME6622_Lec2/</loc>
     
-    <lastmod>2017-11-10T07:30:30.000Z</lastmod>
+    <lastmod>2017-11-10T07:37:47.000Z</lastmod>
     
   </url>
   
@@ -58,23 +100,9 @@
   </url>
   
   <url>
-    <loc>http://blog.baoduge.com/virtualenv_tensorflow/</loc>
-    
-    <lastmod>2017-10-26T07:03:13.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://blog.baoduge.com/Use_ST3_manage_reference/</loc>
     
     <lastmod>2017-10-26T07:03:04.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.baoduge.com/Terminal_tutorial/</loc>
-    
-    <lastmod>2017-10-26T07:02:55.000Z</lastmod>
     
   </url>
   
@@ -86,13 +114,6 @@
   </url>
   
   <url>
-    <loc>http://blog.baoduge.com/Robo_Advisor_Introduction/</loc>
-    
-    <lastmod>2017-10-26T07:02:38.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://blog.baoduge.com/R_science_computing/</loc>
     
     <lastmod>2017-10-26T07:02:27.000Z</lastmod>
@@ -100,30 +121,9 @@
   </url>
   
   <url>
-    <loc>http://blog.baoduge.com/IS_reseources/</loc>
-    
-    <lastmod>2017-10-26T07:02:05.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.baoduge.com/Introduction_to_Sentiment_Analysis/</loc>
-    
-    <lastmod>2017-10-26T07:01:56.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://blog.baoduge.com/Hexo/</loc>
     
     <lastmod>2017-10-26T07:01:47.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.baoduge.com/gogle_citation_isr/</loc>
-    
-    <lastmod>2017-10-26T07:01:14.000Z</lastmod>
     
   </url>
   
