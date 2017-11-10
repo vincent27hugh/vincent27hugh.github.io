@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-11-10T11:55:23.000Z</lastmod>
+    <lastmod>2017-11-10T11:58:48.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges</title>
@@ -305,11 +305,11 @@
          
         <tag>sentiment_analysis</tag>
          
-        <tag>literature_review</tag>
-         
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
+         
+        <tag>literature_review</tag>
          
          
            
@@ -354,11 +354,11 @@
         <title>Deep Learning hardware</title>
         <pubTime>2017-11-07T16:00:00.000Z</pubTime>
         
+        <tag>tutorial</tag>
+         
         <tag>deap_learning</tag>
          
         <tag>hardware</tag>
-         
-        <tag>tutorial</tag>
          
          
            
@@ -450,9 +450,9 @@
         
         <tag>github</tag>
          
-        <tag>tutorial</tag>
-         
         <tag>hexo</tag>
+         
+        <tag>tutorial</tag>
          
          
            
