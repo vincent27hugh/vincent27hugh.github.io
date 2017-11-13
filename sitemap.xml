@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
+    
+    <lastmod>2017-11-13T13:20:48.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.baoduge.com/GM_Notes/</loc>
     
-    <lastmod>2017-11-13T07:29:48.000Z</lastmod>
+    <lastmod>2017-11-13T07:30:42.000Z</lastmod>
     
   </url>
   
@@ -12,13 +19,6 @@
     <loc>http://blog.baoduge.com/Mendeley/</loc>
     
     <lastmod>2017-11-12T05:20:25.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    
-    <lastmod>2017-11-10T12:56:21.000Z</lastmod>
     
   </url>
   
