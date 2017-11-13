@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
-    <lastmod>2017-11-13T13:42:05.000Z</lastmod>
+    <lastmod>2017-11-13T13:44:22.000Z</lastmod>
     <data>
         <display>
         <title>Logs and Questions</title>
@@ -259,9 +259,9 @@
         <title>Experiments in IS research</title>
         <pubTime>2017-09-10T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>notes</tag>
+         
+        <tag>information_system</tag>
          
          
            
@@ -353,11 +353,11 @@
          
         <tag>sentiment_analysis</tag>
          
+        <tag>literature_review</tag>
+         
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
-         
-        <tag>literature_review</tag>
          
          
            

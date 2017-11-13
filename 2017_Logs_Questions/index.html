@@ -109,7 +109,7 @@
 <meta property="og:site_name" content="NEVERLAND">
 <meta property="og:description" content="This is the daily logs of my research and study.">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2017-11-13T13:42:05.000Z">
+<meta property="og:updated_time" content="2017-11-13T13:44:22.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Logs and Questions">
 <meta name="twitter:description" content="This is the daily logs of my research and study.">
@@ -624,10 +624,14 @@
 </ul>
 <h3 id="2017-11-13"><a href="#2017-11-13" class="headerlink" title="2017-11-13"></a>2017-11-13</h3><p>&#x6839;&#x636E;<a href="http://shenzekun.cn/hexo%E7%9A%84next%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B.html" target="_blank" rel="external">hexo&#x7684;next&#x4E3B;&#x9898;&#x4E2A;&#x6027;&#x5316;&#x6559;&#x7A0B;:&#x6253;&#x9020;&#x70AB;&#x9177;&#x7F51;&#x7AD9;-26. &#x535A;&#x6587;&#x7F6E;&#x9876;</a>&#x6DFB;&#x52A0;&#x535A;&#x6587;&#x7F6E;&#x9876;&#x529F;&#x80FD;&#x3002;</p>
 <p>&#x5C06;<code>node_modules/hexo-generator-index/lib/generator.js</code>&#x4ECE;</p>
-<p>  &#x2018;use strict&#x2019;;</p>
-<p>  var pagination = require(&#x2018;hexo-pagination&#x2019;);</p>
-<p>  module.exports = function(locals) {<br>    var config = this.config;<br>    var posts = locals.posts.sort(config.index_generator.order_by);<br>    var paginationDir = config.pagination_dir || &#x2018;page&#x2019;;<br>    var path = config.index_generator.path || &#x2018;&#x2019;;</p>
-<pre><code>return pagination(path, posts, {
+<pre><code>&apos;use strict&apos;;
+var pagination = require(&apos;hexo-pagination&apos;);
+module.exports = function(locals) {
+var config = this.config;
+var posts = locals.posts.sort(config.index_generator.order_by);
+var paginationDir = config.pagination_dir || &apos;page&apos;;
+var path = config.index_generator.path || &apos;&apos;;
+return pagination(path, posts, {
   perPage: config.index_generator.per_page,
   layout: [&apos;index&apos;, &apos;archive&apos;],
   format: paginationDir + &apos;/%d/&apos;,
@@ -635,10 +639,37 @@
     __index: true
   }
 });
-</code></pre><p>  };</p>
-<p>&#x6539;&#x4E3A;</p>
-<p>  &#x2018;use strict&#x2019;;<br>  var pagination = require(&#x2018;hexo-pagination&#x2019;);<br>  module.exports = function(locals){<br>    var config = this.config;<br>    var posts = locals.posts;<br>      posts.data = posts.data.sort(function(a, b) {<br>          if(a.top &amp;&amp; b.top) { // &#x4E24;&#x7BC7;&#x6587;&#x7AE0;top&#x90FD;&#x6709;&#x5B9A;&#x4E49;<br>              if(a.top == b.top) return b.date - a.date; // &#x82E5;top&#x503C;&#x4E00;&#x6837;&#x5219;&#x6309;&#x7167;&#x6587;&#x7AE0;&#x65E5;&#x671F;&#x964D;&#x5E8F;&#x6392;<br>              else return b.top - a.top; // &#x5426;&#x5219;&#x6309;&#x7167;top&#x503C;&#x964D;&#x5E8F;&#x6392;<br>          }<br>          else if(a.top &amp;&amp; !b.top) { // &#x4EE5;&#x4E0B;&#x662F;&#x53EA;&#x6709;&#x4E00;&#x7BC7;&#x6587;&#x7AE0;top&#x6709;&#x5B9A;&#x4E49;&#xFF0C;&#x90A3;&#x4E48;&#x5C06;&#x6709;top&#x7684;&#x6392;&#x5728;&#x524D;&#x9762;&#xFF08;&#x8FD9;&#x91CC;&#x7528;&#x5F02;&#x6216;&#x64CD;&#x4F5C;&#x5C45;&#x7136;&#x4E0D;&#x884C;233&#xFF09;<br>              return -1;<br>          }<br>          else if(!a.top &amp;&amp; b.top) {<br>              return 1;<br>          }<br>          else return b.date - a.date; // &#x90FD;&#x6CA1;&#x5B9A;&#x4E49;&#x6309;&#x7167;&#x6587;&#x7AE0;&#x65E5;&#x671F;&#x964D;&#x5E8F;&#x6392;<br>      });<br>    var paginationDir = config.pagination_dir || &#x2018;page&#x2019;;<br>    return pagination(&#x2018;&#x2019;, posts, {<br>      perPage: config.index_generator.per_page,<br>      layout: [&#x2018;index&#x2019;, &#x2018;archive&#x2019;],<br>      format: paginationDir + &#x2018;/%d/&#x2018;,<br>      data: {<br>        __index: true<br>      }<br>    });<br>  };</p>
-
+};
+</code></pre><p>&#x6539;&#x4E3A;</p>
+<pre><code>&apos;use strict&apos;;
+var pagination = require(&apos;hexo-pagination&apos;);
+module.exports = function(locals){
+var config = this.config;
+var posts = locals.posts;
+  posts.data = posts.data.sort(function(a, b) {
+      if(a.top &amp;&amp; b.top) { // &#x4E24;&#x7BC7;&#x6587;&#x7AE0;top&#x90FD;&#x6709;&#x5B9A;&#x4E49;
+          if(a.top == b.top) return b.date - a.date; // &#x82E5;top&#x503C;&#x4E00;&#x6837;&#x5219;&#x6309;&#x7167;&#x6587;&#x7AE0;&#x65E5;&#x671F;&#x964D;&#x5E8F;&#x6392;
+          else return b.top - a.top; // &#x5426;&#x5219;&#x6309;&#x7167;top&#x503C;&#x964D;&#x5E8F;&#x6392;
+      }
+      else if(a.top &amp;&amp; !b.top) { // &#x4EE5;&#x4E0B;&#x662F;&#x53EA;&#x6709;&#x4E00;&#x7BC7;&#x6587;&#x7AE0;top&#x6709;&#x5B9A;&#x4E49;&#xFF0C;&#x90A3;&#x4E48;&#x5C06;&#x6709;top&#x7684;&#x6392;&#x5728;&#x524D;&#x9762;&#xFF08;&#x8FD9;&#x91CC;&#x7528;&#x5F02;&#x6216;&#x64CD;&#x4F5C;&#x5C45;&#x7136;&#x4E0D;&#x884C;233&#xFF09;
+          return -1;
+      }
+      else if(!a.top &amp;&amp; b.top) {
+          return 1;
+      }
+      else return b.date - a.date; // &#x90FD;&#x6CA1;&#x5B9A;&#x4E49;&#x6309;&#x7167;&#x6587;&#x7AE0;&#x65E5;&#x671F;&#x964D;&#x5E8F;&#x6392;
+  });
+var paginationDir = config.pagination_dir || &apos;page&apos;;
+return pagination(&apos;&apos;, posts, {
+  perPage: config.index_generator.per_page,
+  layout: [&apos;index&apos;, &apos;archive&apos;],
+  format: paginationDir + &apos;/%d/&apos;,
+  data: {
+    __index: true
+  }
+});
+};
+</code></pre>
       
     </div>
     
