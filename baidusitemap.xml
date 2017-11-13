@@ -5,13 +5,15 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
-    <lastmod>2017-11-13T13:47:44.000Z</lastmod>
+    <lastmod>2017-11-13T13:52:36.000Z</lastmod>
     <data>
         <display>
         <title>NEVERLAND - Blog Logs</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
         <tag>information_system</tag>
+         
+        <tag>notes</tag>
          
         <tag>study</tag>
          
@@ -22,8 +24,6 @@
         <tag>logs</tag>
          
         <tag>hexo</tag>
-         
-        <tag>notes</tag>
          
         <tag>machine_learning</tag>
          
@@ -47,13 +47,13 @@
         
         <tag>information_system</tag>
          
+        <tag>github</tag>
+         
         <tag>study_plan</tag>
          
         <tag>statistics</tag>
          
         <tag>mathematics</tag>
-         
-        <tag>github</tag>
          
         <tag>materials</tag>
          
@@ -389,9 +389,9 @@
         <title>Can online scoring really reflects the rankings of products?</title>
         <pubTime>2017-10-29T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>notes</tag>
+         
+        <tag>research</tag>
          
         <tag>economics</tag>
          
@@ -508,11 +508,11 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>github</tag>
+        <tag>tutorial</tag>
          
         <tag>hexo</tag>
          
-        <tag>tutorial</tag>
+        <tag>github</tag>
          
          
            
