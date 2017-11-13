@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
-    <lastmod>2017-11-13T13:46:43.000Z</lastmod>
+    <lastmod>2017-11-13T13:47:44.000Z</lastmod>
     <data>
         <display>
         <title>NEVERLAND - Blog Logs</title>
@@ -13,19 +13,19 @@
         
         <tag>information_system</tag>
          
-        <tag>notes</tag>
-         
-        <tag>machine_learning</tag>
+        <tag>study</tag>
          
         <tag>research</tag>
-         
-        <tag>hexo</tag>
-         
-        <tag>study</tag>
          
         <tag>blog</tag>
          
         <tag>logs</tag>
+         
+        <tag>hexo</tag>
+         
+        <tag>notes</tag>
+         
+        <tag>machine_learning</tag>
          
          
            
@@ -39,7 +39,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-11-13T13:39:29.000Z</lastmod>
+    <lastmod>2017-11-13T13:47:38.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges</title>
@@ -221,11 +221,11 @@
         <title>Introduction to Sentiment Analysis</title>
         <pubTime>2017-10-22T16:00:00.000Z</pubTime>
         
+        <tag>machine_learning</tag>
+         
         <tag>sentiment_analysis</tag>
          
         <tag>natural_language_processing</tag>
-         
-        <tag>machine_learning</tag>
          
          
            
@@ -293,9 +293,9 @@
         <title>Literature Review on Special Paper: Feature Engineering + Neural Network</title>
         <pubTime>2017-11-02T16:00:00.000Z</pubTime>
         
-        <tag>sentiment_analysis</tag>
-         
         <tag>research</tag>
+         
+        <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
          
@@ -329,9 +329,9 @@
         
         <tag>information_system</tag>
          
-        <tag>sentiment_analysis</tag>
-         
         <tag>research</tag>
+         
+        <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
          
@@ -361,9 +361,9 @@
         
         <tag>information_system</tag>
          
-        <tag>sentiment_analysis</tag>
-         
         <tag>research</tag>
+         
+        <tag>sentiment_analysis</tag>
          
         <tag>user_generated_content</tag>
          
@@ -389,9 +389,9 @@
         <title>Can online scoring really reflects the rankings of products?</title>
         <pubTime>2017-10-29T16:00:00.000Z</pubTime>
         
-        <tag>notes</tag>
-         
         <tag>research</tag>
+         
+        <tag>notes</tag>
          
         <tag>economics</tag>
          
@@ -508,11 +508,11 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>tutorial</tag>
-         
         <tag>github</tag>
          
         <tag>hexo</tag>
+         
+        <tag>tutorial</tag>
          
          
            
