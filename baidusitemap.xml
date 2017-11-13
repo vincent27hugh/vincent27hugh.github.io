@@ -4,8 +4,30 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
+    <lastmod>2017-11-13T13:42:05.000Z</lastmod>
+    <data>
+        <display>
+        <title>Logs and Questions</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>study</tag>
+         
+        <tag>research</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-11-13T13:32:13.000Z</lastmod>
+    <lastmod>2017-11-13T13:39:29.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges</title>
@@ -70,28 +92,6 @@
         <tag>mendeley</tag>
          
         <tag>document_management</tag>
-         
-         
-           
-             
-              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
-    <lastmod>2017-11-10T08:08:07.000Z</lastmod>
-    <data>
-        <display>
-        <title>Logs and Questions</title>
-        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
-        
-        <tag>study</tag>
-         
-        <tag>research</tag>
          
          
            
@@ -187,9 +187,9 @@
         <title>Resources of Information System Research</title>
         <pubTime>2017-10-23T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>research</tag>
+         
+        <tag>information_system</tag>
          
          
            
@@ -315,9 +315,9 @@
         <title>Literature Review on Social Media in Financial Market</title>
         <pubTime>2017-11-01T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>research</tag>
+         
+        <tag>information_system</tag>
          
         <tag>sentiment_analysis</tag>
          
@@ -347,17 +347,17 @@
         <title>Literature Review on UGC/WOM</title>
         <pubTime>2017-10-30T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>research</tag>
          
-        <tag>sentiment_analysis</tag>
+        <tag>information_system</tag>
          
-        <tag>literature_review</tag>
+        <tag>sentiment_analysis</tag>
          
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
+         
+        <tag>literature_review</tag>
          
          
            
@@ -496,9 +496,9 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>github</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>github</tag>
          
         <tag>hexo</tag>
          
