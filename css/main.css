@@ -2022,7 +2022,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #7052ff;
+  background: #ffd6a1;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3131,4 +3131,16 @@ hr {
   color: rgba(34,244,246,0.75);
   font-size: 13px;
   margin-top: 15px;
+}
+.aplayer {
+  font-family: "Lato", "PingFang SC", "Microsoft YaHei", sans-serif !important;
+  border-radius: 3px !important;
+}
+.aplayer-withlrc.aplayer .aplayer-info {
+  background: #fff;
+  color: rgba(0,0,0,0.9);
+}
+.aplayer .aplayer-list ol {
+  background: #fff;
+  color: rgba(0,0,0,0.9);
 }
