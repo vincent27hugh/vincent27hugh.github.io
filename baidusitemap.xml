@@ -4,42 +4,8 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
-    <lastmod>2017-11-15T14:45:31.000Z</lastmod>
-    <data>
-        <display>
-        <title>NEVERLAND - Blog Logs</title>
-        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
-        
-        <tag>study</tag>
-         
-        <tag>research</tag>
-         
-        <tag>blog</tag>
-         
-        <tag>logs</tag>
-         
-        <tag>hexo</tag>
-         
-        <tag>notes</tag>
-         
-        <tag>information_system</tag>
-         
-        <tag>machine_learning</tag>
-         
-         
-           
-             
-              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-11-15T12:25:58.000Z</lastmod>
+    <lastmod>2017-11-15T15:08:56.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges</title>
@@ -49,9 +15,9 @@
          
         <tag>machine_learning</tag>
          
-        <tag>github</tag>
-         
         <tag>natural_language_processing</tag>
+         
+        <tag>github</tag>
          
         <tag>economics</tag>
          
@@ -71,6 +37,40 @@
            
              
               <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
+    <lastmod>2017-11-15T14:55:01.000Z</lastmod>
+    <data>
+        <display>
+        <title>NEVERLAND - Blog Logs</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>information_system</tag>
+         
+        <tag>notes</tag>
+         
+        <tag>study</tag>
+         
+        <tag>research</tag>
+         
+        <tag>blog</tag>
+         
+        <tag>logs</tag>
+         
+        <tag>hexo</tag>
+         
+        <tag>machine_learning</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
           
         </display>
     </data>
@@ -210,9 +210,9 @@
         <title>Resources of Information System Research</title>
         <pubTime>2017-10-23T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>research</tag>
          
          
            
@@ -282,9 +282,9 @@
         <title>Experiments in IS research</title>
         <pubTime>2017-09-10T16:00:00.000Z</pubTime>
         
-        <tag>notes</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>notes</tag>
          
          
            
@@ -338,9 +338,9 @@
         <title>Literature Review on Social Media in Financial Market</title>
         <pubTime>2017-11-01T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>research</tag>
          
         <tag>sentiment_analysis</tag>
          
@@ -370,9 +370,9 @@
         <title>Literature Review on UGC/WOM</title>
         <pubTime>2017-10-30T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>research</tag>
          
         <tag>sentiment_analysis</tag>
          
@@ -400,9 +400,9 @@
         <title>Can online scoring really reflects the rankings of products?</title>
         <pubTime>2017-10-29T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>notes</tag>
+         
+        <tag>research</tag>
          
         <tag>economics</tag>
          
@@ -425,11 +425,11 @@
         <title>Deep Learning hardware</title>
         <pubTime>2017-11-07T16:00:00.000Z</pubTime>
         
-        <tag>tutorial</tag>
-         
         <tag>deap_learning</tag>
          
         <tag>hardware</tag>
+         
+        <tag>tutorial</tag>
          
          
            
@@ -519,11 +519,11 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
+        <tag>tutorial</tag>
+         
         <tag>hexo</tag>
          
         <tag>github</tag>
-         
-        <tag>tutorial</tag>
          
          
            
