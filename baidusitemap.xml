@@ -4,48 +4,8 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-11-15T15:08:56.000Z</lastmod>
-    <data>
-        <display>
-        <title>2017-18 Open-Course Challenges</title>
-        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
-        
-        <tag>information_system</tag>
-         
-        <tag>machine_learning</tag>
-         
-        <tag>natural_language_processing</tag>
-         
-        <tag>github</tag>
-         
-        <tag>economics</tag>
-         
-        <tag>deep_learning</tag>
-         
-        <tag>statistics</tag>
-         
-        <tag>mathematics</tag>
-         
-        <tag>artificial_intelligence</tag>
-         
-        <tag>finance</tag>
-         
-        <tag>open_course</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
-    <lastmod>2017-11-15T14:55:01.000Z</lastmod>
+    <lastmod>2017-11-16T04:48:50.000Z</lastmod>
     <data>
         <display>
         <title>NEVERLAND - Blog Logs</title>
@@ -71,6 +31,46 @@
            
              
               <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
+    <lastmod>2017-11-15T15:08:56.000Z</lastmod>
+    <data>
+        <display>
+        <title>2017-18 Open-Course Challenges</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>information_system</tag>
+         
+        <tag>machine_learning</tag>
+         
+        <tag>statistics</tag>
+         
+        <tag>mathematics</tag>
+         
+        <tag>github</tag>
+         
+        <tag>artificial_intelligence</tag>
+         
+        <tag>economics</tag>
+         
+        <tag>finance</tag>
+         
+        <tag>deep_learning</tag>
+         
+        <tag>natural_language_processing</tag>
+         
+        <tag>open_course</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
           
         </display>
     </data>
@@ -136,9 +136,9 @@
         
         <tag>machine_learning</tag>
          
-        <tag>python</tag>
-         
         <tag>deep_learning</tag>
+         
+        <tag>python</tag>
          
         <tag>virtualenv</tag>
          
@@ -234,9 +234,9 @@
         
         <tag>machine_learning</tag>
          
-        <tag>sentiment_analysis</tag>
-         
         <tag>natural_language_processing</tag>
+         
+        <tag>sentiment_analysis</tag>
          
          
            
@@ -376,11 +376,11 @@
          
         <tag>sentiment_analysis</tag>
          
+        <tag>literature_review</tag>
+         
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
-         
-        <tag>literature_review</tag>
          
          
            
@@ -425,11 +425,11 @@
         <title>Deep Learning hardware</title>
         <pubTime>2017-11-07T16:00:00.000Z</pubTime>
         
+        <tag>tutorial</tag>
+         
         <tag>deap_learning</tag>
          
         <tag>hardware</tag>
-         
-        <tag>tutorial</tag>
          
          
            
@@ -519,11 +519,11 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>tutorial</tag>
-         
         <tag>hexo</tag>
          
         <tag>github</tag>
+         
+        <tag>tutorial</tag>
          
          
            
