@@ -109,7 +109,7 @@
 <meta property="og:site_name" content="NEVERLAND">
 <meta property="og:description" content="This is the notes of Stochastic Process, Parameter Estimation, PDE and Stochastic Control.">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2017-11-17T05:48:10.000Z">
+<meta property="og:updated_time" content="2017-11-17T16:19:59.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="20171117 Notes: Stochastic Process, Parameter Estimation, PDE">
 <meta name="twitter:description" content="This is the notes of Stochastic Process, Parameter Estimation, PDE and Stochastic Control.">
@@ -444,7 +444,7 @@
 <li><a href="https://en.wikipedia.org/wiki/It%C3%B4%27s_lemma" target="_blank" rel="external">Ito&#x2019;s lemma</a>: $Y$ is It&#xF4; drift-diffusion process, $f: \mathbb{R}^2 \to \mathbb{R}$ is smooth, then<script type="math/tex; mode=display">df(Y_t,t)=f_t dt + f_Y dY_t +\frac{1}{2} f_{YY} (dY_t)^2</script>$(dt)^2 = dt dW_t$; $(dW_t)^2 = dt$</li>
 </ul>
 <h1 id="Parameter-Estimation"><a href="#Parameter-Estimation" class="headerlink" title="Parameter Estimation"></a>Parameter Estimation</h1><ul>
-<li>Using <a href="https://en.wikipedia.org/wiki/Maximum_likelihood_estimation" target="_blank" rel="external">Maximum Likelihood Estimation (MLE)</a>:<script type="math/tex; mode=display">\mathcal{L}(\theta|x) = f(x_1|\theta) \times f(x_2|\theta) \times \cdots \times f(x_n|\theta)</script><script type="math/tex; mode=display">= f(x_1,x_2,\cdots,x_n|\theta) = \prod_{i=1}^{n} f(x_i|\theta)</script><script type="math/tex; mode=display">\Rightarrow {\hat{\theta}_{MLE}} \subseteq { argmax_{\theta \in \Theta} \hat{l}(\theta;x_1,x_2,\cdots,x_n) }</script><ul>
+<li>Using <a href="https://en.wikipedia.org/wiki/Maximum_likelihood_estimation" target="_blank" rel="external">Maximum Likelihood Estimation (MLE)</a>:<script type="math/tex; mode=display">\mathcal{L}(\theta|x) = f(x_1|\theta) \times f(x_2|\theta) \times \cdots \times f(x_n|\theta)</script><script type="math/tex; mode=display">= f(x_1,x_2,\cdots,x_n|\theta) = \prod_{i=1}^{n} f(x_i|\theta)</script><script type="math/tex; mode=display">\Rightarrow {\hat{\theta}_{MLE}} \subseteq { argmax_{\theta \in \Theta} \{ \hat{l}(\theta;x_1,x_2,\cdots,x_n) \} }</script><ul>
 <li>Exact MLE: Using known density function $f(x_i|\theta)$;</li>
 <li>Inexact MLE: <ul>
 <li>First Difference Maximum Likelihood Estimation (FDMLE)<sup><a href="#fn_1" id="reffn_1">1</a></sup></li>
@@ -468,15 +468,24 @@
 </li>
 <li>MATLAB function <a href="https://www.mathworks.com/help/matlab/ref/pdepe.html" target="_blank" rel="external"><code>pdepe</code></a> can solve initial-boundary value problems for <strong>parabolic-elliptic</strong> PDEs in 1-D.</li>
 </ul>
-<h1 id="Stochastic-Control"><a href="#Stochastic-Control" class="headerlink" title="Stochastic Control"></a>Stochastic Control</h1><ul>
+<h1 id="Stochastic-Optimal-Control-Process"><a href="#Stochastic-Optimal-Control-Process" class="headerlink" title="Stochastic Optimal Control Process"></a>Stochastic Optimal Control Process</h1><ul>
 <li>Stochastic Control problem concept:<ul>
 <li>Agent</li>
-<li>Objective Function</li>
-<li>State</li>
-<li>Control</li>
+<li>State: $X_t$</li>
+<li>Control: $u(X_t,t)$</li>
+<li>Objective Function: $F(u, t)$</li>
 </ul>
 </li>
 </ul>
+<p>Using <a href="https://en.wikipedia.org/wiki/Brand_management" target="_blank" rel="external">Brand Management</a> on Twitter as an example:</p>
+<pre><code>- Agent: Some firm, such as AT&amp;T Co.
+- State: Sentiment Score of customers on Twitter;
+- Control: Effort AT&amp;T Co. pay to increase the sentiment;
+- Objective Function: Return;
+</code></pre><ul>
+<li>Value function: </li>
+</ul>
+<script type="math/tex; mode=display">V(X, t) = Min_{u(X, t)} \{F(u, t) dt + (1 - \gamma dt) V(X+dX, t+dt)\} \tag{1}\label{1}</script><p>in formula $\eqref{1}$, $\gamma$ is discount factor .</p>
 <hr>
 <blockquote id="fn_1">
 <sup>1</sup>. Han, C., &amp; Phillips, P. C. (2013). First difference maximum likelihood and dynamic panel estimation. Journal of Econometrics, 175(1), 35-45.<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#x21A9;</a>
@@ -573,8 +582,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/Mendeley/" rel="next" title="如何管理文献:Mendeley小技巧">
-                <i class="fa fa-chevron-left"></i> 如何管理文献:Mendeley小技巧
+              <a href="/NonlinearEquations/" rel="next" title="Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language">
+                <i class="fa fa-chevron-left"></i> Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language
               </a>
             
           </div>
@@ -582,10 +591,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/NonlinearEquations/" rel="prev" title="Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language">
-                Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -821,7 +826,7 @@ show_date_time();
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Stochastic-process"><span class="nav-number">1.</span> <span class="nav-text">Stochastic process</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Parameter-Estimation"><span class="nav-number">2.</span> <span class="nav-text">Parameter Estimation</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Partial-Differential-Equation"><span class="nav-number">3.</span> <span class="nav-text">Partial Differential Equation</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Stochastic-Control"><span class="nav-number">4.</span> <span class="nav-text">Stochastic Control</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Stochastic-process"><span class="nav-number">1.</span> <span class="nav-text">Stochastic process</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Parameter-Estimation"><span class="nav-number">2.</span> <span class="nav-text">Parameter Estimation</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Partial-Differential-Equation"><span class="nav-number">3.</span> <span class="nav-text">Partial Differential Equation</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Stochastic-Optimal-Control-Process"><span class="nav-number">4.</span> <span class="nav-text">Stochastic Optimal Control Process</span></a></li></ol></div>
             
 
           </div>
