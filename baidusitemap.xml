@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/notes_CCSMA/</loc>
-    <lastmod>2017-11-17T16:19:59.000Z</lastmod>
+    <lastmod>2017-11-17T17:07:20.000Z</lastmod>
     <data>
         <display>
         <title>20171117 Notes: Stochastic Process, Parameter Estimation, PDE</title>
@@ -75,6 +75,8 @@
          
         <tag>machine_learning</tag>
          
+        <tag>notes</tag>
+         
         <tag>study</tag>
          
         <tag>research</tag>
@@ -84,8 +86,6 @@
         <tag>logs</tag>
          
         <tag>hexo</tag>
-         
-        <tag>notes</tag>
          
          
            
@@ -462,9 +462,9 @@
         
         <tag>economics</tag>
          
-        <tag>research</tag>
-         
         <tag>notes</tag>
+         
+        <tag>research</tag>
          
         <tag>online_scoring</tag>
          
@@ -485,11 +485,11 @@
         <title>Deep Learning hardware</title>
         <pubTime>2017-11-07T16:00:00.000Z</pubTime>
         
+        <tag>tutorial</tag>
+         
         <tag>deap_learning</tag>
          
         <tag>hardware</tag>
-         
-        <tag>tutorial</tag>
          
          
            
