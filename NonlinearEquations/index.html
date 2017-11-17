@@ -83,7 +83,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="r_language,nonlinear_equations,numerical_analysis,matlab,fortran,python,mathematica," />
+  <meta name="keywords" content="nonlinear_equations,numerical_analysis,matlab,fortran,python,r_language,mathematica," />
 
 
 
@@ -102,7 +102,7 @@
 
 
 <meta name="description" content="This is an example of numerically solving system of nonlinear equations by using MATLAB, Fortran, Python and R. We&apos;ll also show some special techniques in Mathematica which is helpful for solving nonl">
-<meta name="keywords" content="r_language,nonlinear_equations,numerical_analysis,matlab,fortran,python,mathematica">
+<meta name="keywords" content="nonlinear_equations,numerical_analysis,matlab,fortran,python,r_language,mathematica">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language">
 <meta property="og:url" content="http://blog.baoduge.com/NonlinearEquations/index.html">
@@ -110,8 +110,8 @@
 <meta property="og:description" content="This is an example of numerically solving system of nonlinear equations by using MATLAB, Fortran, Python and R. We&apos;ll also show some special techniques in Mathematica which is helpful for solving nonl">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="http://blog.baoduge.com/images/20171117_Nonlinear_Eq1.png">
-<meta property="og:image" content="http://blog.baoduge.com/images/20171117_Nonlinear_Eq2.png">
 <meta property="og:image" content="http://blog.baoduge.com/images/20171117_Nonlinear_Eq3.png">
+<meta property="og:image" content="http://blog.baoduge.com/images/20171117_Nonlinear_Eq2.png">
 <meta property="og:image" content="http://blog.baoduge.com/images/20171117_matlab_1.png">
 <meta property="og:image" content="http://blog.baoduge.com/images/20171117_matlab_2.png">
 <meta property="og:image" content="http://blog.baoduge.com/images/20171117_matlab_3.png">
@@ -120,7 +120,7 @@
 <meta property="og:image" content="http://blog.baoduge.com/images/20171117_r.png">
 <meta property="og:image" content="http://blog.baoduge.com/images/20171117_Mathematica_1.png">
 <meta property="og:image" content="http://blog.baoduge.com/images/20171117_Mathematica_2.png">
-<meta property="og:updated_time" content="2017-11-17T15:00:09.000Z">
+<meta property="og:updated_time" content="2017-11-17T15:31:57.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language">
 <meta name="twitter:description" content="This is an example of numerically solving system of nonlinear equations by using MATLAB, Fortran, Python and R. We&apos;ll also show some special techniques in Mathematica which is helpful for solving nonl">
@@ -446,20 +446,20 @@
       
 
       
-        <script src="/assets/js/APlayer.min.js"> </script><h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p><a href="https://en.wikipedia.org/wiki/Nonlinear_system" target="_blank" rel="external">Nonlinear System</a> is a system in which the change of the output is not proportional to the change of the input, which can modeled with a set of nonlinear equations. Solving the nonlinear equations can give us the clue of the behavior of a nonlinear system. Most of the time, the system is so complex that we can not solve it analytically but only numerically.</p>
+        <script src="/assets/js/APlayer.min.js"> </script><h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p><a href="https://en.wikipedia.org/wiki/Nonlinear_system" target="_blank" rel="external">Nonlinear System</a> is a system in which the change of the output is not proportional to the change of the input, which can modeled with a set of nonlinear equations. Solving the nonlinear equations can give us the clues of the behavior of a nonlinear system. Most of the time, the system is so complex that we can not solve it analytically but only numerically.</p>
 <p>Assume there is a simple system of nonlinear equation:</p>
 <script type="math/tex; mode=display">\alpha (x+1)(x-3) e^{\beta y}=0</script><script type="math/tex; mode=display">\lambda (y-5)(y+7) e^{\gamma x}=0</script><p>And we need to solve it numerically. $\alpha$, $\beta$, $\lambda$, $\gamma$ are parameters.</p>
-<p>The nonlinear equation set can be written into <code>myfun.m</code> as follow:</p>
+<p>The system of nonlinear equations can be written into <code>myfun.m</code> as follow:</p>
 <figure class="highlight matlab"><figcaption><span>myfun.m</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">F</span> = <span class="title">myfun</span><span class="params">(var,para)</span></span></div><div class="line">alpha=para(<span class="number">1</span>);</div><div class="line"><span class="built_in">beta</span>=para(<span class="number">2</span>);</div><div class="line">lambda=para(<span class="number">3</span>);</div><div class="line"><span class="built_in">gamma</span>=para(<span class="number">4</span>);</div><div class="line">x=var(<span class="number">1</span>);</div><div class="line">y=var(<span class="number">2</span>);</div><div class="line">F(<span class="number">1</span>) = alpha*(x+<span class="number">1</span>)*(x<span class="number">-3</span>)*<span class="built_in">exp</span>(<span class="built_in">beta</span>*y);</div><div class="line">F(<span class="number">2</span>) = lambda*(y<span class="number">-5</span>)*(y+<span class="number">7</span>)*<span class="built_in">exp</span>(<span class="built_in">gamma</span>*x);</div><div class="line"><span class="keyword">return</span></div></pre></td></tr></table></figure>
-<p>To input parameters $\alpha$, $\beta$, $\lambda$, $\gamma$ into <code>myfun</code>, we can use <code>para</code> vector or take use of <code>global</code> command in MATLAB. $\alpha$, $\beta$, $\lambda$, $\gamma$ are numerical type of data. When there are string type of data in parameters, we can use <strong>cell</strong> instead of <strong>vector</strong>.</p>
-<p>If $\alpha \neq 0$ and $\lambda \neq 0$, then we can get four solutions as follow: $(x,y)=(-1,5)$, $(x,y)=(-1,-7)$, $(x,y)=(3,5)$, $(x,y)=(3,-7)$, which to be chosen depends on your initial condition.</p>
-<p>In most cases, the nonlinear equation set that we would like to solve is really complicated that we can not even imagine how the analytical solution could be. For example, if we want to solve $\epsilon^d$, $\epsilon^c$, $\theta$ and $alpha$ from the system of nonlinear equations as follow:</p>
+<p>To input parameters $\alpha$, $\beta$, $\lambda$, $\gamma$ into <code>myfun</code>, we can use <code>para</code> vector or <code>global</code> command in MATLAB. $\alpha$, $\beta$, $\lambda$, $\gamma$ are numerical data. When there are string type of data in parameters, we can use <strong>cell</strong> instead of <strong>vector</strong>.</p>
+<p>If $\alpha \neq 0$ and $\lambda \neq 0$, then we can get four solutions as follow: $(x,y)=(-1,5)$, $(x,y)=(-1,-7)$, $(x,y)=(3,5)$, $(x,y)=(3,-7)$. Which one to be chosen depends on the initial condition. Thus initial condition is really important for solving system of nonlinear equations.</p>
+<p>In most cases, the system of nonlinear equations that we would like to solve is really complicated that we can not even guess how the analytical solution could be. For example, if we want to solve $\epsilon^d$, $\epsilon^c$, $\theta$ and $alpha$ from the system of nonlinear equations as follow:</p>
 <p><img src="/images/20171117_Nonlinear_Eq1.png" alt=""></p>
-<p>The functions $u$, $h_s$ and $h_n$ are defined as:</p>
-<p><img src="/images/20171117_Nonlinear_Eq2.png" alt=""></p>
 <p>Parameters and functions $F(x)$ and $q (\theta)$ are stated as follow:</p>
 <p><img src="/images/20171117_Nonlinear_Eq3.png" alt=""></p>
-<p>It should be emphasized that we regard $\sigma$ <strong>as a variable</strong> as well, e.g. $\sigma \in [0,0.5]$. Finally, we want to get the dynamic relationship between $\epsilon^d$, $\epsilon^c$, $\theta$, $alpha$ $\sim$ $\sigma$.</p>
+<p>The functions $u$, $h_s$ and $h_n$ are defined as:</p>
+<p><img src="/images/20171117_Nonlinear_Eq2.png" alt=""></p>
+<p>It should be emphasized that we also regard $\sigma$ <strong>as a variable</strong>. ($\sigma \in [0,0.5]$) Our final goal, we want to figure out the dynamic relationship of $\epsilon^d$, $\epsilon^c$, $\theta$, $alpha$ $\sim$ $\sigma$.</p>
 <p>We are going to show how to solve this problem via using MATLAB, Fortran, Python and R.</p>
 <p><i class="fa fa-github"></i><a href="https://github.com/vincent27hugh/Solving-Nonlinear-Equations/" target="_blank" rel="external">Click to see Source Code</a></p>
 <h1 id="MATLAB"><a href="#MATLAB" class="headerlink" title="MATLAB"></a>MATLAB</h1><p>In MATLAB, there are 3 kinds of solver to solve nonlinear equations: <a href="https://www.mathworks.com/help/optim/ug/fsolve.html" target="_blank" rel="external">fsolve</a>, <a href="https://www.mathworks.com/help/optim/ug/fmincon.html" target="_blank" rel="external">fmincon</a> and <a href="https://www.mathworks.com/help/optim/ug/lsqnonlin.html" target="_blank" rel="external">lsqnonlin</a>.<sup><a href="#fn_0" id="reffn_0">0</a></sup></p>
@@ -660,8 +660,6 @@ end
       
         <div class="post-tags">
           
-            <a href="/tags/r-language/" rel="tag"># r_language</a>
-          
             <a href="/tags/nonlinear-equations/" rel="tag"># nonlinear_equations</a>
           
             <a href="/tags/numerical-analysis/" rel="tag"># numerical_analysis</a>
@@ -671,6 +669,8 @@ end
             <a href="/tags/fortran/" rel="tag"># fortran</a>
           
             <a href="/tags/python/" rel="tag"># python</a>
+          
+            <a href="/tags/r-language/" rel="tag"># r_language</a>
           
             <a href="/tags/mathematica/" rel="tag"># mathematica</a>
           
@@ -696,8 +696,8 @@ end
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/Mendeley/" rel="next" title="如何管理文献:Mendeley小技巧">
-                <i class="fa fa-chevron-left"></i> 如何管理文献:Mendeley小技巧
+              <a href="/notes_CCSMA/" rel="next" title="20171117 Notes: Stochastic Process, Parameter Estimation, PDE">
+                <i class="fa fa-chevron-left"></i> 20171117 Notes: Stochastic Process, Parameter Estimation, PDE
               </a>
             
           </div>
@@ -705,10 +705,6 @@ end
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/notes_CCSMA/" rel="prev" title="20171117 Notes: Stochastic Process, Parameter Estimation, PDE">
-                20171117 Notes: Stochastic Process, Parameter Estimation, PDE <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
