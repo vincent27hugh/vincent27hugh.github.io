@@ -1,0 +1,1620 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+  
+  
+  <link rel="stylesheet" media="all" href="/lib/Han/dist/han.min.css?v=3.3">
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="r_language,nonlinear_equations,numerical_analysis,matlab,fortran,python,mathematica," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="NEVERLAND" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.jpg?v=5.1.2" />
+
+
+
+
+
+
+<meta name="description" content="This is an example of numerically solving system of nonlinear equations by using MATLAB, Fortran, Python and R. We&apos;ll also show some special techniques in Mathematica which is helpful for solving nonl">
+<meta name="keywords" content="r_language,nonlinear_equations,numerical_analysis,matlab,fortran,python,mathematica">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language">
+<meta property="og:url" content="http://blog.baoduge.com/NonlinearEquations/index.html">
+<meta property="og:site_name" content="NEVERLAND">
+<meta property="og:description" content="This is an example of numerically solving system of nonlinear equations by using MATLAB, Fortran, Python and R. We&apos;ll also show some special techniques in Mathematica which is helpful for solving nonl">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="http://blog.baoduge.com/images/20171117_Nonlinear_Eq1.png">
+<meta property="og:image" content="http://blog.baoduge.com/images/20171117_Nonlinear_Eq2.png">
+<meta property="og:image" content="http://blog.baoduge.com/images/20171117_Nonlinear_Eq3.png">
+<meta property="og:image" content="http://blog.baoduge.com/images/20171117_matlab_1.png">
+<meta property="og:image" content="http://blog.baoduge.com/images/20171117_matlab_2.png">
+<meta property="og:image" content="http://blog.baoduge.com/images/20171117_matlab_3.png">
+<meta property="og:image" content="http://blog.baoduge.com/images/20171117_fortran.png">
+<meta property="og:image" content="http://blog.baoduge.com/images/20171117_python.png">
+<meta property="og:image" content="http://blog.baoduge.com/images/20171117_r.png">
+<meta property="og:image" content="http://blog.baoduge.com/images/20171117_Mathematica_1.png">
+<meta property="og:image" content="http://blog.baoduge.com/images/20171117_Mathematica_2.png">
+<meta property="og:updated_time" content="2017-11-17T15:00:09.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language">
+<meta name="twitter:description" content="This is an example of numerically solving system of nonlinear equations by using MATLAB, Fortran, Python and R. We&apos;ll also show some special techniques in Mathematica which is helpful for solving nonl">
+<meta name="twitter:image" content="http://blog.baoduge.com/images/20171117_Nonlinear_Eq1.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '5.1.2',
+    sidebar: {"position":"left","display":"always","offset":12,"offset_float":12,"b2t":true,"scrollpercent":true,"onmobile":true},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://blog.baoduge.com/NonlinearEquations/"/>
+
+
+
+
+
+  <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language | NEVERLAND</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">NEVERLAND</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <h1 class="site-subtitle" itemprop="description">夢幻島</h1>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            Search
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="Searching..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://blog.baoduge.com/NonlinearEquations/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="BDG飽蠹閣">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://baoduge.com/My/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="NEVERLAND">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-11-17T00:00:00+08:00">
+                2017-11-17
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/English/" itemprop="url" rel="index">
+                    <span itemprop="name">English</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/NonlinearEquations/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="NonlinearEquations/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/NonlinearEquations/" class="leancloud_visitors" data-flag-title="Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">Visitors&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+              <div class="post-description">
+                  This is an example of numerically solving system of nonlinear equations by using MATLAB, Fortran, Python and R. We'll also show some special techniques in Mathematica which is helpful for solving nonlinear equations
+              </div>
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body han-init-context" itemprop="articleBody">
+
+      
+      
+
+      
+        <script src="/assets/js/APlayer.min.js"> </script><h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p><a href="https://en.wikipedia.org/wiki/Nonlinear_system" target="_blank" rel="external">Nonlinear System</a> is a system in which the change of the output is not proportional to the change of the input, which can modeled with a set of nonlinear equations. Solving the nonlinear equations can give us the clue of the behavior of a nonlinear system. Most of the time, the system is so complex that we can not solve it analytically but only numerically.</p>
+<p>Assume there is a simple system of nonlinear equation:</p>
+<script type="math/tex; mode=display">\alpha (x+1)(x-3) e^{\beta y}=0</script><script type="math/tex; mode=display">\lambda (y-5)(y+7) e^{\gamma x}=0</script><p>And we need to solve it numerically. $\alpha$, $\beta$, $\lambda$, $\gamma$ are parameters.</p>
+<p>The nonlinear equation set can be written into <code>myfun.m</code> as follow:</p>
+<figure class="highlight matlab"><figcaption><span>myfun.m</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">F</span> = <span class="title">myfun</span><span class="params">(var,para)</span></span></div><div class="line">alpha=para(<span class="number">1</span>);</div><div class="line"><span class="built_in">beta</span>=para(<span class="number">2</span>);</div><div class="line">lambda=para(<span class="number">3</span>);</div><div class="line"><span class="built_in">gamma</span>=para(<span class="number">4</span>);</div><div class="line">x=var(<span class="number">1</span>);</div><div class="line">y=var(<span class="number">2</span>);</div><div class="line">F(<span class="number">1</span>) = alpha*(x+<span class="number">1</span>)*(x<span class="number">-3</span>)*<span class="built_in">exp</span>(<span class="built_in">beta</span>*y);</div><div class="line">F(<span class="number">2</span>) = lambda*(y<span class="number">-5</span>)*(y+<span class="number">7</span>)*<span class="built_in">exp</span>(<span class="built_in">gamma</span>*x);</div><div class="line"><span class="keyword">return</span></div></pre></td></tr></table></figure>
+<p>To input parameters $\alpha$, $\beta$, $\lambda$, $\gamma$ into <code>myfun</code>, we can use <code>para</code> vector or take use of <code>global</code> command in MATLAB. $\alpha$, $\beta$, $\lambda$, $\gamma$ are numerical type of data. When there are string type of data in parameters, we can use <strong>cell</strong> instead of <strong>vector</strong>.</p>
+<p>If $\alpha \neq 0$ and $\lambda \neq 0$, then we can get four solutions as follow: $(x,y)=(-1,5)$, $(x,y)=(-1,-7)$, $(x,y)=(3,5)$, $(x,y)=(3,-7)$, which to be chosen depends on your initial condition.</p>
+<p>In most cases, the nonlinear equation set that we would like to solve is really complicated that we can not even imagine how the analytical solution could be. For example, if we want to solve $\epsilon^d$, $\epsilon^c$, $\theta$ and $alpha$ from the system of nonlinear equations as follow:</p>
+<p><img src="/images/20171117_Nonlinear_Eq1.png" alt=""></p>
+<p>The functions $u$, $h_s$ and $h_n$ are defined as:</p>
+<p><img src="/images/20171117_Nonlinear_Eq2.png" alt=""></p>
+<p>Parameters and functions $F(x)$ and $q (\theta)$ are stated as follow:</p>
+<p><img src="/images/20171117_Nonlinear_Eq3.png" alt=""></p>
+<p>It should be emphasized that we regard $\sigma$ <strong>as a variable</strong> as well, e.g. $\sigma \in [0,0.5]$. Finally, we want to get the dynamic relationship between $\epsilon^d$, $\epsilon^c$, $\theta$, $alpha$ $\sim$ $\sigma$.</p>
+<p>We are going to show how to solve this problem via using MATLAB, Fortran, Python and R.</p>
+<p><i class="fa fa-github"></i><a href="https://github.com/vincent27hugh/Solving-Nonlinear-Equations/" target="_blank" rel="external">Click to see Source Code</a></p>
+<h1 id="MATLAB"><a href="#MATLAB" class="headerlink" title="MATLAB"></a>MATLAB</h1><p>In MATLAB, there are 3 kinds of solver to solve nonlinear equations: <a href="https://www.mathworks.com/help/optim/ug/fsolve.html" target="_blank" rel="external">fsolve</a>, <a href="https://www.mathworks.com/help/optim/ug/fmincon.html" target="_blank" rel="external">fmincon</a> and <a href="https://www.mathworks.com/help/optim/ug/lsqnonlin.html" target="_blank" rel="external">lsqnonlin</a>.<sup><a href="#fn_0" id="reffn_0">0</a></sup></p>
+<p><code>var</code> vector represent $[\epsilon^d;\epsilon^c;\theta;\alpha]$.<br><code>parameters</code> vector represents $[c^F;c^p;\beta;\phi;\delta;\sigma;\lambda;b;r;\epsilon^c;\mu;step;width;typen]$.<br>We can define the nonlinear equation set as as follow:</p>
+<figure class="highlight matlab"><figcaption><span>fun_solveJun01T1.m</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">F</span> = <span class="title">fun_solveJun01T1</span><span class="params">(var,parameters)</span></span></div><div class="line">dbstop <span class="keyword">if</span> error</div><div class="line">A = parameters{<span class="number">1</span>};</div><div class="line">B1= parameters{<span class="number">2</span>};</div><div class="line">B2 = parameters{<span class="number">3</span>};</div><div class="line">c_f = parameters{<span class="number">4</span>};</div><div class="line">c_p = parameters{<span class="number">5</span>};</div><div class="line"><span class="built_in">beta</span> = parameters{<span class="number">6</span>};</div><div class="line">phi = parameters{<span class="number">7</span>};</div><div class="line">delta = parameters{<span class="number">8</span>};</div><div class="line">sigma = parameters{<span class="number">9</span>};</div><div class="line">lambda = parameters{<span class="number">10</span>};</div><div class="line">b = parameters{<span class="number">11</span>};</div><div class="line">r = parameters{<span class="number">12</span>};</div><div class="line">epsilon_u = parameters{<span class="number">13</span>};</div><div class="line">mu = parameters{<span class="number">14</span>};</div><div class="line">pstar = parameters{<span class="number">15</span>};</div><div class="line">typen = parameters{<span class="number">16</span>};</div><div class="line"><span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span></div><div class="line">epsilon_d=var(<span class="number">1</span>);</div><div class="line">epsilon_c=var(<span class="number">2</span>);</div><div class="line">theta=var(<span class="number">3</span>);</div><div class="line">alpha=var(<span class="number">4</span>);</div><div class="line">p=pstar;</div><div class="line">q_theta = fun_q_theta(theta,A,B1,B2);</div><div class="line">int_Fdu = fun_int_F(epsilon_d,epsilon_u,typen,epsilon_u);</div><div class="line">int_Fcu = fun_int_F(epsilon_c,epsilon_u,typen,epsilon_u);</div><div class="line"><span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span></div><div class="line">part11 = epsilon_d+lambda*int_Fdu/(r+lambda+theta*q_theta);</div><div class="line">part12 = (b-p)/sigma;</div><div class="line"><span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span></div><div class="line">temp211 = delta*(r+lambda-phi*(<span class="number">1</span>-fun_F_x(epsilon_c,typen,epsilon_u)))...</div><div class="line">    *(epsilon_c-epsilon_d);</div><div class="line">temp212 = r+lambda+theta*q_theta;</div><div class="line">temp213 = (lambda/(r+lambda)-lambda*delta/temp212)*int_Fcu;</div><div class="line">part21 = epsilon_c-temp211/((<span class="number">1</span>-phi)*temp212)+temp213;</div><div class="line">temp2211 = ((<span class="built_in">beta</span>+phi*(<span class="number">1</span>-<span class="built_in">beta</span>))*c_f*(<span class="number">1</span>-alpha))/((<span class="number">1</span>-<span class="built_in">beta</span>)*(<span class="number">1</span>-phi));</div><div class="line">temp2212 = (<span class="built_in">beta</span>*c_p*alpha)/(<span class="number">1</span>-<span class="built_in">beta</span>);</div><div class="line">temp221 = theta*(temp2211 + temp2212);</div><div class="line">part22 = delta*epsilon_d+((<span class="number">1</span>-delta)*(b-p)+temp221)/delta;</div><div class="line"><span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span></div><div class="line">part31 = <span class="number">1</span>/q_theta;</div><div class="line">temp321 = (<span class="number">1</span>-<span class="built_in">beta</span>)*(<span class="number">1</span>-phi)/c_f;</div><div class="line">temp322 = sigma*(epsilon_u-epsilon_c)/(r+lambda)+...</div><div class="line">    delta*sigma*(epsilon_c-epsilon_d)/((<span class="number">1</span>-phi)*(r+lambda+theta*q_theta));</div><div class="line">part32 = temp321*temp322;</div><div class="line"><span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span></div><div class="line">part41 = <span class="number">1</span>/q_theta;</div><div class="line">temp421 = (<span class="number">1</span>-<span class="built_in">beta</span>)*delta*sigma*(epsilon_u-epsilon_d);</div><div class="line">temp422 = c_p*(r+lambda+theta*q_theta);</div><div class="line">part42 = temp421/temp422;</div><div class="line"><span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span></div><div class="line">F = [part11-part12;part21-part22;part31 - part32;part41-part42];</div><div class="line"><span class="keyword">return</span></div></pre></td></tr></table></figure>
+<p>And we can also define function $F(x)$, $q(\theta)$, $u$, $h_s$ and $h_n$ as follow:</p>
+<figure class="highlight matlab"><figcaption><span>fun_F_x.m</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">F_x(<span class="built_in">i</span>)=<span class="number">.5</span><span class="number">-.5</span>*<span class="built_in">erf</span>((<span class="built_in">log</span>(-x(<span class="built_in">i</span>)+<span class="number">1</span>)+<span class="number">.5</span>*<span class="built_in">log</span>(<span class="number">2</span>))/<span class="built_in">sqrt</span>(<span class="number">2</span>*<span class="built_in">log</span>(<span class="number">2</span>)));</div></pre></td></tr></table></figure>
+<figure class="highlight matlab"><figcaption><span>fun_q_theta.m</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">q_theta</span> = <span class="title">fun_q_theta</span><span class="params">(theta,A,B1,B2)</span></span></div><div class="line">temp1 = <span class="built_in">nthroot</span>(theta,B2);</div><div class="line">temp2 = (temp1).^(-B1);</div><div class="line">q_theta = A*temp2;</div><div class="line"><span class="keyword">return</span></div></pre></td></tr></table></figure>
+<figure class="highlight matlab"><figcaption><span>fun_u.m</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">u</span> = <span class="title">fun_u</span><span class="params">(epsilon_d,theta,lambda,typen,...</span></span></div><div class="line"><span class="function"><span class="params">    A,B1,B2,epsilon_u)</span></span></div><div class="line">q_theta=fun_q_theta(theta,A,B1,B2);</div><div class="line">F_epsilond = fun_F_x(epsilon_d,typen,epsilon_u);</div><div class="line">u = lambda*F_epsilond/(lambda*F_epsilond+theta*q_theta);</div><div class="line"><span class="keyword">return</span></div></pre></td></tr></table></figure>
+<figure class="highlight matlab"><figcaption><span>fun_hs.m</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">h_s</span> = <span class="title">fun_hs</span><span class="params">(epsilon_c,epsilon_d,theta,alpha,u,lambda,typen,...</span></span></div><div class="line"><span class="function"><span class="params">    A,B1,B2,epsilon_u)</span></span></div><div class="line">q_theta=fun_q_theta(theta,A,B1,B2);</div><div class="line">F_epsilonc = fun_F_x(epsilon_c,typen,epsilon_u);</div><div class="line">F_epsilond = fun_F_x(epsilon_d,typen,epsilon_u);</div><div class="line">temp1 = (<span class="number">1</span>-u)*(<span class="number">1</span>-alpha)*lambda*(F_epsilonc-F_epsilond);</div><div class="line">temp2 = lambda*F_epsilonc+(<span class="number">1</span>-alpha)*theta*q_theta;</div><div class="line">h_s =temp1 / temp2;</div><div class="line"><span class="keyword">return</span></div></pre></td></tr></table></figure>
+<figure class="highlight matlab"><figcaption><span>fun_hn.m</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">h_n</span> = <span class="title">fun_hn</span><span class="params">(epsilon_c,theta,alpha,u,lambda,typen,...</span></span></div><div class="line"><span class="function"><span class="params">    A,B1,B2,epsilon_u)</span></span></div><div class="line">q_theta=fun_q_theta(theta,A,B1,B2);</div><div class="line">F_epsilonc = fun_F_x(epsilon_c,typen,epsilon_u);</div><div class="line">temp1 = (<span class="number">1</span>-u)*(alpha)*lambda*(F_epsilonc);</div><div class="line">temp2 = lambda*F_epsilonc+(<span class="number">1</span>-alpha)*theta*q_theta;</div><div class="line">h_n =temp1 / temp2;</div><div class="line"><span class="keyword">return</span></div></pre></td></tr></table></figure>
+<h2 id="fsolve"><a href="#fsolve" class="headerlink" title="fsolve"></a><code>fsolve</code></h2><blockquote>
+<p>Solves a problem specified by F(x) = 0 for x, where F(x) is a function that returns a vector value. x is a vector or a matrix; see Matrix Arguments.</p>
+</blockquote>
+<p><code>fsolve</code> is the most commonly used solver for nonlinear equations in MATLAB. In MATLAB, we can find three kinds of algorithms: <a href="https://optimization.mccormick.northwestern.edu/index.php/Trust-region_methods#Dogleg_Method" target="_blank" rel="external">Trust Region Dogleg</a><sup><a href="#fn_1" id="reffn_1">1</a></sup>, <a href="https://en.wikipedia.org/wiki/Trust_region" target="_blank" rel="external">Trust region</a> and <a href="https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm" target="_blank" rel="external">Levenberg-Marquardt</a>.</p>
+<p>We can set the options of solver <code>fsolve</code> as follow:</p>
+<figure class="highlight matlab"><figcaption><span>Jun01T1.m</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">options = optimoptions(<span class="string">&apos;fsolve&apos;</span>);</div><div class="line">options.Algorithm = <span class="string">&apos;trust-region-dogleg&apos;</span>;</div><div class="line"><span class="comment">%   &apos;trust-region-dogleg&apos; (default)</span></div><div class="line"><span class="comment">%   &apos;trust-region-reflective&apos;</span></div><div class="line"><span class="comment">%   &apos;levenberg-marquardt&apos;</span></div><div class="line">options.MaxFunEvals = Inf;</div><div class="line">options.MaxIter = <span class="number">500</span>;</div><div class="line">options.Display = <span class="string">&apos;iter&apos;</span>;</div></pre></td></tr></table></figure>
+<p>The nonlinear equations that we want to solve are coded in function handle <code>F</code>.</p>
+<figure class="highlight matlab"><figcaption><span>Jun01T1.m</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">F = @(var)fun_solveJun01T1(var,para);</div><div class="line"><span class="comment">% var = [epsilon_d;epsilon_c;theta]</span></div></pre></td></tr></table></figure>
+<p>And then we can solve nonlinear equation:</p>
+<figure class="highlight matlab"><figcaption><span>Jun01T1.m</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[fs,~,exitflag] = fsolve(F,var0,options);</div><div class="line">ceq=fun_solveJun01T1(fs,para);</div></pre></td></tr></table></figure>
+<p>where <code>fs</code> is the vector of solution and <code>ceq</code> is the value of nonlinear functions.</p>
+<h2 id="fmincon"><a href="#fmincon" class="headerlink" title="fmincon"></a><code>fmincon</code></h2><blockquote>
+<p>Find minimum of constrained nonlinear multivariable function</p>
+</blockquote>
+<p>For <code>fmincon</code>, there are 3 kinds of algorithms: <a href="https://en.wikipedia.org/wiki/Interior_point_method" target="_blank" rel="external">Interior Point</a><sup><a href="#fn_2" id="reffn_2">2</a></sup>, Trust Region Reflective<sup><a href="#fn_3" id="reffn_3">3</a></sup>, <a href="https://en.wikipedia.org/wiki/Sequential_quadratic_programming" target="_blank" rel="external">Sequential Quadratic Programming (SQP)</a><sup><a href="#fn_4" id="reffn_4">4</a></sup><sup><a href="#fn_5" id="reffn_5">5</a></sup>, <a href="https://en.wikipedia.org/wiki/Active_set_method" target="_blank" rel="external">Active Set</a>.</p>
+<p>We can set the options as follow:</p>
+<figure class="highlight matlab"><figcaption><span>Jun01T1.m</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">options = optimoptions(@fmincon);</div><div class="line">options.Algorithm = <span class="string">&apos;interior-point&apos;</span>;</div><div class="line">str_algo = <span class="string">&apos;IP&apos;</span>;</div><div class="line">options.MaxFunctionEvaluations = Inf;</div><div class="line">options.MaxIterations = <span class="number">500</span>;</div></pre></td></tr></table></figure>
+<p>We also need to set some constraint vectors following the suggested format of <code>fmincon</code>.</p>
+<figure class="highlight matlab"><figcaption><span>Jun01T1.m</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">Afmin=[];bfmin=[];Aeqfmin=[];beqfmin=[];</div><div class="line">lbfmin = [-Inf;-Inf;-Inf;-Inf];</div><div class="line"><span class="keyword">if</span> strcmp(typen,<span class="string">&apos;I&apos;</span>)</div><div class="line">    ubfmin = [epsilon_u;epsilon_u;Inf;Inf];</div><div class="line"><span class="keyword">else</span></div><div class="line">    ubfmin = [epsilon_u;epsilon_u;Inf;Inf];</div><div class="line"><span class="keyword">end</span></div></pre></td></tr></table></figure>
+<p>And then we can solve nonlinear equation:</p>
+<figure class="highlight matlab"><figcaption><span>Jun01T1.m</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">[fs,~,exitflag] = fmincon(@(var)<span class="number">0</span>,var0,Afmin,bfmin,Aeqfmin,beqfmin,lbfmin,ubfmin,...</div><div class="line">        @(x)fun_solveJun01T1_nonlcon(x,para),options);</div><div class="line">[~,ceq]=fun_solveJun01T1_nonlcon(fs,para);</div></pre></td></tr></table></figure>
+<p>where <code>fun_solveJun01T1_nonlcon.m</code> is as follow:</p>
+<figure class="highlight matlab"><figcaption><span>fun_solveJun01T1_nonlcon.m</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="params">[c,ceq]</span> = <span class="title">fun_solveJun01T1_nonlcon</span><span class="params">(var,para)</span></span></div><div class="line">c=[]; <span class="comment">% no nonlinear inequality</span></div><div class="line">ceq = fun_solveJun01T1(var,para);</div><div class="line"><span class="comment">% the fsolve objective is fmincon constrain</span></div><div class="line"><span class="keyword">return</span></div></pre></td></tr></table></figure>
+<h2 id="lsqnonlin"><a href="#lsqnonlin" class="headerlink" title="lsqnonlin"></a><code>lsqnonlin</code></h2><blockquote>
+<p>Solve nonlinear least-squares (nonlinear data-fitting) problems</p>
+</blockquote>
+<p>In <code>lsqnonlin</code> solver, Trust Region Reflective<sup><a href="#fn_3" id="reffn_3">3</a></sup> and <a href="https://en.wikipedia.org/wiki/Levenberg%E2%80%93Marquardt_algorithm" target="_blank" rel="external">Levenberg-Marquardt</a> are used.</p>
+<p>We can set the options as follow:</p>
+<pre><code>options = optimoptions(@lsqnonlin);
+options.Algorithm = &apos;trust-region-reflective&apos;;
+str_algo = &apos;TRR&apos;;
+%   &apos;trust-region-reflective&apos; (default)
+%   A gradient to be supplied in the objective function
+%   &apos;levenberg-marquardt&apos;
+options.MaxFunctionEvaluations = Inf;
+options.MaxIterations = 500;
+</code></pre><p>We can also use function handle <code>F</code> to represent the nonlinear equations:</p>
+<pre><code>F = @(var)fun_solveJun01T1(var,para);
+% var = [epsilon_d;epsilon_c;theta]
+lblsq = [-Inf;-Inf;-Inf;-Inf];
+if strcmp(typen,&apos;I&apos;)
+    ublsq = [epsilon_u;epsilon_u;Inf;Inf];
+else
+    ublsq = [epsilon_u;epsilon_u;Inf;Inf];
+end
+</code></pre><p>where <code>lblsq</code> and <code>ublsp</code> are the lower and upper bound.</p>
+<h2 id="Results"><a href="#Results" class="headerlink" title="Results"></a>Results</h2><p>We can solve the equation <code>Jun01T1</code> and get the solution for $\epsilon^d$, $\epsilon^c$, $\theta$ and $alpha$. In <code>main.m</code>:</p>
+<figure class="highlight matlab"><figcaption><span>main.m</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">para ={A;B1;B2;c_f;c_p;beta;phi;delta;sigma;lambda;...</div><div class="line">    b;r;epsilon_u;mu;pstar;typen;taskcode;...</div><div class="line">    str_s;str_para0;path_fig;vt;i};</div><div class="line">[vepsilon_d(i),vepsilon_c(i),vtheta(i),valpha(i),vceq(:,i),...</div><div class="line">    vexitflag(i),str_algo]=Jun01T1(para);</div><div class="line">str_para=strcat(str_para0,<span class="string">&apos;-&apos;</span>,str_algo);</div><div class="line">vu(<span class="built_in">i</span>) = fun_u(vepsilon_d(<span class="built_in">i</span>),vtheta(<span class="built_in">i</span>),lambda,typen,...</div><div class="line">    A,B1,B2,epsilon_u);</div><div class="line">vhs(<span class="built_in">i</span>)=fun_hs(vepsilon_c(<span class="built_in">i</span>),vepsilon_d(<span class="built_in">i</span>),vtheta(<span class="built_in">i</span>),valpha(<span class="built_in">i</span>),...</div><div class="line">    vu(<span class="built_in">i</span>),lambda,typen,A,B1,B2,epsilon_u);</div><div class="line">vhn(<span class="built_in">i</span>)=fun_hn(vepsilon_c(<span class="built_in">i</span>),vtheta(<span class="built_in">i</span>),valpha(<span class="built_in">i</span>),vu(<span class="built_in">i</span>),...</div><div class="line">    lambda,typen,A,B1,B2,epsilon_u);</div></pre></td></tr></table></figure>
+<p>Then we can get plot the solution as follow</p>
+<p>i. For the <code>fsolve</code> solver:</p>
+<p><img src="/images/20171117_matlab_1.png" alt=""></p>
+<p>ii. For the <code>fmincon</code> solver:</p>
+<p><img src="/images/20171117_matlab_2.png" alt=""></p>
+<p>iii. For the <code>lsqnonlin</code> solver:</p>
+<p><img src="/images/20171117_matlab_3.png" alt=""></p>
+<h1 id="Fortran"><a href="#Fortran" class="headerlink" title="Fortran"></a>Fortran</h1><p>In <a href="https://www.roguewave.com/products-services/imsl-numerical-libraries" target="_blank" rel="external">IMSL Numerical Library</a>, <code>NEQNF</code> can be used to solve a system of nonlinear equations by <a href="http://informatik.unibas.ch/fileadmin/Lectures/HS2013/CS253/PowellAndDP1.pdf" target="_blank" rel="external">Powell&#x2019;s Method</a>, which uses <a href="https://en.wikipedia.org/wiki/Finite_difference" target="_blank" rel="external">finite-difference</a> approximation to approximate Jacobian Matrix.</p>
+<h2 id="NEQNF"><a href="#NEQNF" class="headerlink" title="NEQNF"></a><code>NEQNF</code></h2><p>We can define the functions $u$, $h_s$ and $h_n$ in subroutines <code>fun_u</code>, <code>fun_hs</code> and <code>fun_hn</code> as follow:</p>
+<figure class="highlight fortran"><figcaption><span>fun_u.f90</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">subroutine</span></span> fun_u(epsilon_d,theta,u)</div><div class="line">    <span class="keyword">USE</span> point_para</div><div class="line">    </div><div class="line">    <span class="keyword">IMPLICIT</span> <span class="keyword">NONE</span></div><div class="line">    </div><div class="line">    <span class="keyword">REAL</span>(<span class="keyword">kind</span>=<span class="number">8</span>),<span class="keyword">intent</span>(<span class="keyword">in</span>) :: epsilon_d,theta</div><div class="line">    <span class="keyword">REAL</span>(<span class="keyword">kind</span>=<span class="number">8</span>),<span class="keyword">intent</span>(<span class="keyword">out</span>) :: u</div><div class="line">    <span class="keyword">REAL</span>(<span class="keyword">kind</span>=<span class="number">8</span>),<span class="keyword">external</span> :: funqtheta,fun_F_x</div><div class="line">    <span class="comment">! Local variables</span></div><div class="line">    <span class="keyword">REAL</span>(<span class="keyword">kind</span>=<span class="number">8</span>) :: q_theta,F_epsilond,A,B1,B2,lambda</div><div class="line">    </div><div class="line">    <span class="comment">!!!!!!!!!!!!!  </span></div><div class="line">    A = p_para(<span class="number">1</span>)</div><div class="line">    B1 = p_para(<span class="number">14</span>)</div><div class="line">    B2 = p_para(<span class="number">15</span>)</div><div class="line">    lambda = p_para(<span class="number">9</span>)</div><div class="line">    </div><div class="line">    q_theta = funqtheta(theta,A,B1,B2)</div><div class="line">    F_epsilond = fun_F_x(epsilon_d)</div><div class="line">    u = lambda*F_epsilond/(lambda*F_epsilond+theta*q_theta)</div><div class="line">    </div><div class="line">    </div><div class="line">    <span class="keyword">return</span></div><div class="line"><span class="keyword">end</span> <span class="function"><span class="keyword">subroutine</span></span></div></pre></td></tr></table></figure>
+<figure class="highlight fortran"><figcaption><span>fun_hs.f90</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">subroutine</span></span> fun_hs(epsilon_c,epsilon_d,theta,alpha,u,h_s)</div><div class="line">    <span class="keyword">USE</span> point_para</div><div class="line">    </div><div class="line">    <span class="keyword">implicit</span> <span class="keyword">none</span></div><div class="line">    </div><div class="line">    <span class="keyword">REAL</span>(<span class="keyword">kind</span>=<span class="number">8</span>),<span class="keyword">intent</span>(<span class="keyword">in</span>) :: epsilon_c,epsilon_d,theta,alpha,u</div><div class="line">    <span class="keyword">REAL</span>(<span class="keyword">kind</span>=<span class="number">8</span>),<span class="keyword">intent</span>(<span class="keyword">out</span>) :: h_s</div><div class="line">    <span class="keyword">REAL</span>(<span class="keyword">kind</span>=<span class="number">8</span>),<span class="keyword">external</span> :: funqtheta,fun_F_x</div><div class="line">    <span class="comment">! LOCAL VARIABLES</span></div><div class="line">    <span class="keyword">REAL</span>(<span class="keyword">kind</span>=<span class="number">8</span>) :: q_theta,F_epsilonc,F_epsilond,temp1,temp2,A,B1,B2,lambda</div><div class="line">    <span class="comment">!!!!!!!!!!!!!!!!!!!!!!!!!!!!</span></div><div class="line">    A = p_para(<span class="number">1</span>)</div><div class="line">    B1 = p_para(<span class="number">14</span>)</div><div class="line">    B2 = p_para(<span class="number">15</span>)</div><div class="line">    lambda = p_para(<span class="number">9</span>)</div><div class="line">    <span class="comment">!!!!!!!!!!!!!!!!!!!!!!!!!!!</span></div><div class="line">    q_theta = funqtheta(theta,A,B1,B2)</div><div class="line">    F_epsilonc = fun_F_x(epsilon_c)</div><div class="line">    F_epsilond = fun_F_x(epsilon_d)</div><div class="line">    </div><div class="line">    temp1 = (<span class="number">1</span>-u)*(<span class="number">1</span>-alpha)*lambda*(F_epsilonc-F_epsilond)</div><div class="line">    temp2 = lambda*F_epsilonc+(<span class="number">1</span>-alpha)*theta*q_theta</div><div class="line">    </div><div class="line">    h_s =temp1/temp2</div><div class="line">    </div><div class="line">    <span class="keyword">return</span></div><div class="line"><span class="keyword">end</span> <span class="function"><span class="keyword">subroutine</span></span></div></pre></td></tr></table></figure>
+<figure class="highlight fortran"><figcaption><span>fun_hn.f90</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">subroutine</span></span> fun_hn(epsilon_c,theta,alpha,u,h_n)</div><div class="line">    <span class="keyword">USE</span> point_para</div><div class="line">    <span class="keyword">IMPLICIT</span> <span class="keyword">NONE</span></div><div class="line">    <span class="comment">!!!!!!!!!!!!!!!!!!!!!!!!!!</span></div><div class="line">    <span class="keyword">REAL</span>(<span class="keyword">kind</span>=<span class="number">8</span>),<span class="keyword">intent</span>(<span class="keyword">in</span>) :: epsilon_c,theta,alpha,u</div><div class="line">    <span class="keyword">REAL</span>(<span class="keyword">kind</span>=<span class="number">8</span>),<span class="keyword">intent</span>(<span class="keyword">out</span>) :: h_n</div><div class="line">    <span class="keyword">REAL</span>(<span class="keyword">kind</span>=<span class="number">8</span>),<span class="keyword">external</span> :: funqtheta,fun_F_x</div><div class="line">    <span class="comment">! LOCAL VARIABLES</span></div><div class="line">    <span class="keyword">REAL</span>(<span class="keyword">kind</span>=<span class="number">8</span>) :: q_theta,F_epsilonc,temp1,temp2,A,B1,B2,lambda</div><div class="line">    <span class="comment">!!!!!!!!!!!!!!!!!!!!!!!!!!!!</span></div><div class="line">    A = p_para(<span class="number">1</span>)</div><div class="line">    B1 = p_para(<span class="number">14</span>)</div><div class="line">    B2 = p_para(<span class="number">15</span>)</div><div class="line">    lambda = p_para(<span class="number">9</span>)</div><div class="line">    <span class="comment">!!!!!!!!!!!!!!!!!!!!!!!!!!!</span></div><div class="line">    q_theta = funqtheta(theta,A,B1,B2)</div><div class="line">    F_epsilonc = fun_F_x(epsilon_c)</div><div class="line">    <span class="comment">!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</span></div><div class="line">    temp1 = (<span class="number">1</span>-u)*(alpha)*lambda*(F_epsilonc)</div><div class="line">    temp2 = lambda*F_epsilonc+(<span class="number">1</span>-alpha)*theta*q_theta</div><div class="line">    </div><div class="line">    h_n =temp1/temp2</div><div class="line">    <span class="keyword">return</span></div><div class="line">    <span class="keyword">end</span> <span class="function"><span class="keyword">subroutine</span></span></div></pre></td></tr></table></figure>
+<p>In subroutine <code>Jun01T1</code>, we can use <code>CALL DNEQNF(FCN,ERRREL,N,ITMAX,XGUESS,X,fnorm)</code> to solve system of nonlinear equations <code>FCN</code>.</p>
+<figure class="highlight fortran"><figcaption><span>Jun01T1.f90</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">subroutine</span></span> Jun01T1(epsilond,epsilonc,theta,alpha,exitflag)</div><div class="line">    <span class="keyword">INCLUDE</span> <span class="string">&apos;link_fnl_shared.h&apos;</span>    </div><div class="line">    <span class="keyword">USE</span> NEQNF_INT</div><div class="line">    </div><div class="line">    <span class="keyword">implicit</span> <span class="keyword">none</span></div><div class="line">    </div><div class="line">    <span class="keyword">real</span>(<span class="keyword">kind</span>=<span class="number">8</span>) :: epsilond</div><div class="line">    <span class="keyword">real</span>(<span class="keyword">kind</span>=<span class="number">8</span>) :: epsilonc</div><div class="line">    <span class="keyword">real</span>(<span class="keyword">kind</span>=<span class="number">8</span>) :: theta</div><div class="line">    <span class="keyword">real</span>(<span class="keyword">kind</span>=<span class="number">8</span>) :: alpha</div><div class="line">    <span class="keyword">logical</span>(<span class="keyword">kind</span>=<span class="number">4</span>) :: exitflag</div><div class="line">    </div><div class="line">    <span class="comment">!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</span></div><div class="line">    <span class="comment">! The number of equations to be solved. for NEQNF</span></div><div class="line">    <span class="keyword">integer</span>(<span class="keyword">kind</span>=<span class="number">4</span>),<span class="keyword">parameter</span> :: N=<span class="number">4</span></div><div class="line">    <span class="keyword">real</span>(<span class="keyword">kind</span>=<span class="number">8</span>):: fnorm, X(N), XGUESS(N)</div><div class="line">    <span class="comment">! fnorm: A scalar that has the value F(1)2 + &#x2026; + F(N)2 at the point X.   (Output of NEQNF)</span></div><div class="line">    <span class="comment">! X(N): Solution of nonlinear systems; A vector of length N.   (Output of NEQNF) </span></div><div class="line">    <span class="comment">! X contains the best estimate of the root found by NEQNF.</span></div><div class="line">    <span class="comment">! XGUESS: A vector of length N.   (Input of NEQNF) </span></div><div class="line">    <span class="keyword">real</span>(<span class="keyword">kind</span>=<span class="number">8</span>),<span class="keyword">parameter</span>:: ERRREL = <span class="number">1d-6</span></div><div class="line">    <span class="comment">! ERRREL:Tolerance; Stopping criterion;  (Input of NEQNF)</span></div><div class="line">    <span class="keyword">integer</span>(<span class="keyword">kind</span>=<span class="number">4</span>),<span class="keyword">PARAMETER</span>:: ITMAX = <span class="number">1500</span></div><div class="line">    <span class="comment">! The maximum allowable number of iterations.   (Input) </span></div><div class="line">    </div><div class="line">    <span class="keyword">EXTERNAL</span> FCN</div><div class="line">    <span class="comment">! User-supplied SUBROUTINE to evaluate the system of equations to be solved. </span></div><div class="line">    <span class="comment">! The usage is CALL fun_solveJun01T1(X, F, N)</span></div><div class="line">    </div><div class="line">    <span class="comment">!real ceq(N)</span></div><div class="line">    <span class="comment">!  A vector of length N. FVEC contains the functions evaluated at the point X.</span></div><div class="line">    </div><div class="line">    <span class="keyword">DATA</span> XGUESS /-<span class="number">5.0</span>,-<span class="number">1.0</span>,<span class="number">1.0</span>,<span class="number">0.5</span>/</div><div class="line">    </div><div class="line">    <span class="comment">! Routine NEQNF is based on the MINPACK subroutine HYBRD1, </span></div><div class="line">    <span class="comment">! which uses a modification of M.J.D. Powell&#x2019;s hybrid algorithm.</span></div><div class="line">    <span class="keyword">CALL</span> DNEQNF(FCN,ERRREL,N,ITMAX,XGUESS,X,fnorm)</div><div class="line">    </div><div class="line">    <span class="built_in">write</span>(*,*) X</div><div class="line">    </div><div class="line">    epsilond = X(<span class="number">1</span>)</div><div class="line">    epsilonc = X(<span class="number">2</span>)</div><div class="line">    theta = X(<span class="number">3</span>)</div><div class="line">    alpha = X(<span class="number">4</span>)</div><div class="line">    </div><div class="line">    <span class="comment">! Check whether the solution is valid</span></div><div class="line">    <span class="keyword">if</span> (fnorm&lt;=ERRREL) <span class="keyword">then</span></div><div class="line">        exitflag = .true.</div><div class="line">    <span class="keyword">else</span></div><div class="line">        exitflag = .false.</div><div class="line">    <span class="keyword">end</span> <span class="keyword">if</span></div><div class="line">    </div><div class="line">    <span class="keyword">return</span></div><div class="line"><span class="keyword">end</span> <span class="function"><span class="keyword">subroutine</span></span> Jun01T1</div></pre></td></tr></table></figure>
+<p>where subroutine <code>FCN</code> is defined as:</p>
+<figure class="highlight fortran"><figcaption><span>fun_solveJun01T1.f90</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">subroutine</span></span> FCN (X,F,N)</div><div class="line">    <span class="keyword">use</span> point_para</div><div class="line">    </div><div class="line">    <span class="keyword">implicit</span> <span class="keyword">none</span></div><div class="line">    </div><div class="line">    <span class="keyword">integer</span>(<span class="keyword">KIND</span>=<span class="number">4</span>) ::  N</div><div class="line">    <span class="keyword">real</span>(<span class="keyword">kind</span>=<span class="number">8</span>):: X(N),F(N)</div><div class="line">    <span class="comment">!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</span></div><div class="line">    <span class="keyword">real</span>(<span class="keyword">kind</span>=<span class="number">8</span>) :: A,B1,B2,r,c_p,beta,phi,delta,sigma,lambda,pstar,b,c_f,epsilon_u,mu</div><div class="line">    <span class="keyword">real</span>(<span class="keyword">kind</span>=<span class="number">8</span>) :: p</div><div class="line">    <span class="keyword">real</span>(<span class="keyword">kind</span>=<span class="number">8</span>) :: q_theta,int_Fdu,int_Fcu</div><div class="line">    <span class="keyword">real</span>(<span class="keyword">kind</span>=<span class="number">8</span>) :: part11,part12,temp211,temp212,temp213,part21,temp2211,temp2212,temp221,part22,&amp;</div><div class="line">        part31,part32,temp321,temp322,part41,part42,temp421,temp422</div><div class="line">    <span class="keyword">character</span>(len=<span class="number">3</span>) :: typen</div><div class="line">    <span class="comment">!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</span></div><div class="line">    <span class="keyword">real</span>(<span class="keyword">kind</span>=<span class="number">8</span>) :: fun_intF,fun_F_X,funqtheta</div><div class="line">    </div><div class="line">    <span class="keyword">external</span> :: funqtheta,fun_intF,fun_F_X</div><div class="line">    </div><div class="line">    <span class="keyword">REAL</span>       <span class="built_in">EXP</span>, <span class="built_in">SIN</span></div><div class="line">    <span class="keyword">INTRINSIC</span>  <span class="built_in">EXP</span>, <span class="built_in">SIN</span></div><div class="line">    </div><div class="line">    A = p_para(<span class="number">1</span>)</div><div class="line"></div><div class="line">    B1= p_para(<span class="number">14</span>)</div><div class="line">    B2 = p_para(<span class="number">15</span>)</div><div class="line">    </div><div class="line">    r = p_para(<span class="number">3</span>)</div><div class="line">    c_p = p_para(<span class="number">4</span>)</div><div class="line">    beta = p_para(<span class="number">5</span>)</div><div class="line">    phi = p_para(<span class="number">6</span>)</div><div class="line">    delta = p_para(<span class="number">7</span>)</div><div class="line">    sigma = p_para(<span class="number">8</span>)</div><div class="line">    lambda = p_para(<span class="number">9</span>)</div><div class="line">    pstar = p_para(<span class="number">10</span>)</div><div class="line">    b = p_para(<span class="number">11</span>)</div><div class="line">    c_f = p_para(<span class="number">12</span>)</div><div class="line">    mu = p_para(<span class="number">13</span>)</div><div class="line">   </div><div class="line">    typen = p_typen</div><div class="line">    epsilon_u=p_epu</div><div class="line">    </div><div class="line">    p=pstar</div><div class="line">    <span class="comment">!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</span></div><div class="line">    q_theta = funqtheta(X(<span class="number">3</span>),A,B1,B2)</div><div class="line"></div><div class="line">    int_Fdu = fun_intF(X(<span class="number">1</span>),epsilon_u)</div><div class="line">    int_Fcu = fun_intF(X(<span class="number">2</span>),epsilon_u)</div><div class="line">    <span class="comment">!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</span></div><div class="line">    part11 = X(<span class="number">1</span>)+lambda*int_Fdu/(r+lambda+X(<span class="number">3</span>)*q_theta)</div><div class="line"></div><div class="line">    part12 = (b-p)/sigma</div><div class="line">    <span class="comment">!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</span></div><div class="line">    temp211 = delta*(r+lambda-phi*(<span class="number">1</span>-fun_F_x(X(<span class="number">2</span>))))*(X(<span class="number">2</span>)-X(<span class="number">1</span>))</div><div class="line">    temp212 = r+lambda+X(<span class="number">3</span>)*q_theta</div><div class="line">    temp213 = (lambda/(r+lambda)-lambda*delta/temp212)*int_Fcu</div><div class="line">    part21 = X(<span class="number">2</span>)-temp211/((<span class="number">1</span>-phi)*temp212)+temp213</div><div class="line"></div><div class="line">    temp2211 = ((beta+phi*(<span class="number">1</span>-beta))*c_f*(<span class="number">1</span>-X(<span class="number">4</span>)))/((<span class="number">1</span>-beta)*(<span class="number">1</span>-phi))</div><div class="line">    temp2212 = (beta*c_p*X(<span class="number">4</span>))/(<span class="number">1</span>-beta)</div><div class="line">    temp221 = X(<span class="number">3</span>)*(temp2211 + temp2212)</div><div class="line">    part22 = delta*X(<span class="number">1</span>)+((<span class="number">1</span>-delta)*(b-p)+temp221)/delta</div><div class="line">    <span class="comment">!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</span></div><div class="line">    part31 = <span class="number">1</span>/q_theta</div><div class="line"></div><div class="line">    temp321 = (<span class="number">1</span>-beta)*(<span class="number">1</span>-phi)/c_f</div><div class="line">    temp322 = sigma*(epsilon_u-X(<span class="number">2</span>))/(r+lambda)+&amp;</div><div class="line">        delta*sigma*(X(<span class="number">2</span>)-X(<span class="number">1</span>))/((<span class="number">1</span>-phi)*(r+lambda+X(<span class="number">3</span>)*q_theta))</div><div class="line">    part32 = temp321*temp322</div><div class="line">    <span class="comment">!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</span></div><div class="line">    part41 = <span class="number">1</span>/q_theta</div><div class="line"></div><div class="line">    temp421 = (<span class="number">1</span>-beta)*delta*sigma*(epsilon_u-X(<span class="number">1</span>))</div><div class="line">    temp422 = c_p*(r+lambda+X(<span class="number">3</span>)*q_theta)</div><div class="line">    part42 = temp421/temp422</div><div class="line"></div><div class="line">    <span class="comment">!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</span></div><div class="line">    F(<span class="number">1</span>) = part11-part12</div><div class="line">    F(<span class="number">2</span>) = part21-part22</div><div class="line">    F(<span class="number">3</span>) = part31-part32</div><div class="line">    F(<span class="number">4</span>) = part41-part42</div><div class="line">    </div><div class="line">    <span class="keyword">return</span></div><div class="line"><span class="keyword">end</span> <span class="function"><span class="keyword">SUBROUTINE</span></span> fcn</div></pre></td></tr></table></figure>
+<p>In <code>main.f90</code>, we call the subroutine <code>Jun01T1</code>, <code>fun_u</code>, <code>fun_hs</code> and <code>fun_hn</code>:</p>
+<figure class="highlight fortran"><figcaption><span>main.f90</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">call</span> Jun01T1(vepsilon_d(i),vepsilon_c(i),vtheta(i),valpha(i),vexitflag(i))</div><div class="line"><span class="keyword">call</span> fun_u(vepsilon_d(i),vtheta(i),vu(i))</div><div class="line"><span class="keyword">call</span> fun_hs(vepsilon_c(i),vepsilon_d(i),vtheta(i),valpha(i),vu(i),vhs(i))</div><div class="line"><span class="keyword">call</span> fun_hn(vepsilon_c(i),vtheta(i),valpha(i),vu(i),vhn(i))</div></pre></td></tr></table></figure>
+<h2 id="Results-1"><a href="#Results-1" class="headerlink" title="Results"></a>Results</h2><p>Then we can plot the solutions as follow:</p>
+<p><img src="/images/20171117_fortran.png" alt=""></p>
+<h1 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h1><p>We can use <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fsolve.html#scipy.optimize.fsolve" target="_blank" rel="external">fsolve</a> in <a href="https://docs.scipy.org/doc/scipy/reference/optimize.html" target="_blank" rel="external">scipy.optimize</a>, which is a wrapper around [MINPACK&#x2019;s <a href="https://www.math.utah.edu/software/minpack/minpack/hybrd.html" target="_blank" rel="external">hybrd</a> and <a href="https://www.math.utah.edu/software/minpack/minpack/hybrj.html" target="_blank" rel="external">hybrj</a> algorithms.</p>
+<blockquote>
+<p>The purpose of HYBRD is to find a zero of a system of N non-linear functions in N variables by a modification of the Powell hybrid method.  The user must provide a subroutine which calculates the functions.  The Jacobian is then calculated by a forward-difference approximation.</p>
+<p>The purpose of HYBRJ is to find a zero of a system of N non-linear functions in N variables by a modification of the Powell hybrid method.  The user must provide a subroutine which calculates the functions and the Jacobian.</p>
+</blockquote>
+<p><code>HYBRD</code> is a modification of the <a href="https://en.wikipedia.org/wiki/Powell%27s_method" target="_blank" rel="external">Powell hybrid method</a>. Two of its main characteristics involve the choice of the correction as a convex combination of the Newton and scaled gradient directions, and the updating of the Jacobian by the rank-1 method of Broyden.</p>
+<h2 id="fsolve-in-scipy-optimize"><a href="#fsolve-in-scipy-optimize" class="headerlink" title="fsolve in scipy.optimize"></a><code>fsolve</code> in <code>scipy.optimize</code></h2><p>We define a Class named <code>Operator</code> to solve the nonlinear equations:</p>
+<figure class="highlight python"><figcaption><span>main_Jun01T1.py</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div><div class="line">102</div><div class="line">103</div><div class="line">104</div><div class="line">105</div><div class="line">106</div><div class="line">107</div><div class="line">108</div><div class="line">109</div><div class="line">110</div><div class="line">111</div><div class="line">112</div><div class="line">113</div><div class="line">114</div><div class="line">115</div><div class="line">116</div><div class="line">117</div><div class="line">118</div><div class="line">119</div><div class="line">120</div><div class="line">121</div><div class="line">122</div><div class="line">123</div><div class="line">124</div><div class="line">125</div><div class="line">126</div><div class="line">127</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">Operator</span><span class="params">(CaseCode)</span>:</span></div><div class="line">    <span class="string">&quot;&quot;&quot;Main operator to get the solution</span></div><div class="line"><span class="string"></span></div><div class="line"><span class="string">    epsilon_d,epsilon_c,theta,alpha&quot;&quot;&quot;</span></div><div class="line"></div><div class="line">    <span class="comment"># para is the dictionary updated</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self, case, typen, para)</span>:</span></div><div class="line">        CaseCode.__init__(self, case)</div><div class="line">        self.typen = typen</div><div class="line">        self.para = para</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">fun_q_theta</span><span class="params">(self, x)</span>:</span></div><div class="line">        <span class="keyword">return</span> self.para[<span class="string">&apos;A&apos;</span>]* x **(-self.para[<span class="string">&apos;B1&apos;</span>]/self.para[<span class="string">&apos;B2&apos;</span>])</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">fun_F_x</span><span class="params">(self, x)</span>:</span></div><div class="line">        <span class="keyword">if</span> self.typen == <span class="string">&apos;O&apos;</span>:</div><div class="line">            temp1 = (np.pi/<span class="number">4.0</span>)/np.sin(np.pi/<span class="number">4.0</span>) - x</div><div class="line">            temp2 = (np.pi/<span class="number">2.0</span>)/np.sin(np.pi/<span class="number">2.0</span>) - ((np.pi/<span class="number">4.0</span>)/np.sin(np.pi/<span class="number">4.0</span>))**<span class="number">2.0</span></div><div class="line">            temp3 = <span class="number">1.0</span> + (temp1/np.sqrt(temp2))**(<span class="number">-4.0</span>)</div><div class="line">            <span class="keyword">return</span> <span class="number">1.0</span>-(temp3)**(<span class="number">-1.0</span>)</div><div class="line">        <span class="keyword">elif</span> self.typen == <span class="string">&apos;I&apos;</span>:</div><div class="line">            <span class="keyword">if</span> x &lt; <span class="number">-1.0</span>*self.para[<span class="string">&apos;epsilon_u&apos;</span>]:</div><div class="line">                <span class="keyword">return</span> <span class="number">0</span></div><div class="line">            <span class="keyword">elif</span> x &gt; self.para[<span class="string">&apos;epsilon_u&apos;</span>]:</div><div class="line">                <span class="keyword">return</span> <span class="number">1.0</span></div><div class="line">            <span class="keyword">else</span>:</div><div class="line">                <span class="keyword">return</span> (x + self.para[<span class="string">&apos;epsilon_u&apos;</span>])/(<span class="number">2.0</span>*self.para[<span class="string">&apos;epsilon_u&apos;</span>])</div><div class="line"></div><div class="line">        <span class="keyword">elif</span> self.typen == <span class="string">&apos;II&apos;</span>:</div><div class="line">            temp=np.sqrt(<span class="number">1.0</span>/np.pi)-x*np.sqrt(<span class="number">.5</span><span class="number">-1.0</span>/np.pi)</div><div class="line">            <span class="keyword">return</span> <span class="number">1.0</span>-special.erf(temp)</div><div class="line"></div><div class="line">        <span class="keyword">elif</span> self.typen == <span class="string">&apos;III&apos;</span>:</div><div class="line">            <span class="keyword">return</span> (<span class="number">.5</span><span class="number">-.5</span> * special.erf((np.log(-x+<span class="number">1.0</span>)+ \</div><div class="line">                <span class="number">.5</span> * np.log(<span class="number">2.0</span>))/np.sqrt(<span class="number">2.0</span> * np.log(<span class="number">2.0</span>))))</div><div class="line"></div><div class="line">        <span class="keyword">elif</span> self.typen == <span class="string">&apos;IV&apos;</span>:</div><div class="line">            <span class="keyword">return</span> ((<span class="number">3.0</span><span class="number">-2.0</span>*x)/np.sqrt(<span class="number">3.0</span>))**(<span class="number">-3.0</span>)</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">integrand</span><span class="params">(self,x)</span>:</span></div><div class="line">        <span class="keyword">return</span> (<span class="number">1</span>-self.fun_F_x(x))</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">fun_int_F</span><span class="params">(self,a,b)</span>:</span></div><div class="line">        temp = integrate.quad(self.integrand,a,b)</div><div class="line">        <span class="keyword">return</span> temp[<span class="number">0</span>]</div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">Equation</span><span class="params">(self,x)</span>:</span></div><div class="line">        epsilon_d = x[<span class="number">0</span>]</div><div class="line">        epsilon_c = x[<span class="number">1</span>]</div><div class="line">        theta = x[<span class="number">2</span>]</div><div class="line">        alpha = x[<span class="number">3</span>]</div><div class="line"></div><div class="line">        q_theta = self.fun_q_theta(theta)</div><div class="line"></div><div class="line">        int_Fdu = self.fun_int_F(epsilon_d,self.para[<span class="string">&apos;epsilon_u&apos;</span>])</div><div class="line">        int_Fcu = self.fun_int_F(epsilon_c,self.para[<span class="string">&apos;epsilon_u&apos;</span>])</div><div class="line">        <span class="comment">####</span></div><div class="line">        part11 = epsilon_d + self.para[<span class="string">&apos;lambda&apos;</span>] * \</div><div class="line">            int_Fdu / (self.para[<span class="string">&apos;r&apos;</span>] + self.para[<span class="string">&apos;lambda&apos;</span>] + theta * q_theta)</div><div class="line">        part12 = (self.para[<span class="string">&apos;b&apos;</span>] - self.para[<span class="string">&apos;pstar&apos;</span>])/self.para[<span class="string">&apos;sigma&apos;</span>]</div><div class="line">        <span class="comment">####</span></div><div class="line">        temp211 = self.para[<span class="string">&apos;delta&apos;</span>] * (self.para[<span class="string">&apos;r&apos;</span>] + self.para[<span class="string">&apos;lambda&apos;</span>]\</div><div class="line">            -self.para[<span class="string">&apos;phi&apos;</span>] * (<span class="number">1.0</span>-self.fun_F_x(epsilon_c)))\</div><div class="line">                 * (epsilon_c-epsilon_d)</div><div class="line">        temp212 = self.para[<span class="string">&apos;r&apos;</span>] + self.para[<span class="string">&apos;lambda&apos;</span>] + theta * q_theta</div><div class="line">        temp213 = (self.para[<span class="string">&apos;lambda&apos;</span>]/(self.para[<span class="string">&apos;r&apos;</span>]+self.para[<span class="string">&apos;lambda&apos;</span>])\</div><div class="line">            -self.para[<span class="string">&apos;lambda&apos;</span>] * self.para[<span class="string">&apos;delta&apos;</span>]/temp212) * int_Fcu</div><div class="line">        part21 = epsilon_c-temp211/((<span class="number">1.0</span>-self.para[<span class="string">&apos;phi&apos;</span>]) * temp212)+temp213</div><div class="line"></div><div class="line">        temp2211 = ((self.para[<span class="string">&apos;beta&apos;</span>]+self.para[<span class="string">&apos;phi&apos;</span>] * \</div><div class="line">            (<span class="number">1.0</span>-self.para[<span class="string">&apos;beta&apos;</span>])) * self.para[<span class="string">&apos;c_f&apos;</span>] * (<span class="number">1.0</span>-alpha))/((<span class="number">1.0</span>-self.para[<span class="string">&apos;beta&apos;</span>]) * \</div><div class="line">            (<span class="number">1.0</span>-self.para[<span class="string">&apos;phi&apos;</span>]))</div><div class="line">        temp2212 = (self.para[<span class="string">&apos;beta&apos;</span>] * self.para[<span class="string">&apos;c_p&apos;</span>] * alpha)/(<span class="number">1.0</span>-self.para[<span class="string">&apos;beta&apos;</span>])</div><div class="line">        temp221 = theta * (temp2211 + temp2212)</div><div class="line">        part22 = self.para[<span class="string">&apos;delta&apos;</span>] * epsilon_d+((<span class="number">1.0</span>-self.para[<span class="string">&apos;delta&apos;</span>]) * \</div><div class="line">            (self.para[<span class="string">&apos;b&apos;</span>]-self.para[<span class="string">&apos;pstar&apos;</span>])+temp221)/self.para[<span class="string">&apos;delta&apos;</span>]</div><div class="line">        <span class="comment">####</span></div><div class="line">        part31 = <span class="number">1.0</span>/q_theta</div><div class="line"></div><div class="line">        temp321 = (<span class="number">1.0</span>-self.para[<span class="string">&apos;beta&apos;</span>]) * (<span class="number">1.0</span>-self.para[<span class="string">&apos;phi&apos;</span>])/self.para[<span class="string">&apos;c_f&apos;</span>]</div><div class="line">        temp322 = self.para[<span class="string">&apos;sigma&apos;</span>] * (self.para[<span class="string">&apos;epsilon_u&apos;</span>]-epsilon_c)/(\</div><div class="line">            self.para[<span class="string">&apos;r&apos;</span>]+self.para[<span class="string">&apos;lambda&apos;</span>])+\</div><div class="line">            self.para[<span class="string">&apos;delta&apos;</span>] * self.para[<span class="string">&apos;sigma&apos;</span>] * (epsilon_c-epsilon_d)/(\</div><div class="line">                (<span class="number">1.0</span>-self.para[<span class="string">&apos;phi&apos;</span>]) * (self.para[<span class="string">&apos;r&apos;</span>]+self.para[<span class="string">&apos;lambda&apos;</span>]+theta * q_theta))</div><div class="line">        part32 = temp321 * temp322</div><div class="line">        <span class="comment">####</span></div><div class="line">        part41 = <span class="number">1.0</span>/q_theta</div><div class="line"></div><div class="line">        temp421 = (<span class="number">1.0</span>-self.para[<span class="string">&apos;beta&apos;</span>]) * self.para[<span class="string">&apos;delta&apos;</span>] * self.para[<span class="string">&apos;sigma&apos;</span>] * (\</div><div class="line">            self.para[<span class="string">&apos;epsilon_u&apos;</span>]-epsilon_d)</div><div class="line">        temp422 = self.para[<span class="string">&apos;c_p&apos;</span>] * (self.para[<span class="string">&apos;r&apos;</span>]+self.para[<span class="string">&apos;lambda&apos;</span>]+theta * q_theta)</div><div class="line">        part42 = temp421/temp422</div><div class="line"></div><div class="line">        <span class="keyword">return</span> [</div><div class="line">            part11-part12,</div><div class="line">            part21-part22,</div><div class="line">            part31-part32,</div><div class="line">            part41-part42</div><div class="line">        ]</div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">Solution</span><span class="params">(self)</span>:</span></div><div class="line">        <span class="comment"># Tuple</span></div><div class="line">        <span class="comment"># Initial value guess</span></div><div class="line">        guess = (<span class="number">-5.0</span>,<span class="number">-1.0</span>,<span class="number">1.0</span>,<span class="number">0.5</span>)</div><div class="line"></div><div class="line">        <span class="comment"># fsolve is a wrapper around MINPACK&apos;s hybrd and hybrj algorithms</span></div><div class="line">        <span class="comment"># [epsilon_d,epsilon_c,theta,alpha]</span></div><div class="line">        <span class="comment"># xtol : The calculation will terminate if the relative error between</span></div><div class="line">        <span class="comment"># two consecutive iterates is at most xtol.</span></div><div class="line">        <span class="comment"># maxfev : The maximum number of calls to the function.</span></div><div class="line">        sol, infodict, ier, mesg = fsolve(self.Equation,guess,full_output=<span class="keyword">True</span>)</div><div class="line"></div><div class="line"></div><div class="line">        <span class="keyword">if</span> ier != <span class="number">1</span>:</div><div class="line">            print(<span class="string">&quot;ier = {}&quot;</span>.format(ier))</div><div class="line">            print(<span class="string">&quot;sol = {}&quot;</span>.format(sol))</div><div class="line">            print(<span class="string">&quot;infodict = {}&quot;</span>.format(infodict))</div><div class="line">            <span class="keyword">return</span> [sol,ier]</div><div class="line">        <span class="keyword">else</span>:</div><div class="line">            <span class="keyword">return</span> [sol,ier]</div><div class="line"></div><div class="line"></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">Tell</span><span class="params">(self)</span>:</span></div><div class="line">        CaseCode.Tell(self)</div><div class="line">        print(<span class="string">&apos;Type of F(x) is:{}&apos;</span>.format(self.typen))</div><div class="line">        print(<span class="string">&apos;Parameters are:{}&apos;</span>.format(self.para))</div><div class="line">        print(<span class="string">&apos;Solution is:{}&apos;</span>.format(self.Solution))</div><div class="line">        print(<span class="string">&apos;Error is:{}&apos;</span>.format(self.Error))</div></pre></td></tr></table></figure>
+<p>In the function <code>Solution(self)</code>, we use <code>fsolve</code> in the format as follow:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sol, infodict, ier, mesg = fsolve(self.Equation,guess,full_output=<span class="keyword">True</span>)</div></pre></td></tr></table></figure>
+<h2 id="Results-2"><a href="#Results-2" class="headerlink" title="Results"></a>Results</h2><p>We can take use of <code>matplotlib.pyplot</code> to plot the solutions as follow:</p>
+<p><img src="/images/20171117_python.png" alt=""></p>
+<h1 id="R"><a href="#R" class="headerlink" title="R"></a>R</h1><p>To solve system of nonlinear equations, we can use <a href="https://cran.r-project.org/web/packages/nleqslv/index.html" target="_blank" rel="external">nleqslv package</a>. The <code>nleqslv</code> package provides two algorithms for solving (dense) nonlinear systems of equations:</p>
+<ul>
+<li>a Broyden Secant method<sup><a href="#fn_6" id="reffn_6">6</a></sup> where the matrix of derivatives is updated after each major iteration using the Broyden rank 1 update.</li>
+<li>a full Newton method where the Jacobian matrix of derivatives is recalculated at each iteration</li>
+</ul>
+<h2 id="nleqslv-package"><a href="#nleqslv-package" class="headerlink" title="nleqslv package"></a><code>nleqslv</code> package</h2><p>We can define the nonlinear Equations to be solved as follow:</p>
+<figure class="highlight r"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div></pre></td><td class="code"><pre><div class="line">Equation&lt;-<span class="keyword">function</span>(x){</div><div class="line">  y&lt;-numeric(length(x))</div><div class="line">  </div><div class="line">  epsilon_d &lt;- x[<span class="number">1</span>]</div><div class="line">  epsilon_c &lt;- x[<span class="number">2</span>]</div><div class="line">  theta &lt;- x[<span class="number">3</span>]</div><div class="line">  alpha &lt;- x[<span class="number">4</span>] </div><div class="line">  </div><div class="line">  q_theta = fun_q_theta(myPara=myPara,x=theta)</div><div class="line">  </div><div class="line">  int_Fdu = fun_int_F(epsilon_d,epsilon_u)</div><div class="line">  int_Fcu = fun_int_F(epsilon_c,epsilon_u)</div><div class="line">  </div><div class="line">  part11 = epsilon_d+myPara[<span class="string">&quot;lambda&quot;</span>,<span class="string">&quot;value&quot;</span>]*int_Fdu/(myPara[<span class="string">&quot;r&quot;</span>,<span class="string">&quot;value&quot;</span>]+myPara[<span class="string">&quot;lambda&quot;</span>,<span class="string">&quot;value&quot;</span>]+theta*q_theta)</div><div class="line">  part12 = (myPara[<span class="string">&quot;b&quot;</span>,<span class="string">&quot;value&quot;</span>]-myPara[<span class="string">&quot;pstar&quot;</span>,<span class="string">&quot;value&quot;</span>])/myPara[<span class="string">&quot;sigma&quot;</span>,<span class="string">&quot;value&quot;</span>]</div><div class="line">  </div><div class="line">  temp211 = myPara[<span class="string">&apos;delta&apos;</span>,<span class="string">&quot;value&quot;</span>]*(myPara[<span class="string">&apos;r&apos;</span>,<span class="string">&quot;value&quot;</span>]+myPara[<span class="string">&apos;lambda&apos;</span>,<span class="string">&quot;value&quot;</span>]-myPara[<span class="string">&apos;phi&apos;</span>,<span class="string">&quot;value&quot;</span>]*(<span class="number">1</span>-fun_F_x(epsilon_c)))*(epsilon_c-epsilon_d)</div><div class="line">  temp212 = myPara[<span class="string">&apos;r&apos;</span>,<span class="string">&quot;value&quot;</span>]+myPara[<span class="string">&apos;lambda&apos;</span>,<span class="string">&quot;value&quot;</span>]+theta*q_theta</div><div class="line">  temp213 = (myPara[<span class="string">&apos;lambda&apos;</span>,<span class="string">&quot;value&quot;</span>]/(myPara[<span class="string">&apos;r&apos;</span>,<span class="string">&quot;value&quot;</span>]+myPara[<span class="string">&apos;lambda&apos;</span>,<span class="string">&quot;value&quot;</span>])-myPara[<span class="string">&apos;lambda&apos;</span>,<span class="string">&quot;value&quot;</span>]*myPara[<span class="string">&apos;delta&apos;</span>,<span class="string">&quot;value&quot;</span>]/temp212)*int_Fcu</div><div class="line">  part21 = epsilon_c-temp211/((<span class="number">1</span>-myPara[<span class="string">&apos;phi&apos;</span>,<span class="string">&quot;value&quot;</span>])*temp212)+temp213</div><div class="line">  </div><div class="line">  temp2211 = ((myPara[<span class="string">&apos;beta&apos;</span>,<span class="string">&quot;value&quot;</span>]+myPara[<span class="string">&apos;phi&apos;</span>,<span class="string">&quot;value&quot;</span>]*(<span class="number">1.0</span>-myPara[<span class="string">&apos;beta&apos;</span>,<span class="string">&quot;value&quot;</span>]))*myPara[<span class="string">&apos;c_f&apos;</span>,<span class="string">&quot;value&quot;</span>]*(<span class="number">1.0</span>-alpha))/((<span class="number">1</span>-myPara[<span class="string">&apos;beta&apos;</span>,<span class="string">&quot;value&quot;</span>])*(<span class="number">1</span>-myPara[<span class="string">&apos;phi&apos;</span>,<span class="string">&quot;value&quot;</span>]))</div><div class="line">  temp2212 = (myPara[<span class="string">&apos;beta&apos;</span>,<span class="string">&quot;value&quot;</span>]*myPara[<span class="string">&apos;c_p&apos;</span>,<span class="string">&quot;value&quot;</span>]*alpha)/(<span class="number">1</span>-myPara[<span class="string">&apos;beta&apos;</span>,<span class="string">&quot;value&quot;</span>])</div><div class="line">  temp221 = theta*(temp2211 + temp2212)</div><div class="line">  part22 = myPara[<span class="string">&apos;delta&apos;</span>,<span class="string">&quot;value&quot;</span>]*epsilon_d+((<span class="number">1</span>-myPara[<span class="string">&apos;delta&apos;</span>,<span class="string">&quot;value&quot;</span>])*(myPara[<span class="string">&apos;b&apos;</span>,<span class="string">&quot;value&quot;</span>]-myPara[<span class="string">&apos;pstar&apos;</span>,<span class="string">&quot;value&quot;</span>])+temp221)/myPara[<span class="string">&apos;delta&apos;</span>,<span class="string">&quot;value&quot;</span>]</div><div class="line">  </div><div class="line">  part31 = <span class="number">1</span>/q_theta</div><div class="line">  </div><div class="line">  temp321 = (<span class="number">1</span>-myPara[<span class="string">&apos;beta&apos;</span>,<span class="string">&quot;value&quot;</span>])*(<span class="number">1</span>-myPara[<span class="string">&apos;phi&apos;</span>,<span class="string">&quot;value&quot;</span>])/myPara[<span class="string">&apos;c_f&apos;</span>,<span class="string">&quot;value&quot;</span>]</div><div class="line">  temp322 = myPara[<span class="string">&apos;sigma&apos;</span>,<span class="string">&quot;value&quot;</span>]*(epsilon_u-epsilon_c)/(myPara[<span class="string">&apos;r&apos;</span>,<span class="string">&quot;value&quot;</span>]+myPara[<span class="string">&apos;lambda&apos;</span>,<span class="string">&quot;value&quot;</span>])+myPara[<span class="string">&apos;delta&apos;</span>,<span class="string">&quot;value&quot;</span>]*myPara[<span class="string">&apos;sigma&apos;</span>,<span class="string">&quot;value&quot;</span>]*(epsilon_c-epsilon_d)/((<span class="number">1</span>-myPara[<span class="string">&apos;phi&apos;</span>,<span class="string">&quot;value&quot;</span>])*(myPara[<span class="string">&apos;r&apos;</span>,<span class="string">&quot;value&quot;</span>]+myPara[<span class="string">&apos;lambda&apos;</span>,<span class="string">&quot;value&quot;</span>]+theta*q_theta))</div><div class="line">  part32 = temp321*temp322</div><div class="line">  </div><div class="line">  part41 = <span class="number">1</span>/q_theta</div><div class="line">  </div><div class="line">  temp421 = (<span class="number">1</span>-myPara[<span class="string">&apos;beta&apos;</span>,<span class="string">&quot;value&quot;</span>])*myPara[<span class="string">&apos;delta&apos;</span>,<span class="string">&quot;value&quot;</span>]*myPara[<span class="string">&apos;sigma&apos;</span>,<span class="string">&quot;value&quot;</span>]*(epsilon_u-epsilon_d)</div><div class="line">  temp422 = myPara[<span class="string">&apos;c_p&apos;</span>,<span class="string">&quot;value&quot;</span>]*(myPara[<span class="string">&apos;r&apos;</span>,<span class="string">&quot;value&quot;</span>]+myPara[<span class="string">&apos;lambda&apos;</span>,<span class="string">&quot;value&quot;</span>]+theta*q_theta)</div><div class="line">  part42 = temp421/temp422</div><div class="line">  </div><div class="line">  y[<span class="number">1</span>]&lt;-part11-part12</div><div class="line">  y[<span class="number">2</span>]&lt;-part21-part22</div><div class="line">  y[<span class="number">3</span>]&lt;-part31-part32</div><div class="line">  y[<span class="number">4</span>]&lt;-part41-part42</div><div class="line">  </div><div class="line">  y</div><div class="line">}</div></pre></td></tr></table></figure>
+<p>To solve the nonlinear equations, we can use <code>nleqslv</code> as follow:</p>
+<figure class="highlight r"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">sol&lt;-nleqslv(xstart,Equation,method=<span class="string">&quot;Broyden&quot;</span>,control = list(trace=<span class="number">1</span>))</div><div class="line">    </div><div class="line">    epsilon_d[i]&lt;-sol$x[<span class="number">1</span>]</div><div class="line">    epsilon_c[i]&lt;-sol$x[<span class="number">2</span>]</div><div class="line">    theta[i]&lt;-sol$x[<span class="number">3</span>]</div><div class="line">    alpha[i]&lt;-sol$x[<span class="number">4</span>]</div></pre></td></tr></table></figure>
+<h2 id="Results-3"><a href="#Results-3" class="headerlink" title="Results"></a>Results</h2><p>Taking use of the <code>plot</code> function in <code>R</code>, we can plot the solutions as follow:</p>
+<p><img src="/images/20171117_r.png" alt=""></p>
+<h1 id="Mathematica"><a href="#Mathematica" class="headerlink" title="Mathematica"></a>Mathematica</h1><p>Generally, we can use <a href="http://reference.wolfram.com/language/ref/NSolve.html" target="_blank" rel="external">NSolve</a> in Mathematica to solve system of nonlinear equations. However, it really takes time to handle with the nonlinear equations that we want to solve. But there are a few useful techniques that I would like to cover here.</p>
+<h2 id="Export-result-as-images"><a href="#Export-result-as-images" class="headerlink" title="Export result as images"></a>Export result as images</h2><p>We can define the function $F(x)$ and $q(\theta)$ as follow:</p>
+<figure class="highlight mathematica"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">funqtheta[\[Theta]_, A_, B_] := A*\[Theta]^(-B);</div><div class="line">funFx[x_, typen_, epsilonu_] := </div><div class="line">  <span class="keyword">Switch</span>[typen, </div><div class="line">   <span class="string">&quot;III&quot;</span>, <span class="number">.5</span> - <span class="number">.5</span>*<span class="keyword">Erf</span>[(<span class="keyword">Log</span>[-x + <span class="number">1</span>] + <span class="number">.5</span>*<span class="keyword">Log</span>[<span class="number">2</span>])/(<span class="keyword">Sqrt</span>[<span class="number">2</span>*<span class="keyword">Log</span>[<span class="number">2</span>]])]];</div><div class="line">funintF[a_, b_, typen_, epsilonu_] := </div><div class="line">  <span class="keyword">Switch</span>[typen, <span class="string">&quot;III&quot;</span>, </div><div class="line">   <span class="keyword">Integrate</span>[(-<span class="keyword">Sqrt</span>[<span class="number">2</span>*<span class="keyword">Log</span>[<span class="number">2</span>]])*(<span class="number">.5</span> + <span class="number">.5</span>*<span class="keyword">Erf</span>[y])*</div><div class="line">     <span class="keyword">E</span>^(<span class="keyword">Sqrt</span>[<span class="number">2</span>*<span class="keyword">Log</span>[<span class="number">2</span>]]*y - <span class="keyword">Log</span>[<span class="number">2</span>]/<span class="number">2</span>),</div><div class="line">    {y, (Log[-a + 1] + .5*Log[2])/(Sqrt[</div><div class="line">        2*Log[2]]), (Log[-b + 1] + .5*Log[2])/(Sqrt[2*Log[2]])}]];</div><div class="line"><span class="comment">(* Set y = (Log[-x+1]+Log[2]/2)/Sqrt[2*Log[2]] *)</span></div></pre></td></tr></table></figure>
+<p>We can also define the system of nonlinear equations and variables as follow:</p>
+<figure class="highlight mathematica"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div></pre></td><td class="code"><pre><div class="line">part11 = \[Epsilon]d + \[Lambda]*</div><div class="line">    intFdu/(r + \[Lambda] + \[Theta]*q\[Theta]);</div><div class="line">part12 = (b - pstar)/\[Sigma];</div><div class="line"><span class="comment">(*******************************************************************************)</span></div><div class="line">temp211 = \[Delta]*(r + \[Lambda] - \[Phi]*(<span class="number">1</span> - </div><div class="line">        funFx[\[Epsilon]c, </div><div class="line">         typen, \[Epsilon]u]))*(\[Epsilon]c - \[Epsilon]d);</div><div class="line">temp212 = r + \[Lambda] + \[Theta]*q\[Theta];</div><div class="line">temp213 = (\[Lambda]/(r + \[Lambda]) - \[Lambda]*\[Delta]/temp212)*</div><div class="line">   intFcu;</div><div class="line">part21 = \[Epsilon]c - temp211/((<span class="number">1</span> - \[Phi])*temp212) + temp213;</div><div class="line"></div><div class="line">temp2211 = ((\[<span class="keyword">Beta</span>] + \[Phi]*(<span class="number">1</span> - \[<span class="keyword">Beta</span>]))*</div><div class="line">     cF*(<span class="number">1</span> - \[Alpha]))/((<span class="number">1</span> - \[<span class="keyword">Beta</span>])*(<span class="number">1</span> - \[Phi]));</div><div class="line">temp2212 = (\[<span class="keyword">Beta</span>]*cP*\[Alpha])/(<span class="number">1</span> - \[<span class="keyword">Beta</span>]);</div><div class="line">temp221 = \[Theta]*(temp2211 + temp2212);</div><div class="line">part22 = \[Delta]*\[Epsilon]d + ((<span class="number">1</span> - \[Delta])*(b - pstar) + </div><div class="line">      temp221)/\[Delta];</div><div class="line"><span class="comment">(*******************************************************************************)</span></div><div class="line">part31 = <span class="number">1</span>/q\[Theta];</div><div class="line"></div><div class="line">temp321 = (<span class="number">1</span> - \[<span class="keyword">Beta</span>])*(<span class="number">1</span> - \[Phi])/cF;</div><div class="line">temp322 = \[Sigma]*(\[Epsilon]u - \[Epsilon]c)/(r + \[Lambda]) + \</div><div class="line">\[Delta]*\[Sigma]*(\[Epsilon]c - \[Epsilon]d)/((<span class="number">1</span> - \[Phi])*(r + \</div><div class="line">\[Lambda] + \[Theta]*q\[Theta]));</div><div class="line">part32 = temp321*temp322;</div><div class="line"><span class="comment">(*******************************************************************************)</span></div><div class="line">part41 = <span class="number">1</span>/q\[Theta];</div><div class="line"></div><div class="line">temp421 = (<span class="number">1</span> - \[<span class="keyword">Beta</span>])*\[Delta]*\[Sigma]*(\[Epsilon]u - \[Epsilon]d);</div><div class="line">temp422 = cP*(r + \[Lambda] + \[Theta]*q\[Theta]);</div><div class="line">part42 = temp421/temp422;</div><div class="line"><span class="comment">(*******************************************************************************)</span></div><div class="line">F = {part11 - part12, part21 - part22, part31 - part32, </div><div class="line">   part41 - part42};</div><div class="line">var = {\[Epsilon]d, \[Epsilon]c, \[Theta], \[Alpha],</div><div class="line">   pstar, b, \[Phi], \[Sigma], \[Beta], \[Lambda], cF, r, </div><div class="line">   cP, \[Delta]};</div></pre></td></tr></table></figure>
+<p>Then we can calculate the Jacobian Matrix as follow:</p>
+<figure class="highlight mathematica"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">(* Jacobian Matrix *)</span></div><div class="line">Jac = <span class="keyword">D</span>[F, {var}]</div></pre></td></tr></table></figure>
+<p>We can export the results of partial derivatives as images:</p>
+<figure class="highlight mathematica"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">Simplify</span>[<span class="keyword">ArrayReshape</span>[Jac[[<span class="keyword">All</span>, <span class="number">1</span>]], {4, 1}]] // <span class="keyword">TraditionalForm</span></div><div class="line"><span class="keyword">Export</span>[<span class="string">&quot;dF_depsilond.gif&quot;</span>, </div><div class="line"> <span class="keyword">Simplify</span>[<span class="keyword">ArrayReshape</span>[Jac[[<span class="keyword">All</span>, <span class="number">1</span>]], {4, 1}]] // <span class="keyword">TraditionalForm</span>]</div><div class="line"><span class="keyword">Export</span>[<span class="string">&quot;dF_depsilond.png&quot;</span>, </div><div class="line"> <span class="keyword">Simplify</span>[<span class="keyword">ArrayReshape</span>[Jac[[<span class="keyword">All</span>, <span class="number">1</span>]], {4, 1}]] // <span class="keyword">TraditionalForm</span>]</div><div class="line"></div><div class="line"><span class="keyword">Simplify</span>[<span class="keyword">ArrayReshape</span>[Jac[[<span class="keyword">All</span>, <span class="number">2</span>]], {4, 1}]] // <span class="keyword">TraditionalForm</span></div><div class="line"><span class="keyword">Export</span>[<span class="string">&quot;dF_depsilonc.gif&quot;</span>, </div><div class="line"> <span class="keyword">Simplify</span>[<span class="keyword">ArrayReshape</span>[Jac[[<span class="keyword">All</span>, <span class="number">2</span>]], {4, 1}]] // <span class="keyword">TraditionalForm</span>]</div><div class="line"><span class="keyword">Export</span>[<span class="string">&quot;dF_depsilonc.png&quot;</span>, </div><div class="line"> <span class="keyword">Simplify</span>[<span class="keyword">ArrayReshape</span>[Jac[[<span class="keyword">All</span>, <span class="number">2</span>]], {4, 1}]] // <span class="keyword">TraditionalForm</span>]</div><div class="line"></div><div class="line"><span class="keyword">Simplify</span>[<span class="keyword">ArrayReshape</span>[Jac[[<span class="keyword">All</span>, <span class="number">3</span>]], {4, 1}]] // <span class="keyword">TraditionalForm</span></div><div class="line"><span class="keyword">Export</span>[<span class="string">&quot;dF_dtheta.gif&quot;</span>, </div><div class="line"> <span class="keyword">Simplify</span>[<span class="keyword">ArrayReshape</span>[Jac[[<span class="keyword">All</span>, <span class="number">3</span>]], {4, 1}]] // <span class="keyword">TraditionalForm</span>]</div><div class="line"><span class="keyword">Export</span>[<span class="string">&quot;dF_dtheta.png&quot;</span>, </div><div class="line"> <span class="keyword">Simplify</span>[<span class="keyword">ArrayReshape</span>[Jac[[<span class="keyword">All</span>, <span class="number">3</span>]], {4, 1}]] // <span class="keyword">TraditionalForm</span>]</div><div class="line"></div><div class="line"><span class="keyword">Simplify</span>[<span class="keyword">ArrayReshape</span>[Jac[[<span class="keyword">All</span>, <span class="number">4</span>]], {4, 1}]] // <span class="keyword">TraditionalForm</span></div><div class="line"><span class="keyword">Export</span>[<span class="string">&quot;dF_dalpha.gif&quot;</span>, </div><div class="line"> <span class="keyword">Simplify</span>[<span class="keyword">ArrayReshape</span>[Jac[[<span class="keyword">All</span>, <span class="number">4</span>]], {4, 1}]] // <span class="keyword">TraditionalForm</span>]</div><div class="line"><span class="keyword">Export</span>[<span class="string">&quot;dF_dalpha.png&quot;</span>, </div><div class="line"> <span class="keyword">Simplify</span>[<span class="keyword">ArrayReshape</span>[Jac[[<span class="keyword">All</span>, <span class="number">4</span>]], {4, 1}]] // <span class="keyword">TraditionalForm</span>]</div></pre></td></tr></table></figure>
+<h2 id="Export-as-MATLAB-file"><a href="#Export-as-MATLAB-file" class="headerlink" title="Export as MATLAB file"></a>Export as MATLAB file</h2><p>Or we can take use of the Wolfram Library <a href="http://library.wolfram.com/infocenter/MathSource/577/" target="_blank" rel="external">ToMatlab</a> to convert the results into MATLAB <code>.m</code> files as follow:</p>
+<figure class="highlight mathematica"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">WriteMatlab[Jac[[<span class="keyword">All</span>, <span class="number">1</span>]], <span class="string">&quot;dF_depsilond.m&quot;</span>, <span class="string">&quot;dF_depsilond&quot;</span>, <span class="number">50</span>]</div><div class="line">WriteMatlab[Jac[[<span class="keyword">All</span>, <span class="number">2</span>]], <span class="string">&quot;dF_depsilonc.m&quot;</span>, <span class="string">&quot;dF_depsilonc&quot;</span>, <span class="number">50</span>]</div><div class="line">WriteMatlab[Jac[[<span class="keyword">All</span>, <span class="number">3</span>]], <span class="string">&quot;dF_dtheta.m&quot;</span>, <span class="string">&quot;dF_dtheta&quot;</span>, <span class="number">50</span>]</div><div class="line">WriteMatlab[Jac[[<span class="keyword">All</span>, <span class="number">4</span>]], <span class="string">&quot;dF_dalpha.m&quot;</span>, <span class="string">&quot;dF_dalpha&quot;</span>, <span class="number">50</span>]</div></pre></td></tr></table></figure>
+<p>For example, <code>dF_depsilond.m</code> file is as follow</p>
+<figure class="highlight matlab"><figcaption><span>dF_depsilond_fun.m</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">dF_depsilond</span>=<span class="title">dF_depsilond_fun</span><span class="params">(A,B1,B2,mu,epsilon_u,...</span></span></div><div class="line"><span class="function"><span class="params">    c_f,c_p,beta,phi,delta,sigma,lambda,b,r,pstar,...</span></span></div><div class="line"><span class="function"><span class="params">    epsilon_d,epsilon_c,theta,alpha)</span></span></div><div class="line"><span class="comment">%    This function was generated by ToMatlab Package from Mathematica</span></div><div class="line"><span class="comment">%    18-Jun-2017</span></div><div class="line"></div><div class="line">B=B1./B2;</div><div class="line">dF_depsilond=[<span class="number">1</span>+lambda.*(r+A.*theta.^(<span class="number">1</span>+(<span class="number">-1</span>).*B)+lambda).^(<span class="number">-1</span>).*((<span class="number">-0.5E0</span>)+( ...</div><div class="line">  <span class="number">-0.479179E0</span>).*exp(<span class="number">1</span>).^((<span class="number">-1</span>).*(<span class="number">0.294353E0</span>+ ...</div><div class="line">  <span class="number">0.849322E0</span>.*log(<span class="number">0.1E1</span>+(<span class="number">-0.1E1</span>).*epsilon_d)).^<span class="number">2</span>)+ ...</div><div class="line">  <span class="number">0.479179E0</span>.*exp(<span class="number">1</span>).^((<span class="number">-1</span>).*(<span class="number">0.294353E0</span>+( ...</div><div class="line">  <span class="number">-0.849322E0</span>).*log(<span class="number">0.1E1</span>+(<span class="number">-0.1E1</span>).*epsilon_d)).^<span class="number">2</span>).*( ...</div><div class="line">  <span class="number">0.1E1</span>+(<span class="number">-0.1E1</span>).*epsilon_d).^(<span class="number">-1</span>)+(<span class="number">-0.5E0</span>).*erf( ...</div><div class="line">  <span class="number">0.294353E0</span>+<span class="number">0.849322E0</span>.*log(<span class="number">0.1E1</span>+(<span class="number">-0.1E1</span>).*epsilon_d))),( ...</div><div class="line">  <span class="number">-1</span>).*delta+delta.*(r+A.*theta.^(<span class="number">1</span>+(<span class="number">-1</span>).*B)+lambda).^(<span class="number">-1</span>).*(<span class="number">1</span>+(<span class="number">-1</span>).* ...</div><div class="line">  phi).^(<span class="number">-1</span>).*(r+lambda+(<span class="number">-1</span>).*phi.*(<span class="number">0.5E0</span>+<span class="number">0.5E0</span>.*erf((<span class="number">2.</span>*log( ...</div><div class="line">  <span class="number">2</span>)).^(<span class="number">-1</span>/<span class="number">2</span>).*(<span class="number">0.346574E0</span>+log(<span class="number">1</span>+(<span class="number">-1</span>).*epsilon_c))))),c_f.^( ...</div><div class="line">  <span class="number">-1</span>).*(<span class="number">1</span>+(<span class="number">-1</span>).*beta).*delta.*(r+A.*theta.^(<span class="number">1</span>+(<span class="number">-1</span>).*B)+lambda).^(<span class="number">-1</span>) ...</div><div class="line">  .*sigma,c_p.^(<span class="number">-1</span>).*(<span class="number">1</span>+(<span class="number">-1</span>).*beta).*delta.*(r+A.*theta.^(<span class="number">1</span>+(<span class="number">-1</span>).*B) ...</div><div class="line">  +lambda).^(<span class="number">-1</span>).*sigma];</div><div class="line"></div><div class="line"><span class="keyword">return</span></div></pre></td></tr></table></figure>
+<p><code>ToMatlab</code> in Mathematica can really make MATLAB much more powerful because of the better analytical capacity of Mathematica compared with MATLAB.</p>
+<h2 id="Results-4"><a href="#Results-4" class="headerlink" title="Results"></a>Results</h2><p>The exported image of partial derivatives, such as $\frac{\partial F}{\partial \epsilon^d}$, is as follow:</p>
+<p><img src="/images/20171117_Mathematica_1.png" alt="dF_depsilond"></p>
+<p>We can plot the dynamics between partial derivatives and some variables (such as $\alpha$) as follow:</p>
+<p><img src="/images/20171117_Mathematica_2.png" alt="Dynamics"></p>
+<h1 id="More"><a href="#More" class="headerlink" title="More"></a>More</h1><p><strong>System of Nonlinear Equation</strong> has big relationship with PDE in numerical analysis. And there are so many famous nonlinear equations out there in various disciplines. Thus knowing how to solve nonlinear equations numerically is crucial in mathematical modeling in different aspects.</p>
+<hr>
+<blockquote id="fn_0">
+<sup>0</sup>. <a href="https://www.mathworks.com/help/optim/ug/nonlinear-systems-with-constraints.html" target="_blank" rel="external">MathWork:Nonlinear Systems with Constraints</a><a href="#reffn_0" title="Jump back to footnote [0] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_1">
+<sup>1</sup>. <a href="http://www.numerical.rl.ac.uk/people/nimg/course/lectures/raphael/lectures/lec7slides.pdf" target="_blank" rel="external">Lecture 7: The Dogleg and Steihaug Methods</a><a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_2">
+<sup>2</sup>. <a href="https://optimization.mccormick.northwestern.edu/index.php/Interior-point_method_for_NLP" target="_blank" rel="external">Interior-point method for NLP</a><a href="#reffn_2" title="Jump back to footnote [2] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_3">
+<sup>3</sup>. <a href="https://nmayorov.wordpress.com/2015/06/19/trust-region-reflective-algorithm/" target="_blank" rel="external">Trust Region Reflective Algorithm</a><a href="#reffn_3" title="Jump back to footnote [3] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_4">
+<sup>4</sup>. <a href="https://www.mathworks.com/help/optim/ug/constrained-nonlinear-optimization-algorithms.html" target="_blank" rel="external">Constrained Nonlinear Optimization Algorithms</a><a href="#reffn_4" title="Jump back to footnote [4] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_5">
+<sup>5</sup>. <a href="http://www.bioinfo.org.cn/~wangchao/maa/Numerical_Optimization.pdf" target="_blank" rel="external">Nocedal, J., &amp; Wright, S. (2006). Numerical optimization. Springer Science &amp; Business Media.</a><a href="#reffn_5" title="Jump back to footnote [5] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_6">
+<sup>6</sup>. <a href="https://en.wikipedia.org/wiki/Broyden%27s_method" target="_blank" rel="external">Broyden&#x2019;s method</a><a href="#reffn_6" title="Jump back to footnote [6] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_7">
+<sup>7</sup>. <a href="http://djalil.chafai.net/blog/2011/06/08/some-famous-nonlinear-equations/" target="_blank" rel="external">Some famous nonlinear equations</a><a href="#reffn_7" title="Jump back to footnote [7] in the text."> &#x21A9;</a>
+</blockquote>
+
+      
+    </div>
+    
+    
+    
+
+    <div>
+    
+      <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------End of post<i class="fa fa-flag"></i>Thanks for your time-------------</div>
+    
+</div>
+
+    
+    </div>
+
+    
+      <div>
+        <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="/qrcode_for_wechat_bdg.jpg" alt="BDG飽蠹閣 wechat" style="width: 200px; max-width: 100%;"/>
+    <div>Enjoy it? Subscribe to my blog by scanning my public wechat account</div>
+</div>
+
+      </div>
+    
+
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>Post author:</strong>
+    BDG飽蠹閣
+  </li>
+  <li class="post-copyright-link">
+    <strong>Post link:</strong>
+    <a href="http://blog.baoduge.com/NonlinearEquations/" title="Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language">http://blog.baoduge.com/NonlinearEquations/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice: </strong>
+    All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> unless stating additionally.
+  </li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/r-language/" rel="tag"># r_language</a>
+          
+            <a href="/tags/nonlinear-equations/" rel="tag"># nonlinear_equations</a>
+          
+            <a href="/tags/numerical-analysis/" rel="tag"># numerical_analysis</a>
+          
+            <a href="/tags/matlab/" rel="tag"># matlab</a>
+          
+            <a href="/tags/fortran/" rel="tag"># fortran</a>
+          
+            <a href="/tags/python/" rel="tag"># python</a>
+          
+            <a href="/tags/mathematica/" rel="tag"># mathematica</a>
+          
+        </div>
+      
+
+      
+      
+        <div class="post-widgets">
+        
+          <div class="wp_rating">
+            <div style="color:rgb(0, 0, 0); font-size:13px; letter-spacing:3px;">Rate this post</div>
+            <div id="wpac-rating"></div>
+          </div>
+        
+
+        
+        </div>
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/Mendeley/" rel="next" title="如何管理文献:Mendeley小技巧">
+                <i class="fa fa-chevron-left"></i> 如何管理文献:Mendeley小技巧
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/notes_CCSMA/" rel="prev" title="20171117 Notes: Stochastic Process, Parameter Estimation, PDE">
+                20171117 Notes: Stochastic Process, Parameter Estimation, PDE <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+      <div id="sidebar-dimmer"></div>
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          
+            <img class="site-author-image" itemprop="image"
+              src="http://baoduge.com/My/avatar.gif"
+              alt="BDG飽蠹閣" />
+          
+            <p class="site-author-name" itemprop="name">BDG飽蠹閣</p>
+            <p class="site-description motion-element" itemprop="description"></p>
+        </div>
+
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+            
+              <a href="/archives">
+            
+                <span class="site-state-item-count">23</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">categories</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">65</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/vincent27hugh" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>GitHub</a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="mailto:huweihugh@gmail.com" target="_blank" title="E-Mail">
+                  
+                    <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://baoduge.com/" title="飽蠹閣BAODUGE" target="_blank">飽蠹閣BAODUGE</a>
+                </li>
+              
+            </ul>
+            
+            <div id="days"></div>
+</script>
+<script language="javascript">
+function show_date_time(){
+window.setTimeout("show_date_time()", 1000);
+BirthDay=new Date("09/08/2017 00:00:00");
+today=new Date();
+timeold=(today.getTime()-BirthDay.getTime());
+sectimeold=timeold/1000
+secondsold=Math.floor(sectimeold);
+msPerDay=24*60*60*1000
+e_daysold=timeold/msPerDay
+daysold=Math.floor(e_daysold);
+e_hrsold=(e_daysold-daysold)*24;
+hrsold=setzero(Math.floor(e_hrsold));
+e_minsold=(e_hrsold-hrsold)*60;
+minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+seconds=setzero(Math.floor((e_minsold-minsold)*60));
+document.getElementById('days').innerHTML="Has been runing "+daysold+" Days "+hrsold+" Hours "+minsold+" Min "+seconds+" Sec ";
+}
+function setzero(i){
+if (i<10)
+{i="0" + i};
+return i;
+}
+show_date_time();
+</script>
+
+          </div>
+        
+
+        <div id="days"></div>
+</script>
+<script language="javascript">
+function show_date_time(){
+window.setTimeout("show_date_time()", 1000);
+BirthDay=new Date("09/08/2017 00:00:00");
+today=new Date();
+timeold=(today.getTime()-BirthDay.getTime());
+sectimeold=timeold/1000
+secondsold=Math.floor(sectimeold);
+msPerDay=24*60*60*1000
+e_daysold=timeold/msPerDay
+daysold=Math.floor(e_daysold);
+e_hrsold=(e_daysold-daysold)*24;
+hrsold=setzero(Math.floor(e_hrsold));
+e_minsold=(e_hrsold-hrsold)*60;
+minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+seconds=setzero(Math.floor((e_minsold-minsold)*60));
+document.getElementById('days').innerHTML="Has been runing "+daysold+" Days "+hrsold+" Hours "+minsold+" Min "+seconds+" Sec ";
+}
+function setzero(i){
+if (i<10)
+{i="0" + i};
+return i;
+}
+show_date_time();
+</script>
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Preface"><span class="nav-number">1.</span> <span class="nav-text">Preface</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#MATLAB"><span class="nav-number">2.</span> <span class="nav-text">MATLAB</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#fsolve"><span class="nav-number">2.1.</span> <span class="nav-text">fsolve</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#fmincon"><span class="nav-number">2.2.</span> <span class="nav-text">fmincon</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#lsqnonlin"><span class="nav-number">2.3.</span> <span class="nav-text">lsqnonlin</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Results"><span class="nav-number">2.4.</span> <span class="nav-text">Results</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Fortran"><span class="nav-number">3.</span> <span class="nav-text">Fortran</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#NEQNF"><span class="nav-number">3.1.</span> <span class="nav-text">NEQNF</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Results-1"><span class="nav-number">3.2.</span> <span class="nav-text">Results</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Python"><span class="nav-number">4.</span> <span class="nav-text">Python</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#fsolve-in-scipy-optimize"><span class="nav-number">4.1.</span> <span class="nav-text">fsolve in scipy.optimize</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Results-2"><span class="nav-number">4.2.</span> <span class="nav-text">Results</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#R"><span class="nav-number">5.</span> <span class="nav-text">R</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#nleqslv-package"><span class="nav-number">5.1.</span> <span class="nav-text">nleqslv package</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Results-3"><span class="nav-number">5.2.</span> <span class="nav-text">Results</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Mathematica"><span class="nav-number">6.</span> <span class="nav-text">Mathematica</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Export-result-as-images"><span class="nav-number">6.1.</span> <span class="nav-text">Export result as images</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Export-as-MATLAB-file"><span class="nav-number">6.2.</span> <span class="nav-text">Export as MATLAB file</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Results-4"><span class="nav-number">6.3.</span> <span class="nav-text">Results</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#More"><span class="nav-number">7.</span> <span class="nav-text">More</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">BDG飽蠹閣</span>
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" href="https://hexo.io">Hexo</a></div>
+
+  <span class="post-meta-divider">|</span>
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.2</div>
+
+  <div>
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  Total Visits: <span id="busuanzi_value_site_pv"></span> &nbsp&nbsp&nbsp
+  Total Visitors: <span id="busuanzi_value_site_uv"></span>
+</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+  
+  <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.2"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.2"></script>
+
+
+
+  
+  
+
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://baoduge.disqus.com/count.js" async></script>
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://blog.baoduge.com/NonlinearEquations/';
+          this.page.identifier = 'NonlinearEquations/';
+          this.page.title = 'Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://baoduge.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('5');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("EkPIkYolbkzKanbzn4mNKpf7-gzGzoHsz", "lP1WbRwpyyu9r1NAqva2xWmS");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+  <script type="text/javascript">
+  wpac_init = window.wpac_init || [];
+  wpac_init.push({widget: 'Rating', id: 7746,
+    el: 'wpac-rating',
+    color: 'fc6423'
+  });
+  (function() {
+    if ('WIDGETPACK_LOADED' in window) return;
+    WIDGETPACK_LOADED = true;
+    var mc = document.createElement('script');
+    mc.type = 'text/javascript';
+    mc.async = true;
+    mc.src = '//embed.widgetpack.com/widget.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+  })();
+  </script>
+
+
+  
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+  
+
+  
+
+</body>
+</html>
