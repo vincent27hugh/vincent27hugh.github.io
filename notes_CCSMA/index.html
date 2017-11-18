@@ -109,7 +109,7 @@
 <meta property="og:site_name" content="NEVERLAND">
 <meta property="og:description" content="This is the notes of Stochastic Process, Parameter Estimation, PDE and Stochastic Control.">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2017-11-17T17:07:20.000Z">
+<meta property="og:updated_time" content="2017-11-18T15:49:44.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="20171117 Notes: Stochastic Process, Parameter Estimation, PDE">
 <meta name="twitter:description" content="This is the notes of Stochastic Process, Parameter Estimation, PDE and Stochastic Control.">
@@ -469,27 +469,32 @@
 <li>MATLAB function <a href="https://www.mathworks.com/help/matlab/ref/pdepe.html" target="_blank" rel="external"><code>pdepe</code></a> can solve initial-boundary value problems for <strong>parabolic-elliptic</strong> PDEs in 1-D.</li>
 </ul>
 <h1 id="Stochastic-Optimal-Control-Process"><a href="#Stochastic-Optimal-Control-Process" class="headerlink" title="Stochastic Optimal Control Process"></a>Stochastic Optimal Control Process</h1><ul>
-<li>Stochastic Control problem concept:<ul>
+<li><p>Stochastic Control problem concept:</p>
+<ul>
 <li>Agent</li>
-<li>State: $X_t = f(u, X, t) dt + g(u, X, t) dZ$</li>
+<li>State: $X_t$, $d X_t = f(u, X, t) dt + g(u, X, t) dZ$</li>
 <li>Control: $u(X_t,t)$</li>
 <li>Objective Function: $F(u, t)$</li>
 </ul>
 </li>
+<li><p>Using <a href="https://en.wikipedia.org/wiki/Brand_management" target="_blank" rel="external">Brand Management</a> on Twitter as an example:</p>
+<ul>
+<li>Agent: Some firm, such as AT&amp;T Co.</li>
+<li>State: Sentiment Score of customers on Twitter;</li>
+<li>Control: Effort AT&amp;T Co. pay to increase the sentiment;</li>
+<li>Objective Function: Return;</li>
 </ul>
-<p>Using <a href="https://en.wikipedia.org/wiki/Brand_management" target="_blank" rel="external">Brand Management</a> on Twitter as an example:</p>
-<pre><code>- Agent: Some firm, such as AT&amp;T Co.
-- State: Sentiment Score of customers on Twitter;
-- Control: Effort AT&amp;T Co. pay to increase the sentiment;
-- Objective Function: Return;
-</code></pre><ul>
-<li><p>Value function:</p>
-<script type="math/tex; mode=display">V(X, t) = Max_{u(X, t)} \{F(u, t) dt + (1 - \gamma dt) V(X+dX, t+dt)\} \tag{1}\label{1}</script><p>where $\gamma$ is discount factor.</p>
+</li>
+<li><p>If we want to minimize value function:</p>
+<script type="math/tex; mode=display">V(X, t) = Min_{u(X, t)} \{F(u, t) dt + (1 - \gamma dt) V(X+dX, t+dt)\} \tag{1}\label{1}</script><p>where $\gamma$ is discount factor.</p>
 </li>
 <li><p>Taylor expansion on $\eqref{1}$:</p>
 <script type="math/tex; mode=display">V(X+dX, t+dt) = V(t, X) + \frac{\partial V}{\partial X} dX + \frac{\partial V}{\partial t} dt + \frac{1}{2} (2 \frac{\partial^2}{\partial t \partial X} dtdX + \frac{\partial^2}{\partial t^2} (dt)^2 + \frac{\partial^2}{\partial X^2} (dX)^2) V</script><script type="math/tex; mode=display">\stackrel{(dX)^2=g^2 dt}{=} V(t, X) + \frac{\partial V}{\partial X} dX + (\frac{\partial V}{\partial t} + \frac{g^2}{2} \frac{\partial^2 V}{\partial X^2}) dt</script><script type="math/tex; mode=display">\stackrel{dX = fdt + gdZ}{=} V(t, X) + V_X (fdt + gdZ) + (V_t + \frac{g^2}{2} V_{XX}) dt</script><script type="math/tex; mode=display">= V(t, X) + (fV_X + V_t + \frac{g^2}{2} V_{XX}) dt + g V_X dZ \tag{2}\label{2}</script></li>
-<li>$\eqref{2}$ into $\eqref{1}$:<script type="math/tex; mode=display">\gamma V dt = Max_{u(X, t)} \{F(u, t) dt + (f V_X + V_t + \frac{g^2}{2} V_{XX}) dt + g v_X dZ \} \tag{3}\label{3}</script></li>
-<li>Expectation on $\eqref{3}$:<script type="math/tex; mode=display">\mathbb{E}[\gamma V dt] = Max_{u(X, t)} \mathbb{E} \{F(u, t) dt + (f V_X + V_t + \frac{g^2}{2} V_{XX}) dt + g v_X dZ\}</script><script type="math/tex; mode=display">\stackrel{elim. dZ-term}{\Rightarrow} \gamma V dt = Max_{u(X, t)} \{F(u, t) dt + (f V_X + V_t + \frac{g^2}{2} V_{XX}) dt\}</script><script type="math/tex; mode=display">\stackrel{HJB}{\Rightarrow} \gamma V= Max_{u(X, t)} \mathbb{E} \{F(u, t) + f V_X + V_t + \frac{g^2}{2} V_{XX}\} \tag{4}\label{4}</script></li>
+<li>$\eqref{2}$ into $\eqref{1}$:<script type="math/tex; mode=display">\gamma V dt = Min_{u(X, t)} \{F(u, t) dt + (f V_X + V_t + \frac{g^2}{2} V_{XX}) dt + g v_X dZ \} \tag{3}\label{3}</script></li>
+<li><a href="https://en.wikipedia.org/wiki/Hamilton%E2%80%93Jacobi%E2%80%93Bellman_equation" target="_blank" rel="external">Hamilton-Jacobi-Bellman (HJB) equation</a>: Expectation on $\eqref{3}$:<script type="math/tex; mode=display">\mathbb{E}[\gamma V dt] = Min_{u(X, t)} \mathbb{E} \{F(u, t) dt + (f V_X + V_t + \frac{g^2}{2} V_{XX}) dt + g v_X dZ\}</script><script type="math/tex; mode=display">\stackrel{elim. dZ-term}{\Rightarrow} \gamma V dt = Min_{u(X, t)} \{F(u, t) dt + (f V_X + V_t + \frac{g^2}{2} V_{XX}) dt\}</script><script type="math/tex; mode=display">\stackrel{HJB}{\Rightarrow} \gamma V= Min_{u(X, t)} \mathbb{E} \{F(u, t) + f V_X + V_t + \frac{g^2}{2} V_{XX}\} \tag{4}\label{4}</script></li>
+<li>Guess Objective Function (such as the return of the firm) follow the form of $F(u, t) = \beta X - c u^2$. Drift term of State $dX_t$ follow the form: $f(u, t) = k_1 u \sqrt{b-X} - k_2$; Volatility term of State $dX_t$ follow the form: $g(u, t) = k_3$. Thus replace $f$ and $g$ in $\eqref{4}$ HJB equation:<script type="math/tex; mode=display">\gamma V = Max_{u(X, t)} \{(\beta X - c u^2) + (k_1 u \sqrt{b-X} - k_2 X) V_X + V_t + \frac{k_3^2}{2} V_{XX}\} \tag{4*}\label{4*}</script></li>
+<li>Optimal Control: Partial derivative of the term inside $Max_{u(X, t)}$ in RHS w.r.t. $u$:<script type="math/tex; mode=display">\frac{(\beta X - c u^2) + (k_1 u \sqrt{b-X} - k_2 X) V_X + V_t + \frac{k_3^2}{2} V_{XX}}{\partial u} = 0</script><script type="math/tex; mode=display">\Rightarrow -2cu + V_X k_1 \sqrt{b-X} = 0</script><script type="math/tex; mode=display">\Rightarrow u^* = \frac{V_X k_1 \sqrt{b-X}}{2c} \tag{5}\label{5}</script></li>
+<li>Guess $V(x) = \lambda_1 X + \lambda_2 \tag{6}\label{6}$, $\lambda_1 &gt; 0$, $V_X = \lambda_1$, $V_{XX} = V_t = 0$. Replace $\eqref{5}$ and $\eqref{6}$ into $\eqref{4*}$:<script type="math/tex; mode=display">\gamma (\lambda_1 X + \lambda_2) = \beta X - \frac{\lambda_1^2 k_1^2 (b-X) C}{(2C)^2} + (k_1 \frac{\lambda_1 k_1 \sqrt{b-X}}{2C} \sqrt{b-X} - k_2 X) \lambda_1</script></li>
 </ul>
 <hr>
 <blockquote id="fn_1">
