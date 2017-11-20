@@ -5,11 +5,11 @@
     
   <url>
     <loc>http://blog.baoduge.com/notes_CCSMA/</loc>
-    <lastmod>2017-11-19T14:13:13.000Z</lastmod>
+    <lastmod>2017-11-20T03:21:17.000Z</lastmod>
     <data>
         <display>
         <title>20171117 Notes: Stochastic Process, Parameter Estimation, PDE</title>
-        <pubTime>2017-11-16T16:00:00.000Z</pubTime>
+        <pubTime>2017-11-17T16:00:00.000Z</pubTime>
         
         <tag>mathematics</tag>
          
@@ -39,6 +39,8 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
+        <tag>r_language</tag>
+         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
@@ -48,8 +50,6 @@
         <tag>fortran</tag>
          
         <tag>python</tag>
-         
-        <tag>r_language</tag>
          
         <tag>mathematica</tag>
          
@@ -485,11 +485,11 @@
         <title>Deep Learning hardware</title>
         <pubTime>2017-11-07T16:00:00.000Z</pubTime>
         
+        <tag>tutorial</tag>
+         
         <tag>deap_learning</tag>
          
         <tag>hardware</tag>
-         
-        <tag>tutorial</tag>
          
          
            
@@ -579,11 +579,11 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>tutorial</tag>
-         
         <tag>github</tag>
          
         <tag>hexo</tag>
+         
+        <tag>tutorial</tag>
          
          
            
