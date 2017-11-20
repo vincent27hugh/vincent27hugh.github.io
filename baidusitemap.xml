@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/notes_CCSMA/</loc>
-    <lastmod>2017-11-20T03:21:17.000Z</lastmod>
+    <lastmod>2017-11-20T03:25:38.000Z</lastmod>
     <data>
         <display>
         <title>20171117 Notes: Stochastic Process, Parameter Estimation, PDE</title>
@@ -71,12 +71,6 @@
         <title>NEVERLAND - Blog Logs</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
-        <tag>notes</tag>
-         
-        <tag>machine_learning</tag>
-         
         <tag>study</tag>
          
         <tag>research</tag>
@@ -86,6 +80,12 @@
         <tag>logs</tag>
          
         <tag>hexo</tag>
+         
+        <tag>notes</tag>
+         
+        <tag>information_system</tag>
+         
+        <tag>machine_learning</tag>
          
          
            
@@ -107,13 +107,13 @@
         
         <tag>information_system</tag>
          
+        <tag>machine_learning</tag>
+         
         <tag>statistics</tag>
          
         <tag>mathematics</tag>
          
         <tag>github</tag>
-         
-        <tag>machine_learning</tag>
          
         <tag>artificial_intelligence</tag>
          
@@ -270,9 +270,9 @@
         <title>Resources of Information System Research</title>
         <pubTime>2017-10-23T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>research</tag>
+         
+        <tag>information_system</tag>
          
          
            
@@ -342,9 +342,9 @@
         <title>Experiments in IS research</title>
         <pubTime>2017-09-10T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>notes</tag>
+         
+        <tag>information_system</tag>
          
          
            
@@ -398,9 +398,9 @@
         <title>Literature Review on Social Media in Financial Market</title>
         <pubTime>2017-11-01T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>research</tag>
+         
+        <tag>information_system</tag>
          
         <tag>sentiment_analysis</tag>
          
@@ -430,17 +430,17 @@
         <title>Literature Review on UGC/WOM</title>
         <pubTime>2017-10-30T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>research</tag>
          
+        <tag>information_system</tag>
+         
         <tag>sentiment_analysis</tag>
+         
+        <tag>literature_review</tag>
          
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
-         
-        <tag>literature_review</tag>
          
          
            
@@ -460,11 +460,11 @@
         <title>Can online scoring really reflects the rankings of products?</title>
         <pubTime>2017-10-29T16:00:00.000Z</pubTime>
         
+        <tag>research</tag>
+         
         <tag>notes</tag>
          
         <tag>economics</tag>
-         
-        <tag>research</tag>
          
         <tag>online_scoring</tag>
          
@@ -579,9 +579,9 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>github</tag>
-         
         <tag>hexo</tag>
+         
+        <tag>github</tag>
          
         <tag>tutorial</tag>
          

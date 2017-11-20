@@ -10,6 +10,9 @@
 <li>Arithmetic Brownian Motion (ABM): $d \mu = \alpha dt + \sigma dZ_t$</li>
 <li><a href="https://en.wikipedia.org/wiki/Geometric_Brownian_motion" target="_blank" rel="external">Geometric Brownian Motion (GBM)</a>: $dY_t = (\alpha + \frac{1}{2} \sigma^2) dt + \sigma dZ_t$</li>
 <li><a href="https://en.wikipedia.org/wiki/Ornstein%E2%80%93Uhlenbeck_process" target="_blank" rel="external">Ornstein-Uhlenbeck process (O-U Process)</a>: $du = \alpha(\mu-u)dt + \sigma dZ_t$</li>
+</ul>
+<p><img src="/images/ouprocess.png" alt="OU Process"></p>
+<ul>
 <li><a href="https://en.wikipedia.org/wiki/Cox%E2%80%93Ingersoll%E2%80%93Ross_model" target="_blank" rel="external">Cox-Ingersoll-Ross (CIR) process</a>: $dX_t = \alpha (\mu-X_t)dt+\sigma \sqrt{X_t} dZ_t$</li>
 <li>Stochastic Differential Equation for general 1-Spatial dimension It&#xF4; drift-diffusion process: $dX_t = \mu(X_t,t)dt + \sigma(X_t,t)dZ_t$</li>
 <li><a href="https://en.wikipedia.org/wiki/It%C3%B4%27s_lemma" target="_blank" rel="external">Ito&#x2019;s lemma</a>: $Y$ is It&#xF4; drift-diffusion process, $f: \mathbb{R}^2 \to \mathbb{R}$ is smooth, then<script type="math/tex; mode=display">df(Y_t,t)=f_t dt + f_Y dY_t +\frac{1}{2} f_{YY} (dY_t)^2</script>$(dt)^2 = dt dW_t$; $(dW_t)^2 = dt$</li>
@@ -988,9 +991,9 @@ end
         
         <tags>
             
-            <tag> information_system </tag>
-            
             <tag> research </tag>
+            
+            <tag> information_system </tag>
             
             <tag> sentiment_analysis </tag>
             
@@ -1255,17 +1258,17 @@ end
         
         <tags>
             
-            <tag> information_system </tag>
-            
             <tag> research </tag>
             
+            <tag> information_system </tag>
+            
             <tag> sentiment_analysis </tag>
+            
+            <tag> literature_review </tag>
             
             <tag> user_generated_content </tag>
             
             <tag> word_of_mouth </tag>
-            
-            <tag> literature_review </tag>
             
         </tags>
         
@@ -1315,11 +1318,11 @@ end
         
         <tags>
             
+            <tag> research </tag>
+            
             <tag> notes </tag>
             
             <tag> economics </tag>
-            
-            <tag> research </tag>
             
             <tag> online_scoring </tag>
             
@@ -2190,9 +2193,9 @@ killall Finder
         
         <tags>
             
-            <tag> information_system </tag>
-            
             <tag> research </tag>
+            
+            <tag> information_system </tag>
             
         </tags>
         
@@ -3162,12 +3165,6 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
-            <tag> information_system </tag>
-            
-            <tag> notes </tag>
-            
-            <tag> machine_learning </tag>
-            
             <tag> study </tag>
             
             <tag> research </tag>
@@ -3177,6 +3174,12 @@ Ref 2\cite{kom2016stochastic}
             <tag> logs </tag>
             
             <tag> hexo </tag>
+            
+            <tag> notes </tag>
+            
+            <tag> information_system </tag>
+            
+            <tag> machine_learning </tag>
             
         </tags>
         
@@ -3493,13 +3496,13 @@ Ref 2\cite{kom2016stochastic}
             
             <tag> information_system </tag>
             
+            <tag> machine_learning </tag>
+            
             <tag> statistics </tag>
             
             <tag> mathematics </tag>
             
             <tag> github </tag>
-            
-            <tag> machine_learning </tag>
             
             <tag> artificial_intelligence </tag>
             
@@ -3686,9 +3689,9 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
-            <tag> information_system </tag>
-            
             <tag> notes </tag>
+            
+            <tag> information_system </tag>
             
         </tags>
         
@@ -3930,9 +3933,9 @@ $ hexo d
         
         <tags>
             
-            <tag> github </tag>
-            
             <tag> hexo </tag>
+            
+            <tag> github </tag>
             
             <tag> tutorial </tag>
             
