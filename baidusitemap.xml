@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/SA_FN4/</loc>
-    <lastmod>2017-11-21T09:09:21.000Z</lastmod>
+    <lastmod>2017-11-21T11:01:32.000Z</lastmod>
     <data>
         <display>
         <title>Literature Review: Predicting the Semantic Orientation of Adjectives</title>
@@ -103,7 +103,7 @@
          
         <tag>notes</tag>
          
-        <tag>hexo</tag>
+        <tag>machine_learning</tag>
          
         <tag>study</tag>
          
@@ -113,7 +113,7 @@
          
         <tag>logs</tag>
          
-        <tag>machine_learning</tag>
+        <tag>hexo</tag>
          
          
            
@@ -135,15 +135,13 @@
         
         <tag>information_system</tag>
          
-        <tag>github</tag>
-         
-        <tag>machine_learning</tag>
-         
-        <tag>natural_language_processing</tag>
-         
         <tag>statistics</tag>
          
         <tag>mathematics</tag>
+         
+        <tag>github</tag>
+         
+        <tag>machine_learning</tag>
          
         <tag>artificial_intelligence</tag>
          
@@ -152,6 +150,8 @@
         <tag>finance</tag>
          
         <tag>deep_learning</tag>
+         
+        <tag>natural_language_processing</tag>
          
         <tag>open_course</tag>
          
@@ -322,9 +322,9 @@
         
         <tag>machine_learning</tag>
          
-        <tag>sentiment_analysis</tag>
-         
         <tag>natural_language_processing</tag>
+         
+        <tag>sentiment_analysis</tag>
          
          
            
@@ -490,9 +490,9 @@
         
         <tag>notes</tag>
          
-        <tag>research</tag>
-         
         <tag>economics</tag>
+         
+        <tag>research</tag>
          
         <tag>online_scoring</tag>
          
@@ -609,9 +609,9 @@
         
         <tag>tutorial</tag>
          
-        <tag>hexo</tag>
-         
         <tag>github</tag>
+         
+        <tag>hexo</tag>
          
          
            
