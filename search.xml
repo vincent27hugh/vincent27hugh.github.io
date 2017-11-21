@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Literature Review: Predicting the Semantic Orientation of Adjectives]]></title>
+    <url>%2FSA_FN4%2F</url>
+    <content type="text"><![CDATA[Sentiment Polarity using AdjectiveHatzivassiloglou et al (1997)1 identified and validated from a large corpus constraints from conjunctions (such as and, but) on the positive or negative semantic orientation of the conjoined adjectives. Orientation (Polarity) = direction of deviation from the norm Approach Indirect information: Adjectives conjoined by &#x201C;and&#x201D; have same polarity, such as &#x201C;simple and well-received&#x201D;; Adjectives conjoined by &#x201C;but&#x201D; have different polarity, such as &#x201C;simplistic but well-received&#x201D;; Green line represents and, Red dashed line represents but.2 Data collection21 million word 1987 Wall Street Journal corpus, automatically annotated with part-of-speech tags using the PARTS tagger. Adjectives data preparation Construct a set of adjectives with predetermined orientation labels by taking all adjectives appearing in the corpus 20 times or more and removing adjectives that have no orientation; Assign an orientation label (either + or -) to each adjective, using an evaluative approach Criterion: whether the use of this adjective ascribes in general a positive or negative quality to the modified item, making it better or worse than a similar unmodified item. Final set contained 1,336 adjectives (657 positive and 679 negative terms). Adjectives data validation:They subsequently asked 4 people to independently label a randomly drawn sample of 500 of these 1,336 adjectives, who agreed with us that the positive/negative concept applies to 89.15% of these adjectives on average. Extract conjunctions between adjectivesBy using two-level finite-state grammar, 13,426 conjunctions of adjectives, expanding to a total of 15,431 conjoined adjective pairs are collected. Test data15,048 conjunction tokens involve 9,296 distinct pairs of conjoined adjectives (types). Each conjunction token is classified by the parser according to three variables: the conjunction used (and, or, but, either-or, or neither-nor) the type of modification (attributive, predicative, appositive, resultative) the number of the modified noun (singular or plural) Validation of the Conjunction Hypothesis Prediction of link type Prediction method 1 - Always predict same orientation: always guessing that a link is of the same- orientation type Prediction method 2 - But rule: Method 1 + using but exhibit the opposite pattern Prediction method 3 - Log-linear model: $\eta = \mathbf{\omega}^\mathbf{T} \mathbf{x}$, $y = \frac{e^\eta}{1 + e^\eta}$ $\mathbf{x}$: the vector of the observed counts in the various conjunction categories $\mathbf{\omega}$: the vector of weights to be learned $y$: the response of the system Using the method of iterative stepwise refinement they selected 9 predictor variables from all 90 possible predictor variables Morphological relationships: Adjectives related in form almost always have different semantic orientations Highly accurate (97.06%), but applies only to 1,336 labeled adjectives (891,780 possible pairs) E.g. adequate-inadequate, thoughtful-thoughtless ClusterInputA graph of adjectives connected by dissimilarity links.Dissimilarity value $d(x, y)$ between 0 and 1: Small $d(x, y)$ $\Rightarrow$ same-orientation link between $x$ and $y$ High $d(x, y)$ $\Rightarrow$ different-orientation link between $x$ and $y$ To partition the graph nodes into subsets of the same orientation, we employ an iterative optimization procedure on each connected component, based on the exchange method, a non- hierarchical clustering algorithm. Objective function $\Phi$ scoring each possible partition $\mathcal{P}$ of the adjectives into two subgroups $C_1$ and $C_2$ as \Phi (\mathcal{P}) = \sum_{i=1}^{2} (\frac{1}{\left\lvert C_i \right\rvert} \sum_{x,y \in C_i, x \neq y} d(x,y))where $C_i$ stands for the cardinality of cluster $i$ Labeling the Clusters as Positive or NegativeThe unmarked member almost always having positive orientation (Lehrer, 1985; Battistella, 1990). Thus: They computed the average frequency of the words in each group, expecting the group with higher average frequency to contain the positive terms. ConclusionThey tested how graph connectivity affects the overall performance For most connectives, the conjoined adjectives usually are of the same orientation 1. Hatzivassiloglou, Vasileios, McKeown, Kathleen R (1997). Predicting the semantic orientation of adjectives, 174&#x2014;181 &#x21A9; 2. 7 - 4 - Learning Sentiment Lexicons - Stanford NLP - Professor Dan Jurafsky &amp; Chris Manning &#x21A9;]]></content>
+      <categories>
+        <category>English</category>
+      </categories>
+      <tags>
+        <tag>research</tag>
+        <tag>sentiment_analysis</tag>
+        <tag>literature_review</tag>
+        <tag>cluster</tag>
+        <tag>logit_regression</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[20171117 Notes: Stochastic Process, Parameter Estimation, PDE]]></title>
     <url>%2Fnotes_CCSMA%2F</url>
     <content type="text"><![CDATA[Stochastic process Brownian Motion (BM): $Z_t \sim \mathcal{N}(0,t)$; Arithmetic Brownian Motion (ABM): $d \mu = \alpha dt + \sigma dZ_t$ Geometric Brownian Motion (GBM): $dY_t = (\alpha + \frac{1}{2} \sigma^2) dt + \sigma dZ_t$ Ornstein-Uhlenbeck process (O-U Process): $du = \alpha(\mu-u)dt + \sigma dZ_t$, where $\alpha$ is speed of reversion and $\mu$ is long-term mean (A.K.A steady state mean). The distribution of O-U Process is $u \sim \mathcal{N} (\mu_{\mathcal{N}}, \sigma_{\mathcal{N}})$, where\mu_{\mathcal{N}} = \mu + exp(-\alpha (X_0 - \mu))\sigma_{\mathcal{N}} = \sigma^2 (1- \frac{exp(-2 \alpha t)}{2 \alpha}As $t \rightarrow \infty$: if $\alpha &gt; 0$,lim_{t \to \infty} u \sim \mathcal{N} (\mu, \frac{\sigma^2}{2 \alpha})Converge. if $\alpha = 0$,lim_{t \to \infty} u \sim \mathcal{N} (\mu, \sigma^2 t)Diverge. if $\alpha &lt; 0$, Diverge. Cox-Ingersoll-Ross (CIR) process: $dX_t = \alpha (\mu-X_t)dt+\sigma \sqrt{X_t} dZ_t$ Stochastic Differential Equation for general 1-Spatial dimension It&#xF4; drift-diffusion process: $dX_t = \mu(X_t,t)dt + \sigma(X_t,t)dZ_t$ Ito&#x2019;s lemma: $Y$ is It&#xF4; drift-diffusion process, $f: \mathbb{R}^2 \to \mathbb{R}$ is smooth, thendf(Y_t,t)=f_t dt + f_Y dY_t +\frac{1}{2} f_{YY} (dY_t)^2$(dt)^2 = dt dW_t$; $(dW_t)^2 = dt$ Parameter Estimation Using Maximum Likelihood Estimation (MLE):\mathcal{L}(\theta|x) = f(x_1|\theta) \times f(x_2|\theta) \times \cdots \times f(x_n|\theta)= f(x_1,x_2,\cdots,x_n|\theta) = \prod_{i=1}^{n} f(x_i|\theta)\Rightarrow {\hat{\theta}_{MLE}} \subseteq { argmax_{\theta \in \Theta} \{ \hat{l}(\theta;x_1,x_2,\cdots,x_n) \} } Exact MLE: Using known density function $f(x_i|\theta)$; Inexact MLE: First Difference Maximum Likelihood Estimation (FDMLE)1 Fokker Planck Equation Fokker Planck Equation: \frac{\partial}{\partial t} f(X_t,t) = - \frac{\partial}{\partial x}[\mu(X_t,t) \cdot f(X_t,t)]+\frac{1}{2}\frac{\partial^2}{\partial x^2}[\sigma^2(X_t,t) \cdot f(X_t,t)] Partial Differential Equation General linear second order Partial Differential Equation (PDE)23:A u_{XX} +2B u_{XY} +C u_{YY} + D u_X +E u_Y + Fu =0 Elliptic: if $B^2-AC &lt; 0$. Simple example is 2-D Laplace Equation: $u_{xx} + u_{yy}= 0$ (where $X = x$, $Y = y$, $A = 1$, $B = 0$, $C = 1$), which can describe the electrostatic field. Parabolic: if $B^2-AC = 0$. Simple example is 1-D Heat Equation: $u_t - K u_{xx} = 0$ (where $X = x$, $Y = t$, $A = -K$, $B=C=0$), which can describe heat transportation process Fokker Planck Equation:\frac{\partial}{\partial t} f(X_t,t) = - \frac{\partial}{\partial x}[\mu(X_t,t) \cdot f(X_t,t)]+\frac{1}{2}\frac{\partial^2}{\partial x^2}[\sigma^2(X_t,t) \cdot f(X_t,t)] Black Scholes Eqaution:\frac{\partial V}{\partial t} + \frac{1}{2} \sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} + rS \frac{\partial V}{\partial S} -rV = 0 Hyperbolic: if $B^2-AC &gt; 0$. Simple example is 1-D Wave Equation: $a^2 u_{xx} - u_{tt} = 0$ (where $X = x$, $Y = t$, $A = a^2$, $B = 0$, $C = -1$), which can describe light wave. MATLAB function pdepe can solve initial-boundary value problems for parabolic-elliptic PDEs in 1-D. Stochastic Optimal Control Process Stochastic Control problem concept: Agent State: $X_t$, SDE:d X_t = f(u, X, t) dt + g(u, X, t) dZ \tag{0}\label{0} Control: $u(X_t,t)$ Objective Function: $F(u, t)$ Using Brand Management on Twitter as an example: Agent: Some firm, such as AT&amp;T Co. State: Sentiment Score of customers on Twitter; Control: Effort AT&amp;T Co. pay to increase the sentiment; Objective Function: Return; If we want to minimize value function: V(X, t) = Min_{u(X, t)} \{F(u, t) dt + (1 - \gamma dt) V(X+dX, t+dt)\} \tag{1}\label{1}where $\gamma$ is discount factor. Taylor expansion on $\eqref{1}$: V(X+dX, t+dt) = V(t, X) + \frac{\partial V}{\partial X} dX + \frac{\partial V}{\partial t} dt + \frac{1}{2} (2 \frac{\partial^2}{\partial t \partial X} dtdX + \frac{\partial^2}{\partial t^2} (dt)^2 + \frac{\partial^2}{\partial X^2} (dX)^2) V\stackrel{(dX)^2=g^2 dt}{=} V(t, X) + \frac{\partial V}{\partial X} dX + (\frac{\partial V}{\partial t} + \frac{g^2}{2} \frac{\partial^2 V}{\partial X^2}) dt\stackrel{dX = fdt + gdZ}{=} V(t, X) + V_X (fdt + gdZ) + (V_t + \frac{g^2}{2} V_{XX}) dt= V(t, X) + (fV_X + V_t + \frac{g^2}{2} V_{XX}) dt + g V_X dZ \tag{2}\label{2} $\eqref{2}$ into $\eqref{1}$:\gamma V dt = Min_{u(X, t)} \{F(u, t) dt + (f V_X + V_t + \frac{g^2}{2} V_{XX}) dt + g v_X dZ \} \tag{3}\label{3} Hamilton-Jacobi-Bellman (HJB) equation is a partial differential equation which is central to optimal control theory. The solution of the HJB equation is the value function which gives the minimum cost for a given dynamical system with an associated cost function.Expectation on $\eqref{3}$:\mathbb{E}[\gamma V dt] = Min_{u(X, t)} \mathbb{E} \{F(u, t) dt + (f V_X + V_t + \frac{g^2}{2} V_{XX}) dt + g v_X dZ\}\stackrel{elim. dZ-term}{\Rightarrow} \gamma V dt = Min_{u(X, t)} \{F(u, t) dt + (f V_X + V_t + \frac{g^2}{2} V_{XX}) dt\}\stackrel{HJB}{\Rightarrow} \gamma V= Min_{u(X, t)} \mathbb{E} \{F(u, t) + f V_X + V_t + \frac{g^2}{2} V_{XX}\} \tag{4}\label{4} Guess Objective Function (such as the return of the firm) follow the form of $F(u, t) = \beta X - C u^2$. Drift term of State $dX_t$ follow the form: $f(u, t) = k_1 u \sqrt{b-X} - k_2 X$; Volatility term of State $dX_t$ follow the form: $g(u, t) = k_3$. Thus replace $f$ and $g$ in $\eqref{4}$ HJB equation:\gamma V = Max_{u(X, t)} \{(\beta X - C u^2) + (k_1 u \sqrt{b-X} - k_2 X) V_X + V_t + \frac{k_3^2}{2} V_{XX}\} \tag{4*}\label{4*} Optimal Control: Partial derivative of the term inside $Max_{u(X, t)}$ in RHS w.r.t. $u$:\frac{(\beta X - C u^2) + (k_1 u \sqrt{b-X} - k_2 X) V_X + V_t + \frac{k_3^2}{2} V_{XX}}{\partial u} = 0\Rightarrow -2Cu + V_X k_1 \sqrt{b-X} = 0\Rightarrow u^* = \frac{V_X k_1 \sqrt{b-X}}{2C} \tag{5}\label{5} GuessV(x) = \lambda_1 X + \lambda_2 \tag{6}\label{6}where $\lambda_1 &gt; 0$, $V_X = \lambda_1$, $V_{XX} = V_t = 0$. Substitute $\eqref{5}$ and $\eqref{6}$ into $\eqref{4*}$:\gamma (\lambda_1 X + \lambda_2) = \beta X - \frac{\lambda_1^2 k_1^2 (b-X) C}{(2C)^2} + (k_1 \frac{\lambda_1 k_1 \sqrt{b-X}}{2C} \sqrt{b-X} - k_2 X) \lambda_1= \beta X - \frac{\lambda_1^2 k_1^2 (b-X)}{4C} + (\frac{\lambda_1 k_1^2 (b-X)}{2C} - k_2 X) \lambda_1 \tag{7}\label{7} (X) part of $\eqref{7}$: \gamma \lambda_1 = \beta - \frac{\lambda_1^2 k_1^2}{4C} - \lambda_1 k_2 \tag{8-1}\label{8-1} (Constant) part of $\eqref{7}$: \gamma \lambda_2 = \frac{\lambda_1^2 k_1^2}{4C} \tag{8-2}\label{8-2} Solve $\eqref{8-1}$ and $\eqref{8-2}$ ($\lambda_1 &gt; 0$):\lambda_1 = \frac{-2C(\gamma+k_2) + 2 \sqrt{C^2 (\gamma+k_2)^2 + C \beta k_1^2}}{k_1^2} \tag{9-1}\label{9-1}\lambda_2 = \frac{\lambda_1^2 k_1^2 b}{4 \gamma C} \tag{9-2}\label{9-2} Substitute $\eqref{9-1}$ and $\eqref{9-2}$ in $\eqref{5}$:u^* = \frac{-C(\gamma+k_2) + \sqrt{C^2 (\gamma+k_2)^2 + C \beta k_1^2}}{k_1} \sqrt(b-X) \tag{10}\label{10} Substitute $\eqref{10}$ in $\eqref{0}$, note that $f(u, t) = k_1 u \sqrt{b-X} - k_2 X$, $g(u, t) = k_3$:dX = (-C(\gamma+k_2) + \sqrt{C^2 (\gamma+k_2)^2 + C \beta k_1^2} + k_2)(\frac{b (-C(\gamma+k_2) + \sqrt{C^2 (\gamma+k_2)^2 + C \beta k_1^2})}{-C(\gamma+k_2) + \sqrt{C^2 (\gamma+k_2)^2 + C \beta k_1^2} + k_2} - X) dt + k_3 dZ \tag{11}\label{11}Define:\alpha_{HJB} = -C(\gamma+k_2) + \sqrt{C^2 (\gamma+k_2)^2 + C \beta k_1^2} + k_2 \tag{12-1}\label{12-1}\mu_{HJB} = \frac{b (-C(\gamma+k_2) + \sqrt{C^2 (\gamma+k_2)^2 + C \beta k_1^2})}{-C(\gamma+k_2) + \sqrt{C^2 (\gamma+k_2)^2 + C \beta k_1^2} + k_2} \tag{12-2}\label{12-2}\sigma_{HJB} = k_3 \tag{12-3}\label{12-3}Then $dX = \alpha_{HJB} (\mu_{HJB} - X) dt + \sigma_{HJB} dZ$, which is O-U process! According to O-U Process, state $X \sim \mathcal{N} (\mu_{\mathcal{N}}, \sigma_{\mathcal{N}})$, where\mu_{\mathcal{N}} = \mu_{HJB} + exp(-\alpha_{HJB} (X_0 - \mu_{HJB})) \tag{13-1}\label{13-1}\sigma_{\mathcal{N}} = \sigma_{HJB}^2 (1- \frac{exp(-2 \alpha_{HJB} t)}{2 \alpha_{HJB}}) \tag{13-2}\label{13-2}X_t converge with $t \to \infty$ when $\eqref{12-1}$ $\alpha_{HJB} &gt; 0$. Read More MIT6.832 Lecture 16: Introducing Stochastic Optimal Control UTDallas-OPRE7320: Optimal Control Theory: Chap 13 Stochastic Optimal Control: Princeton-Economics 521, Advanced Macroeconomics I: Lecture 4: Hamilton-Jacobi-Bellman Equations, Stochastic Differential Equations Lecture 5: Stochastic HJB Equations, Kolmogorov Forward Equations 1. Han, C., &amp; Phillips, P. C. (2013). First difference maximum likelihood and dynamic panel estimation. Journal of Econometrics, 175(1), 35-45. &#x21A9; 2. Partial Differential Equations in Finance &#x21A9; 3. Stanford MATH220a: 4 Classification of Second-Order Equations &#x21A9;]]></content>
@@ -52,9 +67,9 @@
         <category>中文</category>
       </categories>
       <tags>
-        <tag>tutorial</tag>
         <tag>deap_learning</tag>
         <tag>hardware</tag>
+        <tag>tutorial</tag>
       </tags>
   </entry>
   <entry>
@@ -97,8 +112,8 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>research</tag>
         <tag>information_system</tag>
+        <tag>research</tag>
         <tag>sentiment_analysis</tag>
         <tag>literature_review</tag>
         <tag>opinion_mining</tag>
@@ -114,8 +129,8 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>research</tag>
         <tag>information_system</tag>
+        <tag>research</tag>
         <tag>sentiment_analysis</tag>
         <tag>literature_review</tag>
         <tag>user_generated_content</tag>
@@ -127,8 +142,8 @@
     <url>%2Fexpectation_on_online%20scoring%2F</url>
     <content type="text"><![CDATA[Problem descriptionThere are lots of scenarios that we need to do evaluations, for example, online scoring of movies on IMDB or products on Amazon.com. Via the the online scoring, customers can easily judge which items they would like to choose. However, can this online score really reflect the rankings of quality of homogeneous products? We find that sometimes our expectations can have influences on our satisfaction of the items. And products with high expectations sometimes are more difficult to generate same level of satisfaction as production with low expectations. (Expectation and Satisfaction are subjective for each individual.) ExampleTake the scenario of E-commerce as an example. Expectations for buyers can be based on: the historical performance of sellers (such as sales); the reputation of sellers the historical performance and reputation of peers (Same business categories with similar product types); the price displayed; Based on these factors, customers might build their subjective expectations on the qualities of the products. Thus, the online scoring of the product might be based on the satisfaction which is the result of difference between expectation and true experience. NotationsThere are $n = 2$ sellers who sell the homogeneous products and $m$ buyers. $E_{ij}$ denotes the expectation of buyer $j$ for seller $i$, where $i=\{L,H\}$. We know that $E_{Lj} &lt; E_{Hj}$. There exist a space of real values of quality for products, $Q$. And the real value of quality for product sold by seller $i$ is $q_{i} \in Q$.We assume $q_{H} &lt; q_{L}$. (Why?) There are two stages: Pre-purchase and Post-purchase. Buyer $j$ generate $E_{ij}$ for seller $i$ after checking the information about seller $i$ and its product in the pre-purchase stage. Then after true experience of product, buyer $j$ generate the satisfaction $S_{ij}$ and online scoring $R_{ij}$ for seller i in the post-purchase stage. Satisfaction of buyer $j$ for seller $i$ is $S_{ij}$, which is the result of inconsistence between quality $q_{i}$ and expectation $E_{ij}$. We denoted it by $S_{ij} = f(q_{i} - E_{ij})$. The online score of buyer $j$ for seller $i$ is $R_{ij}$, which is the result of satisfaction $S_{ij}$ denoted by $R_{ij} = f_{S}(S_{ij})=f_{R}(q_{i} - E_{ij})$. Assume that $f_{R}$ is a monotonically increasing function. (Why? There are two assumptions: $R_{ij}$ is positive correlated to quality $q_i$; $R_{ij}$ is negative correlated to expectation $E_{ij}$;) However, it seems to be possible that $q_H-E_{Hj} &lt; q_L-E_{Lj}$ because of greater effect of $E_{Hj} &gt; E_{Lj}$, which would result in $R_{Hj} &lt; R_{Lj}$ for buyer $j$. ExplanationDoes this phenomena exist? In my opinion, this phenomena really exist. Make it more sensible, I use movie as example (Logics is same), before we watch a Chinese low-cost film, we have lower expectation than high-cost Hollywood films. Thus as long as the Chinese low-cost film has a little bit attractive highlights, we would give it a high evaluation, which might be higher than the high-cost Hollywood films. If so, how to explain it? My explanation is: sometimes our expectation is not only based on quality of items but also the peers&#x2019; performance and reputations. Even though, buyers would buy product which maximize the expected utility function value. Some uninformative or irrational buyers would still choose products with low reputation and low price. However, online review is short-time reflection on the product and might not present some perspectives of the product, such as durability. FutureWhen calculate the integrated score of sellers, we need take into consideration of peers performance and reputation. (Cluster) The expectation might be measurable via online sentiment analysis. Hope this is a good research idea.]]></content>
       <tags>
-        <tag>research</tag>
         <tag>notes</tag>
+        <tag>research</tag>
         <tag>economics</tag>
         <tag>online_scoring</tag>
         <tag>modeling</tag>
@@ -154,8 +169,8 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>research</tag>
         <tag>information_system</tag>
+        <tag>research</tag>
       </tags>
   </entry>
   <entry>
@@ -167,8 +182,8 @@
       </categories>
       <tags>
         <tag>machine_learning</tag>
-        <tag>natural_language_processing</tag>
         <tag>sentiment_analysis</tag>
+        <tag>natural_language_processing</tag>
       </tags>
   </entry>
   <entry>
@@ -234,13 +249,13 @@
         <category>中文</category>
       </categories>
       <tags>
+        <tag>information_system</tag>
+        <tag>notes</tag>
+        <tag>hexo</tag>
         <tag>study</tag>
         <tag>research</tag>
         <tag>blog</tag>
         <tag>logs</tag>
-        <tag>hexo</tag>
-        <tag>notes</tag>
-        <tag>information_system</tag>
         <tag>machine_learning</tag>
       </tags>
   </entry>
@@ -253,15 +268,15 @@
       </categories>
       <tags>
         <tag>information_system</tag>
+        <tag>github</tag>
         <tag>machine_learning</tag>
+        <tag>natural_language_processing</tag>
         <tag>statistics</tag>
         <tag>mathematics</tag>
-        <tag>github</tag>
         <tag>artificial_intelligence</tag>
         <tag>economics</tag>
         <tag>finance</tag>
         <tag>deep_learning</tag>
-        <tag>natural_language_processing</tag>
         <tag>open_course</tag>
       </tags>
   </entry>
@@ -296,8 +311,8 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>notes</tag>
         <tag>information_system</tag>
+        <tag>notes</tag>
       </tags>
   </entry>
   <entry>
@@ -322,20 +337,20 @@
         <category>中文</category>
       </categories>
       <tags>
+        <tag>tutorial</tag>
         <tag>hexo</tag>
         <tag>github</tag>
-        <tag>tutorial</tag>
       </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[All Categories]]></title>
-    <url>%2Fcategories%2Findex.html</url>
-    <content type="text"><![CDATA[]]></content>
   </entry>
   <entry>
     <title><![CDATA[About Me]]></title>
     <url>%2Fabout%2Findex.html</url>
     <content type="text"><![CDATA[Hello, I am a PhD student in Information System Department at City University of Hong Kong (2017-2021). If you would like to know more about me, you can click BAODUGE-About. What&#x2019;s more, welcome to my blog, the NERVERLAND, which is supported by GitHub and Hexo. Neverland is a fictional location featured in the works of J. M. Barrie and those based on them. It is an imaginary faraway place, where Peter Pan, Tinker Bell, the Lost Boys and other mythical creatures and beings live. &#x2014;Wikipedia NEVERLAND is a place of fantacy and I hope to build a blog full of bold innovation and wonderful ideas. If you have any creative thoughs on no matter science&amp;technology or phylosophy of life, feel free to contact with me via email huweihugh@gmail.com. (You can find my email on the sidebar of this page.) var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"circulation","mutex":true,"music":[{"title":"Free Loop","author":"Daniel Powter","url":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.jpeg","lrc":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.lrc"}]}; options.element = document.getElementById("aplayer0"); new APlayer(options);]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[All Categories]]></title>
+    <url>%2Fcategories%2Findex.html</url>
+    <content type="text"><![CDATA[]]></content>
   </entry>
   <entry>
     <title><![CDATA[All Tags]]></title>
