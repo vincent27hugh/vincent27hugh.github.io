@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/SA_FN4/</loc>
-    <lastmod>2017-11-21T11:01:32.000Z</lastmod>
+    <lastmod>2017-11-21T13:48:07.000Z</lastmod>
     <data>
         <display>
         <title>Literature Review: Predicting the Semantic Orientation of Adjectives</title>
@@ -67,8 +67,6 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
-        <tag>r_language</tag>
-         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
@@ -78,6 +76,8 @@
         <tag>fortran</tag>
          
         <tag>python</tag>
+         
+        <tag>r_language</tag>
          
         <tag>mathematica</tag>
          
@@ -99,12 +99,6 @@
         <title>NEVERLAND - Blog Logs</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
-        <tag>notes</tag>
-         
-        <tag>machine_learning</tag>
-         
         <tag>study</tag>
          
         <tag>research</tag>
@@ -114,6 +108,12 @@
         <tag>logs</tag>
          
         <tag>hexo</tag>
+         
+        <tag>notes</tag>
+         
+        <tag>information_system</tag>
+         
+        <tag>machine_learning</tag>
          
          
            
@@ -135,13 +135,13 @@
         
         <tag>information_system</tag>
          
+        <tag>machine_learning</tag>
+         
         <tag>statistics</tag>
          
         <tag>mathematics</tag>
          
         <tag>github</tag>
-         
-        <tag>machine_learning</tag>
          
         <tag>artificial_intelligence</tag>
          
@@ -298,9 +298,9 @@
         <title>Resources of Information System Research</title>
         <pubTime>2017-10-23T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>research</tag>
+         
+        <tag>information_system</tag>
          
          
            
@@ -370,9 +370,9 @@
         <title>Experiments in IS research</title>
         <pubTime>2017-09-10T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>notes</tag>
+         
+        <tag>information_system</tag>
          
          
            
@@ -426,9 +426,9 @@
         <title>Literature Review on Social Media in Financial Market</title>
         <pubTime>2017-11-01T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>research</tag>
+         
+        <tag>information_system</tag>
          
         <tag>sentiment_analysis</tag>
          
@@ -458,17 +458,17 @@
         <title>Literature Review on UGC/WOM</title>
         <pubTime>2017-10-30T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>research</tag>
          
-        <tag>sentiment_analysis</tag>
+        <tag>information_system</tag>
          
-        <tag>literature_review</tag>
+        <tag>sentiment_analysis</tag>
          
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
+         
+        <tag>literature_review</tag>
          
          
            
@@ -488,11 +488,11 @@
         <title>Can online scoring really reflects the rankings of products?</title>
         <pubTime>2017-10-29T16:00:00.000Z</pubTime>
         
+        <tag>research</tag>
+         
         <tag>notes</tag>
          
         <tag>economics</tag>
-         
-        <tag>research</tag>
          
         <tag>online_scoring</tag>
          
@@ -607,11 +607,11 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>tutorial</tag>
+        <tag>hexo</tag>
          
         <tag>github</tag>
          
-        <tag>hexo</tag>
+        <tag>tutorial</tag>
          
          
            
