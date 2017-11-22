@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/SA_FN4/</loc>
-    <lastmod>2017-11-21T13:48:07.000Z</lastmod>
+    <lastmod>2017-11-22T03:43:46.000Z</lastmod>
     <data>
         <display>
         <title>Literature Review: Predicting the Semantic Orientation of Adjectives</title>
@@ -67,6 +67,8 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
+        <tag>r_language</tag>
+         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
@@ -76,8 +78,6 @@
         <tag>fortran</tag>
          
         <tag>python</tag>
-         
-        <tag>r_language</tag>
          
         <tag>mathematica</tag>
          

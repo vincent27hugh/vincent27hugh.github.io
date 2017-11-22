@@ -113,7 +113,7 @@
 <meta property="og:image" content="http://blog.baoduge.com/images/safn4_1.png">
 <meta property="og:image" content="http://blog.baoduge.com/images/safn4_2.png">
 <meta property="og:image" content="http://blog.baoduge.com/images/safn4_3.png">
-<meta property="og:updated_time" content="2017-11-21T13:48:07.000Z">
+<meta property="og:updated_time" content="2017-11-22T03:43:46.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Literature Review: Predicting the Semantic Orientation of Adjectives">
 <meta name="twitter:description" content="This is the literature review on one paper of Hatzivassiloglou et al (1997) on ACL.">
@@ -461,15 +461,15 @@
 </ul>
 <h3 id="Adjectives-data-validation"><a href="#Adjectives-data-validation" class="headerlink" title="Adjectives data validation:"></a>Adjectives data validation:</h3><p>They subsequently asked 4 people to independently label a randomly drawn sample of 500 of these 1,336 adjectives, who agreed with us that the positive/negative concept applies to <strong>89.15%</strong> of these adjectives on average.</p>
 <h2 id="Extract-conjunctions-between-adjectives"><a href="#Extract-conjunctions-between-adjectives" class="headerlink" title="Extract conjunctions between adjectives"></a>Extract conjunctions between adjectives</h2><p>By using <strong>two-level finite-state grammar</strong>, 13,426 conjunctions of adjectives, expanding to a total of 15,431 conjoined adjective pairs are collected.</p>
-<h2 id="Test-data"><a href="#Test-data" class="headerlink" title="Test data"></a>Test data</h2><p>15,048 conjunction <strong>tokens</strong> involve 9,296 distinct pairs of conjoined adjectives (<strong>types</strong>).</p>
+<h3 id="Test-data"><a href="#Test-data" class="headerlink" title="Test data"></a>Test data</h3><p>15,048 conjunction <strong>tokens</strong> involve 9,296 distinct pairs of conjoined adjectives (<strong>types</strong>).</p>
 <p>Each conjunction token is classified by the parser according to three variables:</p>
 <ul>
 <li>the conjunction used (and, or, but, either-or, or neither-nor)</li>
 <li>the type of modification (attributive, predicative, appositive, resultative)</li>
 <li>the number of the modified noun (singular or plural)</li>
 </ul>
-<h1 id="Validation-of-the-Conjunction-Hypothesis"><a href="#Validation-of-the-Conjunction-Hypothesis" class="headerlink" title="Validation of the Conjunction Hypothesis"></a>Validation of the Conjunction Hypothesis</h1><p><img src="/images/safn4_1.png" alt=""></p>
-<h1 id="Prediction-of-link-type"><a href="#Prediction-of-link-type" class="headerlink" title="Prediction of link type"></a>Prediction of link type</h1><ul>
+<h2 id="Validation-of-the-Conjunction-Hypothesis"><a href="#Validation-of-the-Conjunction-Hypothesis" class="headerlink" title="Validation of the Conjunction Hypothesis"></a>Validation of the Conjunction Hypothesis</h2><p><img src="/images/safn4_1.png" alt=""></p>
+<h2 id="Prediction-of-link-type"><a href="#Prediction-of-link-type" class="headerlink" title="Prediction of link type"></a>Prediction of link type</h2><ul>
 <li>Prediction method 1 - Always predict same orientation:<ul>
 <li>always guessing that a link is of the same- orientation type</li>
 </ul>
@@ -494,7 +494,7 @@
 </li>
 </ul>
 <p><img src="/images/safn4_2.png" alt=""></p>
-<h1 id="Cluster"><a href="#Cluster" class="headerlink" title="Cluster"></a>Cluster</h1><h2 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h2><p>A graph of adjectives connected by dissimilarity links.<br><strong>Dissimilarity value</strong> $d(x, y)$ between 0 and 1:</p>
+<h2 id="Cluster"><a href="#Cluster" class="headerlink" title="Cluster"></a>Cluster</h2><h3 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h3><p>A graph of adjectives connected by dissimilarity links.<br><strong>Dissimilarity value</strong> $d(x, y)$ between 0 and 1:</p>
 <ul>
 <li>Small $d(x, y)$ $\Rightarrow$ same-orientation link between $x$ and $y$</li>
 <li>High $d(x, y)$ $\Rightarrow$ different-orientation link between $x$ and $y$</li>
@@ -502,9 +502,9 @@
 <p>To partition the graph nodes into subsets of the same orientation, we employ an iterative optimization procedure on each connected component, based on the exchange method, a non- hierarchical clustering algorithm.</p>
 <p>Objective function $\Phi$ scoring each possible partition $\mathcal{P}$ of the adjectives into two subgroups $C_1$ and $C_2$ as</p>
 <script type="math/tex; mode=display">\Phi (\mathcal{P}) = \sum_{i=1}^{2} (\frac{1}{\left\lvert C_i \right\rvert} \sum_{x,y \in C_i, x \neq y} d(x,y))</script><p>where $C_i$ stands for the cardinality of cluster $i$</p>
-<h2 id="Labeling-the-Clusters-as-Positive-or-Negative"><a href="#Labeling-the-Clusters-as-Positive-or-Negative" class="headerlink" title="Labeling the Clusters as Positive or Negative"></a>Labeling the Clusters as Positive or Negative</h2><p>The unmarked member almost always having positive orientation (Lehrer, 1985; Battistella, 1990). Thus:</p>
+<h3 id="Labeling-the-Clusters-as-Positive-or-Negative"><a href="#Labeling-the-Clusters-as-Positive-or-Negative" class="headerlink" title="Labeling the Clusters as Positive or Negative"></a>Labeling the Clusters as Positive or Negative</h3><p>The unmarked member almost always having positive orientation (Lehrer, 1985; Battistella, 1990). Thus:</p>
 <p>They computed the average frequency of the words in each group, expecting the group with <strong>higher average</strong> frequency to contain the positive terms.</p>
-<h1 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h1><p>They tested how graph connectivity affects the overall performance</p>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>They tested how graph connectivity affects the overall performance</p>
 <p><img src="/images/safn4_3.png" alt=""></p>
 <hr>
 <blockquote id="fn_1">
@@ -843,7 +843,7 @@ show_date_time();
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Sentiment-Polarity-using-Adjective"><span class="nav-number">1.</span> <span class="nav-text">Sentiment Polarity using Adjective</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Approach"><span class="nav-number">1.1.</span> <span class="nav-text">Approach</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Data-collection"><span class="nav-number">1.2.</span> <span class="nav-text">Data collection</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Adjectives-data-preparation"><span class="nav-number">1.2.1.</span> <span class="nav-text">Adjectives data preparation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Adjectives-data-validation"><span class="nav-number">1.2.2.</span> <span class="nav-text">Adjectives data validation:</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Extract-conjunctions-between-adjectives"><span class="nav-number">1.3.</span> <span class="nav-text">Extract conjunctions between adjectives</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Test-data"><span class="nav-number">1.4.</span> <span class="nav-text">Test data</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Validation-of-the-Conjunction-Hypothesis"><span class="nav-number">2.</span> <span class="nav-text">Validation of the Conjunction Hypothesis</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Prediction-of-link-type"><span class="nav-number">3.</span> <span class="nav-text">Prediction of link type</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Cluster"><span class="nav-number">4.</span> <span class="nav-text">Cluster</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Input"><span class="nav-number">4.1.</span> <span class="nav-text">Input</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Labeling-the-Clusters-as-Positive-or-Negative"><span class="nav-number">4.2.</span> <span class="nav-text">Labeling the Clusters as Positive or Negative</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Conclusion"><span class="nav-number">5.</span> <span class="nav-text">Conclusion</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Sentiment-Polarity-using-Adjective"><span class="nav-number">1.</span> <span class="nav-text">Sentiment Polarity using Adjective</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Approach"><span class="nav-number">1.1.</span> <span class="nav-text">Approach</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Data-collection"><span class="nav-number">1.2.</span> <span class="nav-text">Data collection</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Adjectives-data-preparation"><span class="nav-number">1.2.1.</span> <span class="nav-text">Adjectives data preparation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Adjectives-data-validation"><span class="nav-number">1.2.2.</span> <span class="nav-text">Adjectives data validation:</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Extract-conjunctions-between-adjectives"><span class="nav-number">1.3.</span> <span class="nav-text">Extract conjunctions between adjectives</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Test-data"><span class="nav-number">1.3.1.</span> <span class="nav-text">Test data</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Validation-of-the-Conjunction-Hypothesis"><span class="nav-number">1.4.</span> <span class="nav-text">Validation of the Conjunction Hypothesis</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Prediction-of-link-type"><span class="nav-number">1.5.</span> <span class="nav-text">Prediction of link type</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Cluster"><span class="nav-number">1.6.</span> <span class="nav-text">Cluster</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Input"><span class="nav-number">1.6.1.</span> <span class="nav-text">Input</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Labeling-the-Clusters-as-Positive-or-Negative"><span class="nav-number">1.6.2.</span> <span class="nav-text">Labeling the Clusters as Positive or Negative</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Conclusion"><span class="nav-number">1.7.</span> <span class="nav-text">Conclusion</span></a></li></ol></li></ol></div>
             
 
           </div>
