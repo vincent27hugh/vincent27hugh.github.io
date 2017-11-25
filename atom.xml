@@ -40,9 +40,9 @@
     
       <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
-      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
-    
       <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
+    
+      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
       <category term="cluster" scheme="http://blog.baoduge.com/tags/cluster/"/>
     
@@ -110,6 +110,8 @@
     
       <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
     
+      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
+    
       <category term="nonlinear_equations" scheme="http://blog.baoduge.com/tags/nonlinear-equations/"/>
     
       <category term="numerical_analysis" scheme="http://blog.baoduge.com/tags/numerical-analysis/"/>
@@ -121,8 +123,6 @@
       <category term="python" scheme="http://blog.baoduge.com/tags/python/"/>
     
       <category term="mathematica" scheme="http://blog.baoduge.com/tags/mathematica/"/>
-    
-      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
       <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
     
@@ -236,9 +236,9 @@
     
       <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
-      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
-    
       <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
+    
+      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
       <category term="opinion_mining" scheme="http://blog.baoduge.com/tags/opinion-mining/"/>
     
@@ -257,7 +257,7 @@
     <link href="http://blog.baoduge.com/SA_FN2/"/>
     <id>http://blog.baoduge.com/SA_FN2/</id>
     <published>2017-11-01T16:00:00.000Z</published>
-    <updated>2017-11-25T16:50:56.000Z</updated>
+    <updated>2017-11-25T16:56:49.000Z</updated>
     
     <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p>We posted a brief introduction on Sentiment Analysis (see <a href="http://blog.baoduge.com/Introduction_to_Sentiment_Analysis/">Introduction to Sentiment Analysis</a>) and reviewed several literature on UGC/WOS (see <a href="http://blog.baoduge.com/SA_FN/">Literature Review on UGC/WOM</a>). Today, we are going to read some papers on taking good use of sentiment analysis and social media to analyze financial market.</p><p>In the paper <code>AI and Opinion Mining</code>, Chen et al, 2010<sup><a href="#fn_1" id="reffn_1">1</a></sup>, present how online opinion- mining works by investigating the stock performance of a large US corporation, Wal-Mart. Finally, they find that:</p><blockquote><p>message volume in the forum holds a significant negative relationship with stock return, with high volume indicating subsequent negative returns. Disagreement and subjectivity also held significant relationships with volatility, where less disagreement and high levels of subjectivity predicted periods of high stock volatility.</p></blockquote><p>This study clarifies the possibility of using sentiment analysis to explore the principles of financial market.</p><h1 id="Role-of-social-media-and-sentiment-analysis-in-financial-market"><a href="#Role-of-social-media-and-sentiment-analysis-in-financial-market" class="headerlink" title="Role of social media and sentiment analysis in financial market"></a>Role of social media and sentiment analysis in financial market</h1><h2 id="Yahoo-for-Amazon-Sentiment-Extraction-from-Small-Talk-on-the-Web"><a href="#Yahoo-for-Amazon-Sentiment-Extraction-from-Small-Talk-on-the-Web" class="headerlink" title="Yahoo! for Amazon: Sentiment Extraction from Small Talk on the Web"></a>Yahoo! for Amazon: Sentiment Extraction from Small Talk on the Web</h2><p>Das et al, 2007<sup><a href="#fn_2" id="reffn_2">2</a></sup> develop a methodology for extracting small investor sentiment from stock message boards.</p><h3 id="Methodologies"><a href="#Methodologies" class="headerlink" title="Methodologies"></a>Methodologies</h3><ul><li>Messages are classified by our algorithms into one of three types: bullish (optimistic), bearish (pessimistic), and neutral (comprising either spam or mes- sages that are neither bullish nor bearish).</li><li>Five algorithms: Naive classifier, Vector distance classifies, Discriminant classifier, Adjective/Adverb Cl, Bayesian classifier;</li><li>Voting approach: a simple majority across five algorithms;</li></ul><p>Schematic of the Algorithms and System Design Used for Sentiment Extraction:<br><img src="/images/20171102_Yahoo.png" alt=""></p><h3 id="Data"><a href="#Data" class="headerlink" title="Data"></a>Data</h3><p>Our data comprises 24 tech-sector stocks, present in the Morgan Stanley High-Tech Index (MSH). These stocks were chosen so as to focus on the tech sec- tor, and also because their message boards showed a wide range of activity. For a period of two months, July and August 2001, we downloaded every message posted to these boards. This resulted in a total of 145,110 messages. These messages were farmed by a lengthy process of Web-scraping.</p><h3 id="Variables"><a href="#Variables" class="headerlink" title="Variables"></a>Variables</h3><p>We examine the statistical relationship of <strong>the stock series (MSH)</strong> to <strong>the sentiment series (SENTY)</strong>. We regress the aggregate sentiment level on lagged values of the stock index and sentiment. We also regress the stock index level on the same lagged values.</p><h4 id="The-regressions-in-levels"><a href="#The-regressions-in-levels" class="headerlink" title="The regressions in levels"></a>The regressions in levels</h4><p>The regressions in levels show that tech index is strongly related to its value on the previous day, and weakly related to the sentiment index value from the previous day at the 10% significance level.</p><h4 id="The-regressions-in-changes"><a href="#The-regressions-in-changes" class="headerlink" title="The regressions in changes"></a>The regressions in changes</h4><p>The regressions in changes show that the sentiment index on a given day is significantly related to its prior day&#x2019;s value, but not to that of the stock index.</p><h3 id="Conclusions"><a href="#Conclusions" class="headerlink" title="Conclusions"></a>Conclusions</h3><p>Whereas <strong>the sentiment index</strong> has expected contemporaneous relationships with various market variables, the disagreement measure we create evidences very little correlation to other variables. The overall evidence suggests that <strong>market activity is related to small investor sentiment and message board activity</strong>.</p><h3 id="Contributions"><a href="#Contributions" class="headerlink" title="Contributions"></a>Contributions</h3><p>We developed a methodology for extracting small investor sentiment from stock message boards. Five distinct classifier algorithms coupled by a voting scheme are evaluated using a range of metrics.</p><h2 id="Customers-as-advisors-The-role-of-social-media-in-financial-markets"><a href="#Customers-as-advisors-The-role-of-social-media-in-financial-markets" class="headerlink" title="Customers as advisors: The role of social media in financial markets"></a>Customers as advisors: The role of social media in financial markets</h2><p>Chen et al, 2013<sup><a href="#fn_3" id="reffn_3">3</a></sup> investigates the extent to which peer-based advice transmitted through social media affects the stock market.</p><h3 id="Theories-and-Models"><a href="#Theories-and-Models" class="headerlink" title="Theories and Models"></a>Theories and Models</h3><p>Frequency of negative words used in an article captures the tone of the report.</p><h3 id="Data-1"><a href="#Data-1" class="headerlink" title="Data"></a>Data</h3><p>The sample period spans from 2006 to 2010 and is determined by the availability of <a href="https://seekingalpha.com/" target="_blank" rel="external">Seeking Alpha(SA)</a> data:</p><ul><li>Text data: <a href="https://seekingalpha.com/" target="_blank" rel="external">Seeking Alpha (SA)</a> and <a href="https://www.wsj.com/" target="_blank" rel="external">Wall Street Journal (WSJ)</a> articles;</li><li>Financial-analyst data: the Institutional Brokers&#x2019; Estimate System (IBES) file;</li><li>Financial-statement and financial- market data: COMPUSTAT and the Center for Research in Security Prices (CRSP);</li><li>Institutional-holdings data: Thomson Financial;</li></ul><h3 id="Variables-1"><a href="#Variables-1" class="headerlink" title="Variables"></a>Variables</h3><p>Our observations are on a firm/trading-day level. Depending on the regression specification, we have between 30,212 and 30,255 observations.</p><h4 id="Dependent-variables"><a href="#Dependent-variables" class="headerlink" title="Dependent variables"></a>Dependent variables</h4><p>Measure of abnormal returns:</p><ul><li>one-day holding-period returns for day t and day t+1 (${ARet}_{i,t}$ and ${ARet}_{i,t+1}$, respectively)</li><li>two-day holding-period returns from day t to t+1 and day t+1 to t+2 (${ARet}_{i,t,t+1}$ and ${ARet}_{i,t+1,t+2}$, respectively)</li></ul><p>where t is the day on which the article appears on the SA website.</p><h4 id="Independent-variables"><a href="#Independent-variables" class="headerlink" title="Independent variables"></a>Independent variables</h4><ul><li>${NegSA}_{i,t}$, which is the average fraction of negative words across all articles published on SA about company i on day t;</li><li>${NegWSJ}_{i,t}$, which equals the average fraction of negative words across all WSJ articles about company i on day t (if there are any such articles and zero otherwise);</li><li>${DummyWSJ}_{i,t}$, which is an indicator variable denoting whether no WSJ article is written about company i on day t;</li><li>${Upgrade}_{i,t}$ and ${Downgrade}_{i,t}$, which are the number of analyst upgrades (downgrades) on company i on day t;</li><li>${PosES}_{i,t}$ and ${NegES}_{i,t}$, which are indicator variables denoting whether there is a positive (negative) earnings surprise for company i on day t;</li><li>$ln({Turnover}_{i,t})$, which is the natural logarithm of the average share turnover from thirty days to three days prior to day t;</li><li>${Volatility}_{i,t}$, which is the sum of the squared raw daily returns from thirty days to three days prior to day t;</li><li>${PastReturn}_{i,t}$, which is the cumulative abnormal return from thirty days to three days prior to day t.</li></ul><h3 id="Conclusions-1"><a href="#Conclusions-1" class="headerlink" title="Conclusions"></a>Conclusions</h3><ul><li>The opinions revealed on SA strongly associate with the corresponding companies&#x2019; stock returns, even after controlling for the effect of traditional advice sources,</li><li>The effect of peer-based advice on stock returns is stronger for articles that receive more attention and for companies held mostly by retail investors.</li></ul><h2 id="Social-media-and-firm-equity-value"><a href="#Social-media-and-firm-equity-value" class="headerlink" title="Social media and firm equity value"></a>Social media and firm equity value</h2><p>Luo et al, 2013<sup><a href="#fn_4" id="reffn_4">4</a></sup> scrutinizes the predictive relationships between social media and firm equity value, the relative effects of social media metrics compared with conventional online behavioral metrics, and the dynamics of these relationships.</p><h3 id="Theories-and-Models-1"><a href="#Theories-and-Models-1" class="headerlink" title="Theories and Models"></a>Theories and Models</h3><ol><li><p>Social Media as a Leading Indicator of Firm Equity Value:</p><ul><li>The <a href="https://en.wikipedia.org/wiki/Efficient-market_hypothesis" target="_blank" rel="external">efficient market hypothesis</a> and <a href="https://en.wikipedia.org/wiki/Information_asymmetry" target="_blank" rel="external">information asymmetry</a> in the stock market;</li><li>Social media metrics of ratings and blogs may represent credible WOM channels;</li><li>Investment in social media may help foster IT intangible assets of the firm;</li></ul></li><li><p>Social Media as a Stronger Indicator in Predicting Firm Equity Value Compared with Conventional Online Consumer Behavioral Metrics:</p><ul><li>Social media metrics tend to be more socially &#x201C;contagious&#x201D; than Web traffic and Internet searches;</li><li>Social media is more visible than conventional online media;</li><li>Social media metrics can denote a higher degree of customer engagement with the firm than do traffic and search metrics;</li></ul></li><li><p>Dynamics of the Predictive Value of Social Media:</p><ul><li>Information is transmitted and diffused through the wide reach of social media at the unparalleled speed;</li><li>Social media content can be voted on, linked, reproduced, broadcast, and spread more quickly, creating information richness and diffusion speed unmatched by conventional online behavioral metrics;</li></ul></li></ol><h3 id="Data-2"><a href="#Data-2" class="headerlink" title="Data"></a>Data</h3><p>The daily data of publicly traded firms in the computer hardware and software industries were collected from multiple sources (Alexa, CNET, Lexis/Nexus, Google search, CRSP, COMPUSTAT, and Yahoo Finance) during the period of August 1, 2007 to July 31, 2009.</p><h3 id="Variables-2"><a href="#Variables-2" class="headerlink" title="Variables"></a>Variables</h3><p>They employ a time-series technique, namely, <strong>VARX Model</strong>.</p><script type="math/tex; mode=display">\begin{pmatrix}{RTN}_{t} \\{RSK}_{t} \\{AVR}_{t} \\{NUR}_{t} \\{POS}_{t} \\{NEG}_{t} \\{PGV}_{t} \\{REC}_{t} \\{GSI}_{t} \\{GSV}_{t} \\\end{pmatrix}=\begin{pmatrix}{\alpha}_{1} + {\delta}_{1}t \\{\alpha}_{2} + {\delta}_{2}t \\{\alpha}_{3} + {\delta}_{3}t \\{\alpha}_{4} + {\delta}_{4}t \\{\alpha}_{5} + {\delta}_{5}t \\{\alpha}_{6} + {\delta}_{6}t \\{\alpha}_{7} + {\delta}_{7}t \\{\alpha}_{8} + {\delta}_{8}t \\{\alpha}_{9} + {\delta}_{9}t \\{\alpha}_{10} + {\delta}_{10}t \\\end{pmatrix}+\sum_{k=1}^{K} \begin{pmatrix}{\phi}_{1,1}^{k} \cdots {\phi}_{1,10}^{k} \\{\phi}_{2,1}^{k} \cdots {\phi}_{2,10}^{k} \\{\phi}_{3,1}^{k} \cdots {\phi}_{3,10}^{k} \\{\phi}_{4,1}^{k} \cdots {\phi}_{4,10}^{k} \\{\phi}_{5,1}^{k} \cdots {\phi}_{5,10}^{k} \\{\phi}_{6,1}^{k} \cdots {\phi}_{6,10}^{k} \\{\phi}_{7,1}^{k} \cdots {\phi}_{7,10}^{k} \\{\phi}_{8,1}^{k} \cdots {\phi}_{8,10}^{k} \\{\phi}_{9,1}^{k} \cdots {\phi}_{9,10}^{k} \\{\phi}_{10,1}^{k} \cdots {\phi}_{10,10}^{k} \\\end{pmatrix}\cdot\begin{pmatrix}{RTN}_{t-k} \\{RSK}_{t-k} \\{AVR}_{t-k} \\{NUR}_{t-k} \\{POS}_{t-k} \\{NEG}_{t-k} \\{PGV}_{t-k} \\{REC}_{t-k} \\{GSI}_{t-k} \\{GSV}_{t-k} \\\end{pmatrix}+\begin{pmatrix}{\tau}_{1,1}^{k} \cdots {\tau}_{1,11}^{k} \\{\tau}_{2,1}^{k} \cdots {\tau}_{2,11}^{k} \\{\tau}_{3,1}^{k} \cdots {\tau}_{3,11}^{k} \\{\tau}_{4,1}^{k} \cdots {\tau}_{4,11}^{k} \\{\tau}_{5,1}^{k} \cdots {\tau}_{5,11}^{k} \\{\tau}_{6,1}^{k} \cdots {\tau}_{6,11}^{k} \\{\tau}_{7,1}^{k} \cdots {\tau}_{7,11}^{k} \\{\tau}_{8,1}^{k} \cdots {\tau}_{8,11}^{k} \\{\tau}_{9,1}^{k} \cdots {\tau}_{9,11}^{k} \\{\tau}_{10,1}^{k} \cdots {\tau}_{10,11}^{k} \\\end{pmatrix}\cdot\begin{pmatrix}{x}_{1t} \\{x}_{2t} \\{x}_{3t} \\{x}_{4t} \\{x}_{5t} \\{x}_{6t} \\{x}_{7t} \\{x}_{8t} \\{x}_{9t} \\{x}_{10t} \\{x}_{11t} \\\end{pmatrix}+\begin{pmatrix}{\epsilon}_{1t} \\{\epsilon}_{2t} \\{\epsilon}_{3t} \\{\epsilon}_{4t} \\{\epsilon}_{5t} \\{\epsilon}_{6t} \\{\epsilon}_{7t} \\{\epsilon}_{8t} \\{\epsilon}_{9t} \\{\epsilon}_{10t} \\\end{pmatrix},</script><ul><li>$t$=time</li><li>${\alpha}_{i}$ (i = 1,2,&#x2026;,10) = constant</li><li>${\delta}_{i}$, ${phi}_{ij}^{k}$</li><li>${\tau}_{i,l}$ (i,j = 1,2,&#x2026;,10, l = 1,2,&#x2026;,11) = coefficients, K = lag length</li><li>$x_i$ (i = 1,2,&#x2026;,11) = an exogenous variable</li><li>${\epsilon}_{i}$ (i = 1,2,&#x2026;,10) = white-noise residual</li></ul><p>The lag order in VARX is selected by Schwartz&#x2019;s Bayesian information criterion (SIC) and final prediction error (FPE).</p><h4 id="Dependent-variables-1"><a href="#Dependent-variables-1" class="headerlink" title="Dependent variables:"></a>Dependent variables:</h4><ul><li>$RTN$ = firm return</li><li>$RSK$ = risk</li></ul><h4 id="Independent-variables-1"><a href="#Independent-variables-1" class="headerlink" title="Independent variables"></a>Independent variables</h4><ul><li>$AVR$ = rating level</li><li>$NUR$ = rating volume</li><li>$POS$ = number of positive blog posts</li><li>$NEG$ = number of negative blog posts</li><li>$PGV$ = page views per user</li><li>$REC$ = reach</li><li>$GSI$ = Google search intensity</li><li>$GSV$ = Google search instability,</li></ul><h3 id="Conclusions-2"><a href="#Conclusions-2" class="headerlink" title="Conclusions"></a>Conclusions</h3><ul><li>Social media-based metrics (Web blogs and consumer ratings) are significant leading indicators of firm equity value.</li><li>Conventional online behavioral metrics (Google searches and Web traffic) are found to have a significant yet substantially weaker predictive relationship with firm equity value than social media metrics.</li><li>Social media has a faster predictive value, i.e., shorter &#x201C;wear-in&#x201D; time, than conventional online media.</li></ul><h3 id="Contributions-1"><a href="#Contributions-1" class="headerlink" title="Contributions"></a>Contributions</h3><ul><li>Prior studies (e.g., Moe and Fader 2004, Chevalier and Mayzlin 2006, Dellarocas et al. 2007, Dhar and Chang 2009, Ghose and Yang 2009) examine the relationship between digital user metrics and product sales.</li><li>This study focuses on investigating the multiple sources of digital user metrics and the relative effects;</li><li>This study examines the enduring effects of social media.</li></ul><hr><blockquote id="fn_1"><sup>1</sup>. Chen, Hsinchun, Zimbra, David (2010). AI and opinion mining. IEEE Intelligent Systems, 25(3), 74&#x2014;80<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#x21A9;</a></blockquote><blockquote id="fn_2"><sup>2</sup>. Das, Sanjiv R, Chen, Mike Y (2007). Yahoo! for Amazon: Sentiment extraction from small talk on the web. Management science, 53(9), 1375&#x2014;1388<a href="#reffn_2" title="Jump back to footnote [2] in the text."> &#x21A9;</a></blockquote><blockquote id="fn_3"><sup>3</sup>. Chen, Hailiang, De, Prabuddha, Hu, Yu Jeffrey, Hwang, Byoung-Hyoun (2013). Customers as advisors: The role of social media in financial markets.<a href="#reffn_3" title="Jump back to footnote [3] in the text."> &#x21A9;</a></blockquote><blockquote id="fn_4"><sup>4</sup>. Luo, Xueming, Zhang, Jie, Duan, Wenjing (2013). Social media and firm equity value. Information Systems Research, 24(1), 146&#x2014;163<a href="#reffn_4" title="Jump back to footnote [4] in the text."> &#x21A9;</a></blockquote>]]></content>
     
@@ -274,19 +274,19 @@
     
       <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
     
+      <category term="finance" scheme="http://blog.baoduge.com/tags/finance/"/>
+    
       <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
     
       <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
-      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
-    
       <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
+    
+      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
       <category term="opinion_mining" scheme="http://blog.baoduge.com/tags/opinion-mining/"/>
     
       <category term="time_series" scheme="http://blog.baoduge.com/tags/time-series/"/>
-    
-      <category term="financial_market" scheme="http://blog.baoduge.com/tags/financial-market/"/>
     
   </entry>
   
@@ -314,13 +314,13 @@
     
       <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
-      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
-    
       <category term="user_generated_content" scheme="http://blog.baoduge.com/tags/user-generated-content/"/>
     
       <category term="word_of_mouth" scheme="http://blog.baoduge.com/tags/word-of-mouth/"/>
     
       <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
+    
+      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
   </entry>
   
@@ -626,6 +626,8 @@
     
       <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
     
+      <category term="deep_learning" scheme="http://blog.baoduge.com/tags/deep-learning/"/>
+    
       <category term="statistics" scheme="http://blog.baoduge.com/tags/statistics/"/>
     
       <category term="mathematics" scheme="http://blog.baoduge.com/tags/mathematics/"/>
@@ -637,8 +639,6 @@
       <category term="economics" scheme="http://blog.baoduge.com/tags/economics/"/>
     
       <category term="finance" scheme="http://blog.baoduge.com/tags/finance/"/>
-    
-      <category term="deep_learning" scheme="http://blog.baoduge.com/tags/deep-learning/"/>
     
       <category term="natural_language_processing" scheme="http://blog.baoduge.com/tags/natural-language-processing/"/>
     
