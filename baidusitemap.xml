@@ -40,13 +40,13 @@
         
         <tag>information_system</tag>
          
-        <tag>statistics</tag>
-         
-        <tag>mathematics</tag>
+        <tag>machine_learning</tag>
          
         <tag>github</tag>
          
-        <tag>machine_learning</tag>
+        <tag>statistics</tag>
+         
+        <tag>mathematics</tag>
          
         <tag>artificial_intelligence</tag>
          
@@ -134,8 +134,6 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
-        <tag>r_language</tag>
-         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
@@ -145,6 +143,8 @@
         <tag>fortran</tag>
          
         <tag>python</tag>
+         
+        <tag>r_language</tag>
          
         <tag>mathematica</tag>
          
@@ -168,7 +168,7 @@
         
         <tag>information_system</tag>
          
-        <tag>machine_learning</tag>
+        <tag>notes</tag>
          
         <tag>study</tag>
          
@@ -180,7 +180,7 @@
          
         <tag>hexo</tag>
          
-        <tag>notes</tag>
+        <tag>machine_learning</tag>
          
          
            
@@ -488,11 +488,11 @@
         <title>Can online scoring really reflects the rankings of products?</title>
         <pubTime>2017-10-29T16:00:00.000Z</pubTime>
         
-        <tag>economics</tag>
+        <tag>notes</tag>
          
         <tag>research</tag>
          
-        <tag>notes</tag>
+        <tag>economics</tag>
          
         <tag>online_scoring</tag>
          
@@ -607,11 +607,11 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>github</tag>
-         
         <tag>hexo</tag>
          
         <tag>tutorial</tag>
+         
+        <tag>github</tag>
          
          
            
