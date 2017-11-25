@@ -8,11 +8,11 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>research</tag>
         <tag>image</tag>
+        <tag>research</tag>
         <tag>sentiment_analysis</tag>
-        <tag>literature_review</tag>
         <tag>mathjax</tag>
+        <tag>literature_review</tag>
         <tag>cluster</tag>
         <tag>logit_regression</tag>
       </tags>
@@ -46,13 +46,13 @@
       <tags>
         <tag>image</tag>
         <tag>r_language</tag>
-        <tag>mathjax</tag>
         <tag>nonlinear_equations</tag>
         <tag>numerical_analysis</tag>
         <tag>matlab</tag>
         <tag>fortran</tag>
         <tag>python</tag>
         <tag>mathematica</tag>
+        <tag>mathjax</tag>
         <tag>faicon</tag>
       </tags>
   </entry>
@@ -90,9 +90,9 @@
         <category>中文</category>
       </categories>
       <tags>
-        <tag>notes</tag>
         <tag>markdown_table</tag>
         <tag>image</tag>
+        <tag>notes</tag>
         <tag>reputation_system</tag>
         <tag>variable_type</tag>
         <tag>data_type</tag>
@@ -106,11 +106,11 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>research</tag>
         <tag>image</tag>
+        <tag>research</tag>
         <tag>sentiment_analysis</tag>
-        <tag>literature_review</tag>
         <tag>mathjax</tag>
+        <tag>literature_review</tag>
         <tag>opinion_mining</tag>
         <tag>feature_engineering</tag>
         <tag>brand_marketing</tag>
@@ -126,12 +126,12 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>research</tag>
         <tag>information_system</tag>
         <tag>image</tag>
+        <tag>research</tag>
         <tag>sentiment_analysis</tag>
-        <tag>literature_review</tag>
         <tag>mathjax</tag>
+        <tag>literature_review</tag>
         <tag>opinion_mining</tag>
         <tag>time_series</tag>
         <tag>financial_market</tag>
@@ -145,13 +145,13 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>research</tag>
         <tag>information_system</tag>
+        <tag>research</tag>
         <tag>sentiment_analysis</tag>
+        <tag>mathjax</tag>
         <tag>user_generated_content</tag>
         <tag>word_of_mouth</tag>
         <tag>literature_review</tag>
-        <tag>mathjax</tag>
       </tags>
   </entry>
   <entry>
@@ -159,9 +159,9 @@
     <url>%2Fexpectation_on_online%20scoring%2F</url>
     <content type="text"><![CDATA[Problem descriptionThere are lots of scenarios that we need to do evaluations, for example, online scoring of movies on IMDB or products on Amazon.com. Via the the online scoring, customers can easily judge which items they would like to choose. However, can this online score really reflect the rankings of quality of homogeneous products? We find that sometimes our expectations can have influences on our satisfaction of the items. And products with high expectations sometimes are more difficult to generate same level of satisfaction as production with low expectations. (Expectation and Satisfaction are subjective for each individual.) ExampleTake the scenario of E-commerce as an example. Expectations for buyers can be based on: the historical performance of sellers (such as sales); the reputation of sellers the historical performance and reputation of peers (Same business categories with similar product types); the price displayed; Based on these factors, customers might build their subjective expectations on the qualities of the products. Thus, the online scoring of the product might be based on the satisfaction which is the result of difference between expectation and true experience. NotationsThere are $n = 2$ sellers who sell the homogeneous products and $m$ buyers. $E_{ij}$ denotes the expectation of buyer $j$ for seller $i$, where $i=\{L,H\}$. We know that $E_{Lj} &lt; E_{Hj}$. There exist a space of real values of quality for products, $Q$. And the real value of quality for product sold by seller $i$ is $q_{i} \in Q$.We assume $q_{H} &lt; q_{L}$. (Why?) There are two stages: Pre-purchase and Post-purchase. Buyer $j$ generate $E_{ij}$ for seller $i$ after checking the information about seller $i$ and its product in the pre-purchase stage. Then after true experience of product, buyer $j$ generate the satisfaction $S_{ij}$ and online scoring $R_{ij}$ for seller i in the post-purchase stage. Satisfaction of buyer $j$ for seller $i$ is $S_{ij}$, which is the result of inconsistence between quality $q_{i}$ and expectation $E_{ij}$. We denoted it by $S_{ij} = f(q_{i} - E_{ij})$. The online score of buyer $j$ for seller $i$ is $R_{ij}$, which is the result of satisfaction $S_{ij}$ denoted by $R_{ij} = f_{S}(S_{ij})=f_{R}(q_{i} - E_{ij})$. Assume that $f_{R}$ is a monotonically increasing function. (Why? There are two assumptions: $R_{ij}$ is positive correlated to quality $q_i$; $R_{ij}$ is negative correlated to expectation $E_{ij}$;) However, it seems to be possible that $q_H-E_{Hj} &lt; q_L-E_{Lj}$ because of greater effect of $E_{Hj} &gt; E_{Lj}$, which would result in $R_{Hj} &lt; R_{Lj}$ for buyer $j$. ExplanationDoes this phenomena exist? In my opinion, this phenomena really exist. Make it more sensible, I use movie as example (Logics is same), before we watch a Chinese low-cost film, we have lower expectation than high-cost Hollywood films. Thus as long as the Chinese low-cost film has a little bit attractive highlights, we would give it a high evaluation, which might be higher than the high-cost Hollywood films. If so, how to explain it? My explanation is: sometimes our expectation is not only based on quality of items but also the peers&#x2019; performance and reputations. Even though, buyers would buy product which maximize the expected utility function value. Some uninformative or irrational buyers would still choose products with low reputation and low price. However, online review is short-time reflection on the product and might not present some perspectives of the product, such as durability. FutureWhen calculate the integrated score of sellers, we need take into consideration of peers performance and reputation. (Cluster) The expectation might be measurable via online sentiment analysis. Hope this is a good research idea.]]></content>
       <tags>
-        <tag>research</tag>
-        <tag>notes</tag>
         <tag>economics</tag>
+        <tag>notes</tag>
+        <tag>research</tag>
         <tag>mathjax</tag>
         <tag>online_scoring</tag>
         <tag>modeling</tag>
@@ -187,10 +187,10 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>research</tag>
         <tag>information_system</tag>
         <tag>markdown_table</tag>
         <tag>image</tag>
+        <tag>research</tag>
       </tags>
   </entry>
   <entry>
@@ -275,14 +275,14 @@
         <category>中文</category>
       </categories>
       <tags>
+        <tag>information_system</tag>
+        <tag>machine_learning</tag>
+        <tag>notes</tag>
         <tag>study</tag>
         <tag>research</tag>
         <tag>blog</tag>
         <tag>logs</tag>
         <tag>hexo</tag>
-        <tag>notes</tag>
-        <tag>information_system</tag>
-        <tag>machine_learning</tag>
       </tags>
   </entry>
   <entry>
@@ -294,10 +294,10 @@
       </categories>
       <tags>
         <tag>information_system</tag>
-        <tag>machine_learning</tag>
         <tag>statistics</tag>
         <tag>mathematics</tag>
         <tag>github</tag>
+        <tag>machine_learning</tag>
         <tag>artificial_intelligence</tag>
         <tag>economics</tag>
         <tag>finance</tag>
@@ -308,6 +308,18 @@
         <tag>markdown_table</tag>
         <tag>span_id_anchor</tag>
         <tag>image</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[区块链现状]]></title>
+    <url>%2Fcurrent_blockchain%2F</url>
+    <content type="text"><![CDATA[&#x6211;&#x5728;&#x4E4B;&#x524D;&#x7684;&#x6587;&#x7AE0;&#x300A;&#x533A;&#x5757;&#x94FE;&#x521D;&#x63A2;-&#x7EFC;&#x8FF0;&#x300B;&#x4E2D;&#x6709;&#x6709;&#x8FC7;&#x5BF9;&#x533A;&#x5757;&#x94FE;&#x7684;&#x4E00;&#x4E9B;&#x63A2;&#x7A76;&#x3002; &#x533A;&#x5757;&#x94FE;&#x6838;&#x5FC3;&#x6280;&#x672F;&#x533A;&#x5757;&#x94FE;&#x662F;&#x6307;&#x4E00;&#x79CD;&#x6309;&#x7167;&#x65F6;&#x95F4;&#x987A;&#x5E8F;&#x5C06;&#x6570;&#x636E;&#x533A;&#x5757;&#x4EE5;&#x987A;&#x5E8F;&#x76F8;&#x8FDE;&#x7684;&#x65B9;&#x5F0F;&#x7EC4;&#x5408;&#x6210;&#x7684;&#x4E00;&#x79CD;&#x94FE;&#x5F0F;&#x6570;&#x636E;&#x7ED3;&#x6784;,&#x5E76;&#x4EE5;&#x5BC6;&#x7801;&#x5B66;&#x65B9;&#x5F0F;&#x4FDD;&#x8BC1;&#x4E0D;&#x53EF;&#x7BE1;&#x6539;&#x548C;&#x4E0D;&#x53EF;&#x4F2A;&#x9020;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x8D26;&#x672C;&#x3002;&#x4ECE;&#x672C;&#x8D28;&#x4E0A;&#x6765;&#x8BF4;,&#x533A;&#x5757;&#x94FE;&#x662F;&#x4E00;&#x79CD;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;,&#x53BB;&#x4FE1;&#x4EFB;&#x7684;&#x96C6;&#x4F53;&#x7EF4;&#x62A4;&#x6570;&#x636E;&#x5E93;&#x6280;&#x672F;&#x3002; &#x533A;&#x5757;&#x94FE;&#x6570;&#x636E;&#x5E93; &#x201C;&#x533A;&#x5757;+&#x94FE;&#x201D;&#x7684;&#x7ED3;&#x6784;&#x4E3A;&#x6211;&#x4EEC;&#x63D0;&#x4F9B;&#x4E86;&#x5B8C;&#x6574;&#x7684;&#x5386;&#x53F2;&#x6570;&#x636E;,&#x4F7F;&#x5F97;&#x6570;&#x636E;&#x5E93;&#x5185;&#x7684;&#x6BCF;&#x4E00;&#x7B14;&#x4EA4;&#x6613;&#x90FD;&#x80FD;&#x8FFD;&#x672C;&#x6EAF;&#x6E90;&#x3002; &#x201C;&#x533A;&#x5757;+&#x94FE;+&#x65F6;&#x95F4;&#x6233;&#x201D;&#x8BA9;&#x5B58;&#x5728;&#x6027;&#x8BC1;&#x660E;&#x53D8;&#x5F97;&#x7B80;&#x5355;&#x53EF;&#x9760;&#x3002; &#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;&#x548C;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x534F;&#x8BAE;&#x901A;&#x8FC7;&#x8BA9;&#x6BCF;&#x4E00;&#x4E2A;&#x53C2;&#x4E0E;&#x6570;&#x636E;&#x4EA4;&#x6613;&#x7684;&#x8282;&#x70B9;&#x8BB0;&#x5F55;&#x5E76;&#x50A8;&#x5B58;&#x6240;&#x6709;&#x6570;&#x636E;,&#x8FD9;&#x4F7F;&#x5F97;&#x90E8;&#x5206;&#x8282;&#x70B9;&#x7684;&#x635F;&#x574F;,&#x5E76;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x5230;&#x6574;&#x4E2A;&#x6570;&#x636E;&#x5E93;&#x7684;&#x6570;&#x636E;&#x8BB0;&#x5F55;&#x4E0E;&#x66F4;&#x65B0;,&#x5927;&#x5927;&#x63D0;&#x9AD8;&#x4E86;&#x6570;&#x636E;&#x5E93;&#x7684;&#x5B89;&#x5168;&#x6027;&#x3002;&#x53EA;&#x8981;&#x4E0D;&#x662F;&#x6240;&#x6709;&#x8282;&#x70B9;&#x540C;&#x65F6;&#x5D29;&#x6E83;,&#x6570;&#x636E;&#x5E93;&#x5C31;&#x53EF;&#x4EE5;&#x8FD0;&#x8F6C;&#x4E0B;&#x53BB;,&#x56E0;&#x6B64;&#x63D0;&#x9AD8;&#x4E86;&#x7CFB;&#x7EDF;&#x7684;&#x6C38;&#x7EED;&#x6027;&#x548C;&#x53EF;&#x5BB9;&#x9519;&#x6027;&#x3002; &#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x7801;&#x5B66;&#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x7801;&#x5B66;&#x8BA9;&#x533A;&#x5757;&#x94FE; &#x6280;&#x672F;&#x7684;&#x4FE1;&#x4EFB;&#x673A;&#x5236;&#x5EFA;&#x8BAE;&#x5728;&#x6570;&#x5B66;&#x539F;&#x7406;&#x57FA;&#x7840;&#x4E4B;&#x4E0A;&#x3002;&#x8FD9;&#x4F7F;&#x5F97;&#x4EBA;&#x4EEC;&#x65E0;&#x9700;&#x4E86;&#x89E3;&#x5BF9;&#x65B9;&#x7684;&#x57FA;&#x672C;&#x60C5;&#x51B5;&#x4ECD;&#x7136;&#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x4FE1;&#x4EFB;&#x7684;&#x4EF7;&#x503C;&#x4EA4;&#x6362;,&#x4ECE;&#x800C;&#x63D0;&#x9AD8;&#x4E86;&#x7CFB;&#x7EDF;&#x7684;&#x8FD0;&#x8425;&#x6548;&#x7387;&#x3002; &#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;&#x811A;&#x672C;&#x811A;&#x672C;&#x672C;&#x8D28;&#x662F;&#x4F17;&#x591A;&#x6307;&#x4EE4;&#x7684;&#x5217;&#x8868;&#x3002;&#x5728;&#x533A;&#x5757;&#x94FE;&#x4E2D;,&#x811A;&#x672C;&#x901A;&#x5E38;&#x9700;&#x8981;&#x4EF7;&#x503C;&#x63A5;&#x6536;&#x8005;&#x5177;&#x6709;&#x516C;&#x94A5;&#x548C;&#x7B7E;&#x540D;&#x3002;&#x968F;&#x7740;&#x5177;&#x4F53;&#x60C5;&#x5F62;&#x8981;&#x6C42;,&#x811A;&#x672C;&#x53EF;&#x4EE5;&#x7075;&#x6D3B;&#x53D8;&#x901A;&#x751F;&#x6210;&#x5176;&#x4ED6;&#x8FD0;&#x884C;&#x6761;&#x4EF6;,&#x4F8B;&#x5982;&#x9700;&#x8981;&#x591A;&#x91CD;&#x79C1;&#x94A5;&#x7B49;&#x7B49;&#x3002;&#x8FD9;&#x8BA9;&#x533A;&#x5757;&#x94FE;&#x6280;&#x672F;&#x53EF;&#x4EE5;&#x5904;&#x7406;&#x4E00;&#x4E9B;&#x65E0;&#x6CD5;&#x9884;&#x89C1;&#x7684;&#x4EA4;&#x6613;&#x6A21;&#x5F0F;,&#x4E0D;&#x4F1A;&#x5728;&#x672A;&#x6765;&#x7684;&#x5E94;&#x7528;&#x4E2D;&#x8FC7;&#x65F6;&#x3002; &#x533A;&#x5757;&#x94FE;&#x6F5C;&#x5728;&#x5E94;&#x7528;&#x65B9;&#x5411;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;&#x53EF;&#x4EE5;&#x8282;&#x7EA6;&#x5927;&#x91CF;&#x7684;&#x4E2D;&#x4ECB;&#x6210;&#x672C; &#x4E0D;&#x53EF;&#x7BE1;&#x6539;&#x7684;&#x65F6;&#x95F4;&#x6233;&#x53EF;&#x4EE5;&#x89E3;&#x51B3;&#x6570;&#x636E;&#x8FFD;&#x8E2A;&#x4E0E;&#x4FE1;&#x606F;&#x9632;&#x4F2A;&#x95EE;&#x9898; &#x5B89;&#x5168;&#x7684;&#x4FE1;&#x4EFB;&#x673A;&#x5236;&#x53EF;&#x4EE5;&#x89E3;&#x51B3;&#x73B0;&#x4ECA;&#x7269;&#x8054;&#x7F51;&#x7684;&#x6838;&#x5FC3;&#x7F3A;&#x9677; &#x7075;&#x6D3B;&#x7684;&#x53EF;&#x7F16;&#x7A0B;&#x6027;&#x53EF;&#x4EE5;&#x6709;&#x6548;&#x5E2E;&#x52A9;&#x89C4;&#x8303;&#x5E02;&#x573A;&#x79E9;&#x5E8F; &#x533A;&#x5757;&#x94FE;&#x6F14;&#x5316;&#x9636;&#x6BB5;&#x533A;&#x5757;&#x94FE;1.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x6570;&#x5B57;&#x5316;&#x8D27;&#x5E01;&#x4E3B;&#x8981;&#x901A;&#x8FC7;&#x5206;&#x5E03;&#x5F0F;&#x8D26;&#x672C;&#x7684;&#x52A0;&#x5BC6;&#x6280;&#x672F;,&#x5EFA;&#x7ACB;&#x4E86;&#x6570;&#x5B57;&#x8D27;&#x5E01;&#x7684;&#x53D1;&#x884C;&#x3001;&#x5206;&#x914D;&#x3001;&#x5E01;&#x503C;&#x8C03;&#x8282;&#x7B49;&#x673A;&#x5236;&#x3002;&#x4F17;&#x6240;&#x5468;&#x77E5;&#x7684;&#x6BD4;&#x7279;&#x5E01;,&#x4FBF;&#x53EF;&#x89C6;&#x4E3A;&#x533A;&#x5757;&#x94FE;&#x7684;&#x9996;&#x4E2A;&#x5728;&#x91D1;&#x878D;&#x652F;&#x4ED8;&#x9886;&#x57DF;&#x4E2D;&#x7684;&#x5E94;&#x7528;&#x3002; &#x533A;&#x5757;&#x94FE;2.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;2015&#x5E74;10&#x6708;,&#x4EE5;&#x592A;&#x574A;&#x7684;&#x521B;&#x59CB;&#x4EBA;Vitalik Buterin&#x53D1;&#x8868;&#x4E86;&#x9898;&#x4E3A;&#x300A;Visions, Part 1: The Value of Blockchain Technology&#x300B;&#x4E3B;&#x9898;&#x6F14;&#x8BB2;&#x4E2D;,&#x533A;&#x5757;&#x94FE;&#x88AB;&#x8D4B;&#x4E88;&#x4E86;&#x65B0;&#x7684;&#x542B;&#x4E49;&#x3002;&#x533A;&#x5757;&#x94FE;&#x662F;&#x4EFB;&#x4F55;&#x4EBA;&#x90FD;&#x53EF;&#x4EE5;&#x4E0A;&#x4F20;&#x7A0B;&#x5E8F;&#x5E76;&#x4F7F;&#x7A0B;&#x5E8F;&#x81EA;&#x5DF1;&#x6267;&#x884C;&#x7684;&#x8F7D;&#x4F53;,&#x5E76;&#x4E14;&#x533A;&#x5757;&#x94FE;&#x901A;&#x8FC7;&#x81EA;&#x6211;&#x9650;&#x5236;&#x548C;&#x5B89;&#x5168;&#x52A0;&#x5BC6;,&#x786E;&#x4FDD;&#x4E86;&#x4E0A;&#x4F20;&#x7684;&#x7A0B;&#x5E8F;&#x80FD;&#x591F;&#x53EF;&#x4FE1;&#x5730;&#x81EA;&#x52A8;&#x6267;&#x884C;&#x9884;&#x8BBE;&#x7684;&#x903B;&#x8F91;&#x3002; &#x533A;&#x5757;&#x94FE;3.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x793E;&#x4F1A;&#x6CBB;&#x7406;&#x7531;&#x4E8E;&#x8BE5;&#x6280;&#x672F;&#x5177;&#x6709;&#x8D85;&#x8D8A;&#x8D27;&#x5E01;&#x7684;&#x516C;&#x6B63;&#x7279;&#x6027;,&#x8BE5;&#x6280;&#x672F;&#x53EF;&#x4EE5;&#x88AB;&#x5E7F;&#x6CDB;&#x5E94;&#x7528;&#x5728;&#x53F8;&#x6CD5;&#x4EF2;&#x88C1;,&#x8EAB;&#x4EFD;&#x8BA4;&#x8BC1;&#x7B49;&#x9886;&#x57DF;&#x3002;&#x4ECE;&#x957F;&#x8FDC;&#x6765;&#x770B;,&#x533A;&#x5757;&#x94FE;&#x7684;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x6A21;&#x5F0F;,&#x5C06;&#x901A;&#x8FC7;&#x66F4;&#x597D;&#x7684;&#x534F;&#x4F5C;&#x4E0E;&#x6CBB;&#x7406;,&#x6765;&#x91CD;&#x5851;&#x6574;&#x4E2A;&#x4EBA;&#x7C7B;&#x793E;&#x4F1A;&#x6D3B;&#x52A8;&#x3002;&#x867D;&#x7136;&#x73B0;&#x5982;&#x4ECA;&#x56FD;&#x5185;&#x5916;&#x5BF9;&#x4E8E;&#x533A;&#x5757;&#x94FE;&#x6280;&#x672F;&#x7684;&#x6295;&#x5165;&#x4F7F;&#x7528;&#x90FD;&#x5DF2;&#x7ECF;&#x9010;&#x6E10;&#x5C55;&#x5F00;,&#x4F46;&#x76EE;&#x524D;&#x5C1A;&#x672A;&#x6709;&#x5B8C;&#x5168;&#x843D;&#x5730;&#x7684;&#x5E94;&#x7528;&#x6027;&#x6210;&#x679C;&#x3002;&#x56E0;&#x6B64;,&#x533A;&#x5757;&#x94FE;&#x6280;&#x672F;&#x76EE;&#x524D;&#x4ECD;&#x7136;&#x5904;&#x4E8E;&#x7406;&#x8BBA;&#x9636;&#x6BB5;,&#x4ECA;&#x540E;&#x7684;&#x6280;&#x672F;&#x8F6C;&#x6362;&#x5C1A;&#x9700;&#x4E00;&#x6BB5;&#x5F88;&#x957F;&#x65F6;&#x95F4;&#x7684;&#x5B9E;&#x8DF5;&#x3002;]]></content>
+      <categories>
+        <category>中文</category>
+      </categories>
+      <tags>
+        <tag>bloackchain</tag>
+        <tag>font</tag>
       </tags>
   </entry>
   <entry>
@@ -324,18 +336,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[区块链现状]]></title>
-    <url>%2Fcurrent_blockchain%2F</url>
-    <content type="text"><![CDATA[&#x6211;&#x5728;&#x4E4B;&#x524D;&#x7684;&#x6587;&#x7AE0;&#x300A;&#x533A;&#x5757;&#x94FE;&#x521D;&#x63A2;-&#x7EFC;&#x8FF0;&#x300B;&#x4E2D;&#x6709;&#x6709;&#x8FC7;&#x5BF9;&#x533A;&#x5757;&#x94FE;&#x7684;&#x4E00;&#x4E9B;&#x63A2;&#x7A76;&#x3002; &#x533A;&#x5757;&#x94FE;&#x6838;&#x5FC3;&#x6280;&#x672F;&#x533A;&#x5757;&#x94FE;&#x662F;&#x6307;&#x4E00;&#x79CD;&#x6309;&#x7167;&#x65F6;&#x95F4;&#x987A;&#x5E8F;&#x5C06;&#x6570;&#x636E;&#x533A;&#x5757;&#x4EE5;&#x987A;&#x5E8F;&#x76F8;&#x8FDE;&#x7684;&#x65B9;&#x5F0F;&#x7EC4;&#x5408;&#x6210;&#x7684;&#x4E00;&#x79CD;&#x94FE;&#x5F0F;&#x6570;&#x636E;&#x7ED3;&#x6784;,&#x5E76;&#x4EE5;&#x5BC6;&#x7801;&#x5B66;&#x65B9;&#x5F0F;&#x4FDD;&#x8BC1;&#x4E0D;&#x53EF;&#x7BE1;&#x6539;&#x548C;&#x4E0D;&#x53EF;&#x4F2A;&#x9020;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x8D26;&#x672C;&#x3002;&#x4ECE;&#x672C;&#x8D28;&#x4E0A;&#x6765;&#x8BF4;,&#x533A;&#x5757;&#x94FE;&#x662F;&#x4E00;&#x79CD;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;,&#x53BB;&#x4FE1;&#x4EFB;&#x7684;&#x96C6;&#x4F53;&#x7EF4;&#x62A4;&#x6570;&#x636E;&#x5E93;&#x6280;&#x672F;&#x3002; &#x533A;&#x5757;&#x94FE;&#x6570;&#x636E;&#x5E93; &#x201C;&#x533A;&#x5757;+&#x94FE;&#x201D;&#x7684;&#x7ED3;&#x6784;&#x4E3A;&#x6211;&#x4EEC;&#x63D0;&#x4F9B;&#x4E86;&#x5B8C;&#x6574;&#x7684;&#x5386;&#x53F2;&#x6570;&#x636E;,&#x4F7F;&#x5F97;&#x6570;&#x636E;&#x5E93;&#x5185;&#x7684;&#x6BCF;&#x4E00;&#x7B14;&#x4EA4;&#x6613;&#x90FD;&#x80FD;&#x8FFD;&#x672C;&#x6EAF;&#x6E90;&#x3002; &#x201C;&#x533A;&#x5757;+&#x94FE;+&#x65F6;&#x95F4;&#x6233;&#x201D;&#x8BA9;&#x5B58;&#x5728;&#x6027;&#x8BC1;&#x660E;&#x53D8;&#x5F97;&#x7B80;&#x5355;&#x53EF;&#x9760;&#x3002; &#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;&#x548C;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x534F;&#x8BAE;&#x901A;&#x8FC7;&#x8BA9;&#x6BCF;&#x4E00;&#x4E2A;&#x53C2;&#x4E0E;&#x6570;&#x636E;&#x4EA4;&#x6613;&#x7684;&#x8282;&#x70B9;&#x8BB0;&#x5F55;&#x5E76;&#x50A8;&#x5B58;&#x6240;&#x6709;&#x6570;&#x636E;,&#x8FD9;&#x4F7F;&#x5F97;&#x90E8;&#x5206;&#x8282;&#x70B9;&#x7684;&#x635F;&#x574F;,&#x5E76;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x5230;&#x6574;&#x4E2A;&#x6570;&#x636E;&#x5E93;&#x7684;&#x6570;&#x636E;&#x8BB0;&#x5F55;&#x4E0E;&#x66F4;&#x65B0;,&#x5927;&#x5927;&#x63D0;&#x9AD8;&#x4E86;&#x6570;&#x636E;&#x5E93;&#x7684;&#x5B89;&#x5168;&#x6027;&#x3002;&#x53EA;&#x8981;&#x4E0D;&#x662F;&#x6240;&#x6709;&#x8282;&#x70B9;&#x540C;&#x65F6;&#x5D29;&#x6E83;,&#x6570;&#x636E;&#x5E93;&#x5C31;&#x53EF;&#x4EE5;&#x8FD0;&#x8F6C;&#x4E0B;&#x53BB;,&#x56E0;&#x6B64;&#x63D0;&#x9AD8;&#x4E86;&#x7CFB;&#x7EDF;&#x7684;&#x6C38;&#x7EED;&#x6027;&#x548C;&#x53EF;&#x5BB9;&#x9519;&#x6027;&#x3002; &#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x7801;&#x5B66;&#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x7801;&#x5B66;&#x8BA9;&#x533A;&#x5757;&#x94FE; &#x6280;&#x672F;&#x7684;&#x4FE1;&#x4EFB;&#x673A;&#x5236;&#x5EFA;&#x8BAE;&#x5728;&#x6570;&#x5B66;&#x539F;&#x7406;&#x57FA;&#x7840;&#x4E4B;&#x4E0A;&#x3002;&#x8FD9;&#x4F7F;&#x5F97;&#x4EBA;&#x4EEC;&#x65E0;&#x9700;&#x4E86;&#x89E3;&#x5BF9;&#x65B9;&#x7684;&#x57FA;&#x672C;&#x60C5;&#x51B5;&#x4ECD;&#x7136;&#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x4FE1;&#x4EFB;&#x7684;&#x4EF7;&#x503C;&#x4EA4;&#x6362;,&#x4ECE;&#x800C;&#x63D0;&#x9AD8;&#x4E86;&#x7CFB;&#x7EDF;&#x7684;&#x8FD0;&#x8425;&#x6548;&#x7387;&#x3002; &#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;&#x811A;&#x672C;&#x811A;&#x672C;&#x672C;&#x8D28;&#x662F;&#x4F17;&#x591A;&#x6307;&#x4EE4;&#x7684;&#x5217;&#x8868;&#x3002;&#x5728;&#x533A;&#x5757;&#x94FE;&#x4E2D;,&#x811A;&#x672C;&#x901A;&#x5E38;&#x9700;&#x8981;&#x4EF7;&#x503C;&#x63A5;&#x6536;&#x8005;&#x5177;&#x6709;&#x516C;&#x94A5;&#x548C;&#x7B7E;&#x540D;&#x3002;&#x968F;&#x7740;&#x5177;&#x4F53;&#x60C5;&#x5F62;&#x8981;&#x6C42;,&#x811A;&#x672C;&#x53EF;&#x4EE5;&#x7075;&#x6D3B;&#x53D8;&#x901A;&#x751F;&#x6210;&#x5176;&#x4ED6;&#x8FD0;&#x884C;&#x6761;&#x4EF6;,&#x4F8B;&#x5982;&#x9700;&#x8981;&#x591A;&#x91CD;&#x79C1;&#x94A5;&#x7B49;&#x7B49;&#x3002;&#x8FD9;&#x8BA9;&#x533A;&#x5757;&#x94FE;&#x6280;&#x672F;&#x53EF;&#x4EE5;&#x5904;&#x7406;&#x4E00;&#x4E9B;&#x65E0;&#x6CD5;&#x9884;&#x89C1;&#x7684;&#x4EA4;&#x6613;&#x6A21;&#x5F0F;,&#x4E0D;&#x4F1A;&#x5728;&#x672A;&#x6765;&#x7684;&#x5E94;&#x7528;&#x4E2D;&#x8FC7;&#x65F6;&#x3002; &#x533A;&#x5757;&#x94FE;&#x6F5C;&#x5728;&#x5E94;&#x7528;&#x65B9;&#x5411;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;&#x53EF;&#x4EE5;&#x8282;&#x7EA6;&#x5927;&#x91CF;&#x7684;&#x4E2D;&#x4ECB;&#x6210;&#x672C; &#x4E0D;&#x53EF;&#x7BE1;&#x6539;&#x7684;&#x65F6;&#x95F4;&#x6233;&#x53EF;&#x4EE5;&#x89E3;&#x51B3;&#x6570;&#x636E;&#x8FFD;&#x8E2A;&#x4E0E;&#x4FE1;&#x606F;&#x9632;&#x4F2A;&#x95EE;&#x9898; &#x5B89;&#x5168;&#x7684;&#x4FE1;&#x4EFB;&#x673A;&#x5236;&#x53EF;&#x4EE5;&#x89E3;&#x51B3;&#x73B0;&#x4ECA;&#x7269;&#x8054;&#x7F51;&#x7684;&#x6838;&#x5FC3;&#x7F3A;&#x9677; &#x7075;&#x6D3B;&#x7684;&#x53EF;&#x7F16;&#x7A0B;&#x6027;&#x53EF;&#x4EE5;&#x6709;&#x6548;&#x5E2E;&#x52A9;&#x89C4;&#x8303;&#x5E02;&#x573A;&#x79E9;&#x5E8F; &#x533A;&#x5757;&#x94FE;&#x6F14;&#x5316;&#x9636;&#x6BB5;&#x533A;&#x5757;&#x94FE;1.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x6570;&#x5B57;&#x5316;&#x8D27;&#x5E01;&#x4E3B;&#x8981;&#x901A;&#x8FC7;&#x5206;&#x5E03;&#x5F0F;&#x8D26;&#x672C;&#x7684;&#x52A0;&#x5BC6;&#x6280;&#x672F;,&#x5EFA;&#x7ACB;&#x4E86;&#x6570;&#x5B57;&#x8D27;&#x5E01;&#x7684;&#x53D1;&#x884C;&#x3001;&#x5206;&#x914D;&#x3001;&#x5E01;&#x503C;&#x8C03;&#x8282;&#x7B49;&#x673A;&#x5236;&#x3002;&#x4F17;&#x6240;&#x5468;&#x77E5;&#x7684;&#x6BD4;&#x7279;&#x5E01;,&#x4FBF;&#x53EF;&#x89C6;&#x4E3A;&#x533A;&#x5757;&#x94FE;&#x7684;&#x9996;&#x4E2A;&#x5728;&#x91D1;&#x878D;&#x652F;&#x4ED8;&#x9886;&#x57DF;&#x4E2D;&#x7684;&#x5E94;&#x7528;&#x3002; &#x533A;&#x5757;&#x94FE;2.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;2015&#x5E74;10&#x6708;,&#x4EE5;&#x592A;&#x574A;&#x7684;&#x521B;&#x59CB;&#x4EBA;Vitalik Buterin&#x53D1;&#x8868;&#x4E86;&#x9898;&#x4E3A;&#x300A;Visions, Part 1: The Value of Blockchain Technology&#x300B;&#x4E3B;&#x9898;&#x6F14;&#x8BB2;&#x4E2D;,&#x533A;&#x5757;&#x94FE;&#x88AB;&#x8D4B;&#x4E88;&#x4E86;&#x65B0;&#x7684;&#x542B;&#x4E49;&#x3002;&#x533A;&#x5757;&#x94FE;&#x662F;&#x4EFB;&#x4F55;&#x4EBA;&#x90FD;&#x53EF;&#x4EE5;&#x4E0A;&#x4F20;&#x7A0B;&#x5E8F;&#x5E76;&#x4F7F;&#x7A0B;&#x5E8F;&#x81EA;&#x5DF1;&#x6267;&#x884C;&#x7684;&#x8F7D;&#x4F53;,&#x5E76;&#x4E14;&#x533A;&#x5757;&#x94FE;&#x901A;&#x8FC7;&#x81EA;&#x6211;&#x9650;&#x5236;&#x548C;&#x5B89;&#x5168;&#x52A0;&#x5BC6;,&#x786E;&#x4FDD;&#x4E86;&#x4E0A;&#x4F20;&#x7684;&#x7A0B;&#x5E8F;&#x80FD;&#x591F;&#x53EF;&#x4FE1;&#x5730;&#x81EA;&#x52A8;&#x6267;&#x884C;&#x9884;&#x8BBE;&#x7684;&#x903B;&#x8F91;&#x3002; &#x533A;&#x5757;&#x94FE;3.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x793E;&#x4F1A;&#x6CBB;&#x7406;&#x7531;&#x4E8E;&#x8BE5;&#x6280;&#x672F;&#x5177;&#x6709;&#x8D85;&#x8D8A;&#x8D27;&#x5E01;&#x7684;&#x516C;&#x6B63;&#x7279;&#x6027;,&#x8BE5;&#x6280;&#x672F;&#x53EF;&#x4EE5;&#x88AB;&#x5E7F;&#x6CDB;&#x5E94;&#x7528;&#x5728;&#x53F8;&#x6CD5;&#x4EF2;&#x88C1;,&#x8EAB;&#x4EFD;&#x8BA4;&#x8BC1;&#x7B49;&#x9886;&#x57DF;&#x3002;&#x4ECE;&#x957F;&#x8FDC;&#x6765;&#x770B;,&#x533A;&#x5757;&#x94FE;&#x7684;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x6A21;&#x5F0F;,&#x5C06;&#x901A;&#x8FC7;&#x66F4;&#x597D;&#x7684;&#x534F;&#x4F5C;&#x4E0E;&#x6CBB;&#x7406;,&#x6765;&#x91CD;&#x5851;&#x6574;&#x4E2A;&#x4EBA;&#x7C7B;&#x793E;&#x4F1A;&#x6D3B;&#x52A8;&#x3002;&#x867D;&#x7136;&#x73B0;&#x5982;&#x4ECA;&#x56FD;&#x5185;&#x5916;&#x5BF9;&#x4E8E;&#x533A;&#x5757;&#x94FE;&#x6280;&#x672F;&#x7684;&#x6295;&#x5165;&#x4F7F;&#x7528;&#x90FD;&#x5DF2;&#x7ECF;&#x9010;&#x6E10;&#x5C55;&#x5F00;,&#x4F46;&#x76EE;&#x524D;&#x5C1A;&#x672A;&#x6709;&#x5B8C;&#x5168;&#x843D;&#x5730;&#x7684;&#x5E94;&#x7528;&#x6027;&#x6210;&#x679C;&#x3002;&#x56E0;&#x6B64;,&#x533A;&#x5757;&#x94FE;&#x6280;&#x672F;&#x76EE;&#x524D;&#x4ECD;&#x7136;&#x5904;&#x4E8E;&#x7406;&#x8BBA;&#x9636;&#x6BB5;,&#x4ECA;&#x540E;&#x7684;&#x6280;&#x672F;&#x8F6C;&#x6362;&#x5C1A;&#x9700;&#x4E00;&#x6BB5;&#x5F88;&#x957F;&#x65F6;&#x95F4;&#x7684;&#x5B9E;&#x8DF5;&#x3002;]]></content>
-      <categories>
-        <category>中文</category>
-      </categories>
-      <tags>
-        <tag>bloackchain</tag>
-        <tag>font</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[Experiments in IS research]]></title>
     <url>%2FCUHK_DSME6622_Lec2%2F</url>
     <content type="text"><![CDATA[Bullet PointsCUHK-DSME6622: Advanced MIS Research Seminar Proposal each course (10 min each); There is reading list; About Econometrics of IS; Basics How to design experiments: Experiment EC 9A3 Advanced Econometric Theory - Lecture Slides CrossValidation:Difference-in-difference-in-differences estimator COS Analysis? Baseline? Randomization ~ statistical test Regression discontinuity design Theoretical Modeling vs behavior vs experiment vs empirical How do we identify the way we want to ~ social psychology ~ mental mapping impact of technology ~ topic is moving on ~ some of the topics are already understood ~ do good literature review treatment? ~ control? ~ outcome0 Difference in differences (DID): before &amp; after treatment, well controlled PresentationFirefox extensions update classification Firefox web browser (open source platform)~ extensions or add-ons Classification : open or close source Mechanism? ~ size or role of users Output: influence : positive or negative Rapid release strategy vs traditional way cross? experimental design whether the add-on supplier update their products in response to the rapid release of Firefox platform? 1 observation: add-on version number? Review/online experiment0 Treatment: hit of newest review / high-quality Control : no review Social psychology ~ ab test? ~ Online experiment, see Web-based experiments Economic analysis of social interactions1 Charles F.Manski, Journal of Economic Empirical analysis mutually exclusive but collectively exhaustive11 3 effects Paying not to go to the gym2 consumer behavior -&gt; maximize utility (rational expectation vs irrational) theoretical prediction &amp; empirical testing &amp; survey behavior IO? Personal view: How to quantify the utility function? not like financial product: stock, bond or derivatives, the utility of going to gym should also include non-economic factor (price), such as the potential chance of keeping the right of going to gym Observational Learning: Evidence from a Randomized Natural Field Experiment3 One restaurant: whether the randomization is not good enough? Control group: pre-experiment data, one week Raking treatment table vs salience treatment table One week data Difference-in-difference-in-differences (DDD)31 Coincidence, observational learning (learn the quality, more about yourself) conformity (more from others), compliance, salience32 The Spread of Behavior in an Online Social Network Experiment4 Small world network model Network vs photonics?? Social reinforcement 0. Treatment and control groups &#x21A9; 1. Manski, C. (2000). Economic analysis of social interactions. Journal of Economic Perspectives, 115&#x2013;136. &#x21A9; 11. Quora|What&#x2019;s the difference between mutually exclusive events and collectively exhaustive events? &#x21A9; 2. DellaVigna, S., &amp; Malmendier, U. (2006). Paying not to go to the gym. American Economic Review, 96(3), 694&#x2013;719. &#x21A9; 3. Cai, H., Chen, Y., &amp; Fang, H. (2009). Observational Learning: Evidence from a Randomized Natural Field Experiment. American Economic Review. &#x21A9; 31. CrossValidated|Difference-in-difference-in-differences estimator &#x21A9; 32. Chapter 7: Conformity,Compliance, and Obedience &#x21A9; 4. Centola, D. (2010). The Spread of Behavior in an Online Social Network Experiment. Science, 329(5996), 1194&#x2013;1197. &#x21A9;]]></content>
@@ -343,8 +343,8 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>notes</tag>
         <tag>information_system</tag>
+        <tag>notes</tag>
       </tags>
   </entry>
   <entry>
@@ -369,24 +369,24 @@
         <category>中文</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
-        <tag>tutorial</tag>
         <tag>github</tag>
+        <tag>tutorial</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[About Neverland]]></title>
     <url>%2Fabout%2Findex.html</url>
-    <content type="text"><![CDATA[var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"circulation","mutex":true,"music":[{"title":"Intro","author":"The XX","url":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.lrc"},{"title":"Casey's Last Ride","author":"Kris Kristofferson","url":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.lrc"},{"title":"Free Loop","author":"Daniel Powter","url":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.jpeg","lrc":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.lrc"},{"title":"Future Starts Slow","author":"The Kills","url":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.lrc"},{"title":"Medicine","author":"Daughter","url":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.lrc"},{"title":"Exit Music (For a Film)","author":"Radiohead","url":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.png","lrc":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.lrc"}]}; options.element = document.getElementById("aplayer0"); new APlayer(options); Hello, welcome to my blog, the NERVERLAND, which is supported by GitHub and Hexo. Neverland is a fictional location featured in the works of J. M. Barrie and those based on them. It is an imaginary faraway place, where Peter Pan, Tinker Bell, the Lost Boys and other mythical creatures and beings live. &#x2014;Wikipedia NEVERLAND is a place of fantacy and I hope to build a blog full of bold innovation and wonderful ideas. If you have any creative thoughs on no matter science&amp;technology or phylosophy of life, feel free to contact with me via email. Click E-Mail button of the sidebar. If you would like to know more about me, click BAODUGE-About. Enjoy it? Subscribe to my blog by scanning my public Wechat account]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[All Tags]]></title>
-    <url>%2Ftags%2Findex.html</url>
-    <content type="text"><![CDATA[]]></content>
+    <content type="text"><![CDATA[var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","mutex":true,"music":[{"title":"Intro","author":"The XX","url":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.lrc"},{"title":"Casey's Last Ride","author":"Kris Kristofferson","url":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.lrc"},{"title":"Free Loop","author":"Daniel Powter","url":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.jpeg","lrc":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.lrc"},{"title":"Future Starts Slow","author":"The Kills","url":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.lrc"},{"title":"Medicine","author":"Daughter","url":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.lrc"},{"title":"Exit Music (For a Film)","author":"Radiohead","url":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.png","lrc":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.lrc"}]}; options.element = document.getElementById("aplayer0"); new APlayer(options); Hello, welcome to my blog, the NERVERLAND, which is supported by GitHub and Hexo. Neverland is a fictional location featured in the works of J. M. Barrie and those based on them. It is an imaginary faraway place, where Peter Pan, Tinker Bell, the Lost Boys and other mythical creatures and beings live. &#x2014;Wikipedia NEVERLAND is a place of fantacy and I hope to build a blog full of bold innovation and wonderful ideas. If you have any creative thoughs on no matter science&amp;technology or phylosophy of life, feel free to contact with me via email. Click E-Mail button of the sidebar. If you would like to know more about me, click BAODUGE-About. Enjoy it? Subscribe to my blog by scanning my public Wechat account]]></content>
   </entry>
   <entry>
     <title><![CDATA[All Categories]]></title>
     <url>%2Fcategories%2Findex.html</url>
+    <content type="text"><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[All Tags]]></title>
+    <url>%2Ftags%2Findex.html</url>
     <content type="text"><![CDATA[]]></content>
   </entry>
 </search>
