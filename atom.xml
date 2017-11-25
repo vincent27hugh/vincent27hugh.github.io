@@ -242,9 +242,9 @@
       <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
-      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
-    
       <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
+    
+      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
     
       <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
@@ -276,9 +276,9 @@
       <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
-      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
-    
       <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
+    
+      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
     
       <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
@@ -306,11 +306,11 @@
     </summary>
     
     
-      <category term="economics" scheme="http://blog.baoduge.com/tags/economics/"/>
-    
       <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
     
       <category term="notes" scheme="http://blog.baoduge.com/tags/notes/"/>
+    
+      <category term="economics" scheme="http://blog.baoduge.com/tags/economics/"/>
     
       <category term="online_scoring" scheme="http://blog.baoduge.com/tags/online-scoring/"/>
     
@@ -360,9 +360,9 @@
       <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
-      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
-    
       <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
+    
+      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
     
   </entry>
   
@@ -520,10 +520,6 @@
       <category term="中文" scheme="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
     
     
-      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
-    
-      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
-    
       <category term="study" scheme="http://blog.baoduge.com/tags/study/"/>
     
       <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
@@ -535,6 +531,10 @@
       <category term="hexo" scheme="http://blog.baoduge.com/tags/hexo/"/>
     
       <category term="notes" scheme="http://blog.baoduge.com/tags/notes/"/>
+    
+      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
+    
+      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
     
   </entry>
   
@@ -558,13 +558,13 @@
     
       <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
     
+      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
+    
       <category term="statistics" scheme="http://blog.baoduge.com/tags/statistics/"/>
     
       <category term="mathematics" scheme="http://blog.baoduge.com/tags/mathematics/"/>
     
       <category term="github" scheme="http://blog.baoduge.com/tags/github/"/>
-    
-      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
     
       <category term="artificial_intelligence" scheme="http://blog.baoduge.com/tags/artificial-intelligence/"/>
     
