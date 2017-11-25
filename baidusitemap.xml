@@ -42,13 +42,11 @@
          
         <tag>machine_learning</tag>
          
-        <tag>github</tag>
-         
-        <tag>natural_language_processing</tag>
-         
         <tag>statistics</tag>
          
         <tag>mathematics</tag>
+         
+        <tag>github</tag>
          
         <tag>artificial_intelligence</tag>
          
@@ -57,6 +55,8 @@
         <tag>finance</tag>
          
         <tag>deep_learning</tag>
+         
+        <tag>natural_language_processing</tag>
          
         <tag>open_course</tag>
          
@@ -322,9 +322,9 @@
         
         <tag>machine_learning</tag>
          
-        <tag>sentiment_analysis</tag>
-         
         <tag>natural_language_processing</tag>
+         
+        <tag>sentiment_analysis</tag>
          
          
            
