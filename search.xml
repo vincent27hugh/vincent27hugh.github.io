@@ -60,7 +60,7 @@
 <li><i class="fa fa-check-square"></i>Pang, Bo, Lee, Lillian, Vaithyanathan, Shivakumar (2002). Thumbs up?: sentiment classification using machine learning techniques, 79&#x2014;86</li>
 <li><i class="fa fa-check-square"></i>Turney, Peter D (2002). Thumbs up or thumbs down?: semantic orientation applied to unsupervised classification of reviews. , (), 417&#x2014;424</li>
 <li><i class="fa fa-check-square-o"></i>Riloff, Ellen, Wiebe, Janyce (2003). Learning extraction patterns for subjective expressions. , (), 105&#x2014;112</li>
-<li><i class="fa fa-square-o"></i><em>Hu, Minqing, Liu, Bing (2004). Mining and summarizing customer reviews. , (), 168&#x2014;177*</em></li>
+<li><i class="fa fa-check-square-o"></i><em>Hu, Minqing, Liu, Bing (2004). Mining and summarizing customer reviews. , (), 168&#x2014;177*</em></li>
 <li><i class="fa fa-square-o"></i>Kim, Soo-Min, Hovy, Eduard (2004). Determining the sentiment of opinions. , (), 1367</li>
 <li><i class="fa fa-square-o"></i>Wilson, Theresa, Wiebe, Janyce, Hoffmann, Paul (2005). Recognizing contextual polarity in phrase-level sentiment analysis. , (), 347&#x2014;354</li>
 <li><i class="fa fa-square-o"></i>Schumaker, Robert P, Chen, Hsinchun (2009). Textual analysis of stock market prediction using breaking financial news: The AZFin text system. ACM Transactions on Information Systems (TOIS), 27(2), 12</li>
@@ -93,15 +93,15 @@
             
             <tag> research </tag>
             
-            <tag> machine_learning </tag>
-            
-            <tag> natural_language_processing </tag>
-            
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
             
             <tag> faicon </tag>
+            
+            <tag> machine_learning </tag>
+            
+            <tag> natural_language_processing </tag>
             
         </tags>
         
@@ -197,11 +197,11 @@
             
             <tag> research </tag>
             
-            <tag> image </tag>
-            
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
+            
+            <tag> image </tag>
             
             <tag> mathjax </tag>
             
@@ -548,11 +548,9 @@ end
         
         <tags>
             
-            <tag> image </tag>
-            
             <tag> faicon </tag>
             
-            <tag> r_language </tag>
+            <tag> image </tag>
             
             <tag> nonlinear_equations </tag>
             
@@ -563,6 +561,8 @@ end
             <tag> fortran </tag>
             
             <tag> python </tag>
+            
+            <tag> r_language </tag>
             
             <tag> mathematica </tag>
             
@@ -985,11 +985,11 @@ end
             
             <tag> research </tag>
             
-            <tag> image </tag>
-            
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
+            
+            <tag> image </tag>
             
             <tag> mathjax </tag>
             
@@ -1233,15 +1233,15 @@ end
             
             <tag> research </tag>
             
+            <tag> sentiment_analysis </tag>
+            
+            <tag> literature_review </tag>
+            
             <tag> information_system </tag>
             
             <tag> finance </tag>
             
             <tag> image </tag>
-            
-            <tag> sentiment_analysis </tag>
-            
-            <tag> literature_review </tag>
             
             <tag> mathjax </tag>
             
@@ -1504,11 +1504,11 @@ end
             
             <tag> research </tag>
             
-            <tag> information_system </tag>
-            
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
+            
+            <tag> information_system </tag>
             
             <tag> mathjax </tag>
             
@@ -2456,7 +2456,17 @@ killall Finder
     <entry>
       <title><![CDATA[Introduction to Sentiment Analysis]]></title>
       <url>/Introduction_to_Sentiment_Analysis/</url>
-      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>Hello, everyone! Today I&#x2019;m going to introduce some basic ideas about the sentiment analysis.</p>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><hr>
+
+
+	<div class="row">
+		<iframe src="https://drive.google.com/file/d/1ZH1fG73uB6T9alo5luxG7ZXGu-KHmHaQ/preview" style="width:100%; height:550px"></iframe>
+	</div>
+
+
+
+<hr>
+<p>Hello, everyone! Today I&#x2019;m going to introduce some basic ideas about the sentiment analysis.</p>
 <h1 id="How-can-you-know-what-other-people-are-thinking"><a href="#How-can-you-know-what-other-people-are-thinking" class="headerlink" title="How can you know what other people are thinking?"></a>How can you know what other people are thinking?</h1><p>We can judge from the gesture or facial expression (Facial Recognition) and we can also talk with them, give them a call or email/text them (Natural Language). We can extract different kind of information from different information channels.</p>
 <p>In sentiment analysis, we are supposed to deal with the natural language (unstructured data). We extract other peoples&#x2019; opinion from words, sentences or documents.</p>
 <h1 id="What&#x2019;s-sentiment-analysis"><a href="#What&#x2019;s-sentiment-analysis" class="headerlink" title="What&#x2019;s sentiment analysis"></a>What&#x2019;s sentiment analysis</h1><p>It&#x2019;s a computational treatment to identify, extract, quantify and study affective states and subjective information, from which we can take use of some models and algorithms to compute.<sup><a href="#fn_1" id="reffn_1">1</a></sup></p>
@@ -2605,6 +2615,8 @@ killall Finder
         
         <tags>
             
+            <tag> sentiment_analysis </tag>
+            
             <tag> machine_learning </tag>
             
             <tag> natural_language_processing </tag>
@@ -2612,8 +2624,6 @@ killall Finder
             <tag> hexo_pdf </tag>
             
             <tag> image </tag>
-            
-            <tag> sentiment_analysis </tag>
             
         </tags>
         
@@ -2956,9 +2966,9 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
-            <tag> information_system </tag>
-            
             <tag> faicon </tag>
+            
+            <tag> information_system </tag>
             
             <tag> matlab </tag>
             
@@ -3142,11 +3152,11 @@ Ref 2\cite{kom2016stochastic}
             
             <tag> hexo_pdf </tag>
             
-            <tag> tbc </tag>
-            
             <tag> robo_advisor </tag>
             
             <tag> fintech </tag>
+            
+            <tag> tbc </tag>
             
         </tags>
         
@@ -3461,9 +3471,13 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
-            <tag> information_system </tag>
-            
             <tag> machine_learning </tag>
+            
+            <tag> natural_language_processing </tag>
+            
+            <tag> deep_learning </tag>
+            
+            <tag> information_system </tag>
             
             <tag> statistics </tag>
             
@@ -3476,10 +3490,6 @@ Ref 2\cite{kom2016stochastic}
             <tag> economics </tag>
             
             <tag> finance </tag>
-            
-            <tag> deep_learning </tag>
-            
-            <tag> natural_language_processing </tag>
             
             <tag> open_course </tag>
             
@@ -3764,21 +3774,21 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
-            <tag> study </tag>
-            
             <tag> research </tag>
+            
+            <tag> machine_learning </tag>
+            
+            <tag> information_system </tag>
+            
+            <tag> notes </tag>
+            
+            <tag> study </tag>
             
             <tag> blog </tag>
             
             <tag> logs </tag>
             
             <tag> hexo </tag>
-            
-            <tag> notes </tag>
-            
-            <tag> information_system </tag>
-            
-            <tag> machine_learning </tag>
             
         </tags>
         
@@ -3840,11 +3850,11 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
+            <tag> tbc </tag>
+            
             <tag> r_language </tag>
             
             <tag> science_computing </tag>
-            
-            <tag> tbc </tag>
             
         </tags>
         
@@ -3957,9 +3967,9 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
-            <tag> notes </tag>
-            
             <tag> information_system </tag>
+            
+            <tag> notes </tag>
             
         </tags>
         
@@ -4201,11 +4211,11 @@ $ hexo d
         
         <tags>
             
-            <tag> hexo </tag>
+            <tag> tutorial </tag>
             
             <tag> github </tag>
             
-            <tag> tutorial </tag>
+            <tag> hexo </tag>
             
         </tags>
         
