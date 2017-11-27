@@ -5,12 +5,16 @@
     
   <url>
     <loc>http://blog.baoduge.com/8002_reference_list/</loc>
-    <lastmod>2017-11-27T06:07:21.000Z</lastmod>
+    <lastmod>2017-11-27T14:49:37.000Z</lastmod>
     <data>
         <display>
         <title>ToDo List: Reference List of Project IS8002-SA</title>
         <pubTime>2017-11-24T16:00:00.000Z</pubTime>
         
+        <tag>machine_learning</tag>
+         
+        <tag>natural_language_processing</tag>
+         
         <tag>research</tag>
          
         <tag>sentiment_analysis</tag>
@@ -18,10 +22,6 @@
         <tag>literature_review</tag>
          
         <tag>faicon</tag>
-         
-        <tag>machine_learning</tag>
-         
-        <tag>natural_language_processing</tag>
          
          
            
@@ -41,8 +41,6 @@
         <title>Introduction to Sentiment Analysis</title>
         <pubTime>2017-10-22T16:00:00.000Z</pubTime>
         
-        <tag>sentiment_analysis</tag>
-         
         <tag>machine_learning</tag>
          
         <tag>natural_language_processing</tag>
@@ -50,6 +48,8 @@
         <tag>hexo_pdf</tag>
          
         <tag>image</tag>
+         
+        <tag>sentiment_analysis</tag>
          
          
            
@@ -95,17 +95,17 @@
         <title>Literature Review on Social Media in Financial Market</title>
         <pubTime>2017-11-01T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
-        <tag>sentiment_analysis</tag>
-         
-        <tag>literature_review</tag>
-         
         <tag>information_system</tag>
          
         <tag>finance</tag>
          
         <tag>image</tag>
+         
+        <tag>research</tag>
+         
+        <tag>sentiment_analysis</tag>
+         
+        <tag>literature_review</tag>
          
         <tag>mathjax</tag>
          
@@ -212,13 +212,13 @@
         <title>Literature Review: Predicting the Semantic Orientation of Adjectives</title>
         <pubTime>2017-11-20T16:00:00.000Z</pubTime>
         
+        <tag>image</tag>
+         
         <tag>research</tag>
          
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
-         
-        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -244,13 +244,13 @@
         <title>Literature Review on Special Paper: Feature Engineering + Neural Network</title>
         <pubTime>2017-11-02T16:00:00.000Z</pubTime>
         
+        <tag>image</tag>
+         
         <tag>research</tag>
          
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
-         
-        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -282,13 +282,13 @@
         <title>Literature Review on UGC/WOM</title>
         <pubTime>2017-10-30T16:00:00.000Z</pubTime>
         
+        <tag>information_system</tag>
+         
         <tag>research</tag>
          
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
-         
-        <tag>information_system</tag>
          
         <tag>mathjax</tag>
          
@@ -316,11 +316,11 @@
         
         <tag>hexo_pdf</tag>
          
+        <tag>tbc</tag>
+         
         <tag>robo_advisor</tag>
          
         <tag>fintech</tag>
-         
-        <tag>tbc</tag>
          
          
            
@@ -340,11 +340,11 @@
         <title>R语言的科学计算</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>tbc</tag>
-         
         <tag>r_language</tag>
          
         <tag>science_computing</tag>
+         
+        <tag>tbc</tag>
          
          
            
@@ -400,9 +400,11 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
+        <tag>image</tag>
+         
         <tag>faicon</tag>
          
-        <tag>image</tag>
+        <tag>r_language</tag>
          
         <tag>nonlinear_equations</tag>
          
@@ -413,8 +415,6 @@
         <tag>fortran</tag>
          
         <tag>python</tag>
-         
-        <tag>r_language</tag>
          
         <tag>mathematica</tag>
          
@@ -462,13 +462,13 @@
         <title>Resources of Information System Research</title>
         <pubTime>2017-10-23T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>information_system</tag>
          
         <tag>markdown_table</tag>
          
         <tag>image</tag>
+         
+        <tag>research</tag>
          
          
            
@@ -488,12 +488,6 @@
         <title>2017-18 Open-Course Challenges</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>machine_learning</tag>
-         
-        <tag>natural_language_processing</tag>
-         
-        <tag>deep_learning</tag>
-         
         <tag>information_system</tag>
          
         <tag>statistics</tag>
@@ -502,11 +496,17 @@
          
         <tag>github</tag>
          
+        <tag>machine_learning</tag>
+         
         <tag>artificial_intelligence</tag>
          
         <tag>economics</tag>
          
         <tag>finance</tag>
+         
+        <tag>deep_learning</tag>
+         
+        <tag>natural_language_processing</tag>
          
         <tag>open_course</tag>
          
@@ -536,9 +536,9 @@
         <title>Using MATLAB to batch search #citation of IS papers</title>
         <pubTime>2017-09-18T16:00:00.000Z</pubTime>
         
-        <tag>faicon</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>faicon</tag>
          
         <tag>matlab</tag>
          
@@ -564,11 +564,11 @@
         <title>20171104 Notes: Reputation System, Data Types, Variable Types</title>
         <pubTime>2017-11-03T16:00:00.000Z</pubTime>
         
-        <tag>notes</tag>
-         
         <tag>markdown_table</tag>
          
         <tag>image</tag>
+         
+        <tag>notes</tag>
          
         <tag>reputation_system</tag>
          
@@ -594,11 +594,11 @@
         <title>Can online scoring really reflects the rankings of products?</title>
         <pubTime>2017-10-29T16:00:00.000Z</pubTime>
         
+        <tag>economics</tag>
+         
         <tag>research</tag>
          
         <tag>notes</tag>
-         
-        <tag>economics</tag>
          
         <tag>mathjax</tag>
          
@@ -665,21 +665,21 @@
         <title>NEVERLAND - Blog Logs</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
+        <tag>information_system</tag>
          
         <tag>machine_learning</tag>
          
-        <tag>information_system</tag>
-         
-        <tag>notes</tag>
-         
         <tag>study</tag>
+         
+        <tag>research</tag>
          
         <tag>blog</tag>
          
         <tag>logs</tag>
          
         <tag>hexo</tag>
+         
+        <tag>notes</tag>
          
          
            
@@ -721,11 +721,11 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>tutorial</tag>
-         
         <tag>github</tag>
          
         <tag>hexo</tag>
+         
+        <tag>tutorial</tag>
          
          
            
