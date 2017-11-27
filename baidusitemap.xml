@@ -4,6 +4,36 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/8002_reference_list/</loc>
+    <lastmod>2017-11-26T16:06:12.000Z</lastmod>
+    <data>
+        <display>
+        <title>ToDo List: Reference List of Project IS8002-SA</title>
+        <pubTime>2017-11-24T16:00:00.000Z</pubTime>
+        
+        <tag>research</tag>
+         
+        <tag>machine_learning</tag>
+         
+        <tag>natural_language_processing</tag>
+         
+        <tag>sentiment_analysis</tag>
+         
+        <tag>literature_review</tag>
+         
+        <tag>faicon</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/SublimeText3_LaTex/</loc>
     <lastmod>2017-11-25T16:58:21.000Z</lastmod>
     <data>
@@ -230,13 +260,13 @@
          
         <tag>sentiment_analysis</tag>
          
-        <tag>user_generated_content</tag>
-         
-        <tag>word_of_mouth</tag>
-         
         <tag>literature_review</tag>
          
         <tag>mathjax</tag>
+         
+        <tag>user_generated_content</tag>
+         
+        <tag>word_of_mouth</tag>
          
          
            
@@ -344,9 +374,9 @@
         
         <tag>image</tag>
          
-        <tag>r_language</tag>
+        <tag>faicon</tag>
          
-        <tag>mathjax</tag>
+        <tag>r_language</tag>
          
         <tag>nonlinear_equations</tag>
          
@@ -360,7 +390,7 @@
          
         <tag>mathematica</tag>
          
-        <tag>faicon</tag>
+        <tag>mathjax</tag>
          
          
            
@@ -462,8 +492,6 @@
          
         <tag>machine_learning</tag>
          
-        <tag>deep_learning</tag>
-         
         <tag>statistics</tag>
          
         <tag>mathematics</tag>
@@ -475,6 +503,8 @@
         <tag>economics</tag>
          
         <tag>finance</tag>
+         
+        <tag>deep_learning</tag>
          
         <tag>natural_language_processing</tag>
          
@@ -508,9 +538,9 @@
         
         <tag>information_system</tag>
          
-        <tag>matlab</tag>
-         
         <tag>faicon</tag>
+         
+        <tag>matlab</tag>
          
         <tag>google_scholar</tag>
          
@@ -693,9 +723,9 @@
         
         <tag>hexo</tag>
          
-        <tag>tutorial</tag>
-         
         <tag>github</tag>
+         
+        <tag>tutorial</tag>
          
          
            
