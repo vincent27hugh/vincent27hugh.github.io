@@ -19,9 +19,9 @@
          
         <tag>sentiment_analysis</tag>
          
-        <tag>literature_review</tag>
-         
         <tag>faicon</tag>
+         
+        <tag>literature_review</tag>
          
          
            
@@ -67,13 +67,13 @@
         <title>Introduction to Sentiment Analysis</title>
         <pubTime>2017-10-22T16:00:00.000Z</pubTime>
         
+        <tag>image</tag>
+         
         <tag>machine_learning</tag>
          
         <tag>natural_language_processing</tag>
          
         <tag>hexo_pdf</tag>
-         
-        <tag>image</tag>
          
         <tag>sentiment_analysis</tag>
          
@@ -123,17 +123,17 @@
         
         <tag>information_system</tag>
          
-        <tag>finance</tag>
-         
         <tag>image</tag>
+         
+        <tag>finance</tag>
          
         <tag>research</tag>
          
         <tag>sentiment_analysis</tag>
          
-        <tag>literature_review</tag>
-         
         <tag>mathjax</tag>
+         
+        <tag>literature_review</tag>
          
         <tag>opinion_mining</tag>
          
@@ -244,9 +244,9 @@
          
         <tag>sentiment_analysis</tag>
          
-        <tag>literature_review</tag>
-         
         <tag>mathjax</tag>
+         
+        <tag>literature_review</tag>
          
         <tag>cluster</tag>
          
@@ -276,9 +276,9 @@
          
         <tag>sentiment_analysis</tag>
          
-        <tag>literature_review</tag>
-         
         <tag>mathjax</tag>
+         
+        <tag>literature_review</tag>
          
         <tag>opinion_mining</tag>
          
@@ -314,13 +314,13 @@
          
         <tag>sentiment_analysis</tag>
          
-        <tag>literature_review</tag>
-         
         <tag>mathjax</tag>
          
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
+         
+        <tag>literature_review</tag>
          
          
            
@@ -390,11 +390,11 @@
         <title>20171117 Notes: Stochastic Process, Parameter Estimation, PDE</title>
         <pubTime>2017-11-17T16:00:00.000Z</pubTime>
         
+        <tag>image</tag>
+         
         <tag>mathematics</tag>
          
         <tag>hexo_pdf</tag>
-         
-        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -428,8 +428,6 @@
         
         <tag>image</tag>
          
-        <tag>faicon</tag>
-         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
@@ -445,6 +443,8 @@
         <tag>mathematica</tag>
          
         <tag>mathjax</tag>
+         
+        <tag>faicon</tag>
          
          
            
@@ -490,6 +490,10 @@
         
         <tag>information_system</tag>
          
+        <tag>markdown_table</tag>
+         
+        <tag>image</tag>
+         
         <tag>statistics</tag>
          
         <tag>mathematics</tag>
@@ -512,11 +516,7 @@
          
         <tag>hexo_pdf</tag>
          
-        <tag>markdown_table</tag>
-         
         <tag>span_id_anchor</tag>
-         
-        <tag>image</tag>
          
          
            
@@ -538,9 +538,9 @@
         
         <tag>information_system</tag>
          
-        <tag>faicon</tag>
-         
         <tag>matlab</tag>
+         
+        <tag>faicon</tag>
          
         <tag>google_scholar</tag>
          
@@ -564,10 +564,6 @@
         <title>20171104 Notes: Reputation System, Data Types, Variable Types</title>
         <pubTime>2017-11-03T16:00:00.000Z</pubTime>
         
-        <tag>markdown_table</tag>
-         
-        <tag>image</tag>
-         
         <tag>notes</tag>
          
         <tag>reputation_system</tag>
@@ -575,6 +571,10 @@
         <tag>variable_type</tag>
          
         <tag>data_type</tag>
+         
+        <tag>markdown_table</tag>
+         
+        <tag>image</tag>
          
          
            
@@ -594,11 +594,11 @@
         <title>Can online scoring really reflects the rankings of products?</title>
         <pubTime>2017-10-29T16:00:00.000Z</pubTime>
         
+        <tag>notes</tag>
+         
         <tag>economics</tag>
          
         <tag>research</tag>
-         
-        <tag>notes</tag>
          
         <tag>mathjax</tag>
          
@@ -667,6 +667,8 @@
         
         <tag>information_system</tag>
          
+        <tag>notes</tag>
+         
         <tag>machine_learning</tag>
          
         <tag>study</tag>
@@ -678,8 +680,6 @@
         <tag>logs</tag>
          
         <tag>hexo</tag>
-         
-        <tag>notes</tag>
          
          
            
