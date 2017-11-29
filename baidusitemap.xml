@@ -4,6 +4,36 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/8002_reference_list/</loc>
+    <lastmod>2017-11-29T14:54:13.000Z</lastmod>
+    <data>
+        <display>
+        <title>ToDo List: Reference List of Project IS8002-SA</title>
+        <pubTime>2017-11-24T16:00:00.000Z</pubTime>
+        
+        <tag>research</tag>
+         
+        <tag>machine_learning</tag>
+         
+        <tag>sentiment_analysis</tag>
+         
+        <tag>literature_review</tag>
+         
+        <tag>faicon</tag>
+         
+        <tag>natural_language_processing</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/Mendeley/</loc>
     <lastmod>2017-11-29T07:05:24.000Z</lastmod>
     <data>
@@ -11,9 +41,9 @@
         <title>如何管理文献:Mendeley小技巧</title>
         <pubTime>2017-11-11T16:00:00.000Z</pubTime>
         
-        <tag>image</tag>
-         
         <tag>faicon</tag>
+         
+        <tag>image</tag>
          
         <tag>mendeley</tag>
          
@@ -43,48 +73,18 @@
          
         <tag>document_management</tag>
          
+        <tag>bibtex</tag>
+         
         <tag>sublime_text_3</tag>
          
         <tag>academic_reference</tag>
          
         <tag>markdown</tag>
          
-        <tag>bibtex</tag>
-         
          
            
              
               <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/8002_reference_list/</loc>
-    <lastmod>2017-11-28T01:03:03.000Z</lastmod>
-    <data>
-        <display>
-        <title>ToDo List: Reference List of Project IS8002-SA</title>
-        <pubTime>2017-11-24T16:00:00.000Z</pubTime>
-        
-        <tag>research</tag>
-         
-        <tag>machine_learning</tag>
-         
-        <tag>natural_language_processing</tag>
-         
-        <tag>sentiment_analysis</tag>
-         
-        <tag>literature_review</tag>
-         
-        <tag>faicon</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
           
         </display>
     </data>
@@ -127,13 +127,13 @@
         
         <tag>machine_learning</tag>
          
+        <tag>sentiment_analysis</tag>
+         
         <tag>natural_language_processing</tag>
          
         <tag>hexo_pdf</tag>
          
         <tag>image</tag>
-         
-        <tag>sentiment_analysis</tag>
          
          
            
@@ -183,13 +183,13 @@
          
         <tag>information_system</tag>
          
-        <tag>finance</tag>
-         
-        <tag>image</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
+         
+        <tag>finance</tag>
+         
+        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -274,11 +274,11 @@
         
         <tag>research</tag>
          
-        <tag>image</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
+         
+        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -306,11 +306,11 @@
         
         <tag>research</tag>
          
-        <tag>image</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
+         
+        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -460,9 +460,9 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
-        <tag>image</tag>
-         
         <tag>faicon</tag>
+         
+        <tag>image</tag>
          
         <tag>r_language</tag>
          
@@ -502,6 +502,10 @@
          
         <tag>machine_learning</tag>
          
+        <tag>natural_language_processing</tag>
+         
+        <tag>deep_learning</tag>
+         
         <tag>statistics</tag>
          
         <tag>mathematics</tag>
@@ -513,10 +517,6 @@
         <tag>economics</tag>
          
         <tag>finance</tag>
-         
-        <tag>deep_learning</tag>
-         
-        <tag>natural_language_processing</tag>
          
         <tag>open_course</tag>
          
@@ -733,9 +733,9 @@
         
         <tag>hexo</tag>
          
-        <tag>github</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>github</tag>
          
          
            
