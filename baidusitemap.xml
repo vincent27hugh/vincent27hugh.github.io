@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/Mendeley/</loc>
-    <lastmod>2017-11-29T07:01:23.000Z</lastmod>
+    <lastmod>2017-11-29T07:05:24.000Z</lastmod>
     <data>
         <display>
         <title>如何管理文献:Mendeley小技巧</title>
@@ -19,6 +19,8 @@
          
         <tag>document_management</tag>
          
+        <tag>bibtex</tag>
+         
          
            
              
@@ -31,7 +33,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/Use_ST3_manage_reference/</loc>
-    <lastmod>2017-11-28T06:03:20.000Z</lastmod>
+    <lastmod>2017-11-29T07:05:17.000Z</lastmod>
     <data>
         <display>
         <title>用Sublime Text 3管理文献</title>
@@ -39,9 +41,15 @@
         
         <tag>hexo_pdf</tag>
          
+        <tag>document_management</tag>
+         
         <tag>sublime_text_3</tag>
          
         <tag>academic_reference</tag>
+         
+        <tag>markdown</tag>
+         
+        <tag>bibtex</tag>
          
          
            
@@ -209,9 +217,9 @@
         
         <tag>deep_learning</tag>
          
-        <tag>tutorial</tag>
-         
         <tag>hardware</tag>
+         
+        <tag>tutorial</tag>
          
          
            
@@ -342,11 +350,11 @@
          
         <tag>literature_review</tag>
          
+        <tag>mathjax</tag>
+         
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
-         
-        <tag>mathjax</tag>
          
          
            
@@ -458,8 +466,6 @@
          
         <tag>r_language</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
@@ -471,6 +477,8 @@
         <tag>python</tag>
          
         <tag>mathematica</tag>
+         
+        <tag>mathjax</tag>
          
          
            
