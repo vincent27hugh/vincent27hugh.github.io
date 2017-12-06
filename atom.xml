@@ -36,13 +36,47 @@
     
       <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
     
-      <category term="natural_language_processing" scheme="http://blog.baoduge.com/tags/natural-language-processing/"/>
-    
       <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
       <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
     
       <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
+    
+      <category term="natural_language_processing" scheme="http://blog.baoduge.com/tags/natural-language-processing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Literature Review: Yahoo! for Amazon</title>
+    <link href="http://blog.baoduge.com/SA_FN4-3/"/>
+    <id>http://blog.baoduge.com/SA_FN4-3/</id>
+    <published>2017-11-23T16:00:00.000Z</published>
+    <updated>2017-11-26T08:17:12.000Z</updated>
+    
+    <summary type="html">
+    
+      This is the literature review on one paper of Das and Chen (2007) on Management Science.
+    
+    </summary>
+    
+      <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
+    
+    
+      <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
+    
+      <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
+    
+      <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
+    
+      <category term="naive_classifier" scheme="http://blog.baoduge.com/tags/naive-classifier/"/>
+    
+      <category term="vector_distance_classifier" scheme="http://blog.baoduge.com/tags/vector-distance-classifier/"/>
+    
+      <category term="discriminant-based_classifier" scheme="http://blog.baoduge.com/tags/discriminant-based-classifier/"/>
+    
+      <category term="adjective-adverb_phrase_classifier" scheme="http://blog.baoduge.com/tags/adjective-adverb-phrase-classifier/"/>
+    
+      <category term="bayesian_classifier" scheme="http://blog.baoduge.com/tags/bayesian-classifier/"/>
     
   </entry>
   
@@ -64,11 +98,11 @@
     
       <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
     
-      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
-    
       <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
       <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
+    
+      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
     
       <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
@@ -130,9 +164,11 @@
       <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
+      <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
+    
       <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
     
-      <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
+      <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
     
       <category term="nonlinear_equations" scheme="http://blog.baoduge.com/tags/nonlinear-equations/"/>
     
@@ -143,8 +179,6 @@
       <category term="fortran" scheme="http://blog.baoduge.com/tags/fortran/"/>
     
       <category term="python" scheme="http://blog.baoduge.com/tags/python/"/>
-    
-      <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
     
       <category term="mathematica" scheme="http://blog.baoduge.com/tags/mathematica/"/>
     
@@ -168,9 +202,9 @@
       <category term="中文" scheme="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
     
     
-      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
-    
       <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
+    
+      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
     
       <category term="mendeley" scheme="http://blog.baoduge.com/tags/mendeley/"/>
     
@@ -252,11 +286,11 @@
     
       <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
     
-      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
-    
       <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
       <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
+    
+      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
     
       <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
@@ -292,13 +326,13 @@
     
       <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
     
-      <category term="finance" scheme="http://blog.baoduge.com/tags/finance/"/>
-    
-      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
-    
       <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
       <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
+    
+      <category term="finance" scheme="http://blog.baoduge.com/tags/finance/"/>
+    
+      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
     
       <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
@@ -434,13 +468,13 @@
     
       <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
     
+      <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
+    
       <category term="natural_language_processing" scheme="http://blog.baoduge.com/tags/natural-language-processing/"/>
     
       <category term="hexo_pdf" scheme="http://blog.baoduge.com/tags/hexo-pdf/"/>
     
       <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
-    
-      <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
   </entry>
   
@@ -552,57 +586,59 @@
     
       <category term="hexo_pdf" scheme="http://blog.baoduge.com/tags/hexo-pdf/"/>
     
+      <category term="tbc" scheme="http://blog.baoduge.com/tags/tbc/"/>
+    
       <category term="robo_advisor" scheme="http://blog.baoduge.com/tags/robo-advisor/"/>
     
       <category term="fintech" scheme="http://blog.baoduge.com/tags/fintech/"/>
     
-      <category term="tbc" scheme="http://blog.baoduge.com/tags/tbc/"/>
-    
   </entry>
   
   <entry>
-    <title>R语言的科学计算</title>
-    <link href="http://blog.baoduge.com/R_science_computing/"/>
-    <id>http://blog.baoduge.com/R_science_computing/</id>
+    <title>2017-18 Open-Course Challenges</title>
+    <link href="http://blog.baoduge.com/2017_Study_Plan/"/>
+    <id>http://blog.baoduge.com/2017_Study_Plan/</id>
     <published>2017-09-11T16:00:00.000Z</published>
-    <updated>2017-11-25T16:49:42.000Z</updated>
+    <updated>2017-11-25T16:46:38.000Z</updated>
     
     <summary type="html">
     
-      This is some useful links about scientific computing in R language.
+      This is some useful study materials that I collect and I am interested in.
     
     </summary>
     
-      <category term="中文" scheme="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+      <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
-      <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
+      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
     
-      <category term="tbc" scheme="http://blog.baoduge.com/tags/tbc/"/>
+      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
     
-      <category term="science_computing" scheme="http://blog.baoduge.com/tags/science-computing/"/>
+      <category term="natural_language_processing" scheme="http://blog.baoduge.com/tags/natural-language-processing/"/>
     
-  </entry>
-  
-  <entry>
-    <title>区块链现状</title>
-    <link href="http://blog.baoduge.com/current_blockchain/"/>
-    <id>http://blog.baoduge.com/current_blockchain/</id>
-    <published>2017-09-11T16:00:00.000Z</published>
-    <updated>2017-11-25T16:40:24.000Z</updated>
+      <category term="statistics" scheme="http://blog.baoduge.com/tags/statistics/"/>
     
-    <summary type="html">
+      <category term="mathematics" scheme="http://blog.baoduge.com/tags/mathematics/"/>
     
-      This is the notes of one talk about Bloack chain.
+      <category term="github" scheme="http://blog.baoduge.com/tags/github/"/>
     
-    </summary>
+      <category term="artificial_intelligence" scheme="http://blog.baoduge.com/tags/artificial-intelligence/"/>
     
-      <category term="中文" scheme="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+      <category term="economics" scheme="http://blog.baoduge.com/tags/economics/"/>
     
+      <category term="finance" scheme="http://blog.baoduge.com/tags/finance/"/>
     
-      <category term="bloackchain" scheme="http://blog.baoduge.com/tags/bloackchain/"/>
+      <category term="deep_learning" scheme="http://blog.baoduge.com/tags/deep-learning/"/>
     
-      <category term="font" scheme="http://blog.baoduge.com/tags/font/"/>
+      <category term="open_course" scheme="http://blog.baoduge.com/tags/open-course/"/>
+    
+      <category term="hexo_pdf" scheme="http://blog.baoduge.com/tags/hexo-pdf/"/>
+    
+      <category term="markdown_table" scheme="http://blog.baoduge.com/tags/markdown-table/"/>
+    
+      <category term="span_id_anchor" scheme="http://blog.baoduge.com/tags/span-id-anchor/"/>
+    
+      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
     
   </entry>
   
