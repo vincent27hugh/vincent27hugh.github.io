@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
-    <lastmod>2017-12-06T12:39:26.000Z</lastmod>
+    <lastmod>2017-12-06T12:41:14.000Z</lastmod>
     <data>
         <display>
         <title>NEVERLAND - Blog Logs</title>
@@ -191,9 +191,9 @@
         
         <tag>tutorial</tag>
          
-        <tag>sublime_text_3</tag>
-         
         <tag>latex</tag>
+         
+        <tag>sublime_text_3</tag>
          
         <tag>skim</tag>
          
@@ -386,11 +386,11 @@
          
         <tag>literature_review</tag>
          
+        <tag>mathjax</tag>
+         
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
-         
-        <tag>mathjax</tag>
          
          
            
@@ -436,9 +436,9 @@
         <title>R语言的科学计算</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>tbc</tag>
-         
         <tag>r_language</tag>
+         
+        <tag>tbc</tag>
          
         <tag>science_computing</tag>
          
@@ -500,10 +500,6 @@
          
         <tag>faicon</tag>
          
-        <tag>mathjax</tag>
-         
-        <tag>r_language</tag>
-         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
@@ -514,7 +510,11 @@
          
         <tag>python</tag>
          
+        <tag>r_language</tag>
+         
         <tag>mathematica</tag>
+         
+        <tag>mathjax</tag>
          
          
            
