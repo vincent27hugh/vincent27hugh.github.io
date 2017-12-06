@@ -134,6 +134,8 @@
     
       <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
     
+      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
+    
       <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
     
       <category term="nonlinear_equations" scheme="http://blog.baoduge.com/tags/nonlinear-equations/"/>
@@ -147,8 +149,6 @@
       <category term="python" scheme="http://blog.baoduge.com/tags/python/"/>
     
       <category term="mathematica" scheme="http://blog.baoduge.com/tags/mathematica/"/>
-    
-      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
   </entry>
   
@@ -332,11 +332,11 @@
     
       <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
     
-      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
-    
       <category term="user_generated_content" scheme="http://blog.baoduge.com/tags/user-generated-content/"/>
     
       <category term="word_of_mouth" scheme="http://blog.baoduge.com/tags/word-of-mouth/"/>
+    
+      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
   </entry>
   
@@ -552,57 +552,95 @@
     
       <category term="hexo_pdf" scheme="http://blog.baoduge.com/tags/hexo-pdf/"/>
     
-      <category term="tbc" scheme="http://blog.baoduge.com/tags/tbc/"/>
-    
       <category term="robo_advisor" scheme="http://blog.baoduge.com/tags/robo-advisor/"/>
     
       <category term="fintech" scheme="http://blog.baoduge.com/tags/fintech/"/>
     
-  </entry>
-  
-  <entry>
-    <title>区块链现状</title>
-    <link href="http://blog.baoduge.com/current_blockchain/"/>
-    <id>http://blog.baoduge.com/current_blockchain/</id>
-    <published>2017-09-11T16:00:00.000Z</published>
-    <updated>2017-11-25T16:40:24.000Z</updated>
-    
-    <summary type="html">
-    
-      This is the notes of one talk about Bloack chain.
-    
-    </summary>
-    
-      <category term="中文" scheme="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
-    
-    
-      <category term="bloackchain" scheme="http://blog.baoduge.com/tags/bloackchain/"/>
-    
-      <category term="font" scheme="http://blog.baoduge.com/tags/font/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>R语言的科学计算</title>
-    <link href="http://blog.baoduge.com/R_science_computing/"/>
-    <id>http://blog.baoduge.com/R_science_computing/</id>
-    <published>2017-09-11T16:00:00.000Z</published>
-    <updated>2017-11-25T16:49:42.000Z</updated>
-    
-    <summary type="html">
-    
-      This is some useful links about scientific computing in R language.
-    
-    </summary>
-    
-      <category term="中文" scheme="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
-    
-    
-      <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
-    
-      <category term="science_computing" scheme="http://blog.baoduge.com/tags/science-computing/"/>
-    
       <category term="tbc" scheme="http://blog.baoduge.com/tags/tbc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2017-18 Open-Course Challenges</title>
+    <link href="http://blog.baoduge.com/2017_Study_Plan/"/>
+    <id>http://blog.baoduge.com/2017_Study_Plan/</id>
+    <published>2017-09-11T16:00:00.000Z</published>
+    <updated>2017-11-25T16:46:38.000Z</updated>
+    
+    <summary type="html">
+    
+      This is some useful study materials that I collect and I am interested in.
+    
+    </summary>
+    
+      <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
+    
+    
+      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
+    
+      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
+    
+      <category term="statistics" scheme="http://blog.baoduge.com/tags/statistics/"/>
+    
+      <category term="mathematics" scheme="http://blog.baoduge.com/tags/mathematics/"/>
+    
+      <category term="github" scheme="http://blog.baoduge.com/tags/github/"/>
+    
+      <category term="artificial_intelligence" scheme="http://blog.baoduge.com/tags/artificial-intelligence/"/>
+    
+      <category term="economics" scheme="http://blog.baoduge.com/tags/economics/"/>
+    
+      <category term="finance" scheme="http://blog.baoduge.com/tags/finance/"/>
+    
+      <category term="deep_learning" scheme="http://blog.baoduge.com/tags/deep-learning/"/>
+    
+      <category term="natural_language_processing" scheme="http://blog.baoduge.com/tags/natural-language-processing/"/>
+    
+      <category term="open_course" scheme="http://blog.baoduge.com/tags/open-course/"/>
+    
+      <category term="hexo_pdf" scheme="http://blog.baoduge.com/tags/hexo-pdf/"/>
+    
+      <category term="markdown_table" scheme="http://blog.baoduge.com/tags/markdown-table/"/>
+    
+      <category term="span_id_anchor" scheme="http://blog.baoduge.com/tags/span-id-anchor/"/>
+    
+      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NEVERLAND - Blog Logs</title>
+    <link href="http://blog.baoduge.com/2017_Logs_Questions/"/>
+    <id>http://blog.baoduge.com/2017_Logs_Questions/</id>
+    <published>2017-09-11T16:00:00.000Z</published>
+    <updated>2017-12-06T12:39:26.000Z</updated>
+    
+    <summary type="html">
+    
+      This is the daily logs of this blog - NEVERLAND, which is generally about my research and study.
+    
+    </summary>
+    
+      <category term="中文" scheme="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+    
+    
+      <category term="study" scheme="http://blog.baoduge.com/tags/study/"/>
+    
+      <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
+    
+      <category term="blog" scheme="http://blog.baoduge.com/tags/blog/"/>
+    
+      <category term="logs" scheme="http://blog.baoduge.com/tags/logs/"/>
+    
+      <category term="hexo" scheme="http://blog.baoduge.com/tags/hexo/"/>
+    
+      <category term="notes" scheme="http://blog.baoduge.com/tags/notes/"/>
+    
+      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
+    
+      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
+    
+      <category term="music" scheme="http://blog.baoduge.com/tags/music/"/>
     
   </entry>
   
