@@ -80,14 +80,14 @@
       <tags>
         <tag>image</tag>
         <tag>faicon</tag>
+        <tag>r_language</tag>
+        <tag>mathjax</tag>
         <tag>nonlinear_equations</tag>
         <tag>numerical_analysis</tag>
         <tag>matlab</tag>
         <tag>fortran</tag>
         <tag>python</tag>
-        <tag>r_language</tag>
         <tag>mathematica</tag>
-        <tag>mathjax</tag>
       </tags>
   </entry>
   <entry>
@@ -185,9 +185,9 @@
         <tag>information_system</tag>
         <tag>sentiment_analysis</tag>
         <tag>literature_review</tag>
-        <tag>mathjax</tag>
         <tag>user_generated_content</tag>
         <tag>word_of_mouth</tag>
+        <tag>mathjax</tag>
       </tags>
   </entry>
   <entry>
@@ -396,8 +396,8 @@
       </categories>
       <tags>
         <tag>tutorial</tag>
-        <tag>sublime_text_3</tag>
         <tag>latex</tag>
+        <tag>sublime_text_3</tag>
         <tag>skim</tag>
       </tags>
   </entry>
