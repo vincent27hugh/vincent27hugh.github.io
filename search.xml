@@ -10,10 +10,10 @@
       <tags>
         <tag>research</tag>
         <tag>machine_learning</tag>
+        <tag>natural_language_processing</tag>
         <tag>sentiment_analysis</tag>
         <tag>literature_review</tag>
         <tag>faicon</tag>
-        <tag>natural_language_processing</tag>
       </tags>
   </entry>
   <entry>
@@ -43,9 +43,9 @@
       </categories>
       <tags>
         <tag>research</tag>
+        <tag>image</tag>
         <tag>sentiment_analysis</tag>
         <tag>literature_review</tag>
-        <tag>image</tag>
         <tag>mathjax</tag>
         <tag>cluster</tag>
         <tag>logit_regression</tag>
@@ -78,14 +78,14 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>faicon</tag>
         <tag>image</tag>
-        <tag>r_language</tag>
+        <tag>faicon</tag>
         <tag>nonlinear_equations</tag>
         <tag>numerical_analysis</tag>
         <tag>matlab</tag>
         <tag>fortran</tag>
         <tag>python</tag>
+        <tag>r_language</tag>
         <tag>mathematica</tag>
         <tag>mathjax</tag>
       </tags>
@@ -98,8 +98,8 @@
         <category>中文</category>
       </categories>
       <tags>
-        <tag>faicon</tag>
         <tag>image</tag>
+        <tag>faicon</tag>
         <tag>mendeley</tag>
         <tag>document_management</tag>
         <tag>bibtex</tag>
@@ -143,9 +143,9 @@
       </categories>
       <tags>
         <tag>research</tag>
+        <tag>image</tag>
         <tag>sentiment_analysis</tag>
         <tag>literature_review</tag>
-        <tag>image</tag>
         <tag>mathjax</tag>
         <tag>opinion_mining</tag>
         <tag>feature_engineering</tag>
@@ -164,10 +164,10 @@
       <tags>
         <tag>research</tag>
         <tag>information_system</tag>
-        <tag>sentiment_analysis</tag>
-        <tag>literature_review</tag>
         <tag>finance</tag>
         <tag>image</tag>
+        <tag>sentiment_analysis</tag>
+        <tag>literature_review</tag>
         <tag>mathjax</tag>
         <tag>opinion_mining</tag>
         <tag>time_series</tag>
@@ -238,10 +238,10 @@
       </categories>
       <tags>
         <tag>machine_learning</tag>
-        <tag>sentiment_analysis</tag>
         <tag>natural_language_processing</tag>
         <tag>hexo_pdf</tag>
         <tag>image</tag>
+        <tag>sentiment_analysis</tag>
       </tags>
   </entry>
   <entry>
@@ -316,7 +316,6 @@
       <tags>
         <tag>information_system</tag>
         <tag>machine_learning</tag>
-        <tag>natural_language_processing</tag>
         <tag>statistics</tag>
         <tag>mathematics</tag>
         <tag>github</tag>
@@ -324,6 +323,7 @@
         <tag>economics</tag>
         <tag>finance</tag>
         <tag>deep_learning</tag>
+        <tag>natural_language_processing</tag>
         <tag>open_course</tag>
         <tag>hexo_pdf</tag>
         <tag>markdown_table</tag>
@@ -396,8 +396,8 @@
       </categories>
       <tags>
         <tag>tutorial</tag>
-        <tag>latex</tag>
         <tag>sublime_text_3</tag>
+        <tag>latex</tag>
         <tag>skim</tag>
       </tags>
   </entry>

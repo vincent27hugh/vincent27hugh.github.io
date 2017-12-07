@@ -51,13 +51,13 @@
          
         <tag>machine_learning</tag>
          
+        <tag>natural_language_processing</tag>
+         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
          
         <tag>faicon</tag>
-         
-        <tag>natural_language_processing</tag>
          
          
            
@@ -77,9 +77,9 @@
         <title>如何管理文献:Mendeley小技巧</title>
         <pubTime>2017-11-11T16:00:00.000Z</pubTime>
         
-        <tag>faicon</tag>
-         
         <tag>image</tag>
+         
+        <tag>faicon</tag>
          
         <tag>mendeley</tag>
          
@@ -163,13 +163,13 @@
         
         <tag>machine_learning</tag>
          
-        <tag>sentiment_analysis</tag>
-         
         <tag>natural_language_processing</tag>
          
         <tag>hexo_pdf</tag>
          
         <tag>image</tag>
+         
+        <tag>sentiment_analysis</tag>
          
          
            
@@ -225,9 +225,9 @@
         
         <tag>tutorial</tag>
          
-        <tag>latex</tag>
-         
         <tag>sublime_text_3</tag>
+         
+        <tag>latex</tag>
          
         <tag>skim</tag>
          
@@ -253,13 +253,13 @@
          
         <tag>information_system</tag>
          
-        <tag>sentiment_analysis</tag>
-         
-        <tag>literature_review</tag>
-         
         <tag>finance</tag>
          
         <tag>image</tag>
+         
+        <tag>sentiment_analysis</tag>
+         
+        <tag>literature_review</tag>
          
         <tag>mathjax</tag>
          
@@ -344,11 +344,11 @@
         
         <tag>research</tag>
          
+        <tag>image</tag>
+         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
-         
-        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -376,11 +376,11 @@
         
         <tag>research</tag>
          
+        <tag>image</tag>
+         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
-         
-        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -530,11 +530,9 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
-        <tag>faicon</tag>
-         
         <tag>image</tag>
          
-        <tag>r_language</tag>
+        <tag>faicon</tag>
          
         <tag>nonlinear_equations</tag>
          
@@ -545,6 +543,8 @@
         <tag>fortran</tag>
          
         <tag>python</tag>
+         
+        <tag>r_language</tag>
          
         <tag>mathematica</tag>
          
@@ -572,8 +572,6 @@
          
         <tag>machine_learning</tag>
          
-        <tag>natural_language_processing</tag>
-         
         <tag>statistics</tag>
          
         <tag>mathematics</tag>
@@ -587,6 +585,8 @@
         <tag>finance</tag>
          
         <tag>deep_learning</tag>
+         
+        <tag>natural_language_processing</tag>
          
         <tag>open_course</tag>
          
