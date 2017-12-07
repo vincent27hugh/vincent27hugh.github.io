@@ -4,6 +4,54 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
+    <lastmod>2017-12-07T09:38:30.000Z</lastmod>
+    <data>
+        <display>
+        <title>2017-18 Open-Course Challenges</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>machine_learning</tag>
+         
+        <tag>natural_language_processing</tag>
+         
+        <tag>information_system</tag>
+         
+        <tag>statistics</tag>
+         
+        <tag>mathematics</tag>
+         
+        <tag>github</tag>
+         
+        <tag>artificial_intelligence</tag>
+         
+        <tag>economics</tag>
+         
+        <tag>finance</tag>
+         
+        <tag>deep_learning</tag>
+         
+        <tag>open_course</tag>
+         
+        <tag>hexo_pdf</tag>
+         
+        <tag>markdown_table</tag>
+         
+        <tag>span_id_anchor</tag>
+         
+        <tag>image</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
     <lastmod>2017-12-06T12:41:14.000Z</lastmod>
     <data>
@@ -11,9 +59,13 @@
         <title>NEVERLAND - Blog Logs</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>study</tag>
-         
         <tag>research</tag>
+         
+        <tag>machine_learning</tag>
+         
+        <tag>information_system</tag>
+         
+        <tag>study</tag>
          
         <tag>blog</tag>
          
@@ -22,10 +74,6 @@
         <tag>hexo</tag>
          
         <tag>notes</tag>
-         
-        <tag>information_system</tag>
-         
-        <tag>machine_learning</tag>
          
         <tag>music</tag>
          
@@ -49,15 +97,15 @@
         
         <tag>research</tag>
          
-        <tag>machine_learning</tag>
-         
-        <tag>natural_language_processing</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
          
         <tag>faicon</tag>
+         
+        <tag>machine_learning</tag>
+         
+        <tag>natural_language_processing</tag>
          
          
            
@@ -77,9 +125,9 @@
         <title>如何管理文献:Mendeley小技巧</title>
         <pubTime>2017-11-11T16:00:00.000Z</pubTime>
         
-        <tag>image</tag>
-         
         <tag>faicon</tag>
+         
+        <tag>image</tag>
          
         <tag>mendeley</tag>
          
@@ -161,6 +209,8 @@
         <title>Introduction to Sentiment Analysis</title>
         <pubTime>2017-10-22T16:00:00.000Z</pubTime>
         
+        <tag>sentiment_analysis</tag>
+         
         <tag>machine_learning</tag>
          
         <tag>natural_language_processing</tag>
@@ -168,8 +218,6 @@
         <tag>hexo_pdf</tag>
          
         <tag>image</tag>
-         
-        <tag>sentiment_analysis</tag>
          
          
            
@@ -225,9 +273,9 @@
         
         <tag>tutorial</tag>
          
-        <tag>latex</tag>
-         
         <tag>sublime_text_3</tag>
+         
+        <tag>latex</tag>
          
         <tag>skim</tag>
          
@@ -251,15 +299,15 @@
         
         <tag>research</tag>
          
+        <tag>sentiment_analysis</tag>
+         
+        <tag>literature_review</tag>
+         
         <tag>information_system</tag>
          
         <tag>finance</tag>
          
         <tag>image</tag>
-         
-        <tag>sentiment_analysis</tag>
-         
-        <tag>literature_review</tag>
          
         <tag>mathjax</tag>
          
@@ -344,11 +392,11 @@
         
         <tag>research</tag>
          
-        <tag>image</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
+         
+        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -376,11 +424,11 @@
         
         <tag>research</tag>
          
-        <tag>image</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
+         
+        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -414,17 +462,17 @@
         
         <tag>research</tag>
          
-        <tag>information_system</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
          
+        <tag>information_system</tag>
+         
+        <tag>mathjax</tag>
+         
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
-         
-        <tag>mathjax</tag>
          
          
            
@@ -530,13 +578,11 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
-        <tag>image</tag>
-         
         <tag>faicon</tag>
          
-        <tag>r_language</tag>
+        <tag>image</tag>
          
-        <tag>mathjax</tag>
+        <tag>r_language</tag>
          
         <tag>nonlinear_equations</tag>
          
@@ -550,53 +596,7 @@
          
         <tag>mathematica</tag>
          
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-11-25T16:46:38.000Z</lastmod>
-    <data>
-        <display>
-        <title>2017-18 Open-Course Challenges</title>
-        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
-        
-        <tag>information_system</tag>
-         
-        <tag>machine_learning</tag>
-         
-        <tag>statistics</tag>
-         
-        <tag>mathematics</tag>
-         
-        <tag>github</tag>
-         
-        <tag>artificial_intelligence</tag>
-         
-        <tag>economics</tag>
-         
-        <tag>finance</tag>
-         
-        <tag>deep_learning</tag>
-         
-        <tag>natural_language_processing</tag>
-         
-        <tag>open_course</tag>
-         
-        <tag>hexo_pdf</tag>
-         
-        <tag>markdown_table</tag>
-         
-        <tag>span_id_anchor</tag>
-         
-        <tag>image</tag>
+        <tag>mathjax</tag>
          
          
            
@@ -616,9 +616,9 @@
         <title>Using MATLAB to batch search #citation of IS papers</title>
         <pubTime>2017-09-18T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>faicon</tag>
+         
+        <tag>information_system</tag>
          
         <tag>matlab</tag>
          
@@ -644,11 +644,11 @@
         <title>20171104 Notes: Reputation System, Data Types, Variable Types</title>
         <pubTime>2017-11-03T16:00:00.000Z</pubTime>
         
-        <tag>notes</tag>
-         
         <tag>markdown_table</tag>
          
         <tag>image</tag>
+         
+        <tag>notes</tag>
          
         <tag>reputation_system</tag>
          
@@ -676,9 +676,9 @@
         
         <tag>research</tag>
          
-        <tag>notes</tag>
-         
         <tag>economics</tag>
+         
+        <tag>notes</tag>
          
         <tag>mathjax</tag>
          
@@ -723,9 +723,9 @@
         <title>Experiments in IS research</title>
         <pubTime>2017-09-10T16:00:00.000Z</pubTime>
         
-        <tag>notes</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>notes</tag>
          
          
            
@@ -767,9 +767,9 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>hexo</tag>
-         
         <tag>github</tag>
+         
+        <tag>hexo</tag>
          
         <tag>tutorial</tag>
          
