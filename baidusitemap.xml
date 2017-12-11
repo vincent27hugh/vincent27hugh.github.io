@@ -4,6 +4,54 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
+    <lastmod>2017-12-11T03:47:23.000Z</lastmod>
+    <data>
+        <display>
+        <title>2017-18 Open-Course Challenges</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>machine_learning</tag>
+         
+        <tag>natural_language_processing</tag>
+         
+        <tag>deep_learning</tag>
+         
+        <tag>information_system</tag>
+         
+        <tag>statistics</tag>
+         
+        <tag>mathematics</tag>
+         
+        <tag>github</tag>
+         
+        <tag>artificial_intelligence</tag>
+         
+        <tag>economics</tag>
+         
+        <tag>finance</tag>
+         
+        <tag>open_course</tag>
+         
+        <tag>hexo_pdf</tag>
+         
+        <tag>markdown_table</tag>
+         
+        <tag>span_id_anchor</tag>
+         
+        <tag>image</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/IS_reseources/</loc>
     <lastmod>2017-12-08T04:51:30.000Z</lastmod>
     <data>
@@ -30,54 +78,6 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-12-07T09:38:30.000Z</lastmod>
-    <data>
-        <display>
-        <title>2017-18 Open-Course Challenges</title>
-        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
-        
-        <tag>information_system</tag>
-         
-        <tag>machine_learning</tag>
-         
-        <tag>natural_language_processing</tag>
-         
-        <tag>deep_learning</tag>
-         
-        <tag>markdown_table</tag>
-         
-        <tag>image</tag>
-         
-        <tag>github</tag>
-         
-        <tag>hexo_pdf</tag>
-         
-        <tag>statistics</tag>
-         
-        <tag>mathematics</tag>
-         
-        <tag>artificial_intelligence</tag>
-         
-        <tag>economics</tag>
-         
-        <tag>finance</tag>
-         
-        <tag>open_course</tag>
-         
-        <tag>span_id_anchor</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
     <lastmod>2017-12-06T12:41:14.000Z</lastmod>
     <data>
@@ -85,21 +85,21 @@
         <title>NEVERLAND - Blog Logs</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>study</tag>
-         
         <tag>research</tag>
+         
+        <tag>machine_learning</tag>
+         
+        <tag>information_system</tag>
+         
+        <tag>notes</tag>
+         
+        <tag>study</tag>
          
         <tag>blog</tag>
          
         <tag>logs</tag>
          
         <tag>hexo</tag>
-         
-        <tag>notes</tag>
-         
-        <tag>information_system</tag>
-         
-        <tag>machine_learning</tag>
          
         <tag>music</tag>
          
@@ -123,13 +123,13 @@
         
         <tag>research</tag>
          
-        <tag>machine_learning</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
          
         <tag>faicon</tag>
+         
+        <tag>machine_learning</tag>
          
         <tag>natural_language_processing</tag>
          
@@ -209,15 +209,15 @@
         <title>Introduction to Sentiment Analysis</title>
         <pubTime>2017-10-22T16:00:00.000Z</pubTime>
         
-        <tag>machine_learning</tag>
-         
         <tag>sentiment_analysis</tag>
+         
+        <tag>machine_learning</tag>
          
         <tag>natural_language_processing</tag>
          
-        <tag>image</tag>
-         
         <tag>hexo_pdf</tag>
+         
+        <tag>image</tag>
          
          
            
@@ -299,21 +299,21 @@
         
         <tag>research</tag>
          
-        <tag>information_system</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
          
-        <tag>image</tag>
+        <tag>information_system</tag>
          
         <tag>finance</tag>
+         
+        <tag>image</tag>
+         
+        <tag>mathjax</tag>
          
         <tag>opinion_mining</tag>
          
         <tag>time_series</tag>
-         
-        <tag>mathjax</tag>
          
          
            
@@ -430,9 +430,9 @@
          
         <tag>image</tag>
          
-        <tag>opinion_mining</tag>
-         
         <tag>mathjax</tag>
+         
+        <tag>opinion_mining</tag>
          
         <tag>feature_engineering</tag>
          
@@ -462,11 +462,11 @@
         
         <tag>research</tag>
          
-        <tag>information_system</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
+         
+        <tag>information_system</tag>
          
         <tag>mathjax</tag>
          
@@ -492,9 +492,9 @@
         <title>Robo-Advisor Introduction</title>
         <pubTime>2017-09-13T16:00:00.000Z</pubTime>
         
-        <tag>tbc</tag>
-         
         <tag>hexo_pdf</tag>
+         
+        <tag>tbc</tag>
          
         <tag>robo_advisor</tag>
          
@@ -542,11 +542,11 @@
         <title>20171117 Notes: Stochastic Process, Parameter Estimation, PDE</title>
         <pubTime>2017-11-17T16:00:00.000Z</pubTime>
         
-        <tag>image</tag>
+        <tag>mathematics</tag>
          
         <tag>hexo_pdf</tag>
          
-        <tag>mathematics</tag>
+        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -582,10 +582,6 @@
          
         <tag>image</tag>
          
-        <tag>r_language</tag>
-         
-        <tag>mathjax</tag>
-         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
@@ -596,7 +592,11 @@
          
         <tag>python</tag>
          
+        <tag>r_language</tag>
+         
         <tag>mathematica</tag>
+         
+        <tag>mathjax</tag>
          
          
            
@@ -616,9 +616,9 @@
         <title>Using MATLAB to batch search #citation of IS papers</title>
         <pubTime>2017-09-18T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>faicon</tag>
+         
+        <tag>information_system</tag>
          
         <tag>matlab</tag>
          
@@ -646,15 +646,15 @@
         
         <tag>notes</tag>
          
+        <tag>markdown_table</tag>
+         
+        <tag>image</tag>
+         
         <tag>reputation_system</tag>
          
         <tag>variable_type</tag>
          
         <tag>data_type</tag>
-         
-        <tag>markdown_table</tag>
-         
-        <tag>image</tag>
          
          
            
@@ -723,9 +723,9 @@
         <title>Experiments in IS research</title>
         <pubTime>2017-09-10T16:00:00.000Z</pubTime>
         
-        <tag>notes</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>notes</tag>
          
          
            
@@ -767,11 +767,11 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>hexo</tag>
-         
         <tag>tutorial</tag>
          
         <tag>github</tag>
+         
+        <tag>hexo</tag>
          
          
            

@@ -34,13 +34,13 @@
     
       <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
     
-      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
-    
       <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
       <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
     
       <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
+    
+      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
     
       <category term="natural_language_processing" scheme="http://blog.baoduge.com/tags/natural-language-processing/"/>
     
@@ -128,11 +128,11 @@
       <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
-      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
+      <category term="mathematics" scheme="http://blog.baoduge.com/tags/mathematics/"/>
     
       <category term="hexo_pdf" scheme="http://blog.baoduge.com/tags/hexo-pdf/"/>
     
-      <category term="mathematics" scheme="http://blog.baoduge.com/tags/mathematics/"/>
+      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
     
       <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
@@ -168,10 +168,6 @@
     
       <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
     
-      <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
-    
-      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
-    
       <category term="nonlinear_equations" scheme="http://blog.baoduge.com/tags/nonlinear-equations/"/>
     
       <category term="numerical_analysis" scheme="http://blog.baoduge.com/tags/numerical-analysis/"/>
@@ -182,7 +178,11 @@
     
       <category term="python" scheme="http://blog.baoduge.com/tags/python/"/>
     
+      <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
+    
       <category term="mathematica" scheme="http://blog.baoduge.com/tags/mathematica/"/>
+    
+      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
   </entry>
   
@@ -256,15 +256,15 @@
     
       <category term="notes" scheme="http://blog.baoduge.com/tags/notes/"/>
     
+      <category term="markdown_table" scheme="http://blog.baoduge.com/tags/markdown-table/"/>
+    
+      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
+    
       <category term="reputation_system" scheme="http://blog.baoduge.com/tags/reputation-system/"/>
     
       <category term="variable_type" scheme="http://blog.baoduge.com/tags/variable-type/"/>
     
       <category term="data_type" scheme="http://blog.baoduge.com/tags/data-type/"/>
-    
-      <category term="markdown_table" scheme="http://blog.baoduge.com/tags/markdown-table/"/>
-    
-      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
     
   </entry>
   
@@ -292,9 +292,9 @@
     
       <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
     
-      <category term="opinion_mining" scheme="http://blog.baoduge.com/tags/opinion-mining/"/>
-    
       <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
+    
+      <category term="opinion_mining" scheme="http://blog.baoduge.com/tags/opinion-mining/"/>
     
       <category term="feature_engineering" scheme="http://blog.baoduge.com/tags/feature-engineering/"/>
     
@@ -324,21 +324,21 @@
     
       <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
     
-      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
-    
       <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
       <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
     
-      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
+      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
     
       <category term="finance" scheme="http://blog.baoduge.com/tags/finance/"/>
+    
+      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
+    
+      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
       <category term="opinion_mining" scheme="http://blog.baoduge.com/tags/opinion-mining/"/>
     
       <category term="time_series" scheme="http://blog.baoduge.com/tags/time-series/"/>
-    
-      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
   </entry>
   
@@ -360,11 +360,11 @@
     
       <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
     
-      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
-    
       <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
       <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
+    
+      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
     
       <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
@@ -466,15 +466,15 @@
       <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
-      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
-    
       <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
+    
+      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
     
       <category term="natural_language_processing" scheme="http://blog.baoduge.com/tags/natural-language-processing/"/>
     
-      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
-    
       <category term="hexo_pdf" scheme="http://blog.baoduge.com/tags/hexo-pdf/"/>
+    
+      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
     
   </entry>
   
@@ -556,9 +556,9 @@
       <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
-      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
-    
       <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
+    
+      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
     
       <category term="matlab" scheme="http://blog.baoduge.com/tags/matlab/"/>
     
@@ -584,9 +584,9 @@
       <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
-      <category term="tbc" scheme="http://blog.baoduge.com/tags/tbc/"/>
-    
       <category term="hexo_pdf" scheme="http://blog.baoduge.com/tags/hexo-pdf/"/>
+    
+      <category term="tbc" scheme="http://blog.baoduge.com/tags/tbc/"/>
     
       <category term="robo_advisor" scheme="http://blog.baoduge.com/tags/robo-advisor/"/>
     
@@ -595,24 +595,50 @@
   </entry>
   
   <entry>
-    <title>区块链现状</title>
-    <link href="http://blog.baoduge.com/current_blockchain/"/>
-    <id>http://blog.baoduge.com/current_blockchain/</id>
+    <title>2017-18 Open-Course Challenges</title>
+    <link href="http://blog.baoduge.com/2017_Study_Plan/"/>
+    <id>http://blog.baoduge.com/2017_Study_Plan/</id>
     <published>2017-09-11T16:00:00.000Z</published>
-    <updated>2017-11-25T16:40:24.000Z</updated>
+    <updated>2017-12-11T03:47:23.000Z</updated>
     
     <summary type="html">
     
-      This is the notes of one talk about Bloack chain.
+      This is some useful study materials that I collect and I am interested in.
     
     </summary>
     
-      <category term="中文" scheme="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+      <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
-      <category term="bloackchain" scheme="http://blog.baoduge.com/tags/bloackchain/"/>
+      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
     
-      <category term="font" scheme="http://blog.baoduge.com/tags/font/"/>
+      <category term="natural_language_processing" scheme="http://blog.baoduge.com/tags/natural-language-processing/"/>
+    
+      <category term="deep_learning" scheme="http://blog.baoduge.com/tags/deep-learning/"/>
+    
+      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
+    
+      <category term="statistics" scheme="http://blog.baoduge.com/tags/statistics/"/>
+    
+      <category term="mathematics" scheme="http://blog.baoduge.com/tags/mathematics/"/>
+    
+      <category term="github" scheme="http://blog.baoduge.com/tags/github/"/>
+    
+      <category term="artificial_intelligence" scheme="http://blog.baoduge.com/tags/artificial-intelligence/"/>
+    
+      <category term="economics" scheme="http://blog.baoduge.com/tags/economics/"/>
+    
+      <category term="finance" scheme="http://blog.baoduge.com/tags/finance/"/>
+    
+      <category term="open_course" scheme="http://blog.baoduge.com/tags/open-course/"/>
+    
+      <category term="hexo_pdf" scheme="http://blog.baoduge.com/tags/hexo-pdf/"/>
+    
+      <category term="markdown_table" scheme="http://blog.baoduge.com/tags/markdown-table/"/>
+    
+      <category term="span_id_anchor" scheme="http://blog.baoduge.com/tags/span-id-anchor/"/>
+    
+      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
     
   </entry>
   
