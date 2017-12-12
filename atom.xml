@@ -81,6 +81,40 @@
   </entry>
   
   <entry>
+    <title>20171123 Notes: Application of Stochastic Structure Model: Control of Negative Reviews</title>
+    <link href="http://blog.baoduge.com/notes_CCSMA2/"/>
+    <id>http://blog.baoduge.com/notes_CCSMA2/</id>
+    <published>2017-11-22T16:00:00.000Z</published>
+    <updated>2017-12-12T08:10:30.000Z</updated>
+    
+    <summary type="html">
+    
+      This is the notes of ...
+    
+    </summary>
+    
+      <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
+    
+    
+      <category term="mathematics" scheme="http://blog.baoduge.com/tags/mathematics/"/>
+    
+      <category term="hexo_pdf" scheme="http://blog.baoduge.com/tags/hexo-pdf/"/>
+    
+      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
+    
+      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
+    
+      <category term="stochastic_process" scheme="http://blog.baoduge.com/tags/stochastic-process/"/>
+    
+      <category term="parameter_estimation" scheme="http://blog.baoduge.com/tags/parameter-estimation/"/>
+    
+      <category term="pde" scheme="http://blog.baoduge.com/tags/pde/"/>
+    
+      <category term="control_theory" scheme="http://blog.baoduge.com/tags/control-theory/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Literature Review: Predicting the Semantic Orientation of Adjectives</title>
     <link href="http://blog.baoduge.com/SA_FN4/"/>
     <id>http://blog.baoduge.com/SA_FN4/</id>
@@ -168,6 +202,8 @@
     
       <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
     
+      <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
+    
       <category term="nonlinear_equations" scheme="http://blog.baoduge.com/tags/nonlinear-equations/"/>
     
       <category term="numerical_analysis" scheme="http://blog.baoduge.com/tags/numerical-analysis/"/>
@@ -177,8 +213,6 @@
       <category term="fortran" scheme="http://blog.baoduge.com/tags/fortran/"/>
     
       <category term="python" scheme="http://blog.baoduge.com/tags/python/"/>
-    
-      <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
     
       <category term="mathematica" scheme="http://blog.baoduge.com/tags/mathematica/"/>
     
@@ -591,54 +625,6 @@
       <category term="robo_advisor" scheme="http://blog.baoduge.com/tags/robo-advisor/"/>
     
       <category term="fintech" scheme="http://blog.baoduge.com/tags/fintech/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2017-18 Open-Course Challenges</title>
-    <link href="http://blog.baoduge.com/2017_Study_Plan/"/>
-    <id>http://blog.baoduge.com/2017_Study_Plan/</id>
-    <published>2017-09-11T16:00:00.000Z</published>
-    <updated>2017-12-11T03:47:23.000Z</updated>
-    
-    <summary type="html">
-    
-      This is some useful study materials that I collect and I am interested in.
-    
-    </summary>
-    
-      <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
-    
-    
-      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
-    
-      <category term="natural_language_processing" scheme="http://blog.baoduge.com/tags/natural-language-processing/"/>
-    
-      <category term="deep_learning" scheme="http://blog.baoduge.com/tags/deep-learning/"/>
-    
-      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
-    
-      <category term="statistics" scheme="http://blog.baoduge.com/tags/statistics/"/>
-    
-      <category term="mathematics" scheme="http://blog.baoduge.com/tags/mathematics/"/>
-    
-      <category term="github" scheme="http://blog.baoduge.com/tags/github/"/>
-    
-      <category term="artificial_intelligence" scheme="http://blog.baoduge.com/tags/artificial-intelligence/"/>
-    
-      <category term="economics" scheme="http://blog.baoduge.com/tags/economics/"/>
-    
-      <category term="finance" scheme="http://blog.baoduge.com/tags/finance/"/>
-    
-      <category term="open_course" scheme="http://blog.baoduge.com/tags/open-course/"/>
-    
-      <category term="hexo_pdf" scheme="http://blog.baoduge.com/tags/hexo-pdf/"/>
-    
-      <category term="markdown_table" scheme="http://blog.baoduge.com/tags/markdown-table/"/>
-    
-      <category term="span_id_anchor" scheme="http://blog.baoduge.com/tags/span-id-anchor/"/>
-    
-      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
     
   </entry>
   
