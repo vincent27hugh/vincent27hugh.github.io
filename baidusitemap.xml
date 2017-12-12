@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/notes_CCSMA2/</loc>
-    <lastmod>2017-12-12T08:10:30.000Z</lastmod>
+    <lastmod>2017-12-12T08:13:43.000Z</lastmod>
     <data>
         <display>
         <title>20171123 Notes: Application of Stochastic Structure Model: Control of Negative Reviews</title>
@@ -38,6 +38,42 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/notes_CCSMA/</loc>
+    <lastmod>2017-12-12T08:13:11.000Z</lastmod>
+    <data>
+        <display>
+        <title>20171117 Notes: Stochastic Process, Parameter Estimation, PDE</title>
+        <pubTime>2017-11-17T16:00:00.000Z</pubTime>
+        
+        <tag>mathematics</tag>
+         
+        <tag>hexo_pdf</tag>
+         
+        <tag>image</tag>
+         
+        <tag>mathjax</tag>
+         
+        <tag>stochastic_process</tag>
+         
+        <tag>parameter_estimation</tag>
+         
+        <tag>pde</tag>
+         
+        <tag>control_theory</tag>
+         
+        <tag>video</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
     <lastmod>2017-12-11T03:47:23.000Z</lastmod>
     <data>
@@ -45,10 +81,6 @@
         <title>2017-18 Open-Course Challenges</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>machine_learning</tag>
-         
-        <tag>natural_language_processing</tag>
-         
         <tag>information_system</tag>
          
         <tag>statistics</tag>
@@ -57,6 +89,8 @@
          
         <tag>github</tag>
          
+        <tag>machine_learning</tag>
+         
         <tag>artificial_intelligence</tag>
          
         <tag>economics</tag>
@@ -64,6 +98,8 @@
         <tag>finance</tag>
          
         <tag>deep_learning</tag>
+         
+        <tag>natural_language_processing</tag>
          
         <tag>open_course</tag>
          
@@ -93,13 +129,13 @@
         <title>Resources & Tools of Information System Research</title>
         <pubTime>2017-10-23T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>information_system</tag>
          
         <tag>markdown_table</tag>
          
         <tag>image</tag>
+         
+        <tag>research</tag>
          
          
            
@@ -119,11 +155,11 @@
         <title>NEVERLAND - Blog Logs</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
+        <tag>information_system</tag>
          
         <tag>machine_learning</tag>
          
-        <tag>information_system</tag>
+        <tag>research</tag>
          
         <tag>notes</tag>
          
@@ -155,6 +191,10 @@
         <title>ToDo List: Reference List of Project IS8002-SA</title>
         <pubTime>2017-11-24T16:00:00.000Z</pubTime>
         
+        <tag>machine_learning</tag>
+         
+        <tag>natural_language_processing</tag>
+         
         <tag>research</tag>
          
         <tag>sentiment_analysis</tag>
@@ -162,10 +202,6 @@
         <tag>literature_review</tag>
          
         <tag>faicon</tag>
-         
-        <tag>machine_learning</tag>
-         
-        <tag>natural_language_processing</tag>
          
          
            
@@ -185,9 +221,9 @@
         <title>如何管理文献:Mendeley小技巧</title>
         <pubTime>2017-11-11T16:00:00.000Z</pubTime>
         
-        <tag>faicon</tag>
-         
         <tag>image</tag>
+         
+        <tag>faicon</tag>
          
         <tag>mendeley</tag>
          
@@ -243,8 +279,6 @@
         <title>Introduction to Sentiment Analysis</title>
         <pubTime>2017-10-22T16:00:00.000Z</pubTime>
         
-        <tag>sentiment_analysis</tag>
-         
         <tag>machine_learning</tag>
          
         <tag>natural_language_processing</tag>
@@ -252,6 +286,8 @@
         <tag>hexo_pdf</tag>
          
         <tag>image</tag>
+         
+        <tag>sentiment_analysis</tag>
          
          
            
@@ -307,9 +343,9 @@
         
         <tag>tutorial</tag>
          
-        <tag>sublime_text_3</tag>
-         
         <tag>latex</tag>
+         
+        <tag>sublime_text_3</tag>
          
         <tag>skim</tag>
          
@@ -331,17 +367,17 @@
         <title>Literature Review on Social Media in Financial Market</title>
         <pubTime>2017-11-01T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
-        <tag>sentiment_analysis</tag>
-         
-        <tag>literature_review</tag>
-         
         <tag>information_system</tag>
          
         <tag>finance</tag>
          
         <tag>image</tag>
+         
+        <tag>research</tag>
+         
+        <tag>sentiment_analysis</tag>
+         
+        <tag>literature_review</tag>
          
         <tag>mathjax</tag>
          
@@ -424,13 +460,13 @@
         <title>Literature Review: Predicting the Semantic Orientation of Adjectives</title>
         <pubTime>2017-11-20T16:00:00.000Z</pubTime>
         
+        <tag>image</tag>
+         
         <tag>research</tag>
          
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
-         
-        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -456,13 +492,13 @@
         <title>Literature Review on Special Paper: Feature Engineering + Neural Network</title>
         <pubTime>2017-11-02T16:00:00.000Z</pubTime>
         
+        <tag>image</tag>
+         
         <tag>research</tag>
          
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
-         
-        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -494,19 +530,19 @@
         <title>Literature Review on UGC/WOM</title>
         <pubTime>2017-10-30T16:00:00.000Z</pubTime>
         
+        <tag>information_system</tag>
+         
         <tag>research</tag>
          
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
          
-        <tag>information_system</tag>
-         
-        <tag>mathjax</tag>
-         
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
+         
+        <tag>mathjax</tag>
          
          
            
@@ -569,42 +605,6 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/notes_CCSMA/</loc>
-    <lastmod>2017-11-25T16:49:17.000Z</lastmod>
-    <data>
-        <display>
-        <title>20171117 Notes: Stochastic Process, Parameter Estimation, PDE</title>
-        <pubTime>2017-11-17T16:00:00.000Z</pubTime>
-        
-        <tag>mathematics</tag>
-         
-        <tag>hexo_pdf</tag>
-         
-        <tag>image</tag>
-         
-        <tag>mathjax</tag>
-         
-        <tag>stochastic_process</tag>
-         
-        <tag>parameter_estimation</tag>
-         
-        <tag>pde</tag>
-         
-        <tag>control_theory</tag>
-         
-        <tag>video</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.baoduge.com/NonlinearEquations/</loc>
     <lastmod>2017-11-25T16:48:23.000Z</lastmod>
     <data>
@@ -612,11 +612,13 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
-        <tag>faicon</tag>
-         
         <tag>image</tag>
          
+        <tag>faicon</tag>
+         
         <tag>r_language</tag>
+         
+        <tag>mathjax</tag>
          
         <tag>nonlinear_equations</tag>
          
@@ -629,8 +631,6 @@
         <tag>python</tag>
          
         <tag>mathematica</tag>
-         
-        <tag>mathjax</tag>
          
          
            
@@ -650,9 +650,9 @@
         <title>Using MATLAB to batch search #citation of IS papers</title>
         <pubTime>2017-09-18T16:00:00.000Z</pubTime>
         
-        <tag>faicon</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>faicon</tag>
          
         <tag>matlab</tag>
          
@@ -678,11 +678,11 @@
         <title>20171104 Notes: Reputation System, Data Types, Variable Types</title>
         <pubTime>2017-11-03T16:00:00.000Z</pubTime>
         
-        <tag>notes</tag>
-         
         <tag>markdown_table</tag>
          
         <tag>image</tag>
+         
+        <tag>notes</tag>
          
         <tag>reputation_system</tag>
          
@@ -708,11 +708,11 @@
         <title>Can online scoring really reflects the rankings of products?</title>
         <pubTime>2017-10-29T16:00:00.000Z</pubTime>
         
+        <tag>economics</tag>
+         
         <tag>research</tag>
          
         <tag>notes</tag>
-         
-        <tag>economics</tag>
          
         <tag>mathjax</tag>
          
@@ -803,9 +803,9 @@
         
         <tag>github</tag>
          
-        <tag>hexo</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>hexo</tag>
          
          
            
