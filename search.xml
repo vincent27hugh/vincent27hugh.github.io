@@ -37,7 +37,7 @@
   <entry>
     <title><![CDATA[20171123 Notes: Application of Stochastic Structure Model: Control of Negative Reviews]]></title>
     <url>%2Fnotes_CCSMA2%2F</url>
-    <content type="text"><![CDATA[Consider there is a firm $\mathcal{F}$ and on the website of this firm $\mathcal{F}$, customers can write their reviews and ratings on the website about this firm $\mathcal{F}$. What should the firm $\mathcal{F}$ do to suppress the negative effect of the negative reviews/ratings? How much effort should this firm make? What is the optimal strategy of response to the negative reviews/ratings? Q1. Why do the responses to the negative reviews help?A1. Customers need to browse the reviews and ratings to help them make their decision. There should be positive effect of responding to the negative reviews/ratings.Q2. Must there be positive effect of replying to negative reviews?A2. No. Some reviews might come from the irrational customers, thus replying to each negative reviews is not the optimal strategy. But there should be optimal strategy that could lead to positive effect. Abstract Model State $X(t)$: Average of last $N$ most recent ratings 3 forces driving the state $X(t)$: positive reviews negative reviews response to negative reviews Arrival of reviewsThe arrival of reviews should follow Poisson Distribution $\mathcal{P}(\lambda)$ For instance, an individual keeping track of the amount of mail they receive each day may notice that they receive an average number of 4 letters per day. If receiving any particular piece of mail does not affect the arrival times of future pieces of mail, i.e., if pieces of mail from a wide range of sources arrive independently of one another, then a reasonable assumption is that the number of pieces of mail received in a day obeys a Poisson distribution.1 Comparison between Poisson Distribution and Binomial Distribution Poisson Distribution $\mathcal{P}(\lambda)$: PMF: $\mathbb{P}(X=k) = \frac{e^{\lambda} \lambda^k}{k!}$, $ k \in {0,1,2,&#x2026;}$ Expectation: $\lambda$ Variance: $\lambda$ MGF: $e^{\lambda(e^{t} - 1)}$ Binomial Distribution $\mathcal{B}(n,p)$: PMF: $\mathbb{P}(X=k) = \begin{pmatrix} n \\ k \end{pmatrix} p^k q^{n-k}$, $ k \in {0,1,2,&#x2026;}$ Expectation: $np$ Variance: $npq$ MGF: $(q+pe^t)^n$ Recommended Reading: Neverland|20171104 Notes - Data Types Table of Common Distributions - TAMU Stat Deriving Poisson Distribution from Binomial Distribution2Does subset of Poisson still follow Poisson Distribution?3: Question:Does $Y=k$ still follow Poisson Distribution?Proof: Marginalization: $\mathbb{P} (Y=k) = \sum_{r=k}^{+\infty} \mathbb{P} (X=r,Y=k) = \sum_{r=k}^{+\infty} \mathbb{P} (X=r) \cdot \mathbb{P} (Y=k|X=r)$; $\mathbb{P} (X=r)$ should be PMF of Poisson Distribution $\mathcal{P}(\lambda)$ and $\mathbb{P} (Y=k|X=r)$ should be Binomial Distribution $\mathcal{B}(r,p)$;\mathbb{P} (Y=k) = \sum_{r=k}^{+\infty} \frac{e^{-\lambda} \lambda^r}{r!} \begin{pmatrix} r \\ k \end{pmatrix} p^k q^{r-k}= \sum_{r=k}^{+\infty} \frac{e^{-\lambda} \lambda^r}{r!} \frac{r!}{(r-k)!(k)!} p^k q^{r-k}= \frac{e^{-\lambda} p^k}{k!} \sum_{r=k}^{+\infty} \frac{\lambda^r q^{r-k}}{(r-k)!}\stackrel{s=r-k}{=} \frac{e^{-\lambda} (\lambda p)^k}{k!} \sum_{s=0}^{+\infty} \frac{\lambda^s q^{s}}{(s)!}= \frac{e^{-\lambda p} (\lambda p)^k}{k!} \sum_{s=0}^{+\infty} \frac{e^{-\lambda q} (\lambda q)^s}{(s)!}= \frac{e^{-\lambda p} (\lambda p)^k}{k!}which is MPF of Poisson Distribution $\mathcal{P}(\lambda p)$. Modeling the statedX(t) = (\rho \lambda (1-p)(b-X) - \beta \lambda \rho X + \alpha (b-X)) dt + \sigma sqrt{b-X} Force 1: Positive, $\rho \lambda (1-p)(b-X)$; Force 2: Negative, $\beta \lambda \rho X$; Force 3: Firm can control, $\alpha (b-X)$ $X_t$ is CIR process. Recommended Reading: Neverland|20171117 Notes: Stochastic Process, Parameter Estimation, PDE Data$X_t$ state: Average of last n most recent ratings, e.g. $n = 20$. Ctrip data of reviews and ratings from 2012.4 to 2014.6 DID Analysis: $\Delta r_j = \frac{1}{n} \sum_{i=j+1}^{j+n} r_i - \frac{1}{n} \sum_{i=j-n}^{j-1} r_i$, where $n$ is the window size. Measure improvement of ratings from response, $\Delta r_j$ increase after response.Average Similarity Scores using TF-IDF decrease after response.Length of negative review increase after response, which means that the cost of writing negative review increase. Chi-Square test Information Gain Ratio Receiver operating characteristic (ROC Curve) Propensity Score Matching (PSM):Rating_{i,j,t}= \begin{bmatrix} \beta_0 \\ \beta_1 \\ \beta_2 \\ \beta_3 \\ \end{bmatrix}^T \begin{bmatrix} 1 \\ Treatment_{i,j} \cdot Period_{i,j,t} \\ Treatment_{i,j} \\ Period_{i,j,t} \\ \end{bmatrix}+\delta_{j}+\epsilon_{i,j,t}Validation of Poisson DistributionQ-Q Plot Parameter Estimation$k_1, k_3, \sigma$ $\leftrightarrow$ $\alpha, \beta, \rho, p, \lambda, \sigma$ we don&#x2019;t care about $sigma$.$\lambda$: Review arrival rate;$p$: Prob{Negative Review} $\rightarrow$ separate $\beta$ out 3 equations and 5 parameters to be estimated: \left\{ \begin{aligned} k_1 = \alpha + \beta \lambda p + \rho \lambda (1-p) \\ k_3 = \frac{5 \beta \lambda p}{\alpha+\beta \lambda p + \rho \lambda (1-p)} \\ k_1 k_3 = 5 \beta \lambda p \end{aligned} \right.Go outside of the problem and find data, separate &#x201C;endogenous&#x201D;: When no response, $\alpha=0$ After response, $\alpha&gt;0$ In equation of $k_1$, we can separate $\alpha$ and $p$ Prediction compared with ARIMA/GARCH$ARIMA(p,q)$, $GARCH(p,q)$ $\stackrel{V.S.}{\Leftrightarrow}$ SDE Probability Response Strategy: Mean control Mean-Variance Control Service-level Control Recommended Reading: Baoduge|TIME SERIES ANALYSIS WITH ARIMA/GARCH MODEL 1. Statistics|The Poisson Distribution &#x21A9; 2. Medium|Deriving the Poisson Distribution from the Binomial Distribution &#x21A9; 3. CrossValidate|Is a subset of a Poisson process also following a Poisson process? &#x21A9;]]></content>
+    <content type="text"><![CDATA[Consider there is a firm $\mathcal{F}$ and on the website of this firm $\mathcal{F}$, customers can write their reviews and ratings on the website about this firm $\mathcal{F}$. What should the firm $\mathcal{F}$ do to suppress the negative effect of the negative reviews/ratings? How much effort should this firm make? What is the optimal strategy of response to the negative reviews/ratings? Q1. Why do the responses to the negative reviews help?A1. Customers need to browse the reviews and ratings to help them make their decision. There should be positive effect of responding to the negative reviews/ratings.Q2. Must there be positive effect of replying to negative reviews?A2. No. Some reviews might come from the irrational customers, thus replying to each negative reviews is not the optimal strategy. But there should be optimal strategy that could lead to positive effect. Abstract Model State $X(t)$: Average of last $N$ most recent ratings 3 forces driving the state $X(t)$: positive reviews negative reviews response to negative reviews Arrival of reviewsThe arrival of reviews should follow Poisson Distribution $\mathcal{P}(\lambda)$ For instance, an individual keeping track of the amount of mail they receive each day may notice that they receive an average number of 4 letters per day. If receiving any particular piece of mail does not affect the arrival times of future pieces of mail, i.e., if pieces of mail from a wide range of sources arrive independently of one another, then a reasonable assumption is that the number of pieces of mail received in a day obeys a Poisson distribution.1 Comparison between Poisson Distribution and Binomial Distribution Poisson Distribution $\mathcal{P}(\lambda)$: PMF: $\mathbb{P}(X=k) = \frac{e^{\lambda} \lambda^k}{k!}$, $ k \in {0,1,2,&#x2026;}$ Expectation: $\lambda$ Variance: $\lambda$ MGF: $e^{\lambda(e^{t} - 1)}$ Binomial Distribution $\mathcal{B}(n,p)$: PMF: $\mathbb{P}(X=k) = \begin{pmatrix} n \\ k \end{pmatrix} p^k q^{n-k}$, $ k \in {0,1,2,&#x2026;}$ Expectation: $np$ Variance: $npq$ MGF: $(q+pe^t)^n$ Recommended Reading: Neverland|20171104 Notes - Data Types Table of Common Distributions - TAMU Stat Deriving Poisson Distribution from Binomial Distribution2Does subset of Poisson still follow Poisson Distribution?3:$X = r$ follow Poisson Distribution $\mathcal{P}(\lambda)$, and select $Y = k$ with probability $p$ from $X$. Question:Does $Y=k$ still follow Poisson Distribution? If so, what kind of Poisson Distribution?Proof: Marginalization: $\mathbb{P} (Y=k) = \sum_{r=k}^{+\infty} \mathbb{P} (X=r,Y=k) = \sum_{r=k}^{+\infty} \mathbb{P} (X=r) \cdot \mathbb{P} (Y=k|X=r)$; $\mathbb{P} (X=r)$ should be PMF of Poisson Distribution $\mathcal{P}(\lambda)$ and $\mathbb{P} (Y=k|X=r)$ should be Binomial Distribution $\mathcal{B}(r,p)$;\mathbb{P} (Y=k) = \sum_{r=k}^{+\infty} \frac{e^{-\lambda} \lambda^r}{r!} \begin{pmatrix} r \\ k \end{pmatrix} p^k q^{r-k}= \sum_{r=k}^{+\infty} \frac{e^{-\lambda} \lambda^r}{r!} \frac{r!}{(r-k)!(k)!} p^k q^{r-k}= \frac{e^{-\lambda} p^k}{k!} \sum_{r=k}^{+\infty} \frac{\lambda^r q^{r-k}}{(r-k)!}\stackrel{s=r-k}{=} \frac{e^{-\lambda} (\lambda p)^k}{k!} \sum_{s=0}^{+\infty} \frac{\lambda^s q^{s}}{(s)!}= \frac{e^{-\lambda p} (\lambda p)^k}{k!} \sum_{s=0}^{+\infty} \frac{e^{-\lambda q} (\lambda q)^s}{(s)!}= \frac{e^{-\lambda p} (\lambda p)^k}{k!}which is MPF of Poisson Distribution $\mathcal{P}(\lambda p)$. Modeling the statedX(t) = (\rho \lambda (1-p)(b-X) - \beta \lambda \rho X + \alpha (b-X)) dt + \sigma sqrt{b-X} Force 1: Positive, $\rho \lambda (1-p)(b-X)$; Force 2: Negative, $\beta \lambda \rho X$; Force 3: Firm can control, $\alpha (b-X)$ $X_t$ is CIR process. Recommended Reading: Neverland|20171117 Notes: Stochastic Process, Parameter Estimation, PDE Data$X_t$ state: Average of last n most recent ratings, e.g. $n = 20$. Ctrip data of reviews and ratings from 2012.4 to 2014.6 DID Analysis: $\Delta r_j = \frac{1}{n} \sum_{i=j+1}^{j+n} r_i - \frac{1}{n} \sum_{i=j-n}^{j-1} r_i$, where $n$ is the window size. Measure improvement of ratings from response, $\Delta r_j$ increase after response.Average Similarity Scores using TF-IDF decrease after response.Length of negative review increase after response, which means that the cost of writing negative review increase. Chi-Square test Information Gain Ratio Receiver operating characteristic (ROC Curve) Propensity Score Matching (PSM):Rating_{i,j,t}= \begin{bmatrix} \beta_0 \\ \beta_1 \\ \beta_2 \\ \beta_3 \\ \end{bmatrix}^T \begin{bmatrix} 1 \\ Treatment_{i,j} \cdot Period_{i,j,t} \\ Treatment_{i,j} \\ Period_{i,j,t} \\ \end{bmatrix}+\delta_{j}+\epsilon_{i,j,t}Validation of Poisson DistributionQ-Q Plot Parameter Estimation$k_1, k_3, \sigma$ $\leftrightarrow$ $\alpha, \beta, \rho, p, \lambda, \sigma$ we don&#x2019;t care about $sigma$.$\lambda$: Review arrival rate;$p$: Prob{Negative Review} $\rightarrow$ separate $\beta$ out 3 equations and 5 parameters to be estimated: \left\{ \begin{aligned} k_1 = \alpha + \beta \lambda p + \rho \lambda (1-p) \\ k_3 = \frac{5 \beta \lambda p}{\alpha+\beta \lambda p + \rho \lambda (1-p)} \\ k_1 k_3 = 5 \beta \lambda p \end{aligned} \right.Go outside of the problem and find data, separate &#x201C;endogenous&#x201D;: When no response, $\alpha=0$ After response, $\alpha&gt;0$ In equation of $k_1$, we can separate $\alpha$ and $p$ Prediction compared with ARIMA/GARCH$ARIMA(p,q)$, $GARCH(p,q)$ $\stackrel{V.S.}{\Leftrightarrow}$ SDE Probability Response Strategy: Mean control Mean-Variance Control Service-level Control Recommended Reading: Baoduge|TIME SERIES ANALYSIS WITH ARIMA/GARCH MODEL 1. Statistics|The Poisson Distribution &#x21A9; 2. Medium|Deriving the Poisson Distribution from the Binomial Distribution &#x21A9; 3. CrossValidate|Is a subset of a Poisson process also following a Poisson process? &#x21A9;]]></content>
       <categories>
         <category>English</category>
       </categories>
@@ -98,12 +98,12 @@
       <tags>
         <tag>image</tag>
         <tag>faicon</tag>
+        <tag>r_language</tag>
         <tag>nonlinear_equations</tag>
         <tag>numerical_analysis</tag>
         <tag>matlab</tag>
         <tag>fortran</tag>
         <tag>python</tag>
-        <tag>r_language</tag>
         <tag>mathematica</tag>
         <tag>mathjax</tag>
       </tags>
@@ -132,8 +132,8 @@
       </categories>
       <tags>
         <tag>deep_learning</tag>
-        <tag>hardware</tag>
         <tag>tutorial</tag>
+        <tag>hardware</tag>
       </tags>
   </entry>
   <entry>
@@ -180,8 +180,8 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>research</tag>
         <tag>information_system</tag>
+        <tag>research</tag>
         <tag>finance</tag>
         <tag>image</tag>
         <tag>sentiment_analysis</tag>
@@ -199,8 +199,8 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>research</tag>
         <tag>information_system</tag>
+        <tag>research</tag>
         <tag>sentiment_analysis</tag>
         <tag>literature_review</tag>
         <tag>mathjax</tag>
@@ -213,8 +213,8 @@
     <url>%2Fexpectation_on_online%20scoring%2F</url>
     <content type="text"><![CDATA[Problem descriptionThere are lots of scenarios that we need to do evaluations, for example, online scoring of movies on IMDB or products on Amazon.com. Via the the online scoring, customers can easily judge which items they would like to choose. However, can this online score really reflect the rankings of quality of homogeneous products? We find that sometimes our expectations can have influences on our satisfaction of the items. And products with high expectations sometimes are more difficult to generate same level of satisfaction as production with low expectations. (Expectation and Satisfaction are subjective for each individual.) ExampleTake the scenario of E-commerce as an example. Expectations for buyers can be based on: the historical performance of sellers (such as sales); the reputation of sellers the historical performance and reputation of peers (Same business categories with similar product types); the price displayed; Based on these factors, customers might build their subjective expectations on the qualities of the products. Thus, the online scoring of the product might be based on the satisfaction which is the result of difference between expectation and true experience. NotationsThere are $n = 2$ sellers who sell the homogeneous products and $m$ buyers. $E_{ij}$ denotes the expectation of buyer $j$ for seller $i$, where $i=\{L,H\}$. We know that $E_{Lj} &lt; E_{Hj}$. There exist a space of real values of quality for products, $Q$. And the real value of quality for product sold by seller $i$ is $q_{i} \in Q$.We assume $q_{H} &lt; q_{L}$. (Why?) There are two stages: Pre-purchase and Post-purchase. Buyer $j$ generate $E_{ij}$ for seller $i$ after checking the information about seller $i$ and its product in the pre-purchase stage. Then after true experience of product, buyer $j$ generate the satisfaction $S_{ij}$ and online scoring $R_{ij}$ for seller i in the post-purchase stage. Satisfaction of buyer $j$ for seller $i$ is $S_{ij}$, which is the result of inconsistence between quality $q_{i}$ and expectation $E_{ij}$. We denoted it by $S_{ij} = f(q_{i} - E_{ij})$. The online score of buyer $j$ for seller $i$ is $R_{ij}$, which is the result of satisfaction $S_{ij}$ denoted by $R_{ij} = f_{S}(S_{ij})=f_{R}(q_{i} - E_{ij})$. Assume that $f_{R}$ is a monotonically increasing function. (Why? There are two assumptions: $R_{ij}$ is positive correlated to quality $q_i$; $R_{ij}$ is negative correlated to expectation $E_{ij}$;) However, it seems to be possible that $q_H-E_{Hj} &lt; q_L-E_{Lj}$ because of greater effect of $E_{Hj} &gt; E_{Lj}$, which would result in $R_{Hj} &lt; R_{Lj}$ for buyer $j$. ExplanationDoes this phenomena exist? In my opinion, this phenomena really exist. Make it more sensible, I use movie as example (Logics is same), before we watch a Chinese low-cost film, we have lower expectation than high-cost Hollywood films. Thus as long as the Chinese low-cost film has a little bit attractive highlights, we would give it a high evaluation, which might be higher than the high-cost Hollywood films. If so, how to explain it? My explanation is: sometimes our expectation is not only based on quality of items but also the peers&#x2019; performance and reputations. Even though, buyers would buy product which maximize the expected utility function value. Some uninformative or irrational buyers would still choose products with low reputation and low price. However, online review is short-time reflection on the product and might not present some perspectives of the product, such as durability. FutureWhen calculate the integrated score of sellers, we need take into consideration of peers performance and reputation. (Cluster) The expectation might be measurable via online sentiment analysis. Hope this is a good research idea.]]></content>
       <tags>
-        <tag>research</tag>
         <tag>notes</tag>
+        <tag>research</tag>
         <tag>economics</tag>
         <tag>mathjax</tag>
         <tag>online_scoring</tag>
@@ -241,8 +241,8 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>research</tag>
         <tag>information_system</tag>
+        <tag>research</tag>
         <tag>markdown_table</tag>
         <tag>image</tag>
       </tags>
@@ -332,13 +332,13 @@
         <category>中文</category>
       </categories>
       <tags>
+        <tag>information_system</tag>
+        <tag>notes</tag>
         <tag>study</tag>
         <tag>research</tag>
         <tag>blog</tag>
         <tag>logs</tag>
         <tag>hexo</tag>
-        <tag>notes</tag>
-        <tag>information_system</tag>
         <tag>machine_learning</tag>
         <tag>music</tag>
       </tags>
@@ -353,32 +353,19 @@
       <tags>
         <tag>information_system</tag>
         <tag>machine_learning</tag>
-        <tag>deep_learning</tag>
         <tag>statistics</tag>
         <tag>mathematics</tag>
         <tag>github</tag>
         <tag>artificial_intelligence</tag>
         <tag>economics</tag>
         <tag>finance</tag>
+        <tag>deep_learning</tag>
         <tag>natural_language_processing</tag>
         <tag>open_course</tag>
         <tag>hexo_pdf</tag>
         <tag>markdown_table</tag>
         <tag>span_id_anchor</tag>
         <tag>image</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[R语言的科学计算]]></title>
-    <url>%2FR_science_computing%2F</url>
-    <content type="text"><![CDATA[&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;R&#x8BED;&#x8A00;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x6C42;&#x89E3;dfsane,nleqslv&#x8BF7;&#x6559;&#xFF1A;R&#x8BED;&#x8A00;&#x6709;&#x6CA1;&#x6709;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x7684;&#x51FD;&#x6570;&#xFF01;&#x7528;R&#x8BED;&#x8A00;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;Package &#x2018;nleqslv&#x2019;BB: An R Package for Solving a Large System of Nonlinear Equations and for Optimizing a High-Dimensional Nonlinear Objective Function How to solve a non-linear equation using nleqslv package in R?Solving system of nonlinear equations in R]]></content>
-      <categories>
-        <category>中文</category>
-      </categories>
-      <tags>
-        <tag>r_language</tag>
-        <tag>tbc</tag>
-        <tag>science_computing</tag>
       </tags>
   </entry>
   <entry>
@@ -394,6 +381,19 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[R语言的科学计算]]></title>
+    <url>%2FR_science_computing%2F</url>
+    <content type="text"><![CDATA[&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;R&#x8BED;&#x8A00;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x6C42;&#x89E3;dfsane,nleqslv&#x8BF7;&#x6559;&#xFF1A;R&#x8BED;&#x8A00;&#x6709;&#x6CA1;&#x6709;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x7684;&#x51FD;&#x6570;&#xFF01;&#x7528;R&#x8BED;&#x8A00;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;Package &#x2018;nleqslv&#x2019;BB: An R Package for Solving a Large System of Nonlinear Equations and for Optimizing a High-Dimensional Nonlinear Objective Function How to solve a non-linear equation using nleqslv package in R?Solving system of nonlinear equations in R]]></content>
+      <categories>
+        <category>中文</category>
+      </categories>
+      <tags>
+        <tag>tbc</tag>
+        <tag>r_language</tag>
+        <tag>science_computing</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Experiments in IS research]]></title>
     <url>%2FCUHK_DSME6622_Lec2%2F</url>
     <content type="text"><![CDATA[Bullet PointsCUHK-DSME6622: Advanced MIS Research Seminar Proposal each course (10 min each); There is reading list; About Econometrics of IS; Basics How to design experiments: Experiment EC 9A3 Advanced Econometric Theory - Lecture Slides CrossValidation:Difference-in-difference-in-differences estimator COS Analysis? Baseline? Randomization ~ statistical test Regression discontinuity design Theoretical Modeling vs behavior vs experiment vs empirical How do we identify the way we want to ~ social psychology ~ mental mapping impact of technology ~ topic is moving on ~ some of the topics are already understood ~ do good literature review treatment? ~ control? ~ outcome0 Difference in differences (DID): before &amp; after treatment, well controlled PresentationFirefox extensions update classification Firefox web browser (open source platform)~ extensions or add-ons Classification : open or close source Mechanism? ~ size or role of users Output: influence : positive or negative Rapid release strategy vs traditional way cross? experimental design whether the add-on supplier update their products in response to the rapid release of Firefox platform? 1 observation: add-on version number? Review/online experiment0 Treatment: hit of newest review / high-quality Control : no review Social psychology ~ ab test? ~ Online experiment, see Web-based experiments Economic analysis of social interactions1 Charles F.Manski, Journal of Economic Empirical analysis mutually exclusive but collectively exhaustive11 3 effects Paying not to go to the gym2 consumer behavior -&gt; maximize utility (rational expectation vs irrational) theoretical prediction &amp; empirical testing &amp; survey behavior IO? Personal view: How to quantify the utility function? not like financial product: stock, bond or derivatives, the utility of going to gym should also include non-economic factor (price), such as the potential chance of keeping the right of going to gym Observational Learning: Evidence from a Randomized Natural Field Experiment3 One restaurant: whether the randomization is not good enough? Control group: pre-experiment data, one week Raking treatment table vs salience treatment table One week data Difference-in-difference-in-differences (DDD)31 Coincidence, observational learning (learn the quality, more about yourself) conformity (more from others), compliance, salience32 The Spread of Behavior in an Online Social Network Experiment4 Small world network model Network vs photonics?? Social reinforcement 0. Treatment and control groups &#x21A9; 1. Manski, C. (2000). Economic analysis of social interactions. Journal of Economic Perspectives, 115&#x2013;136. &#x21A9; 11. Quora|What&#x2019;s the difference between mutually exclusive events and collectively exhaustive events? &#x21A9; 2. DellaVigna, S., &amp; Malmendier, U. (2006). Paying not to go to the gym. American Economic Review, 96(3), 694&#x2013;719. &#x21A9; 3. Cai, H., Chen, Y., &amp; Fang, H. (2009). Observational Learning: Evidence from a Randomized Natural Field Experiment. American Economic Review. &#x21A9; 31. CrossValidated|Difference-in-difference-in-differences estimator &#x21A9; 32. Chapter 7: Conformity,Compliance, and Obedience &#x21A9; 4. Centola, D. (2010). The Spread of Behavior in an Online Social Network Experiment. Science, 329(5996), 1194&#x2013;1197. &#x21A9;]]></content>
@@ -401,8 +401,8 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>notes</tag>
         <tag>information_system</tag>
+        <tag>notes</tag>
       </tags>
   </entry>
   <entry>
@@ -414,8 +414,8 @@
       </categories>
       <tags>
         <tag>tutorial</tag>
-        <tag>latex</tag>
         <tag>sublime_text_3</tag>
+        <tag>latex</tag>
         <tag>skim</tag>
       </tags>
   </entry>
@@ -428,9 +428,14 @@
       </categories>
       <tags>
         <tag>hexo</tag>
-        <tag>tutorial</tag>
         <tag>github</tag>
+        <tag>tutorial</tag>
       </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[About Neverland]]></title>
+    <url>%2Fabout%2Findex.html</url>
+    <content type="text"><![CDATA[var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","mutex":true,"music":[{"title":"Intro","author":"The XX","url":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.lrc"},{"title":"Casey's Last Ride","author":"Kris Kristofferson","url":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.lrc"},{"title":"Free Loop","author":"Daniel Powter","url":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.jpeg","lrc":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.lrc"},{"title":"Future Starts Slow","author":"The Kills","url":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.lrc"},{"title":"Medicine","author":"Daughter","url":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.lrc"},{"title":"Exit Music (For a Film)","author":"Radiohead","url":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.png","lrc":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.lrc"}]}; options.element = document.getElementById("aplayer0"); new APlayer(options); Hello, welcome to my blog, the NERVERLAND, which is supported by GitHub and Hexo. Neverland is a fictional location featured in the works of J. M. Barrie and those based on them. It is an imaginary faraway place, where Peter Pan, Tinker Bell, the Lost Boys and other mythical creatures and beings live. &#x2014;Wikipedia NEVERLAND is a place of fantacy and I hope to build a blog full of bold innovation and wonderful ideas. If you have any creative thoughs on no matter science&amp;technology or phylosophy of life, feel free to contact with me via email. Click E-Mail button of the sidebar. If you would like to know more about me, click BAODUGE-About. Enjoy it? Subscribe to my blog by scanning my public Wechat account]]></content>
   </entry>
   <entry>
     <title><![CDATA[All Categories]]></title>
@@ -441,10 +446,5 @@
     <title><![CDATA[All Tags]]></title>
     <url>%2Ftags%2Findex.html</url>
     <content type="text"><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[About Neverland]]></title>
-    <url>%2Fabout%2Findex.html</url>
-    <content type="text"><![CDATA[var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","mutex":true,"music":[{"title":"Intro","author":"The XX","url":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.lrc"},{"title":"Casey's Last Ride","author":"Kris Kristofferson","url":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.lrc"},{"title":"Free Loop","author":"Daniel Powter","url":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.jpeg","lrc":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.lrc"},{"title":"Future Starts Slow","author":"The Kills","url":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.lrc"},{"title":"Medicine","author":"Daughter","url":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.lrc"},{"title":"Exit Music (For a Film)","author":"Radiohead","url":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.png","lrc":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.lrc"}]}; options.element = document.getElementById("aplayer0"); new APlayer(options); Hello, welcome to my blog, the NERVERLAND, which is supported by GitHub and Hexo. Neverland is a fictional location featured in the works of J. M. Barrie and those based on them. It is an imaginary faraway place, where Peter Pan, Tinker Bell, the Lost Boys and other mythical creatures and beings live. &#x2014;Wikipedia NEVERLAND is a place of fantacy and I hope to build a blog full of bold innovation and wonderful ideas. If you have any creative thoughs on no matter science&amp;technology or phylosophy of life, feel free to contact with me via email. Click E-Mail button of the sidebar. If you would like to know more about me, click BAODUGE-About. Enjoy it? Subscribe to my blog by scanning my public Wechat account]]></content>
   </entry>
 </search>

@@ -110,7 +110,9 @@
 <meta property="og:description" content="This is the notes of Continuous Stochastic Structure Models with Apllication by Prof. Vijay S. Mookerjee. In this note, we are talking about an application of Stochastic Structure Model: Control of Ne">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="http://blog.baoduge.com/images/20171123_poisson.png">
-<meta property="og:updated_time" content="2017-12-12T08:13:43.000Z">
+<meta property="og:image" content="http://blog.baoduge.com/images/2017_poisson.png">
+<meta property="og:image" content="http://blog.baoduge.com/images/2017_binomial.png">
+<meta property="og:updated_time" content="2017-12-12T13:27:49.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="20171123 Notes: Application of Stochastic Structure Model: Control of Negative Reviews">
 <meta name="twitter:description" content="This is the notes of Continuous Stochastic Structure Models with Apllication by Prof. Vijay S. Mookerjee. In this note, we are talking about an application of Stochastic Structure Model: Control of Ne">
@@ -453,16 +455,17 @@
 </blockquote>
 <p><img src="/images/20171123_poisson.png" alt=""></p>
 <h3 id="Comparison-between-Poisson-Distribution-and-Binomial-Distribution"><a href="#Comparison-between-Poisson-Distribution-and-Binomial-Distribution" class="headerlink" title="Comparison between Poisson Distribution and Binomial Distribution"></a>Comparison between Poisson Distribution and Binomial Distribution</h3><ul>
-<li><p><strong>Poisson Distribution</strong> $\mathcal{P}(\lambda)$:</p>
-<ul>
+<li><strong>Poisson Distribution</strong> $\mathcal{P}(\lambda)$:<ul>
 <li><a href="https://en.wikipedia.org/wiki/Probability_mass_function" target="_blank" rel="external">PMF</a><i class="fa fa-wikipedia-w" aria-hidden="true"></i>: $\mathbb{P}(X=k) = \frac{e^{\lambda} \lambda^k}{k!}$, $ k \in {0,1,2,&#x2026;}$</li>
 <li>Expectation: $\lambda$</li>
 <li>Variance: $\lambda$</li>
 <li><a href="https://en.wikipedia.org/wiki/Moment-generating_function" target="_blank" rel="external">MGF</a><i class="fa fa-wikipedia-w" aria-hidden="true"></i>: $e^{\lambda(e^{t} - 1)}$</li>
 </ul>
 </li>
-<li><p><strong>Binomial Distribution</strong> $\mathcal{B}(n,p)$:</p>
+</ul>
+<p><img src="/images/2017_poisson.png" alt=""></p>
 <ul>
+<li><strong>Binomial Distribution</strong> $\mathcal{B}(n,p)$:<ul>
 <li><a href="https://en.wikipedia.org/wiki/Probability_mass_function" target="_blank" rel="external">PMF</a><i class="fa fa-wikipedia-w" aria-hidden="true"></i>: $\mathbb{P}(X=k) = \begin{pmatrix} n \\ k \end{pmatrix} p^k q^{n-k}$, $ k \in {0,1,2,&#x2026;}$</li>
 <li>Expectation: $np$</li>
 <li>Variance: $npq$</li>
@@ -470,6 +473,7 @@
 </ul>
 </li>
 </ul>
+<p><img src="/images/2017_binomial.png" alt=""></p>
 <p>Recommended Reading: <a href="http://blog.baoduge.com/GM_Notes/">Neverland|20171104 Notes - Data Types<i class="fa fa-link"></i></a></p>
 <hr>
 <p><a href="http://www.stat.tamu.edu/~twehrly/611/distab.pdf" target="_blank" rel="external">Table of Common Distributions - TAMU Stat<i class="fa fa-link"></i></a></p>
@@ -482,8 +486,8 @@
 
 
 <hr>
-<h3 id="Deriving-Poisson-Distribution-from-Binomial-Distribution2"><a href="#Deriving-Poisson-Distribution-from-Binomial-Distribution2" class="headerlink" title="Deriving Poisson Distribution from Binomial Distribution2"></a>Deriving Poisson Distribution from Binomial Distribution<sup><a href="#fn_2" id="reffn_2">2</a></sup></h3><h3 id="Does-subset-of-Poisson-still-follow-Poisson-Distribution-3"><a href="#Does-subset-of-Poisson-still-follow-Poisson-Distribution-3" class="headerlink" title="Does subset of Poisson still follow Poisson Distribution?3:"></a>Does subset of Poisson still follow Poisson Distribution?<sup><a href="#fn_3" id="reffn_3">3</a></sup>:</h3><p><img src="" alt=""></p>
-<p><strong>Question</strong>:Does $Y=k$ still follow <em>Poisson Distribution</em>?<br><strong>Proof</strong>:</p>
+<h3 id="Deriving-Poisson-Distribution-from-Binomial-Distribution2"><a href="#Deriving-Poisson-Distribution-from-Binomial-Distribution2" class="headerlink" title="Deriving Poisson Distribution from Binomial Distribution2"></a>Deriving Poisson Distribution from Binomial Distribution<sup><a href="#fn_2" id="reffn_2">2</a></sup></h3><h3 id="Does-subset-of-Poisson-still-follow-Poisson-Distribution-3"><a href="#Does-subset-of-Poisson-still-follow-Poisson-Distribution-3" class="headerlink" title="Does subset of Poisson still follow Poisson Distribution?3:"></a>Does subset of Poisson still follow Poisson Distribution?<sup><a href="#fn_3" id="reffn_3">3</a></sup>:</h3><p>$X = r$ follow Poisson Distribution $\mathcal{P}(\lambda)$, and select $Y = k$ with probability $p$ from $X$.</p>
+<p><strong>Question</strong>:Does $Y=k$ still follow <em>Poisson Distribution</em>? If so, what kind of Poisson Distribution?<br><strong>Proof</strong>:</p>
 <ul>
 <li>Marginalization: $\mathbb{P} (Y=k) = \sum_{r=k}^{+\infty} \mathbb{P} (X=r,Y=k) = \sum_{r=k}^{+\infty} \mathbb{P} (X=r) \cdot \mathbb{P} (Y=k|X=r)$;</li>
 <li>$\mathbb{P} (X=r)$ should be PMF of <em>Poisson Distribution</em> $\mathcal{P}(\lambda)$ and $\mathbb{P} (Y=k|X=r)$ should be <em>Binomial Distribution</em> $\mathcal{B}(r,p)$;<script type="math/tex; mode=display">\mathbb{P} (Y=k) = \sum_{r=k}^{+\infty} \frac{e^{-\lambda} \lambda^r}{r!} \begin{pmatrix} r \\ k \end{pmatrix} p^k q^{r-k}</script><script type="math/tex; mode=display">= \sum_{r=k}^{+\infty} \frac{e^{-\lambda} \lambda^r}{r!} \frac{r!}{(r-k)!(k)!} p^k q^{r-k}</script><script type="math/tex; mode=display">=  \frac{e^{-\lambda} p^k}{k!} \sum_{r=k}^{+\infty} \frac{\lambda^r q^{r-k}}{(r-k)!}</script><script type="math/tex; mode=display">\stackrel{s=r-k}{=} \frac{e^{-\lambda} (\lambda p)^k}{k!} \sum_{s=0}^{+\infty} \frac{\lambda^s q^{s}}{(s)!}</script><script type="math/tex; mode=display">= \frac{e^{-\lambda p} (\lambda p)^k}{k!} \sum_{s=0}^{+\infty} \frac{e^{-\lambda q} (\lambda q)^s}{(s)!}</script><script type="math/tex; mode=display">= \frac{e^{-\lambda p} (\lambda p)^k}{k!}</script>which is MPF of <em>Poisson Distribution</em> $\mathcal{P}(\lambda p)$.</li>
