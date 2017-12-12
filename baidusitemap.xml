@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-12-12T08:20:31.000Z</lastmod>
+    <lastmod>2017-12-12T08:38:59.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges</title>
@@ -14,6 +14,8 @@
         <tag>information_system</tag>
          
         <tag>machine_learning</tag>
+         
+        <tag>deep_learning</tag>
          
         <tag>statistics</tag>
          
@@ -26,8 +28,6 @@
         <tag>economics</tag>
          
         <tag>finance</tag>
-         
-        <tag>deep_learning</tag>
          
         <tag>natural_language_processing</tag>
          
@@ -564,11 +564,11 @@
         
         <tag>hexo_pdf</tag>
          
-        <tag>tbc</tag>
-         
         <tag>robo_advisor</tag>
          
         <tag>fintech</tag>
+         
+        <tag>tbc</tag>
          
          
            
@@ -590,9 +590,9 @@
         
         <tag>r_language</tag>
          
-        <tag>science_computing</tag>
-         
         <tag>tbc</tag>
+         
+        <tag>science_computing</tag>
          
          
            
@@ -616,8 +616,6 @@
          
         <tag>faicon</tag>
          
-        <tag>r_language</tag>
-         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
@@ -627,6 +625,8 @@
         <tag>fortran</tag>
          
         <tag>python</tag>
+         
+        <tag>r_language</tag>
          
         <tag>mathematica</tag>
          
@@ -803,9 +803,9 @@
         
         <tag>hexo</tag>
          
-        <tag>github</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>github</tag>
          
          
            
