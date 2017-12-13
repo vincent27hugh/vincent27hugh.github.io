@@ -4,42 +4,8 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/notes_CCSMA2/</loc>
-    <lastmod>2017-12-12T13:27:49.000Z</lastmod>
-    <data>
-        <display>
-        <title>20171123 Notes: Application of Stochastic Structure Model: Control of Negative Reviews</title>
-        <pubTime>2017-11-22T16:00:00.000Z</pubTime>
-        
-        <tag>mathematics</tag>
-         
-        <tag>hexo_pdf</tag>
-         
-        <tag>image</tag>
-         
-        <tag>mathjax</tag>
-         
-        <tag>stochastic_process</tag>
-         
-        <tag>parameter_estimation</tag>
-         
-        <tag>pde</tag>
-         
-        <tag>control_theory</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-12-12T08:38:59.000Z</lastmod>
+    <lastmod>2017-12-13T05:20:04.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges</title>
@@ -74,6 +40,40 @@
         <tag>span_id_anchor</tag>
          
         <tag>image</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/notes_CCSMA2/</loc>
+    <lastmod>2017-12-12T13:27:49.000Z</lastmod>
+    <data>
+        <display>
+        <title>20171123 Notes: Application of Stochastic Structure Model: Control of Negative Reviews</title>
+        <pubTime>2017-11-22T16:00:00.000Z</pubTime>
+        
+        <tag>mathematics</tag>
+         
+        <tag>hexo_pdf</tag>
+         
+        <tag>image</tag>
+         
+        <tag>mathjax</tag>
+         
+        <tag>stochastic_process</tag>
+         
+        <tag>parameter_estimation</tag>
+         
+        <tag>pde</tag>
+         
+        <tag>control_theory</tag>
          
          
            
@@ -129,9 +129,9 @@
         <title>Resources & Tools of Information System Research</title>
         <pubTime>2017-10-23T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>research</tag>
+         
+        <tag>information_system</tag>
          
         <tag>markdown_table</tag>
          
@@ -155,10 +155,6 @@
         <title>NEVERLAND - Blog Logs</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
-        <tag>notes</tag>
-         
         <tag>study</tag>
          
         <tag>research</tag>
@@ -168,6 +164,10 @@
         <tag>logs</tag>
          
         <tag>hexo</tag>
+         
+        <tag>notes</tag>
+         
+        <tag>information_system</tag>
          
         <tag>machine_learning</tag>
          
@@ -343,9 +343,9 @@
         
         <tag>tutorial</tag>
          
-        <tag>sublime_text_3</tag>
-         
         <tag>latex</tag>
+         
+        <tag>sublime_text_3</tag>
          
         <tag>skim</tag>
          
@@ -367,9 +367,9 @@
         <title>Literature Review on Social Media in Financial Market</title>
         <pubTime>2017-11-01T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>research</tag>
+         
+        <tag>information_system</tag>
          
         <tag>finance</tag>
          
@@ -530,9 +530,9 @@
         <title>Literature Review on UGC/WOM</title>
         <pubTime>2017-10-30T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>research</tag>
+         
+        <tag>information_system</tag>
          
         <tag>sentiment_analysis</tag>
          
@@ -564,11 +564,11 @@
         
         <tag>hexo_pdf</tag>
          
+        <tag>tbc</tag>
+         
         <tag>robo_advisor</tag>
          
         <tag>fintech</tag>
-         
-        <tag>tbc</tag>
          
          
            
@@ -588,11 +588,11 @@
         <title>R语言的科学计算</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>tbc</tag>
-         
         <tag>r_language</tag>
          
         <tag>science_computing</tag>
+         
+        <tag>tbc</tag>
          
          
            
@@ -708,9 +708,9 @@
         <title>Can online scoring really reflects the rankings of products?</title>
         <pubTime>2017-10-29T16:00:00.000Z</pubTime>
         
-        <tag>notes</tag>
-         
         <tag>research</tag>
+         
+        <tag>notes</tag>
          
         <tag>economics</tag>
          
@@ -757,9 +757,9 @@
         <title>Experiments in IS research</title>
         <pubTime>2017-09-10T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>notes</tag>
+         
+        <tag>information_system</tag>
          
          
            
