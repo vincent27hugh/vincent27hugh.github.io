@@ -112,17 +112,17 @@
         
         <tags>
             
-            <tag> machine_learning </tag>
-            
-            <tag> natural_language_processing </tag>
-            
             <tag> research </tag>
+            
+            <tag> machine_learning </tag>
             
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
             
             <tag> faicon </tag>
+            
+            <tag> natural_language_processing </tag>
             
         </tags>
         
@@ -347,13 +347,13 @@ k_1 k_3 = 5 \beta \lambda p
         
         <tags>
             
-            <tag> mathematics </tag>
+            <tag> image </tag>
             
             <tag> hexo_pdf </tag>
             
-            <tag> image </tag>
-            
             <tag> mathjax </tag>
+            
+            <tag> mathematics </tag>
             
             <tag> stochastic_process </tag>
             
@@ -455,13 +455,13 @@ k_1 k_3 = 5 \beta \lambda p
         
         <tags>
             
-            <tag> image </tag>
-            
             <tag> research </tag>
             
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
+            
+            <tag> image </tag>
             
             <tag> mathjax </tag>
             
@@ -612,13 +612,13 @@ k_1 k_3 = 5 \beta \lambda p
         
         <tags>
             
-            <tag> mathematics </tag>
+            <tag> image </tag>
             
             <tag> hexo_pdf </tag>
             
-            <tag> image </tag>
-            
             <tag> mathjax </tag>
+            
+            <tag> mathematics </tag>
             
             <tag> stochastic_process </tag>
             
@@ -808,9 +808,13 @@ end
         
         <tags>
             
+            <tag> faicon </tag>
+            
             <tag> image </tag>
             
-            <tag> faicon </tag>
+            <tag> mathjax </tag>
+            
+            <tag> r_language </tag>
             
             <tag> nonlinear_equations </tag>
             
@@ -822,11 +826,7 @@ end
             
             <tag> python </tag>
             
-            <tag> r_language </tag>
-            
             <tag> mathematica </tag>
-            
-            <tag> mathjax </tag>
             
         </tags>
         
@@ -899,9 +899,9 @@ end
         
         <tags>
             
-            <tag> image </tag>
-            
             <tag> faicon </tag>
+            
+            <tag> image </tag>
             
             <tag> mendeley </tag>
             
@@ -994,9 +994,9 @@ end
             
             <tag> deep_learning </tag>
             
-            <tag> tutorial </tag>
-            
             <tag> hardware </tag>
+            
+            <tag> tutorial </tag>
             
         </tags>
         
@@ -1158,10 +1158,6 @@ end
         
         <tags>
             
-            <tag> markdown_table </tag>
-            
-            <tag> image </tag>
-            
             <tag> notes </tag>
             
             <tag> reputation_system </tag>
@@ -1169,6 +1165,10 @@ end
             <tag> variable_type </tag>
             
             <tag> data_type </tag>
+            
+            <tag> markdown_table </tag>
+            
+            <tag> image </tag>
             
         </tags>
         
@@ -1248,13 +1248,13 @@ end
         
         <tags>
             
-            <tag> image </tag>
-            
             <tag> research </tag>
             
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
+            
+            <tag> image </tag>
             
             <tag> mathjax </tag>
             
@@ -1496,19 +1496,19 @@ end
         
         <tags>
             
-            <tag> information_system </tag>
-            
-            <tag> finance </tag>
-            
-            <tag> image </tag>
-            
             <tag> research </tag>
+            
+            <tag> information_system </tag>
             
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
             
+            <tag> image </tag>
+            
             <tag> mathjax </tag>
+            
+            <tag> finance </tag>
             
             <tag> opinion_mining </tag>
             
@@ -1767,19 +1767,19 @@ end
         
         <tags>
             
-            <tag> information_system </tag>
-            
             <tag> research </tag>
+            
+            <tag> information_system </tag>
             
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
             
-            <tag> mathjax </tag>
-            
             <tag> user_generated_content </tag>
             
             <tag> word_of_mouth </tag>
+            
+            <tag> mathjax </tag>
             
         </tags>
         
@@ -1829,13 +1829,13 @@ end
         
         <tags>
             
-            <tag> economics </tag>
+            <tag> research </tag>
             
             <tag> notes </tag>
             
-            <tag> research </tag>
-            
             <tag> mathjax </tag>
+            
+            <tag> economics </tag>
             
             <tag> online_scoring </tag>
             
@@ -2962,13 +2962,13 @@ killall Finder
         
         <tags>
             
+            <tag> research </tag>
+            
             <tag> information_system </tag>
             
             <tag> markdown_table </tag>
             
             <tag> image </tag>
-            
-            <tag> research </tag>
             
         </tags>
         
@@ -3138,13 +3138,13 @@ killall Finder
             
             <tag> machine_learning </tag>
             
-            <tag> natural_language_processing </tag>
+            <tag> sentiment_analysis </tag>
             
-            <tag> hexo_pdf </tag>
+            <tag> natural_language_processing </tag>
             
             <tag> image </tag>
             
-            <tag> sentiment_analysis </tag>
+            <tag> hexo_pdf </tag>
             
         </tags>
         
@@ -3971,21 +3971,21 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
-            <tag> information_system </tag>
-            
-            <tag> machine_learning </tag>
-            
-            <tag> notes </tag>
+            <tag> study </tag>
             
             <tag> research </tag>
-            
-            <tag> hexo </tag>
-            
-            <tag> study </tag>
             
             <tag> blog </tag>
             
             <tag> logs </tag>
+            
+            <tag> hexo </tag>
+            
+            <tag> notes </tag>
+            
+            <tag> information_system </tag>
+            
+            <tag> machine_learning </tag>
             
             <tag> music </tag>
             
@@ -4087,6 +4087,11 @@ Ref 2\cite{kom2016stochastic}
 <td style="text-align:center">12</td>
 <td style="text-align:center"><a href="#OP12">Stanford StatLearning</a></td>
 <td style="text-align:center"><img src="http://progressed.io/bar/10?title=done" alt="1/10"></td>
+</tr>
+<tr>
+<td style="text-align:center">13</td>
+<td style="text-align:center"><a href="#OP13">MIT 6.431 PSA&amp;AP</a></td>
+<td style="text-align:center"><img src="http://progressed.io/bar/4?title=done" alt="2/25"></td>
 </tr>
 </tbody>
 </table>
@@ -4240,9 +4245,8 @@ Ref 2\cite{kom2016stochastic}
 
 <h2 id="Courses-2"><a href="#Courses-2" class="headerlink" title="Courses"></a>Courses</h2><h3 id="Main"><a href="#Main" class="headerlink" title="Main"></a>Main</h3><ul>
 <li><span id="OP11"></span><strong>MIT 18.650 - Statistics for Applications, Fall 2016</strong>: For Undergraduate / Graduate, 1h15min/Lec, 21 Lectures, <a href="https://ocw.mit.edu/courses/mathematics/18-650-statistics-for-applications-fall-2016/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP60uVBMaoNERc6knT_MgPKS0" target="_blank" rel="external">Videos</a> <img src="http://progressed.io/bar/5?title=done" alt="1/21"></li>
-<li>MIT 6.041SC - Probabilistic Systems Analysis and Applied Probability, Fall 2010: For Undergraduate / Graduate, <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/index.htm" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP60A3XMwZ5sep719_nh95qOe" target="_blank" rel="external">Videos</a></li>
+<li><span id="OP13"></span>MIT 6.041(UG)/6.431(G) - Probabilistic Systems Analysis and Applied Probability by <strong>John Tsitsiklis</strong>, Fall 2010: For Undergraduate / Graduate, 25 Lectures, <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/index.htm" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP60A3XMwZ5sep719_nh95qOe" target="_blank" rel="external">Videos</a> <img src="http://progressed.io/bar/4?title=done" alt="2/25"></li>
 <li><span id="OP12"></span>Stanford Online-StatLearning Statistical Learning by <strong>Trevor Hastie</strong> and <strong>Rob Tibshirani</strong>: 10 Lectures, <a href="https://lagunita.stanford.edu/Lecs/HumanitiesScience/StatLearning/Winter2014/Lecware/" target="_blank" rel="external">Course Page</a>, <a href="https://github.com/asadoughi/stat-learning" target="_blank" rel="external">Notes&amp;Excercise</a> <img src="http://progressed.io/bar/10?title=done" alt="1/10"></li>
-<li>MIT 6.041 (UG)/ 6.431 (G) Probabilistic Systems Analysis and Applied Probability, Fall 2010 by <strong>John Tsitsiklis</strong>: <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP60A3XMwZ5sep719_nh95qOe" target="_blank" rel="external">Videos</a></li>
 </ul>
 <h3 id="Others-2"><a href="#Others-2" class="headerlink" title="Others"></a>Others</h3><ul>
 <li>Charles University in Prague NMFM404 Selected Software Tools for Finance and Insurance by Michal Pe&#x161;ta: <a href="http://www.karlin.mff.cuni.cz/~pesta/NMFM404-1617.html" target="_blank" rel="external">Course Page</a></li>
@@ -4310,13 +4314,23 @@ Ref 2\cite{kom2016stochastic}
             
             <tag> information_system </tag>
             
-            <tag> statistics </tag>
+            <tag> machine_learning </tag>
             
-            <tag> mathematics </tag>
+            <tag> deep_learning </tag>
+            
+            <tag> natural_language_processing </tag>
+            
+            <tag> markdown_table </tag>
+            
+            <tag> image </tag>
             
             <tag> github </tag>
             
-            <tag> machine_learning </tag>
+            <tag> hexo_pdf </tag>
+            
+            <tag> statistics </tag>
+            
+            <tag> mathematics </tag>
             
             <tag> artificial_intelligence </tag>
             
@@ -4324,19 +4338,35 @@ Ref 2\cite{kom2016stochastic}
             
             <tag> finance </tag>
             
-            <tag> deep_learning </tag>
-            
-            <tag> natural_language_processing </tag>
-            
             <tag> open_course </tag>
-            
-            <tag> hexo_pdf </tag>
-            
-            <tag> markdown_table </tag>
             
             <tag> span_id_anchor </tag>
             
-            <tag> image </tag>
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[R语言的科学计算]]></title>
+      <url>/R_science_computing/</url>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h2 id="&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;"><a href="#&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;" class="headerlink" title="&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;"></a>&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;</h2><p><a href="http://blog.csdn.net/skyonefly/article/details/50899661" target="_blank" rel="external">R&#x8BED;&#x8A00;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x6C42;&#x89E3;dfsane,nleqslv</a><br><a href="https://cos.name/cn/topic/11574/" target="_blank" rel="external">&#x8BF7;&#x6559;&#xFF1A;R&#x8BED;&#x8A00;&#x6709;&#x6CA1;&#x6709;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x7684;&#x51FD;&#x6570;&#xFF01;</a><br><a href="http://www.cnblogs.com/dj123jary/p/4142150.html" target="_blank" rel="external">&#x7528;R&#x8BED;&#x8A00;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;</a><br><a href="https://cran.r-project.org/web/packages/nleqslv/nleqslv.pdf" target="_blank" rel="external">Package &#x2018;nleqslv&#x2019;</a><br><a href="https://cran.r-project.org/web/packages/BB/vignettes/BBvignetteJSS.pdf" target="_blank" rel="external">BB: An R Package for Solving a Large System of Nonlinear Equations and for Optimizing a High-Dimensional Nonlinear Objective Function</a></p>
+<p><a href="https://stackoverflow.com/questions/38684295/how-to-solve-a-non-linear-equation-using-nleqslv-package-in-r" target="_blank" rel="external">How to solve a non-linear equation using nleqslv package in R?</a><br><a href="https://stackoverflow.com/questions/22993787/solving-system-of-nonlinear-equations-in-r" target="_blank" rel="external">Solving system of nonlinear equations in R</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 中文 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> tbc </tag>
+            
+            <tag> r_language </tag>
+            
+            <tag> science_computing </tag>
             
         </tags>
         
@@ -4377,32 +4407,6 @@ Ref 2\cite{kom2016stochastic}
             <tag> bloackchain </tag>
             
             <tag> font </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[R语言的科学计算]]></title>
-      <url>/R_science_computing/</url>
-      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h2 id="&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;"><a href="#&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;" class="headerlink" title="&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;"></a>&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;</h2><p><a href="http://blog.csdn.net/skyonefly/article/details/50899661" target="_blank" rel="external">R&#x8BED;&#x8A00;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x6C42;&#x89E3;dfsane,nleqslv</a><br><a href="https://cos.name/cn/topic/11574/" target="_blank" rel="external">&#x8BF7;&#x6559;&#xFF1A;R&#x8BED;&#x8A00;&#x6709;&#x6CA1;&#x6709;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x7684;&#x51FD;&#x6570;&#xFF01;</a><br><a href="http://www.cnblogs.com/dj123jary/p/4142150.html" target="_blank" rel="external">&#x7528;R&#x8BED;&#x8A00;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;</a><br><a href="https://cran.r-project.org/web/packages/nleqslv/nleqslv.pdf" target="_blank" rel="external">Package &#x2018;nleqslv&#x2019;</a><br><a href="https://cran.r-project.org/web/packages/BB/vignettes/BBvignetteJSS.pdf" target="_blank" rel="external">BB: An R Package for Solving a Large System of Nonlinear Equations and for Optimizing a High-Dimensional Nonlinear Objective Function</a></p>
-<p><a href="https://stackoverflow.com/questions/38684295/how-to-solve-a-non-linear-equation-using-nleqslv-package-in-r" target="_blank" rel="external">How to solve a non-linear equation using nleqslv package in R?</a><br><a href="https://stackoverflow.com/questions/22993787/solving-system-of-nonlinear-equations-in-r" target="_blank" rel="external">Solving system of nonlinear equations in R</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> 中文 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> r_language </tag>
-            
-            <tag> tbc </tag>
-            
-            <tag> science_computing </tag>
             
         </tags>
         
@@ -4515,9 +4519,9 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
-            <tag> information_system </tag>
-            
             <tag> notes </tag>
+            
+            <tag> information_system </tag>
             
         </tags>
         
@@ -4715,9 +4719,9 @@ SyntaxError: unexpected character after line continuation character
             
             <tag> tutorial </tag>
             
-            <tag> latex </tag>
-            
             <tag> sublime_text_3 </tag>
+            
+            <tag> latex </tag>
             
             <tag> skim </tag>
             
@@ -4759,11 +4763,11 @@ $ hexo d
         
         <tags>
             
-            <tag> github </tag>
-            
             <tag> hexo </tag>
             
             <tag> tutorial </tag>
+            
+            <tag> github </tag>
             
         </tags>
         
@@ -4771,12 +4775,6 @@ $ hexo d
     
   
   
-    
-    <entry>
-      <title><![CDATA[All Categories]]></title>
-      <url>/categories/index.html</url>
-      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
-    </entry>
     
     <entry>
       <title><![CDATA[About Neverland]]></title>
@@ -4806,6 +4804,12 @@ $ hexo d
 
 
 ]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[All Categories]]></title>
+      <url>/categories/index.html</url>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
     </entry>
     
     <entry>
