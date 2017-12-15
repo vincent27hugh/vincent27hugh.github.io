@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-12-15T12:41:05.000Z</lastmod>
+    <lastmod>2017-12-15T12:43:23.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges</title>
@@ -538,11 +538,11 @@
          
         <tag>literature_review</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
+         
+        <tag>mathjax</tag>
          
          
            
@@ -616,6 +616,8 @@
          
         <tag>faicon</tag>
          
+        <tag>mathjax</tag>
+         
         <tag>r_language</tag>
          
         <tag>nonlinear_equations</tag>
@@ -629,8 +631,6 @@
         <tag>python</tag>
          
         <tag>mathematica</tag>
-         
-        <tag>mathjax</tag>
          
          
            

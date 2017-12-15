@@ -98,6 +98,7 @@
       <tags>
         <tag>image</tag>
         <tag>faicon</tag>
+        <tag>mathjax</tag>
         <tag>r_language</tag>
         <tag>nonlinear_equations</tag>
         <tag>numerical_analysis</tag>
@@ -105,7 +106,6 @@
         <tag>fortran</tag>
         <tag>python</tag>
         <tag>mathematica</tag>
-        <tag>mathjax</tag>
       </tags>
   </entry>
   <entry>
@@ -203,9 +203,9 @@
         <tag>information_system</tag>
         <tag>sentiment_analysis</tag>
         <tag>literature_review</tag>
-        <tag>mathjax</tag>
         <tag>user_generated_content</tag>
         <tag>word_of_mouth</tag>
+        <tag>mathjax</tag>
       </tags>
   </entry>
   <entry>
