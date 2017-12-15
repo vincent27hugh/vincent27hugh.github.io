@@ -8,12 +8,12 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>machine_learning</tag>
-        <tag>natural_language_processing</tag>
         <tag>research</tag>
+        <tag>machine_learning</tag>
         <tag>sentiment_analysis</tag>
         <tag>literature_review</tag>
         <tag>faicon</tag>
+        <tag>natural_language_processing</tag>
       </tags>
   </entry>
   <entry>
@@ -60,10 +60,10 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>image</tag>
         <tag>research</tag>
         <tag>sentiment_analysis</tag>
         <tag>literature_review</tag>
+        <tag>image</tag>
         <tag>mathjax</tag>
         <tag>cluster</tag>
         <tag>logit_regression</tag>
@@ -96,8 +96,8 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>image</tag>
         <tag>faicon</tag>
+        <tag>image</tag>
         <tag>r_language</tag>
         <tag>nonlinear_equations</tag>
         <tag>numerical_analysis</tag>
@@ -116,8 +116,8 @@
         <category>中文</category>
       </categories>
       <tags>
-        <tag>image</tag>
         <tag>faicon</tag>
+        <tag>image</tag>
         <tag>mendeley</tag>
         <tag>document_management</tag>
         <tag>bibtex</tag>
@@ -144,9 +144,9 @@
         <category>中文</category>
       </categories>
       <tags>
+        <tag>notes</tag>
         <tag>markdown_table</tag>
         <tag>image</tag>
-        <tag>notes</tag>
         <tag>reputation_system</tag>
         <tag>variable_type</tag>
         <tag>data_type</tag>
@@ -160,10 +160,10 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>image</tag>
         <tag>research</tag>
         <tag>sentiment_analysis</tag>
         <tag>literature_review</tag>
+        <tag>image</tag>
         <tag>mathjax</tag>
         <tag>opinion_mining</tag>
         <tag>feature_engineering</tag>
@@ -180,12 +180,12 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>information_system</tag>
-        <tag>finance</tag>
-        <tag>image</tag>
         <tag>research</tag>
+        <tag>information_system</tag>
         <tag>sentiment_analysis</tag>
         <tag>literature_review</tag>
+        <tag>finance</tag>
+        <tag>image</tag>
         <tag>mathjax</tag>
         <tag>opinion_mining</tag>
         <tag>time_series</tag>
@@ -199,8 +199,8 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>information_system</tag>
         <tag>research</tag>
+        <tag>information_system</tag>
         <tag>sentiment_analysis</tag>
         <tag>literature_review</tag>
         <tag>mathjax</tag>
@@ -213,9 +213,9 @@
     <url>%2Fexpectation_on_online%20scoring%2F</url>
     <content type="text"><![CDATA[Problem descriptionThere are lots of scenarios that we need to do evaluations, for example, online scoring of movies on IMDB or products on Amazon.com. Via the the online scoring, customers can easily judge which items they would like to choose. However, can this online score really reflect the rankings of quality of homogeneous products? We find that sometimes our expectations can have influences on our satisfaction of the items. And products with high expectations sometimes are more difficult to generate same level of satisfaction as production with low expectations. (Expectation and Satisfaction are subjective for each individual.) ExampleTake the scenario of E-commerce as an example. Expectations for buyers can be based on: the historical performance of sellers (such as sales); the reputation of sellers the historical performance and reputation of peers (Same business categories with similar product types); the price displayed; Based on these factors, customers might build their subjective expectations on the qualities of the products. Thus, the online scoring of the product might be based on the satisfaction which is the result of difference between expectation and true experience. NotationsThere are $n = 2$ sellers who sell the homogeneous products and $m$ buyers. $E_{ij}$ denotes the expectation of buyer $j$ for seller $i$, where $i=\{L,H\}$. We know that $E_{Lj} &lt; E_{Hj}$. There exist a space of real values of quality for products, $Q$. And the real value of quality for product sold by seller $i$ is $q_{i} \in Q$.We assume $q_{H} &lt; q_{L}$. (Why?) There are two stages: Pre-purchase and Post-purchase. Buyer $j$ generate $E_{ij}$ for seller $i$ after checking the information about seller $i$ and its product in the pre-purchase stage. Then after true experience of product, buyer $j$ generate the satisfaction $S_{ij}$ and online scoring $R_{ij}$ for seller i in the post-purchase stage. Satisfaction of buyer $j$ for seller $i$ is $S_{ij}$, which is the result of inconsistence between quality $q_{i}$ and expectation $E_{ij}$. We denoted it by $S_{ij} = f(q_{i} - E_{ij})$. The online score of buyer $j$ for seller $i$ is $R_{ij}$, which is the result of satisfaction $S_{ij}$ denoted by $R_{ij} = f_{S}(S_{ij})=f_{R}(q_{i} - E_{ij})$. Assume that $f_{R}$ is a monotonically increasing function. (Why? There are two assumptions: $R_{ij}$ is positive correlated to quality $q_i$; $R_{ij}$ is negative correlated to expectation $E_{ij}$;) However, it seems to be possible that $q_H-E_{Hj} &lt; q_L-E_{Lj}$ because of greater effect of $E_{Hj} &gt; E_{Lj}$, which would result in $R_{Hj} &lt; R_{Lj}$ for buyer $j$. ExplanationDoes this phenomena exist? In my opinion, this phenomena really exist. Make it more sensible, I use movie as example (Logics is same), before we watch a Chinese low-cost film, we have lower expectation than high-cost Hollywood films. Thus as long as the Chinese low-cost film has a little bit attractive highlights, we would give it a high evaluation, which might be higher than the high-cost Hollywood films. If so, how to explain it? My explanation is: sometimes our expectation is not only based on quality of items but also the peers&#x2019; performance and reputations. Even though, buyers would buy product which maximize the expected utility function value. Some uninformative or irrational buyers would still choose products with low reputation and low price. However, online review is short-time reflection on the product and might not present some perspectives of the product, such as durability. FutureWhen calculate the integrated score of sellers, we need take into consideration of peers performance and reputation. (Cluster) The expectation might be measurable via online sentiment analysis. Hope this is a good research idea.]]></content>
       <tags>
-        <tag>economics</tag>
-        <tag>notes</tag>
         <tag>research</tag>
+        <tag>notes</tag>
+        <tag>economics</tag>
         <tag>mathjax</tag>
         <tag>online_scoring</tag>
         <tag>modeling</tag>
@@ -241,10 +241,10 @@
         <category>English</category>
       </categories>
       <tags>
+        <tag>research</tag>
         <tag>information_system</tag>
         <tag>markdown_table</tag>
         <tag>image</tag>
-        <tag>research</tag>
       </tags>
   </entry>
   <entry>
@@ -256,10 +256,10 @@
       </categories>
       <tags>
         <tag>machine_learning</tag>
+        <tag>sentiment_analysis</tag>
         <tag>natural_language_processing</tag>
         <tag>hexo_pdf</tag>
         <tag>image</tag>
-        <tag>sentiment_analysis</tag>
       </tags>
   </entry>
   <entry>
@@ -332,14 +332,14 @@
         <category>中文</category>
       </categories>
       <tags>
-        <tag>information_system</tag>
-        <tag>machine_learning</tag>
-        <tag>notes</tag>
-        <tag>research</tag>
         <tag>study</tag>
+        <tag>research</tag>
         <tag>blog</tag>
         <tag>logs</tag>
         <tag>hexo</tag>
+        <tag>notes</tag>
+        <tag>information_system</tag>
+        <tag>machine_learning</tag>
         <tag>music</tag>
       </tags>
   </entry>
@@ -352,15 +352,15 @@
       </categories>
       <tags>
         <tag>information_system</tag>
+        <tag>machine_learning</tag>
+        <tag>deep_learning</tag>
+        <tag>natural_language_processing</tag>
         <tag>statistics</tag>
         <tag>mathematics</tag>
         <tag>github</tag>
-        <tag>machine_learning</tag>
         <tag>artificial_intelligence</tag>
         <tag>economics</tag>
         <tag>finance</tag>
-        <tag>deep_learning</tag>
-        <tag>natural_language_processing</tag>
         <tag>open_course</tag>
         <tag>hexo_pdf</tag>
         <tag>markdown_table</tag>
@@ -401,8 +401,8 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>information_system</tag>
         <tag>notes</tag>
+        <tag>information_system</tag>
       </tags>
   </entry>
   <entry>
@@ -427,9 +427,9 @@
         <category>中文</category>
       </categories>
       <tags>
-        <tag>github</tag>
         <tag>hexo</tag>
         <tag>tutorial</tag>
+        <tag>github</tag>
       </tags>
   </entry>
   <entry>
