@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-12-13T15:13:51.000Z</lastmod>
+    <lastmod>2017-12-15T11:34:05.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges</title>
@@ -14,6 +14,8 @@
         <tag>information_system</tag>
          
         <tag>machine_learning</tag>
+         
+        <tag>natural_language_processing</tag>
          
         <tag>statistics</tag>
          
@@ -28,8 +30,6 @@
         <tag>finance</tag>
          
         <tag>deep_learning</tag>
-         
-        <tag>natural_language_processing</tag>
          
         <tag>open_course</tag>
          
@@ -52,42 +52,8 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/notes_CCSMA2/</loc>
-    <lastmod>2017-12-12T13:27:49.000Z</lastmod>
-    <data>
-        <display>
-        <title>20171123 Notes: Application of Stochastic Structure Model: Control of Negative Reviews</title>
-        <pubTime>2017-11-22T16:00:00.000Z</pubTime>
-        
-        <tag>mathematics</tag>
-         
-        <tag>hexo_pdf</tag>
-         
-        <tag>image</tag>
-         
-        <tag>mathjax</tag>
-         
-        <tag>stochastic_process</tag>
-         
-        <tag>parameter_estimation</tag>
-         
-        <tag>pde</tag>
-         
-        <tag>control_theory</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.baoduge.com/notes_CCSMA/</loc>
-    <lastmod>2017-12-12T08:13:11.000Z</lastmod>
+    <lastmod>2017-12-13T17:27:37.000Z</lastmod>
     <data>
         <display>
         <title>20171117 Notes: Stochastic Process, Parameter Estimation, PDE</title>
@@ -110,6 +76,40 @@
         <tag>control_theory</tag>
          
         <tag>video</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/notes_CCSMA2/</loc>
+    <lastmod>2017-12-13T17:27:36.000Z</lastmod>
+    <data>
+        <display>
+        <title>20171123 Notes: Application of Stochastic Structure Model: Control of Negative Reviews</title>
+        <pubTime>2017-11-22T16:00:00.000Z</pubTime>
+        
+        <tag>mathematics</tag>
+         
+        <tag>hexo_pdf</tag>
+         
+        <tag>image</tag>
+         
+        <tag>mathjax</tag>
+         
+        <tag>stochastic_process</tag>
+         
+        <tag>parameter_estimation</tag>
+         
+        <tag>pde</tag>
+         
+        <tag>control_theory</tag>
          
          
            
@@ -195,13 +195,13 @@
          
         <tag>machine_learning</tag>
          
-        <tag>natural_language_processing</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
          
         <tag>faicon</tag>
+         
+        <tag>natural_language_processing</tag>
          
          
            
@@ -221,9 +221,9 @@
         <title>如何管理文献:Mendeley小技巧</title>
         <pubTime>2017-11-11T16:00:00.000Z</pubTime>
         
-        <tag>image</tag>
-         
         <tag>faicon</tag>
+         
+        <tag>image</tag>
          
         <tag>mendeley</tag>
          
@@ -281,13 +281,13 @@
         
         <tag>machine_learning</tag>
          
+        <tag>sentiment_analysis</tag>
+         
         <tag>natural_language_processing</tag>
          
         <tag>hexo_pdf</tag>
          
         <tag>image</tag>
-         
-        <tag>sentiment_analysis</tag>
          
          
            
@@ -371,19 +371,19 @@
          
         <tag>information_system</tag>
          
-        <tag>finance</tag>
-         
-        <tag>image</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
          
-        <tag>mathjax</tag>
+        <tag>finance</tag>
+         
+        <tag>image</tag>
          
         <tag>opinion_mining</tag>
          
         <tag>time_series</tag>
+         
+        <tag>mathjax</tag>
          
          
            
@@ -462,11 +462,11 @@
         
         <tag>research</tag>
          
-        <tag>image</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
+         
+        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -494,15 +494,15 @@
         
         <tag>research</tag>
          
-        <tag>image</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
          
-        <tag>mathjax</tag>
+        <tag>image</tag>
          
         <tag>opinion_mining</tag>
+         
+        <tag>mathjax</tag>
          
         <tag>feature_engineering</tag>
          
@@ -588,9 +588,9 @@
         <title>R语言的科学计算</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>r_language</tag>
-         
         <tag>tbc</tag>
+         
+        <tag>r_language</tag>
          
         <tag>science_computing</tag>
          
@@ -612,9 +612,13 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
+        <tag>faicon</tag>
+         
         <tag>image</tag>
          
-        <tag>faicon</tag>
+        <tag>r_language</tag>
+         
+        <tag>mathjax</tag>
          
         <tag>nonlinear_equations</tag>
          
@@ -626,11 +630,7 @@
          
         <tag>python</tag>
          
-        <tag>r_language</tag>
-         
         <tag>mathematica</tag>
-         
-        <tag>mathjax</tag>
          
          
            
