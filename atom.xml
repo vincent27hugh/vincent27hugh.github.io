@@ -36,13 +36,13 @@
     
       <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
     
+      <category term="natural_language_processing" scheme="http://blog.baoduge.com/tags/natural-language-processing/"/>
+    
       <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
       <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
     
       <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
-    
-      <category term="natural_language_processing" scheme="http://blog.baoduge.com/tags/natural-language-processing/"/>
     
   </entry>
   
@@ -132,11 +132,11 @@
     
       <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
     
+      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
+    
       <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
       <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
-    
-      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
     
       <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
@@ -198,9 +198,9 @@
       <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
-      <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
-    
       <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
+    
+      <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
     
       <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
     
@@ -236,9 +236,9 @@
       <category term="中文" scheme="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
     
     
-      <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
-    
       <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
+    
+      <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
     
       <category term="mendeley" scheme="http://blog.baoduge.com/tags/mendeley/"/>
     
@@ -320,11 +320,11 @@
     
       <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
     
+      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
+    
       <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
       <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
-    
-      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
     
       <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
@@ -360,13 +360,13 @@
     
       <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
     
-      <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
-    
-      <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
-    
       <category term="finance" scheme="http://blog.baoduge.com/tags/finance/"/>
     
       <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
+    
+      <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
+    
+      <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
     
       <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
@@ -502,13 +502,13 @@
     
       <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
     
-      <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
-    
       <category term="natural_language_processing" scheme="http://blog.baoduge.com/tags/natural-language-processing/"/>
     
       <category term="hexo_pdf" scheme="http://blog.baoduge.com/tags/hexo-pdf/"/>
     
       <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
+    
+      <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
   </entry>
   
