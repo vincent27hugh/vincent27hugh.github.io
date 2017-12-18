@@ -356,9 +356,9 @@
       <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
-      <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
-    
       <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
+    
+      <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
     
       <category term="finance" scheme="http://blog.baoduge.com/tags/finance/"/>
     
@@ -392,9 +392,9 @@
       <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
-      <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
-    
       <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
+    
+      <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
     
       <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
@@ -422,9 +422,9 @@
     </summary>
     
     
-      <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
-    
       <category term="notes" scheme="http://blog.baoduge.com/tags/notes/"/>
+    
+      <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
     
       <category term="economics" scheme="http://blog.baoduge.com/tags/economics/"/>
     
@@ -474,9 +474,9 @@
       <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
-      <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
-    
       <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
+    
+      <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
     
       <category term="markdown_table" scheme="http://blog.baoduge.com/tags/markdown-table/"/>
     
@@ -620,11 +620,11 @@
     
       <category term="hexo_pdf" scheme="http://blog.baoduge.com/tags/hexo-pdf/"/>
     
-      <category term="tbc" scheme="http://blog.baoduge.com/tags/tbc/"/>
-    
       <category term="robo_advisor" scheme="http://blog.baoduge.com/tags/robo-advisor/"/>
     
       <category term="fintech" scheme="http://blog.baoduge.com/tags/fintech/"/>
+    
+      <category term="tbc" scheme="http://blog.baoduge.com/tags/tbc/"/>
     
   </entry>
   
