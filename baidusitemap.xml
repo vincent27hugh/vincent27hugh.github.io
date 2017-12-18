@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-12-18T15:00:44.000Z</lastmod>
+    <lastmod>2017-12-18T15:06:36.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges: Data Science on IS</title>
@@ -13,13 +13,13 @@
         
         <tag>information_system</tag>
          
+        <tag>machine_learning</tag>
+         
         <tag>statistics</tag>
          
         <tag>mathematics</tag>
          
         <tag>github</tag>
-         
-        <tag>machine_learning</tag>
          
         <tag>artificial_intelligence</tag>
          
@@ -83,10 +83,6 @@
         <title>NEVERLAND - Blog Logs</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
-        <tag>machine_learning</tag>
-         
         <tag>study</tag>
          
         <tag>research</tag>
@@ -98,6 +94,10 @@
         <tag>hexo</tag>
          
         <tag>notes</tag>
+         
+        <tag>information_system</tag>
+         
+        <tag>machine_learning</tag>
          
         <tag>music</tag>
          
@@ -189,13 +189,13 @@
         <title>Resources & Tools of Information System Research</title>
         <pubTime>2017-10-23T16:00:00.000Z</pubTime>
         
+        <tag>research</tag>
+         
         <tag>information_system</tag>
          
         <tag>markdown_table</tag>
          
         <tag>image</tag>
-         
-        <tag>research</tag>
          
          
            
@@ -215,11 +215,11 @@
         <title>ToDo List: Reference List of Project IS8002-SA</title>
         <pubTime>2017-11-24T16:00:00.000Z</pubTime>
         
+        <tag>research</tag>
+         
         <tag>machine_learning</tag>
          
         <tag>natural_language_processing</tag>
-         
-        <tag>research</tag>
          
         <tag>sentiment_analysis</tag>
          
@@ -391,13 +391,13 @@
         <title>Literature Review on Social Media in Financial Market</title>
         <pubTime>2017-11-01T16:00:00.000Z</pubTime>
         
+        <tag>research</tag>
+         
         <tag>information_system</tag>
          
         <tag>finance</tag>
          
         <tag>image</tag>
-         
-        <tag>research</tag>
          
         <tag>sentiment_analysis</tag>
          
@@ -484,9 +484,9 @@
         <title>Literature Review: Predicting the Semantic Orientation of Adjectives</title>
         <pubTime>2017-11-20T16:00:00.000Z</pubTime>
         
-        <tag>image</tag>
-         
         <tag>research</tag>
+         
+        <tag>image</tag>
          
         <tag>sentiment_analysis</tag>
          
@@ -516,9 +516,9 @@
         <title>Literature Review on Special Paper: Feature Engineering + Neural Network</title>
         <pubTime>2017-11-02T16:00:00.000Z</pubTime>
         
-        <tag>image</tag>
-         
         <tag>research</tag>
+         
+        <tag>image</tag>
          
         <tag>sentiment_analysis</tag>
          
@@ -554,9 +554,9 @@
         <title>Literature Review on UGC/WOM</title>
         <pubTime>2017-10-30T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>research</tag>
+         
+        <tag>information_system</tag>
          
         <tag>sentiment_analysis</tag>
          
@@ -588,11 +588,11 @@
         
         <tag>hexo_pdf</tag>
          
-        <tag>tbc</tag>
-         
         <tag>robo_advisor</tag>
          
         <tag>fintech</tag>
+         
+        <tag>tbc</tag>
          
          
            
@@ -614,9 +614,9 @@
         
         <tag>r_language</tag>
          
-        <tag>science_computing</tag>
-         
         <tag>tbc</tag>
+         
+        <tag>science_computing</tag>
          
          
            
@@ -640,8 +640,6 @@
          
         <tag>faicon</tag>
          
-        <tag>r_language</tag>
-         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
@@ -651,6 +649,8 @@
         <tag>fortran</tag>
          
         <tag>python</tag>
+         
+        <tag>r_language</tag>
          
         <tag>mathematica</tag>
          
@@ -702,11 +702,11 @@
         <title>20171104 Notes: Reputation System, Data Types, Variable Types</title>
         <pubTime>2017-11-03T16:00:00.000Z</pubTime>
         
+        <tag>notes</tag>
+         
         <tag>markdown_table</tag>
          
         <tag>image</tag>
-         
-        <tag>notes</tag>
          
         <tag>reputation_system</tag>
          
@@ -732,11 +732,11 @@
         <title>Can online scoring really reflects the rankings of products?</title>
         <pubTime>2017-10-29T16:00:00.000Z</pubTime>
         
-        <tag>economics</tag>
-         
         <tag>research</tag>
          
         <tag>notes</tag>
+         
+        <tag>economics</tag>
          
         <tag>mathjax</tag>
          
@@ -781,9 +781,9 @@
         <title>Experiments in IS research</title>
         <pubTime>2017-09-10T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>notes</tag>
+         
+        <tag>information_system</tag>
          
          
            
@@ -825,9 +825,9 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>github</tag>
-         
         <tag>hexo</tag>
+         
+        <tag>github</tag>
          
         <tag>tutorial</tag>
          
