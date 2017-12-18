@@ -112,17 +112,17 @@
         
         <tags>
             
-            <tag> machine_learning </tag>
-            
-            <tag> natural_language_processing </tag>
-            
             <tag> research </tag>
+            
+            <tag> machine_learning </tag>
             
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
             
             <tag> faicon </tag>
+            
+            <tag> natural_language_processing </tag>
             
         </tags>
         
@@ -456,13 +456,13 @@ k_1 k_3 = 5 \beta \lambda p
         
         <tags>
             
-            <tag> image </tag>
-            
             <tag> research </tag>
             
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
+            
+            <tag> image </tag>
             
             <tag> mathjax </tag>
             
@@ -810,9 +810,9 @@ end
         
         <tags>
             
-            <tag> image </tag>
-            
             <tag> faicon </tag>
+            
+            <tag> image </tag>
             
             <tag> r_language </tag>
             
@@ -901,9 +901,9 @@ end
         
         <tags>
             
-            <tag> image </tag>
-            
             <tag> faicon </tag>
+            
+            <tag> image </tag>
             
             <tag> mendeley </tag>
             
@@ -996,9 +996,9 @@ end
             
             <tag> deep_learning </tag>
             
-            <tag> hardware </tag>
-            
             <tag> tutorial </tag>
+            
+            <tag> hardware </tag>
             
         </tags>
         
@@ -1160,11 +1160,11 @@ end
         
         <tags>
             
+            <tag> notes </tag>
+            
             <tag> markdown_table </tag>
             
             <tag> image </tag>
-            
-            <tag> notes </tag>
             
             <tag> reputation_system </tag>
             
@@ -1250,13 +1250,13 @@ end
         
         <tags>
             
-            <tag> image </tag>
-            
             <tag> research </tag>
             
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
+            
+            <tag> image </tag>
             
             <tag> mathjax </tag>
             
@@ -1498,17 +1498,17 @@ end
         
         <tags>
             
-            <tag> information_system </tag>
-            
-            <tag> finance </tag>
-            
-            <tag> image </tag>
-            
             <tag> research </tag>
+            
+            <tag> information_system </tag>
             
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
+            
+            <tag> finance </tag>
+            
+            <tag> image </tag>
             
             <tag> mathjax </tag>
             
@@ -1769,9 +1769,9 @@ end
         
         <tags>
             
-            <tag> information_system </tag>
-            
             <tag> research </tag>
+            
+            <tag> information_system </tag>
             
             <tag> sentiment_analysis </tag>
             
@@ -1831,11 +1831,11 @@ end
         
         <tags>
             
-            <tag> economics </tag>
-            
             <tag> research </tag>
             
             <tag> notes </tag>
+            
+            <tag> economics </tag>
             
             <tag> mathjax </tag>
             
@@ -2964,13 +2964,13 @@ killall Finder
         
         <tags>
             
+            <tag> research </tag>
+            
             <tag> information_system </tag>
             
             <tag> markdown_table </tag>
             
             <tag> image </tag>
-            
-            <tag> research </tag>
             
         </tags>
         
@@ -3140,13 +3140,13 @@ killall Finder
             
             <tag> machine_learning </tag>
             
+            <tag> sentiment_analysis </tag>
+            
             <tag> natural_language_processing </tag>
             
             <tag> hexo_pdf </tag>
             
             <tag> image </tag>
-            
-            <tag> sentiment_analysis </tag>
             
         </tags>
         
@@ -3976,10 +3976,6 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
-            <tag> information_system </tag>
-            
-            <tag> machine_learning </tag>
-            
             <tag> study </tag>
             
             <tag> research </tag>
@@ -3991,6 +3987,10 @@ Ref 2\cite{kom2016stochastic}
             <tag> hexo </tag>
             
             <tag> notes </tag>
+            
+            <tag> information_system </tag>
+            
+            <tag> machine_learning </tag>
             
             <tag> music </tag>
             
@@ -4096,7 +4096,7 @@ Ref 2\cite{kom2016stochastic}
 <tr>
 <td style="text-align:center">13</td>
 <td style="text-align:center"><a href="#OP13">MIT 6.431 PSA&amp;AP</a></td>
-<td style="text-align:center"><img src="http://progressed.io/bar/28?title=done" alt="7/25"></td>
+<td style="text-align:center"><img src="http://progressed.io/bar/41?title=done" alt="31/76"></td>
 </tr>
 </tbody>
 </table>
@@ -4264,7 +4264,7 @@ Ref 2\cite{kom2016stochastic}
 
 <h2 id="Courses-2"><a href="#Courses-2" class="headerlink" title="Courses"></a>Courses</h2><h3 id="Main"><a href="#Main" class="headerlink" title="Main"></a>Main</h3><ul>
 <li><strong>$\mathbb{UG}$</strong>/<strong>$\mathbb{G}$</strong><span id="OP11"></span><strong>MIT 18.650 - Statistics for Applications, Fall 2016</strong>: 1h15min/Lec, 21 Lectures, <a href="https://ocw.mit.edu/courses/mathematics/18-650-statistics-for-applications-fall-2016/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP60uVBMaoNERc6knT_MgPKS0" target="_blank" rel="external">Videos</a> <i class="fa fa-play" aria-hidden="true"></i> <img src="http://progressed.io/bar/5?title=done" alt="1/21"></li>
-<li><strong>$\mathbb{UG}$</strong><span id="OP13"></span>MIT 6.041(UG)/6.431(G) - Probabilistic Systems Analysis and Applied Probability by <strong>John Tsitsiklis</strong>, Fall 2010: For Undergraduate / Graduate, 25 Lectures, <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/index.htm" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP60A3XMwZ5sep719_nh95qOe" target="_blank" rel="external">Videos</a> <i class="fa fa-fast-forward" aria-hidden="true"></i> <img src="http://progressed.io/bar/28?title=done" alt="7/25"></li>
+<li><strong>$\mathbb{UG}$</strong><span id="OP13"></span>MIT 6.041(UG)/6.431(G) - Probabilistic Systems Analysis and Applied Probability by <strong>John Tsitsiklis</strong>, Fall 2010: For Undergraduate / Graduate, 25 Lectures, <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/index.htm" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP60A3XMwZ5sep719_nh95qOe" target="_blank" rel="external">Videos</a> <i class="fa fa-fast-forward" aria-hidden="true"></i> <img src="http://progressed.io/bar/41?title=done" alt="31/76"></li>
 <li><strong>$\mathbb{UG}$</strong><span id="OP12"></span>Stanford Online-StatLearning Statistical Learning by <strong>Trevor Hastie</strong> and <strong>Rob Tibshirani</strong>: 10 Lectures, <a href="https://lagunita.stanford.edu/Lecs/HumanitiesScience/StatLearning/Winter2014/Lecware/" target="_blank" rel="external">Course Page</a>, <a href="https://github.com/asadoughi/stat-learning" target="_blank" rel="external">Notes&amp;Excercise</a> <i class="fa fa-play" aria-hidden="true"></i> <img src="http://progressed.io/bar/10?title=done" alt="1/10"></li>
 </ul>
 <h3 id="Others-2"><a href="#Others-2" class="headerlink" title="Others"></a>Others</h3><ul>
@@ -4334,13 +4334,15 @@ Ref 2\cite{kom2016stochastic}
             
             <tag> information_system </tag>
             
+            <tag> machine_learning </tag>
+            
+            <tag> natural_language_processing </tag>
+            
             <tag> statistics </tag>
             
             <tag> mathematics </tag>
             
             <tag> github </tag>
-            
-            <tag> machine_learning </tag>
             
             <tag> artificial_intelligence </tag>
             
@@ -4349,8 +4351,6 @@ Ref 2\cite{kom2016stochastic}
             <tag> finance </tag>
             
             <tag> deep_learning </tag>
-            
-            <tag> natural_language_processing </tag>
             
             <tag> open_course </tag>
             
@@ -4539,9 +4539,9 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
-            <tag> information_system </tag>
-            
             <tag> notes </tag>
+            
+            <tag> information_system </tag>
             
         </tags>
         
@@ -4783,9 +4783,9 @@ $ hexo d
         
         <tags>
             
-            <tag> github </tag>
-            
             <tag> hexo </tag>
+            
+            <tag> github </tag>
             
             <tag> tutorial </tag>
             
