@@ -4,6 +4,78 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/Structural_Model/</loc>
+    <lastmod>2017-12-18T14:57:49.000Z</lastmod>
+    <data>
+        <display>
+        <title>Notes on the Structural Modeling</title>
+        <pubTime>2017-11-28T16:00:00.000Z</pubTime>
+        
+        <tag>information_system</tag>
+         
+        <tag>machine_learning</tag>
+         
+        <tag>structural_modeling</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
+    <lastmod>2017-12-18T14:57:18.000Z</lastmod>
+    <data>
+        <display>
+        <title>2017-18 Open-Course Challenges</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>information_system</tag>
+         
+        <tag>machine_learning</tag>
+         
+        <tag>natural_language_processing</tag>
+         
+        <tag>deep_learning</tag>
+         
+        <tag>statistics</tag>
+         
+        <tag>mathematics</tag>
+         
+        <tag>github</tag>
+         
+        <tag>artificial_intelligence</tag>
+         
+        <tag>economics</tag>
+         
+        <tag>finance</tag>
+         
+        <tag>open_course</tag>
+         
+        <tag>hexo_pdf</tag>
+         
+        <tag>markdown_table</tag>
+         
+        <tag>span_id_anchor</tag>
+         
+        <tag>image</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
     <lastmod>2017-12-18T14:10:06.000Z</lastmod>
     <data>
@@ -33,54 +105,6 @@
            
              
               <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-12-18T13:45:57.000Z</lastmod>
-    <data>
-        <display>
-        <title>2017-18 Open-Course Challenges</title>
-        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
-        
-        <tag>information_system</tag>
-         
-        <tag>machine_learning</tag>
-         
-        <tag>natural_language_processing</tag>
-         
-        <tag>statistics</tag>
-         
-        <tag>mathematics</tag>
-         
-        <tag>github</tag>
-         
-        <tag>artificial_intelligence</tag>
-         
-        <tag>economics</tag>
-         
-        <tag>finance</tag>
-         
-        <tag>deep_learning</tag>
-         
-        <tag>open_course</tag>
-         
-        <tag>hexo_pdf</tag>
-         
-        <tag>markdown_table</tag>
-         
-        <tag>span_id_anchor</tag>
-         
-        <tag>image</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
           
         </display>
     </data>
@@ -343,9 +367,9 @@
         
         <tag>tutorial</tag>
          
-        <tag>latex</tag>
-         
         <tag>sublime_text_3</tag>
+         
+        <tag>latex</tag>
          
         <tag>skim</tag>
          
@@ -538,11 +562,11 @@
          
         <tag>literature_review</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
+         
+        <tag>mathjax</tag>
          
          
            
@@ -616,6 +640,10 @@
          
         <tag>image</tag>
          
+        <tag>r_language</tag>
+         
+        <tag>mathjax</tag>
+         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
@@ -626,11 +654,7 @@
          
         <tag>python</tag>
          
-        <tag>r_language</tag>
-         
         <tag>mathematica</tag>
-         
-        <tag>mathjax</tag>
          
          
            
@@ -803,9 +827,9 @@
         
         <tag>hexo</tag>
          
-        <tag>github</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>github</tag>
          
          
            
