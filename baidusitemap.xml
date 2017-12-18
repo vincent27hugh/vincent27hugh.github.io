@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-12-18T15:06:36.000Z</lastmod>
+    <lastmod>2017-12-18T15:11:38.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges: Data Science on IS</title>
@@ -588,11 +588,11 @@
         
         <tag>hexo_pdf</tag>
          
+        <tag>tbc</tag>
+         
         <tag>robo_advisor</tag>
          
         <tag>fintech</tag>
-         
-        <tag>tbc</tag>
          
          
            
@@ -614,9 +614,9 @@
         
         <tag>r_language</tag>
          
-        <tag>tbc</tag>
-         
         <tag>science_computing</tag>
+         
+        <tag>tbc</tag>
          
          
            
@@ -640,6 +640,8 @@
          
         <tag>faicon</tag>
          
+        <tag>r_language</tag>
+         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
@@ -649,8 +651,6 @@
         <tag>fortran</tag>
          
         <tag>python</tag>
-         
-        <tag>r_language</tag>
          
         <tag>mathematica</tag>
          

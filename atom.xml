@@ -226,6 +226,8 @@
     
       <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
     
+      <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
+    
       <category term="nonlinear_equations" scheme="http://blog.baoduge.com/tags/nonlinear-equations/"/>
     
       <category term="numerical_analysis" scheme="http://blog.baoduge.com/tags/numerical-analysis/"/>
@@ -235,8 +237,6 @@
       <category term="fortran" scheme="http://blog.baoduge.com/tags/fortran/"/>
     
       <category term="python" scheme="http://blog.baoduge.com/tags/python/"/>
-    
-      <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
     
       <category term="mathematica" scheme="http://blog.baoduge.com/tags/mathematica/"/>
     
