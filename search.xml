@@ -147,17 +147,17 @@
         
         <tags>
             
-            <tag> research </tag>
-            
             <tag> machine_learning </tag>
+            
+            <tag> natural_language_processing </tag>
+            
+            <tag> research </tag>
             
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
             
             <tag> faicon </tag>
-            
-            <tag> natural_language_processing </tag>
             
         </tags>
         
@@ -491,13 +491,13 @@ k_1 k_3 = 5 \beta \lambda p
         
         <tags>
             
+            <tag> image </tag>
+            
             <tag> research </tag>
             
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
-            
-            <tag> image </tag>
             
             <tag> mathjax </tag>
             
@@ -845,13 +845,11 @@ end
         
         <tags>
             
-            <tag> faicon </tag>
-            
             <tag> image </tag>
             
-            <tag> r_language </tag>
+            <tag> faicon </tag>
             
-            <tag> mathjax </tag>
+            <tag> r_language </tag>
             
             <tag> nonlinear_equations </tag>
             
@@ -864,6 +862,8 @@ end
             <tag> python </tag>
             
             <tag> mathematica </tag>
+            
+            <tag> mathjax </tag>
             
         </tags>
         
@@ -936,9 +936,9 @@ end
         
         <tags>
             
-            <tag> faicon </tag>
-            
             <tag> image </tag>
+            
+            <tag> faicon </tag>
             
             <tag> mendeley </tag>
             
@@ -1195,11 +1195,11 @@ end
         
         <tags>
             
-            <tag> notes </tag>
-            
             <tag> markdown_table </tag>
             
             <tag> image </tag>
+            
+            <tag> notes </tag>
             
             <tag> reputation_system </tag>
             
@@ -1285,13 +1285,13 @@ end
         
         <tags>
             
+            <tag> image </tag>
+            
             <tag> research </tag>
             
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
-            
-            <tag> image </tag>
             
             <tag> mathjax </tag>
             
@@ -1533,17 +1533,17 @@ end
         
         <tags>
             
-            <tag> research </tag>
-            
             <tag> information_system </tag>
-            
-            <tag> sentiment_analysis </tag>
-            
-            <tag> literature_review </tag>
             
             <tag> finance </tag>
             
             <tag> image </tag>
+            
+            <tag> research </tag>
+            
+            <tag> sentiment_analysis </tag>
+            
+            <tag> literature_review </tag>
             
             <tag> mathjax </tag>
             
@@ -1804,19 +1804,19 @@ end
         
         <tags>
             
-            <tag> research </tag>
-            
             <tag> information_system </tag>
+            
+            <tag> research </tag>
             
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
             
+            <tag> mathjax </tag>
+            
             <tag> user_generated_content </tag>
             
             <tag> word_of_mouth </tag>
-            
-            <tag> mathjax </tag>
             
         </tags>
         
@@ -1866,11 +1866,11 @@ end
         
         <tags>
             
+            <tag> economics </tag>
+            
             <tag> research </tag>
             
             <tag> notes </tag>
-            
-            <tag> economics </tag>
             
             <tag> mathjax </tag>
             
@@ -2999,13 +2999,13 @@ killall Finder
         
         <tags>
             
-            <tag> research </tag>
-            
             <tag> information_system </tag>
             
             <tag> markdown_table </tag>
             
             <tag> image </tag>
+            
+            <tag> research </tag>
             
         </tags>
         
@@ -3175,13 +3175,13 @@ killall Finder
             
             <tag> machine_learning </tag>
             
-            <tag> sentiment_analysis </tag>
-            
             <tag> natural_language_processing </tag>
             
             <tag> hexo_pdf </tag>
             
             <tag> image </tag>
+            
+            <tag> sentiment_analysis </tag>
             
         </tags>
         
@@ -4012,6 +4012,10 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
+            <tag> information_system </tag>
+            
+            <tag> machine_learning </tag>
+            
             <tag> study </tag>
             
             <tag> research </tag>
@@ -4024,10 +4028,6 @@ Ref 2\cite{kom2016stochastic}
             
             <tag> notes </tag>
             
-            <tag> information_system </tag>
-            
-            <tag> machine_learning </tag>
-            
             <tag> music </tag>
             
         </tags>
@@ -4035,7 +4035,7 @@ Ref 2\cite{kom2016stochastic}
     </entry>
     
     <entry>
-      <title><![CDATA[2017-18 Open-Course Challenges]]></title>
+      <title><![CDATA[2017-18 Open-Course Challenges: Data Science on IS]]></title>
       <url>/2017_Study_Plan/</url>
       <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>Inspired by <a href="https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/" target="_blank" rel="external">Scott H.Young - MIT Challenges</a>, I decide to design an Open-course Challenges of 2017-18 for myself. I hope that I could accomplish these goals in time.</p>
 <p>Good luck!</p>
@@ -4355,7 +4355,7 @@ Ref 2\cite{kom2016stochastic}
 <li>Social media/Social computing/Social network</li>
 <li>Decision Support System</li>
 </ul>
-<h2 id="Professors-on-Data-Science"><a href="#Professors-on-Data-Science" class="headerlink" title="Professors on Data Science"></a>Professors on Data Science</h2><ul>
+<h2 id="IS-Professors-on-Data-Science"><a href="#IS-Professors-on-Data-Science" class="headerlink" title="IS Professors on Data Science"></a>IS Professors on Data Science</h2><ul>
 <li><a href="http://www.u.arizona.edu/~junmingy/" target="_blank" rel="external">Junming Yin @ MIS Arizona</a></li>
 <li><a href="https://mis.eller.arizona.edu/people/daniel-zeng" target="_blank" rel="external">Daniel Zeng @ MIS Arizona</a></li>
 <li><a href="http://nlp.lab.arizona.edu/" target="_blank" rel="external">Gondy Leroy, Eller Fellow @ MIS Arizona</a></li>
@@ -4365,12 +4365,12 @@ Ref 2\cite{kom2016stochastic}
 <li><a href="http://faculty.washington.edu/ytan/" target="_blank" rel="external">Yong TAN @ IS, Washington</a></li>
 <li><a href="http://leedokyun.com/index.html" target="_blank" rel="external">Dokyun Lee @ IS&amp;Econ @ CMU</a></li>
 </ul>
-<h2 id="Others-2"><a href="#Others-2" class="headerlink" title="Others"></a>Others</h2><ul>
+<h2 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h2><ul>
 <li>The Structural Modeling and Machine Learning Applications for Research on Technology Workshop: <a href="http://faculty.washington.edu/ytan/SMART2017/SMART2017.html" target="_blank" rel="external">2017 Home Page</a></li>
 <li><a href="http://leedokyun.com/deep-learning-reading-list.html" target="_blank" rel="external">Dokyun Lee&#x2019;S Deep Learning Resources</a></li>
 <li><a href="http://bt.tepper.cmu.edu/links/" target="_blank" rel="external">CMU Business Technology Group-Links</a></li>
 </ul>
-<h1 id="Others-3"><a href="#Others-3" class="headerlink" title="Others"></a>Others</h1><ul>
+<h1 id="Others-2"><a href="#Others-2" class="headerlink" title="Others"></a>Others</h1><ul>
 <li><del>Github</del></li>
 <li><del>Hexo</del></li>
 <li><del>Markdown</del></li>
@@ -4390,23 +4390,23 @@ Ref 2\cite{kom2016stochastic}
             
             <tag> information_system </tag>
             
-            <tag> machine_learning </tag>
-            
-            <tag> natural_language_processing </tag>
-            
-            <tag> deep_learning </tag>
-            
             <tag> statistics </tag>
             
             <tag> mathematics </tag>
             
             <tag> github </tag>
             
+            <tag> machine_learning </tag>
+            
             <tag> artificial_intelligence </tag>
             
             <tag> economics </tag>
             
             <tag> finance </tag>
+            
+            <tag> deep_learning </tag>
+            
+            <tag> natural_language_processing </tag>
             
             <tag> open_course </tag>
             
@@ -4595,9 +4595,9 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
-            <tag> notes </tag>
-            
             <tag> information_system </tag>
+            
+            <tag> notes </tag>
             
         </tags>
         
@@ -4795,9 +4795,9 @@ SyntaxError: unexpected character after line continuation character
             
             <tag> tutorial </tag>
             
-            <tag> sublime_text_3 </tag>
-            
             <tag> latex </tag>
+            
+            <tag> sublime_text_3 </tag>
             
             <tag> skim </tag>
             
@@ -4839,11 +4839,11 @@ $ hexo d
         
         <tags>
             
+            <tag> github </tag>
+            
             <tag> hexo </tag>
             
             <tag> tutorial </tag>
-            
-            <tag> github </tag>
             
         </tags>
         
