@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.baoduge.com/"/>
-  <updated>2017-12-19T05:39:52.000Z</updated>
+  <updated>2017-12-20T06:29:33.000Z</updated>
   <id>http://blog.baoduge.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>How to convert markdown into PDF file</title>
+    <link href="http://blog.baoduge.com/pdf_pandoc_command/"/>
+    <id>http://blog.baoduge.com/pdf_pandoc_command/</id>
+    <published>2017-12-19T16:00:00.000Z</published>
+    <updated>2017-12-20T06:29:33.000Z</updated>
+    
+    <summary type="html">
+    
+      This is the introduction of how to convert markdown file into PDF file in Sublime Text 3.
+    
+    </summary>
+    
+      <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
+    
+    
+      <category term="sublime_text_3" scheme="http://blog.baoduge.com/tags/sublime-text-3/"/>
+    
+      <category term="markdown" scheme="http://blog.baoduge.com/tags/markdown/"/>
+    
+      <category term="pandoc" scheme="http://blog.baoduge.com/tags/pandoc/"/>
+    
+  </entry>
   
   <entry>
     <title>Notes on the Structural Modeling</title>
@@ -226,8 +250,6 @@
     
       <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
     
-      <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
-    
       <category term="nonlinear_equations" scheme="http://blog.baoduge.com/tags/nonlinear-equations/"/>
     
       <category term="numerical_analysis" scheme="http://blog.baoduge.com/tags/numerical-analysis/"/>
@@ -237,6 +259,8 @@
       <category term="fortran" scheme="http://blog.baoduge.com/tags/fortran/"/>
     
       <category term="python" scheme="http://blog.baoduge.com/tags/python/"/>
+    
+      <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
     
       <category term="mathematica" scheme="http://blog.baoduge.com/tags/mathematica/"/>
     
@@ -290,9 +314,9 @@
     
       <category term="deep_learning" scheme="http://blog.baoduge.com/tags/deep-learning/"/>
     
-      <category term="hardware" scheme="http://blog.baoduge.com/tags/hardware/"/>
-    
       <category term="tutorial" scheme="http://blog.baoduge.com/tags/tutorial/"/>
+    
+      <category term="hardware" scheme="http://blog.baoduge.com/tags/hardware/"/>
     
   </entry>
   
@@ -595,34 +619,6 @@
       <category term="academic_reference" scheme="http://blog.baoduge.com/tags/academic-reference/"/>
     
       <category term="markdown" scheme="http://blog.baoduge.com/tags/markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Using MATLAB to batch search #citation of IS papers</title>
-    <link href="http://blog.baoduge.com/gogle_citation_isr/"/>
-    <id>http://blog.baoduge.com/gogle_citation_isr/</id>
-    <published>2017-09-18T16:00:00.000Z</published>
-    <updated>2017-11-25T16:45:40.000Z</updated>
-    
-    <summary type="html">
-    
-      A Matlab program to search for citation for a pdf paper and rename it.
-    
-    </summary>
-    
-      <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
-    
-    
-      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
-    
-      <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
-    
-      <category term="matlab" scheme="http://blog.baoduge.com/tags/matlab/"/>
-    
-      <category term="google_scholar" scheme="http://blog.baoduge.com/tags/google-scholar/"/>
-    
-      <category term="reference" scheme="http://blog.baoduge.com/tags/reference/"/>
     
   </entry>
   
