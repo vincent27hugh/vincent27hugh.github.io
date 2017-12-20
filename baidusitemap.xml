@@ -4,6 +4,42 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
+    <lastmod>2017-12-20T05:06:13.000Z</lastmod>
+    <data>
+        <display>
+        <title>NEVERLAND - Blog Logs</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>study</tag>
+         
+        <tag>research</tag>
+         
+        <tag>blog</tag>
+         
+        <tag>logs</tag>
+         
+        <tag>hexo</tag>
+         
+        <tag>notes</tag>
+         
+        <tag>information_system</tag>
+         
+        <tag>machine_learning</tag>
+         
+        <tag>music</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
     <lastmod>2017-12-19T07:47:56.000Z</lastmod>
     <data>
@@ -17,8 +53,6 @@
          
         <tag>natural_language_processing</tag>
          
-        <tag>deep_learning</tag>
-         
         <tag>statistics</tag>
          
         <tag>mathematics</tag>
@@ -30,6 +64,8 @@
         <tag>economics</tag>
          
         <tag>finance</tag>
+         
+        <tag>deep_learning</tag>
          
         <tag>open_course</tag>
          
@@ -69,42 +105,6 @@
            
              
               <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
-    <lastmod>2017-12-18T14:10:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>NEVERLAND - Blog Logs</title>
-        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
-        
-        <tag>study</tag>
-         
-        <tag>research</tag>
-         
-        <tag>blog</tag>
-         
-        <tag>logs</tag>
-         
-        <tag>hexo</tag>
-         
-        <tag>notes</tag>
-         
-        <tag>information_system</tag>
-         
-        <tag>machine_learning</tag>
-         
-        <tag>music</tag>
-         
-         
-           
-             
-              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
           
         </display>
     </data>
@@ -562,11 +562,11 @@
          
         <tag>literature_review</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
+         
+        <tag>mathjax</tag>
          
          
            
@@ -642,6 +642,8 @@
          
         <tag>r_language</tag>
          
+        <tag>mathjax</tag>
+         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
@@ -653,8 +655,6 @@
         <tag>python</tag>
          
         <tag>mathematica</tag>
-         
-        <tag>mathjax</tag>
          
          
            
@@ -827,9 +827,9 @@
         
         <tag>hexo</tag>
          
-        <tag>tutorial</tag>
-         
         <tag>github</tag>
+         
+        <tag>tutorial</tag>
          
          
            
