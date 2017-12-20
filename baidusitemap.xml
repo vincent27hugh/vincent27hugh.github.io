@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/pdf_pandoc_command/</loc>
-    <lastmod>2017-12-20T06:42:46.000Z</lastmod>
+    <lastmod>2017-12-20T06:46:48.000Z</lastmod>
     <data>
         <display>
         <title>How to convert Markdown into PDF file</title>
@@ -35,9 +35,13 @@
         <title>NEVERLAND - Blog Logs</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>study</tag>
-         
         <tag>research</tag>
+         
+        <tag>machine_learning</tag>
+         
+        <tag>information_system</tag>
+         
+        <tag>study</tag>
          
         <tag>blog</tag>
          
@@ -46,10 +50,6 @@
         <tag>hexo</tag>
          
         <tag>notes</tag>
-         
-        <tag>information_system</tag>
-         
-        <tag>machine_learning</tag>
          
         <tag>music</tag>
          
@@ -71,9 +71,11 @@
         <title>2017-18 Open-Course Challenges: Data Science on IS</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>machine_learning</tag>
+         
+        <tag>natural_language_processing</tag>
+         
+        <tag>information_system</tag>
          
         <tag>statistics</tag>
          
@@ -88,8 +90,6 @@
         <tag>finance</tag>
          
         <tag>deep_learning</tag>
-         
-        <tag>natural_language_processing</tag>
          
         <tag>open_course</tag>
          
@@ -119,9 +119,9 @@
         <title>Notes on the Structural Modeling</title>
         <pubTime>2017-11-28T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>machine_learning</tag>
+         
+        <tag>information_system</tag>
          
         <tag>structural_modeling</tag>
          
@@ -241,15 +241,15 @@
         
         <tag>research</tag>
          
-        <tag>machine_learning</tag>
-         
-        <tag>natural_language_processing</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
          
         <tag>faicon</tag>
+         
+        <tag>machine_learning</tag>
+         
+        <tag>natural_language_processing</tag>
          
          
            
@@ -269,9 +269,9 @@
         <title>如何管理文献:Mendeley小技巧</title>
         <pubTime>2017-11-11T16:00:00.000Z</pubTime>
         
-        <tag>image</tag>
-         
         <tag>faicon</tag>
+         
+        <tag>image</tag>
          
         <tag>mendeley</tag>
          
@@ -327,6 +327,8 @@
         <title>Introduction to Sentiment Analysis</title>
         <pubTime>2017-10-22T16:00:00.000Z</pubTime>
         
+        <tag>sentiment_analysis</tag>
+         
         <tag>machine_learning</tag>
          
         <tag>natural_language_processing</tag>
@@ -334,8 +336,6 @@
         <tag>hexo_pdf</tag>
          
         <tag>image</tag>
-         
-        <tag>sentiment_analysis</tag>
          
          
            
@@ -417,15 +417,15 @@
         
         <tag>research</tag>
          
+        <tag>sentiment_analysis</tag>
+         
+        <tag>literature_review</tag>
+         
         <tag>information_system</tag>
          
         <tag>finance</tag>
          
         <tag>image</tag>
-         
-        <tag>sentiment_analysis</tag>
-         
-        <tag>literature_review</tag>
          
         <tag>mathjax</tag>
          
@@ -453,9 +453,9 @@
         
         <tag>deep_learning</tag>
          
-        <tag>hardware</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>hardware</tag>
          
          
            
@@ -510,11 +510,11 @@
         
         <tag>research</tag>
          
-        <tag>image</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
+         
+        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -542,11 +542,11 @@
         
         <tag>research</tag>
          
-        <tag>image</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
+         
+        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -580,11 +580,11 @@
         
         <tag>research</tag>
          
-        <tag>information_system</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
+         
+        <tag>information_system</tag>
          
         <tag>mathjax</tag>
          
@@ -660,9 +660,9 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
-        <tag>image</tag>
-         
         <tag>faicon</tag>
+         
+        <tag>image</tag>
          
         <tag>nonlinear_equations</tag>
          
@@ -698,9 +698,9 @@
         <title>Using MATLAB to batch search #citation of IS papers</title>
         <pubTime>2017-09-18T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>faicon</tag>
+         
+        <tag>information_system</tag>
          
         <tag>matlab</tag>
          
@@ -726,11 +726,11 @@
         <title>20171104 Notes: Reputation System, Data Types, Variable Types</title>
         <pubTime>2017-11-03T16:00:00.000Z</pubTime>
         
-        <tag>notes</tag>
-         
         <tag>markdown_table</tag>
          
         <tag>image</tag>
+         
+        <tag>notes</tag>
          
         <tag>reputation_system</tag>
          
@@ -758,9 +758,9 @@
         
         <tag>research</tag>
          
-        <tag>notes</tag>
-         
         <tag>economics</tag>
+         
+        <tag>notes</tag>
          
         <tag>mathjax</tag>
          
@@ -805,9 +805,9 @@
         <title>Experiments in IS research</title>
         <pubTime>2017-09-10T16:00:00.000Z</pubTime>
         
-        <tag>notes</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>notes</tag>
          
          
            
@@ -849,9 +849,9 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>hexo</tag>
-         
         <tag>github</tag>
+         
+        <tag>hexo</tag>
          
         <tag>tutorial</tag>
          

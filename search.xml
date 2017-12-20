@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[How to convert Markdown into PDF file]]></title>
     <url>%2Fpdf_pandoc_command%2F</url>
-    <content type="text"><![CDATA[The working environment is: OS: Mac OS X EI Capitan Sublime Text 3 Take use of Sublime Text 3 (ST3) Package Unicode Character Highlighter to check whether the file contains unicode characters, such as Hanzi. If .md doesn&#x2019;t contains unicode charactersYou can directly use ST3 Package Pandoc to convert .md file into .pdf: Command+Shift+P Enter Pandoc Choose PDF Bingo! If .md contains unicode charactersIf the markdown file contains unicode characters, you can use the command as follow to convert the .md into .pdf1: 1$pandoc -N -s --smart --latex-engine=xelatex -V CJKmainfont=&apos;PingFang SC&apos; -V mainfont=&apos;Monaco&apos; -V geometry:margin=1in XXX.md -o XXX.pdf where XXX.md is the name of your markdown file and XXX.pdf is the name of the PDF file. Follow the Pandoc User&#x2019;s Guide, you can change the options of pandoc. pandoc options -N, --number-sections Number section headings in LaTeX, ConTeXt, HTML, or EPUB output. By default, sections are not numbered. Sections with class unnumbered will never be numbered, even if --number-sections is specified. -s, --standalone Produce output with an appropriate header and footer (e.g. a standalone HTML, LaTeX, TEI, or RTF file, not a fragment). This option is set automatically for pdf, epub, epub3, fb2, docx, and odt output. -V KEY[=VAL], --variable=KEY[:VAL] Set the template variable KEY to the value VAL when rendering the document in standalone mode. This is generally only useful when the --template option is used to specify a custom template, since pandoc automatically sets the variables used in the default templates. If no VAL is specified, the key will be given the value true. Variables for LaTeX mainfont, sansfont, monofont, mathfont, CJKmainfont font families for use with xelatex or lualatex: take the name of any system font, using the fontspec package. Note that if CJKmainfont is used, the xecjk package must be available. geometry option for geometry package, e.g. margin=1in; may be repeated for multiple options CommentsIn fact, generally you can take use of the Print function of Google Chrome Explorer to easily fulfill the conversion. For example, my explorer is Google Chrome, Version 63.0.3239.84 (Official Build) (64-bit) and in ST3: Command+Shift+P Enter mp Choose Markdown Preview: Preview in Browser Choose github or markdown In the pop-up Chrome page, you can check the corresponding html file Press Command+P to print the web page However, this method is not meticulous enough. 1. https://www.zhihu.com/question/20849824 &#x21A9;]]></content>
+    <content type="text"><![CDATA[The working environment is: OS: Mac OS X EI Capitan Sublime Text 3 Take use of Sublime Text 3 (ST3) Package Unicode Character Highlighter to check whether the file contains unicode characters, such as Hanzi. Read more about ST3: SUBLIME TEXT&#x4E0B;&#x4F7F;&#x7528;MARKDOWN MARKDOWN+SUBLIME TEXT 3+PANDOC+MACTEX MAC&#x4E0A;&#x4F7F;&#x7528;SUBLIME TEXT3&#x7F16;&#x5199;LATEX &#x7528;Sublime Text 3&#x7BA1;&#x7406;&#x6587;&#x732E; If .md doesn&#x2019;t contains unicode charactersYou can directly use ST3 Package Pandoc to convert .md file into .pdf: Command+Shift+P Enter Pandoc Choose PDF Bingo! If .md contains unicode charactersIf the markdown file contains unicode characters, you can use the command as follow to convert the .md into .pdf1: 1$pandoc -N -s --smart --latex-engine=xelatex -V CJKmainfont=&apos;PingFang SC&apos; -V mainfont=&apos;Monaco&apos; -V geometry:margin=1in XXX.md -o XXX.pdf where XXX.md is the name of your markdown file and XXX.pdf is the name of the PDF file. Follow the Pandoc User&#x2019;s Guide, you can change the options of pandoc. pandoc options -N, --number-sections Number section headings in LaTeX, ConTeXt, HTML, or EPUB output. By default, sections are not numbered. Sections with class unnumbered will never be numbered, even if --number-sections is specified. -s, --standalone Produce output with an appropriate header and footer (e.g. a standalone HTML, LaTeX, TEI, or RTF file, not a fragment). This option is set automatically for pdf, epub, epub3, fb2, docx, and odt output. -V KEY[=VAL], --variable=KEY[:VAL] Set the template variable KEY to the value VAL when rendering the document in standalone mode. This is generally only useful when the --template option is used to specify a custom template, since pandoc automatically sets the variables used in the default templates. If no VAL is specified, the key will be given the value true. Variables for LaTeX mainfont, sansfont, monofont, mathfont, CJKmainfont font families for use with xelatex or lualatex: take the name of any system font, using the fontspec package. Note that if CJKmainfont is used, the xecjk package must be available. geometry option for geometry package, e.g. margin=1in; may be repeated for multiple options CommentsIn fact, generally you can take use of the Print function of Google Chrome Explorer to easily fulfill the conversion. For example, my explorer is Google Chrome, Version 63.0.3239.84 (Official Build) (64-bit) and in ST3: Command+Shift+P Enter mp Choose Markdown Preview: Preview in Browser Choose github or markdown In the pop-up Chrome page, you can check the corresponding html file Press Command+P to print the web page However, this method is not meticulous enough. 1. https://www.zhihu.com/question/20849824 &#x21A9;]]></content>
       <categories>
         <category>English</category>
       </categories>
@@ -21,8 +21,8 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>information_system</tag>
         <tag>machine_learning</tag>
+        <tag>information_system</tag>
         <tag>structural_modeling</tag>
       </tags>
   </entry>
@@ -35,11 +35,11 @@
       </categories>
       <tags>
         <tag>research</tag>
-        <tag>machine_learning</tag>
-        <tag>natural_language_processing</tag>
         <tag>sentiment_analysis</tag>
         <tag>literature_review</tag>
         <tag>faicon</tag>
+        <tag>machine_learning</tag>
+        <tag>natural_language_processing</tag>
       </tags>
   </entry>
   <entry>
@@ -87,9 +87,9 @@
       </categories>
       <tags>
         <tag>research</tag>
-        <tag>image</tag>
         <tag>sentiment_analysis</tag>
         <tag>literature_review</tag>
+        <tag>image</tag>
         <tag>mathjax</tag>
         <tag>cluster</tag>
         <tag>logit_regression</tag>
@@ -122,8 +122,8 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>image</tag>
         <tag>faicon</tag>
+        <tag>image</tag>
         <tag>nonlinear_equations</tag>
         <tag>numerical_analysis</tag>
         <tag>matlab</tag>
@@ -142,8 +142,8 @@
         <category>中文</category>
       </categories>
       <tags>
-        <tag>image</tag>
         <tag>faicon</tag>
+        <tag>image</tag>
         <tag>mendeley</tag>
         <tag>document_management</tag>
         <tag>bibtex</tag>
@@ -158,8 +158,8 @@
       </categories>
       <tags>
         <tag>deep_learning</tag>
-        <tag>hardware</tag>
         <tag>tutorial</tag>
+        <tag>hardware</tag>
       </tags>
   </entry>
   <entry>
@@ -170,9 +170,9 @@
         <category>中文</category>
       </categories>
       <tags>
-        <tag>notes</tag>
         <tag>markdown_table</tag>
         <tag>image</tag>
+        <tag>notes</tag>
         <tag>reputation_system</tag>
         <tag>variable_type</tag>
         <tag>data_type</tag>
@@ -187,9 +187,9 @@
       </categories>
       <tags>
         <tag>research</tag>
-        <tag>image</tag>
         <tag>sentiment_analysis</tag>
         <tag>literature_review</tag>
+        <tag>image</tag>
         <tag>mathjax</tag>
         <tag>opinion_mining</tag>
         <tag>feature_engineering</tag>
@@ -207,11 +207,11 @@
       </categories>
       <tags>
         <tag>research</tag>
+        <tag>sentiment_analysis</tag>
+        <tag>literature_review</tag>
         <tag>information_system</tag>
         <tag>finance</tag>
         <tag>image</tag>
-        <tag>sentiment_analysis</tag>
-        <tag>literature_review</tag>
         <tag>mathjax</tag>
         <tag>opinion_mining</tag>
         <tag>time_series</tag>
@@ -226,9 +226,9 @@
       </categories>
       <tags>
         <tag>research</tag>
-        <tag>information_system</tag>
         <tag>sentiment_analysis</tag>
         <tag>literature_review</tag>
+        <tag>information_system</tag>
         <tag>mathjax</tag>
         <tag>user_generated_content</tag>
         <tag>word_of_mouth</tag>
@@ -240,8 +240,8 @@
     <content type="text"><![CDATA[Problem descriptionThere are lots of scenarios that we need to do evaluations, for example, online scoring of movies on IMDB or products on Amazon.com. Via the the online scoring, customers can easily judge which items they would like to choose. However, can this online score really reflect the rankings of quality of homogeneous products? We find that sometimes our expectations can have influences on our satisfaction of the items. And products with high expectations sometimes are more difficult to generate same level of satisfaction as production with low expectations. (Expectation and Satisfaction are subjective for each individual.) ExampleTake the scenario of E-commerce as an example. Expectations for buyers can be based on: the historical performance of sellers (such as sales); the reputation of sellers the historical performance and reputation of peers (Same business categories with similar product types); the price displayed; Based on these factors, customers might build their subjective expectations on the qualities of the products. Thus, the online scoring of the product might be based on the satisfaction which is the result of difference between expectation and true experience. NotationsThere are $n = 2$ sellers who sell the homogeneous products and $m$ buyers. $E_{ij}$ denotes the expectation of buyer $j$ for seller $i$, where $i=\{L,H\}$. We know that $E_{Lj} &lt; E_{Hj}$. There exist a space of real values of quality for products, $Q$. And the real value of quality for product sold by seller $i$ is $q_{i} \in Q$.We assume $q_{H} &lt; q_{L}$. (Why?) There are two stages: Pre-purchase and Post-purchase. Buyer $j$ generate $E_{ij}$ for seller $i$ after checking the information about seller $i$ and its product in the pre-purchase stage. Then after true experience of product, buyer $j$ generate the satisfaction $S_{ij}$ and online scoring $R_{ij}$ for seller i in the post-purchase stage. Satisfaction of buyer $j$ for seller $i$ is $S_{ij}$, which is the result of inconsistence between quality $q_{i}$ and expectation $E_{ij}$. We denoted it by $S_{ij} = f(q_{i} - E_{ij})$. The online score of buyer $j$ for seller $i$ is $R_{ij}$, which is the result of satisfaction $S_{ij}$ denoted by $R_{ij} = f_{S}(S_{ij})=f_{R}(q_{i} - E_{ij})$. Assume that $f_{R}$ is a monotonically increasing function. (Why? There are two assumptions: $R_{ij}$ is positive correlated to quality $q_i$; $R_{ij}$ is negative correlated to expectation $E_{ij}$;) However, it seems to be possible that $q_H-E_{Hj} &lt; q_L-E_{Lj}$ because of greater effect of $E_{Hj} &gt; E_{Lj}$, which would result in $R_{Hj} &lt; R_{Lj}$ for buyer $j$. ExplanationDoes this phenomena exist? In my opinion, this phenomena really exist. Make it more sensible, I use movie as example (Logics is same), before we watch a Chinese low-cost film, we have lower expectation than high-cost Hollywood films. Thus as long as the Chinese low-cost film has a little bit attractive highlights, we would give it a high evaluation, which might be higher than the high-cost Hollywood films. If so, how to explain it? My explanation is: sometimes our expectation is not only based on quality of items but also the peers&#x2019; performance and reputations. Even though, buyers would buy product which maximize the expected utility function value. Some uninformative or irrational buyers would still choose products with low reputation and low price. However, online review is short-time reflection on the product and might not present some perspectives of the product, such as durability. FutureWhen calculate the integrated score of sellers, we need take into consideration of peers performance and reputation. (Cluster) The expectation might be measurable via online sentiment analysis. Hope this is a good research idea.]]></content>
       <tags>
         <tag>research</tag>
-        <tag>notes</tag>
         <tag>economics</tag>
+        <tag>notes</tag>
         <tag>mathjax</tag>
         <tag>online_scoring</tag>
         <tag>modeling</tag>
@@ -281,11 +281,11 @@
         <category>English</category>
       </categories>
       <tags>
+        <tag>sentiment_analysis</tag>
         <tag>machine_learning</tag>
         <tag>natural_language_processing</tag>
         <tag>hexo_pdf</tag>
         <tag>image</tag>
-        <tag>sentiment_analysis</tag>
       </tags>
   </entry>
   <entry>
@@ -329,8 +329,8 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>information_system</tag>
         <tag>faicon</tag>
+        <tag>information_system</tag>
         <tag>matlab</tag>
         <tag>google_scholar</tag>
         <tag>reference</tag>
@@ -358,8 +358,9 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>information_system</tag>
         <tag>machine_learning</tag>
+        <tag>natural_language_processing</tag>
+        <tag>information_system</tag>
         <tag>statistics</tag>
         <tag>mathematics</tag>
         <tag>github</tag>
@@ -367,7 +368,6 @@
         <tag>economics</tag>
         <tag>finance</tag>
         <tag>deep_learning</tag>
-        <tag>natural_language_processing</tag>
         <tag>open_course</tag>
         <tag>hexo_pdf</tag>
         <tag>markdown_table</tag>
@@ -383,14 +383,14 @@
         <category>中文</category>
       </categories>
       <tags>
-        <tag>study</tag>
         <tag>research</tag>
+        <tag>machine_learning</tag>
+        <tag>information_system</tag>
+        <tag>study</tag>
         <tag>blog</tag>
         <tag>logs</tag>
         <tag>hexo</tag>
         <tag>notes</tag>
-        <tag>information_system</tag>
-        <tag>machine_learning</tag>
         <tag>music</tag>
       </tags>
   </entry>
@@ -427,8 +427,8 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>notes</tag>
         <tag>information_system</tag>
+        <tag>notes</tag>
       </tags>
   </entry>
   <entry>
@@ -453,8 +453,8 @@
         <category>中文</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
         <tag>github</tag>
+        <tag>hexo</tag>
         <tag>tutorial</tag>
       </tags>
   </entry>
