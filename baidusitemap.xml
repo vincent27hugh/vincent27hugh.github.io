@@ -5,10 +5,10 @@
     
   <url>
     <loc>http://blog.baoduge.com/pdf_pandoc_command/</loc>
-    <lastmod>2017-12-20T06:34:30.000Z</lastmod>
+    <lastmod>2017-12-20T06:42:46.000Z</lastmod>
     <data>
         <display>
-        <title>How to convert markdown into PDF file</title>
+        <title>How to convert Markdown into PDF file</title>
         <pubTime>2017-12-19T16:00:00.000Z</pubTime>
         
         <tag>sublime_text_3</tag>
@@ -453,9 +453,9 @@
         
         <tag>deep_learning</tag>
          
-        <tag>tutorial</tag>
-         
         <tag>hardware</tag>
+         
+        <tag>tutorial</tag>
          
          
            
@@ -612,11 +612,11 @@
         
         <tag>hexo_pdf</tag>
          
-        <tag>tbc</tag>
-         
         <tag>robo_advisor</tag>
          
         <tag>fintech</tag>
+         
+        <tag>tbc</tag>
          
          
            
@@ -638,9 +638,9 @@
         
         <tag>r_language</tag>
          
-        <tag>science_computing</tag>
-         
         <tag>tbc</tag>
+         
+        <tag>science_computing</tag>
          
          
            
@@ -664,8 +664,6 @@
          
         <tag>faicon</tag>
          
-        <tag>r_language</tag>
-         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
@@ -675,6 +673,8 @@
         <tag>fortran</tag>
          
         <tag>python</tag>
+         
+        <tag>r_language</tag>
          
         <tag>mathematica</tag>
          
