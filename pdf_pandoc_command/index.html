@@ -109,7 +109,7 @@
 <meta property="og:site_name" content="NEVERLAND">
 <meta property="og:description" content="This is the introduction of how to convert markdown file into PDF file in Sublime Text 3.">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2017-12-20T06:29:33.000Z">
+<meta property="og:updated_time" content="2017-12-20T06:34:30.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="How to convert markdown into PDF file">
 <meta name="twitter:description" content="This is the introduction of how to convert markdown file into PDF file in Sublime Text 3.">
@@ -434,7 +434,12 @@
       
 
       
-        <script src="/assets/js/APlayer.min.js"> </script><p>Take use of Sublime Text 3 (ST3) Package <a href="https://packagecontrol.io/packages/Unicode%20Character%20Highlighter" target="_blank" rel="external"><i class="fa fa-external-link-square" aria-hidden="true"></i>Unicode Character Highlighter</a> to check whether the file contains <strong>unicode characters</strong>, such as <a href="https://en.wikipedia.org/wiki/Han_unification" target="_blank" rel="external"><i class="fa fa-wikipedia-w" aria-hidden="true"></i>hanzi</a>.</p>
+        <script src="/assets/js/APlayer.min.js"> </script><p>The working environment is:</p>
+<ul>
+<li>OS: Mac OS X EI Capitan</li>
+<li>Sublime Text 3</li>
+</ul>
+<p>Take use of Sublime Text 3 (ST3) Package <a href="https://packagecontrol.io/packages/Unicode%20Character%20Highlighter" target="_blank" rel="external"><i class="fa fa-external-link-square" aria-hidden="true"></i>Unicode Character Highlighter</a> to check whether the file contains <strong>unicode characters</strong>, such as <a href="https://en.wikipedia.org/wiki/Han_unification" target="_blank" rel="external"><i class="fa fa-wikipedia-w" aria-hidden="true"></i>Hanzi</a>.</p>
 <h1 id="If-md-doesn&#x2019;t-contains-unicode-characters"><a href="#If-md-doesn&#x2019;t-contains-unicode-characters" class="headerlink" title="If .md doesn&#x2019;t contains unicode characters"></a>If <code>.md</code> doesn&#x2019;t contains <strong>unicode characters</strong></h1><p>You can directly use ST3 Package <code>Pandoc</code> to convert <code>.md</code> file into <code>.pdf</code>:</p>
 <ul>
 <li><code>Command</code>+<code>Shift</code>+<code>P</code></li>
@@ -444,6 +449,7 @@
 <p>Bingo!</p>
 <h1 id="If-md-contains-unicode-characters"><a href="#If-md-contains-unicode-characters" class="headerlink" title="If .md contains unicode characters"></a>If <code>.md</code> contains <strong>unicode characters</strong></h1><p>If the markdown file contains <strong>unicode characters</strong>, you can use the command as follow to convert the <code>.md</code> into <code>.pdf</code><sup><a href="#fn_1" id="reffn_1">1</a></sup>:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$pandoc -N -s --smart --latex-engine=xelatex -V CJKmainfont=&apos;PingFang SC&apos; -V mainfont=&apos;Monaco&apos; -V geometry:margin=1in XXX.md  -o XXX.pdf</div></pre></td></tr></table></figure>
+<p>where <code>XXX.md</code> is the name of your markdown file and <code>XXX.pdf</code> is the name of the PDF file.</p>
 <p>Follow the <a href="https://pandoc.org/MANUAL.html#using-pandoc" target="_blank" rel="external"><i class="fa fa-external-link-square" aria-hidden="true"></i>Pandoc User&#x2019;s Guide</a>, you can change the options of <code>pandoc</code>.</p>
 <h2 id="pandoc-options"><a href="#pandoc-options" class="headerlink" title="pandoc options"></a><code>pandoc</code> options</h2><ul>
 <li><code>-N</code>, <code>--number-sections</code><ul>

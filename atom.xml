@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.baoduge.com/"/>
-  <updated>2017-12-20T06:29:33.000Z</updated>
+  <updated>2017-12-20T06:34:30.000Z</updated>
   <id>http://blog.baoduge.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://blog.baoduge.com/pdf_pandoc_command/"/>
     <id>http://blog.baoduge.com/pdf_pandoc_command/</id>
     <published>2017-12-19T16:00:00.000Z</published>
-    <updated>2017-12-20T06:29:33.000Z</updated>
+    <updated>2017-12-20T06:34:30.000Z</updated>
     
     <summary type="html">
     
@@ -250,6 +250,8 @@
     
       <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
     
+      <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
+    
       <category term="nonlinear_equations" scheme="http://blog.baoduge.com/tags/nonlinear-equations/"/>
     
       <category term="numerical_analysis" scheme="http://blog.baoduge.com/tags/numerical-analysis/"/>
@@ -259,8 +261,6 @@
       <category term="fortran" scheme="http://blog.baoduge.com/tags/fortran/"/>
     
       <category term="python" scheme="http://blog.baoduge.com/tags/python/"/>
-    
-      <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
     
       <category term="mathematica" scheme="http://blog.baoduge.com/tags/mathematica/"/>
     
