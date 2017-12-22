@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2017-12-22T03:42:28.000Z</lastmod>
+    <lastmod>2017-12-22T06:13:32.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges: Data Science on IS</title>
@@ -14,6 +14,8 @@
         <tag>information_system</tag>
          
         <tag>machine_learning</tag>
+         
+        <tag>natural_language_processing</tag>
          
         <tag>statistics</tag>
          
@@ -28,8 +30,6 @@
         <tag>finance</tag>
          
         <tag>deep_learning</tag>
-         
-        <tag>natural_language_processing</tag>
          
         <tag>open_course</tag>
          
@@ -87,13 +87,13 @@
          
         <tag>machine_learning</tag>
          
-        <tag>natural_language_processing</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
          
         <tag>faicon</tag>
+         
+        <tag>natural_language_processing</tag>
          
          
            
@@ -269,9 +269,9 @@
         <title>如何管理文献:Mendeley小技巧</title>
         <pubTime>2017-11-11T16:00:00.000Z</pubTime>
         
-        <tag>image</tag>
-         
         <tag>faicon</tag>
+         
+        <tag>image</tag>
          
         <tag>mendeley</tag>
          
@@ -329,13 +329,13 @@
         
         <tag>machine_learning</tag>
          
+        <tag>sentiment_analysis</tag>
+         
         <tag>natural_language_processing</tag>
          
         <tag>hexo_pdf</tag>
          
         <tag>image</tag>
-         
-        <tag>sentiment_analysis</tag>
          
          
            
@@ -391,9 +391,9 @@
         
         <tag>tutorial</tag>
          
-        <tag>sublime_text_3</tag>
-         
         <tag>latex</tag>
+         
+        <tag>sublime_text_3</tag>
          
         <tag>skim</tag>
          
@@ -419,13 +419,13 @@
          
         <tag>information_system</tag>
          
-        <tag>finance</tag>
-         
-        <tag>image</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
+         
+        <tag>finance</tag>
+         
+        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -453,9 +453,9 @@
         
         <tag>deep_learning</tag>
          
-        <tag>hardware</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>hardware</tag>
          
          
            
@@ -510,11 +510,11 @@
         
         <tag>research</tag>
          
-        <tag>image</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
+         
+        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -542,11 +542,11 @@
         
         <tag>research</tag>
          
-        <tag>image</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
+         
+        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -586,11 +586,11 @@
          
         <tag>literature_review</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
+         
+        <tag>mathjax</tag>
          
          
            
@@ -660,11 +660,13 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
-        <tag>image</tag>
-         
         <tag>faicon</tag>
          
+        <tag>image</tag>
+         
         <tag>r_language</tag>
+         
+        <tag>mathjax</tag>
          
         <tag>nonlinear_equations</tag>
          
@@ -677,8 +679,6 @@
         <tag>python</tag>
          
         <tag>mathematica</tag>
-         
-        <tag>mathjax</tag>
          
          
            
