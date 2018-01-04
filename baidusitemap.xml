@@ -5,23 +5,29 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2018-01-04T07:27:38.000Z</lastmod>
+    <lastmod>2018-01-04T07:30:01.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges: Data Science on IS</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
+        <tag>information_system</tag>
+         
         <tag>machine_learning</tag>
          
         <tag>natural_language_processing</tag>
          
-        <tag>information_system</tag>
+        <tag>deep_learning</tag>
+         
+        <tag>github</tag>
+         
+        <tag>markdown_table</tag>
+         
+        <tag>image</tag>
          
         <tag>statistics</tag>
          
         <tag>mathematics</tag>
-         
-        <tag>github</tag>
          
         <tag>artificial_intelligence</tag>
          
@@ -29,17 +35,11 @@
          
         <tag>finance</tag>
          
-        <tag>deep_learning</tag>
-         
         <tag>open_course</tag>
          
         <tag>hexo_pdf</tag>
          
-        <tag>markdown_table</tag>
-         
         <tag>span_id_anchor</tag>
-         
-        <tag>image</tag>
          
          
            
@@ -59,9 +59,9 @@
         <title>Notes on the Structural Modeling</title>
         <pubTime>2017-11-28T16:00:00.000Z</pubTime>
         
-        <tag>machine_learning</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>machine_learning</tag>
          
         <tag>structural_modeling</tag>
          
@@ -85,13 +85,13 @@
         
         <tag>research</tag>
          
+        <tag>machine_learning</tag>
+         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
          
         <tag>faicon</tag>
-         
-        <tag>machine_learning</tag>
          
         <tag>natural_language_processing</tag>
          
@@ -137,13 +137,9 @@
         <title>NEVERLAND - Blog Logs</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
-        <tag>machine_learning</tag>
-         
-        <tag>information_system</tag>
-         
         <tag>study</tag>
+         
+        <tag>research</tag>
          
         <tag>blog</tag>
          
@@ -152,6 +148,10 @@
         <tag>hexo</tag>
          
         <tag>notes</tag>
+         
+        <tag>information_system</tag>
+         
+        <tag>machine_learning</tag>
          
         <tag>music</tag>
          
@@ -173,11 +173,11 @@
         <title>20171117 Notes: Stochastic Process, Parameter Estimation, PDE</title>
         <pubTime>2017-11-17T16:00:00.000Z</pubTime>
         
+        <tag>image</tag>
+         
         <tag>mathematics</tag>
          
         <tag>hexo_pdf</tag>
-         
-        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -209,11 +209,11 @@
         <title>20171123 Notes: Application of Stochastic Structure Model: Control of Negative Reviews</title>
         <pubTime>2017-11-22T16:00:00.000Z</pubTime>
         
+        <tag>image</tag>
+         
         <tag>mathematics</tag>
          
         <tag>hexo_pdf</tag>
-         
-        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -297,11 +297,11 @@
         <title>用Sublime Text 3管理文献</title>
         <pubTime>2017-09-27T16:00:00.000Z</pubTime>
         
-        <tag>hexo_pdf</tag>
-         
         <tag>document_management</tag>
          
         <tag>bibtex</tag>
+         
+        <tag>hexo_pdf</tag>
          
         <tag>sublime_text_3</tag>
          
@@ -327,15 +327,15 @@
         <title>Introduction to Sentiment Analysis</title>
         <pubTime>2017-10-22T16:00:00.000Z</pubTime>
         
-        <tag>sentiment_analysis</tag>
-         
         <tag>machine_learning</tag>
+         
+        <tag>sentiment_analysis</tag>
          
         <tag>natural_language_processing</tag>
          
-        <tag>hexo_pdf</tag>
-         
         <tag>image</tag>
+         
+        <tag>hexo_pdf</tag>
          
          
            
@@ -391,9 +391,9 @@
         
         <tag>tutorial</tag>
          
-        <tag>sublime_text_3</tag>
-         
         <tag>latex</tag>
+         
+        <tag>sublime_text_3</tag>
          
         <tag>skim</tag>
          
@@ -417,19 +417,19 @@
         
         <tag>research</tag>
          
+        <tag>information_system</tag>
+         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
          
-        <tag>information_system</tag>
+        <tag>image</tag>
          
         <tag>finance</tag>
          
-        <tag>image</tag>
+        <tag>opinion_mining</tag>
          
         <tag>mathjax</tag>
-         
-        <tag>opinion_mining</tag>
          
         <tag>time_series</tag>
          
@@ -548,8 +548,6 @@
          
         <tag>image</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>opinion_mining</tag>
          
         <tag>feature_engineering</tag>
@@ -559,6 +557,8 @@
         <tag>twitter</tag>
          
         <tag>neural_network</tag>
+         
+        <tag>mathjax</tag>
          
          
            
@@ -580,11 +580,11 @@
         
         <tag>research</tag>
          
+        <tag>information_system</tag>
+         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
-         
-        <tag>information_system</tag>
          
         <tag>mathjax</tag>
          
@@ -610,9 +610,9 @@
         <title>Robo-Advisor Introduction</title>
         <pubTime>2017-09-13T16:00:00.000Z</pubTime>
         
-        <tag>hexo_pdf</tag>
-         
         <tag>tbc</tag>
+         
+        <tag>hexo_pdf</tag>
          
         <tag>robo_advisor</tag>
          
@@ -664,6 +664,10 @@
          
         <tag>image</tag>
          
+        <tag>r_language</tag>
+         
+        <tag>mathjax</tag>
+         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
@@ -674,11 +678,7 @@
          
         <tag>python</tag>
          
-        <tag>r_language</tag>
-         
         <tag>mathematica</tag>
-         
-        <tag>mathjax</tag>
          
          
            
@@ -698,9 +698,9 @@
         <title>Using MATLAB to batch search #citation of IS papers</title>
         <pubTime>2017-09-18T16:00:00.000Z</pubTime>
         
-        <tag>faicon</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>faicon</tag>
          
         <tag>matlab</tag>
          
@@ -726,11 +726,11 @@
         <title>20171104 Notes: Reputation System, Data Types, Variable Types</title>
         <pubTime>2017-11-03T16:00:00.000Z</pubTime>
         
+        <tag>notes</tag>
+         
         <tag>markdown_table</tag>
          
         <tag>image</tag>
-         
-        <tag>notes</tag>
          
         <tag>reputation_system</tag>
          
@@ -758,9 +758,9 @@
         
         <tag>research</tag>
          
-        <tag>economics</tag>
-         
         <tag>notes</tag>
+         
+        <tag>economics</tag>
          
         <tag>mathjax</tag>
          
@@ -805,9 +805,9 @@
         <title>Experiments in IS research</title>
         <pubTime>2017-09-10T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>notes</tag>
+         
+        <tag>information_system</tag>
          
          
            
@@ -849,11 +849,11 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>github</tag>
-         
         <tag>hexo</tag>
          
         <tag>tutorial</tag>
+         
+        <tag>github</tag>
          
          
            
