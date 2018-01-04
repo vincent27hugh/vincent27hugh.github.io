@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2018-01-04T07:30:01.000Z</lastmod>
+    <lastmod>2018-01-04T07:45:09.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges: Data Science on IS</title>
@@ -13,21 +13,13 @@
         
         <tag>information_system</tag>
          
-        <tag>machine_learning</tag>
-         
-        <tag>natural_language_processing</tag>
-         
-        <tag>deep_learning</tag>
-         
-        <tag>github</tag>
-         
-        <tag>markdown_table</tag>
-         
-        <tag>image</tag>
-         
         <tag>statistics</tag>
          
         <tag>mathematics</tag>
+         
+        <tag>github</tag>
+         
+        <tag>machine_learning</tag>
          
         <tag>artificial_intelligence</tag>
          
@@ -35,11 +27,19 @@
          
         <tag>finance</tag>
          
+        <tag>deep_learning</tag>
+         
+        <tag>natural_language_processing</tag>
+         
         <tag>open_course</tag>
          
         <tag>hexo_pdf</tag>
          
+        <tag>markdown_table</tag>
+         
         <tag>span_id_anchor</tag>
+         
+        <tag>image</tag>
          
          
            
@@ -83,17 +83,17 @@
         <title>ToDo List: Reference List of Project IS8002-SA</title>
         <pubTime>2017-11-24T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>machine_learning</tag>
+         
+        <tag>natural_language_processing</tag>
+         
+        <tag>research</tag>
          
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
          
         <tag>faicon</tag>
-         
-        <tag>natural_language_processing</tag>
          
          
            
@@ -137,6 +137,12 @@
         <title>NEVERLAND - Blog Logs</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
+        <tag>information_system</tag>
+         
+        <tag>notes</tag>
+         
+        <tag>machine_learning</tag>
+         
         <tag>study</tag>
          
         <tag>research</tag>
@@ -146,12 +152,6 @@
         <tag>logs</tag>
          
         <tag>hexo</tag>
-         
-        <tag>notes</tag>
-         
-        <tag>information_system</tag>
-         
-        <tag>machine_learning</tag>
          
         <tag>music</tag>
          
@@ -173,11 +173,11 @@
         <title>20171117 Notes: Stochastic Process, Parameter Estimation, PDE</title>
         <pubTime>2017-11-17T16:00:00.000Z</pubTime>
         
-        <tag>image</tag>
-         
         <tag>mathematics</tag>
          
         <tag>hexo_pdf</tag>
+         
+        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -209,11 +209,11 @@
         <title>20171123 Notes: Application of Stochastic Structure Model: Control of Negative Reviews</title>
         <pubTime>2017-11-22T16:00:00.000Z</pubTime>
         
-        <tag>image</tag>
-         
         <tag>mathematics</tag>
          
         <tag>hexo_pdf</tag>
+         
+        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -243,13 +243,13 @@
         <title>Resources & Tools of Information System Research</title>
         <pubTime>2017-10-23T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>information_system</tag>
          
         <tag>markdown_table</tag>
          
         <tag>image</tag>
+         
+        <tag>research</tag>
          
          
            
@@ -269,9 +269,9 @@
         <title>如何管理文献:Mendeley小技巧</title>
         <pubTime>2017-11-11T16:00:00.000Z</pubTime>
         
-        <tag>faicon</tag>
-         
         <tag>image</tag>
+         
+        <tag>faicon</tag>
          
         <tag>mendeley</tag>
          
@@ -297,11 +297,11 @@
         <title>用Sublime Text 3管理文献</title>
         <pubTime>2017-09-27T16:00:00.000Z</pubTime>
         
+        <tag>hexo_pdf</tag>
+         
         <tag>document_management</tag>
          
         <tag>bibtex</tag>
-         
-        <tag>hexo_pdf</tag>
          
         <tag>sublime_text_3</tag>
          
@@ -329,13 +329,13 @@
         
         <tag>machine_learning</tag>
          
-        <tag>sentiment_analysis</tag>
-         
         <tag>natural_language_processing</tag>
+         
+        <tag>hexo_pdf</tag>
          
         <tag>image</tag>
          
-        <tag>hexo_pdf</tag>
+        <tag>sentiment_analysis</tag>
          
          
            
@@ -415,17 +415,17 @@
         <title>Literature Review on Social Media in Financial Market</title>
         <pubTime>2017-11-01T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>finance</tag>
+         
+        <tag>image</tag>
+         
+        <tag>research</tag>
          
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
-         
-        <tag>image</tag>
-         
-        <tag>finance</tag>
          
         <tag>opinion_mining</tag>
          
@@ -453,9 +453,9 @@
         
         <tag>deep_learning</tag>
          
-        <tag>hardware</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>hardware</tag>
          
          
            
@@ -508,13 +508,13 @@
         <title>Literature Review: Predicting the Semantic Orientation of Adjectives</title>
         <pubTime>2017-11-20T16:00:00.000Z</pubTime>
         
+        <tag>image</tag>
+         
         <tag>research</tag>
          
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
-         
-        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -540,13 +540,13 @@
         <title>Literature Review on Special Paper: Feature Engineering + Neural Network</title>
         <pubTime>2017-11-02T16:00:00.000Z</pubTime>
         
+        <tag>image</tag>
+         
         <tag>research</tag>
          
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
-         
-        <tag>image</tag>
          
         <tag>opinion_mining</tag>
          
@@ -578,9 +578,9 @@
         <title>Literature Review on UGC/WOM</title>
         <pubTime>2017-10-30T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>research</tag>
          
         <tag>sentiment_analysis</tag>
          
@@ -610,9 +610,9 @@
         <title>Robo-Advisor Introduction</title>
         <pubTime>2017-09-13T16:00:00.000Z</pubTime>
         
-        <tag>tbc</tag>
-         
         <tag>hexo_pdf</tag>
+         
+        <tag>tbc</tag>
          
         <tag>robo_advisor</tag>
          
@@ -660,9 +660,9 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
-        <tag>faicon</tag>
-         
         <tag>image</tag>
+         
+        <tag>faicon</tag>
          
         <tag>r_language</tag>
          
@@ -756,11 +756,11 @@
         <title>Can online scoring really reflects the rankings of products?</title>
         <pubTime>2017-10-29T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>notes</tag>
          
         <tag>economics</tag>
+         
+        <tag>research</tag>
          
         <tag>mathjax</tag>
          
@@ -805,9 +805,9 @@
         <title>Experiments in IS research</title>
         <pubTime>2017-09-10T16:00:00.000Z</pubTime>
         
-        <tag>notes</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>notes</tag>
          
          
            
@@ -849,11 +849,11 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
+        <tag>github</tag>
+         
         <tag>hexo</tag>
          
         <tag>tutorial</tag>
-         
-        <tag>github</tag>
          
          
            
