@@ -250,7 +250,7 @@
     
       <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
     
-      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
+      <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
     
       <category term="nonlinear_equations" scheme="http://blog.baoduge.com/tags/nonlinear-equations/"/>
     
@@ -262,9 +262,9 @@
     
       <category term="python" scheme="http://blog.baoduge.com/tags/python/"/>
     
-      <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
-    
       <category term="mathematica" scheme="http://blog.baoduge.com/tags/mathematica/"/>
+    
+      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
   </entry>
   
@@ -404,9 +404,9 @@
       <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
-      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
-    
       <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
+    
+      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
     
       <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
@@ -440,19 +440,19 @@
       <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
-      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
-    
       <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
+    
+      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
     
       <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
       <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
     
+      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
+    
       <category term="user_generated_content" scheme="http://blog.baoduge.com/tags/user-generated-content/"/>
     
       <category term="word_of_mouth" scheme="http://blog.baoduge.com/tags/word-of-mouth/"/>
-    
-      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
   </entry>
   
@@ -470,9 +470,9 @@
     </summary>
     
     
-      <category term="notes" scheme="http://blog.baoduge.com/tags/notes/"/>
-    
       <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
+    
+      <category term="notes" scheme="http://blog.baoduge.com/tags/notes/"/>
     
       <category term="economics" scheme="http://blog.baoduge.com/tags/economics/"/>
     
@@ -522,9 +522,9 @@
       <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
-      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
-    
       <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
+    
+      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
     
       <category term="markdown_table" scheme="http://blog.baoduge.com/tags/markdown-table/"/>
     
