@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2018-01-04T10:16:51.000Z</lastmod>
+    <lastmod>2018-01-05T06:42:46.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges: Data Science on IS</title>
@@ -19,11 +19,15 @@
          
         <tag>deep_learning</tag>
          
-        <tag>github</tag>
+        <tag>markdown_table</tag>
+         
+        <tag>image</tag>
          
         <tag>statistics</tag>
          
         <tag>mathematics</tag>
+         
+        <tag>github</tag>
          
         <tag>artificial_intelligence</tag>
          
@@ -35,11 +39,7 @@
          
         <tag>hexo_pdf</tag>
          
-        <tag>markdown_table</tag>
-         
         <tag>span_id_anchor</tag>
-         
-        <tag>image</tag>
          
          
            
@@ -173,11 +173,11 @@
         <title>20171117 Notes: Stochastic Process, Parameter Estimation, PDE</title>
         <pubTime>2017-11-17T16:00:00.000Z</pubTime>
         
+        <tag>image</tag>
+         
         <tag>mathematics</tag>
          
         <tag>hexo_pdf</tag>
-         
-        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -209,11 +209,11 @@
         <title>20171123 Notes: Application of Stochastic Structure Model: Control of Negative Reviews</title>
         <pubTime>2017-11-22T16:00:00.000Z</pubTime>
         
+        <tag>image</tag>
+         
         <tag>mathematics</tag>
          
         <tag>hexo_pdf</tag>
-         
-        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -297,11 +297,11 @@
         <title>用Sublime Text 3管理文献</title>
         <pubTime>2017-09-27T16:00:00.000Z</pubTime>
         
-        <tag>hexo_pdf</tag>
-         
         <tag>document_management</tag>
          
         <tag>bibtex</tag>
+         
+        <tag>hexo_pdf</tag>
          
         <tag>sublime_text_3</tag>
          
@@ -333,9 +333,9 @@
          
         <tag>natural_language_processing</tag>
          
-        <tag>hexo_pdf</tag>
-         
         <tag>image</tag>
+         
+        <tag>hexo_pdf</tag>
          
          
            
@@ -423,9 +423,9 @@
          
         <tag>literature_review</tag>
          
-        <tag>finance</tag>
-         
         <tag>image</tag>
+         
+        <tag>finance</tag>
          
         <tag>mathjax</tag>
          
@@ -612,11 +612,11 @@
         
         <tag>hexo_pdf</tag>
          
-        <tag>tbc</tag>
-         
         <tag>robo_advisor</tag>
          
         <tag>fintech</tag>
+         
+        <tag>tbc</tag>
          
          
            
@@ -638,9 +638,9 @@
         
         <tag>r_language</tag>
          
-        <tag>science_computing</tag>
-         
         <tag>tbc</tag>
+         
+        <tag>science_computing</tag>
          
          
            
@@ -664,8 +664,6 @@
          
         <tag>image</tag>
          
-        <tag>r_language</tag>
-         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
@@ -675,6 +673,8 @@
         <tag>fortran</tag>
          
         <tag>python</tag>
+         
+        <tag>r_language</tag>
          
         <tag>mathematica</tag>
          
@@ -728,15 +728,15 @@
         
         <tag>notes</tag>
          
-        <tag>markdown_table</tag>
-         
-        <tag>image</tag>
-         
         <tag>reputation_system</tag>
          
         <tag>variable_type</tag>
          
         <tag>data_type</tag>
+         
+        <tag>markdown_table</tag>
+         
+        <tag>image</tag>
          
          
            
