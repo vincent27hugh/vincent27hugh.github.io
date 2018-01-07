@@ -235,17 +235,17 @@
         
         <tags>
             
-            <tag> machine_learning </tag>
-            
-            <tag> natural_language_processing </tag>
-            
             <tag> research </tag>
+            
+            <tag> machine_learning </tag>
             
             <tag> sentiment_analysis </tag>
             
+            <tag> literature_review </tag>
+            
             <tag> faicon </tag>
             
-            <tag> literature_review </tag>
+            <tag> natural_language_processing </tag>
             
         </tags>
         
@@ -579,13 +579,13 @@ k_1 k_3 = 5 \beta \lambda p
         
         <tags>
             
-            <tag> image </tag>
-            
             <tag> research </tag>
             
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
+            
+            <tag> image </tag>
             
             <tag> mathjax </tag>
             
@@ -933,13 +933,9 @@ end
         
         <tags>
             
-            <tag> image </tag>
-            
             <tag> faicon </tag>
             
-            <tag> r_language </tag>
-            
-            <tag> mathjax </tag>
+            <tag> image </tag>
             
             <tag> nonlinear_equations </tag>
             
@@ -951,7 +947,11 @@ end
             
             <tag> python </tag>
             
+            <tag> r_language </tag>
+            
             <tag> mathematica </tag>
+            
+            <tag> mathjax </tag>
             
         </tags>
         
@@ -1024,6 +1024,8 @@ end
         
         <tags>
             
+            <tag> faicon </tag>
+            
             <tag> image </tag>
             
             <tag> mendeley </tag>
@@ -1031,8 +1033,6 @@ end
             <tag> document_management </tag>
             
             <tag> bibtex </tag>
-            
-            <tag> faicon </tag>
             
         </tags>
         
@@ -1119,9 +1119,9 @@ end
             
             <tag> deep_learning </tag>
             
-            <tag> tutorial </tag>
-            
             <tag> hardware </tag>
+            
+            <tag> tutorial </tag>
             
         </tags>
         
@@ -1283,11 +1283,11 @@ end
         
         <tags>
             
+            <tag> notes </tag>
+            
             <tag> markdown_table </tag>
             
             <tag> image </tag>
-            
-            <tag> notes </tag>
             
             <tag> reputation_system </tag>
             
@@ -1373,13 +1373,13 @@ end
         
         <tags>
             
-            <tag> image </tag>
-            
             <tag> research </tag>
             
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
+            
+            <tag> image </tag>
             
             <tag> mathjax </tag>
             
@@ -1621,17 +1621,17 @@ end
         
         <tags>
             
-            <tag> information_system </tag>
-            
-            <tag> finance </tag>
-            
-            <tag> image </tag>
-            
             <tag> research </tag>
+            
+            <tag> information_system </tag>
             
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
+            
+            <tag> finance </tag>
+            
+            <tag> image </tag>
             
             <tag> mathjax </tag>
             
@@ -1892,19 +1892,19 @@ end
         
         <tags>
             
-            <tag> information_system </tag>
-            
             <tag> research </tag>
             
+            <tag> information_system </tag>
+            
             <tag> sentiment_analysis </tag>
-            
-            <tag> user_generated_content </tag>
-            
-            <tag> word_of_mouth </tag>
             
             <tag> literature_review </tag>
             
             <tag> mathjax </tag>
+            
+            <tag> user_generated_content </tag>
+            
+            <tag> word_of_mouth </tag>
             
         </tags>
         
@@ -1954,11 +1954,11 @@ end
         
         <tags>
             
-            <tag> economics </tag>
-            
             <tag> research </tag>
             
             <tag> notes </tag>
+            
+            <tag> economics </tag>
             
             <tag> mathjax </tag>
             
@@ -3087,13 +3087,13 @@ killall Finder
         
         <tags>
             
+            <tag> research </tag>
+            
             <tag> information_system </tag>
             
             <tag> markdown_table </tag>
             
             <tag> image </tag>
-            
-            <tag> research </tag>
             
         </tags>
         
@@ -3263,13 +3263,13 @@ killall Finder
             
             <tag> machine_learning </tag>
             
+            <tag> sentiment_analysis </tag>
+            
             <tag> natural_language_processing </tag>
             
             <tag> hexo_pdf </tag>
             
             <tag> image </tag>
-            
-            <tag> sentiment_analysis </tag>
             
         </tags>
         
@@ -4137,23 +4137,47 @@ Ref 2\cite{kom2016stochastic}
 </ul>
 <h1 id="Mathematics"><a href="#Mathematics" class="headerlink" title="Mathematics"></a>Mathematics</h1><p><img src="/images/math_tree.gif" alt="Math Tree"></p>
 <h2 id="Courses-3"><a href="#Courses-3" class="headerlink" title="Courses"></a>Courses</h2><h3 id="Financial-Mathematics"><a href="#Financial-Mathematics" class="headerlink" title="Financial Mathematics"></a>Financial Mathematics</h3><ul>
-<li><strong>$\mathbb{UG}$</strong>Coursera - Financial Engineering and Risk Management Part I by Martin Haugh and Garud Iyengar: 51 parts, <a href="https://www.coursera.org/learn/financial-engineering-1" target="_blank" rel="external">Course Page</a></li>
-<li><strong>$\mathbb{UG}$</strong>MIT 18.S096 - Topics in Mathematics with Applications in Finance: 1h20min/Lec, 26 Lectures, <a href="https://ocw.mit.edu/courses/mathematics/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/index.htm" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63ctJIEC1UnZ0btsphnnoHR" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+<li><strong>$\mathbb{UG}$</strong>Coursera - Financial Engineering and Risk Management Part I by Martin Haugh and Garud Iyengar: 51 parts, <a href="https://www.coursera.org/learn/financial-engineering-1" target="_blank" rel="external">Course Page</a><ul>
+<li>Financial Engineering is a multidisciplinary field drawing from finance and economics, mathematics, statistics, engineering and computational methods. The emphasis of FE &amp; RM Part I will be on the use of simple stochastic models to price derivative securities in various asset classes including equities, fixed income, credit and mortgage-backed securities. We will also consider the role that some of these asset classes played during the financial crisis. A notable feature of this course will be an interview module with Emanuel Derman, the renowned ``quant&#x2019;&#x2019; and best-selling author of &#x201C;My Life as a Quant&#x201D;.</li>
+<li>We hope that students who complete the course will begin to understand the &#x201C;rocket science&#x201D; behind financial engineering but perhaps more importantly, we hope they will also understand the limitations of this theory in practice and why financial models should always be treated with a healthy degree of skepticism. The follow-on course FE &amp; RM Part II will continue to develop derivatives pricing models but it will also focus on asset allocation and portfolio optimization as well as other applications of financial engineering such as real options, commodity and energy derivatives and algorithmic trading.</li>
+</ul>
+</li>
+<li><strong>$\mathbb{UG}$</strong>MIT 18.S096 - Topics in Mathematics with Applications in Finance: 1h20min/Lec, 26 Lectures, <a href="https://ocw.mit.edu/courses/mathematics/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/index.htm" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63ctJIEC1UnZ0btsphnnoHR" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
+<li>The purpose of the class is to expose undergraduate and graduate students to the mathematical concepts and techniques used in the financial industry. Mathematics lectures are mixed with lectures illustrating the corresponding application in the financial industry. MIT mathematicians teach the mathematics part while industry professionals give the lectures on applications in finance.</li>
+</ul>
+</li>
 </ul>
 <h3 id="Optimization"><a href="#Optimization" class="headerlink" title="Optimization"></a>Optimization</h3><ul>
-<li><strong>$\mathbb{UG}$</strong>Stanford EE364A: Convex Optimization I by <a href="http://lall.stanford.edu/" target="_blank" rel="external">Sanjay Lall</a>: 1h15min/Lec, 19 Lectures, <a href="https://see.stanford.edu/Course/EE364A" target="_blank" rel="external">Course Page 1</a>, <a href="http://ee364a.stanford.edu/" target="_blank" rel="external">Course Page 2</a></li>
-<li><strong>$\mathbb{UG}$</strong>Stanford EE364B: Convex Optimization II by <a href="http://stanford.edu/~boyd/" target="_blank" rel="external">Stephen Boyd</a> and <a href="http://stanford.edu/~jduchi/" target="_blank" rel="external">John Duchi</a>,: 1h15min/Lec, 18 Lectures, <a href="https://see.stanford.edu/Course/EE364B" target="_blank" rel="external">Course Page 1</a>, <a href="https://stanford.edu/class/ee364b/" target="_blank" rel="external">Course Page 2</a></li>
+<li><strong>$\mathbb{UG}$</strong>Stanford EE364A: Convex Optimization I by <a href="http://lall.stanford.edu/" target="_blank" rel="external">Sanjay Lall</a>: 1h15min/Lec, 19 Lectures, <a href="https://see.stanford.edu/Course/EE364A" target="_blank" rel="external">Course Page 1</a>, <a href="http://ee364a.stanford.edu/" target="_blank" rel="external">Course Page 2</a><ul>
+<li>Concentrates on recognizing and solving convex optimization problems that arise in applications. Convex sets, functions, and optimization problems. Basics of convex analysis. Least-squares, linear and quadratic programs, semidefinite programming, minimax, extremal volume, and other problems. Optimality conditions, duality theory, theorems of alternative, and applications. Interior-point methods. Applications to signal processing, statistics and machine learning, control and mechanical engineering, digital and analog circuit design, and finance.</li>
+</ul>
+</li>
+<li><strong>$\mathbb{UG}$</strong>Stanford EE364B: Convex Optimization II by <a href="http://stanford.edu/~boyd/" target="_blank" rel="external">Stephen Boyd</a> and <a href="http://stanford.edu/~jduchi/" target="_blank" rel="external">John Duchi</a>,: 1h15min/Lec, 18 Lectures, <a href="https://see.stanford.edu/Course/EE364B" target="_blank" rel="external">Course Page 1</a>, <a href="https://stanford.edu/class/ee364b/" target="_blank" rel="external">Course Page 2</a><ul>
+<li>Continuation of 364a. Subgradient, cutting-plane, and ellipsoid methods. Decentralized convex optimization via primal and dual decomposition. Alternating projections. Exploiting problem structure in implementation. Convex relaxations of hard problems, and global optimization via branch &amp; bound. Robust optimization. Selected applications in areas such as control, circuit design, signal processing, and communications. Course requirements include a project or final exam (chosen individually as desired).</li>
+</ul>
+</li>
 <li><strong>$\mathbb{UG}$</strong>CUHK ENGG 5501 - Foundations of Optimization by <a href="http://www1.se.cuhk.edu.hk/~manchoso/" target="_blank" rel="external">Anthony Man-Cho So</a>: <a href="http://www1.se.cuhk.edu.hk/~manchoso/1516/engg5501/" target="_blank" rel="external">Course Page|2015-16</a>, <a href="http://www1.se.cuhk.edu.hk/~manchoso/1718/engg5501/" target="_blank" rel="external">Course Page|2017-18</a><ul>
 <li>Very detailed lecture notes</li>
+<li>In this course we will develop the basic machinery for formulating and analyzing various optimization problems. Topics include convex analysis, linear and conic linear programming, nonlinear programming, optimality conditions, Lagrangian duality theory, and basics of optimization algorithms. Applications from different fields, such as combinatorial optimization, communications, computational economics and finance, machine learning, and signal and image processing, will be used to complement the theoretical developments. No prior optimization background is required for this class. However, students should have workable knowledge in multivariable calculus, real analysis, linear algebra and matrix theory.</li>
 </ul>
 </li>
 </ul>
 <h3 id="Stochastic-Analysis"><a href="#Stochastic-Analysis" class="headerlink" title="Stochastic Analysis"></a>Stochastic Analysis</h3><ul>
-<li><strong>$\mathbb{UG}$</strong>MIT EECS 6.262 - Discrete Stochastic Processes by Robert Gallager, Spring 2011: 1h20min/Lec, 25 Lectures, <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-262-discrete-stochastic-processes-spring-2011/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLEEF5322B331C1B98" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+<li><strong>$\mathbb{UG}$</strong>MIT EECS 6.262 - Discrete Stochastic Processes by Robert Gallager, Spring 2011: 1h20min/Lec, 25 Lectures, <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-262-discrete-stochastic-processes-spring-2011/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLEEF5322B331C1B98" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
+<li>Discrete stochastic processes are essentially probabilistic systems that evolve in time via random changes occurring at discrete fixed or random intervals. This course aims to help students acquire both the mathematical principles and the intuition necessary to create, analyze, and understand insightful models for a broad range of these processes. The range of areas for which discrete stochastic-process models are useful is constantly expanding, and includes many applications in engineering, physics, biology, operations research and finance.</li>
+</ul>
+</li>
 </ul>
 <h3 id="Linear-Algebra-amp-Vector-Calculus"><a href="#Linear-Algebra-amp-Vector-Calculus" class="headerlink" title="Linear Algebra &amp; Vector Calculus"></a>Linear Algebra &amp; Vector Calculus</h3><ul>
-<li><strong>$\mathbb{UG}$</strong>MIT 18.02 Multivariatble Calculus, Fall 2007, by <strong>Dennis Auroux</strong>: <a href="https://ocw.mit.edu/courses/mathematics/18-02-multivariable-calculus-fall-2007/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PL4C4C8A7D06566F38" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-<li><strong>$\mathbb{UG}$</strong>MIT 18.06 Linear Algebra by <strong>Gilbert Strang</strong>: <a href="https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/index.htm" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+<li><strong>$\mathbb{UG}$</strong>MIT 18.02 Multivariatble Calculus, Fall 2007, by <strong>Dennis Auroux</strong>: <a href="https://ocw.mit.edu/courses/mathematics/18-02-multivariable-calculus-fall-2007/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PL4C4C8A7D06566F38" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
+<li>This is a basic subject on matrix theory and linear algebra. Emphasis is given to topics that will be useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, similarity, and positive definite matrices.</li>
+</ul>
+</li>
+<li><strong>$\mathbb{UG}$</strong>MIT 18.06 Linear Algebra by <strong>Gilbert Strang</strong>: <a href="https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/index.htm" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
+<li>This course covers vector and multi-variable calculus. It is the second semester in the freshman calculus sequence. Topics include vectors and matrices, partial derivatives, double and triple integrals, and vector calculus in 2 and 3-space.</li>
+<li>MIT OpenCourseWare offers another version of 18.02, from the Spring 2006 term. Both versions cover the same material, although they are taught by different faculty and rely on different textbooks. Multivariable Calculus (18.02) is taught during the Fall and Spring terms at MIT, and is a required subject for all MIT undergraduates.</li>
+</ul>
+</li>
 </ul>
 <h3 id="Functional-Analysis"><a href="#Functional-Analysis" class="headerlink" title="Functional Analysis"></a>Functional Analysis</h3><ul>
 <li><strong>$\mathbb{UG}$</strong>MIT 18.102 - Introduction to Functional Analysis by Richard Melrose, Spring 2009: <a href="https://ocw.mit.edu/courses/mathematics/18-102-introduction-to-functional-analysis-spring-2009/" target="_blank" rel="external">Course Page</a><ul>
@@ -4221,13 +4245,15 @@ Ref 2\cite{kom2016stochastic}
             
             <tag> information_system </tag>
             
+            <tag> machine_learning </tag>
+            
+            <tag> natural_language_processing </tag>
+            
             <tag> statistics </tag>
             
             <tag> mathematics </tag>
             
             <tag> github </tag>
-            
-            <tag> machine_learning </tag>
             
             <tag> artificial_intelligence </tag>
             
@@ -4236,8 +4262,6 @@ Ref 2\cite{kom2016stochastic}
             <tag> finance </tag>
             
             <tag> deep_learning </tag>
-            
-            <tag> natural_language_processing </tag>
             
             <tag> open_course </tag>
             
@@ -4544,10 +4568,6 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
-            <tag> information_system </tag>
-            
-            <tag> machine_learning </tag>
-            
             <tag> study </tag>
             
             <tag> research </tag>
@@ -4559,6 +4579,10 @@ Ref 2\cite{kom2016stochastic}
             <tag> hexo </tag>
             
             <tag> notes </tag>
+            
+            <tag> information_system </tag>
+            
+            <tag> machine_learning </tag>
             
             <tag> music </tag>
             
@@ -4739,9 +4763,9 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
-            <tag> information_system </tag>
-            
             <tag> notes </tag>
+            
+            <tag> information_system </tag>
             
         </tags>
         
@@ -4983,9 +5007,9 @@ $ hexo d
         
         <tags>
             
-            <tag> github </tag>
-            
             <tag> hexo </tag>
+            
+            <tag> github </tag>
             
             <tag> tutorial </tag>
             
@@ -5027,14 +5051,14 @@ $ hexo d
     </entry>
     
     <entry>
-      <title><![CDATA[All Tags]]></title>
-      <url>/tags/index.html</url>
+      <title><![CDATA[All Categories]]></title>
+      <url>/categories/index.html</url>
       <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
     </entry>
     
     <entry>
-      <title><![CDATA[All Categories]]></title>
-      <url>/categories/index.html</url>
+      <title><![CDATA[All Tags]]></title>
+      <url>/tags/index.html</url>
       <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
     </entry>
     
