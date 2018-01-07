@@ -471,11 +471,11 @@ k_1 k_3 = 5 \beta \lambda p
         
         <tags>
             
+            <tag> image </tag>
+            
             <tag> mathematics </tag>
             
             <tag> hexo_pdf </tag>
-            
-            <tag> image </tag>
             
             <tag> mathjax </tag>
             
@@ -737,11 +737,11 @@ k_1 k_3 = 5 \beta \lambda p
         
         <tags>
             
+            <tag> image </tag>
+            
             <tag> mathematics </tag>
             
             <tag> hexo_pdf </tag>
-            
-            <tag> image </tag>
             
             <tag> mathjax </tag>
             
@@ -937,6 +937,8 @@ end
             
             <tag> image </tag>
             
+            <tag> r_language </tag>
+            
             <tag> nonlinear_equations </tag>
             
             <tag> numerical_analysis </tag>
@@ -946,8 +948,6 @@ end
             <tag> fortran </tag>
             
             <tag> python </tag>
-            
-            <tag> r_language </tag>
             
             <tag> mathematica </tag>
             
@@ -1285,15 +1285,15 @@ end
             
             <tag> notes </tag>
             
-            <tag> markdown_table </tag>
-            
-            <tag> image </tag>
-            
             <tag> reputation_system </tag>
             
             <tag> variable_type </tag>
             
             <tag> data_type </tag>
+            
+            <tag> markdown_table </tag>
+            
+            <tag> image </tag>
             
         </tags>
         
@@ -1629,9 +1629,9 @@ end
             
             <tag> literature_review </tag>
             
-            <tag> finance </tag>
-            
             <tag> image </tag>
+            
+            <tag> finance </tag>
             
             <tag> mathjax </tag>
             
@@ -3267,9 +3267,9 @@ killall Finder
             
             <tag> natural_language_processing </tag>
             
-            <tag> hexo_pdf </tag>
-            
             <tag> image </tag>
+            
+            <tag> hexo_pdf </tag>
             
         </tags>
         
@@ -4148,11 +4148,11 @@ Ref 2\cite{kom2016stochastic}
 </li>
 </ul>
 <h3 id="Optimization"><a href="#Optimization" class="headerlink" title="Optimization"></a>Optimization</h3><ul>
-<li><strong>$\mathbb{UG}$</strong>Stanford EE364A: Convex Optimization I by <a href="http://lall.stanford.edu/" target="_blank" rel="external">Sanjay Lall</a>: 1h15min/Lec, 19 Lectures, <a href="https://see.stanford.edu/Course/EE364A" target="_blank" rel="external">Course Page 1</a>, <a href="http://ee364a.stanford.edu/" target="_blank" rel="external">Course Page 2</a><ul>
+<li><strong>$\mathbb{UG}$</strong>Stanford EE364A: Convex Optimization I by <a href="http://lall.stanford.edu/" target="_blank" rel="external">Sanjay Lall</a>: 1h15min/Lec, 19 Lectures, <a href="https://see.stanford.edu/Course/EE364A" target="_blank" rel="external">Course Page 1</a>, <a href="http://ee364a.stanford.edu/" target="_blank" rel="external">Course Page 2</a>, <a href="https://www.youtube.com/playlist?list=PL3940DD956CDF0622" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
 <li>Concentrates on recognizing and solving convex optimization problems that arise in applications. Convex sets, functions, and optimization problems. Basics of convex analysis. Least-squares, linear and quadratic programs, semidefinite programming, minimax, extremal volume, and other problems. Optimality conditions, duality theory, theorems of alternative, and applications. Interior-point methods. Applications to signal processing, statistics and machine learning, control and mechanical engineering, digital and analog circuit design, and finance.</li>
 </ul>
 </li>
-<li><strong>$\mathbb{UG}$</strong>Stanford EE364B: Convex Optimization II by <a href="http://stanford.edu/~boyd/" target="_blank" rel="external">Stephen Boyd</a> and <a href="http://stanford.edu/~jduchi/" target="_blank" rel="external">John Duchi</a>,: 1h15min/Lec, 18 Lectures, <a href="https://see.stanford.edu/Course/EE364B" target="_blank" rel="external">Course Page 1</a>, <a href="https://stanford.edu/class/ee364b/" target="_blank" rel="external">Course Page 2</a><ul>
+<li><strong>$\mathbb{UG}$</strong>Stanford EE364B: Convex Optimization II by <a href="http://stanford.edu/~boyd/" target="_blank" rel="external">Stephen Boyd</a> and <a href="http://stanford.edu/~jduchi/" target="_blank" rel="external">John Duchi</a>,: 1h15min/Lec, 18 Lectures, <a href="https://see.stanford.edu/Course/EE364B" target="_blank" rel="external">Course Page 1</a>, <a href="https://stanford.edu/class/ee364b/" target="_blank" rel="external">Course Page 2</a>, <a href="https://www.youtube.com/playlist?list=PL3940DD956CDF0622" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
 <li>Continuation of 364a. Subgradient, cutting-plane, and ellipsoid methods. Decentralized convex optimization via primal and dual decomposition. Alternating projections. Exploiting problem structure in implementation. Convex relaxations of hard problems, and global optimization via branch &amp; bound. Robust optimization. Selected applications in areas such as control, circuit design, signal processing, and communications. Course requirements include a project or final exam (chosen individually as desired).</li>
 </ul>
 </li>
@@ -4247,7 +4247,13 @@ Ref 2\cite{kom2016stochastic}
             
             <tag> machine_learning </tag>
             
+            <tag> deep_learning </tag>
+            
             <tag> natural_language_processing </tag>
+            
+            <tag> markdown_table </tag>
+            
+            <tag> image </tag>
             
             <tag> statistics </tag>
             
@@ -4261,17 +4267,11 @@ Ref 2\cite{kom2016stochastic}
             
             <tag> finance </tag>
             
-            <tag> deep_learning </tag>
-            
             <tag> open_course </tag>
             
             <tag> hexo_pdf </tag>
             
-            <tag> markdown_table </tag>
-            
             <tag> span_id_anchor </tag>
-            
-            <tag> image </tag>
             
         </tags>
         
@@ -5009,9 +5009,9 @@ $ hexo d
             
             <tag> hexo </tag>
             
-            <tag> github </tag>
-            
             <tag> tutorial </tag>
+            
+            <tag> github </tag>
             
         </tags>
         
@@ -5019,6 +5019,12 @@ $ hexo d
     
   
   
+    
+    <entry>
+      <title><![CDATA[All Categories]]></title>
+      <url>/categories/index.html</url>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
+    </entry>
     
     <entry>
       <title><![CDATA[About Neverland]]></title>
@@ -5048,12 +5054,6 @@ $ hexo d
 
 
 ]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[All Categories]]></title>
-      <url>/categories/index.html</url>
-      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
     </entry>
     
     <entry>
