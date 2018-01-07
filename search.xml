@@ -235,17 +235,17 @@
         
         <tags>
             
-            <tag> research </tag>
-            
             <tag> machine_learning </tag>
             
             <tag> natural_language_processing </tag>
             
+            <tag> research </tag>
+            
             <tag> sentiment_analysis </tag>
             
-            <tag> literature_review </tag>
-            
             <tag> faicon </tag>
+            
+            <tag> literature_review </tag>
             
         </tags>
         
@@ -579,9 +579,9 @@ k_1 k_3 = 5 \beta \lambda p
         
         <tags>
             
-            <tag> research </tag>
-            
             <tag> image </tag>
+            
+            <tag> research </tag>
             
             <tag> sentiment_analysis </tag>
             
@@ -1026,13 +1026,13 @@ end
             
             <tag> image </tag>
             
-            <tag> faicon </tag>
-            
             <tag> mendeley </tag>
             
             <tag> document_management </tag>
             
             <tag> bibtex </tag>
+            
+            <tag> faicon </tag>
             
         </tags>
         
@@ -1283,11 +1283,11 @@ end
         
         <tags>
             
-            <tag> notes </tag>
-            
             <tag> markdown_table </tag>
             
             <tag> image </tag>
+            
+            <tag> notes </tag>
             
             <tag> reputation_system </tag>
             
@@ -1373,17 +1373,17 @@ end
         
         <tags>
             
-            <tag> research </tag>
-            
             <tag> image </tag>
+            
+            <tag> research </tag>
             
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
             
-            <tag> opinion_mining </tag>
-            
             <tag> mathjax </tag>
+            
+            <tag> opinion_mining </tag>
             
             <tag> feature_engineering </tag>
             
@@ -1621,23 +1621,23 @@ end
         
         <tags>
             
-            <tag> research </tag>
-            
             <tag> information_system </tag>
             
             <tag> finance </tag>
             
             <tag> image </tag>
             
+            <tag> research </tag>
+            
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
             
+            <tag> mathjax </tag>
+            
             <tag> opinion_mining </tag>
             
             <tag> time_series </tag>
-            
-            <tag> mathjax </tag>
             
         </tags>
         
@@ -1892,19 +1892,19 @@ end
         
         <tags>
             
-            <tag> research </tag>
-            
             <tag> information_system </tag>
             
+            <tag> research </tag>
+            
             <tag> sentiment_analysis </tag>
-            
-            <tag> literature_review </tag>
-            
-            <tag> mathjax </tag>
             
             <tag> user_generated_content </tag>
             
             <tag> word_of_mouth </tag>
+            
+            <tag> literature_review </tag>
+            
+            <tag> mathjax </tag>
             
         </tags>
         
@@ -1954,11 +1954,11 @@ end
         
         <tags>
             
+            <tag> economics </tag>
+            
             <tag> research </tag>
             
             <tag> notes </tag>
-            
-            <tag> economics </tag>
             
             <tag> mathjax </tag>
             
@@ -3087,13 +3087,13 @@ killall Finder
         
         <tags>
             
-            <tag> research </tag>
-            
             <tag> information_system </tag>
             
             <tag> markdown_table </tag>
             
             <tag> image </tag>
+            
+            <tag> research </tag>
             
         </tags>
         
@@ -4149,7 +4149,7 @@ Ref 2\cite{kom2016stochastic}
 </li>
 </ul>
 <h3 id="Stochastic-Analysis"><a href="#Stochastic-Analysis" class="headerlink" title="Stochastic Analysis"></a>Stochastic Analysis</h3><ul>
-<li><strong>$\mathbb{UG}$</strong>MIT EECS 6.262 - Discrete Stochastic Processes, Spring 2011: 1h20min/Lec, 25 Lectures, <a href="https://ocw.mit.edu/Lecs/electrical-engineering-and-computer-science/6-262-discrete-stochastic-processes-spring-2011/index.htm" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLEEF5322B331C1B98" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+<li><strong>$\mathbb{UG}$</strong>MIT EECS 6.262 - Discrete Stochastic Processes by Robert Gallager, Spring 2011: 1h20min/Lec, 25 Lectures, <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-262-discrete-stochastic-processes-spring-2011/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLEEF5322B331C1B98" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a></li>
 </ul>
 <h3 id="Linear-Algebra-amp-Vector-Calculus"><a href="#Linear-Algebra-amp-Vector-Calculus" class="headerlink" title="Linear Algebra &amp; Vector Calculus"></a>Linear Algebra &amp; Vector Calculus</h3><ul>
 <li><strong>$\mathbb{UG}$</strong>MIT 18.02 Multivariatble Calculus, Fall 2007, by <strong>Dennis Auroux</strong>: <a href="https://ocw.mit.edu/courses/mathematics/18-02-multivariable-calculus-fall-2007/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PL4C4C8A7D06566F38" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a></li>
@@ -4221,13 +4221,13 @@ Ref 2\cite{kom2016stochastic}
             
             <tag> information_system </tag>
             
-            <tag> machine_learning </tag>
-            
             <tag> statistics </tag>
             
             <tag> mathematics </tag>
             
             <tag> github </tag>
+            
+            <tag> machine_learning </tag>
             
             <tag> artificial_intelligence </tag>
             
@@ -4544,6 +4544,10 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
+            <tag> information_system </tag>
+            
+            <tag> machine_learning </tag>
+            
             <tag> study </tag>
             
             <tag> research </tag>
@@ -4555,10 +4559,6 @@ Ref 2\cite{kom2016stochastic}
             <tag> hexo </tag>
             
             <tag> notes </tag>
-            
-            <tag> information_system </tag>
-            
-            <tag> machine_learning </tag>
             
             <tag> music </tag>
             
@@ -4739,9 +4739,9 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
-            <tag> notes </tag>
-            
             <tag> information_system </tag>
+            
+            <tag> notes </tag>
             
         </tags>
         
@@ -4983,9 +4983,9 @@ $ hexo d
         
         <tags>
             
-            <tag> hexo </tag>
-            
             <tag> github </tag>
+            
+            <tag> hexo </tag>
             
             <tag> tutorial </tag>
             
@@ -5027,14 +5027,14 @@ $ hexo d
     </entry>
     
     <entry>
-      <title><![CDATA[All Categories]]></title>
-      <url>/categories/index.html</url>
+      <title><![CDATA[All Tags]]></title>
+      <url>/tags/index.html</url>
       <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
     </entry>
     
     <entry>
-      <title><![CDATA[All Tags]]></title>
-      <url>/tags/index.html</url>
+      <title><![CDATA[All Categories]]></title>
+      <url>/categories/index.html</url>
       <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
     </entry>
     
