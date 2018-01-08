@@ -235,17 +235,17 @@
         
         <tags>
             
-            <tag> machine_learning </tag>
-            
-            <tag> natural_language_processing </tag>
-            
             <tag> research </tag>
+            
+            <tag> machine_learning </tag>
             
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
             
             <tag> faicon </tag>
+            
+            <tag> natural_language_processing </tag>
             
         </tags>
         
@@ -471,11 +471,11 @@ k_1 k_3 = 5 \beta \lambda p
         
         <tags>
             
+            <tag> image </tag>
+            
             <tag> mathematics </tag>
             
             <tag> hexo_pdf </tag>
-            
-            <tag> image </tag>
             
             <tag> mathjax </tag>
             
@@ -579,13 +579,13 @@ k_1 k_3 = 5 \beta \lambda p
         
         <tags>
             
-            <tag> image </tag>
-            
             <tag> research </tag>
             
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
+            
+            <tag> image </tag>
             
             <tag> mathjax </tag>
             
@@ -737,11 +737,11 @@ k_1 k_3 = 5 \beta \lambda p
         
         <tags>
             
+            <tag> image </tag>
+            
             <tag> mathematics </tag>
             
             <tag> hexo_pdf </tag>
-            
-            <tag> image </tag>
             
             <tag> mathjax </tag>
             
@@ -933,11 +933,13 @@ end
         
         <tags>
             
-            <tag> image </tag>
-            
             <tag> faicon </tag>
             
+            <tag> image </tag>
+            
             <tag> r_language </tag>
+            
+            <tag> mathjax </tag>
             
             <tag> nonlinear_equations </tag>
             
@@ -950,8 +952,6 @@ end
             <tag> python </tag>
             
             <tag> mathematica </tag>
-            
-            <tag> mathjax </tag>
             
         </tags>
         
@@ -1024,9 +1024,9 @@ end
         
         <tags>
             
-            <tag> image </tag>
-            
             <tag> faicon </tag>
+            
+            <tag> image </tag>
             
             <tag> mendeley </tag>
             
@@ -1117,11 +1117,11 @@ end
         
         <tags>
             
+            <tag> tutorial </tag>
+            
             <tag> deep_learning </tag>
             
             <tag> hardware </tag>
-            
-            <tag> tutorial </tag>
             
         </tags>
         
@@ -1283,10 +1283,6 @@ end
         
         <tags>
             
-            <tag> markdown_table </tag>
-            
-            <tag> image </tag>
-            
             <tag> notes </tag>
             
             <tag> reputation_system </tag>
@@ -1294,6 +1290,10 @@ end
             <tag> variable_type </tag>
             
             <tag> data_type </tag>
+            
+            <tag> markdown_table </tag>
+            
+            <tag> image </tag>
             
         </tags>
         
@@ -1373,17 +1373,17 @@ end
         
         <tags>
             
-            <tag> image </tag>
-            
             <tag> research </tag>
             
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
             
-            <tag> mathjax </tag>
+            <tag> image </tag>
             
             <tag> opinion_mining </tag>
+            
+            <tag> mathjax </tag>
             
             <tag> feature_engineering </tag>
             
@@ -1621,23 +1621,23 @@ end
         
         <tags>
             
-            <tag> information_system </tag>
-            
-            <tag> finance </tag>
-            
-            <tag> image </tag>
-            
             <tag> research </tag>
+            
+            <tag> information_system </tag>
             
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
             
-            <tag> mathjax </tag>
+            <tag> image </tag>
+            
+            <tag> finance </tag>
             
             <tag> opinion_mining </tag>
             
             <tag> time_series </tag>
+            
+            <tag> mathjax </tag>
             
         </tags>
         
@@ -1892,9 +1892,9 @@ end
         
         <tags>
             
-            <tag> information_system </tag>
-            
             <tag> research </tag>
+            
+            <tag> information_system </tag>
             
             <tag> sentiment_analysis </tag>
             
@@ -1954,11 +1954,11 @@ end
         
         <tags>
             
-            <tag> economics </tag>
+            <tag> research </tag>
             
             <tag> notes </tag>
             
-            <tag> research </tag>
+            <tag> economics </tag>
             
             <tag> mathjax </tag>
             
@@ -3087,13 +3087,13 @@ killall Finder
         
         <tags>
             
+            <tag> research </tag>
+            
             <tag> information_system </tag>
             
             <tag> markdown_table </tag>
             
             <tag> image </tag>
-            
-            <tag> research </tag>
             
         </tags>
         
@@ -3263,13 +3263,13 @@ killall Finder
             
             <tag> machine_learning </tag>
             
-            <tag> natural_language_processing </tag>
+            <tag> sentiment_analysis </tag>
             
-            <tag> hexo_pdf </tag>
+            <tag> natural_language_processing </tag>
             
             <tag> image </tag>
             
-            <tag> sentiment_analysis </tag>
+            <tag> hexo_pdf </tag>
             
         </tags>
         
@@ -3423,9 +3423,9 @@ Training Step: 7040  | total loss: 0.09154 | time: 175.630s
         
         <tags>
             
-            <tag> deep_learning </tag>
-            
             <tag> machine_learning </tag>
+            
+            <tag> deep_learning </tag>
             
             <tag> python </tag>
             
@@ -3932,56 +3932,238 @@ Ref 2\cite{kom2016stochastic}
 <h2 id="Courses"><a href="#Courses" class="headerlink" title="Courses"></a>Courses</h2><h3 id="Machine-Learning-1"><a href="#Machine-Learning-1" class="headerlink" title="Machine Learning"></a>Machine Learning</h3><ol>
 <li><strong>$\mathbb{UG}$</strong><span id="OP1"></span>Stanford CS229 - Machine Learning by <a href="http://www.andrewng.org/" target="_blank" rel="external"><strong>Andrew Ng</strong></a>: 1h15min/Lec, 20 Lectures, <a href="http://cs229.stanford.edu/" target="_blank" rel="external">Course Page</a>, <a href="https://see.stanford.edu/Course/CS229/47" target="_blank" rel="external">Videos-1<i class="fa fa-external-link" aria-hidden="true"></i></a>, <a href="https://www.youtube.com/playlist?list=PLA89DCFA6ADACE599" target="_blank" rel="external">Videos-2<i class="fa fa-youtube" aria-hidden="true"></i></a> <i class="fa fa-play" aria-hidden="true"></i> <img src="http://progressed.io/bar/95?title=done" alt="19/20"><ul>
 <li>One of the most classic open course for Machine Learning</li>
-<li>This course provides a broad introduction to machine learning and statistical pattern recognition. Topics include: supervised learning (generative/discriminative learning, parametric/non-parametric learning, neural networks, support vector machines); unsupervised learning (clustering, dimensionality reduction, kernel methods); learning theory (bias/variance tradeoffs; VC theory; large margins); reinforcement learning and adaptive control. The course will also discuss recent applications of machine learning, such as to robotic control, data mining, autonomous navigation, bioinformatics, speech recognition, and text and web data processing.</li>
+<li>Prerequisites: Students are expected to have the following background:<ul>
+<li>Knowledge of basic computer science principles and skills, at a level sufficient to write a reasonably non-trivial computer program.</li>
+<li>Familiarity with probability theory (CS 109 or STATS 116)</li>
+<li>Familiarity with linear algebra (any one of Math 104, Math 113, or CS 205 should be sufficient)</li>
 </ul>
 </li>
-<li><strong>$\mathbb{UG}$</strong>/<strong>$\mathbb{G}$</strong><span id="OP4"></span>Coursera - Probabilistic Graphical Models by <a href="http://ai.stanford.edu/users/koller/" target="_blank" rel="external"><strong>Daphne Koller</strong></a>: 15 Lectures, <a href="https://www.coursera.org/learn/probabilistic-graphical-models/home/welcome" target="_blank" rel="external">Course Page 1 - Representation</a>, <a href="https://www.coursera.org/learn/probabilistic-graphical-models-2-inference/home/welcome" target="_blank" rel="external">Course Page 2 - Inference</a>, <a href="https://www.coursera.org/learn/probabilistic-graphical-models-3-learning/home/welcome" target="_blank" rel="external">Course Page 3 - Learning</a>, <a href="https://mitpress.mit.edu/books/probabilistic-graphical-models" target="_blank" rel="external">Textbook</a>, <a href="https://www.youtube.com/playlist?list=PL50E6E80E8525B59C" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a> <i class="fa fa-play" aria-hidden="true"></i> <img src="http://progressed.io/bar/37?title=done" alt="35/94"></li>
-<li><strong>$\mathbb{UG}$</strong><span id="OP5"></span>Udacity|Georgia Tech CS7646 - Machine Learning for Trading by <strong>Tucker Balch</strong>: 28 parts, <a href="https://www.udacity.com/Lec/machine-learning-for-trading--ud501" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLAwxTw4SYaPnIRwl6rad_mYwEk4Gmj7Mx" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a> <img src="http://progressed.io/bar/4?title=done" alt="1/28"></li>
+<li>Course Description: This course provides a broad introduction to machine learning and statistical pattern recognition. Topics include: supervised learning (generative/discriminative learning, parametric/non-parametric learning, neural networks, support vector machines); unsupervised learning (clustering, dimensionality reduction, kernel methods); learning theory (bias/variance tradeoffs; VC theory; large margins); reinforcement learning and adaptive control. The course will also discuss recent applications of machine learning, such as to robotic control, data mining, autonomous navigation, bioinformatics, speech recognition, and text and web data processing.</li>
+</ul>
+</li>
+<li><strong>$\mathbb{UG}$</strong>/<strong>$\mathbb{G}$</strong><span id="OP4"></span>Coursera - Probabilistic Graphical Models by <a href="http://ai.stanford.edu/users/koller/" target="_blank" rel="external"><strong>Daphne Koller</strong></a>: 15 Lectures, <a href="https://www.coursera.org/learn/probabilistic-graphical-models/home/welcome" target="_blank" rel="external">Course Page 1 - Representation</a>, <a href="https://www.coursera.org/learn/probabilistic-graphical-models-2-inference/home/welcome" target="_blank" rel="external">Course Page 2 - Inference</a>, <a href="https://www.coursera.org/learn/probabilistic-graphical-models-3-learning/home/welcome" target="_blank" rel="external">Course Page 3 - Learning</a>, <a href="https://mitpress.mit.edu/books/probabilistic-graphical-models" target="_blank" rel="external">Textbook</a>, <a href="https://www.youtube.com/playlist?list=PL50E6E80E8525B59C" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a> <i class="fa fa-play" aria-hidden="true"></i> <img src="http://progressed.io/bar/37?title=done" alt="35/94"><ul>
+<li>Prerequisite: Familiarity with programming, basic linear algebra (matrices, vectors, matrix-vector multiplication), and basic probability (random variables, basic properties of probability) is assumed. Basic calculus (derivatives and partial derivatives) would be helpful and would give you additional intuitions about the algorithms, but isn&#x2019;t required to fully complete this course.</li>
+<li>Course Description:<ul>
+<li>Part 1 Inference: It describes the two basic PGM representations: Bayesian Networks, which rely on a directed graph; and Markov networks, which use an undirected graph. The course discusses both the theoretical properties of these representations as well as their use in practice. The (highly recommended) honors track contains several hands-on assignments on how to represent some real-world problems. The course also presents some important extensions beyond the basic PGM representation, which allow more complex models to be encoded compactly.</li>
+<li>Part 2 Inference: This course is the second in a sequence of three. Following the first course, which focused on representation, this course addresses the question of probabilistic inference: how a PGM can be used to answer questions. Even though a PGM generally describes a very high dimensional distribution, its structure is designed so as to allow questions to be answered efficiently. The course presents both exact and approximate algorithms for different types of inference tasks, and discusses where each could best be applied. The (highly recommended) honors track contains two hands-on programming assignments, in which key routines of the most commonly used exact and approximate algorithms are implemented and applied to a real-world problem.</li>
+<li>Part 3 Learning: This course is the third in a sequence of three. Following the first course, which focused on representation, and the second, which focused on inference, this course addresses the question of learning: how a PGM can be learned from a data set of examples. The course discusses the key problems of parameter estimation in both directed and undirected models, as well as the structure learning task for directed models. The (highly recommended) honors track contains two hands-on programming assignments, in which key routines of two commonly used learning algorithms are implemented and applied to a real-world problem.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>$\mathbb{UG}$</strong><span id="OP5"></span>Udacity|Georgia Tech CS7646 - Machine Learning for Trading by <strong>Tucker Balch</strong>: 28 parts, <a href="https://www.udacity.com/course/machine-learning-for-trading--ud501" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLAwxTw4SYaPnIRwl6rad_mYwEk4Gmj7Mx" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a> <img src="http://progressed.io/bar/4?title=done" alt="1/28"><ul>
+<li>Course Description: This course introduces students to the real world challenges of implementing machine learning based trading strategies including the algorithmic steps from information gathering to market orders. The focus is on how to apply probabilistic machine learning approaches to trading decisions. We consider statistical approaches like linear regression, KNN and regression trees and how to apply them to actual stock trading situations.</li>
+</ul>
+</li>
 </ol>
 <h3 id="Deep-Learning"><a href="#Deep-Learning" class="headerlink" title="Deep Learning"></a>Deep Learning</h3><ol>
-<li><strong>$\mathbb{UG}$</strong><span id="OP2"></span><strong>UCambridge - Course on Information Theory, Pattern Recognition, and Neural Networks</strong> by <strong>David MacKay</strong>: 1h30min/Lec, 16 Lectures, <a href="http://www.inference.org.uk/itprnn/" target="_blank" rel="external">Course Page</a>, <a href="http://videolectures.net/course_information_theory_pattern_recognition/" target="_blank" rel="external">Videos-1<i class="fa fa-external-link" aria-hidden="true"></i></a>, <a href="https://www.youtube.com/playlist?list=PLruBu5BI5n4aFpG32iMbdWoRVAA-Vcso6" target="_blank" rel="external">Videos-2<i class="fa fa-youtube" aria-hidden="true"></i></a> <i class="fa fa-forward" aria-hidden="true"></i> <img src="http://progressed.io/bar/32?title=done" alt="5/16"></li>
-<li><strong>$\mathbb{UG}$</strong><span id="OP3"></span><strong>Coursera - Neural Networks for Machine Learning</strong> by <a href="http://www.cs.toronto.edu/~hinton/" target="_blank" rel="external"><strong>Geoffrey Hinton</strong></a>: 16 Lectures, <a href="https://www.coursera.org/learn/neural-networks" target="_blank" rel="external">Course Page 1</a>, <a href="http://www.cs.toronto.edu/~tijmen/csc321/" target="_blank" rel="external">Course Page 2</a>, <a href="https://www.youtube.com/playlist?list=PLoRl3Ht4JOcdU872GhiYWf6jwrk_SNhz9" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a> <i class="fa fa-forward" aria-hidden="true"></i> <img src="http://progressed.io/bar/44?title=done" alt="34/78"></li>
-<li><strong>$\mathbb{UG}$</strong>Coursera - Neural Networks and Deep Learning by <strong>Andrew Ng</strong>: 46 parts, <a href="https://www.coursera.org/learn/neural-networks-deep-learning" target="_blank" rel="external">Course Page</a>,<a href="https://www.youtube.com/playlist?list=PLBAGcD3siRDguyYYzhVwZ3tLvOyyG5k6K" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-<li><strong>$\mathbb{UG}$</strong>Stanford CS231N - Convolutional Neural Networks for Visual Recognition Spring 2017 by <strong>Li Feifei</strong>: 1h15min/Lec, 16 Lectures, <a href="http://cs231n.stanford.edu/" target="_blank" rel="external">Course Page</a>,<a href="https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+<li><strong>$\mathbb{UG}$</strong><span id="OP2"></span><strong>UCambridge - Course on Information Theory, Pattern Recognition, and Neural Networks</strong> by <strong>David MacKay</strong>: 1h30min/Lec, 16 Lectures, <a href="http://www.inference.org.uk/itprnn/" target="_blank" rel="external">Course Page</a>, <a href="http://videolectures.net/course_information_theory_pattern_recognition/" target="_blank" rel="external">Videos-1<i class="fa fa-external-link" aria-hidden="true"></i></a>, <a href="https://www.youtube.com/playlist?list=PLruBu5BI5n4aFpG32iMbdWoRVAA-Vcso6" target="_blank" rel="external">Videos-2<i class="fa fa-youtube" aria-hidden="true"></i></a> <i class="fa fa-forward" aria-hidden="true"></i> <img src="http://progressed.io/bar/32?title=done" alt="5/16"><ul>
+<li>Prerequisites: <ul>
+<li>Probability and statistics</li>
+<li>Linear algebra</li>
+<li>Statistical physics</li>
+</ul>
+</li>
+<li>Course Description: This course will cover Introduction to information theory, Entropy and data compression, Communication over noisy channels, Statistical inference, data modelling and pattern recognition, Approximation of probability distributions and Neural networks and content-addressable memories.</li>
+</ul>
+</li>
+<li><strong>$\mathbb{UG}$</strong><span id="OP3"></span><strong>Coursera - Neural Networks for Machine Learning</strong> by <a href="http://www.cs.toronto.edu/~hinton/" target="_blank" rel="external"><strong>Geoffrey Hinton</strong></a>: 16 Lectures, <a href="https://www.coursera.org/learn/neural-networks" target="_blank" rel="external">Course Page 1</a>, <a href="http://www.cs.toronto.edu/~tijmen/csc321/" target="_blank" rel="external">Course Page 2</a>, <a href="https://www.youtube.com/playlist?list=PLoRl3Ht4JOcdU872GhiYWf6jwrk_SNhz9" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a> <i class="fa fa-forward" aria-hidden="true"></i> <img src="http://progressed.io/bar/44?title=done" alt="34/78"><ul>
+<li>Prerequisites:<ul>
+<li>Calculus: (MAT135H1, MAT136H1)/MAT135Y1/MAT137Y1/MAT157Y1</li>
+<li>Linear Algebra: MAT223H1/MAT240H1</li>
+<li>Statistics and Probability: STA247H1/STA255H1/STA257H1</li>
+</ul>
+</li>
+<li>Course Description: Learn about artificial neural networks and how they&#x2019;re being used for machine learning, as applied to speech and object recognition, image segmentation, modeling language and human motion, etc. We&#x2019;ll emphasize both the basic algorithms and the practical tricks needed to get them to work well. Please be advised that the course is suited for an <strong>intermediate level learner</strong> - comfortable with calculus and with experience programming (Python).</li>
+</ul>
+</li>
+<li><strong>$\mathbb{UG}$</strong>Coursera - Neural Networks and Deep Learning by <strong>Andrew Ng</strong>: 46 parts, <a href="https://www.coursera.org/learn/neural-networks-deep-learning" target="_blank" rel="external">Course Page</a>,<a href="https://www.youtube.com/playlist?list=PLBAGcD3siRDguyYYzhVwZ3tLvOyyG5k6K" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
+<li>Prerequisites:<ul>
+<li>Expected:<ul>
+<li>Programming: Basic Python programming skills, with the capability to work effectively with data structures.</li>
+</ul>
+</li>
+<li>Recommended:<ul>
+<li>Mathematics: Matrix vector operations and notation.</li>
+<li>Machine Learning: Understanding how to frame a machine learning problem, including how data is represented will be beneficial. (If you have taken Stanford CS229 - Machine Learning by Andrew Ng, you have much more than the needed level of knowledge.)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Course Description: In this course, you will learn the foundations of deep learning. This course also teaches you how Deep Learning actually works, rather than presenting only a cursory or surface-level description. So after completing it, you will be able to apply deep learning to a your own applications. If you are looking for a job in AI, after this course you will also be able to answer basic interview questions. When you finish this class, you will:<ul>
+<li>Understand the major technology trends driving Deep Learning</li>
+<li>Be able to build, train and apply fully connected deep neural networks</li>
+<li>Know how to implement efficient (vectorized) neural networks</li>
+<li>Understand the key parameters in a neural network&#x2019;s architecture</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>$\mathbb{UG}$</strong>Stanford CS231N - Convolutional Neural Networks for Visual Recognition Spring 2017 by <strong>Li Feifei</strong>: 1h15min/Lec, 16 Lectures, <a href="http://cs231n.stanford.edu/" target="_blank" rel="external">Course Page</a>,<a href="https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
+<li>Prerequisites:<ul>
+<li>Proficiency in Python, high-level familiarity in C/C++</li>
+<li>College Calculus, Linear Algebra (e.g. MATH 19 or 41, MATH 51)</li>
+<li>Basic Probability and Statistics (e.g. CS 109 or other stats course)</li>
+<li>Equivalent knowledge of CS229 (Machine Learning)</li>
+</ul>
+</li>
+<li>Course Description: This course is a deep dive into details of the deep learning architectures with a focus on learning end-to-end models for these tasks, particularly image classification. During the 10-week course, students will learn to implement, train and debug their own neural networks and gain a detailed understanding of cutting-edge research in computer vision. The final assignment will involve training a multi-million parameter convolutional neural network and applying it on the largest image classification dataset (ImageNet). We will focus on teaching how to set up the problem of image recognition, the learning algorithms (e.g. backpropagation), practical engineering tricks for training and fine-tuning the networks and guide the students through hands-on assignments and a final course project. Much of the background and materials of this course will be drawn from the ImageNet Challenge.</li>
+</ul>
+</li>
 </ol>
 <h3 id="Natural-Language-Processing"><a href="#Natural-Language-Processing" class="headerlink" title="Natural Language Processing"></a>Natural Language Processing</h3><ol>
-<li><strong>$\mathbb{UG}$</strong><span id="OP6"></span><strong>Coursera - Natural Language Processing</strong> by <a href="https://web.stanford.edu/~jurafsky/" target="_blank" rel="external"><strong>Dan Jurafsky</strong></a> &amp; <a href="https://nlp.stanford.edu/manning/" target="_blank" rel="external"><strong>Chris Manning</strong></a>: 23 Lectures, <a href="https://class.coursera.org/nlp/" target="_blank" rel="external">Course Page</a>, <a href="http://www.mohamedaly.info/teaching/cmp-462-spring-2013" target="_blank" rel="external">Resources</a>, <a href="https://www.youtube.com/playlist?list=PL6397E4B26D00A269" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a> <i class="fa fa-forward" aria-hidden="true"></i> <img src="http://progressed.io/bar/35?title=done" alt="37/102"></li>
-<li><strong>$\mathbb{UG}$</strong><span id="OP7"></span><strong>Stanford CS224N - Deep Learning for Natural Language Processing</strong> by <strong>Chris Manning</strong>: 1h15min/Lec, 18 Lectures, <a href="http://web.stanford.edu/class/cs224n/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a> <i class="fa fa-play" aria-hidden="true"></i> <img src="http://progressed.io/bar/11?title=done" alt="2/18"></li>
-<li>Columbia COMS W4705 - Natural Language Processing by <a href="http://www.cs.columbia.edu/~mcollins/" target="_blank" rel="external"><strong>Michael Collins</strong></a>: <a href="http://www.cs.columbia.edu/~cs4705/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PL0ap34RKaADMjqjdSkWolD-W2VSCyRUQC" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+<li><strong>$\mathbb{UG}$</strong><span id="OP6"></span><strong>Coursera - Natural Language Processing</strong> by <a href="https://web.stanford.edu/~jurafsky/" target="_blank" rel="external"><strong>Dan Jurafsky</strong></a> &amp; <a href="https://nlp.stanford.edu/manning/" target="_blank" rel="external"><strong>Chris Manning</strong></a>: 23 Lectures, <a href="https://class.coursera.org/nlp/" target="_blank" rel="external">Course Page</a>, <a href="http://www.mohamedaly.info/teaching/cmp-462-spring-2013" target="_blank" rel="external">Resources</a>, <a href="https://www.youtube.com/playlist?list=PL6397E4B26D00A269" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a> <i class="fa fa-forward" aria-hidden="true"></i> <img src="http://progressed.io/bar/35?title=done" alt="37/102"><ul>
+<li>Course Description: This course covers a broad range of topics in natural language processing, including word and sentence tokenization, text classification and sentiment analysis, spelling correction, information extraction, parsing, meaning extraction, and question answering, We will also introduce the underlying theory from probability, statistics, and machine learning that are crucial for the field, and cover fundamental algorithms like n-gram language modeling, naive bayes and maxent classifiers, sequence models like Hidden Markov Models, probabilistic dependency and constituent parsing, and vector-space models of meaning.</li>
+</ul>
+</li>
+<li><strong>$\mathbb{UG}$</strong><span id="OP7"></span><strong>Stanford CS224N - Deep Learning for Natural Language Processing</strong> by <strong>Chris Manning</strong>: 1h15min/Lec, 18 Lectures, <a href="http://web.stanford.edu/class/cs224n/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a> <i class="fa fa-play" aria-hidden="true"></i> <img src="http://progressed.io/bar/11?title=done" alt="2/18"><ul>
+<li>Prerequisites:<ul>
+<li>Proficiency in Python</li>
+<li>College Calculus, Linear Algebra (e.g. MATH 51, CME 100)</li>
+<li>Basic Probability and Statistics (e.g. CS 109 or other stats course)</li>
+<li>Foundations of Machine Learning</li>
+</ul>
+</li>
+<li>Course Description: The course provides a thorough introduction to cutting-edge research in deep learning applied to NLP. On the model side we will cover word vector representations, window-based neural networks, recurrent neural networks, long-short-term-memory models, recursive neural networks, convolutional neural networks as well as some recent models involving a memory component. Through lectures and programming assignments students will learn the necessary engineering tricks for making neural networks work on practical problems.</li>
+</ul>
+</li>
+<li>Columbia COMS W4705 - Natural Language Processing by <a href="http://www.cs.columbia.edu/~mcollins/" target="_blank" rel="external"><strong>Michael Collins</strong></a>: <a href="http://www.cs.columbia.edu/~cs4705/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PL0ap34RKaADMjqjdSkWolD-W2VSCyRUQC" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
+<li>Course Description: This course covers Introduction to NLP, Language Modeling, Tagging, and Hidden Markov Models, Parsing, and Context-free Grammars, Probabilistic Context-free Grammars, Lexicalized PCFGs, The IBM Translation Models, Phrase-Based Translation Models, Log-Linear Models and Log-Linear Models for Tagging, and Global Linear Models, Global Linear Models for Tagging and for dependency parsing.</li>
+</ul>
+</li>
 </ol>
 <h3 id="Artificial-Intelligence"><a href="#Artificial-Intelligence" class="headerlink" title="Artificial Intelligence"></a>Artificial Intelligence</h3><ol>
-<li><strong>$\mathbb{UG}$</strong><span id="OP8"></span>Berkeley CS188 Introduction to Artificial Intelligence by <a href="https://people.eecs.berkeley.edu/~pabbeel/" target="_blank" rel="external"><strong>Pieter Abbeel</strong></a>,Spring 2014: 25 Lectures, <a href="https://people.eecs.berkeley.edu/~russell/classes/cs188/f14/lecture_videos.html" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PL6MuV0DF6AuoviA41dtji6q-PM4hvAcNk" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a> <i class="fa fa-forward" aria-hidden="true"></i> <img src="http://progressed.io/bar/4?title=done" alt="1/25"></li>
+<li><strong>$\mathbb{UG}$</strong><span id="OP8"></span>Berkeley CS188 Introduction to Artificial Intelligence by <a href="https://people.eecs.berkeley.edu/~pabbeel/" target="_blank" rel="external"><strong>Pieter Abbeel</strong></a>,Spring 2014: 25 Lectures, <a href="https://people.eecs.berkeley.edu/~russell/classes/cs188/f14/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PL6MuV0DF6AuoviA41dtji6q-PM4hvAcNk" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a> <i class="fa fa-forward" aria-hidden="true"></i> <img src="http://progressed.io/bar/4?title=done" alt="1/25"><ul>
+<li>Prerequisites<ul>
+<li>CS 61A Structure and Interpretation of Computer Programs and 61B Data Structure: Prior computer programming experience and a good understanding of clean, elegant implementations of nontrivial algorithms and data structures.</li>
+<li>CS 70 Discrete Mathematics and Probability Theory: Facility with basic concepts of propositional logic and probability are expected, as well as the ability to understand and construct proofs. CS 70 is the better choice for this course, but Math 55 could be substituted. Some linear algebra and calculus will be used, but the necessary content will be covered in the course.</li>
+</ul>
+</li>
+<li>Course Description: This course will cover Ideas and techniques underlying the design of intelligent computer systems. Topics include search, game playing, knowledge representation, inference, planning, reasoning under uncertainty, machine learning, robotics, perception, and language understanding. You will learn to build intelligent agents - systems that perceive and act - for fully observable, partially observable and adversarial settings. Your agents will generate provably successful plans in deterministic environments, draw inferences in uncertain environments, and optimize actions for arbitrary reward structures. They will learn from observation and from rewards. The techniques you learn in this course apply to a wide variety of artificial intelligence problems and will serve as the foundation for further study in any application area you choose to pursue.</li>
+</ul>
+</li>
 <li><strong>$\mathbb{UG}$</strong><span id="OP9"></span><strong>MIT 6.034 Artificial Intelligence</strong> by <strong>Patrick H. Winston</strong>, Fall 2010: 23 Lectures, <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a> <i class="fa fa-forward" aria-hidden="forward"></i> <img src="http://progressed.io/bar/4?title=done" alt="1/23"><ul>
 <li>Course Description: This course introduces students to the basic knowledge representation, problem solving, and learning methods of artificial intelligence. Upon completion of 6.034, students should be able to develop intelligent systems by assembling solutions to concrete computational problems; understand the role of knowledge representation, problem solving, and learning in intelligent-system engineering; and appreciate the role of problem solving, vision, and language in understanding human intelligence from a computational perspective.</li>
 </ul>
 </li>
-<li>Udacity|Intro to Artificial Intelligence by <strong>Sebastian Thrun</strong>: <a href="https://www.udacity.com/course/intro-to-artificial-intelligence--cs271" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLAwxTw4SYaPlqMkzr4xyuD6cXTIgPuzgn" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+<li>Udacity|Intro to Artificial Intelligence by <strong>Sebastian Thrun</strong>: <a href="https://www.udacity.com/course/intro-to-artificial-intelligence--cs271" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLAwxTw4SYaPlqMkzr4xyuD6cXTIgPuzgn" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
+<li>Course Description: Artificial Intelligence (AI) is a field that has a long history but is still constantly and actively growing and changing. In this course, you&#x2019;ll learn the basics of modern AI as well as some of the representative applications of AI. Along the way, we also hope to excite you about the numerous applications and huge possibilities in the field of AI, which continues to expand human capability beyond our imagination.</li>
+</ul>
+</li>
 </ol>
 <h3 id="Advanced-ML-DL-NLP-AI-amp-related"><a href="#Advanced-ML-DL-NLP-AI-amp-related" class="headerlink" title="Advanced ML/DL/NLP/AI &amp; related"></a>Advanced ML/DL/NLP/AI &amp; related</h3><ol>
+<li><strong>$\mathbb{G}$</strong>Columbia 4772 Advanced Machine Learning by <strong>Tony Jebara</strong>, Spring 2015: <a href="http://www.cs.columbia.edu/~jebara/4772/index.html" target="_blank" rel="external">Course Page</a><ul>
+<li>Prerequisites: COMS W4771 Machine Learning or permission. Background in linear algebra and statistics.</li>
+<li>Course Description: Advanced topics in machine learning including: Linear Modeling, Nonlinear Dimension Reduction, Maximum Entropy, Exponential Family Models, Conditional Random Fields, Graphical Models, Structured Support Vector Machines, Feature Selection, Kernel Selection, Meta-Learning, Multi-Task Learning, Semi-Supervised Learning, Graph-Based Semi-Supervised Learning, Approximate Inference, Clustering, and Boosting.</li>
+</ul>
+</li>
+<li><strong>$\mathbb{G}$</strong>MIT 6.864 Advanced Natural Language Processing: <a href="http://people.csail.mit.edu/regina/6864/" target="_blank" rel="external">Course Page Fall 2010</a>, <a href="http://people.csail.mit.edu/regina/6864-12/index.html" target="_blank" rel="external">Course Page Fall 2012</a>, <a href="http://courses.csail.mit.edu/6.864/" target="_blank" rel="external">Course Page Fall 2016</a><ul>
+<li>Course Description: The need to study human languages from a computational perspective has never been greater. Much of the vast amounts of information available today is in a textual form, requiring us to develop automated tools to search, extract, translate, and summarize the data. This course on natural language processing (NLP) focuses exactly on such problems, covering syntactic, semantic and discourse processing models, and their applications to information extraction, machine translation, and text summarization. As a new feature this year, the course will emphasize deep learning techniques for NLP, introducing them in parallel and comparatively with more traditional approaches to NLP.</li>
+</ul>
+</li>
 <li><strong>$\mathbb{G}$</strong>Stanford CS224U - Natural Language Understanding by <strong>Bill MacCartney</strong>: <a href="http://web.stanford.edu/class/cs224u/" target="_blank" rel="external">Course Page</a></li>
-<li>Stanford CS224M : Multi Agent Systems by <strong>Yoav Shoham</strong>: For Graduate, <a href="http://web.stanford.edu/class/cs224m/" target="_blank" rel="external">Course Page</a>, <a href="https://lagunita.stanford.edu/courses/Engineering/CS224M/Spring2014/about" target="_blank" rel="external">Videos</a></li>
+<li><strong>$\mathbb{G}$</strong>Stanford CS224M : Multi Agent Systems by <strong>Yoav Shoham</strong>: For Graduate, <a href="http://web.stanford.edu/class/cs224m/" target="_blank" rel="external">Course Page</a>, <a href="https://lagunita.stanford.edu/courses/Engineering/CS224M/Spring2014/about" target="_blank" rel="external">Videos</a></li>
 <li><strong>$\mathbb{G}$</strong>Harvard CS281: Advanced Machine Learning by <strong>Ryan Adams</strong>, Fall 2013: <a href="https://www.seas.harvard.edu/courses/cs281/" target="_blank" rel="external">Course Page</a></li>
-<li><strong>$\mathbb{G}$</strong>Columbia 4772 Advanced Machine Learning by <strong>Tony Jebara</strong>, Spring 2015: <a href="http://www.cs.columbia.edu/~jebara/4772/index.html" target="_blank" rel="external">Course Page</a></li>
-<li><strong>$\mathbb{G}$</strong>MIT 6.864 Advanced Natural Language Processing: <a href="http://people.csail.mit.edu/regina/6864/" target="_blank" rel="external">Course Page Fall 2010</a>, <a href="http://people.csail.mit.edu/regina/6864-12/index.html" target="_blank" rel="external">Course Page Fall 2012</a>, <a href="http://courses.csail.mit.edu/6.864/" target="_blank" rel="external">Course Page Fall 2016</a></li>
 </ol>
 <h3 id="Other-courses"><a href="#Other-courses" class="headerlink" title="Other courses"></a>Other courses</h3><ol>
-<li><strong>$\mathbb{UG}$</strong>CMU 10-701/15-781 - Machine Learning** by <a href="http://www.cs.cmu.edu/~tom/" target="_blank" rel="external">Tom Mitchell</a>, Spring 2011: 1h15min/Lec, 26 Lectures, <a href="http://www.cs.cmu.edu/~tom/10701_sp11/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLl-BBnDxtUt1hLXmIwu27P22bTi6VwMkN" target="_blank" rel="external">Videos</a></li>
-<li><strong>$\mathbb{UG}$</strong>CMU 10-702/36-702 - Statistical Machine Learning by <a href="http://www.stat.cmu.edu/~larry/" target="_blank" rel="external"><strong>Larry Wasserman</strong></a>, Spring 2016: 1h15min, 24 Lectures, <a href="http://www.stat.cmu.edu/~larry/=sml/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/watch?v=zcMnu-3wkWo&amp;list=PLTB9VQq8WiaCBK2XrtYn5t9uuPdsNm7YE" target="_blank" rel="external">Videos</a></li>
-<li><strong>$\mathbb{UG}$</strong>&#x56FD;&#x7ACB;&#x53F0;&#x6E7E;&#x5927;&#x5B66; - &#x6A5F;&#x5668;&#x5B78;&#x7FD2;&#x57FA;&#x77F3; (Machine Learning Foundations) by <a href="https://www.csie.ntu.edu.tw/~htlin/" target="_blank" rel="external"><strong>&#x6797;&#x8ED2;&#x7530;</strong></a>: 65 parts, <a href="https://www.coursera.org/instructor/htlin" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLXVfgk9fNX2I7tB6oIINGBmW50rrmFTqf" target="_blank" rel="external">Videos</a></li>
-<li><strong>$\mathbb{UG}$</strong>&#x56FD;&#x7ACB;&#x53F0;&#x6E7E;&#x5927;&#x5B66; - &#x6A5F;&#x5668;&#x5B78;&#x7FD2;&#x6280;&#x6CD5; (Machine Learning Techniques) by <strong>&#x6797;&#x8ED2;&#x7530;</strong>: 65 parts, <a href="https://www.youtube.com/playlist?list=PLXVfgk9fNX2IQOYPmqjqWsNUFl2kpk1U2" target="_blank" rel="external">Videos</a></li>
-<li><strong>$\mathbb{UG}$</strong>CMU 10-701 - Introduction to Machine Learning by <strong>Alexander J. Smola</strong>, 2015: 31 parts, <a href="http://www.cs.cmu.edu/~epxing/Class/10701/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/watch?v=UtcKm8i5Xro&amp;list=PLZSO_6-bSqHTTV7w9u7grTXBHMH-mw3qn" target="_blank" rel="external">Videos</a></li>
-<li><strong>$\mathbb{UG}$</strong>Harvard CS109 - Data Science: 1h15min/Lec, 20 Lectures, <a href="http://cs109.github.io/2015/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLb4G5axmLqiuneCqlJD2bYFkBwHuOzKus" target="_blank" rel="external">Videos</a></li>
-<li>&#x9F99;&#x661F;&#x8BA1;&#x5212; &#x6E05;&#x534E;&#x5927;&#x5B66;-&#x673A;&#x5668;&#x5B66;&#x4E60; by &#x4F59;&#x51EF; &#x5F20;&#x6F7C;: 50min/Lec, 19 Lectures, <a href="https://www.bilibili.com/video/av9016433/" target="_blank" rel="external">Videos</a></li>
-<li>Willamette University CS449 - Neural Networks: <a href="https://www.willamette.edu/~gorr/classes/cs449/intro.html" target="_blank" rel="external">Course Page</a>, No Videos found</li>
-<li>Coursera: Data Science &#x4E13;&#x9879;&#x8BFE;&#x7A0B;: 10 Programs, <a href="https://www.coursera.org/specializations/jhu-data-science" target="_blank" rel="external">Course Page</a></li>
-<li>MLSS 2013 T&#xFC;bingen: Graphical Models by <a href="https://www.microsoft.com/en-us/research/people/cmbishop/" target="_blank" rel="external"><strong>Christopher Bishop</strong></a>: <a href="https://www.youtube.com/watch?v=ju1Grt2hdko&amp;list=PL_gHv3O9IlOd_GkUxgnuHcBihEbTjNoUF" target="_blank" rel="external">Videos</a></li>
+<li><strong>$\mathbb{UG}$</strong>NTU Machine Learning Foundations by <a href="https://www.csie.ntu.edu.tw/~htlin/" target="_blank" rel="external"><strong>Hsuan-Tien Lin&#x6797;&#x8ED2;&#x7530;</strong></a>: <a href="https://www.coursera.org/learn/ntumlone-mathematicalfoundations" target="_blank" rel="external">Course Page|Part I Mathematical Foundations</a>, <a href="https://www.coursera.org/learn/ntumlone-algorithmicfoundations" target="_blank" rel="external">Course Page|Part II Algorithmic Foundations</a>, <a href="https://www.youtube.com/playlist?list=PLXVfgk9fNX2I7tB6oIINGBmW50rrmFTqf" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
+<li>Intermediate level</li>
+<li>Course Description: Machine learning is the study that allows computers to adaptively improve their performance with experience accumulated from the data observed. Our two sister courses teach the most fundamental algorithmic, theoretical and practical tools that any user of machine learning needs to know. This first course of the two would focus more on mathematical tools, and the other course would focus more on algorithmic tools.</li>
+</ul>
+</li>
+<li><strong>$\mathbb{UG}$</strong>NTU Machine Learning Techniques by <a href="https://www.csie.ntu.edu.tw/~htlin/" target="_blank" rel="external"><strong>Hsuan-Tien Lin&#x6797;&#x8ED2;&#x7530;</strong></a>: <a href="http://www.ntumooc.org/single-post/2014/11/05/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92%E6%8A%80%E6%B3%95-Machine-Learning-Techniques" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLXVfgk9fNX2IQOYPmqjqWsNUFl2kpk1U2" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
+<li>Prerequisite:<ul>
+<li>Machine Learning Foundations by Hsuan-Tien Lin or equivalent</li>
+<li>Recommended reading: <a href="http://amlbook.com/" target="_blank" rel="external">Learning from Data</a></li>
+</ul>
+</li>
+<li>This course covers:<ul>
+<li>Embedding numerous features: linear support vector machine, dual support vector machine, kernel support vector machine, soft-margin support vector machine, kernel logistic regression, support vector regression</li>
+<li>Combining predictive features: blending and bagging, adaptive boosting, decision tree, random forest, gradient boosted decision tree</li>
+<li>Distilling hidden features: neural network, deep learning, radial basis function network, matrix factorization</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>$\mathbb{UG}$</strong>Berkeley CS 294 Practical Machine Learning by <a href="http://people.eecs.berkeley.edu/~jordan/" target="_blank" rel="external"><strong>Michael I. Jordan</strong></a>, Fall 2009: <a href="https://people.eecs.berkeley.edu/~jordan/courses/294-fall09/" target="_blank" rel="external">Course Page</a><ul>
+<li>Prerequisites: some prior exposure to probability and to linear algebra.</li>
+<li>Course Description: This course introduces core statistical machine learning algorithms in a (relatively) non-mathematical way, emphasizing applied problem-solving. The prerequisites are light; some prior exposure to basic probability and to linear algebra will suffice.</li>
+</ul>
+</li>
+<li><strong>$\mathbb{UG}$</strong>Harvard CS 109 - Data Science by <a href="http://www.people.fas.harvard.edu/~blitz/Site/Home.html" target="_blank" rel="external">Joe Blitzstein</a>: 1h15min/Lec, 20 Lectures, <a href="http://cs109.github.io/2015/" target="_blank" rel="external">Course Page 1</a>, <a href="http://cs109.github.io/2014/index.html" target="_blank" rel="external">Course Page 2</a>, <a href="https://www.youtube.com/playlist?list=PLb4G5axmLqiuneCqlJD2bYFkBwHuOzKus" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
+<li>Prerequisites: Both undergraduates and graduate students are welcome to take the course. You should have been equipped with:<ul>
+<li>programming knowledge at the level of CS 50 (or above)</li>
+<li>statistics knowledge at the level of Stat 100 (or above).</li>
+</ul>
+</li>
+<li>Course Description: Learning from data in order to gain useful predictions and insights. This course introduces methods for five key facets of an investigation: data wrangling, cleaning, and sampling to get a suitable data set; data management to be able to access big data quickly and reliably; exploratory data analysis to generate hypotheses and intuition; prediction based on statistical methods such as regression and classification; and communication of results through visualization, stories, and interpretable summaries. We will be using Python for all programming assignments and projects.</li>
+</ul>
+</li>
+<li><strong>$\mathbb{G}$</strong>CMU 10-701/15-781 - Machine Learning** by <a href="http://www.cs.cmu.edu/~tom/" target="_blank" rel="external">Tom Mitchell</a>, Spring 2011: 1h15min/Lec, 26 Lectures, <a href="http://www.cs.cmu.edu/~tom/10701_sp11/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLl-BBnDxtUt1hLXmIwu27P22bTi6VwMkN" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
+<li>Prerequisite: Students entering the class are expected to have a pre-existing working knowledge of <strong>probability, linear algebra, statistics and algorithms</strong>, though the class has been designed to allow students with a strong numerate background to catch up and fully participate. In addition, recitation sessions will be held to review some basic concepts.</li>
+<li>Course Description: This course covers the theory and practical algorithms for machine learning from a variety of perspectives. We cover topics such as Bayesian networks, decision tree learning, Support Vector Machines, statistical learning methods, unsupervised learning and reinforcement learning. The course covers theoretical concepts such as inductive bias, the PAC learning framework, Bayesian learning methods, margin-based learning, and Occam&#x2019;s Razor. Short programming assignments include hands-on experiments with various learning algorithms, and a larger course project gives students a chance to dig into an area of their choice. This course is designed to give a <strong>graduate-level</strong> student a thorough grounding in the methodologies, technologies, mathematics and algorithms currently needed by people who do research in machine learning.</li>
+</ul>
+</li>
+<li><strong>$\mathbb{G}$</strong>CMU 10-701/15-781 Introduction to Machine Learning by <a href="https://alex.smola.org/index.html" target="_blank" rel="external"><strong>Alexander J. Smola</strong></a>: <a href="http://alex.smola.org/teaching/cmu2013-10-701/" target="_blank" rel="external">Course Page|Fall2013</a>, <a href="https://www.youtube.com/playlist?list=PLZSO_6-bSqHR7NPk4k0zqdm2dPdraQZ_B" target="_blank" rel="external">Videos||Fall2013<i class="fa fa-youtube" aria-hidden="true"></i></a>, <a href="http://alex.smola.org/teaching/10-701-15/" target="_blank" rel="external">Course Page|Spring2015</a>, <a href="https://www.youtube.com/playlist?list=PLZSO_6-bSqHTTV7w9u7grTXBHMH-mw3qn" target="_blank" rel="external">Videos|Spring2015<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
+<li>Prerequisites:<ul>
+<li>Basic probability and statistics are a plus.</li>
+<li>Basic linear algebra (matrices, vectors, eigenvalues) is a plus. Knowing functional analysis would be great but not required.</li>
+<li>Ability to write code that exceeds &#x2018;Hello World&#x2019;. Preferably beyond Matlab or R.</li>
+<li>Basic knowledge of optimization. Having attended a convex optimization class would be great but the recitations will cover this.</li>
+<li>You should have no trouble answering the questions of the <a href="http://www.cs.cmu.edu/~wcohen/10-601/self-assessment/Intro_ML_Self_Evaluation.pdf" target="_blank" rel="external">self evaluation</a> handed out for the 10-601 Introduction to Machine Learning course.</li>
+</ul>
+</li>
+<li>Course Description: This course is designed to give PhD students a thorough grounding in the methods, theory, mathematics and algorithms needed to do research and applications in machine learning. The topics of the course draw from machine learning, classical statistics, data mining, Bayesian statistics and information theory. Students entering the class with a pre-existing working knowledge of probability, statistics and algorithms will be at an advantage, but the class has been designed so that anyone with a strong numerate background can catch up and fully participate.</li>
+</ul>
+</li>
+<li><strong>$\mathbb{G}$</strong>CMU 10-701 Introduction to Machine Learning by <a href="http://www.cs.cmu.edu/~epxing/" target="_blank" rel="external"><strong>Eric Xing</strong></a> and <strong><a href="http://www.cs.cmu.edu/~zivbj/" target="_blank" rel="external">Ziv Bar-Joseph</a></strong>: <a href="http://www.cs.cmu.edu/~epxing/Class/10701/index.html" target="_blank" rel="external">Course Page</a>, <a href="https://mediatech-stream.andrew.cmu.edu/Mediasite/Catalog/Full/b055772df9a34215b7251fded1ba258e21" target="_blank" rel="external">Videos</a><ul>
+<li>Course Description: Machine learning studies the question &#x201C;how can we build computer programs that automatically improve their performance through experience?&#x201D; This includes learning to perform many types of tasks based on many types of experience. For example, it includes robots learning to better navigate based on experience gained by roaming their environments, medical decision aids that learn to predict which therapies work best for which diseases based on data mining of historical health records, and speech recognition systems that lean to better understand your speech based on experience listening to you.This course is designed to give PhD students a thorough grounding in the methods, theory, mathematics and algorithms needed to do research and applications in machine learning. The topics of the course draw from from machine learning, from classical statistics, from data mining, from Bayesian statistics and from information theory. Students entering the class with a pre-existing working knowledge of probability, statistics and algorithms will be at an advantage, but the class has been designed so that anyone with a strong numerate background can catch up and fully participate.</li>
+</ul>
+</li>
+<li><strong>$\mathbb{G}$</strong>CMU 10-715 Advanced Introduction to Machine Learning: <a href="https://www.cs.cmu.edu/~epxing/Class/10715/" target="_blank" rel="external">Eric Xing|2014Fall</a>, <a href="http://www.cs.cmu.edu/~bapoczos/Classes/ML10715_2015Fall/" target="_blank" rel="external">Alex Smola|2015Fall</a><ul>
+<li>Prerequisites: Students entering the class are expected to have a pre-existing strong working knowledge of algorithms, linear algebra, probability, and statistics. If you are interested in this topic, but do not have the required background or are not planning to work on a PhD thesis with machine learning as the main focus, you might consider the general graduate Machine Learning course (10-701) or the Masters-level Machine Learning course (10-601).</li>
+<li>Course Description: This course is designed for Ph.D. students whose primary field of study is machine learning, or who intend to make machine learning methodological research a main focus of their thesis. It will give students a thorough grounding in the algorithms, mathematics, theories, and insights needed to do in-depth research and applications in machine learning. The topics of this course will in part parallel those covered in the general graduate machine learning course (10-701), but with a greater emphasis on depth in theory and algorithms. The course will also include additional advanced topics such as RKHS and representer theory, Bayesian nonparametrics, additional material on graphical models, manifolds and spectral graph theory, reinforcement learning and online learning, etc.</li>
+</ul>
+</li>
+<li><strong>$\mathbb{G}$</strong>CMU 36-705 Intermediate Statistics by <strong><a href="http://www.stat.cmu.edu/~larry/" target="_blank" rel="external">Larry Wasserman</a></strong>: <a href="http://www.stat.cmu.edu/~larry/=stat705/" target="_blank" rel="external">Course Page</a><ul>
+<li>Prerequisites: I assume that you know the material in Chapters 1-3 of of the book (basic probability) are familiar to you. If not, then you should take 36-700 Probability and Mathematical Statistics I.</li>
+<li>Course Description: This course will cover the fundamentals of theoretical statistics. We will cover Chapters 1 &#x2014; 12 from the text plus some supplementary material. This course is excellent preparation for advanced work in statistics and machine learning.</li>
+<li>Textbook: Wasserman, L. (2004). All of Statistics: A concise course in statistical inference.</li>
+</ul>
+</li>
+<li><strong>$\mathbb{G}$</strong>CMU 10-702/36-702 - Statistical Machine Learning by <a href="http://www.stat.cmu.edu/~larry/" target="_blank" rel="external"><strong>Larry Wasserman</strong></a>, Spring 2016: 1h15min, 24 Lectures, <a href="http://www.stat.cmu.edu/~larry/=sml/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLTB9VQq8WiaCBK2XrtYn5t9uuPdsNm7YE" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
+<li>Prerequisites: You should have taken <strong><a href="http://www.cs.cmu.edu/~epxing/Class/10701/" target="_blank" rel="external">10-701 Introduction to Machine Learning</a></strong> and <strong>36-715 Discrete Time Stochastic Processes</strong>. If you did not take these courses, it is your responsibility to do background reading to make sure you understand the concepts in those courses. We will assume that you are familiar with the following concepts:<ol>
+<li>Convergence in probability and convergence in distribution.</li>
+<li>The central limit theorem and the law of large numbers.</li>
+<li>Maximum likelihood, Fisher information.</li>
+<li>Bayesian inference.</li>
+<li>Regression.</li>
+<li>The Bias-Variance tradeoff.</li>
+<li>Bayes classifiers; linear classifiers; support vector machines.</li>
+<li>Determinants, eigenvalues and eigenvectors.</li>
+</ol>
+</li>
+<li>Course Description: Statistical Machine Learning is a second graduate level course in advanced machine learning, assuming students have taken <strong>Machine Learning (10-715)</strong> - <a href="https://www.cs.cmu.edu/~epxing/Class/10715/" target="_blank" rel="external">2014Fall</a>, <a href="http://www.cs.cmu.edu/~bapoczos/Classes/ML10715_2015Fall/" target="_blank" rel="external">2015Fall</a> and <strong><a href="http://www.stat.cmu.edu/~larry/=stat705/" target="_blank" rel="external">Intermediate Statistics (36-705)</a></strong>. The term &#x201C;statistical&#x201D; in the title reflects the emphasis on statistical theory and methodology. The course combines methodology with theoretical foundations. Theorems are presented together with practical aspects of methodology and intuition to help students develop tools for selecting appropriate methods and approaches to problems in their own research. The course includes topics in statistical theory that are important for researchers in machine learning, including nonparametric theory, consistency, minimax estimation, and concentration of measure.</li>
+</ul>
+</li>
+<li><strong>$\mathbb{G}$</strong>CMU 10-708 - Probabilistic Graphical Models by <strong><a href="http://www.cs.cmu.edu/~epxing/" target="_blank" rel="external">Eric Xing</a></strong>, Spring 2014: <a href="http://www.cs.cmu.edu/~epxing/Class/10708/index.html" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLI3nIOD-p5aoXrOzTd1P6CcLavu9rNtC-" target="_blank" rel="external">Videos</a><ul>
+<li>Prerequisites: In order to take this class, students are required to have successfully completed Machine Learning 10-701/15-781, or an equivalent class.</li>
+<li>Course Description:<ul>
+<li>Many of the problems in artificial intelligence, statistics, computer systems, computer vision, natural language processing, and computational biology, among many other fields, can be viewed as the search for a coherent global conclusion from local information. The probabilistic graphical models framework provides an unified view for this wide range of problems, enabling efficient inference, decision-making and learning in problems with a very large number of attributes and huge datasets. This graduate-level course will provide you with a strong foundation for both applying graphical models to complex problems and for addressing core research topics in graphical models.</li>
+<li>The class will cover three aspects: the core representation, including Bayesian and Markov networks, and dynamic Bayesian networks; probabilistic inference algorithms, both exact and approximate; and learning methods for both the parameters and the structure of graphical models. Students entering the class should have a pre-existing working knowledge of probability, statistics, and algorithms, though the class has been designed to allow students with a strong mathematical background to catch up and fully participate.</li>
+<li>It is expected that after taking this class, students will have obtained sufficient working knowledge of multi-variate probablistic modeling and inference for practical applications, should be able to fomulate and solve a wide range of problems in their own domain using graphical models, and can advance into more specialized technical literature by themselves.</li>
+</ul>
+</li>
+</ul>
+</li>
 <li><strong>$\mathbb{G}$</strong>UBC CPSC540 Machine Learning by <a href="https://www.cs.ox.ac.uk/people/nando.defreitas/" target="_blank" rel="external"><strong>Nando de Freitas</strong></a>: 21 Lectures, <a href="http://www.cs.ubc.ca/~nando/540-2013/lectures.html" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLE6Wd9FR--EdyJ5lbFl8UuGjecvVw66F6&amp;feature=view_all" target="_blank" rel="external">Videos</a></li>
 <li>Oxford Deep learning by <strong>Nando de Freitas</strong>, 2015: <a href="http://www.cs.ox.ac.uk/teaching/courses/2014-2015/ml/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLE6Wd9FR--EfW8dtjAuPoTuPcqmOV53Fu" target="_blank" rel="external">Videos</a></li>
 <li><strong>$\mathbb{UG}$</strong>Machine Learning by @mathematicalmonk<i class="fa fa-youtube" aria-hidden="true"></i> (<a href="http://www2.stat.duke.edu/~jwm40/teaching.html" target="_blank" rel="external">Jeff Miller</a> on Duke): 160 videos, 909k+ views, <a href="https://www.youtube.com/playlist?list=PLD0F06AA0D2E8FFBA" target="_blank" rel="external">Videos</a></li>
 <li>WUSTL CSE 515T Bayesian Methods in Machine Learning by <strong>Roman Garnett</strong>, Spring 2015: <a href="http://www.cse.wustl.edu/~garnett/cse515t/spring_2015/" target="_blank" rel="external">Course Page</a></li>
-<li>MIT 6.867 - Machine Learning by <strong>Tommi Jaakkola</strong>: <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-867-machine-learning-fall-2006/index.htm" target="_blank" rel="external">Course Page</a></li>
-<li>CMU 10-708 - Probabilistic Graphical Models by <strong><a href="http://www.cs.cmu.edu/~epxing/" target="_blank" rel="external">Eric Xing</a></strong>, Spring 2014: <a href="http://www.cs.cmu.edu/~epxing/Class/10708/index.html" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLI3nIOD-p5aoXrOzTd1P6CcLavu9rNtC-" target="_blank" rel="external">Videos</a></li>
-<li>Berkeley CS 294 Practical Machine Learning by <a href="http://people.eecs.berkeley.edu/~jordan/" target="_blank" rel="external"><strong>Michael I. Jordan</strong></a>, Fall 2009: <a href="https://people.eecs.berkeley.edu/~jordan/courses/294-fall09/#readings" target="_blank" rel="external">Course Page</a></li>
+<li><strong>$\mathbb{G}$</strong>MIT 6.867 - Machine Learning by <strong>Tommi Jaakkola</strong>: <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-867-machine-learning-fall-2006/index.htm" target="_blank" rel="external">Course Page</a><ul>
+<li>Course Description: 6.867 is an introductory course on machine learning which gives an overview of many concepts, techniques, and algorithms in machine learning, beginning with topics such as classification and linear regression and ending up with more recent topics such as boosting, support vector machines, hidden Markov models, and Bayesian networks. The course will give the student the basic ideas and intuition behind modern machine learning methods as well as a bit more formal understanding of how, why, and when they work. The underlying theme in the course is statistical inference as it provides the foundation for most of the methods covered.</li>
+</ul>
+</li>
 <li>MIT 6.803/6.833 The Human Intelligence Enterprise: <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-803-the-human-intelligence-enterprise-spring-2002/" target="_blank" rel="external">Course Page 2002</a>,<a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-803-the-human-intelligence-enterprise-spring-2006/" target="_blank" rel="external">Course Page 2006</a>,<a href="https://courses.csail.mit.edu/6.803/" target="_blank" rel="external">Course Page 2017</a></li>
 <li>MIT Probabilistic Graphical Models by <strong>David Sontag</strong>, Spring 2013: <a href="http://people.csail.mit.edu/dsontag/courses/pgm13/" target="_blank" rel="external">Course Page</a></li>
 <li>Stanford CS 228 Probabilistic Graphical Models by <strong>Stefano Ermon</strong>, Winter 2016: <a href="http://cs.stanford.edu/~ermon/cs228/index.html" target="_blank" rel="external">Course Page</a></li>
@@ -3991,6 +4173,10 @@ Ref 2\cite{kom2016stochastic}
 </li>
 <li>MIT 18.S997 High-Dimensional Statistics by Philippe Rigollet, Spring 2015: <a href="https://ocw.mit.edu/courses/mathematics/18-s997-high-dimensional-statistics-spring-2015/" target="_blank" rel="external">Course Page</a></li>
 <li>MIT DS-GA-1003/CSCI-GA.2567 - Machine Learning and Computational Statistics by David Sontag, Spring 2014: <a href="http://people.csail.mit.edu/dsontag/courses/ml14/" target="_blank" rel="external">Course Page</a></li>
+<li>Willamette University CS449 - Neural Networks: <a href="https://www.willamette.edu/~gorr/classes/cs449/intro.html" target="_blank" rel="external">Course Page</a>, No Videos found</li>
+<li>Coursera: Data Science &#x4E13;&#x9879;&#x8BFE;&#x7A0B;: 10 Programs, <a href="https://www.coursera.org/specializations/jhu-data-science" target="_blank" rel="external">Course Page</a></li>
+<li>MLSS 2013 T&#xFC;bingen: Graphical Models by <a href="https://www.microsoft.com/en-us/research/people/cmbishop/" target="_blank" rel="external"><strong>Christopher Bishop</strong></a>: <a href="https://www.youtube.com/watch?v=ju1Grt2hdko&amp;list=PL_gHv3O9IlOd_GkUxgnuHcBihEbTjNoUF" target="_blank" rel="external">Videos</a></li>
+<li>&#x9F99;&#x661F;&#x8BA1;&#x5212; &#x6E05;&#x534E;&#x5927;&#x5B66;-&#x673A;&#x5668;&#x5B66;&#x4E60; by <a href="http://www.dbs.ifi.lmu.de/~yu_k/" target="_blank" rel="external">YU Kai&#x4F59;&#x51EF;</a> and <a href="http://tongzhang-ml.org/" target="_blank" rel="external">Zhang Tong&#x5F20;&#x6F7C;</a>: 50min/Lec, 19 Lectures, <a href="https://www.bilibili.com/video/av9016433/" target="_blank" rel="external">Videos</a></li>
 </ol>
 <h2 id="Books"><a href="#Books" class="headerlink" title="Books"></a>Books</h2><h3 id="Introduction-to-Artificial-Intelligence"><a href="#Introduction-to-Artificial-Intelligence" class="headerlink" title="Introduction to Artificial Intelligence"></a>Introduction to Artificial Intelligence</h3><ul>
 <li>Artificial Intelligence: A Modern Approach by S. Ruseull, P. Norvig: <a href="https://www.amazon.com/Artificial-Intelligence-Modern-Approach-3rd/dp/0136042597/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&amp;psc=1&amp;refRID=3DJMN86JH7FJM8H9XE17" target="_blank" rel="external">Amazon<i class="fa fa-amazon" aria-hidden="true"></i></a>, <a href="http://aima.cs.berkeley.edu/" target="_blank" rel="external">Book Page<i class="fa fa-home" aria-hidden="true"></i></a></li>
@@ -4029,6 +4215,7 @@ Ref 2\cite{kom2016stochastic}
 <li><a href="https://github.com/ty4z2008/Qix/blob/master/dl.md#&#x673A;&#x5668;&#x5B66;&#x4E60;machine-learning&#x6DF1;&#x5EA6;&#x5B66;&#x4E60;deep-learning&#x8D44;&#x6599;chapter-1" target="_blank" rel="external">&#x673A;&#x5668;&#x5B66;&#x4E60;(Machine Learning)&amp;&#x6DF1;&#x5EA6;&#x5B66;&#x4E60;(Deep Learning)&#x8D44;&#x6599;(Chapter 1)<i class="fa fa-github" aria-hidden="true"></i></a></li>
 <li><a href="https://github.com/ty4z2008/Qix/blob/master/dl2.md" target="_blank" rel="external">&#x673A;&#x5668;&#x5B66;&#x4E60;(Machine Learning)&amp;&#x6DF1;&#x5EA6;&#x5B66;&#x4E60;(Deep Learning)&#x8D44;&#x6599;(Chapter 2)<i class="fa fa-github" aria-hidden="true"></i></a></li>
 <li><a href="http://qianjiye.de/2014/11/machine-learning-resources/" target="_blank" rel="external">qianjiye|&#x673A;&#x5668;&#x5B66;&#x4E60;&#x8D44;&#x6E90;</a></li>
+<li><a href="http://www.ml.cmu.edu/academics/ml-phd.html" target="_blank" rel="external">CMU PhD Program in Machine Learning</a></li>
 </ul>
 <h2 id="Notes-Blog-Talks-and-so-on"><a href="#Notes-Blog-Talks-and-so-on" class="headerlink" title="Notes, Blog, Talks and so on"></a>Notes, Blog, Talks and so on</h2><ul>
 <li><a href="http://www.open-open.com/lib/view/open1428112201271.html" target="_blank" rel="external">&#x6DF1;&#x5EA6;&#x5F00;&#x6E90;OPEN&#x7ECF;&#x9A8C;&#xFF1A;&#x673A;&#x5668;&#x5B66;&#x4E60;(Machine Learning)&amp;&#x6DF1;&#x5EA6;&#x5B66;&#x4E60;(Deep Learning)&#x8D44;&#x6599;</a></li>
@@ -4334,17 +4521,23 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
-            <tag> deep_learning </tag>
-            
             <tag> information_system </tag>
+            
+            <tag> machine_learning </tag>
+            
+            <tag> natural_language_processing </tag>
+            
+            <tag> markdown_table </tag>
+            
+            <tag> image </tag>
+            
+            <tag> github </tag>
+            
+            <tag> deep_learning </tag>
             
             <tag> statistics </tag>
             
             <tag> mathematics </tag>
-            
-            <tag> github </tag>
-            
-            <tag> machine_learning </tag>
             
             <tag> artificial_intelligence </tag>
             
@@ -4352,17 +4545,11 @@ Ref 2\cite{kom2016stochastic}
             
             <tag> finance </tag>
             
-            <tag> natural_language_processing </tag>
-            
             <tag> open_course </tag>
             
             <tag> hexo_pdf </tag>
             
-            <tag> markdown_table </tag>
-            
             <tag> span_id_anchor </tag>
-            
-            <tag> image </tag>
             
         </tags>
         
@@ -4659,15 +4846,9 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
-            <tag> information_system </tag>
-            
-            <tag> machine_learning </tag>
-            
-            <tag> notes </tag>
+            <tag> study </tag>
             
             <tag> research </tag>
-            
-            <tag> study </tag>
             
             <tag> blog </tag>
             
@@ -4675,33 +4856,13 @@ Ref 2\cite{kom2016stochastic}
             
             <tag> hexo </tag>
             
+            <tag> notes </tag>
+            
+            <tag> information_system </tag>
+            
+            <tag> machine_learning </tag>
+            
             <tag> music </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[R语言的科学计算]]></title>
-      <url>/R_science_computing/</url>
-      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h2 id="&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;"><a href="#&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;" class="headerlink" title="&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;"></a>&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;</h2><p><a href="http://blog.csdn.net/skyonefly/article/details/50899661" target="_blank" rel="external">R&#x8BED;&#x8A00;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x6C42;&#x89E3;dfsane,nleqslv</a><br><a href="https://cos.name/cn/topic/11574/" target="_blank" rel="external">&#x8BF7;&#x6559;&#xFF1A;R&#x8BED;&#x8A00;&#x6709;&#x6CA1;&#x6709;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x7684;&#x51FD;&#x6570;&#xFF01;</a><br><a href="http://www.cnblogs.com/dj123jary/p/4142150.html" target="_blank" rel="external">&#x7528;R&#x8BED;&#x8A00;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;</a><br><a href="https://cran.r-project.org/web/packages/nleqslv/nleqslv.pdf" target="_blank" rel="external">Package &#x2018;nleqslv&#x2019;</a><br><a href="https://cran.r-project.org/web/packages/BB/vignettes/BBvignetteJSS.pdf" target="_blank" rel="external">BB: An R Package for Solving a Large System of Nonlinear Equations and for Optimizing a High-Dimensional Nonlinear Objective Function</a></p>
-<p><a href="https://stackoverflow.com/questions/38684295/how-to-solve-a-non-linear-equation-using-nleqslv-package-in-r" target="_blank" rel="external">How to solve a non-linear equation using nleqslv package in R?</a><br><a href="https://stackoverflow.com/questions/22993787/solving-system-of-nonlinear-equations-in-r" target="_blank" rel="external">Solving system of nonlinear equations in R</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> 中文 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> r_language </tag>
-            
-            <tag> science_computing </tag>
-            
-            <tag> tbc </tag>
             
         </tags>
         
@@ -4742,6 +4903,32 @@ Ref 2\cite{kom2016stochastic}
             <tag> bloackchain </tag>
             
             <tag> font </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[R语言的科学计算]]></title>
+      <url>/R_science_computing/</url>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h2 id="&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;"><a href="#&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;" class="headerlink" title="&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;"></a>&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;</h2><p><a href="http://blog.csdn.net/skyonefly/article/details/50899661" target="_blank" rel="external">R&#x8BED;&#x8A00;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x6C42;&#x89E3;dfsane,nleqslv</a><br><a href="https://cos.name/cn/topic/11574/" target="_blank" rel="external">&#x8BF7;&#x6559;&#xFF1A;R&#x8BED;&#x8A00;&#x6709;&#x6CA1;&#x6709;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x7684;&#x51FD;&#x6570;&#xFF01;</a><br><a href="http://www.cnblogs.com/dj123jary/p/4142150.html" target="_blank" rel="external">&#x7528;R&#x8BED;&#x8A00;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;</a><br><a href="https://cran.r-project.org/web/packages/nleqslv/nleqslv.pdf" target="_blank" rel="external">Package &#x2018;nleqslv&#x2019;</a><br><a href="https://cran.r-project.org/web/packages/BB/vignettes/BBvignetteJSS.pdf" target="_blank" rel="external">BB: An R Package for Solving a Large System of Nonlinear Equations and for Optimizing a High-Dimensional Nonlinear Objective Function</a></p>
+<p><a href="https://stackoverflow.com/questions/38684295/how-to-solve-a-non-linear-equation-using-nleqslv-package-in-r" target="_blank" rel="external">How to solve a non-linear equation using nleqslv package in R?</a><br><a href="https://stackoverflow.com/questions/22993787/solving-system-of-nonlinear-equations-in-r" target="_blank" rel="external">Solving system of nonlinear equations in R</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 中文 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> r_language </tag>
+            
+            <tag> science_computing </tag>
+            
+            <tag> tbc </tag>
             
         </tags>
         
@@ -4854,9 +5041,9 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
-            <tag> information_system </tag>
-            
             <tag> notes </tag>
+            
+            <tag> information_system </tag>
             
         </tags>
         
@@ -5098,11 +5285,11 @@ $ hexo d
         
         <tags>
             
-            <tag> tutorial </tag>
+            <tag> hexo </tag>
             
             <tag> github </tag>
             
-            <tag> hexo </tag>
+            <tag> tutorial </tag>
             
         </tags>
         
@@ -5110,12 +5297,6 @@ $ hexo d
     
   
   
-    
-    <entry>
-      <title><![CDATA[All Categories]]></title>
-      <url>/categories/index.html</url>
-      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
-    </entry>
     
     <entry>
       <title><![CDATA[About Neverland]]></title>
@@ -5145,6 +5326,12 @@ $ hexo d
 
 
 ]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[All Categories]]></title>
+      <url>/categories/index.html</url>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
     </entry>
     
     <entry>
