@@ -5,12 +5,14 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2018-01-08T04:51:38.000Z</lastmod>
+    <lastmod>2018-01-08T06:54:43.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges: Data Science on IS</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
+        <tag>deep_learning</tag>
+         
         <tag>information_system</tag>
          
         <tag>statistics</tag>
@@ -26,8 +28,6 @@
         <tag>economics</tag>
          
         <tag>finance</tag>
-         
-        <tag>deep_learning</tag>
          
         <tag>natural_language_processing</tag>
          
@@ -142,17 +142,17 @@
          
         <tag>machine_learning</tag>
          
-        <tag>study</tag>
+        <tag>notes</tag>
          
         <tag>research</tag>
+         
+        <tag>study</tag>
          
         <tag>blog</tag>
          
         <tag>logs</tag>
          
         <tag>hexo</tag>
-         
-        <tag>notes</tag>
          
         <tag>music</tag>
          
@@ -392,9 +392,9 @@
         
         <tag>tutorial</tag>
          
-        <tag>sublime_text_3</tag>
-         
         <tag>latex</tag>
+         
+        <tag>sublime_text_3</tag>
          
         <tag>skim</tag>
          
@@ -476,9 +476,9 @@
         <title>virtualenv+tensorflow初体验</title>
         <pubTime>2017-10-12T16:00:00.000Z</pubTime>
         
-        <tag>machine_learning</tag>
-         
         <tag>deep_learning</tag>
+         
+        <tag>machine_learning</tag>
          
         <tag>python</tag>
          
@@ -586,11 +586,11 @@
          
         <tag>literature_review</tag>
          
+        <tag>mathjax</tag>
+         
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
-         
-        <tag>mathjax</tag>
          
          
            
@@ -666,8 +666,6 @@
          
         <tag>r_language</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
@@ -679,6 +677,8 @@
         <tag>python</tag>
          
         <tag>mathematica</tag>
+         
+        <tag>mathjax</tag>
          
          
            
@@ -758,9 +758,9 @@
         
         <tag>economics</tag>
          
-        <tag>research</tag>
-         
         <tag>notes</tag>
+         
+        <tag>research</tag>
          
         <tag>mathjax</tag>
          
@@ -849,11 +849,11 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
+        <tag>tutorial</tag>
+         
         <tag>github</tag>
          
         <tag>hexo</tag>
-         
-        <tag>tutorial</tag>
          
          
            

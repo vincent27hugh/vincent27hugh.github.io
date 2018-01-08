@@ -939,8 +939,6 @@ end
             
             <tag> r_language </tag>
             
-            <tag> mathjax </tag>
-            
             <tag> nonlinear_equations </tag>
             
             <tag> numerical_analysis </tag>
@@ -952,6 +950,8 @@ end
             <tag> python </tag>
             
             <tag> mathematica </tag>
+            
+            <tag> mathjax </tag>
             
         </tags>
         
@@ -1900,11 +1900,11 @@ end
             
             <tag> literature_review </tag>
             
+            <tag> mathjax </tag>
+            
             <tag> user_generated_content </tag>
             
             <tag> word_of_mouth </tag>
-            
-            <tag> mathjax </tag>
             
         </tags>
         
@@ -1956,9 +1956,9 @@ end
             
             <tag> economics </tag>
             
-            <tag> research </tag>
-            
             <tag> notes </tag>
+            
+            <tag> research </tag>
             
             <tag> mathjax </tag>
             
@@ -3423,9 +3423,9 @@ Training Step: 7040  | total loss: 0.09154 | time: 175.630s
         
         <tags>
             
-            <tag> machine_learning </tag>
-            
             <tag> deep_learning </tag>
+            
+            <tag> machine_learning </tag>
             
             <tag> python </tag>
             
@@ -3951,7 +3951,10 @@ Ref 2\cite{kom2016stochastic}
 </ol>
 <h3 id="Artificial-Intelligence"><a href="#Artificial-Intelligence" class="headerlink" title="Artificial Intelligence"></a>Artificial Intelligence</h3><ol>
 <li><strong>$\mathbb{UG}$</strong><span id="OP8"></span>Berkeley CS188 Introduction to Artificial Intelligence by <a href="https://people.eecs.berkeley.edu/~pabbeel/" target="_blank" rel="external"><strong>Pieter Abbeel</strong></a>,Spring 2014: 25 Lectures, <a href="https://people.eecs.berkeley.edu/~russell/classes/cs188/f14/lecture_videos.html" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PL6MuV0DF6AuoviA41dtji6q-PM4hvAcNk" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a> <i class="fa fa-forward" aria-hidden="true"></i> <img src="http://progressed.io/bar/4?title=done" alt="1/25"></li>
-<li><strong>$\mathbb{UG}$</strong><span id="OP9"></span><strong>MIT 6.034 Artificial Intelligence</strong> by <strong>Patrick H. Winston</strong>, Fall 2010: 23 Lectures, <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a> <i class="fa fa-forward" aria-hidden="forward"></i> <img src="http://progressed.io/bar/4?title=done" alt="1/23"></li>
+<li><strong>$\mathbb{UG}$</strong><span id="OP9"></span><strong>MIT 6.034 Artificial Intelligence</strong> by <strong>Patrick H. Winston</strong>, Fall 2010: 23 Lectures, <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a> <i class="fa fa-forward" aria-hidden="forward"></i> <img src="http://progressed.io/bar/4?title=done" alt="1/23"><ul>
+<li>Course Description: This course introduces students to the basic knowledge representation, problem solving, and learning methods of artificial intelligence. Upon completion of 6.034, students should be able to develop intelligent systems by assembling solutions to concrete computational problems; understand the role of knowledge representation, problem solving, and learning in intelligent-system engineering; and appreciate the role of problem solving, vision, and language in understanding human intelligence from a computational perspective.</li>
+</ul>
+</li>
 <li>Udacity|Intro to Artificial Intelligence by <strong>Sebastian Thrun</strong>: <a href="https://www.udacity.com/course/intro-to-artificial-intelligence--cs271" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLAwxTw4SYaPlqMkzr4xyuD6cXTIgPuzgn" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a></li>
 </ol>
 <h3 id="Advanced-ML-DL-NLP-AI-amp-related"><a href="#Advanced-ML-DL-NLP-AI-amp-related" class="headerlink" title="Advanced ML/DL/NLP/AI &amp; related"></a>Advanced ML/DL/NLP/AI &amp; related</h3><ol>
@@ -4084,15 +4087,26 @@ Ref 2\cite{kom2016stochastic}
 <h1 id="Computer-Science"><a href="#Computer-Science" class="headerlink" title="Computer Science"></a>Computer Science</h1><p><img src="/images/Data_Scientist_Track.jpg" alt="Data Scientist Track"></p>
 <h2 id="Courses-1"><a href="#Courses-1" class="headerlink" title="Courses"></a>Courses</h2><h3 id="Data-structure-and-algorithms"><a href="#Data-structure-and-algorithms" class="headerlink" title="Data structure and algorithms"></a>Data structure and algorithms</h3><ul>
 <li><strong>$\mathbb{UG}$</strong><span id="OP10"></span><strong>MIT 6.006 - Introduction to Algorithms by <a href="http://erikdemaine.org/" target="_blank" rel="external">Erik Demaine</a> and <a href="https://people.csail.mit.edu/devadas/" target="_blank" rel="external">Srinivas Devadas</a>, Fall 2011</strong>: 50min/Lec, 47 Lectures, <a href="https://courses.csail.mit.edu/6.006/fall11/" target="_blank" rel="external">Course Page</a>, <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/" target="_blank" rel="external">Course Page|MIT OpenCourseWare</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a> <i class="fa fa-forward" aria-hidden="true"></i> <img src="http://progressed.io/bar/6?title=done" alt="3/47"><ul>
-<li>This course provides an introduction to mathematical modeling of computational problems. It covers the common algorithms, algorithmic paradigms, and data structures used to solve these problems. The course emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems.</li>
+<li>Prerequisite: A firm grasp of Python and a solid background in discrete mathematics are necessary prerequisites to this course. You are expected to have mastered the material presented in 6.01 Introduction to EECS I and 6.042J Mathematics for Computer Science.</li>
+<li>Course Description: This course provides an introduction to mathematical modeling of computational problems. It covers the common algorithms, algorithmic paradigms, and data structures used to solve these problems. The course emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems.</li>
 </ul>
 </li>
 <li><strong>$\mathbb{UG}$</strong>MIT 6.046J - Design and Analysis of Algorithms by <a href="http://erikdemaine.org/" target="_blank" rel="external">Erik Demaine</a>, <a href="https://people.csail.mit.edu/devadas/" target="_blank" rel="external">Srinivas Devadas</a> and Nancy Lynch, Spring 2015: <a href="http://stellar.mit.edu/S/course/6/sp15/6.046J/index.html" target="_blank" rel="external">Course Page</a>, <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/" target="_blank" rel="external">Course Page|MIT OpenCourseWare</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
-<li>This is an intermediate algorithms course with an emphasis on teaching techniques for the design and analysis of efficient algorithms, emphasizing methods of application. Topics include divide-and-conquer, randomization, dynamic programming, greedy algorithms, incremental improvement, complexity, and cryptography.</li>
+<li>Prerequisites: This course is the header course for the Theory of Computation concentration. You are expected, and strongly encouraged, to have taken:<ul>
+<li>6.006 Introduction to Algorithms</li>
+<li>6.042J / 18.062J Mathematics for Computer Science</li>
+</ul>
+</li>
+<li>Course Description: This is an intermediate algorithms course with an emphasis on teaching techniques for the design and analysis of efficient algorithms, emphasizing methods of application. Topics include divide-and-conquer, randomization, dynamic programming, greedy algorithms, incremental improvement, complexity, and cryptography.</li>
 </ul>
 </li>
 <li><strong>$\mathbb{G}$</strong>MIT 18.409 - Algorithmic Aspects of Machine Learning by Ankur Moitra, Spring 2015: <a href="http://people.csail.mit.edu/moitra/409.html" target="_blank" rel="external">Course Page</a>,  <a href="https://ocw.mit.edu/courses/mathematics/18-409-algorithmic-aspects-of-machine-learning-spring-2015/" target="_blank" rel="external">Course Page|MIT OpenCourseWare</a>, <a href="https://www.youtube.com/playlist?list=PLB3sDpSRdrOvI1hYXNsa6Lety7K8FhPpx" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
-<li>This course is organized around algorithmic issues that arise in machine learning. Modern machine learning systems are often built on top of algorithms that do not have provable guarantees, and it is the subject of debate when and why they work. In this class, we focus on designing algorithms whose performance we can rigorously analyze for fundamental machine learning problems.</li>
+<li>Prerequisites: You will need a strong background in algorithms, probability and linear algebra.<ul>
+<li>6.046J / 18.410J Design and Analysis of Algorithms or equivalent</li>
+<li>6.041SC Probabilistic Systems Analysis and Applied Probability or 18.440 Probability and Random Variables or equivalent.</li>
+</ul>
+</li>
+<li>Course Description: This course is organized around algorithmic issues that arise in machine learning. Modern machine learning systems are often built on top of algorithms that do not have provable guarantees, and it is the subject of debate when and why they work. In this class, we focus on designing algorithms whose performance we can rigorously analyze for fundamental machine learning problems.</li>
 </ul>
 </li>
 </ul>
@@ -4116,16 +4130,30 @@ Ref 2\cite{kom2016stochastic}
 
 <h2 id="Courses-2"><a href="#Courses-2" class="headerlink" title="Courses"></a>Courses</h2><h3 id="Main"><a href="#Main" class="headerlink" title="Main"></a>Main</h3><ul>
 <li><strong>$\mathbb{UG}$</strong>/<strong>$\mathbb{G}$</strong><span id="OP11"></span><strong>MIT 18.650 - Statistics for Applications by Prof. Philippe Rigollet, Fall 2016</strong>: 1h15min/Lec, 21 Lectures, <a href="https://ocw.mit.edu/courses/mathematics/18-650-statistics-for-applications-fall-2016/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP60uVBMaoNERc6knT_MgPKS0" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a> <i class="fa fa-play" aria-hidden="true"></i> <img src="http://progressed.io/bar/29?title=done" alt="6/21"><ul>
-<li>This course offers an in-depth the theoretical foundations for statistical methods that are useful in many applications. The goal is to understand the role of mathematics in the research and development of efficient statistical methods.</li>
+<li>Prerequisites: Probability theory at the level of <a href="https://ocw.mit.edu/courses/mathematics/18-440-probability-and-random-variables-spring-2014/" target="_blank" rel="external"><strong>18.440 Probability and Random Variables</strong></a>. Some linear algebra (matrices, vectors, eigenvalues).</li>
+<li>Course Description: This course offers an in-depth the theoretical foundations for statistical methods that are useful in many applications. The goal is to understand the role of mathematics in the research and development of efficient statistical methods.</li>
 <li>Rigollet&#x2019;s style is very competent, so you are suggested to watch the video in normal speed.</li>
 </ul>
 </li>
 <li><strong>$\mathbb{UG}$</strong><span id="OP13"></span>MIT 6.041(UG)/6.431(G) - Probabilistic Systems Analysis and Applied Probability by <a href="http://www.mit.edu/~jnt/home.html" target="_blank" rel="external"><strong>John Tsitsiklis</strong></a>, Fall 2010: For Undergraduate / Graduate, 25 Lectures, <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/index.htm" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP60A3XMwZ5sep719_nh95qOe" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a> <i class="fa fa-fast-forward" aria-hidden="true"></i> <img src="http://progressed.io/bar/54?title=done" alt="41/76"><ul>
-<li>Welcome to 6.041/6.431, a subject on the modeling and analysis of random phenomena and processes, including the basics of statistical inference. Nowadays, there is broad consensus that the ability to think probabilistically is a fundamental component of scientific literacy. The aim of this class is to introduce the relevant models, skills, and tools, by combining mathematics with conceptual understanding and intuition.</li>
+<li>Prerequisites: MIT 18.02 - Multivariable Calculus</li>
+<li>Course Description: Welcome to 6.041/6.431, a subject on the modeling and analysis of random phenomena and processes, including the basics of statistical inference. Nowadays, there is broad consensus that the ability to think probabilistically is a fundamental component of scientific literacy. The aim of this class is to introduce the relevant models, skills, and tools, by combining mathematics with conceptual understanding and intuition.</li>
 </ul>
 </li>
-<li><strong>$\mathbb{G}$</strong><span id="OP12"></span>Stanford Online-StatLearning Statistical Learning by <a href="https://web.stanford.edu/~hastie/" target="_blank" rel="external"><strong>Trevor Hastie</strong></a> and <a href="https://statweb.stanford.edu/~tibs/" target="_blank" rel="external"><strong>Rob Tibshirani</strong></a>: 10 Lectures, <a href="https://lagunita.stanford.edu/Lecs/HumanitiesScience/StatLearning/Winter2014/Lecware/" target="_blank" rel="external">Course Page</a>, <a href="https://github.com/asadoughi/stat-learning" target="_blank" rel="external">Notes&amp;Excercise<i class="fa fa-github" aria-hidden="true"></i></a> <i class="fa fa-play" aria-hidden="true"></i> <img src="http://progressed.io/bar/10?title=done" alt="1/10"></li>
-<li><strong>$\mathbb{G}$</strong>MIT 18.175 - Theory of Probability by Prof. Scott Sheffield, Spring 2014: <a href="https://ocw.mit.edu/courses/mathematics/18-175-theory-of-probability-spring-2014/" target="_blank" rel="external">Course Page</a></li>
+<li><strong>$\mathbb{G}$</strong><span id="OP12"></span>Stanford Online-StatLearning Statistical Learning by <a href="https://web.stanford.edu/~hastie/" target="_blank" rel="external"><strong>Trevor Hastie</strong></a> and <a href="https://statweb.stanford.edu/~tibs/" target="_blank" rel="external"><strong>Rob Tibshirani</strong></a>: 10 Lectures, <a href="https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about" target="_blank" rel="external">Course Page</a>, <a href="https://github.com/asadoughi/stat-learning" target="_blank" rel="external">Notes&amp;Excercise<i class="fa fa-github" aria-hidden="true"></i></a> <i class="fa fa-play" aria-hidden="true"></i> <img src="http://progressed.io/bar/10?title=done" alt="1/10"><ul>
+<li>Prerequisites: First courses in statistics, linear algebra, and computing.</li>
+<li>Course Description:<ul>
+<li>This is an introductory-level course in supervised learning, with a focus on regression and classification methods. The syllabus includes: linear and polynomial regression, logistic regression and linear discriminant analysis; cross-validation and the bootstrap, model selection and regularization methods (ridge and lasso); nonlinear models, splines and generalized additive models; tree-based methods, random forests and boosting; support-vector machines. Some unsupervised learning methods are discussed: principal components and clustering (k-means and hierarchical).</li>
+<li>This is not a math-heavy class, so we try and describe the methods without heavy reliance on formulas and complex mathematics. We focus on what we consider to be the important elements of modern data analysis. Computing is done in R. There are lectures devoted to R, giving tutorials from the ground up, and progressing with more detailed sessions that implement the techniques in each chapter.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>$\mathbb{G}$</strong>MIT 18.175 - Theory of Probability by Prof. Scott Sheffield, Spring 2014: <a href="https://ocw.mit.edu/courses/mathematics/18-175-theory-of-probability-spring-2014/" target="_blank" rel="external">Course Page</a><ul>
+<li>Prerequisites: <a href="https://ocw.mit.edu/courses/mathematics/18-100c-real-analysis-fall-2012/" target="_blank" rel="external">MIT 18.100C Real Analysis</a></li>
+<li>Course Description: This course covers topics such as sums of independent random variables, central limit phenomena, infinitely divisible laws, Levy processes, Brownian motion, conditioning, and martingales.</li>
+</ul>
+</li>
 </ul>
 <h3 id="Others-1"><a href="#Others-1" class="headerlink" title="Others"></a>Others</h3><ul>
 <li>Charles University in Prague NMFM404 Selected Software Tools for Finance and Insurance by Michal Pe&#x161;ta: <a href="http://www.karlin.mff.cuni.cz/~pesta/NMFM404-1617.html" target="_blank" rel="external">Course Page</a></li>
@@ -4147,72 +4175,126 @@ Ref 2\cite{kom2016stochastic}
 <h1 id="Mathematics"><a href="#Mathematics" class="headerlink" title="Mathematics"></a>Mathematics</h1><p><img src="/images/math_tree.gif" alt="Math Tree"></p>
 <h2 id="Courses-3"><a href="#Courses-3" class="headerlink" title="Courses"></a>Courses</h2><h3 id="Financial-Mathematics"><a href="#Financial-Mathematics" class="headerlink" title="Financial Mathematics"></a>Financial Mathematics</h3><ul>
 <li><strong>$\mathbb{UG}$</strong>Coursera - Financial Engineering and Risk Management Part I by Martin Haugh and Garud Iyengar: 51 parts, <a href="https://www.coursera.org/learn/financial-engineering-1" target="_blank" rel="external">Course Page</a><ul>
-<li>Financial Engineering is a multidisciplinary field drawing from finance and economics, mathematics, statistics, engineering and computational methods. The emphasis of FE &amp; RM Part I will be on the use of simple stochastic models to price derivative securities in various asset classes including equities, fixed income, credit and mortgage-backed securities. We will also consider the role that some of these asset classes played during the financial crisis. A notable feature of this course will be an interview module with Emanuel Derman, the renowned ``quant&#x2019;&#x2019; and best-selling author of &#x201C;My Life as a Quant&#x201D;.</li>
-<li>We hope that students who complete the course will begin to understand the &#x201C;rocket science&#x201D; behind financial engineering but perhaps more importantly, we hope they will also understand the limitations of this theory in practice and why financial models should always be treated with a healthy degree of skepticism. The follow-on course FE &amp; RM Part II will continue to develop derivatives pricing models but it will also focus on asset allocation and portfolio optimization as well as other applications of financial engineering such as real options, commodity and energy derivatives and algorithmic trading.</li>
+<li>Course Description: Financial Engineering is a multidisciplinary field drawing from finance and economics, mathematics, statistics, engineering and computational methods. The emphasis of FE &amp; RM Part I will be on the use of simple stochastic models to price derivative securities in various asset classes including equities, fixed income, credit and mortgage-backed securities. We will also consider the role that some of these asset classes played during the financial crisis. A notable feature of this course will be an interview module with Emanuel Derman, the renowned ``quant&#x2019;&#x2019; and best-selling author of &#x201C;My Life as a Quant&#x201D;. We hope that students who complete the course will begin to understand the &#x201C;rocket science&#x201D; behind financial engineering but perhaps more importantly, we hope they will also understand the limitations of this theory in practice and why financial models should always be treated with a healthy degree of skepticism. The follow-on course FE &amp; RM Part II will continue to develop derivatives pricing models but it will also focus on asset allocation and portfolio optimization as well as other applications of financial engineering such as real options, commodity and energy derivatives and algorithmic trading.</li>
 </ul>
 </li>
 <li><strong>$\mathbb{UG}$</strong>MIT 18.S096 - Topics in Mathematics with Applications in Finance: 1h20min/Lec, 26 Lectures, <a href="https://ocw.mit.edu/courses/mathematics/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/index.htm" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63ctJIEC1UnZ0btsphnnoHR" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
-<li>The purpose of the class is to expose undergraduate and graduate students to the mathematical concepts and techniques used in the financial industry. Mathematics lectures are mixed with lectures illustrating the corresponding application in the financial industry. MIT mathematicians teach the mathematics part while industry professionals give the lectures on applications in finance.</li>
+<li>Prerequisites:<ul>
+<li>MIT 18.01 Single Variable Calculus</li>
+<li>MIT 18.02 Multivariable Calculus</li>
+<li>MIT 18.03 Differential Equations</li>
+<li>MIT 18.05 Introduction to Probability and Statistics or 18.440 Probability and Random Variables</li>
+<li>MIT 18.06 Linear Algebra</li>
+</ul>
+</li>
+<li>Course Description: The purpose of the class is to expose undergraduate and graduate students to the mathematical concepts and techniques used in the financial industry. Mathematics lectures are mixed with lectures illustrating the corresponding application in the financial industry. MIT mathematicians teach the mathematics part while industry professionals give the lectures on applications in finance.</li>
 </ul>
 </li>
 </ul>
 <h3 id="Optimization"><a href="#Optimization" class="headerlink" title="Optimization"></a>Optimization</h3><ul>
 <li><strong>$\mathbb{UG}$</strong>Stanford EE364A: Convex Optimization I by <a href="http://lall.stanford.edu/" target="_blank" rel="external">Sanjay Lall</a>: 1h15min/Lec, 19 Lectures, <a href="https://see.stanford.edu/Course/EE364A" target="_blank" rel="external">Course Page 1</a>, <a href="http://ee364a.stanford.edu/" target="_blank" rel="external">Course Page 2</a>, <a href="https://www.youtube.com/playlist?list=PL3940DD956CDF0622" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
-<li>Concentrates on recognizing and solving convex optimization problems that arise in applications. Convex sets, functions, and optimization problems. Basics of convex analysis. Least-squares, linear and quadratic programs, semidefinite programming, minimax, extremal volume, and other problems. Optimality conditions, duality theory, theorems of alternative, and applications. Interior-point methods. Applications to signal processing, statistics and machine learning, control and mechanical engineering, digital and analog circuit design, and finance.</li>
+<li>Prerequisites:<ul>
+<li>Good knowledge of linear algebra (as in EE263), and exposure to probability. Exposure to numerical computing, optimization, and application fields helpful but not required; the applications will be kept basic and simple.</li>
+<li>You will use one of CVX (Matlab), CVXPY (Python), or Convex.jl (Julia), to write simple scripts, so basic familiarity with elementary programming will be required. We refer to CVX, CVXPY, and Convex.jl collectively as CVX.</li>
+</ul>
+</li>
+<li>Course Description: Concentrates on recognizing and solving convex optimization problems that arise in applications. Convex sets, functions, and optimization problems. Basics of convex analysis. Least-squares, linear and quadratic programs, semidefinite programming, minimax, extremal volume, and other problems. Optimality conditions, duality theory, theorems of alternative, and applications. Interior-point methods. Applications to signal processing, statistics and machine learning, control and mechanical engineering, digital and analog circuit design, and finance.</li>
 </ul>
 </li>
 <li><strong>$\mathbb{UG}$</strong>Stanford EE364B: Convex Optimization II by <a href="http://stanford.edu/~boyd/" target="_blank" rel="external">Stephen Boyd</a> and <a href="http://stanford.edu/~jduchi/" target="_blank" rel="external">John Duchi</a>,: 1h15min/Lec, 18 Lectures, <a href="https://see.stanford.edu/Course/EE364B" target="_blank" rel="external">Course Page 1</a>, <a href="https://stanford.edu/class/ee364b/" target="_blank" rel="external">Course Page 2</a>, <a href="https://www.youtube.com/playlist?list=PL3940DD956CDF0622" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
-<li>Continuation of 364a. Subgradient, cutting-plane, and ellipsoid methods. Decentralized convex optimization via primal and dual decomposition. Alternating projections. Exploiting problem structure in implementation. Convex relaxations of hard problems, and global optimization via branch &amp; bound. Robust optimization. Selected applications in areas such as control, circuit design, signal processing, and communications. Course requirements include a project or final exam (chosen individually as desired).</li>
+<li>Prerequisites: EE364a</li>
+<li>Course Description: Continuation of 364a. Subgradient, cutting-plane, and ellipsoid methods. Decentralized convex optimization via primal and dual decomposition. Alternating projections. Exploiting problem structure in implementation. Convex relaxations of hard problems, and global optimization via branch &amp; bound. Robust optimization. Selected applications in areas such as control, circuit design, signal processing, and communications. Course requirements include a project or final exam (chosen individually as desired).</li>
 </ul>
 </li>
 <li><strong>$\mathbb{UG}$</strong>CUHK ENGG 5501 - Foundations of Optimization by <a href="http://www1.se.cuhk.edu.hk/~manchoso/" target="_blank" rel="external">Anthony Man-Cho So</a>: <a href="http://www1.se.cuhk.edu.hk/~manchoso/1516/engg5501/" target="_blank" rel="external">Course Page|2015-16</a>, <a href="http://www1.se.cuhk.edu.hk/~manchoso/1718/engg5501/" target="_blank" rel="external">Course Page|2017-18</a><ul>
+<li>Course Description: In this course we will develop the basic machinery for formulating and analyzing various optimization problems. Topics include convex analysis, linear and conic linear programming, nonlinear programming, optimality conditions, Lagrangian duality theory, and basics of optimization algorithms. Applications from different fields, such as combinatorial optimization, communications, computational economics and finance, machine learning, and signal and image processing, will be used to complement the theoretical developments. No prior optimization background is required for this class. However, students should have workable knowledge in multivariable calculus, real analysis, linear algebra and matrix theory.</li>
 <li>Very detailed lecture notes</li>
-<li>In this course we will develop the basic machinery for formulating and analyzing various optimization problems. Topics include convex analysis, linear and conic linear programming, nonlinear programming, optimality conditions, Lagrangian duality theory, and basics of optimization algorithms. Applications from different fields, such as combinatorial optimization, communications, computational economics and finance, machine learning, and signal and image processing, will be used to complement the theoretical developments. No prior optimization background is required for this class. However, students should have workable knowledge in multivariable calculus, real analysis, linear algebra and matrix theory.</li>
 </ul>
 </li>
 </ul>
 <h3 id="Stochastic-Analysis"><a href="#Stochastic-Analysis" class="headerlink" title="Stochastic Analysis"></a>Stochastic Analysis</h3><ul>
 <li><strong>$\mathbb{UG}$</strong>MIT EECS 6.262 - Discrete Stochastic Processes by Robert Gallager, Spring 2011: 1h20min/Lec, 25 Lectures, <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-262-discrete-stochastic-processes-spring-2011/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLEEF5322B331C1B98" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
-<li>Discrete stochastic processes are essentially probabilistic systems that evolve in time via random changes occurring at discrete fixed or random intervals. This course aims to help students acquire both the mathematical principles and the intuition necessary to create, analyze, and understand insightful models for a broad range of these processes. The range of areas for which discrete stochastic-process models are useful is constantly expanding, and includes many applications in engineering, physics, biology, operations research and finance.</li>
+<li>Prerequisites: MIT 6.041/6.341 Probabilistic Systems Analysis and Applied Probability</li>
+<li>Course Description: Discrete stochastic processes are essentially probabilistic systems that evolve in time via random changes occurring at discrete fixed or random intervals. This course aims to help students acquire both the mathematical principles and the intuition necessary to create, analyze, and understand insightful models for a broad range of these processes. The range of areas for which discrete stochastic-process models are useful is constantly expanding, and includes many applications in engineering, physics, biology, operations research and finance.</li>
 </ul>
 </li>
 </ul>
 <h3 id="Linear-Algebra-amp-Vector-Calculus"><a href="#Linear-Algebra-amp-Vector-Calculus" class="headerlink" title="Linear Algebra &amp; Vector Calculus"></a>Linear Algebra &amp; Vector Calculus</h3><ul>
 <li><strong>$\mathbb{UG}$</strong>MIT 18.02 Multivariatble Calculus, Fall 2007, by <strong>Dennis Auroux</strong>: <a href="https://ocw.mit.edu/courses/mathematics/18-02-multivariable-calculus-fall-2007/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PL4C4C8A7D06566F38" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
-<li>This is a basic subject on matrix theory and linear algebra. Emphasis is given to topics that will be useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, similarity, and positive definite matrices.</li>
+<li>Prerequisites: MIT 18.01 - Single Variable Calculus</li>
+<li>Course Description: This is a basic subject on matrix theory and linear algebra. Emphasis is given to topics that will be useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, similarity, and positive definite matrices.</li>
 </ul>
 </li>
 <li><strong>$\mathbb{UG}$</strong>MIT 18.06 Linear Algebra by <strong>Gilbert Strang</strong>: <a href="https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/index.htm" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
+<li>Prerequisites: MIT 18.02 - Multivariable Calculus</li>
+<li>Course Description:<ul>
 <li>This course covers vector and multi-variable calculus. It is the second semester in the freshman calculus sequence. Topics include vectors and matrices, partial derivatives, double and triple integrals, and vector calculus in 2 and 3-space.</li>
 <li>MIT OpenCourseWare offers another version of 18.02, from the Spring 2006 term. Both versions cover the same material, although they are taught by different faculty and rely on different textbooks. Multivariable Calculus (18.02) is taught during the Fall and Spring terms at MIT, and is a required subject for all MIT undergraduates.</li>
 </ul>
 </li>
 </ul>
+</li>
+</ul>
 <h3 id="Functional-Analysis"><a href="#Functional-Analysis" class="headerlink" title="Functional Analysis"></a>Functional Analysis</h3><ul>
 <li><strong>$\mathbb{UG}$</strong>MIT 18.102 - Introduction to Functional Analysis by Richard Melrose, Spring 2009: <a href="https://ocw.mit.edu/courses/mathematics/18-102-introduction-to-functional-analysis-spring-2009/" target="_blank" rel="external">Course Page</a><ul>
-<li>This is a undergraduate course. It will cover normed spaces, completeness, functionals, Hahn-Banach theorem, duality, operators; Lebesgue measure, measurable functions, integrability, completeness of L-p spaces; Hilbert space; compact, Hilbert-Schmidt and trace class operators; as well as spectral theorem.</li>
+<li>Prerequisites:<ul>
+<li>Analysis I (18.100)</li>
+<li>Linear Algebra (18.06), Linear Algebra (18.700), or Algebra I (18.701)</li>
+</ul>
+</li>
+<li>Course Description: This is a undergraduate course. It will cover normed spaces, completeness, functionals, Hahn-Banach theorem, duality, operators; Lebesgue measure, measurable functions, integrability, completeness of L-p spaces; Hilbert space; compact, Hilbert-Schmidt and trace class operators; as well as spectral theorem.</li>
 </ul>
 </li>
 <li><strong>$\mathbb{UG}$</strong>UCCS Math 535 - Applied Functional Analysis by Greg Morrow, : <a href="https://cosmolearning.org/courses/applied-functional-analysis/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLBC73B96341ECF455" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
-<li>Taught by Dr. Greg Morrow, Math 535, Applied Functional Analysis is an introduction to the basic concepts, methods and applications of functional analysis. Topics covered will include metric spaces, normed spaces, Hilbert spaces, linear operators, spectral theory, fixed point theorems and approximation theorems</li>
+<li>Course Description: This course is an introduction to the basic concepts, methods and applications of functional analysis. Topics covered will include metric spaces, normed spaces, Hilbert spaces, linear operators, spectral theory, fixed point theorems and approximation theorems</li>
 </ul>
 </li>
 </ul>
 <h1 id="Finance-amp-Economics"><a href="#Finance-amp-Economics" class="headerlink" title="Finance &amp; Economics"></a>Finance &amp; Economics</h1><p><img src="/images/Financial_Theories.jpg" alt="Financial Theories"></p>
 <p><img src="/images/Investment_Desicion_Making.jpg" alt="Investment Desicion Making Problem"></p>
 <h2 id="Courses-4"><a href="#Courses-4" class="headerlink" title="Courses"></a>Courses</h2><ul>
-<li><strong>$\mathbb{UG}$</strong>MIT 15.401 - Finance Theory I by <strong>Andrew Lo</strong>, Fall 2008: 1h10min/Lec, 20 Lectures, <a href="https://ocw.mit.edu/courses/sloan-school-of-management/15-401-finance-theory-i-fall-2008/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63B2lDhyKOsImI7FjCf6eDW" target="_blank" rel="external">Videos</a></li>
-<li>MIT 15.402 - Finance Theory II by <strong>Dirk Jenter &amp; Katharina Lewellen</strong>, Spring 2003: <a href="https://ocw.mit.edu/courses/sloan-school-of-management/15-402-finance-theory-ii-spring-2003/index.htm" target="_blank" rel="external">Course Page</a></li>
-<li>Economic421 - Econometrics by <strong>Mark Thoma</strong>: 1h20min/Lec, 19 Lectures, <a href="http://economistsview.typepad.com/economics421/winter-2010/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLD15D38DC7AA3B737" target="_blank" rel="external">Videos</a></li>
-<li>Information Economics: <a href="https://www.youtube.com/playlist?list=PLAomEJmGfjBGoyXN_63WswMY0C-da51vo" target="_blank" rel="external">Videos</a></li>
-<li>Yale Econ159 - Game Theory by <strong>Ben Polak</strong>: <a href="https://oyc.yale.edu/economics/econ-159" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLDv_VQy7kufe5YMXjf6LkacYBrSjlXQB8" target="_blank" rel="external">Videos</a></li>
+<li><strong>$\mathbb{UG}$</strong>MIT 15.401 - Finance Theory I by <strong>Andrew Lo</strong>, Fall 2008: 1h10min/Lec, 20 Lectures, <a href="https://ocw.mit.edu/courses/sloan-school-of-management/15-401-finance-theory-i-fall-2008/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP63B2lDhyKOsImI7FjCf6eDW" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
+<li>Course Description: This course introduces the core theory of modern financial economics and financial management, with a focus on capital markets and investments. Topics include functions of capital markets and financial intermediaries, asset valuation, fixed-income securities, common stocks, capital budgeting, diversification and portfolio selection, equilibrium pricing of risky assets, the theory of efficient markets, and an introduction to derivatives and options.</li>
+</ul>
+</li>
+<li>MIT 15.402 - Finance Theory II by <strong>Dirk Jenter &amp; Katharina Lewellen</strong>, Spring 2003: <a href="https://ocw.mit.edu/courses/sloan-school-of-management/15-402-finance-theory-ii-spring-2003/index.htm" target="_blank" rel="external">Course Page</a><ul>
+<li>Prerequisites: Finance Theory I (15.401). It will also help if you know some basic economics and accounting.</li>
+<li>Course Description: The objective of this course is to learn the financial tools needed to make good business decisions. The course presents the basic insights of corporate finance theory, but emphasizes the application of theory to real business decisions. Each session involves class discussion, some centered on lectures and others around business cases.</li>
+</ul>
+</li>
+<li>Economic 421 - Econometrics by <strong>Mark Thoma</strong>: 1h20min/Lec, 19 Lectures, <a href="http://economistsview.typepad.com/economics421/winter-2010/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLD15D38DC7AA3B737" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
+<li>Course Description: We covered the following topics in the course: Assumption required for estimates to be BLUE, Hypothesis testing, Heteroskedasticity, Autocorrelation, Testing for ARCH errors, Stochastic Regressors and Measurement Errors, Simultaneous equation models, Multicollinearity, Specification tests, Qualitative and limited dependent variables, Maximum likelihood etc.</li>
+</ul>
+</li>
+<li>Yale Econ 159 - Game Theory by <strong>Ben Polak</strong>: <a href="https://oyc.yale.edu/economics/econ-159" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLDv_VQy7kufe5YMXjf6LkacYBrSjlXQB8" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
+<li>Prerequisites: Introductory microeconomics (115 or equivalent) is required. Intermediate micro (150/2) is not required, but it is recommended. We will use calculus (mostly one variable) in this course. We will also refer to ideas like probability and expectation. Some may prefer to take the course next academic year once they have more background. Students who have already taken Econ 156b should not enroll in this class.</li>
+<li>Course Description: This course is an introduction to game theory and strategic thinking. Ideas such as dominance, backward induction, Nash equilibrium, evolutionary stability, commitment, credibility, asymmetric information, adverse selection, and signaling are discussed and applied to games played in class and to examples drawn from economics, politics, the movies, and elsewhere.</li>
+</ul>
+</li>
+<li>NTU IM 7011 - Information Economics by Ling-Chieh Kung, Fall 2014: <a href="http://www.im.ntu.edu.tw/~lckung/courses/old/IE14/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLAomEJmGfjBGoyXN_63WswMY0C-da51vo" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a><ul>
+<li>Prerequisites: Students need to know the basic ideas of calculus, optimization, and probability. Some knowledge about game theory will be helpful.</li>
+<li>Course Description: There are four modules in this course: decentralization and inefficiency, the screening theory, the signaling theory, and final project presentations. The course starts with discussions about the incentive issues in decentralized systems. We then spend most of our time studying the economics of information to understand the impacts of possessing information or being lack of information. The focus will be on adverse selection, one of the most well studied types of information asymmetry in the field of economics. We will discuss how one may screen others&#x2019; private information and signal its own private information. Finally, students&#x2019; final project presentations conclude this course.</li>
+</ul>
+</li>
 </ul>
 <h2 id="Books-2"><a href="#Books-2" class="headerlink" title="Books"></a>Books</h2><ul>
 <li><a href="https://www.scu.edu/business/finance/faculty/das/" target="_blank" rel="external">Sanjiv Ranjan Das</a>, Data Science: Theories, Models, Algorithms, and Analytics: <a href="http://srdas.github.io/MLBook/" target="_blank" rel="external">GitBook<i class="fa fa-git" aria-hidden="true"></i></a></li>
 </ul>
 <h1 id="Information-System"><a href="#Information-System" class="headerlink" title="Information System"></a>Information System</h1><h2 id="Courses-5"><a href="#Courses-5" class="headerlink" title="Courses"></a>Courses</h2><ul>
-<li><strong>$\mathbb{UG}$</strong>MIT 15.082J/6.855J/ESD.78J - Network optimization: <a href="https://ocw.mit.edu/courses/sloan-school-of-management/15-082j-network-optimization-fall-2010/index.htm" target="_blank" rel="external">Course Page</a></li>
-<li><strong>$\mathbb{G}$</strong>MIT 6.231 Stochastic Control Theory: <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-231-dynamic-programming-and-stochastic-control-fall-2015/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLiCLbsFQNFAxOmVeqPhI5er1LGf2-L9I4" target="_blank" rel="external">Special Videos</a></li>
+<li><strong>$\mathbb{G}$</strong>MIT 15.082J/6.855J/ESD.78J - Network optimization by James Orlin, Fall 2010: <a href="https://ocw.mit.edu/courses/sloan-school-of-management/15-082j-network-optimization-fall-2010/index.htm" target="_blank" rel="external">Course Page</a><ul>
+<li>Prerequisites: 6.251J/15.081J Introduction to Mathematical Programming or a course on data structures.</li>
+<li>Course Description: 15.082J/6.855J/ESD.78J is a graduate subject in the theory and practice of network flows and its extensions. Network flow problems form a subclass of linear programming problems with applications to transportation, logistics, manufacturing, computer science, project management, and finance, as well as a number of other domains. This subject will survey some of the applications of network flows and focus on key special cases of network flow problems including the following: the shortest path problem, the maximum flow problem, the minimum cost flow problem, and the multi-commodity flow problem. We will also consider other extensions of network flow problems.</li>
+</ul>
+</li>
+<li><strong>$\mathbb{G}$</strong>MIT 6.231 Stochastic Control Theory by Dimitri Bertsekas, Fall 2015: <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-231-dynamic-programming-and-stochastic-control-fall-2015/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLiCLbsFQNFAxOmVeqPhI5er1LGf2-L9I4" target="_blank" rel="external">Special Videos</a><ul>
+<li>Prerequisites:<ul>
+<li>Solid knowledge of undergraduate probability, at the level of 6.041 Probabilistic Systems Analysis and Applied Probability, especially conditional distributions and expectations, and Markov chains.</li>
+<li>Mathematical maturity and the ability to write down precise and rigorous arguments are also important. A class in analysis (e.g. 18.100C Real Analysis) will be helpful, although this prerequisite will not be strictly enforced.</li>
+</ul>
+</li>
+<li>Course Description: The course covers the basic models and solution techniques for problems of sequential decision making under uncertainty (stochastic control). We will consider optimal control of a dynamical system over both a finite and an infinite number of stages. This includes systems with finite or infinite state spaces, as well as perfectly or imperfectly observed systems. We will also discuss approximation methods for problems involving large state spaces. Applications of dynamic programming in a variety of fields will be covered in recitations.</li>
+</ul>
+</li>
 <li>Operation Research</li>
 <li>Data mining/Text mining</li>
 <li>Knowledge management</li>
@@ -4252,6 +4334,8 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
+            <tag> deep_learning </tag>
+            
             <tag> information_system </tag>
             
             <tag> statistics </tag>
@@ -4267,8 +4351,6 @@ Ref 2\cite{kom2016stochastic}
             <tag> economics </tag>
             
             <tag> finance </tag>
-            
-            <tag> deep_learning </tag>
             
             <tag> natural_language_processing </tag>
             
@@ -4581,17 +4663,17 @@ Ref 2\cite{kom2016stochastic}
             
             <tag> machine_learning </tag>
             
-            <tag> study </tag>
+            <tag> notes </tag>
             
             <tag> research </tag>
+            
+            <tag> study </tag>
             
             <tag> blog </tag>
             
             <tag> logs </tag>
             
             <tag> hexo </tag>
-            
-            <tag> notes </tag>
             
             <tag> music </tag>
             
@@ -4972,9 +5054,9 @@ SyntaxError: unexpected character after line continuation character
             
             <tag> tutorial </tag>
             
-            <tag> sublime_text_3 </tag>
-            
             <tag> latex </tag>
+            
+            <tag> sublime_text_3 </tag>
             
             <tag> skim </tag>
             
@@ -5016,11 +5098,11 @@ $ hexo d
         
         <tags>
             
+            <tag> tutorial </tag>
+            
             <tag> github </tag>
             
             <tag> hexo </tag>
-            
-            <tag> tutorial </tag>
             
         </tags>
         
@@ -5028,6 +5110,12 @@ $ hexo d
     
   
   
+    
+    <entry>
+      <title><![CDATA[All Categories]]></title>
+      <url>/categories/index.html</url>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
+    </entry>
     
     <entry>
       <title><![CDATA[About Neverland]]></title>
@@ -5062,12 +5150,6 @@ $ hexo d
     <entry>
       <title><![CDATA[All Tags]]></title>
       <url>/tags/index.html</url>
-      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[All Categories]]></title>
-      <url>/categories/index.html</url>
       <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
     </entry>
     
