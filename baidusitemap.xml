@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2018-01-08T14:02:13.000Z</lastmod>
+    <lastmod>2018-01-08T14:08:44.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges: Data Science on IS</title>
@@ -15,15 +15,15 @@
          
         <tag>machine_learning</tag>
          
-        <tag>natural_language_processing</tag>
-         
-        <tag>github</tag>
-         
         <tag>deep_learning</tag>
          
         <tag>markdown_table</tag>
          
         <tag>image</tag>
+         
+        <tag>github</tag>
+         
+        <tag>natural_language_processing</tag>
          
         <tag>hexo_pdf</tag>
          
@@ -88,13 +88,13 @@
          
         <tag>machine_learning</tag>
          
-        <tag>sentiment_analysis</tag>
-         
-        <tag>literature_review</tag>
-         
         <tag>faicon</tag>
          
+        <tag>sentiment_analysis</tag>
+         
         <tag>natural_language_processing</tag>
+         
+        <tag>literature_review</tag>
          
          
            
@@ -138,6 +138,10 @@
         <title>NEVERLAND - Blog Logs</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
+        <tag>information_system</tag>
+         
+        <tag>notes</tag>
+         
         <tag>study</tag>
          
         <tag>research</tag>
@@ -147,10 +151,6 @@
         <tag>logs</tag>
          
         <tag>hexo</tag>
-         
-        <tag>notes</tag>
-         
-        <tag>information_system</tag>
          
         <tag>machine_learning</tag>
          
@@ -244,9 +244,9 @@
         <title>Resources & Tools of Information System Research</title>
         <pubTime>2017-10-23T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>research</tag>
          
         <tag>markdown_table</tag>
          
@@ -270,8 +270,6 @@
         <title>如何管理文献:Mendeley小技巧</title>
         <pubTime>2017-11-11T16:00:00.000Z</pubTime>
         
-        <tag>faicon</tag>
-         
         <tag>image</tag>
          
         <tag>mendeley</tag>
@@ -279,6 +277,8 @@
         <tag>document_management</tag>
          
         <tag>bibtex</tag>
+         
+        <tag>faicon</tag>
          
          
            
@@ -330,11 +330,11 @@
         
         <tag>machine_learning</tag>
          
+        <tag>image</tag>
+         
         <tag>sentiment_analysis</tag>
          
         <tag>natural_language_processing</tag>
-         
-        <tag>image</tag>
          
         <tag>hexo_pdf</tag>
          
@@ -416,15 +416,15 @@
         <title>Literature Review on Social Media in Financial Market</title>
         <pubTime>2017-11-01T16:00:00.000Z</pubTime>
         
+        <tag>information_system</tag>
+         
         <tag>research</tag>
          
-        <tag>information_system</tag>
+        <tag>image</tag>
          
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
-         
-        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -452,11 +452,11 @@
         <title>Deep Learning hardware</title>
         <pubTime>2017-11-07T16:00:00.000Z</pubTime>
         
-        <tag>tutorial</tag>
-         
         <tag>deep_learning</tag>
          
         <tag>hardware</tag>
+         
+        <tag>tutorial</tag>
          
          
            
@@ -510,11 +510,11 @@
         
         <tag>research</tag>
          
+        <tag>image</tag>
+         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
-         
-        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -542,11 +542,11 @@
         
         <tag>research</tag>
          
+        <tag>image</tag>
+         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
-         
-        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -578,9 +578,9 @@
         <title>Literature Review on UGC/WOM</title>
         <pubTime>2017-10-30T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>research</tag>
          
         <tag>sentiment_analysis</tag>
          
@@ -612,11 +612,11 @@
         
         <tag>hexo_pdf</tag>
          
+        <tag>tbc</tag>
+         
         <tag>robo_advisor</tag>
          
         <tag>fintech</tag>
-         
-        <tag>tbc</tag>
          
          
            
@@ -636,11 +636,11 @@
         <title>R语言的科学计算</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>tbc</tag>
-         
         <tag>r_language</tag>
          
         <tag>science_computing</tag>
+         
+        <tag>tbc</tag>
          
          
            
@@ -660,9 +660,9 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
-        <tag>faicon</tag>
-         
         <tag>image</tag>
+         
+        <tag>faicon</tag>
          
         <tag>r_language</tag>
          
@@ -756,9 +756,9 @@
         <title>Can online scoring really reflects the rankings of products?</title>
         <pubTime>2017-10-29T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>notes</tag>
+         
+        <tag>research</tag>
          
         <tag>mathjax</tag>
          
@@ -805,9 +805,9 @@
         <title>Experiments in IS research</title>
         <pubTime>2017-09-10T16:00:00.000Z</pubTime>
         
-        <tag>notes</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>notes</tag>
          
          
            
@@ -851,9 +851,9 @@
         
         <tag>hexo</tag>
          
-        <tag>github</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>github</tag>
          
          
            
