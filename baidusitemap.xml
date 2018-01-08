@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2018-01-08T09:22:59.000Z</lastmod>
+    <lastmod>2018-01-08T09:30:56.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges: Data Science on IS</title>
@@ -17,27 +17,27 @@
          
         <tag>natural_language_processing</tag>
          
+        <tag>deep_learning</tag>
+         
         <tag>markdown_table</tag>
          
         <tag>image</tag>
          
         <tag>github</tag>
          
-        <tag>deep_learning</tag>
-         
-        <tag>statistics</tag>
-         
-        <tag>mathematics</tag>
-         
-        <tag>artificial_intelligence</tag>
-         
-        <tag>economics</tag>
+        <tag>hexo_pdf</tag>
          
         <tag>finance</tag>
          
-        <tag>open_course</tag>
+        <tag>economics</tag>
          
-        <tag>hexo_pdf</tag>
+        <tag>mathematics</tag>
+         
+        <tag>statistics</tag>
+         
+        <tag>artificial_intelligence</tag>
+         
+        <tag>open_course</tag>
          
         <tag>span_id_anchor</tag>
          
@@ -176,8 +176,6 @@
         
         <tag>image</tag>
          
-        <tag>mathematics</tag>
-         
         <tag>hexo_pdf</tag>
          
         <tag>mathjax</tag>
@@ -189,6 +187,8 @@
         <tag>pde</tag>
          
         <tag>control_theory</tag>
+         
+        <tag>mathematics</tag>
          
         <tag>video</tag>
          
@@ -212,8 +212,6 @@
         
         <tag>image</tag>
          
-        <tag>mathematics</tag>
-         
         <tag>hexo_pdf</tag>
          
         <tag>mathjax</tag>
@@ -225,6 +223,8 @@
         <tag>pde</tag>
          
         <tag>control_theory</tag>
+         
+        <tag>mathematics</tag>
          
          
            
@@ -298,11 +298,11 @@
         <title>用Sublime Text 3管理文献</title>
         <pubTime>2017-09-27T16:00:00.000Z</pubTime>
         
-        <tag>hexo_pdf</tag>
-         
         <tag>document_management</tag>
          
         <tag>bibtex</tag>
+         
+        <tag>hexo_pdf</tag>
          
         <tag>sublime_text_3</tag>
          
@@ -426,13 +426,13 @@
          
         <tag>image</tag>
          
-        <tag>finance</tag>
+        <tag>mathjax</tag>
          
         <tag>opinion_mining</tag>
          
         <tag>time_series</tag>
          
-        <tag>mathjax</tag>
+        <tag>finance</tag>
          
          
            
@@ -452,11 +452,11 @@
         <title>Deep Learning hardware</title>
         <pubTime>2017-11-07T16:00:00.000Z</pubTime>
         
-        <tag>tutorial</tag>
-         
         <tag>deep_learning</tag>
          
         <tag>hardware</tag>
+         
+        <tag>tutorial</tag>
          
          
            
@@ -548,9 +548,9 @@
          
         <tag>image</tag>
          
-        <tag>opinion_mining</tag>
-         
         <tag>mathjax</tag>
+         
+        <tag>opinion_mining</tag>
          
         <tag>feature_engineering</tag>
          
@@ -666,8 +666,6 @@
          
         <tag>r_language</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
@@ -679,6 +677,8 @@
         <tag>python</tag>
          
         <tag>mathematica</tag>
+         
+        <tag>mathjax</tag>
          
          
            
@@ -760,9 +760,9 @@
          
         <tag>notes</tag>
          
-        <tag>economics</tag>
-         
         <tag>mathjax</tag>
+         
+        <tag>economics</tag>
          
         <tag>online_scoring</tag>
          
@@ -851,9 +851,9 @@
         
         <tag>hexo</tag>
          
-        <tag>github</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>github</tag>
          
          
            
