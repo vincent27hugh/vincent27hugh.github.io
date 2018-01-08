@@ -124,12 +124,12 @@
       <tags>
         <tag>image</tag>
         <tag>faicon</tag>
+        <tag>r_language</tag>
         <tag>nonlinear_equations</tag>
         <tag>numerical_analysis</tag>
         <tag>matlab</tag>
         <tag>fortran</tag>
         <tag>python</tag>
-        <tag>r_language</tag>
         <tag>mathematica</tag>
         <tag>mathjax</tag>
       </tags>
@@ -345,9 +345,9 @@
       </categories>
       <tags>
         <tag>hexo_pdf</tag>
+        <tag>tbc</tag>
         <tag>robo_advisor</tag>
         <tag>fintech</tag>
-        <tag>tbc</tag>
       </tags>
   </entry>
   <entry>
@@ -385,8 +385,8 @@
       <tags>
         <tag>information_system</tag>
         <tag>machine_learning</tag>
-        <tag>research</tag>
         <tag>study</tag>
+        <tag>research</tag>
         <tag>blog</tag>
         <tag>logs</tag>
         <tag>hexo</tag>
@@ -414,9 +414,9 @@
         <category>中文</category>
       </categories>
       <tags>
-        <tag>tbc</tag>
         <tag>r_language</tag>
         <tag>science_computing</tag>
+        <tag>tbc</tag>
       </tags>
   </entry>
   <entry>
@@ -461,7 +461,7 @@
   <entry>
     <title><![CDATA[About Neverland]]></title>
     <url>%2Fabout%2Findex.html</url>
-    <content type="text"><![CDATA[var options = {"narrow":true,"autoplay":true,"showlrc":3,"mode":"random","mutex":true,"music":[{"title":"Intro","author":"The XX","url":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.lrc"},{"title":"Casey's Last Ride","author":"Kris Kristofferson","url":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.lrc"},{"title":"Free Loop","author":"Daniel Powter","url":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.jpeg","lrc":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.lrc"},{"title":"Future Starts Slow","author":"The Kills","url":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.lrc"},{"title":"Medicine","author":"Daughter","url":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.lrc"},{"title":"Exit Music (For a Film)","author":"Radiohead","url":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.png","lrc":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.lrc"}]}; options.element = document.getElementById("aplayer0"); new APlayer(options); Hello, welcome to my blog, the NERVERLAND, which is supported by GitHub and Hexo. Neverland is a fictional location featured in the works of J. M. Barrie and those based on them. It is an imaginary faraway place, where Peter Pan, Tinker Bell, the Lost Boys and other mythical creatures and beings live. &#x2014;Wikipedia NEVERLAND is a place of fantacy and I hope to build a blog full of bold innovation and wonderful ideas. If you have any creative thoughs on no matter science&amp;technology or phylosophy of life, feel free to contact with me via email. Click E-Mail button of the sidebar. If you would like to know more about me, click BAODUGE-About. Enjoy it? Subscribe to my blog by scanning my public Wechat account]]></content>
+    <content type="text"><![CDATA[var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","mutex":true,"theme":"#e6d0b2","preload":"metadata","listmaxheight":"513px","music":[{"title":"Intro","author":"The XX","url":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.lrc"},{"title":"Casey's Last Ride","author":"Kris Kristofferson","url":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.lrc"},{"title":"Free Loop","author":"Daniel Powter","url":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.jpeg","lrc":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.lrc"},{"title":"Future Starts Slow","author":"The Kills","url":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.lrc"},{"title":"Medicine","author":"Daughter","url":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.lrc"},{"title":"Exit Music (For a Film)","author":"Radiohead","url":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.png","lrc":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.lrc"}]}; options.element = document.getElementById("aplayer0"); new APlayer(options); Hello, welcome to my blog, the NERVERLAND, which is supported by GitHub and Hexo. Neverland is a fictional location featured in the works of J. M. Barrie and those based on them. It is an imaginary faraway place, where Peter Pan, Tinker Bell, the Lost Boys and other mythical creatures and beings live. &#x2014;Wikipedia NEVERLAND is a place of fantacy and I hope to build a blog full of bold innovation and wonderful ideas. If you have any creative thoughs on no matter science&amp;technology or phylosophy of life, feel free to contact with me via email. Click E-Mail button of the sidebar. If you would like to know more about me, click BAODUGE-About. Enjoy it? Subscribe to my blog by scanning my public Wechat account]]></content>
   </entry>
   <entry>
     <title><![CDATA[All Categories]]></title>
