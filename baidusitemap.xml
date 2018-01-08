@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2018-01-08T13:53:22.000Z</lastmod>
+    <lastmod>2018-01-08T14:02:13.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges: Data Science on IS</title>
@@ -17,13 +17,13 @@
          
         <tag>natural_language_processing</tag>
          
+        <tag>github</tag>
+         
         <tag>deep_learning</tag>
          
         <tag>markdown_table</tag>
          
         <tag>image</tag>
-         
-        <tag>github</tag>
          
         <tag>hexo_pdf</tag>
          
@@ -452,11 +452,11 @@
         <title>Deep Learning hardware</title>
         <pubTime>2017-11-07T16:00:00.000Z</pubTime>
         
+        <tag>tutorial</tag>
+         
         <tag>deep_learning</tag>
          
         <tag>hardware</tag>
-         
-        <tag>tutorial</tag>
          
          
            
@@ -612,11 +612,11 @@
         
         <tag>hexo_pdf</tag>
          
-        <tag>tbc</tag>
-         
         <tag>robo_advisor</tag>
          
         <tag>fintech</tag>
+         
+        <tag>tbc</tag>
          
          
            
@@ -636,11 +636,11 @@
         <title>R语言的科学计算</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
+        <tag>tbc</tag>
+         
         <tag>r_language</tag>
          
         <tag>science_computing</tag>
-         
-        <tag>tbc</tag>
          
          
            
@@ -851,9 +851,9 @@
         
         <tag>hexo</tag>
          
-        <tag>tutorial</tag>
-         
         <tag>github</tag>
+         
+        <tag>tutorial</tag>
          
          
            
