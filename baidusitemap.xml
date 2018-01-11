@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2018-01-11T05:50:39.000Z</lastmod>
+    <lastmod>2018-01-11T06:57:40.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges: Data Science on IS</title>
@@ -15,15 +15,15 @@
          
         <tag>machine_learning</tag>
          
-        <tag>deep_learning</tag>
-         
-        <tag>github</tag>
-         
         <tag>natural_language_processing</tag>
          
         <tag>markdown_table</tag>
          
         <tag>image</tag>
+         
+        <tag>deep_learning</tag>
+         
+        <tag>github</tag>
          
         <tag>hexo_pdf</tag>
          
@@ -138,6 +138,10 @@
         <title>NEVERLAND - Blog Logs</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
+        <tag>information_system</tag>
+         
+        <tag>notes</tag>
+         
         <tag>study</tag>
          
         <tag>research</tag>
@@ -147,10 +151,6 @@
         <tag>logs</tag>
          
         <tag>hexo</tag>
-         
-        <tag>notes</tag>
-         
-        <tag>information_system</tag>
          
         <tag>machine_learning</tag>
          
@@ -244,9 +244,9 @@
         <title>Resources & Tools of Information System Research</title>
         <pubTime>2017-10-23T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>research</tag>
          
         <tag>markdown_table</tag>
          
@@ -416,9 +416,9 @@
         <title>Literature Review on Social Media in Financial Market</title>
         <pubTime>2017-11-01T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>research</tag>
          
         <tag>sentiment_analysis</tag>
          
@@ -426,13 +426,13 @@
          
         <tag>image</tag>
          
+        <tag>mathjax</tag>
+         
         <tag>opinion_mining</tag>
          
         <tag>time_series</tag>
          
         <tag>finance</tag>
-         
-        <tag>mathjax</tag>
          
          
            
@@ -548,9 +548,9 @@
          
         <tag>image</tag>
          
-        <tag>opinion_mining</tag>
-         
         <tag>mathjax</tag>
+         
+        <tag>opinion_mining</tag>
          
         <tag>feature_engineering</tag>
          
@@ -578,9 +578,9 @@
         <title>Literature Review on UGC/WOM</title>
         <pubTime>2017-10-30T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>research</tag>
          
         <tag>sentiment_analysis</tag>
          
@@ -612,11 +612,11 @@
         
         <tag>hexo_pdf</tag>
          
+        <tag>tbc</tag>
+         
         <tag>robo_advisor</tag>
          
         <tag>fintech</tag>
-         
-        <tag>tbc</tag>
          
          
            
@@ -636,11 +636,11 @@
         <title>R语言的科学计算</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>tbc</tag>
-         
         <tag>r_language</tag>
          
         <tag>science_computing</tag>
+         
+        <tag>tbc</tag>
          
          
            
@@ -666,8 +666,6 @@
          
         <tag>r_language</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
@@ -679,6 +677,8 @@
         <tag>python</tag>
          
         <tag>mathematica</tag>
+         
+        <tag>mathjax</tag>
          
          
            
@@ -756,9 +756,9 @@
         <title>Can online scoring really reflects the rankings of products?</title>
         <pubTime>2017-10-29T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>notes</tag>
+         
+        <tag>research</tag>
          
         <tag>mathjax</tag>
          
@@ -805,9 +805,9 @@
         <title>Experiments in IS research</title>
         <pubTime>2017-09-10T16:00:00.000Z</pubTime>
         
-        <tag>notes</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>notes</tag>
          
          
            
