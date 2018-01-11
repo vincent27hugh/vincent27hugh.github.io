@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2018-01-11T14:49:00.000Z</lastmod>
+    <lastmod>2018-01-11T14:53:44.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges: Data Science on IS</title>
@@ -15,15 +15,15 @@
          
         <tag>machine_learning</tag>
          
-        <tag>deep_learning</tag>
-         
         <tag>natural_language_processing</tag>
          
-        <tag>github</tag>
+        <tag>deep_learning</tag>
          
         <tag>markdown_table</tag>
          
         <tag>image</tag>
+         
+        <tag>github</tag>
          
         <tag>hexo_pdf</tag>
          
@@ -298,11 +298,11 @@
         <title>用Sublime Text 3管理文献</title>
         <pubTime>2017-09-27T16:00:00.000Z</pubTime>
         
+        <tag>hexo_pdf</tag>
+         
         <tag>document_management</tag>
          
         <tag>bibtex</tag>
-         
-        <tag>hexo_pdf</tag>
          
         <tag>sublime_text_3</tag>
          
@@ -586,11 +586,11 @@
          
         <tag>literature_review</tag>
          
+        <tag>mathjax</tag>
+         
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
-         
-        <tag>mathjax</tag>
          
          
            
@@ -612,11 +612,11 @@
         
         <tag>hexo_pdf</tag>
          
-        <tag>tbc</tag>
-         
         <tag>robo_advisor</tag>
          
         <tag>fintech</tag>
+         
+        <tag>tbc</tag>
          
          
            
@@ -636,11 +636,11 @@
         <title>R语言的科学计算</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
+        <tag>tbc</tag>
+         
         <tag>r_language</tag>
          
         <tag>science_computing</tag>
-         
-        <tag>tbc</tag>
          
          
            
@@ -664,10 +664,6 @@
          
         <tag>image</tag>
          
-        <tag>r_language</tag>
-         
-        <tag>mathjax</tag>
-         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
@@ -678,7 +674,11 @@
          
         <tag>python</tag>
          
+        <tag>r_language</tag>
+         
         <tag>mathematica</tag>
+         
+        <tag>mathjax</tag>
          
          
            
