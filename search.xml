@@ -115,9 +115,9 @@
         
         <tags>
             
-            <tag> machine_learning </tag>
-            
             <tag> information_system </tag>
+            
+            <tag> machine_learning </tag>
             
             <tag> structural_modeling </tag>
             
@@ -237,13 +237,13 @@
             
             <tag> research </tag>
             
+            <tag> machine_learning </tag>
+            
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
             
             <tag> faicon </tag>
-            
-            <tag> machine_learning </tag>
             
             <tag> natural_language_processing </tag>
             
@@ -939,8 +939,6 @@ end
             
             <tag> r_language </tag>
             
-            <tag> mathjax </tag>
-            
             <tag> nonlinear_equations </tag>
             
             <tag> numerical_analysis </tag>
@@ -952,6 +950,8 @@ end
             <tag> python </tag>
             
             <tag> mathematica </tag>
+            
+            <tag> mathjax </tag>
             
         </tags>
         
@@ -1623,11 +1623,11 @@ end
             
             <tag> research </tag>
             
+            <tag> information_system </tag>
+            
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
-            
-            <tag> information_system </tag>
             
             <tag> image </tag>
             
@@ -1894,17 +1894,17 @@ end
             
             <tag> research </tag>
             
+            <tag> information_system </tag>
+            
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
             
-            <tag> information_system </tag>
+            <tag> mathjax </tag>
             
             <tag> user_generated_content </tag>
             
             <tag> word_of_mouth </tag>
-            
-            <tag> mathjax </tag>
             
         </tags>
         
@@ -3261,9 +3261,9 @@ killall Finder
         
         <tags>
             
-            <tag> sentiment_analysis </tag>
-            
             <tag> machine_learning </tag>
+            
+            <tag> sentiment_analysis </tag>
             
             <tag> natural_language_processing </tag>
             
@@ -3545,11 +3545,11 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
-            <tag> hexo_pdf </tag>
-            
             <tag> document_management </tag>
             
             <tag> bibtex </tag>
+            
+            <tag> hexo_pdf </tag>
             
             <tag> sublime_text_3 </tag>
             
@@ -3621,9 +3621,9 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
-            <tag> faicon </tag>
-            
             <tag> information_system </tag>
+            
+            <tag> faicon </tag>
             
             <tag> matlab </tag>
             
@@ -3908,7 +3908,7 @@ Ref 2\cite{kom2016stochastic}
 <tr>
 <td style="text-align:center">11</td>
 <td style="text-align:center"><a href="#OP11">MIT 18.650 Stat4App</a></td>
-<td style="text-align:center"><img src="http://progressed.io/bar/43?title=done" alt="9/21"></td>
+<td style="text-align:center"><img src="http://progressed.io/bar/50?title=done" alt="11/22"></td>
 </tr>
 <tr>
 <td style="text-align:center">12</td>
@@ -4096,7 +4096,7 @@ Ref 2\cite{kom2016stochastic}
 <li>Course Description: This course introduces students to probability and random variables. Topics include distribution functions, binomial, geometric, hypergeometric, and Poisson distributions. The other topics covered are uniform, exponential, normal, gamma and beta distributions; conditional probability; Bayes theorem; joint distributions; Chebyshev inequality; law of large numbers; and central limit theorem.</li>
 </ul>
 </li>
-<li><font color="#1E8449" size="2.5"><strong>$\mathbb{UG}$</strong>/<strong>$\mathbb{G}$</strong><span id="OP11"></span><strong>MIT 18.650 - Statistics for Applications by Prof. Philippe Rigollet, Fall 2016</strong></font>: 1h15min/Lec, 21 Lectures, <a href="https://ocw.mit.edu/courses/mathematics/18-650-statistics-for-applications-fall-2016/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP60uVBMaoNERc6knT_MgPKS0" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a> <i class="fa fa-play" aria-hidden="true"></i> <img src="http://progressed.io/bar/43?title=done" alt="9/21"><ul>
+<li><font color="#1E8449" size="2.5"><strong>$\mathbb{UG}$</strong>/<strong>$\mathbb{G}$</strong><span id="OP11"></span><strong>MIT 18.650 - Statistics for Applications by Prof. Philippe Rigollet, Fall 2016</strong></font>: 1h15min/Lec, 21 Lectures, <a href="https://ocw.mit.edu/courses/mathematics/18-650-statistics-for-applications-fall-2016/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP60uVBMaoNERc6knT_MgPKS0" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a> <i class="fa fa-play" aria-hidden="true"></i> <img src="http://progressed.io/bar/50?title=done" alt="11/22"><ul>
 <li>Prerequisites: Probability theory at the level of <a href="https://ocw.mit.edu/courses/mathematics/18-440-probability-and-random-variables-spring-2014/" target="_blank" rel="external"><strong>18.440 Probability and Random Variables</strong></a>. Some linear algebra (matrices, vectors, eigenvalues).</li>
 <li>Course Description: This course offers an in-depth the theoretical foundations for statistical methods that are useful in many applications. The goal is to understand the role of mathematics in the research and development of efficient statistical methods.</li>
 <li>Rigollet&#x2019;s style is very competent, so you are suggested to watch the video in normal speed.</li>
@@ -4718,11 +4718,11 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
+            <tag> information_system </tag>
+            
             <tag> machine_learning </tag>
             
             <tag> natural_language_processing </tag>
-            
-            <tag> information_system </tag>
             
             <tag> deep_learning </tag>
             
@@ -5043,11 +5043,9 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
-            <tag> research </tag>
-            
-            <tag> machine_learning </tag>
-            
             <tag> study </tag>
+            
+            <tag> research </tag>
             
             <tag> blog </tag>
             
@@ -5058,6 +5056,8 @@ Ref 2\cite{kom2016stochastic}
             <tag> notes </tag>
             
             <tag> information_system </tag>
+            
+            <tag> machine_learning </tag>
             
             <tag> music </tag>
             
@@ -5438,9 +5438,9 @@ SyntaxError: unexpected character after line continuation character
             
             <tag> tutorial </tag>
             
-            <tag> latex </tag>
-            
             <tag> sublime_text_3 </tag>
+            
+            <tag> latex </tag>
             
             <tag> skim </tag>
             
