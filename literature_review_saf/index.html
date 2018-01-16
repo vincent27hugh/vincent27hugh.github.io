@@ -1,0 +1,1669 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+  
+  
+  <link rel="stylesheet" media="all" href="/lib/Han/dist/han.min.css?v=3.3">
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="research,machine_learning,sentiment_analysis,literature_review,finance," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="NEVERLAND" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.jpg?v=5.1.2" />
+
+
+
+
+
+
+<meta name="description" content="This is the literature review on Asset Allocation based on Sentiment Analysis and Machine Learning.">
+<meta name="keywords" content="research,machine_learning,sentiment_analysis,literature_review,finance">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Literature Review: Asset Allocation based on Sentiment Analysis and Machine Learning">
+<meta property="og:url" content="http://blog.baoduge.com/literature_review_saf/index.html">
+<meta property="og:site_name" content="NEVERLAND">
+<meta property="og:description" content="This is the literature review on Asset Allocation based on Sentiment Analysis and Machine Learning.">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="http://blog.baoduge.com/images/EMH.jpg">
+<meta property="og:image" content="http://blog.baoduge.com/images/SA_Architecture.jpg">
+<meta property="og:image" content="http://blog.baoduge.com/images/stocksonar1.jpg">
+<meta property="og:image" content="http://blog.baoduge.com/images/stocksonar2.jpg">
+<meta property="og:image" content="http://blog.baoduge.com/images/TMinFA.png">
+<meta property="og:image" content="http://blog.baoduge.com/images/system%20components%20diagram.jpg">
+<meta property="og:image" content="http://blog.baoduge.com/images/Das%20et%20al.png">
+<meta property="og:image" content="http://blog.baoduge.com/images/AZFinText.jpg">
+<meta property="og:image" content="http://blog.baoduge.com/images/Ghissi2013-1.jpg">
+<meta property="og:image" content="http://blog.baoduge.com/images/Ghissi2013-2.jpg">
+<meta property="og:image" content="http://blog.baoduge.com/images/ResearchQuestion.png">
+<meta property="og:updated_time" content="2018-01-16T13:10:20.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Literature Review: Asset Allocation based on Sentiment Analysis and Machine Learning">
+<meta name="twitter:description" content="This is the literature review on Asset Allocation based on Sentiment Analysis and Machine Learning.">
+<meta name="twitter:image" content="http://blog.baoduge.com/images/EMH.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '5.1.2',
+    sidebar: {"position":"left","display":"always","offset":12,"offset_float":12,"b2t":true,"scrollpercent":true,"onmobile":true},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://blog.baoduge.com/literature_review_saf/"/>
+
+
+
+
+
+  <title>Literature Review: Asset Allocation based on Sentiment Analysis and Machine Learning | NEVERLAND</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">NEVERLAND</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <h1 class="site-subtitle" itemprop="description">夢幻島</h1>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            Search
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="Searching..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://blog.baoduge.com/literature_review_saf/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="BDG飽蠹閣">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://baoduge.com/My/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="NEVERLAND">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">Literature Review: Asset Allocation based on Sentiment Analysis and Machine Learning</h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-12-06T00:00:00+08:00">
+                2017-12-06
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/English/" itemprop="url" rel="index">
+                    <span itemprop="name">English</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/literature_review_saf/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="literature_review_saf/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/literature_review_saf/" class="leancloud_visitors" data-flag-title="Literature Review: Asset Allocation based on Sentiment Analysis and Machine Learning">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">Visitors&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+              <div class="post-description">
+                  This is the literature review on Asset Allocation based on Sentiment Analysis and Machine Learning.
+              </div>
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body han-init-context" itemprop="articleBody">
+
+      
+      
+
+      
+        <script src="/assets/js/APlayer.min.js"> </script><h1 id="Motivation"><a href="#Motivation" class="headerlink" title="Motivation"></a>Motivation</h1><p>Asset allocation has been an enduring and important topic in finance and automatically allocating assets has already been on the way in finance industry. Many companies of Robo Advisor mushroomed from 2007 all around the world. But report<sup><a href="#fn_1" id="reffn_1">1</a></sup> has showed that the Robo-Advisor at present is not intelligent enough and asset allocation is still mostly fulfilled via online questionnaire. The future of asset allocation or wealth management should be supported by fully-automated system and machine learning techniques.</p>
+<p>Among the components of asset allocation, asset selection is the crucial part and also the most popular part. Being able to select suitable assets is equal to generate wealth by avoiding financial losses and making gains. However, the market is extremely difficult to figure out and predict. Nevertheless, trying best to extract information from financial market can lead to more accurate prediction and more effective asset selection. With the development of nature language processing (NLP) and machine learning techniques, getting access to the massive market information become feasible. Due to its interdisciplinary property , topic, such as taking use of NLP and machine learning tools to study financial market, is really challenging and has always been an attractive appeal to many researchers from different disciplines, such as finance, computer science and information system. Moreover, it is obvious that public mood can be easily mobilized by the public information, such as financial news, social media or online forums. Then, sentiment analysis can be a useful tool for the automatic analysis of textual financial information. Thus, how to automatically select and allocate the financial assets based on sentiment analysis and machine learning techniques can be an interesting research topic.</p>
+<h1 id="Background-Investigation"><a href="#Background-Investigation" class="headerlink" title="Background Investigation"></a>Background Investigation</h1><h2 id="Financial-Theories"><a href="#Financial-Theories" class="headerlink" title="Financial Theories"></a>Financial Theories</h2><p>In efficient market hypothesis (EMH) [Fama, 1965; Malkiel &amp; Fama, 1970], it is assumed that the asset price can reflect all the information available and that every investor has some degree of access to the information. And EMH is further broken down into three forms: weak, semi-strong and strong, see Figure 1. Investors who are convinced that financial market can be predictable to some extent can be segregated into two groups: technical analysts and fundamental analysts. The former (such as [Yu, Nartea et al, 2013]) believes that the future price can be determined only by the historical market data, which is structured data. The latter (such as [Schumaker &amp; Chen, 2009; Schumaker et al, 2012; Cavalcante et al, 2016]) looks at the available fundamental from different sources: company data (such as return on equity, debt level), market data, economics data (such as inflation rate, joblessness rate), political data and geographical data, most of which are unstructured data. It means that text mining and NLP techniques are needed here. Table 1 shows the most used algorithms in technical and fundamental analysis of financial market.</p>
+<p>Figure 1. Efficient Market Hypothesis Diagram<br><img src="/images/EMH.jpg" alt=""></p>
+<p>Table 1. Common Algorithms in Technical and Fundamental Analysis</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Technical</th>
+<th>Fundamental</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Neural Networks [Sermpinis et al, 2012]</td>
+<td>Support Vector Machine [Schumaker &amp; Chen, 2009]</td>
+</tr>
+<tr>
+<td>Fuzzy Logic [Bahrepour et al, 2011]</td>
+<td>Naive Bayes [Yu, Duan, et al., 2013]</td>
+</tr>
+<tr>
+<td>Support Vector Machine [Premanode et al, 2013]</td>
+<td>Decision Trees [Vu et al, 2012]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>According to psychological research that emotions play a significant role in human decision-making [Kahneman &amp; Tversky, 2013; Dolan, 2002], public mood or sentiment has big influence on the decision-making of investors, which can be further supported by some behavioral finance research [Nofsinger, 2005]. Therefore, extracting the public mood or sentiment from financial market information via sentiment analysis can be a promising solution.</p>
+<h2 id="Sentiment-Analysis"><a href="#Sentiment-Analysis" class="headerlink" title="Sentiment Analysis"></a>Sentiment Analysis</h2><h3 id="Definition-of-Sentiment-Analysis"><a href="#Definition-of-Sentiment-Analysis" class="headerlink" title="Definition of Sentiment Analysis"></a>Definition of Sentiment Analysis</h3><p>Sentiment analysis mainly investigate the opinions which imply the attitude (positive or negative) of the expressers. And sentiment analysis can be defined in quintuple, ($e_i$,$a_{ij}$,$s_{ijkl}$,$h_k$,$t_l$), where $e_i$ is the name of entity or target, $a_{ij}$ is an aspect or feature of $e_i$, $s_{ijkl}$ is the sentiment on aspect $a$ of entity $e_i$, $h_k$ is the opinion holder and $t_l$ is the time when opinion is expressed by $h_k$ [Liu Bing, 2012]. The sentiment can be polarity (such as most of the early research), like &#x201C;positive&#x201D;, &#x201C;negative&#x201D; or &#x201C;neutral&#x201D; and also be multi-class mood or emotion (such as [Bollen et al, 2011]), like &#x201C;calm&#x201D;, &#x201C;happy&#x201D; or &#x201C;afraid&#x201D;. Thus the basic task of sentiment analysis can be categorized into polarity detection and emotion detection, which are essentially the classification problem.</p>
+<p>The evaluation metrics of classification problems can be applied for the assessment of sentiment analysis. In classification task, precision $Pre=\frac{TP}{TP+FP}$ evaluates the relevant instances among the retrieved instances, where $TP$ is the number of true positive and $FP$ is the number of false positive (Type I error). And recall $Rec=\frac{TP}{TP+FN}$ evaluates relevant instances that have been retrieved over a total amount of relevant instances, where $FN$ is the number of false negative (Type II error). F-measure is a measure that combine precision and recall and the general form is $F_{\beta}=\frac{(1+\beta)^2 \cdot (Pre \cdot Rec)}{(\beta^2 \cdot Pre+Rec)}$. When $\beta=1$, F-measure is named balanced F-score, which is mostly used.</p>
+<p>Existing approaches to sentiment analysis fall into three main categories: knowledge-based approach, machine learning approach and hybrid approach [Cambria, 2016]. In knowledge-based approach, sentiment can be classified based on the presence of unambiguous sentiment words, such as &#x201C;happy&#x201D;, &#x201C;sad&#x201D; or &#x201C;bored&#x201D;, while the recognition can be poor when linguistic rules are involved. In the machine learning approach (such as support vector machine and naive bayes), a large training corpus of texts with sentiment tags is fed to the system for training and then the sentiment or emotion of keywords can be learned. But the machine learning technique is semantically weak when the input textual data size is not big enough. Generally, there are a few subsets of machine learning techniques: supervised learning (such as [Pang, Lee et al, 2002]), in which the training data need to be manually labeled, unsupervised learning (such as [Turney, 2002]), in which there is no need to manually label the training data, and others.</p>
+<h3 id="Generic-Architecture-and-Components-of-Sentiment-Analysis-System"><a href="#Generic-Architecture-and-Components-of-Sentiment-Analysis-System" class="headerlink" title="Generic Architecture and Components of Sentiment Analysis System"></a>Generic Architecture and Components of Sentiment Analysis System</h3><p>Figure 2 shows the generic architecture and components of sentiment analysis system [Feldman, 2013]. Corpus of documents, which are pre-processed using a variety of linguistic tools (such as stemming, tokenization, part of speech tagging, entity extraction, relation extraction and so on), is fed as input data. Among the components of the system, the major one is the document analysis module, which applies a group of lexicons and linguistic resources for the annotation of the pre-processed documents with sentiment taggers, which can be attached with different graininess: to the whole documents (document-based sentiment), to individual sentences (sentence-based sentiment) or to some specific aspects of entities (aspect-based sentiment), which will be discussed in the next session.</p>
+<p>Figure 2. Generic Architecture and Components of Sentiment Analysis System<br><img src="/images/SA_Architecture.jpg" alt=""></p>
+<h3 id="Types-of-Sentiment-Analysis"><a href="#Types-of-Sentiment-Analysis" class="headerlink" title="Types of Sentiment Analysis"></a>Types of Sentiment Analysis</h3><p>According to whether the lexicon is domain independent or not, we can divide the sentiment analysis into three types: domain dependent (such as [Hatzivassiloglou &amp; McKeown, 1997; Qiu et al, 2011]) in which the lexicon is generally corpus-based, domain independent (such as [Kamps et al, 2004; Dragut et al, 2010; Peng &amp; Park, 2011]) in which the lexicon is generally dictionary-based and domain migration (such as [Du et al, 2010]) in which the lexicon is migrated from another domain. If the lexicon is domain dependent, sometimes much effort need to be paid to build the specific lexicon. However, the domain dependent lexicon can result in more precise outcome than domain independent lexicon.</p>
+<p>And according to the graininess from coarse-grained to fine-grained analysis, the sentiment analysis can be segregated into document-based (such as [Pang &amp; Lee, 2002; Turney. 2002]), sentiment-based (such as [Pang &amp; Lee, 2004; Yu &amp; Hatzivassiloglou, 2003; Kim &amp; Hovy, 2007]) and aspect-based. Specially, in sentence-based analysis, before analyzing the polarity of sentence we must determine if the sentences are subjective or not. Based on the subjectivity of sentences, we can divide the sentence-based analysis into two groups: subjectivity detection (such as [Wiebe &amp; Riloff, 2005; Chenio &amp; Losada, 2014]) and objectivity detection (such as [Stepinski &amp; Mittal, 2007; Kastner &amp; Monz, 2009]). Moreover, based on whether the aspects are explicit or not, aspect-based sentiment analysis can also be divided into two groups: explicit (such as [Hu &amp; Liu, 2004; Popescu &amp; Etzioni, 2005; Wu et al, 2009; Jakob &amp; Gurevych, 2010; Lafferty et al, 2001]) and implicit (such as [Hai et al, 2011]) aspect-based analysis.</p>
+<p>Another very common type of sentiment analysis is comparative sentiment analysis (such as [Jindal &amp; Liu, 2006; Ding et al, 2009]). In many cases, users don&#x2019;t provide a direct opinion in their reviews but instead provide comparable opinions, such as the comment: &#x201C;This cell phone is better than iPhone 7.&#x201D; And the goal of comparative sentiment analysis is to extract the preferred entities in each opinion.</p>
+<p>Supervised learning approach assumes that there is a finite set of classes of sentiment, such as polarity of positive, negative and neutral. [Pang &amp; Lee, 2002] take use of three different algorithms to extract the sentiment, Navie Bayes (NB), Maximum Entropy (ME) and Support Vector Machine (SVM), to study the sentiment of movie review data IMDB. And they take use of the machine-extractable rating indicator as the label of training data. In the contrast, the classical unsupervised learning technique for sentiment analysis is the algorithm of [Turney, 2002]. They take use of Pointwise Mutual Information (PMI) $PMI(w_1,w_2)=log_2 (\frac{P(w_1 )P(w_2)}{P(w_1 )P(w_2)})$ to measure the concurrence of two words w_1 and w_2 and then capture the sentiment orientation (SO) via the PMI of words near the word &#x201C;excellent&#x201D; and the word &#x201C;poor&#x201D;.</p>
+<h2 id="Applications-of-Sentiment-Analysis"><a href="#Applications-of-Sentiment-Analysis" class="headerlink" title="Applications of Sentiment Analysis"></a>Applications of Sentiment Analysis</h2><p>The general applications of sentiment analysis are: review-related websites, sub-component technology and business &amp; government intelligence [Pang &amp; Lee, 2008]. Review-related websites are the website that can proactively gather opinions from the users about products, political issues and so forth, such as <a href="http://www.epinions.com" target="_blank" rel="external">Epinions.com</a>. Moreover, sentiment analysis can also play an important role in other systems, such as recommendation system (such as [Tatemura, 2000; Terveen, 1997]), detection of &#x201C;flames&#x201D; (such as [Spertus, 1997]) and question answering (such as [Somasundaran, 2007; Stoyanov et al, 2005; Lita et al, 2005]). In recommendation system, items that have received too many negative feedbacks can be no longer recommended. In message spam application, texts with hostile or sensitive information can be detected and filtered. As for the question answering system, [Lita et al, 2005] has showed that when answering a definitional question, answers with more information about how an entity is viewed can better inform the users. The sentiment analysis is also very effective in business and government intelligence, such as reputation management (such as [Kamvar et al, 2003]), trend prediction in sales (such as [Mishne &amp; Glance, 2006]) and public opinion monitoring (such as [Abbasi, 2007]).</p>
+<p>There are some mature commercial systems on the market, such as <a href="https://www.google.com/shopping" target="_blank" rel="external">Google Product Search</a> in E-Commerce, <a href="https://www.google.com/shopping" target="_blank" rel="external">tweetfeel</a> in reputation monitoring and <a href="https://www.google.com/shopping" target="_blank" rel="external">the stock sonar</a> in finance. Figure 3 and 4 shows the screen-shot of the financial application of sentiment analysis, <em>the stock sonar</em>.</p>
+<p>Figure 3. The nagetive events for Chesapeake Energy CHK on May 9th (Stock Sonar) [Feldman, 2013]<br><img src="/images/stocksonar1.jpg" alt=""></p>
+<p>Figure 4. Sentiment Graph of Chesapeake Energy (Stock Sonar) [Feldman, 2013]. The green line represents the positive impact of sentiment on Chesapeake and the red line represents the negative impact of sentiment on Chesapeake. The blue line represent the stock price.<br><img src="/images/stocksonar2.jpg" alt=""></p>
+<h2 id="Sentiment-Analysis-in-Finance"><a href="#Sentiment-Analysis-in-Finance" class="headerlink" title="Sentiment Analysis in Finance"></a>Sentiment Analysis in Finance</h2><p>The general applications of sentiment analysis techniques in finance area includes Financial Forecasting and Customer Relationship Management (CRM) [Kumar &amp; Ravi, 2016], see Figure 5. And the sentiment analysis systems have some common component depicted in Figure 6. At one end text data such as social media, blogs, forums, online news and so on is fed as input and at the other end some market predictive values are generated as output.</p>
+<p>Figure 5. Financial Applications with Text Mining [Kumar &amp; Ravi, 2016]<br><img src="/images/TMinFA.png" alt=""></p>
+<p>Figure 6. Generic Architecture and Components of Sentiment Analysis System in Finance<br><img src="/images/system components diagram.jpg" alt=""></p>
+<p>Financial forecasting has been a traditional topic in finance domain, which mainly focuses on Foreign Exchange Rate (FOREX) forecasting (such as [Peramunetilleke et al, 2002; Jin et al, 2013]) and stock market forecasting (such as [Antweiler et al, 2004; Das et al, 2007; Schumaker  &amp; Chen, 2009; Schumaker et al, 2012; Bollen et al, 2011]). [Das et al, 2007] took use of voting scheme among the classifiers of Na&#xEF;ve Bayes, Vector Distance Classifier, Discriminant Classifier, Adjective/Adverb Classifier and Bayesian Classifier to study the sentiment of online news from Yahoo!Finance and found that sentiment of tech-sector postings has a weak relationship with corresponding stock price and to volumes and volatility. See Figure 7. [Schumaker et al, 2012] built a system named Arizona Financial Text (AZFinText) system for financial news articles prediction and used it to extract subjectivity and sentiment from Yahoo!Finance news articles in order to predict stock price. They found that subjective news articles and articles with negative sentiment are easier to predict in price direction. See Figure 8.</p>
+<p>Figure 7. Schematic of the Algorithms and System Design used in Sentiment Extraction [Das et al, 2007]<br><img src="/images/Das et al.png" alt=""></p>
+<p>Figure 8. Design of the AZFinText System [Schumaker et al, 2012]<br><img src="/images/AZFinText.jpg" alt=""></p>
+<p>The increasing amount of customer related data casts lights on solving many kinds of customer related problems such as customer acquisition, market basket analysis, churn detection and so on, such as [Ghiassi et al, 2013; Bifet &amp; Frank, 2010; Devitt &amp; Ahmad, 2007; Popescu &amp; Etzioni, 2007]. [Ghiassi et al, 2013] took use of Twitter-specific Lexicon and Dynamic Artificial Neural Network (DAN2) to determine customer sentiment on Twitter data towards a brand (such as Justin Bieber) and generate better precise and recall than traditional method such as SVM. See Figure 9 and 10.</p>
+<p>Figure 9. Lexalytical sample sentiment evaluation result [Ghiassi et al, 2013]<br><img src="/images/Ghissi2013-1.jpg" alt=""></p>
+<p>Figure 10. The DAN2 network architecture [Ghiassi et al, 2013]<br><img src="/images/Ghissi2013-2.jpg" alt=""></p>
+<h2 id="Financial-Theories-for-Asset-Allocation"><a href="#Financial-Theories-for-Asset-Allocation" class="headerlink" title="Financial Theories for Asset Allocation"></a>Financial Theories for Asset Allocation</h2><p>We have discussed a lot about the application of sentiment analysis in different areas, but our interest here is about asset allocation. Even though financial forecasting can help us to select asset for portfolio, asset allocation is quite different. Because it involves with dynamical optimization and stochastic control problems (such as [Moody &amp; Saffell, 2001; Kom et al, 2016]). Weight of different assets in the portfolio need to be dynamically rebalanced according to the change of financial information and public mood. Financial market is mercurial and difficult to predict and we are not interested in prediction but in response to the changes in order to minimize the financial risk. There are a few studies (such as[Seo et al, 2002, 2004; Musto et al, 2015]) taking use of text mining techniques to study asset allocation but none of them has covered sentiment analysis, which is really effective to monitor the financial market as we have discussed above.</p>
+<p>Table 2. The general used financial theories in asset allocation</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Modern Portfolio Theory (Mean-Variance Analysis)</th>
+<th>[Markowitz, H. , 1952, 1959, 2000]</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Capital Growth Theory</td>
+<td>[Kelly 1956; Hakansson and Ziemba 1995]</td>
+</tr>
+<tr>
+<td>Capital Asset Pricing Model (CAPM)</td>
+<td>[Sharpe, W. F., 1964]</td>
+</tr>
+<tr>
+<td>Black-Litterman Model</td>
+<td>[Black, F., &amp; Litterman, R., 1992]</td>
+</tr>
+<tr>
+<td>Small Cap Value Strategy</td>
+<td>[Bauman et al, 1998]</td>
+</tr>
+<tr>
+<td>Arbitrage Pricing Theory (APT)</td>
+<td>[Ross, S. A., 2013]</td>
+</tr>
+<tr>
+<td>Downside Risk</td>
+<td>[Roy, A. D. ,1952]</td>
+</tr>
+<tr>
+<td>Fama_French three-factor model</td>
+<td>[Fama, E. F., &amp; French, K. R., 1993]</td>
+</tr>
+<tr>
+<td>Theory of Rational Option Pricing</td>
+<td>[Merton, R. C., 1973]</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Thus the quadrant area of the cross section of fundamental analysis based on sentiment analysis and asset allocation is a new topic for finance domain because of the limited relating research. This is our targeting research direction.</p>
+<h1 id="Research-Gaps"><a href="#Research-Gaps" class="headerlink" title="Research Gaps"></a>Research Gaps</h1><p>After reviewing the research progress in natural language processing, finance and information system, we can conclude a few research gaps as follow:</p>
+<ul>
+<li>Identifying suitable feature selection method is still an open problem;</li>
+<li>Sentence subjectivity classification and semantic structure identification are the most challenging problems;</li>
+<li>Deep learning is potentially useful in dealing with large feature space dimensions in textual corpus;</li>
+<li>Theories and models about the effect of public sentiment on investment decision is limited;</li>
+<li>Commercial sentiment analysis systems still use simplistic techniques in order to avoid open challenges. Thus directly using them can result in results far from satisfactory;</li>
+<li>Investigate the use of novel machine learning methods for optimal assets allocation is limited.</li>
+</ul>
+<p>These research gaps can point out a quite clear research direction for us and we will discuss the possible research questions in the following session.</p>
+<h1 id="Research-Questions-Possible-Theories-and-Methods"><a href="#Research-Questions-Possible-Theories-and-Methods" class="headerlink" title="Research Questions, Possible Theories and Methods"></a>Research Questions, Possible Theories and Methods</h1><p>We can model the process of the information effect on assets allocation into three steps as depicted in Figure 11. The process 1 represents the effects of market information on public mood/sentiment, which can be extracted taking use of sentiment analysis techniques. And the process 2 illustrates the effects of public mood on the decision-making of investors, which can be supported by the behavioral finance studies. If we regard the investors as agents in the markets, then our goal is risk management rather than making profit through prediction. Finally, the process 3 portraits the dynamical optimization process of portfolio based on the investors&#x2019; decision-making. Then we can propose two possible studies as follow:</p>
+<p>Figure 11. Diagram of model the process of the information effect on assets allocation<br><img src="/images/ResearchQuestion.png" alt=""></p>
+<h2 id="Study-1"><a href="#Study-1" class="headerlink" title="Study 1"></a>Study 1</h2><p>Use deep learning and feature engineering techniques, can we achieve higher precision and recall for sentiment analysis on financial market information and how to take use of public sentiment to make decision on investment? (Process 1&amp;2)</p>
+<p>The research question of process 1 of Study 1 is: How can market information affect the public mood? And we can take use of Aspect-level Sentiment Analysis and Subjectivity Detection [Jakob &amp; Gurevych, 2010; Hai et al, 2011] to generate more fin-grained analysis of public mood. Other possible techniques might be helpful: Fact detection [Hassan, et al, 2015(a), 2015(b)], Context-aware [Jindal &amp; Liu, 2006; Ding et al, 2009], Deep Learning with Strength of Sentiment [Ghiassi et al, 2016] and so on.</p>
+<p>For the process 2, the research question should be: How can public mood affect the investment decision of investors? And there are already several theories in Behavioral Finance that can be useful, such as Theory of Social Mood [Nofsinger, 2005].</p>
+<p>What&#x2019;s more, we will taking use of secondary data method and text mining techniques to fulfill the study. We can apply dictionary named CUVOALD and use financial domain knowledge such as Wall Street Journal to generate lexicon. As for the corpus, social media and online news articles can be effective for our purpose. And the general resources are listed as follow:</p>
+<ul>
+<li>Financial News: WSJ, Reuters, Yahoo!Finance. [Tetlock et al, 2008]</li>
+<li>Company annual reports, press releases &amp; corporate disclosures [Chatrath et al, 2014; Huang, Liao et al, 2010]</li>
+<li>Online Forums: Seeking Alpha [Chen et al. 2014]</li>
+<li>Social media: Tweeter, IMDB etc. [Das et al. 2007; Bollen et al. 2011]</li>
+<li>Financial Data: S&amp;P500, Dow Jones</li>
+</ul>
+<h2 id="Study-2"><a href="#Study-2" class="headerlink" title="Study 2"></a>Study 2</h2><p>How can public sentiment dynamically affect asset allocation strategy? (Process 2&amp;3)</p>
+<p>This is still an open problems and a really challenge for us. Limited studies have been done in this area. However, there are still a few research works that can be useful, such as [Helmbold et al. 1988; Agarwal et al. 2006)]. We might also take use of Stochastic Control Theory and Reinforcement learning [Moody &amp; Saffell, 2001] to solve this problem. However, much more work needs to be done here.</p>
+<h1 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h1><p>With the increasing development of Internet, the sentiment analysis has been a promising and distinguishing tool for different research areas. Collecting opinions on web was a challenging but practical at nowadays, which definitely will have huge impact on academia and our daily life. Because we can transfer from the era of information retrieval to opinion retrieval, which can help us portraits the subjective map of the world rather than the facts. Understanding what people talk about can be much more feasible and deeper in semantic and syntax with the help of sentiment analysis and machine learning.</p>
+<p>And finance is the heart of society, which means that opinion mining can also be very important in this domain, especially in wealth management. Asset allocation based on text mining is an emerging research area but as for sentiment analysis, there is limited studies. With the huge interest and emphasis on this topic from financial industry and the remaining challenges for the academia, we can believe that automatic asset allocation based on sentiment analysis and machine learning could be a promising and an interesting research topic.</p>
+<h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><ol>
+<li>Abbasi, A. (2007, May). Affect intensity analysis of dark web forums. In Intelligence and Security Informatics, 2007 IEEE (pp. 282-288). IEEE.</li>
+<li>Agarwal, A., Hazan, E., Kale, S., &amp; Schapire, R. E. (2006, June). Algorithms for portfolio management based on the newton method. In Proceedings of the 23rd international conference on Machine learning (pp. 9-16). ACM.</li>
+<li>Antweiler, W., &amp; Frank, M. Z. (2004). Is all that talk just noise? The information content of internet stock message boards. The Journal of Finance, 59(3), 1259-1294.</li>
+<li>Bahrepour, M., Akbarzadeh-T, M. R., Yaghoobi, M., &amp; Naghibi-S, M. B. (2011). An adaptive ordered fuzzy time series with application to FOREX. Expert Systems with Applications, 38(1), 475-485.</li>
+<li>Bauman, W. S., Conover, C. M., &amp; Miller, R. E. (1998). Growth versus value and large-cap versus small-cap stocks in international markets. Financial Analysts Journal, 54(2), 75-89.</li>
+<li>Bifet, A., &amp; Frank, E. (2010, October). Sentiment knowledge discovery in twitter streaming data. In International conference on discovery science (pp. 1-15). Springer, Berlin, Heidelberg.</li>
+<li>Black, F., &amp; Litterman, R. (1992). Global portfolio optimization. Financial analysts journal, 48(5), 28-43.</li>
+<li>Bollen, J., Mao, H., &amp; Zeng, X. (2011). Twitter mood predicts the stock market. Journal of computational science, 2(1), 1-8.</li>
+<li>Cambria, E. (2016). Affective computing and sentiment analysis. IEEE Intelligent Systems, 31(2), 102-107.</li>
+<li>Cavalcante, R. C., Brasileiro, R. C., Souza, V. L., Nobrega, J. P., &amp; Oliveira, A. L. (2016). Computational intelligence and financial markets: A survey and future directions. Expert Systems with Applications, 55, 194-211.</li>
+<li>Chatrath, A., Miao, H., Ramchander, S., &amp; Villupuram, S. (2014). Currency jumps, cojumps and the role of macro news. Journal of International Money and Finance, 40, 42-62.</li>
+<li>Chen, H., De, P., Hu, Y., &amp; Hwang, B. H. (2014). Wisdom of crowds: The value of stock opinions transmitted through social media. The Review of Financial Studies, 27(5), 1367-1403.</li>
+<li>Chenlo, J. M., &amp; Losada, D. E. (2014). An empirical study of sentence features for subjectivity and polarity classification. Information Sciences, 280, 275-288.</li>
+<li>Das, S. R., &amp; Chen, M. Y. (2007). Yahoo! for Amazon: Sentiment extraction from small talk on the web. Management science, 53(9), 1375-1388.</li>
+<li>Devitt, A., &amp; Ahmad, K. (2007, June). Sentiment polarity identification in financial news: A cohesion-based approach. In ACL (Vol. 7, pp. 1-8).</li>
+<li>Ding, X., Liu, B., &amp; Zhang, L. (2009, June). Entity discovery and assignment for opinion mining applications. In Proceedings of the 15th ACM SIGKDD international conference on Knowledge discovery and data mining (pp. 1125-1134). ACM.</li>
+<li>Dolan, R. J. (2002). Emotion, cognition, and behavior. science, 298(5596), 1191-1194.</li>
+<li>Dragut, E. C., Yu, C., Sistla, P., &amp; Meng, W. (2010, October). Construction of a sentimental word dictionary. In Proceedings of the 19th ACM international conference on Information and knowledge management (pp. 1761-1764). ACM.</li>
+<li>Du, W., Tan, S., Cheng, X., &amp; Yun, X. (2010, February). Adapting information bottleneck method for automatic construction of domain-oriented sentiment lexicon. In Proceedings of the third ACM international conference on Web search and data mining (pp. 111-120). ACM.</li>
+<li>Fama, E. F. (1965). The behavior of stock-market prices. The journal of Business, 38(1), 34-105.</li>
+<li>Fama, E. F., &amp; French, K. R. (1993). Common risk factors in the returns on stocks and bonds. Journal of financial economics, 33(1), 3-56.</li>
+<li>Feldman, R. (2013). Techniques and applications for sentiment analysis. Communications of the ACM, 56(4), 82-89.</li>
+<li>Ghiassi, M., Skinner, J., &amp; Zimbra, D. (2013). Twitter brand sentiment analysis: A hybrid system using n-gram analysis and dynamic artificial neural network. Expert Systems with applications, 40(16), 6266-6282.</li>
+<li>Hai, Z., Chang, K., &amp; Kim, J. J. (2011). Implicit feature identification via co-occurrence association rule mining. Computational Linguistics and Intelligent Text Processing, 393-404.</li>
+<li>Hakansson, N. H., &amp; Ziemba, W. T. (2011). Capital growth theory. In THE KELLY CAPITAL GROWTH INVESTMENT CRITERION: THEORY and PRACTICE (pp. 577-598).</li>
+<li>Hatzivassiloglou, V., &amp; McKeown, K. R. (1997, July). Predicting the semantic orientation of adjectives. In Proceedings of the eighth conference on European chapter of the Association for Computational Linguistics (pp. 174-181). Association for Computational Linguistics.</li>
+<li>Helmbold, D. P., Schapire, R. E., Singer, Y., &amp; Warmuth, M. K. (1998). On-Line Portfolio Selection Using Multiplicative Updates. Mathematical Finance, 8(4), 325-347.</li>
+<li>Hu, M., &amp; Liu, B. (2004, August). Mining and summarizing customer reviews. In Proceedings of the tenth ACM SIGKDD international conference on Knowledge discovery and data mining (pp. 168-177). ACM.</li>
+<li>Huang, C. J., Liao, J. J., Yang, D. X., Chang, T. Y., &amp; Luo, Y. C. (2010). Realization of a news dissemination agent based on weighted association rules and text mining techniques. Expert Systems with Applications, 37(9), 6409-6413.</li>
+<li>Jakob, N., &amp; Gurevych, I. (2010, October). Extracting opinion targets in a single-and cross-domain setting with conditional random fields. In Proceedings of the 2010 conference on empirical methods in natural language processing (pp. 1035-1045). Association for Computational Linguistics.</li>
+<li>Jin, F., Self, N., Saraf, P., Butler, P., Wang, W., &amp; Ramakrishnan, N. (2013, August). Forex-foreteller: Currency trend modeling using news articles. In Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining (pp. 1470-1473). ACM.</li>
+<li>Jindal, N., &amp; Liu, B. (2006, August). Identifying comparative sentences in text documents. In Proceedings of the 29th annual international ACM SIGIR conference on Research and development in information retrieval (pp. 244-251). ACM.</li>
+<li>Kahneman, D., &amp; Tversky, A. (2013). Prospect theory: An analysis of decision under risk. In HANDBOOK OF THE FUNDAMENTALS OF FINANCIAL DECISION MAKING: Part I (pp. 99-127).</li>
+<li>Kamps, J., Marx, M., Mokken, R. J., &amp; De Rijke, M. (2004, May). Using WordNet to Measure Semantic Orientations of Adjectives. In LREC (Vol. 4, pp. 1115-1118).</li>
+<li>Kamvar, S. D., Schlosser, M. T., &amp; Garcia-Molina, H. (2003, May). The eigentrust algorithm for reputation management in p2p networks. In Proceedings of the 12th international conference on World Wide Web (pp. 640-651). ACM.</li>
+<li>Kastner, I., &amp; Monz, C. (2009, March). Automatic single-document key fact extraction from newswire articles. In Proceedings of the 12th Conference of the European Chapter of the Association for Computational Linguistics (pp. 415-423). Association for Computational Linguistics.</li>
+<li>Kelly Jr, J. L. (2011). A new interpretation of information rate. In The Kelly Capital Growth Investment Criterion: Theory and Practice (pp. 25-34).</li>
+<li>Kim, S. M., &amp; Hovy, E. H. (2007, June). Crystal: Analyzing Predictive Opinions on the Web. In EMNLP-CoNLL (pp. 1056-1064).</li>
+<li>Kom Samo, Y. L., &amp; Vervuurt, A. (2016). Stochastic portfolio theory: a machine learning perspective.</li>
+<li>Kumar, B. S., &amp; Ravi, V. (2016). A survey of the applications of text mining in financial domain. Knowledge-Based Systems, 114, 128-147.</li>
+<li>Lafferty, J., McCallum, A., &amp; Pereira, F. C. (2001). Conditional random fields: Probabilistic models for segmenting and labeling sequence data.</li>
+<li>Lita, L. V., Schlaikjer, A. H., Hong, W., &amp; Nyberg, E. (2005, July). Qualitative dimensions in question answering: Extending the definitional QA task. In PROCEEDINGS OF THE NATIONAL CONFERENCE ON ARTIFICIAL INTELLIGENCE (Vol. 20, No. 4, p. 1616). Menlo Park, CA; Cambridge, MA; London; AAAI Press; MIT Press; 1999.</li>
+<li>Li, B., &amp; Hoi, S. C. (2014). Online portfolio selection: A survey. ACM Computing Surveys (CSUR), 46(3), 35.</li>
+<li>Liu, B. (2012). Sentiment analysis and opinion mining. Synthesis lectures on human language technologies, 5(1), 1-167.</li>
+<li>Markowitz, H. (1952). Portfolio selection. The journal of finance, 7(1), 77-91.</li>
+<li>Markowitz, H. (1959). Portfolio Selection, Efficent Diversification of Investments. J. Wiley.</li>
+<li>Markowitz, H. M., &amp; Todd, G. P. (2000). Mean-variance analysis in portfolio choice and capital markets (Vol. 66). John Wiley &amp; Sons.</li>
+<li>Malkiel, B. G., &amp; Fama, E. F. (1970). Efficient capital markets: A review of theory and empirical work. The journal of Finance, 25(2), 383-417.</li>
+<li>Merton, R. C. (1973). Theory of rational option pricing. The Bell Journal of economics and management science, 141-183.</li>
+<li>Mishne, G., &amp; Glance, N. S. (2006, March). Predicting Movie Sales from Blogger Sentiment. In AAAI Spring Symposium: Computational Approaches to Analyzing Weblogs (pp. 155-158).</li>
+<li>Moody, J., &amp; Saffell, M. (2001). Learning to trade via direct reinforcement. IEEE transactions on neural Networks, 12(4), 875-889.</li>
+<li>Musto, C., Semeraro, G., Lops, P., de Gemmis, M., &amp; Lekkas, G. (2015). Personalized finance advisory through case-based recommender systems and diversification strategies. Decision Support Systems, 77, 100-111.</li>
+<li>Nofsinger, J. R. (2005). Social mood and financial economics. The Journal of Behavioral Finance, 6(3), 144-160.</li>
+<li>Pang, B., Lee, L., &amp; Vaithyanathan, S. (2002, July). Thumbs up?: sentiment classification using machine learning techniques. In Proceedings of the ACL-02 conference on Empirical methods in natural language processing-Volume 10 (pp. 79-86). Association for Computational Linguistics.</li>
+<li>Pang, B., &amp; Lee, L. (2004, July). A sentimental education: Sentiment analysis using subjectivity summarization based on minimum cuts. In Proceedings of the 42nd annual meeting on Association for Computational Linguistics (p. 271). Association for Computational Linguistics.</li>
+<li>Peng, W., &amp; Park, D. H. (2004). Generate adjective sentiment dictionary for social media sentiment analysis using constrained nonnegative matrix factorization. Urbana, 51, 61801.</li>
+<li>Peramunetilleke, D., &amp; Wong, R. K. (2002). Currency exchange rate forecasting from news headlines. Australian Computer Science Communications, 24(2), 131-139.</li>
+<li>Popescu, A. M., &amp; Etzioni, O. (2007). Extracting product features and opinions from reviews. In Natural language processing and text mining (pp. 9-28). Springer, London.</li>
+<li>Premanode, B., &amp; Toumazou, C. (2013). Improving prediction of exchange rates using Differential EMD. Expert systems with applications, 40(1), 377-384.</li>
+<li>Qiu, G., Liu, B., Bu, J., &amp; Chen, C. (2009, July). Expanding domain sentiment lexicon through double propagation. In IJCAI (Vol. 9, pp. 1199-1204).</li>
+<li>Ross, S. A. (2013). The arbitrage theory of capital asset pricing. In HANDBOOK OF THE FUNDAMENTALS OF FINANCIAL DECISION MAKING: Part I (pp. 11-30).</li>
+<li>Roy, A. D. (1952). Safety first and the holding of assets. Econometrica: Journal of the Econometric Society, 431-449.</li>
+<li>Schumaker, R. P., &amp; Chen, H. (2009). Textual analysis of stock market prediction using breaking financial news: The AZFin text system. ACM Transactions on Information Systems (TOIS), 27(2), 12.</li>
+<li>Schumaker, R. P., Zhang, Y., Huang, C. N., &amp; Chen, H. (2012). Evaluating sentiment in financial news articles. Decision Support Systems, 53(3), 458-464.</li>
+<li>Seo, Y. W., Giampapa, J., &amp; Sycara, K. (2002). Text classification for intelligent portfolio management (No. CMU-RI-TR-02-14). CARNEGIE-MELLON UNIV PITTSBURGH PA ROBOTICS INST.</li>
+<li>Seo, Y. W., Giampapa, J. A., &amp; Sycara, K. (2004). Financial news analysis for intelligent portfolio management.</li>
+<li>Sermpinis, G., Dunis, C., Laws, J., &amp; Stasinakis, C. (2012). Forecasting and trading the EUR/USD exchange rate with stochastic Neural Network combination and time-varying leverage. Decision Support Systems, 54(1), 316-329.</li>
+<li>Sharpe, W. F. (1964). Capital asset prices: A theory of market equilibrium under conditions of risk. The journal of finance, 19(3), 425-442.</li>
+<li>Somasundaran, S., Wilson, T., Wiebe, J., &amp; Stoyanov, V. (2007, March). QA with Attitude: Exploiting Opinion Type Analysis for Improving Question Answering in On-line Discussions and the News. In ICWSM.</li>
+<li>Spertus, E. (1997, July). Smokey: Automatic recognition of hostile messages. In AAAI/IAAI (pp. 1058-1065).</li>
+<li>Stepinski, A., &amp; Mittal, V. (2007, July). A fact/opinion classifier for news articles. In Proceedings of the 30th annual international ACM SIGIR conference on Research and development in information retrieval (pp. 807-808). ACM.</li>
+<li>Stoyanov, V., Cardie, C., &amp; Wiebe, J. (2005, October). Multi-perspective question answering using the OpQA corpus. In Proceedings of the conference on Human Language Technology and Empirical Methods in Natural Language Processing (pp. 923-930). Association for Computational Linguistics.</li>
+<li>Tatemura, J. (2000, January). Virtual reviewers for collaborative exploration of movie reviews. In Proceedings of the 5th international conference on Intelligent user interfaces (pp. 272-275). ACM.</li>
+<li>Terveen, L., Hill, W., Amento, B., McDonald, D., &amp; Creter, J. (1997). PHOAKS: A system for sharing recommendations. Communications of the ACM, 40(3), 59-62.</li>
+<li>Tetlock, P. C., Saar-Tsechansky, M., &amp; Macskassy, S. (2008). More than words: Quantifying language to measure firms&#x2019; fundamentals. The Journal of Finance, 63(3), 1437-1467.</li>
+<li>Turney, P. D. (2002, July). Thumbs up or thumbs down?: semantic orientation applied to unsupervised classification of reviews. In Proceedings of the 40th annual meeting on association for computational linguistics (pp. 417-424). Association for Computational Linguistics.</li>
+<li>Vu, T. T., Chang, S., Ha, Q. T., &amp; Collier, N. (2012). An experiment in integrating sentiment features for tech stock prediction in twitter.</li>
+<li>Wiebe, J., &amp; Riloff, E. (2005, February). Creating Subjective and Objective Sentence Classifiers from Unannotated Texts. In CICLing (Vol. 5, pp. 486-497).</li>
+<li>Wu, Y., Zhang, Q., Huang, X., &amp; Wu, L. (2009, August). Phrase dependency parsing for opinion mining. In Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing: Volume 3-Volume 3 (pp. 1533-1541). Association for Computational Linguistics.</li>
+<li>Yu, H., &amp; Hatzivassiloglou, V. (2003, July). Towards answering opinion questions: Separating facts from opinions and identifying the polarity of opinion sentences. In Proceedings of the 2003 conference on Empirical methods in natural language processing (pp. 129-136). Association for Computational Linguistics.</li>
+<li>Yu, H., Nartea, G. V., Gan, C., &amp; Yao, L. J. (2013). Predictive ability and profitability of simple technical trading rules: Recent evidence from Southeast Asian stock markets. International Review of Economics &amp; Finance, 25, 356-371.</li>
+<li>Yu, Y., Duan, W., &amp; Cao, Q. (2013). The impact of social and conventional media on firm equity value: A sentiment analysis approach. Decision Support Systems, 55(4), 919-926.</li>
+</ol>
+<blockquote id="fn_1">
+<sup>1</sup>. Deloitte, The expansion of Robo-Advisory in Wealth Management, 2016<a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#x21A9;</a>
+</blockquote>
+
+      
+    </div>
+    
+    
+    
+
+    <div>
+    
+      <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------End of post<i class="fa fa-flag"></i>Thanks for your time-------------</div>
+    
+</div>
+
+    
+    </div>
+
+    
+      <div>
+        <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="/qrcode_for_wechat_bdg.jpg" alt="BDG飽蠹閣 wechat" style="width: 200px; max-width: 100%;"/>
+    <div>Enjoy it? Subscribe to my blog by scanning my public wechat account</div>
+</div>
+
+      </div>
+    
+
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>Post author:</strong>
+    BDG飽蠹閣
+  </li>
+  <li class="post-copyright-link">
+    <strong>Post link:</strong>
+    <a href="http://blog.baoduge.com/literature_review_saf/" title="Literature Review: Asset Allocation based on Sentiment Analysis and Machine Learning">http://blog.baoduge.com/literature_review_saf/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice: </strong>
+    All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> unless stating additionally.
+  </li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/research/" rel="tag"># research</a>
+          
+            <a href="/tags/machine-learning/" rel="tag"># machine_learning</a>
+          
+            <a href="/tags/sentiment-analysis/" rel="tag"># sentiment_analysis</a>
+          
+            <a href="/tags/literature-review/" rel="tag"># literature_review</a>
+          
+            <a href="/tags/finance/" rel="tag"># finance</a>
+          
+        </div>
+      
+
+      
+      
+        <div class="post-widgets">
+        
+          <div class="wp_rating">
+            <div style="color:rgb(0, 0, 0); font-size:13px; letter-spacing:3px;">Rate this post</div>
+            <div id="wpac-rating"></div>
+          </div>
+        
+
+        
+        </div>
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/Structural_Model/" rel="next" title="Notes on the Structural Modeling">
+                <i class="fa fa-chevron-left"></i> Notes on the Structural Modeling
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/pdf_pandoc_command/" rel="prev" title="How to convert Markdown into PDF file">
+                How to convert Markdown into PDF file <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+      <div id="sidebar-dimmer"></div>
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          
+            <img class="site-author-image" itemprop="image"
+              src="http://baoduge.com/My/avatar.gif"
+              alt="BDG飽蠹閣" />
+          
+            <p class="site-author-name" itemprop="name">BDG飽蠹閣</p>
+            <p class="site-description motion-element" itemprop="description"></p>
+        </div>
+
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+            
+              <a href="/archives">
+            
+                <span class="site-state-item-count">30</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">categories</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">83</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/vincent27hugh" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>GitHub</a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="mailto:huweihugh@gmail.com" target="_blank" title="E-Mail">
+                  
+                    <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://baoduge.com/" title="飽蠹閣BAODUGE" target="_blank">飽蠹閣BAODUGE</a>
+                </li>
+              
+            </ul>
+            
+            <div id="days"></div>
+</script>
+<script language="javascript">
+function show_date_time(){
+window.setTimeout("show_date_time()", 1000);
+BirthDay=new Date("09/08/2017 00:00:00");
+today=new Date();
+timeold=(today.getTime()-BirthDay.getTime());
+sectimeold=timeold/1000
+secondsold=Math.floor(sectimeold);
+msPerDay=24*60*60*1000
+e_daysold=timeold/msPerDay
+daysold=Math.floor(e_daysold);
+e_hrsold=(e_daysold-daysold)*24;
+hrsold=setzero(Math.floor(e_hrsold));
+e_minsold=(e_hrsold-hrsold)*60;
+minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+seconds=setzero(Math.floor((e_minsold-minsold)*60));
+document.getElementById('days').innerHTML="Has been runing "+daysold+" Days "+hrsold+" Hours "+minsold+" Min "+seconds+" Sec ";
+}
+function setzero(i){
+if (i<10)
+{i="0" + i};
+return i;
+}
+show_date_time();
+</script>
+
+          </div>
+        
+
+        <div id="days"></div>
+</script>
+<script language="javascript">
+function show_date_time(){
+window.setTimeout("show_date_time()", 1000);
+BirthDay=new Date("09/08/2017 00:00:00");
+today=new Date();
+timeold=(today.getTime()-BirthDay.getTime());
+sectimeold=timeold/1000
+secondsold=Math.floor(sectimeold);
+msPerDay=24*60*60*1000
+e_daysold=timeold/msPerDay
+daysold=Math.floor(e_daysold);
+e_hrsold=(e_daysold-daysold)*24;
+hrsold=setzero(Math.floor(e_hrsold));
+e_minsold=(e_hrsold-hrsold)*60;
+minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+seconds=setzero(Math.floor((e_minsold-minsold)*60));
+document.getElementById('days').innerHTML="Has been runing "+daysold+" Days "+hrsold+" Hours "+minsold+" Min "+seconds+" Sec ";
+}
+function setzero(i){
+if (i<10)
+{i="0" + i};
+return i;
+}
+show_date_time();
+</script>
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Motivation"><span class="nav-number">1.</span> <span class="nav-text">Motivation</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Background-Investigation"><span class="nav-number">2.</span> <span class="nav-text">Background Investigation</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Financial-Theories"><span class="nav-number">2.1.</span> <span class="nav-text">Financial Theories</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Sentiment-Analysis"><span class="nav-number">2.2.</span> <span class="nav-text">Sentiment Analysis</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Definition-of-Sentiment-Analysis"><span class="nav-number">2.2.1.</span> <span class="nav-text">Definition of Sentiment Analysis</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generic-Architecture-and-Components-of-Sentiment-Analysis-System"><span class="nav-number">2.2.2.</span> <span class="nav-text">Generic Architecture and Components of Sentiment Analysis System</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Types-of-Sentiment-Analysis"><span class="nav-number">2.2.3.</span> <span class="nav-text">Types of Sentiment Analysis</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Applications-of-Sentiment-Analysis"><span class="nav-number">2.3.</span> <span class="nav-text">Applications of Sentiment Analysis</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Sentiment-Analysis-in-Finance"><span class="nav-number">2.4.</span> <span class="nav-text">Sentiment Analysis in Finance</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Financial-Theories-for-Asset-Allocation"><span class="nav-number">2.5.</span> <span class="nav-text">Financial Theories for Asset Allocation</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Research-Gaps"><span class="nav-number">3.</span> <span class="nav-text">Research Gaps</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Research-Questions-Possible-Theories-and-Methods"><span class="nav-number">4.</span> <span class="nav-text">Research Questions, Possible Theories and Methods</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Study-1"><span class="nav-number">4.1.</span> <span class="nav-text">Study 1</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Study-2"><span class="nav-number">4.2.</span> <span class="nav-text">Study 2</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Conclusion"><span class="nav-number">5.</span> <span class="nav-text">Conclusion</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Reference"><span class="nav-number">6.</span> <span class="nav-text">Reference</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2017 &mdash; 
+  <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">BDG飽蠹閣</span>
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" href="https://hexo.io">Hexo</a></div>
+
+  <span class="post-meta-divider">|</span>
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.2</div>
+
+  <div>
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  Total Visits: <span id="busuanzi_value_site_pv"></span> &nbsp&nbsp&nbsp
+  Total Visitors: <span id="busuanzi_value_site_uv"></span>
+</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+  
+  <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.2"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.2"></script>
+
+
+
+  
+  
+
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://baoduge.disqus.com/count.js" async></script>
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://blog.baoduge.com/literature_review_saf/';
+          this.page.identifier = 'literature_review_saf/';
+          this.page.title = 'Literature Review: Asset Allocation based on Sentiment Analysis and Machine Learning';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://baoduge.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('5');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("EkPIkYolbkzKanbzn4mNKpf7-gzGzoHsz", "lP1WbRwpyyu9r1NAqva2xWmS");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+  <script type="text/javascript">
+  wpac_init = window.wpac_init || [];
+  wpac_init.push({widget: 'Rating', id: 7746,
+    el: 'wpac-rating',
+    color: 'fc6423'
+  });
+  (function() {
+    if ('WIDGETPACK_LOADED' in window) return;
+    WIDGETPACK_LOADED = true;
+    var mc = document.createElement('script');
+    mc.type = 'text/javascript';
+    mc.async = true;
+    mc.src = '//embed.widgetpack.com/widget.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+  })();
+  </script>
+
+
+  
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+  
+
+  
+
+</body>
+</html>
