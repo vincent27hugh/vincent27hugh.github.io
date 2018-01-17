@@ -822,11 +822,11 @@ k_1 k_3 = 5 \beta \lambda p
             
             <tag> research </tag>
             
-            <tag> image </tag>
-            
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
+            
+            <tag> image </tag>
             
             <tag> mathjax </tag>
             
@@ -1174,9 +1174,11 @@ end
         
         <tags>
             
+            <tag> faicon </tag>
+            
             <tag> image </tag>
             
-            <tag> faicon </tag>
+            <tag> r_language </tag>
             
             <tag> nonlinear_equations </tag>
             
@@ -1187,8 +1189,6 @@ end
             <tag> fortran </tag>
             
             <tag> python </tag>
-            
-            <tag> r_language </tag>
             
             <tag> mathematica </tag>
             
@@ -1265,9 +1265,9 @@ end
         
         <tags>
             
-            <tag> image </tag>
-            
             <tag> faicon </tag>
+            
+            <tag> image </tag>
             
             <tag> mendeley </tag>
             
@@ -1616,11 +1616,11 @@ end
             
             <tag> research </tag>
             
-            <tag> image </tag>
-            
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
+            
+            <tag> image </tag>
             
             <tag> mathjax </tag>
             
@@ -1866,11 +1866,11 @@ end
             
             <tag> information_system </tag>
             
-            <tag> image </tag>
-            
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
+            
+            <tag> image </tag>
             
             <tag> mathjax </tag>
             
@@ -3504,11 +3504,11 @@ killall Finder
             
             <tag> machine_learning </tag>
             
-            <tag> image </tag>
-            
             <tag> sentiment_analysis </tag>
             
             <tag> natural_language_processing </tag>
+            
+            <tag> image </tag>
             
             <tag> hexo_pdf </tag>
             
@@ -3786,11 +3786,11 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
+            <tag> hexo_pdf </tag>
+            
             <tag> document_management </tag>
             
             <tag> bibtex </tag>
-            
-            <tag> hexo_pdf </tag>
             
             <tag> sublime_text_3 </tag>
             
@@ -4048,11 +4048,11 @@ Ref 2\cite{kom2016stochastic}
             
             <tag> hexo_pdf </tag>
             
+            <tag> tbc </tag>
+            
             <tag> robo_advisor </tag>
             
             <tag> fintech </tag>
-            
-            <tag> tbc </tag>
             
         </tags>
         
@@ -4149,7 +4149,7 @@ Ref 2\cite{kom2016stochastic}
 <tr>
 <td style="text-align:center">11</td>
 <td style="text-align:center"><a href="#OP11">MIT 18.650 Stat4App</a></td>
-<td style="text-align:center"><img src="http://progressed.io/bar/50?title=done" alt="11/22"></td>
+<td style="text-align:center"><img src="http://progressed.io/bar/67?title=done" alt="14/22"></td>
 </tr>
 <tr>
 <td style="text-align:center">12</td>
@@ -4337,7 +4337,7 @@ Ref 2\cite{kom2016stochastic}
 <li>Course Description: This course introduces students to probability and random variables. Topics include distribution functions, binomial, geometric, hypergeometric, and Poisson distributions. The other topics covered are uniform, exponential, normal, gamma and beta distributions; conditional probability; Bayes theorem; joint distributions; Chebyshev inequality; law of large numbers; and central limit theorem.</li>
 </ul>
 </li>
-<li><font color="#1E8449" size="2.5"><strong>$\mathbb{UG}$</strong>/<strong>$\mathbb{G}$</strong><span id="OP11"></span><strong>MIT 18.650 - Statistics for Applications by Prof. Philippe Rigollet, Fall 2016</strong></font>: 1h15min/Lec, 21 Lectures, <a href="https://ocw.mit.edu/courses/mathematics/18-650-statistics-for-applications-fall-2016/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP60uVBMaoNERc6knT_MgPKS0" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a> <i class="fa fa-play" aria-hidden="true"></i> <img src="http://progressed.io/bar/50?title=done" alt="11/22"><ul>
+<li><font color="#1E8449" size="2.5"><strong>$\mathbb{UG}$</strong>/<strong>$\mathbb{G}$</strong><span id="OP11"></span><strong>MIT 18.650 - Statistics for Applications by Prof. Philippe Rigollet, Fall 2016</strong></font>: 1h15min/Lec, 21 Lectures, <a href="https://ocw.mit.edu/courses/mathematics/18-650-statistics-for-applications-fall-2016/" target="_blank" rel="external">Course Page</a>, <a href="https://www.youtube.com/playlist?list=PLUl4u3cNGP60uVBMaoNERc6knT_MgPKS0" target="_blank" rel="external">Videos<i class="fa fa-youtube" aria-hidden="true"></i></a> <i class="fa fa-play" aria-hidden="true"></i> <img src="http://progressed.io/bar/67?title=done" alt="14/22"><ul>
 <li>Prerequisites: Probability theory at the level of <a href="https://ocw.mit.edu/courses/mathematics/18-440-probability-and-random-variables-spring-2014/" target="_blank" rel="external"><strong>18.440 Probability and Random Variables</strong></a>. Some linear algebra (matrices, vectors, eigenvalues).</li>
 <li>Course Description: This course offers an in-depth the theoretical foundations for statistical methods that are useful in many applications. The goal is to understand the role of mathematics in the research and development of efficient statistical methods.</li>
 <li>Rigollet&#x2019;s style is very competent, so you are suggested to watch the video in normal speed.</li>
@@ -4982,23 +4982,23 @@ Ref 2\cite{kom2016stochastic}
             
             <tag> machine_learning </tag>
             
-            <tag> markdown_table </tag>
-            
-            <tag> image </tag>
-            
             <tag> natural_language_processing </tag>
             
             <tag> deep_learning </tag>
             
-            <tag> hexo_pdf </tag>
+            <tag> markdown_table </tag>
             
-            <tag> github </tag>
+            <tag> image </tag>
+            
+            <tag> hexo_pdf </tag>
             
             <tag> finance </tag>
             
             <tag> economics </tag>
             
             <tag> mathematics </tag>
+            
+            <tag> github </tag>
             
             <tag> statistics </tag>
             
@@ -5343,9 +5343,9 @@ Ref 2\cite{kom2016stochastic}
             
             <tag> r_language </tag>
             
-            <tag> tbc </tag>
-            
             <tag> science_computing </tag>
+            
+            <tag> tbc </tag>
             
         </tags>
         
