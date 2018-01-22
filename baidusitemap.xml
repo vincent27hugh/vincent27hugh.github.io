@@ -5,25 +5,25 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2018-01-21T18:23:51.000Z</lastmod>
+    <lastmod>2018-01-22T06:26:55.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges: Data Science on IS</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>machine_learning</tag>
          
         <tag>natural_language_processing</tag>
+         
+        <tag>information_system</tag>
+         
+        <tag>deep_learning</tag>
          
         <tag>github</tag>
          
         <tag>markdown_table</tag>
          
         <tag>image</tag>
-         
-        <tag>deep_learning</tag>
          
         <tag>hexo_pdf</tag>
          
@@ -85,9 +85,11 @@
         <title>NEVERLAND - Blog Logs</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>study</tag>
-         
         <tag>research</tag>
+         
+        <tag>machine_learning</tag>
+         
+        <tag>study</tag>
          
         <tag>blog</tag>
          
@@ -98,8 +100,6 @@
         <tag>notes</tag>
          
         <tag>information_system</tag>
-         
-        <tag>machine_learning</tag>
          
         <tag>music</tag>
          
@@ -123,11 +123,11 @@
         
         <tag>research</tag>
          
-        <tag>machine_learning</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
+         
+        <tag>machine_learning</tag>
          
         <tag>finance</tag>
          
@@ -151,13 +151,13 @@
         
         <tag>research</tag>
          
-        <tag>machine_learning</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
          
         <tag>faicon</tag>
+         
+        <tag>machine_learning</tag>
          
         <tag>natural_language_processing</tag>
          
@@ -180,9 +180,9 @@
         <title>Notes on the Structural Modeling</title>
         <pubTime>2017-11-28T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>machine_learning</tag>
+         
+        <tag>information_system</tag>
          
         <tag>structural_modeling</tag>
          
@@ -352,11 +352,11 @@
         <title>用Sublime Text 3管理文献</title>
         <pubTime>2017-09-27T16:00:00.000Z</pubTime>
         
+        <tag>hexo_pdf</tag>
+         
         <tag>document_management</tag>
          
         <tag>bibtex</tag>
-         
-        <tag>hexo_pdf</tag>
          
         <tag>sublime_text_3</tag>
          
@@ -382,9 +382,9 @@
         <title>Introduction to Sentiment Analysis</title>
         <pubTime>2017-10-22T16:00:00.000Z</pubTime>
         
-        <tag>machine_learning</tag>
-         
         <tag>sentiment_analysis</tag>
+         
+        <tag>machine_learning</tag>
          
         <tag>natural_language_processing</tag>
          
@@ -446,9 +446,9 @@
         
         <tag>tutorial</tag>
          
-        <tag>sublime_text_3</tag>
-         
         <tag>latex</tag>
+         
+        <tag>sublime_text_3</tag>
          
         <tag>skim</tag>
          
@@ -472,11 +472,11 @@
         
         <tag>research</tag>
          
-        <tag>information_system</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
+         
+        <tag>information_system</tag>
          
         <tag>image</tag>
          
@@ -506,11 +506,11 @@
         <title>Deep Learning hardware</title>
         <pubTime>2017-11-07T16:00:00.000Z</pubTime>
         
-        <tag>tutorial</tag>
-         
         <tag>deep_learning</tag>
          
         <tag>hardware</tag>
+         
+        <tag>tutorial</tag>
          
          
            
@@ -530,11 +530,11 @@
         <title>virtualenv+tensorflow初体验</title>
         <pubTime>2017-10-12T16:00:00.000Z</pubTime>
         
-        <tag>python</tag>
-         
         <tag>machine_learning</tag>
          
         <tag>deep_learning</tag>
+         
+        <tag>python</tag>
          
         <tag>virtualenv</tag>
          
@@ -634,17 +634,17 @@
         
         <tag>research</tag>
          
-        <tag>information_system</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
          
+        <tag>information_system</tag>
+         
+        <tag>mathjax</tag>
+         
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
-         
-        <tag>mathjax</tag>
          
          
            
@@ -664,9 +664,9 @@
         <title>Robo-Advisor Introduction</title>
         <pubTime>2017-09-13T16:00:00.000Z</pubTime>
         
-        <tag>tbc</tag>
-         
         <tag>hexo_pdf</tag>
+         
+        <tag>tbc</tag>
          
         <tag>robo_advisor</tag>
          
@@ -714,15 +714,13 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
-        <tag>python</tag>
-         
         <tag>faicon</tag>
+         
+        <tag>python</tag>
          
         <tag>image</tag>
          
         <tag>r_language</tag>
-         
-        <tag>mathjax</tag>
          
         <tag>nonlinear_equations</tag>
          
@@ -733,6 +731,8 @@
         <tag>fortran</tag>
          
         <tag>mathematica</tag>
+         
+        <tag>mathjax</tag>
          
          
            
@@ -752,9 +752,9 @@
         <title>Using MATLAB to batch search #citation of IS papers</title>
         <pubTime>2017-09-18T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>faicon</tag>
+         
+        <tag>information_system</tag>
          
         <tag>matlab</tag>
          
@@ -881,9 +881,9 @@
         <title>Linux/Mac Terminal Tutorial</title>
         <pubTime>2017-10-24T16:00:00.000Z</pubTime>
         
-        <tag>terminal</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>terminal</tag>
          
          
            
@@ -905,9 +905,9 @@
         
         <tag>hexo</tag>
          
-        <tag>github</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>github</tag>
          
          
            
