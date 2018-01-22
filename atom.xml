@@ -366,15 +366,15 @@
     
       <category term="notes" scheme="http://blog.baoduge.com/tags/notes/"/>
     
+      <category term="markdown_table" scheme="http://blog.baoduge.com/tags/markdown-table/"/>
+    
+      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
+    
       <category term="reputation_system" scheme="http://blog.baoduge.com/tags/reputation-system/"/>
     
       <category term="variable_type" scheme="http://blog.baoduge.com/tags/variable-type/"/>
     
       <category term="data_type" scheme="http://blog.baoduge.com/tags/data-type/"/>
-    
-      <category term="markdown_table" scheme="http://blog.baoduge.com/tags/markdown-table/"/>
-    
-      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
     
   </entry>
   
