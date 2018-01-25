@@ -1174,13 +1174,15 @@ end
         
         <tags>
             
-            <tag> python </tag>
-            
             <tag> faicon </tag>
+            
+            <tag> python </tag>
             
             <tag> image </tag>
             
             <tag> r_language </tag>
+            
+            <tag> mathjax </tag>
             
             <tag> nonlinear_equations </tag>
             
@@ -1191,8 +1193,6 @@ end
             <tag> fortran </tag>
             
             <tag> mathematica </tag>
-            
-            <tag> mathjax </tag>
             
         </tags>
         
@@ -1526,15 +1526,15 @@ end
             
             <tag> notes </tag>
             
+            <tag> markdown_table </tag>
+            
+            <tag> image </tag>
+            
             <tag> reputation_system </tag>
             
             <tag> variable_type </tag>
             
             <tag> data_type </tag>
-            
-            <tag> markdown_table </tag>
-            
-            <tag> image </tag>
             
         </tags>
         
@@ -1622,9 +1622,9 @@ end
             
             <tag> image </tag>
             
-            <tag> mathjax </tag>
-            
             <tag> opinion_mining </tag>
+            
+            <tag> mathjax </tag>
             
             <tag> feature_engineering </tag>
             
@@ -1872,13 +1872,13 @@ end
             
             <tag> image </tag>
             
-            <tag> mathjax </tag>
-            
             <tag> opinion_mining </tag>
             
             <tag> time_series </tag>
             
             <tag> finance </tag>
+            
+            <tag> mathjax </tag>
             
         </tags>
         
@@ -4048,11 +4048,11 @@ Ref 2\cite{kom2016stochastic}
             
             <tag> hexo_pdf </tag>
             
-            <tag> tbc </tag>
-            
             <tag> robo_advisor </tag>
             
             <tag> fintech </tag>
+            
+            <tag> tbc </tag>
             
         </tags>
         
@@ -4061,7 +4061,7 @@ Ref 2\cite{kom2016stochastic}
     <entry>
       <title><![CDATA[2017-18 Open-Course Challenges: Data Science on IS]]></title>
       <url>/2017_Study_Plan/</url>
-      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>Inspired by <a href="https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/" target="_blank" rel="external">Scott H.Young - MIT Challenges</a>, I decide to design an Open-course Challenges of 2017-18 for myself. I hope that I could accomplish these goals in time.</p>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>Inspired by <a href="https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/" target="_blank" rel="external">Scott H.Young - MIT Challenges</a>, I decide to design an Open-course Challenges of 2017-18 for myself.<sup><a href="#fn_0" id="reffn_0">0</a></sup> I hope that I could accomplish these goals in time.</p>
 <p>Good luck!</p>
 <hr>
 <h1 id="Statement"><a href="#Statement" class="headerlink" title="Statement"></a>Statement</h1><ol>
@@ -4983,6 +4983,9 @@ Ref 2\cite{kom2016stochastic}
 </ul>
 <hr>
 <h1 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h1><p><strong>Learn Anything</strong> is an Open Source Website built by community to Learn Anything with Interactive Maps: <a href="https://github.com/learn-anything/learn-anything#learn-anything---" target="_blank" rel="external">GitHub<i class="fa fa-github" aria-hidden="true"></i></a>, <a href="https://learn-anything.xyz/" target="_blank" rel="external">Home Page<i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+<blockquote id="fn_0">
+<sup>0</sup>. Similar Open-course lists include: <a href="https://github.com/mvillaloboz/open-source-cs-degree" target="_blank" rel="external">mvillaloboz/The Open-Source Computer Science Degree<i class="fa fa-github" aria-hidden="true"></i></a>, <a href="https://github.com/datasciencemasters/go" target="_blank" rel="external">datasciencemasters/The Open-Source Data Science Masters<i class="fa fa-github" aria-hidden="true"></i></a><a href="#reffn_0" title="Jump back to footnote [0] in the text."> &#x21A9;</a>
+</blockquote>
 <blockquote id="fn_1">
 <sup>1</sup>. <a href="https://www.quora.com/Whats-the-difference-between-Harvard-Stat-110-Probability-and-MIT-6-041-Probabilistic-Systems-Analysis-and-Applied-Probability" target="_blank" rel="external">Quora|What&#x2019;s the difference between Harvard Stat 110 (Probability) and MIT 6.041 (Probabilistic Systems Analysis and Applied Probability)?</a><a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#x21A9;</a>
 </blockquote>
@@ -5021,9 +5024,9 @@ Ref 2\cite{kom2016stochastic}
             
             <tag> finance </tag>
             
-            <tag> economics </tag>
-            
             <tag> mathematics </tag>
+            
+            <tag> economics </tag>
             
             <tag> statistics </tag>
             
@@ -5445,11 +5448,11 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
+            <tag> tbc </tag>
+            
             <tag> r_language </tag>
             
             <tag> science_computing </tag>
-            
-            <tag> tbc </tag>
             
         </tags>
         
