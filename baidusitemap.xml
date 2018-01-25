@@ -5,33 +5,33 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2018-01-25T09:19:37.000Z</lastmod>
+    <lastmod>2018-01-25T09:21:47.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges: Data Science on IS</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>machine_learning</tag>
          
         <tag>natural_language_processing</tag>
          
-        <tag>markdown_table</tag>
-         
-        <tag>image</tag>
+        <tag>information_system</tag>
          
         <tag>deep_learning</tag>
          
         <tag>github</tag>
          
+        <tag>markdown_table</tag>
+         
+        <tag>image</tag>
+         
         <tag>hexo_pdf</tag>
          
         <tag>finance</tag>
          
-        <tag>economics</tag>
-         
         <tag>mathematics</tag>
+         
+        <tag>economics</tag>
          
         <tag>statistics</tag>
          
@@ -85,9 +85,11 @@
         <title>NEVERLAND - Blog Logs</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>study</tag>
-         
         <tag>research</tag>
+         
+        <tag>machine_learning</tag>
+         
+        <tag>study</tag>
          
         <tag>blog</tag>
          
@@ -98,8 +100,6 @@
         <tag>notes</tag>
          
         <tag>information_system</tag>
-         
-        <tag>machine_learning</tag>
          
         <tag>music</tag>
          
@@ -123,11 +123,11 @@
         
         <tag>research</tag>
          
-        <tag>machine_learning</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
+         
+        <tag>machine_learning</tag>
          
         <tag>finance</tag>
          
@@ -151,13 +151,13 @@
         
         <tag>research</tag>
          
-        <tag>machine_learning</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
          
         <tag>faicon</tag>
+         
+        <tag>machine_learning</tag>
          
         <tag>natural_language_processing</tag>
          
@@ -180,9 +180,9 @@
         <title>Notes on the Structural Modeling</title>
         <pubTime>2017-11-28T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>machine_learning</tag>
+         
+        <tag>information_system</tag>
          
         <tag>structural_modeling</tag>
          
@@ -352,11 +352,11 @@
         <title>用Sublime Text 3管理文献</title>
         <pubTime>2017-09-27T16:00:00.000Z</pubTime>
         
+        <tag>hexo_pdf</tag>
+         
         <tag>document_management</tag>
          
         <tag>bibtex</tag>
-         
-        <tag>hexo_pdf</tag>
          
         <tag>sublime_text_3</tag>
          
@@ -382,9 +382,9 @@
         <title>Introduction to Sentiment Analysis</title>
         <pubTime>2017-10-22T16:00:00.000Z</pubTime>
         
-        <tag>machine_learning</tag>
-         
         <tag>sentiment_analysis</tag>
+         
+        <tag>machine_learning</tag>
          
         <tag>natural_language_processing</tag>
          
@@ -472,11 +472,11 @@
         
         <tag>research</tag>
          
-        <tag>information_system</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
+         
+        <tag>information_system</tag>
          
         <tag>image</tag>
          
@@ -634,11 +634,11 @@
         
         <tag>research</tag>
          
-        <tag>information_system</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
+         
+        <tag>information_system</tag>
          
         <tag>user_generated_content</tag>
          
@@ -664,13 +664,13 @@
         <title>Robo-Advisor Introduction</title>
         <pubTime>2017-09-13T16:00:00.000Z</pubTime>
         
+        <tag>hexo_pdf</tag>
+         
         <tag>tbc</tag>
          
         <tag>robo_advisor</tag>
          
         <tag>fintech</tag>
-         
-        <tag>hexo_pdf</tag>
          
          
            
@@ -752,9 +752,9 @@
         <title>Using MATLAB to batch search #citation of IS papers</title>
         <pubTime>2017-09-18T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>faicon</tag>
+         
+        <tag>information_system</tag>
          
         <tag>matlab</tag>
          
