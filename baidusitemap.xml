@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2018-01-25T08:56:40.000Z</lastmod>
+    <lastmod>2018-01-25T09:19:37.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges: Data Science on IS</title>
@@ -17,11 +17,11 @@
          
         <tag>natural_language_processing</tag>
          
-        <tag>deep_learning</tag>
-         
         <tag>markdown_table</tag>
          
         <tag>image</tag>
+         
+        <tag>deep_learning</tag>
          
         <tag>github</tag>
          
@@ -59,13 +59,13 @@
         <title>Conda Manual on MAC</title>
         <pubTime>2017-07-24T16:00:00.000Z</pubTime>
         
-        <tag>python</tag>
-         
-        <tag>terminal</tag>
-         
         <tag>anaconda</tag>
          
         <tag>conda</tag>
+         
+        <tag>python</tag>
+         
+        <tag>terminal</tag>
          
          
            
@@ -230,9 +230,9 @@
         
         <tag>image</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>hexo_pdf</tag>
+         
+        <tag>mathjax</tag>
          
         <tag>stochastic_process</tag>
          
@@ -266,9 +266,9 @@
         
         <tag>image</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>hexo_pdf</tag>
+         
+        <tag>mathjax</tag>
          
         <tag>stochastic_process</tag>
          
@@ -446,9 +446,9 @@
         
         <tag>tutorial</tag>
          
-        <tag>latex</tag>
-         
         <tag>sublime_text_3</tag>
+         
+        <tag>latex</tag>
          
         <tag>skim</tag>
          
@@ -532,9 +532,9 @@
         
         <tag>machine_learning</tag>
          
-        <tag>deep_learning</tag>
-         
         <tag>python</tag>
+         
+        <tag>deep_learning</tag>
          
         <tag>virtualenv</tag>
          
@@ -640,11 +640,11 @@
          
         <tag>literature_review</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
+         
+        <tag>mathjax</tag>
          
          
            
@@ -666,11 +666,11 @@
         
         <tag>tbc</tag>
          
-        <tag>hexo_pdf</tag>
-         
         <tag>robo_advisor</tag>
          
         <tag>fintech</tag>
+         
+        <tag>hexo_pdf</tag>
          
          
            
@@ -716,9 +716,13 @@
         
         <tag>faicon</tag>
          
+        <tag>python</tag>
+         
         <tag>image</tag>
          
         <tag>r_language</tag>
+         
+        <tag>mathjax</tag>
          
         <tag>nonlinear_equations</tag>
          
@@ -728,11 +732,7 @@
          
         <tag>fortran</tag>
          
-        <tag>python</tag>
-         
         <tag>mathematica</tag>
-         
-        <tag>mathjax</tag>
          
          
            
@@ -881,9 +881,9 @@
         <title>Linux/Mac Terminal Tutorial</title>
         <pubTime>2017-10-24T16:00:00.000Z</pubTime>
         
-        <tag>tutorial</tag>
-         
         <tag>terminal</tag>
+         
+        <tag>tutorial</tag>
          
          
            
