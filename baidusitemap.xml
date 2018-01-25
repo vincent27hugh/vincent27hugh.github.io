@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2018-01-25T08:24:16.000Z</lastmod>
+    <lastmod>2018-01-25T08:56:40.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges: Data Science on IS</title>
@@ -17,11 +17,11 @@
          
         <tag>natural_language_processing</tag>
          
+        <tag>deep_learning</tag>
+         
         <tag>markdown_table</tag>
          
         <tag>image</tag>
-         
-        <tag>deep_learning</tag>
          
         <tag>github</tag>
          
@@ -59,13 +59,13 @@
         <title>Conda Manual on MAC</title>
         <pubTime>2017-07-24T16:00:00.000Z</pubTime>
         
-        <tag>anaconda</tag>
-         
-        <tag>conda</tag>
-         
         <tag>python</tag>
          
         <tag>terminal</tag>
+         
+        <tag>anaconda</tag>
+         
+        <tag>conda</tag>
          
          
            
@@ -85,10 +85,6 @@
         <title>NEVERLAND - Blog Logs</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
-        <tag>notes</tag>
-         
         <tag>study</tag>
          
         <tag>research</tag>
@@ -98,6 +94,10 @@
         <tag>logs</tag>
          
         <tag>hexo</tag>
+         
+        <tag>notes</tag>
+         
+        <tag>information_system</tag>
          
         <tag>machine_learning</tag>
          
@@ -230,9 +230,9 @@
         
         <tag>image</tag>
          
-        <tag>hexo_pdf</tag>
-         
         <tag>mathjax</tag>
+         
+        <tag>hexo_pdf</tag>
          
         <tag>stochastic_process</tag>
          
@@ -266,9 +266,9 @@
         
         <tag>image</tag>
          
-        <tag>hexo_pdf</tag>
-         
         <tag>mathjax</tag>
+         
+        <tag>hexo_pdf</tag>
          
         <tag>stochastic_process</tag>
          
@@ -298,9 +298,9 @@
         <title>Resources & Tools of Information System Research</title>
         <pubTime>2017-10-23T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>research</tag>
+         
+        <tag>information_system</tag>
          
         <tag>markdown_table</tag>
          
@@ -470,9 +470,9 @@
         <title>Literature Review on Social Media in Financial Market</title>
         <pubTime>2017-11-01T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>research</tag>
+         
+        <tag>information_system</tag>
          
         <tag>sentiment_analysis</tag>
          
@@ -532,9 +532,9 @@
         
         <tag>machine_learning</tag>
          
-        <tag>python</tag>
-         
         <tag>deep_learning</tag>
+         
+        <tag>python</tag>
          
         <tag>virtualenv</tag>
          
@@ -632,9 +632,9 @@
         <title>Literature Review on UGC/WOM</title>
         <pubTime>2017-10-30T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>research</tag>
+         
+        <tag>information_system</tag>
          
         <tag>sentiment_analysis</tag>
          
@@ -716,8 +716,6 @@
         
         <tag>faicon</tag>
          
-        <tag>python</tag>
-         
         <tag>image</tag>
          
         <tag>r_language</tag>
@@ -729,6 +727,8 @@
         <tag>matlab</tag>
          
         <tag>fortran</tag>
+         
+        <tag>python</tag>
          
         <tag>mathematica</tag>
          
@@ -810,9 +810,9 @@
         <title>Can online scoring really reflects the rankings of products?</title>
         <pubTime>2017-10-29T16:00:00.000Z</pubTime>
         
-        <tag>notes</tag>
-         
         <tag>research</tag>
+         
+        <tag>notes</tag>
          
         <tag>mathjax</tag>
          
@@ -859,9 +859,9 @@
         <title>Experiments in IS research</title>
         <pubTime>2017-09-10T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>notes</tag>
+         
+        <tag>information_system</tag>
          
          
            
@@ -881,9 +881,9 @@
         <title>Linux/Mac Terminal Tutorial</title>
         <pubTime>2017-10-24T16:00:00.000Z</pubTime>
         
-        <tag>terminal</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>terminal</tag>
          
          
            
