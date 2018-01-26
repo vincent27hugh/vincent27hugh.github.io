@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2018-01-25T14:44:09.000Z</lastmod>
+    <lastmod>2018-01-26T03:11:48.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges: Data Science on IS</title>
@@ -23,11 +23,11 @@
          
         <tag>image</tag>
          
+        <tag>github</tag>
+         
         <tag>hexo_pdf</tag>
          
         <tag>finance</tag>
-         
-        <tag>github</tag>
          
         <tag>economics</tag>
          
@@ -446,9 +446,9 @@
         
         <tag>tutorial</tag>
          
-        <tag>latex</tag>
-         
         <tag>sublime_text_3</tag>
+         
+        <tag>latex</tag>
          
         <tag>skim</tag>
          
@@ -640,11 +640,11 @@
          
         <tag>literature_review</tag>
          
+        <tag>mathjax</tag>
+         
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
-         
-        <tag>mathjax</tag>
          
          
            
@@ -666,11 +666,11 @@
         
         <tag>hexo_pdf</tag>
          
+        <tag>tbc</tag>
+         
         <tag>robo_advisor</tag>
          
         <tag>fintech</tag>
-         
-        <tag>tbc</tag>
          
          
            
@@ -690,11 +690,11 @@
         <title>R语言的科学计算</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>tbc</tag>
-         
         <tag>r_language</tag>
          
         <tag>science_computing</tag>
+         
+        <tag>tbc</tag>
          
          
            
@@ -714,13 +714,11 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
-        <tag>faicon</tag>
-         
         <tag>python</tag>
          
-        <tag>image</tag>
+        <tag>faicon</tag>
          
-        <tag>mathjax</tag>
+        <tag>image</tag>
          
         <tag>nonlinear_equations</tag>
          
@@ -733,6 +731,8 @@
         <tag>r_language</tag>
          
         <tag>mathematica</tag>
+         
+        <tag>mathjax</tag>
          
          
            
