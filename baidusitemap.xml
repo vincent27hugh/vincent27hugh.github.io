@@ -17,21 +17,21 @@
          
         <tag>natural_language_processing</tag>
          
-        <tag>github</tag>
-         
         <tag>deep_learning</tag>
          
         <tag>markdown_table</tag>
          
         <tag>image</tag>
          
+        <tag>github</tag>
+         
         <tag>hexo_pdf</tag>
+         
+        <tag>finance</tag>
          
         <tag>economics</tag>
          
         <tag>mathematics</tag>
-         
-        <tag>finance</tag>
          
         <tag>statistics</tag>
          
@@ -482,11 +482,11 @@
          
         <tag>mathjax</tag>
          
-        <tag>finance</tag>
-         
         <tag>opinion_mining</tag>
          
         <tag>time_series</tag>
+         
+        <tag>finance</tag>
          
          
            
@@ -506,11 +506,11 @@
         <title>Deep Learning hardware</title>
         <pubTime>2017-11-07T16:00:00.000Z</pubTime>
         
-        <tag>tutorial</tag>
-         
         <tag>deep_learning</tag>
          
         <tag>hardware</tag>
+         
+        <tag>tutorial</tag>
          
          
            
@@ -905,9 +905,9 @@
         
         <tag>hexo</tag>
          
-        <tag>github</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>github</tag>
          
          
            

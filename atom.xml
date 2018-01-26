@@ -340,11 +340,11 @@
       <category term="中文" scheme="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
     
     
-      <category term="tutorial" scheme="http://blog.baoduge.com/tags/tutorial/"/>
-    
       <category term="deep_learning" scheme="http://blog.baoduge.com/tags/deep-learning/"/>
     
       <category term="hardware" scheme="http://blog.baoduge.com/tags/hardware/"/>
+    
+      <category term="tutorial" scheme="http://blog.baoduge.com/tags/tutorial/"/>
     
   </entry>
   
@@ -444,11 +444,11 @@
     
       <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
-      <category term="finance" scheme="http://blog.baoduge.com/tags/finance/"/>
-    
       <category term="opinion_mining" scheme="http://blog.baoduge.com/tags/opinion-mining/"/>
     
       <category term="time_series" scheme="http://blog.baoduge.com/tags/time-series/"/>
+    
+      <category term="finance" scheme="http://blog.baoduge.com/tags/finance/"/>
     
   </entry>
   
