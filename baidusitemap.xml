@@ -4,6 +4,32 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/Collection_Sentiment_Analysis_Tools/</loc>
+    <lastmod>2018-01-29T09:20:39.000Z</lastmod>
+    <data>
+        <display>
+        <title>Collection of materials on Sentiment Analysis</title>
+        <pubTime>2018-01-28T16:00:00.000Z</pubTime>
+        
+        <tag>research</tag>
+         
+        <tag>machine_learning</tag>
+         
+        <tag>sentiment_analysis</tag>
+         
+        <tag>deep_learning</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
     <lastmod>2018-01-28T05:34:41.000Z</lastmod>
     <data>
@@ -17,13 +43,13 @@
          
         <tag>natural_language_processing</tag>
          
-        <tag>markdown_table</tag>
-         
-        <tag>image</tag>
+        <tag>deep_learning</tag>
          
         <tag>github</tag>
          
-        <tag>deep_learning</tag>
+        <tag>markdown_table</tag>
+         
+        <tag>image</tag>
          
         <tag>hexo_pdf</tag>
          
@@ -352,11 +378,11 @@
         <title>用Sublime Text 3管理文献</title>
         <pubTime>2017-09-27T16:00:00.000Z</pubTime>
         
+        <tag>hexo_pdf</tag>
+         
         <tag>document_management</tag>
          
         <tag>bibtex</tag>
-         
-        <tag>hexo_pdf</tag>
          
         <tag>sublime_text_3</tag>
          
@@ -446,9 +472,9 @@
         
         <tag>tutorial</tag>
          
-        <tag>latex</tag>
-         
         <tag>sublime_text_3</tag>
+         
+        <tag>latex</tag>
          
         <tag>skim</tag>
          
@@ -506,11 +532,11 @@
         <title>Deep Learning hardware</title>
         <pubTime>2017-11-07T16:00:00.000Z</pubTime>
         
-        <tag>tutorial</tag>
-         
         <tag>deep_learning</tag>
          
         <tag>hardware</tag>
+         
+        <tag>tutorial</tag>
          
          
            
@@ -640,11 +666,11 @@
          
         <tag>literature_review</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
+         
+        <tag>mathjax</tag>
          
          
            
@@ -664,13 +690,13 @@
         <title>Robo-Advisor Introduction</title>
         <pubTime>2017-09-13T16:00:00.000Z</pubTime>
         
+        <tag>hexo_pdf</tag>
+         
         <tag>tbc</tag>
          
         <tag>robo_advisor</tag>
          
         <tag>fintech</tag>
-         
-        <tag>hexo_pdf</tag>
          
          
            
@@ -714,13 +740,15 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
-        <tag>python</tag>
-         
         <tag>faicon</tag>
+         
+        <tag>python</tag>
          
         <tag>image</tag>
          
         <tag>r_language</tag>
+         
+        <tag>mathjax</tag>
          
         <tag>nonlinear_equations</tag>
          
@@ -731,8 +759,6 @@
         <tag>fortran</tag>
          
         <tag>mathematica</tag>
-         
-        <tag>mathjax</tag>
          
          
            
@@ -905,9 +931,9 @@
         
         <tag>hexo</tag>
          
-        <tag>github</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>github</tag>
          
          
            

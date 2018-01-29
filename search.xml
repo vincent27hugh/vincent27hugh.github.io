@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Collection of materials on Sentiment Analysis]]></title>
+    <url>%2FCollection_Sentiment_Analysis_Tools%2F</url>
+    <content type="text"><![CDATA[Tutorials SENTIMENT ANALYSIS OF TWITTER FEEDS by Yogesh Garg, Dr. Niladri Chatterjee: GitHub GitHub|Sentiment Analysis on Twitte Sentiment140 by okugami79: R package for Twitter sentiment text analysis: GitHub Quora|How do I use the sentiment140 data set for doing sentiment analysis in Python Sentiment Symposium Tutorial: Language and cognition by Christopher Potts, Stanford Linguistics, 2011: Homepage Emotion Detection and Recognition from Text Using Deep Learning List of Machine Learning and Deep Learning from GitHub: ZhiHu Twitter-Sentiment-Analysis: GitHub, Videos FFNN: feed-foward neural network: GitHub This is an obsolete package for neural networks. However, I believe this package helps beginners to implement neural networks in a low-level fashion. Hence, the package might still be useful for pedagogical purposes. By &#x201C;feed-foward,&#x201D; I mean that all other structures (e.g., recurrent, recursive, convolutional) are unrolled to a feed-forward net. Also included is an example with LSTM-based network for question classification. Resources for deep learning: papers, articles, courses: GitHub psyyz10/TextClassification.md: This document summarizes some potentially useful papers and code repositories on Sentiment analysis / document classification: GitHubGist char-rnn: This code implements multi-layer Recurrent Neural Network (RNN, LSTM, and GRU) for training/sampling from character-level language models: GitHub Sentiment Analysis with LSTMs: GitHub Keras examples directory: GitHub Stock Market prediction using news headlines by Joshua van Kleef, Valerie Scholten and Emiel Stoelinga: EmielStoelinga/CCMLWI Aspect-Based Sentiment Analysis using Tree-Structured LSTMs: GitHub Stock_Market_Prediction: GitHub Stock Predictor and Portfolio Optimizer: GitHub Financial Portfolio Optimization: GitHub Tokenization Sentiment Tokenization Issues - Christopher Potts sentiment tokenizer Brendan Sentiment Tokenization Issues - O&#x2019;Connor twitter tokenizer Projects Social Media Data Mining on 2017 NBA Champ Sentiment Analysis on Reddit News Headlines with Python&#x2019;s Natural Language Toolkit (NLTK) knowsuchagency/mpb-sentiment-analysis-example Sentiment Analysis of Reddit AMAs datumbox/twitter-sentiment-analysis Tools Python NLTK (Natural Language Toolkit) R, TM (text mining) module Codes &amp; Packages &amp; API Sentiment140 by by Alec Go, Richa Bhayani, and Lei Huang: Homepage Sentiment140 allows you to discover the sentiment of a brand, product, or topic on Twitter sentiment viz - Tweet Sentiment Visualization NLP at Cornell: Movie Review Data by Bo Pang or Lillian Lee: Homepage Stanford Deeply Moving: Deep Learning for Sentiment Analysis: GitHub, Paper SentiBank: Visual Sentiment Ontology: Homepage, Paper Lin, C., &amp; He, Y. (2009, November). Joint sentiment/topic model for sentiment analysis. In Proceedings of the 18th ACM conference on Information and knowledge management (pp. 375-384). ACM.: GitHub, Paper Mesnil, G., Mikolov, T., Ranzato, M. A., &amp; Bengio, Y. (2014). Ensemble of generative and discriminative techniques for sentiment analysis of movie reviews. arXiv preprint arXiv:1412.5335.: GitHub, Paper Hagen, M., Potthast, M., B&#xFC;chner, M., &amp; Stein, B. (2015, March). Twitter sentiment detection via ensemble classification using averaged confidence scores. In European Conference on Information Retrieval (pp. 741-754). Springer, Cham.: GitHub, Paper A comparison of open source tools for sentiment analysis: Page, GitHub Using Structured Events to Predict Stock Price Movement: An Empirical Investigation: GitHub, Paper Document level/sentence level:CNN-based A convolutional neural network for modelling sentences: GitHub Convolutional neural networks for sentence classification: GitHub Character-level Convolutional Networks for Text Classification: GitHub Dependency Sensitive Convolutional Neural Networks for Modeling Sentences and Documents: GitHub Dependency-based Convolutional Neural Networks for Sentence Embedding: GitHub Discriminative Neural Sentence Modeling by Tree-Based Convolution Multichannel variable-size convolution for sentence classification. RNN-based TOPICRNN: A RECURRENT NEURAL NETWORK WITH LONG-RANGE SEMANTIC DEPENDENCY Deep recursive neural networks for compositionality in language: Homepage, GitHub|deep-recursive Improved semantic representations from tree- structured long short-term memory networks Document modeling with gated recurrent neural network for sentiment classification: Paper, Videos Hierarchical Attention Networks for Document Classification: Github Semi-supervised Variational Autoencoders for Text Classification_aaai Semi-supervised Sequence Learning Yu, A. W., Lee, H., &amp; Le, Q. V. (2017). Learning to skim text. arXiv preprint arXiv:1704.06877.: [Code] Neural Sentiment Classification with User and Product Attention: GitHub, Paper MLP-based Deep Unordered Composition Rivals Syntactic Methods for Text Classification Bag of Tricks for Efficient Text Classification Others Adversarial Multi-task Learning for Text Classification Harnessing Deep Neural Networks with Logic Rules Aspect level: Aspect-augmented Adversarial Networks for Domain Adaptation]]></content>
+      <categories>
+        <category>English</category>
+      </categories>
+      <tags>
+        <tag>research</tag>
+        <tag>machine_learning</tag>
+        <tag>sentiment_analysis</tag>
+        <tag>deep_learning</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[How to convert Markdown into PDF file]]></title>
     <url>%2Fpdf_pandoc_command%2F</url>
     <content type="text"><![CDATA[The working environment is: OS: Mac OS X EI Capitan Sublime Text 3 Take use of Sublime Text 3 (ST3) Package Unicode Character Highlighter to check whether the file contains unicode characters, such as Hanzi. Read more about ST3: SUBLIME TEXT&#x4E0B;&#x4F7F;&#x7528;MARKDOWN MARKDOWN+SUBLIME TEXT 3+PANDOC+MACTEX MAC&#x4E0A;&#x4F7F;&#x7528;SUBLIME TEXT3&#x7F16;&#x5199;LATEX &#x7528;Sublime Text 3&#x7BA1;&#x7406;&#x6587;&#x732E; If .md doesn&#x2019;t contains unicode charactersYou can directly use ST3 Package Pandoc to convert .md file into .pdf: Command+Shift+P Enter Pandoc Choose PDF Bingo! If .md contains unicode charactersIf the markdown file contains unicode characters, you can use the command as follow to convert the .md into .pdf1: 1$pandoc -N -s --smart --latex-engine=xelatex -V CJKmainfont=&apos;PingFang SC&apos; -V mainfont=&apos;Monaco&apos; -V geometry:margin=1in XXX.md -o XXX.pdf where XXX.md is the name of your markdown file and XXX.pdf is the name of the PDF file. Follow the Pandoc User&#x2019;s Guide, you can change the options of pandoc. pandoc options -N, --number-sections Number section headings in LaTeX, ConTeXt, HTML, or EPUB output. By default, sections are not numbered. Sections with class unnumbered will never be numbered, even if --number-sections is specified. -s, --standalone Produce output with an appropriate header and footer (e.g. a standalone HTML, LaTeX, TEI, or RTF file, not a fragment). This option is set automatically for pdf, epub, epub3, fb2, docx, and odt output. -V KEY[=VAL], --variable=KEY[:VAL] Set the template variable KEY to the value VAL when rendering the document in standalone mode. This is generally only useful when the --template option is used to specify a custom template, since pandoc automatically sets the variables used in the default templates. If no VAL is specified, the key will be given the value true. Variables for LaTeX mainfont, sansfont, monofont, mathfont, CJKmainfont font families for use with xelatex or lualatex: take the name of any system font, using the fontspec package. Note that if CJKmainfont is used, the xecjk package must be available. geometry option for geometry package, e.g. margin=1in; may be repeated for multiple options CommentsIn fact, generally you can take use of the Print function of Google Chrome Explorer to easily fulfill the conversion. For example, my explorer is Google Chrome, Version 63.0.3239.84 (Official Build) (64-bit) and in ST3: Command+Shift+P Enter mp Choose Markdown Preview: Preview in Browser Choose github or markdown In the pop-up Chrome page, you can check the corresponding html file Press Command+P to print the web page However, this method is not meticulous enough. 1. https://www.zhihu.com/question/20849824 &#x21A9;]]></content>
@@ -137,16 +151,16 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>python</tag>
         <tag>faicon</tag>
+        <tag>python</tag>
         <tag>image</tag>
         <tag>r_language</tag>
+        <tag>mathjax</tag>
         <tag>nonlinear_equations</tag>
         <tag>numerical_analysis</tag>
         <tag>matlab</tag>
         <tag>fortran</tag>
         <tag>mathematica</tag>
-        <tag>mathjax</tag>
       </tags>
   </entry>
   <entry>
@@ -172,9 +186,9 @@
         <category>中文</category>
       </categories>
       <tags>
-        <tag>tutorial</tag>
         <tag>deep_learning</tag>
         <tag>hardware</tag>
+        <tag>tutorial</tag>
       </tags>
   </entry>
   <entry>
@@ -244,9 +258,9 @@
         <tag>information_system</tag>
         <tag>sentiment_analysis</tag>
         <tag>literature_review</tag>
-        <tag>mathjax</tag>
         <tag>user_generated_content</tag>
         <tag>word_of_mouth</tag>
+        <tag>mathjax</tag>
       </tags>
   </entry>
   <entry>
@@ -328,9 +342,9 @@
         <category>中文</category>
       </categories>
       <tags>
+        <tag>hexo_pdf</tag>
         <tag>document_management</tag>
         <tag>bibtex</tag>
-        <tag>hexo_pdf</tag>
         <tag>sublime_text_3</tag>
         <tag>academic_reference</tag>
         <tag>markdown</tag>
@@ -359,10 +373,10 @@
         <category>English</category>
       </categories>
       <tags>
+        <tag>hexo_pdf</tag>
         <tag>tbc</tag>
         <tag>robo_advisor</tag>
         <tag>fintech</tag>
-        <tag>hexo_pdf</tag>
       </tags>
   </entry>
   <entry>
@@ -376,10 +390,10 @@
         <tag>information_system</tag>
         <tag>machine_learning</tag>
         <tag>natural_language_processing</tag>
+        <tag>deep_learning</tag>
+        <tag>github</tag>
         <tag>markdown_table</tag>
         <tag>image</tag>
-        <tag>github</tag>
-        <tag>deep_learning</tag>
         <tag>hexo_pdf</tag>
         <tag>finance</tag>
         <tag>economics</tag>
@@ -455,8 +469,8 @@
       </categories>
       <tags>
         <tag>tutorial</tag>
-        <tag>latex</tag>
         <tag>sublime_text_3</tag>
+        <tag>latex</tag>
         <tag>skim</tag>
       </tags>
   </entry>
@@ -469,8 +483,8 @@
       </categories>
       <tags>
         <tag>hexo</tag>
-        <tag>github</tag>
         <tag>tutorial</tag>
+        <tag>github</tag>
       </tags>
   </entry>
   <entry>
@@ -488,14 +502,14 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[About Neverland]]></title>
-    <url>%2Fabout%2Findex.html</url>
-    <content type="text"><![CDATA[var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","mutex":true,"theme":"#e6d0b2","preload":"metadata","listmaxheight":"300px","music":[{"title":"Intro","author":"The XX","url":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.lrc"},{"title":"Casey's Last Ride","author":"Kris Kristofferson","url":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.lrc"},{"title":"Free Loop","author":"Daniel Powter","url":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.jpeg","lrc":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.lrc"},{"title":"Future Starts Slow","author":"The Kills","url":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.lrc"},{"title":"Medicine","author":"Daughter","url":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.lrc"},{"title":"Exit Music (For a Film)","author":"Radiohead","url":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.png","lrc":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.lrc"}]}; options.element = document.getElementById("aplayer0"); new APlayer(options); Hello, welcome to my blog, the NERVERLAND, which is supported by GitHub and Hexo. Neverland is a fictional location featured in the works of J. M. Barrie and those based on them. It is an imaginary faraway place, where Peter Pan, Tinker Bell, the Lost Boys and other mythical creatures and beings live. &#x2014;Wikipedia NEVERLAND is a place of fantacy and I hope to build a blog full of bold innovation and wonderful ideas. If you have any creative thoughs on no matter science&amp;technology or phylosophy of life, feel free to contact with me via email. Click E-Mail button of the sidebar. If you would like to know more about me, click BAODUGE-About. Enjoy it? Subscribe to my blog by scanning my public Wechat account]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[All Categories]]></title>
     <url>%2Fcategories%2Findex.html</url>
     <content type="text"><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[About Neverland]]></title>
+    <url>%2Fabout%2Findex.html</url>
+    <content type="text"><![CDATA[var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","mutex":true,"theme":"#e6d0b2","preload":"metadata","listmaxheight":"300px","music":[{"title":"Intro","author":"The XX","url":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.lrc"},{"title":"Casey's Last Ride","author":"Kris Kristofferson","url":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.lrc"},{"title":"Free Loop","author":"Daniel Powter","url":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.jpeg","lrc":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.lrc"},{"title":"Future Starts Slow","author":"The Kills","url":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.lrc"},{"title":"Medicine","author":"Daughter","url":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.lrc"},{"title":"Exit Music (For a Film)","author":"Radiohead","url":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.png","lrc":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.lrc"}]}; options.element = document.getElementById("aplayer0"); new APlayer(options); Hello, welcome to my blog, the NERVERLAND, which is supported by GitHub and Hexo. Neverland is a fictional location featured in the works of J. M. Barrie and those based on them. It is an imaginary faraway place, where Peter Pan, Tinker Bell, the Lost Boys and other mythical creatures and beings live. &#x2014;Wikipedia NEVERLAND is a place of fantacy and I hope to build a blog full of bold innovation and wonderful ideas. If you have any creative thoughs on no matter science&amp;technology or phylosophy of life, feel free to contact with me via email. Click E-Mail button of the sidebar. If you would like to know more about me, click BAODUGE-About. Enjoy it? Subscribe to my blog by scanning my public Wechat account]]></content>
   </entry>
   <entry>
     <title><![CDATA[All Tags]]></title>

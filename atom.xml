@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.baoduge.com/"/>
-  <updated>2017-12-20T06:46:48.000Z</updated>
+  <updated>2018-01-29T09:20:39.000Z</updated>
   <id>http://blog.baoduge.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Collection of materials on Sentiment Analysis</title>
+    <link href="http://blog.baoduge.com/Collection_Sentiment_Analysis_Tools/"/>
+    <id>http://blog.baoduge.com/Collection_Sentiment_Analysis_Tools/</id>
+    <published>2018-01-28T16:00:00.000Z</published>
+    <updated>2018-01-29T09:20:39.000Z</updated>
+    
+    <summary type="html">
+    
+      This is collections of materials on sentiment analysis. Some of them has the link of code and paper.
+    
+    </summary>
+    
+      <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
+    
+    
+      <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
+    
+      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
+    
+      <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
+    
+      <category term="deep_learning" scheme="http://blog.baoduge.com/tags/deep-learning/"/>
+    
+  </entry>
   
   <entry>
     <title>How to convert Markdown into PDF file</title>
@@ -274,13 +300,15 @@
       <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
-      <category term="python" scheme="http://blog.baoduge.com/tags/python/"/>
-    
       <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
+    
+      <category term="python" scheme="http://blog.baoduge.com/tags/python/"/>
     
       <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
     
       <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
+    
+      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
       <category term="nonlinear_equations" scheme="http://blog.baoduge.com/tags/nonlinear-equations/"/>
     
@@ -291,8 +319,6 @@
       <category term="fortran" scheme="http://blog.baoduge.com/tags/fortran/"/>
     
       <category term="mathematica" scheme="http://blog.baoduge.com/tags/mathematica/"/>
-    
-      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
   </entry>
   
@@ -340,11 +366,11 @@
       <category term="中文" scheme="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
     
     
-      <category term="tutorial" scheme="http://blog.baoduge.com/tags/tutorial/"/>
-    
       <category term="deep_learning" scheme="http://blog.baoduge.com/tags/deep-learning/"/>
     
       <category term="hardware" scheme="http://blog.baoduge.com/tags/hardware/"/>
+    
+      <category term="tutorial" scheme="http://blog.baoduge.com/tags/tutorial/"/>
     
   </entry>
   
@@ -476,11 +502,11 @@
     
       <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
     
-      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
-    
       <category term="user_generated_content" scheme="http://blog.baoduge.com/tags/user-generated-content/"/>
     
       <category term="word_of_mouth" scheme="http://blog.baoduge.com/tags/word-of-mouth/"/>
+    
+      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
   </entry>
   
@@ -585,38 +611,6 @@
       <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
     
       <category term="hexo_pdf" scheme="http://blog.baoduge.com/tags/hexo-pdf/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>virtualenv+tensorflow初体验</title>
-    <link href="http://blog.baoduge.com/virtualenv_tensorflow/"/>
-    <id>http://blog.baoduge.com/virtualenv_tensorflow/</id>
-    <published>2017-10-12T16:00:00.000Z</published>
-    <updated>2017-11-25T16:53:31.000Z</updated>
-    
-    <summary type="html">
-    
-      This is a tutorial about how to install virtualenv, virtualenvwrapper, tensorflow and tflearn on Mac OS.
-    
-    </summary>
-    
-      <category term="中文" scheme="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
-    
-    
-      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
-    
-      <category term="python" scheme="http://blog.baoduge.com/tags/python/"/>
-    
-      <category term="deep_learning" scheme="http://blog.baoduge.com/tags/deep-learning/"/>
-    
-      <category term="virtualenv" scheme="http://blog.baoduge.com/tags/virtualenv/"/>
-    
-      <category term="virtualwrapper" scheme="http://blog.baoduge.com/tags/virtualwrapper/"/>
-    
-      <category term="tensorflow" scheme="http://blog.baoduge.com/tags/tensorflow/"/>
-    
-      <category term="tflearn" scheme="http://blog.baoduge.com/tags/tflearn/"/>
     
   </entry>
   
