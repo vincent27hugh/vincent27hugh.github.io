@@ -4,34 +4,8 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/Collection_Sentiment_Analysis_Tools/</loc>
-    <lastmod>2018-01-29T09:20:39.000Z</lastmod>
-    <data>
-        <display>
-        <title>Collection of materials on Sentiment Analysis</title>
-        <pubTime>2018-01-28T16:00:00.000Z</pubTime>
-        
-        <tag>research</tag>
-         
-        <tag>machine_learning</tag>
-         
-        <tag>sentiment_analysis</tag>
-         
-        <tag>deep_learning</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2018-01-28T05:34:41.000Z</lastmod>
+    <lastmod>2018-01-31T11:35:29.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges: Data Science on IS</title>
@@ -43,13 +17,13 @@
          
         <tag>natural_language_processing</tag>
          
-        <tag>deep_learning</tag>
-         
-        <tag>github</tag>
-         
         <tag>markdown_table</tag>
          
         <tag>image</tag>
+         
+        <tag>deep_learning</tag>
+         
+        <tag>github</tag>
          
         <tag>hexo_pdf</tag>
          
@@ -66,6 +40,32 @@
         <tag>open_course</tag>
          
         <tag>span_id_anchor</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/Collection_Sentiment_Analysis_Tools/</loc>
+    <lastmod>2018-01-29T09:33:24.000Z</lastmod>
+    <data>
+        <display>
+        <title>Collection of materials on Sentiment Analysis</title>
+        <pubTime>2018-01-28T16:00:00.000Z</pubTime>
+        
+        <tag>research</tag>
+         
+        <tag>machine_learning</tag>
+         
+        <tag>sentiment_analysis</tag>
+         
+        <tag>deep_learning</tag>
          
          
            
@@ -378,11 +378,11 @@
         <title>用Sublime Text 3管理文献</title>
         <pubTime>2017-09-27T16:00:00.000Z</pubTime>
         
-        <tag>hexo_pdf</tag>
-         
         <tag>document_management</tag>
          
         <tag>bibtex</tag>
+         
+        <tag>hexo_pdf</tag>
          
         <tag>sublime_text_3</tag>
          
@@ -666,11 +666,11 @@
          
         <tag>literature_review</tag>
          
+        <tag>mathjax</tag>
+         
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
-         
-        <tag>mathjax</tag>
          
          
            
@@ -690,13 +690,13 @@
         <title>Robo-Advisor Introduction</title>
         <pubTime>2017-09-13T16:00:00.000Z</pubTime>
         
-        <tag>hexo_pdf</tag>
-         
-        <tag>tbc</tag>
-         
         <tag>robo_advisor</tag>
          
         <tag>fintech</tag>
+         
+        <tag>hexo_pdf</tag>
+         
+        <tag>tbc</tag>
          
          
            
@@ -716,11 +716,11 @@
         <title>R语言的科学计算</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
+        <tag>tbc</tag>
+         
         <tag>r_language</tag>
          
         <tag>science_computing</tag>
-         
-        <tag>tbc</tag>
          
          
            
@@ -740,15 +740,11 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
-        <tag>faicon</tag>
-         
         <tag>python</tag>
          
+        <tag>faicon</tag>
+         
         <tag>image</tag>
-         
-        <tag>r_language</tag>
-         
-        <tag>mathjax</tag>
          
         <tag>nonlinear_equations</tag>
          
@@ -758,7 +754,11 @@
          
         <tag>fortran</tag>
          
+        <tag>r_language</tag>
+         
         <tag>mathematica</tag>
+         
+        <tag>mathjax</tag>
          
          
            
