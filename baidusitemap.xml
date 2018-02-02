@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2018-02-02T09:29:01.000Z</lastmod>
+    <lastmod>2018-02-02T10:50:37.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges: Data Science on IS</title>
@@ -17,21 +17,21 @@
          
         <tag>natural_language_processing</tag>
          
-        <tag>deep_learning</tag>
-         
-        <tag>github</tag>
-         
         <tag>markdown_table</tag>
          
         <tag>image</tag>
+         
+        <tag>deep_learning</tag>
+         
+        <tag>github</tag>
          
         <tag>hexo_pdf</tag>
          
         <tag>finance</tag>
          
-        <tag>mathematics</tag>
-         
         <tag>economics</tag>
+         
+        <tag>mathematics</tag>
          
         <tag>statistics</tag>
          
@@ -256,9 +256,9 @@
         
         <tag>image</tag>
          
-        <tag>hexo_pdf</tag>
-         
         <tag>mathjax</tag>
+         
+        <tag>hexo_pdf</tag>
          
         <tag>stochastic_process</tag>
          
@@ -292,9 +292,9 @@
         
         <tag>image</tag>
          
-        <tag>hexo_pdf</tag>
-         
         <tag>mathjax</tag>
+         
+        <tag>hexo_pdf</tag>
          
         <tag>stochastic_process</tag>
          
@@ -378,11 +378,11 @@
         <title>用Sublime Text 3管理文献</title>
         <pubTime>2017-09-27T16:00:00.000Z</pubTime>
         
-        <tag>hexo_pdf</tag>
-         
         <tag>document_management</tag>
          
         <tag>bibtex</tag>
+         
+        <tag>hexo_pdf</tag>
          
         <tag>sublime_text_3</tag>
          
@@ -740,13 +740,11 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
-        <tag>python</tag>
-         
         <tag>faicon</tag>
          
-        <tag>image</tag>
+        <tag>python</tag>
          
-        <tag>r_language</tag>
+        <tag>image</tag>
          
         <tag>nonlinear_equations</tag>
          
@@ -755,6 +753,8 @@
         <tag>matlab</tag>
          
         <tag>fortran</tag>
+         
+        <tag>r_language</tag>
          
         <tag>mathematica</tag>
          
