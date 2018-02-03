@@ -4,99 +4,25 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2018-02-02T10:50:37.000Z</lastmod>
+    <loc>http://blog.baoduge.com/online_portfolion_selection/</loc>
+    <lastmod>2018-02-03T13:21:09.000Z</lastmod>
     <data>
         <display>
-        <title>2017-18 Open-Course Challenges: Data Science on IS</title>
-        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
-        
-        <tag>information_system</tag>
-         
-        <tag>machine_learning</tag>
-         
-        <tag>natural_language_processing</tag>
-         
-        <tag>markdown_table</tag>
-         
-        <tag>image</tag>
-         
-        <tag>deep_learning</tag>
-         
-        <tag>github</tag>
-         
-        <tag>hexo_pdf</tag>
-         
-        <tag>finance</tag>
-         
-        <tag>economics</tag>
-         
-        <tag>mathematics</tag>
-         
-        <tag>statistics</tag>
-         
-        <tag>artificial_intelligence</tag>
-         
-        <tag>open_course</tag>
-         
-        <tag>span_id_anchor</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/Collection_Sentiment_Analysis_Tools/</loc>
-    <lastmod>2018-01-29T09:33:24.000Z</lastmod>
-    <data>
-        <display>
-        <title>Collection of materials on Sentiment Analysis</title>
-        <pubTime>2018-01-28T16:00:00.000Z</pubTime>
+        <title>What's on-line portfolio selection?</title>
+        <pubTime>2018-02-02T16:00:00.000Z</pubTime>
         
         <tag>research</tag>
          
-        <tag>machine_learning</tag>
+        <tag>online_learning</tag>
          
-        <tag>sentiment_analysis</tag>
+        <tag>portfolion_selection</tag>
          
-        <tag>deep_learning</tag>
+        <tag>reinforcement_learning</tag>
          
          
            
              
               <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/Anaconda_Mac/</loc>
-    <lastmod>2018-01-20T14:40:21.000Z</lastmod>
-    <data>
-        <display>
-        <title>Conda Manual on MAC</title>
-        <pubTime>2017-07-24T16:00:00.000Z</pubTime>
-        
-        <tag>anaconda</tag>
-         
-        <tag>conda</tag>
-         
-        <tag>python</tag>
-         
-        <tag>terminal</tag>
-         
-         
-           
-             
-              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
           
         </display>
     </data>
@@ -105,7 +31,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
-    <lastmod>2018-01-20T13:24:23.000Z</lastmod>
+    <lastmod>2018-02-03T13:18:42.000Z</lastmod>
     <data>
         <display>
         <title>NEVERLAND - Blog Logs</title>
@@ -133,6 +59,150 @@
            
              
               <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/current_blockchain/</loc>
+    <lastmod>2018-02-03T13:14:16.000Z</lastmod>
+    <data>
+        <display>
+        <title>区块链现状</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>bloackchain</tag>
+         
+        <tag>font</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/CUHK_DSME6622_Lec2/</loc>
+    <lastmod>2018-02-03T13:14:07.000Z</lastmod>
+    <data>
+        <display>
+        <title>Experiments in IS research</title>
+        <pubTime>2017-09-10T16:00:00.000Z</pubTime>
+        
+        <tag>notes</tag>
+         
+        <tag>information_system</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/Collection_Sentiment_Analysis_Tools/</loc>
+    <lastmod>2018-02-03T13:13:41.000Z</lastmod>
+    <data>
+        <display>
+        <title>Collection of materials on Sentiment Analysis</title>
+        <pubTime>2018-01-28T16:00:00.000Z</pubTime>
+        
+        <tag>research</tag>
+         
+        <tag>machine_learning</tag>
+         
+        <tag>sentiment_analysis</tag>
+         
+        <tag>deep_learning</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/Anaconda_Mac/</loc>
+    <lastmod>2018-02-03T13:13:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>Conda Manual on MAC</title>
+        <pubTime>2017-07-24T16:00:00.000Z</pubTime>
+        
+        <tag>anaconda</tag>
+         
+        <tag>conda</tag>
+         
+        <tag>python</tag>
+         
+        <tag>terminal</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
+    <lastmod>2018-02-03T13:11:27.000Z</lastmod>
+    <data>
+        <display>
+        <title>2017-18 Open-Course Challenges: Data Science on IS</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>information_system</tag>
+         
+        <tag>machine_learning</tag>
+         
+        <tag>natural_language_processing</tag>
+         
+        <tag>deep_learning</tag>
+         
+        <tag>markdown_table</tag>
+         
+        <tag>image</tag>
+         
+        <tag>github</tag>
+         
+        <tag>hexo_pdf</tag>
+         
+        <tag>finance</tag>
+         
+        <tag>economics</tag>
+         
+        <tag>mathematics</tag>
+         
+        <tag>statistics</tag>
+         
+        <tag>artificial_intelligence</tag>
+         
+        <tag>open_course</tag>
+         
+        <tag>span_id_anchor</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
           
         </display>
     </data>
@@ -256,9 +326,9 @@
         
         <tag>image</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>hexo_pdf</tag>
+         
+        <tag>mathjax</tag>
          
         <tag>stochastic_process</tag>
          
@@ -292,9 +362,9 @@
         
         <tag>image</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>hexo_pdf</tag>
+         
+        <tag>mathjax</tag>
          
         <tag>stochastic_process</tag>
          
@@ -692,11 +762,11 @@
         
         <tag>hexo_pdf</tag>
          
-        <tag>tbc</tag>
-         
         <tag>robo_advisor</tag>
          
         <tag>fintech</tag>
+         
+        <tag>tbc</tag>
          
          
            
@@ -716,11 +786,11 @@
         <title>R语言的科学计算</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
+        <tag>tbc</tag>
+         
         <tag>r_language</tag>
          
         <tag>science_computing</tag>
-         
-        <tag>tbc</tag>
          
          
            
@@ -808,15 +878,15 @@
         
         <tag>notes</tag>
          
+        <tag>markdown_table</tag>
+         
+        <tag>image</tag>
+         
         <tag>reputation_system</tag>
          
         <tag>variable_type</tag>
          
         <tag>data_type</tag>
-         
-        <tag>markdown_table</tag>
-         
-        <tag>image</tag>
          
          
            
@@ -850,50 +920,6 @@
          
          
            
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/current_blockchain/</loc>
-    <lastmod>2017-11-25T16:40:24.000Z</lastmod>
-    <data>
-        <display>
-        <title>区块链现状</title>
-        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
-        
-        <tag>bloackchain</tag>
-         
-        <tag>font</tag>
-         
-         
-           
-             
-              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/CUHK_DSME6622_Lec2/</loc>
-    <lastmod>2017-11-25T16:40:02.000Z</lastmod>
-    <data>
-        <display>
-        <title>Experiments in IS research</title>
-        <pubTime>2017-09-10T16:00:00.000Z</pubTime>
-        
-        <tag>notes</tag>
-         
-        <tag>information_system</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
         </display>
     </data>
     </url>
