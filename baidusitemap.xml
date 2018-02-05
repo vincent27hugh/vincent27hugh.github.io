@@ -4,6 +4,40 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/notes_CCSMA2/</loc>
+    <lastmod>2018-02-05T05:18:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>20171123 Notes: Application of Stochastic Structure Model: Control of Negative Reviews</title>
+        <pubTime>2017-11-22T16:00:00.000Z</pubTime>
+        
+        <tag>image</tag>
+         
+        <tag>hexo_pdf</tag>
+         
+        <tag>mathjax</tag>
+         
+        <tag>stochastic_process</tag>
+         
+        <tag>parameter_estimation</tag>
+         
+        <tag>pde</tag>
+         
+        <tag>control_theory</tag>
+         
+        <tag>mathematics</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
     <lastmod>2018-02-05T04:48:48.000Z</lastmod>
     <data>
@@ -15,15 +49,15 @@
          
         <tag>machine_learning</tag>
          
-        <tag>deep_learning</tag>
-         
         <tag>natural_language_processing</tag>
          
-        <tag>github</tag>
+        <tag>deep_learning</tag>
          
         <tag>markdown_table</tag>
          
         <tag>image</tag>
+         
+        <tag>github</tag>
          
         <tag>hexo_pdf</tag>
          
@@ -353,40 +387,6 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/notes_CCSMA2/</loc>
-    <lastmod>2017-12-13T17:27:36.000Z</lastmod>
-    <data>
-        <display>
-        <title>20171123 Notes: Application of Stochastic Structure Model: Control of Negative Reviews</title>
-        <pubTime>2017-11-22T16:00:00.000Z</pubTime>
-        
-        <tag>image</tag>
-         
-        <tag>hexo_pdf</tag>
-         
-        <tag>mathjax</tag>
-         
-        <tag>stochastic_process</tag>
-         
-        <tag>parameter_estimation</tag>
-         
-        <tag>pde</tag>
-         
-        <tag>control_theory</tag>
-         
-        <tag>mathematics</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.baoduge.com/IS_reseources/</loc>
     <lastmod>2017-12-08T04:51:30.000Z</lastmod>
     <data>
@@ -542,9 +542,9 @@
         
         <tag>tutorial</tag>
          
-        <tag>latex</tag>
-         
         <tag>sublime_text_3</tag>
+         
+        <tag>latex</tag>
          
         <tag>skim</tag>
          
@@ -628,9 +628,9 @@
         
         <tag>machine_learning</tag>
          
-        <tag>deep_learning</tag>
-         
         <tag>python</tag>
+         
+        <tag>deep_learning</tag>
          
         <tag>virtualenv</tag>
          
@@ -736,11 +736,11 @@
          
         <tag>literature_review</tag>
          
+        <tag>mathjax</tag>
+         
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
-         
-        <tag>mathjax</tag>
          
          
            
@@ -760,9 +760,9 @@
         <title>Robo-Advisor Introduction</title>
         <pubTime>2017-09-13T16:00:00.000Z</pubTime>
         
-        <tag>tbc</tag>
-         
         <tag>hexo_pdf</tag>
+         
+        <tag>tbc</tag>
          
         <tag>robo_advisor</tag>
          
@@ -810,15 +810,13 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
-        <tag>faicon</tag>
-         
         <tag>python</tag>
+         
+        <tag>faicon</tag>
          
         <tag>image</tag>
          
         <tag>r_language</tag>
-         
-        <tag>mathjax</tag>
          
         <tag>nonlinear_equations</tag>
          
@@ -829,6 +827,8 @@
         <tag>fortran</tag>
          
         <tag>mathematica</tag>
+         
+        <tag>mathjax</tag>
          
          
            
