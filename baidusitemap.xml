@@ -4,8 +4,56 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
+    <lastmod>2018-02-05T04:43:35.000Z</lastmod>
+    <data>
+        <display>
+        <title>2017-18 Open-Course Challenges: Data Science on IS</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>information_system</tag>
+         
+        <tag>machine_learning</tag>
+         
+        <tag>natural_language_processing</tag>
+         
+        <tag>deep_learning</tag>
+         
+        <tag>markdown_table</tag>
+         
+        <tag>image</tag>
+         
+        <tag>github</tag>
+         
+        <tag>hexo_pdf</tag>
+         
+        <tag>finance</tag>
+         
+        <tag>economics</tag>
+         
+        <tag>mathematics</tag>
+         
+        <tag>statistics</tag>
+         
+        <tag>artificial_intelligence</tag>
+         
+        <tag>open_course</tag>
+         
+        <tag>span_id_anchor</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/online_portfolion_selection/</loc>
-    <lastmod>2018-02-03T13:21:09.000Z</lastmod>
+    <lastmod>2018-02-03T14:08:58.000Z</lastmod>
     <data>
         <display>
         <title>What's on-line portfolio selection?</title>
@@ -155,54 +203,6 @@
            
              
               <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2018-02-03T13:11:27.000Z</lastmod>
-    <data>
-        <display>
-        <title>2017-18 Open-Course Challenges: Data Science on IS</title>
-        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
-        
-        <tag>information_system</tag>
-         
-        <tag>machine_learning</tag>
-         
-        <tag>natural_language_processing</tag>
-         
-        <tag>deep_learning</tag>
-         
-        <tag>markdown_table</tag>
-         
-        <tag>image</tag>
-         
-        <tag>github</tag>
-         
-        <tag>hexo_pdf</tag>
-         
-        <tag>finance</tag>
-         
-        <tag>economics</tag>
-         
-        <tag>mathematics</tag>
-         
-        <tag>statistics</tag>
-         
-        <tag>artificial_intelligence</tag>
-         
-        <tag>open_course</tag>
-         
-        <tag>span_id_anchor</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
           
         </display>
     </data>
@@ -542,9 +542,9 @@
         
         <tag>tutorial</tag>
          
-        <tag>sublime_text_3</tag>
-         
         <tag>latex</tag>
+         
+        <tag>sublime_text_3</tag>
          
         <tag>skim</tag>
          
@@ -736,11 +736,11 @@
          
         <tag>literature_review</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
+         
+        <tag>mathjax</tag>
          
          
            
@@ -816,6 +816,10 @@
          
         <tag>image</tag>
          
+        <tag>mathjax</tag>
+         
+        <tag>r_language</tag>
+         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
@@ -824,11 +828,7 @@
          
         <tag>fortran</tag>
          
-        <tag>r_language</tag>
-         
         <tag>mathematica</tag>
-         
-        <tag>mathjax</tag>
          
          
            
