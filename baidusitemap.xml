@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2018-02-06T13:17:24.000Z</lastmod>
+    <lastmod>2018-02-06T14:21:08.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges: Data Science on IS</title>
@@ -17,15 +17,15 @@
          
         <tag>natural_language_processing</tag>
          
-        <tag>deep_learning</tag>
-         
         <tag>github</tag>
          
-        <tag>markdown_table</tag>
+        <tag>deep_learning</tag>
          
         <tag>image</tag>
          
         <tag>hexo_pdf</tag>
+         
+        <tag>markdown_table</tag>
          
         <tag>finance</tag>
          
@@ -398,9 +398,9 @@
          
         <tag>information_system</tag>
          
-        <tag>markdown_table</tag>
-         
         <tag>image</tag>
+         
+        <tag>markdown_table</tag>
          
          
            
@@ -448,11 +448,11 @@
         <title>用Sublime Text 3管理文献</title>
         <pubTime>2017-09-27T16:00:00.000Z</pubTime>
         
+        <tag>hexo_pdf</tag>
+         
         <tag>document_management</tag>
          
         <tag>bibtex</tag>
-         
-        <tag>hexo_pdf</tag>
          
         <tag>sublime_text_3</tag>
          
@@ -542,9 +542,9 @@
         
         <tag>tutorial</tag>
          
-        <tag>sublime_text_3</tag>
-         
         <tag>latex</tag>
+         
+        <tag>sublime_text_3</tag>
          
         <tag>skim</tag>
          
@@ -576,9 +576,9 @@
          
         <tag>image</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>opinion_mining</tag>
+         
+        <tag>mathjax</tag>
          
         <tag>time_series</tag>
          
@@ -602,11 +602,11 @@
         <title>Deep Learning hardware</title>
         <pubTime>2017-11-07T16:00:00.000Z</pubTime>
         
+        <tag>tutorial</tag>
+         
         <tag>deep_learning</tag>
          
         <tag>hardware</tag>
-         
-        <tag>tutorial</tag>
          
          
            
@@ -698,8 +698,6 @@
          
         <tag>image</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>opinion_mining</tag>
          
         <tag>feature_engineering</tag>
@@ -709,6 +707,8 @@
         <tag>twitter</tag>
          
         <tag>neural_network</tag>
+         
+        <tag>mathjax</tag>
          
          
            
@@ -736,11 +736,11 @@
          
         <tag>literature_review</tag>
          
+        <tag>mathjax</tag>
+         
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
-         
-        <tag>mathjax</tag>
          
          
            
@@ -810,9 +810,9 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
-        <tag>faicon</tag>
-         
         <tag>python</tag>
+         
+        <tag>faicon</tag>
          
         <tag>image</tag>
          
@@ -878,6 +878,8 @@
         
         <tag>notes</tag>
          
+        <tag>image</tag>
+         
         <tag>reputation_system</tag>
          
         <tag>variable_type</tag>
@@ -885,8 +887,6 @@
         <tag>data_type</tag>
          
         <tag>markdown_table</tag>
-         
-        <tag>image</tag>
          
          
            
@@ -957,9 +957,9 @@
         
         <tag>hexo</tag>
          
-        <tag>tutorial</tag>
-         
         <tag>github</tag>
+         
+        <tag>tutorial</tag>
          
          
            
