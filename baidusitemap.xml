@@ -4,6 +4,54 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
+    <lastmod>2018-02-06T13:13:45.000Z</lastmod>
+    <data>
+        <display>
+        <title>2017-18 Open-Course Challenges: Data Science on IS</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>information_system</tag>
+         
+        <tag>machine_learning</tag>
+         
+        <tag>natural_language_processing</tag>
+         
+        <tag>markdown_table</tag>
+         
+        <tag>image</tag>
+         
+        <tag>deep_learning</tag>
+         
+        <tag>github</tag>
+         
+        <tag>hexo_pdf</tag>
+         
+        <tag>finance</tag>
+         
+        <tag>economics</tag>
+         
+        <tag>mathematics</tag>
+         
+        <tag>statistics</tag>
+         
+        <tag>artificial_intelligence</tag>
+         
+        <tag>open_course</tag>
+         
+        <tag>span_id_anchor</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/notes_CCSMA2/</loc>
     <lastmod>2018-02-05T05:18:22.000Z</lastmod>
     <data>
@@ -26,54 +74,6 @@
         <tag>control_theory</tag>
          
         <tag>mathematics</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2018-02-05T04:48:48.000Z</lastmod>
-    <data>
-        <display>
-        <title>2017-18 Open-Course Challenges: Data Science on IS</title>
-        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
-        
-        <tag>information_system</tag>
-         
-        <tag>machine_learning</tag>
-         
-        <tag>natural_language_processing</tag>
-         
-        <tag>deep_learning</tag>
-         
-        <tag>markdown_table</tag>
-         
-        <tag>image</tag>
-         
-        <tag>github</tag>
-         
-        <tag>hexo_pdf</tag>
-         
-        <tag>finance</tag>
-         
-        <tag>economics</tag>
-         
-        <tag>mathematics</tag>
-         
-        <tag>statistics</tag>
-         
-        <tag>artificial_intelligence</tag>
-         
-        <tag>open_course</tag>
-         
-        <tag>span_id_anchor</tag>
          
          
            
@@ -542,9 +542,9 @@
         
         <tag>tutorial</tag>
          
-        <tag>sublime_text_3</tag>
-         
         <tag>latex</tag>
+         
+        <tag>sublime_text_3</tag>
          
         <tag>skim</tag>
          
@@ -760,13 +760,13 @@
         <title>Robo-Advisor Introduction</title>
         <pubTime>2017-09-13T16:00:00.000Z</pubTime>
         
-        <tag>hexo_pdf</tag>
-         
-        <tag>tbc</tag>
-         
         <tag>robo_advisor</tag>
          
         <tag>fintech</tag>
+         
+        <tag>hexo_pdf</tag>
+         
+        <tag>tbc</tag>
          
          
            
@@ -786,11 +786,11 @@
         <title>R语言的科学计算</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
+        <tag>tbc</tag>
+         
         <tag>r_language</tag>
          
         <tag>science_computing</tag>
-         
-        <tag>tbc</tag>
          
          
            
@@ -816,8 +816,6 @@
          
         <tag>image</tag>
          
-        <tag>r_language</tag>
-         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
@@ -825,6 +823,8 @@
         <tag>matlab</tag>
          
         <tag>fortran</tag>
+         
+        <tag>r_language</tag>
          
         <tag>mathematica</tag>
          
