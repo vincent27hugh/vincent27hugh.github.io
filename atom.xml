@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>NEVERLAND</title>
+  <title>NEVERLAND夢幻島</title>
   
-  <subtitle>夢幻島</subtitle>
+  <subtitle>Welcome!</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.baoduge.com/"/>
@@ -10,7 +10,7 @@
   <id>http://blog.baoduge.com/</id>
   
   <author>
-    <name>BDG飽蠹閣</name>
+    <name>BaoDuGe_飽蠹閣</name>
     
   </author>
   
