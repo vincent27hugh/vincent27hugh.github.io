@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2018-02-07T03:51:44.000Z</lastmod>
+    <lastmod>2018-02-26T05:26:44.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges: Data Science on IS</title>
@@ -17,13 +17,13 @@
          
         <tag>natural_language_processing</tag>
          
+        <tag>deep_learning</tag>
+         
         <tag>github</tag>
          
         <tag>markdown_table</tag>
          
         <tag>image</tag>
-         
-        <tag>deep_learning</tag>
          
         <tag>hexo_pdf</tag>
          
@@ -542,9 +542,9 @@
         
         <tag>tutorial</tag>
          
-        <tag>sublime_text_3</tag>
-         
         <tag>latex</tag>
+         
+        <tag>sublime_text_3</tag>
          
         <tag>skim</tag>
          
@@ -602,11 +602,11 @@
         <title>Deep Learning hardware</title>
         <pubTime>2017-11-07T16:00:00.000Z</pubTime>
         
-        <tag>tutorial</tag>
-         
         <tag>deep_learning</tag>
          
         <tag>hardware</tag>
+         
+        <tag>tutorial</tag>
          
          
            
@@ -736,11 +736,11 @@
          
         <tag>literature_review</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
+         
+        <tag>mathjax</tag>
          
          
            
@@ -762,11 +762,11 @@
         
         <tag>hexo_pdf</tag>
          
-        <tag>tbc</tag>
-         
         <tag>robo_advisor</tag>
          
         <tag>fintech</tag>
+         
+        <tag>tbc</tag>
          
          
            
@@ -786,11 +786,11 @@
         <title>R语言的科学计算</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
+        <tag>tbc</tag>
+         
         <tag>r_language</tag>
          
         <tag>science_computing</tag>
-         
-        <tag>tbc</tag>
          
          
            
@@ -810,13 +810,13 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
-        <tag>python</tag>
-         
         <tag>faicon</tag>
+         
+        <tag>python</tag>
          
         <tag>image</tag>
          
-        <tag>r_language</tag>
+        <tag>mathjax</tag>
          
         <tag>nonlinear_equations</tag>
          
@@ -826,9 +826,9 @@
          
         <tag>fortran</tag>
          
-        <tag>mathematica</tag>
+        <tag>r_language</tag>
          
-        <tag>mathjax</tag>
+        <tag>mathematica</tag>
          
          
            
@@ -957,9 +957,9 @@
         
         <tag>hexo</tag>
          
-        <tag>github</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>github</tag>
          
          
            
