@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.baoduge.com/Anaconda_Mac/</loc>
+    
+    <lastmod>2018-03-08T07:15:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
     
     <lastmod>2018-02-26T05:26:44.000Z</lastmod>
@@ -47,13 +54,6 @@
     <loc>http://blog.baoduge.com/Collection_Sentiment_Analysis_Tools/</loc>
     
     <lastmod>2018-02-03T13:13:41.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.baoduge.com/Anaconda_Mac/</loc>
-    
-    <lastmod>2018-02-03T13:13:00.000Z</lastmod>
     
   </url>
   
