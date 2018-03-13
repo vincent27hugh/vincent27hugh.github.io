@@ -4,34 +4,8 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/Anaconda_Mac/</loc>
-    <lastmod>2018-03-08T07:15:42.000Z</lastmod>
-    <data>
-        <display>
-        <title>Conda Manual on MAC and The Jupyter Notebook - iPython</title>
-        <pubTime>2017-07-24T16:00:00.000Z</pubTime>
-        
-        <tag>anaconda</tag>
-         
-        <tag>conda</tag>
-         
-        <tag>python</tag>
-         
-        <tag>terminal</tag>
-         
-         
-           
-             
-              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2018-02-26T05:26:44.000Z</lastmod>
+    <lastmod>2018-03-13T12:40:44.000Z</lastmod>
     <data>
         <display>
         <title>2017-18 Open-Course Challenges: Data Science on IS</title>
@@ -78,6 +52,68 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
+    <lastmod>2018-03-08T10:45:54.000Z</lastmod>
+    <data>
+        <display>
+        <title>NEVERLAND - Blog Logs</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>study</tag>
+         
+        <tag>research</tag>
+         
+        <tag>blog</tag>
+         
+        <tag>logs</tag>
+         
+        <tag>hexo</tag>
+         
+        <tag>notes</tag>
+         
+        <tag>information_system</tag>
+         
+        <tag>machine_learning</tag>
+         
+        <tag>music</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/Anaconda_Mac/</loc>
+    <lastmod>2018-03-08T07:25:04.000Z</lastmod>
+    <data>
+        <display>
+        <title>Conda Manual on MAC and The Jupyter Notebook - iPython</title>
+        <pubTime>2017-07-24T16:00:00.000Z</pubTime>
+        
+        <tag>anaconda</tag>
+         
+        <tag>conda</tag>
+         
+        <tag>python</tag>
+         
+        <tag>terminal</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/notes_CCSMA2/</loc>
     <lastmod>2018-02-05T05:18:22.000Z</lastmod>
     <data>
@@ -87,9 +123,9 @@
         
         <tag>image</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>hexo_pdf</tag>
+         
+        <tag>mathjax</tag>
          
         <tag>stochastic_process</tag>
          
@@ -131,42 +167,6 @@
            
              
               <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
-    <lastmod>2018-02-03T13:18:42.000Z</lastmod>
-    <data>
-        <display>
-        <title>NEVERLAND - Blog Logs</title>
-        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
-        
-        <tag>study</tag>
-         
-        <tag>research</tag>
-         
-        <tag>blog</tag>
-         
-        <tag>logs</tag>
-         
-        <tag>hexo</tag>
-         
-        <tag>notes</tag>
-         
-        <tag>information_system</tag>
-         
-        <tag>machine_learning</tag>
-         
-        <tag>music</tag>
-         
-         
-           
-             
-              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
           
         </display>
     </data>
@@ -360,9 +360,9 @@
         
         <tag>image</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>hexo_pdf</tag>
+         
+        <tag>mathjax</tag>
          
         <tag>stochastic_process</tag>
          
@@ -626,9 +626,9 @@
         <title>virtualenv+tensorflow初体验</title>
         <pubTime>2017-10-12T16:00:00.000Z</pubTime>
         
-        <tag>python</tag>
-         
         <tag>machine_learning</tag>
+         
+        <tag>python</tag>
          
         <tag>deep_learning</tag>
          
@@ -760,9 +760,9 @@
         <title>Robo-Advisor Introduction</title>
         <pubTime>2017-09-13T16:00:00.000Z</pubTime>
         
-        <tag>tbc</tag>
-         
         <tag>hexo_pdf</tag>
+         
+        <tag>tbc</tag>
          
         <tag>robo_advisor</tag>
          
@@ -816,8 +816,6 @@
          
         <tag>image</tag>
          
-        <tag>r_language</tag>
-         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
@@ -825,6 +823,8 @@
         <tag>matlab</tag>
          
         <tag>fortran</tag>
+         
+        <tag>r_language</tag>
          
         <tag>mathematica</tag>
          

@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.baoduge.com/Anaconda_Mac/</loc>
+    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
     
-    <lastmod>2018-03-08T07:15:42.000Z</lastmod>
+    <lastmod>2018-03-13T12:40:44.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
+    <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
     
-    <lastmod>2018-02-26T05:26:44.000Z</lastmod>
+    <lastmod>2018-03-08T10:45:54.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.baoduge.com/Anaconda_Mac/</loc>
+    
+    <lastmod>2018-03-08T07:25:04.000Z</lastmod>
     
   </url>
   
@@ -26,13 +33,6 @@
     <loc>http://blog.baoduge.com/online_portfolion_selection/</loc>
     
     <lastmod>2018-02-03T14:08:58.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
-    
-    <lastmod>2018-02-03T13:18:42.000Z</lastmod>
     
   </url>
   
