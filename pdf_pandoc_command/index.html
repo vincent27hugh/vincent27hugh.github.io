@@ -109,7 +109,7 @@
 <meta property="og:site_name" content="NEVERLAND夢幻島">
 <meta property="og:description" content="This is the introduction of how to convert markdown file into PDF file in Sublime Text 3.">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2017-12-20T06:46:48.000Z">
+<meta property="og:updated_time" content="2018-03-18T13:22:24.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="How to convert Markdown into PDF file">
 <meta name="twitter:description" content="This is the introduction of how to convert markdown file into PDF file in Sublime Text 3.">
@@ -457,7 +457,7 @@
 </ul>
 <p>Bingo!</p>
 <h1 id="If-md-contains-unicode-characters"><a href="#If-md-contains-unicode-characters" class="headerlink" title="If .md contains unicode characters"></a>If <code>.md</code> contains <strong>unicode characters</strong></h1><p>If the markdown file contains <strong>unicode characters</strong>, you can use the command as follow to convert the <code>.md</code> into <code>.pdf</code><sup><a href="#fn_1" id="reffn_1">1</a></sup>:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$pandoc -N -s --smart --latex-engine=xelatex -V CJKmainfont=&apos;PingFang SC&apos; -V mainfont=&apos;Monaco&apos; -V geometry:margin=1in XXX.md  -o XXX.pdf</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$pandoc -N -s --smart --latex-engine=xelatex -V CJKmainfont=&apos;Hiragino Sans GB&apos; -V mainfont=&apos;Monaco&apos; -V geometry:margin=1in XXX.md  -o XXX.pdf</div></pre></td></tr></table></figure>
 <p>where <code>XXX.md</code> is the name of your markdown file and <code>XXX.pdf</code> is the name of the PDF file.</p>
 <p>Follow the <a href="https://pandoc.org/MANUAL.html#using-pandoc" target="_blank" rel="external"><i class="fa fa-external-link-square" aria-hidden="true"></i>Pandoc User&#x2019;s Guide</a>, you can change the options of <code>pandoc</code>.</p>
 <h2 id="pandoc-options"><a href="#pandoc-options" class="headerlink" title="pandoc options"></a><code>pandoc</code> options</h2><ul>
@@ -467,16 +467,29 @@
 </li>
 <li><code>-s</code>, <code>--standalone</code><ul>
 <li>Produce output with an appropriate header and footer (e.g. a standalone HTML, LaTeX, TEI, or RTF file, not a fragment). This option is set automatically for <code>pdf</code>, <code>epub</code>, <code>epub3</code>, <code>fb2</code>, <code>docx</code>, and <code>odt</code> output.</li>
+<li><code>--latex-engine=xelatex</code> means that we use <a href="https://en.wikipedia.org/wiki/XeTeX" target="_blank" rel="external">XeTeX</a> as the TeX typesetting engine.</li>
 </ul>
 </li>
 <li><code>-V</code> KEY[<code>=</code>VAL], <code>--variable=</code>KEY[<code>:</code>VAL]<ul>
 <li>Set the template variable KEY to the value VAL when rendering the document in standalone mode. This is generally only useful when the <code>--template</code> option is used to specify a custom template, since pandoc automatically sets the variables used in the default templates. If no VAL is specified, the key will be given the value <code>true</code>.</li>
+<li><code>CJKmainfont</code>: Choose a font from <a href="https://en.wikipedia.org/wiki/List_of_CJK_fonts" target="_blank" rel="external">List of CJK fonts</a> and make sure the font is available on your OS.<ul>
+<li><code>PingFang SC</code> &amp; <code>PingFang TC</code> &amp; <code>PingFang HK</code>: &#x82F9;&#x65B9;-&#x7B80; &amp; &#x860B;&#x65B9;-&#x7E41; &amp; &#x860B;&#x65B9;-&#x6E2F;</li>
+<li><code>WenQuanYi</code> or <code>Zen Hei</code>: &#x6587;&#x6CC9;&#x9A7F;&#x6B63;&#x9ED1;</li>
+<li><code>Heiti SC</code> &amp; <code>Heiti TC</code>: &#x9ED1;&#x4F53;-&#x7B80; &amp; &#x9ED1;&#x9AD4;-&#x7E41;</li>
+<li><code>Hiragino Sans GB</code>: &#x51AC;&#x9752;&#x9ED1;&#x4F53;&#x7B80;&#x4F53;&#x4E2D;&#x6587; </li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
 <h2 id="Variables-for-LaTeX"><a href="#Variables-for-LaTeX" class="headerlink" title="Variables for LaTeX"></a>Variables for LaTeX</h2><ul>
 <li><code>mainfont</code>, <code>sansfont</code>, <code>monofont</code>, <code>mathfont</code>, <code>CJKmainfont</code><ul>
-<li>font families for use with <code>xelatex</code> or <code>lualatex</code>: take the name of any system font, using the <code>fontspec</code> package. Note that if <code>CJKmainfont</code> is used, the <code>xecjk</code> package must be available.</li>
+<li>font families for use with <code>xelatex</code> or <code>lualatex</code>: take the name of any system font, using the <code>fontspec</code> package. Note that if <code>CJKmainfont</code> is used, the <code>xecjk</code> package must be available.<ul>
+<li><code>mainfont</code>: &#x886C;&#x7EBF;&#x5B57;&#x4F53;</li>
+<li><code>sansfont</code>: &#x65E0;&#x886C;&#x7EBF;&#x5B57;&#x4F53;</li>
+<li><code>monofont</code>: &#x7B49;&#x5BBD;&#x5B57;&#x4F53;</li>
+</ul>
+</li>
 </ul>
 </li>
 <li><code>geometry</code><ul>

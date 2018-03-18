@@ -73,7 +73,7 @@
     <link href="http://blog.baoduge.com/pdf_pandoc_command/"/>
     <id>http://blog.baoduge.com/pdf_pandoc_command/</id>
     <published>2017-12-19T16:00:00.000Z</published>
-    <updated>2017-12-20T06:46:48.000Z</updated>
+    <updated>2018-03-18T13:22:24.000Z</updated>
     
     <summary type="html">
     
@@ -326,11 +326,13 @@
       <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
-      <category term="python" scheme="http://blog.baoduge.com/tags/python/"/>
-    
       <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
     
+      <category term="python" scheme="http://blog.baoduge.com/tags/python/"/>
+    
       <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
+    
+      <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
     
       <category term="nonlinear_equations" scheme="http://blog.baoduge.com/tags/nonlinear-equations/"/>
     
@@ -339,8 +341,6 @@
       <category term="matlab" scheme="http://blog.baoduge.com/tags/matlab/"/>
     
       <category term="fortran" scheme="http://blog.baoduge.com/tags/fortran/"/>
-    
-      <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
     
       <category term="mathematica" scheme="http://blog.baoduge.com/tags/mathematica/"/>
     
@@ -418,15 +418,15 @@
     
       <category term="notes" scheme="http://blog.baoduge.com/tags/notes/"/>
     
+      <category term="markdown_table" scheme="http://blog.baoduge.com/tags/markdown-table/"/>
+    
+      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
+    
       <category term="reputation_system" scheme="http://blog.baoduge.com/tags/reputation-system/"/>
     
       <category term="variable_type" scheme="http://blog.baoduge.com/tags/variable-type/"/>
     
       <category term="data_type" scheme="http://blog.baoduge.com/tags/data-type/"/>
-    
-      <category term="markdown_table" scheme="http://blog.baoduge.com/tags/markdown-table/"/>
-    
-      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
     
   </entry>
   

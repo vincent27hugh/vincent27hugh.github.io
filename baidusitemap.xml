@@ -4,6 +4,30 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/pdf_pandoc_command/</loc>
+    <lastmod>2018-03-18T13:22:24.000Z</lastmod>
+    <data>
+        <display>
+        <title>How to convert Markdown into PDF file</title>
+        <pubTime>2017-12-19T16:00:00.000Z</pubTime>
+        
+        <tag>sublime_text_3</tag>
+         
+        <tag>markdown</tag>
+         
+        <tag>pandoc</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
     <lastmod>2018-03-13T12:40:44.000Z</lastmod>
     <data>
@@ -327,30 +351,6 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/pdf_pandoc_command/</loc>
-    <lastmod>2017-12-20T06:46:48.000Z</lastmod>
-    <data>
-        <display>
-        <title>How to convert Markdown into PDF file</title>
-        <pubTime>2017-12-19T16:00:00.000Z</pubTime>
-        
-        <tag>sublime_text_3</tag>
-         
-        <tag>markdown</tag>
-         
-        <tag>pandoc</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.baoduge.com/notes_CCSMA/</loc>
     <lastmod>2017-12-13T17:27:37.000Z</lastmod>
     <data>
@@ -448,11 +448,11 @@
         <title>用Sublime Text 3管理文献</title>
         <pubTime>2017-09-27T16:00:00.000Z</pubTime>
         
+        <tag>hexo_pdf</tag>
+         
         <tag>document_management</tag>
          
         <tag>bibtex</tag>
-         
-        <tag>hexo_pdf</tag>
          
         <tag>sublime_text_3</tag>
          
@@ -542,9 +542,9 @@
         
         <tag>tutorial</tag>
          
-        <tag>latex</tag>
-         
         <tag>sublime_text_3</tag>
+         
+        <tag>latex</tag>
          
         <tag>skim</tag>
          
@@ -810,11 +810,13 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
-        <tag>python</tag>
-         
         <tag>faicon</tag>
          
+        <tag>python</tag>
+         
         <tag>image</tag>
+         
+        <tag>r_language</tag>
          
         <tag>nonlinear_equations</tag>
          
@@ -823,8 +825,6 @@
         <tag>matlab</tag>
          
         <tag>fortran</tag>
-         
-        <tag>r_language</tag>
          
         <tag>mathematica</tag>
          
@@ -878,15 +878,15 @@
         
         <tag>notes</tag>
          
+        <tag>markdown_table</tag>
+         
+        <tag>image</tag>
+         
         <tag>reputation_system</tag>
          
         <tag>variable_type</tag>
          
         <tag>data_type</tag>
-         
-        <tag>markdown_table</tag>
-         
-        <tag>image</tag>
          
          
            
