@@ -83,7 +83,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="rmarkdown,hexo,workflow," />
+  <meta name="keywords" content="hexo,rmarkdown,workflow," />
 
 
 
@@ -102,14 +102,14 @@
 
 
 <meta name="description" content="This is an solution about how to post my R code and result on Hexo blog">
-<meta name="keywords" content="rmarkdown,hexo,workflow">
+<meta name="keywords" content="hexo,rmarkdown,workflow">
 <meta property="og:type" content="article">
 <meta property="og:title" content="如何将我的R project发布在Hexo上？">
 <meta property="og:url" content="http://blog.baoduge.com/rproject_hexo/index.html">
 <meta property="og:site_name" content="NEVERLAND夢幻島">
 <meta property="og:description" content="This is an solution about how to post my R code and result on Hexo blog">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-05-11T16:58:13.000Z">
+<meta property="og:updated_time" content="2018-05-11T17:01:34.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="如何将我的R project发布在Hexo上？">
 <meta name="twitter:description" content="This is an solution about how to post my R code and result on Hexo blog">
@@ -445,14 +445,14 @@
 </li>
 <li>&#x56F0;&#x96BE;&#xFF1A;blogdown&#x4F3C;&#x4E4E;&#x4E0D;&#x9002;&#x7528;&#x6211;&#x7684;&#x60C5;&#x51B5;&#x3002;&#x5982;&#x679C;&#x6709;&#x4EBA;&#x77E5;&#x9053;&#x53EF;&#x4EE5;&#x7528;blogdown&#x89E3;&#x51B3;&#x7684;&#x65B9;&#x6848;&#xFF0C;&#x53EF;&#x4EE5;&#x90AE;&#x4EF6;&#x7ED9;&#x6211;&#x6216;&#x8005;&#x5728;&#x4E0B;&#x65B9;&#x7559;&#x8A00;&#x3002;&#x5341;&#x5206;&#x6B22;&#x8FCE;~</li>
 </ul>
-<h1 id="Solution-1-Rmd-gt-md-gt-Hexo"><a href="#Solution-1-Rmd-gt-md-gt-Hexo" class="headerlink" title="Solution 1 Rmd-&gt;md-&gt;Hexo"></a>Solution 1 <code>Rmd</code>-&gt;<code>md</code>-&gt;Hexo</h1><p>&#x5728;&#x4F60;&#x7684;<code>Rmd</code>&#x6587;&#x4EF6;YAML head&#x91CC;&#x52A0;&#x5165;&#x4EE5;&#x4E0B;&#x4EE3;&#x7801;&#xFF1A;</p>
+<h1 id="Workflow-1-Rmd-gt-md-gt-Hexo"><a href="#Workflow-1-Rmd-gt-md-gt-Hexo" class="headerlink" title="Workflow 1 Rmd-&gt;md-&gt;Hexo"></a>Workflow 1 <code>Rmd</code>-&gt;<code>md</code>-&gt;Hexo</h1><p>&#x5728;&#x4F60;&#x7684;<code>Rmd</code>&#x6587;&#x4EF6;YAML head&#x91CC;&#x52A0;&#x5165;&#x4EE5;&#x4E0B;&#x4EE3;&#x7801;&#xFF1A;</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">output:</div><div class="line">  md_document:</div><div class="line">    variant: markdown_github</div><div class="line">---</div></pre></td></tr></table></figure>
 <p>&#x5C31;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;<code>Knit</code>&#x76F4;&#x63A5;&#x751F;&#x6210;<code>.md</code>&#x6587;&#x4EF6;&#x3002;&#x7136;&#x540E;&#x590D;&#x5236;&#x5230;Hexo&#x7684;<code>source/_post</code>&#x6587;&#x4EF6;&#x5939;&#x91CC;&#x3002;&#x4F46;&#x662F;&#x751F;&#x6210;&#x7684;<code>.md</code>&#x6587;&#x4EF6;&#x5E76;&#x4E0D;&#x662F;&#x7279;&#x522B;&#x7406;&#x60F3;&#xFF0C;&#x8FD8;&#x662F;&#x9700;&#x8981;&#x518D;&#x5BC4;&#x624B;&#x52A8;&#x4FEE;&#x6539;&#xFF0C;&#x6BD4;&#x5982;&#x52A0;&#x5165;YAML head&#xFF0C;&#x4FEE;&#x6539;title&#x548C;subtitle&#x7B49;&#x7B49;&#x3002;&#x53EF;&#x53C2;&#x8003;&#x4EE5;&#x4E0B;&#x6587;&#x7AE0;&#xFF1A;</p>
 <ul>
 <li><a href="https://rmarkdown.rstudio.com/markdown_document_format.html" target="_blank" rel="external">R Markdown from R Studio | Markdown Documents - Overview</a></li>
 <li><a href="https://stackoverflow.com/questions/31914161/how-to-convert-rmd-into-md-in-r-studio" target="_blank" rel="external">How to convert .Rmd into .md in R studio?</a></li>
 </ul>
-<h1 id="Solurion-2-Rmd-gt-html-gt-layout-false"><a href="#Solurion-2-Rmd-gt-html-gt-layout-false" class="headerlink" title="Solurion 2 Rmd-&gt;html-&gt;layout: false"></a>Solurion 2 <code>Rmd</code>-&gt;<code>html</code>-&gt;<code>layout: false</code></h1><p>&#x76F4;&#x63A5;&#x7528;<code>knit</code>&#x672C;&#x8EAB;&#x9ED8;&#x8BA4;&#x7684;&#x529F;&#x80FD;&#x751F;&#x6210;<code>html</code>&#x6587;&#x4EF6;&#xFF0C;&#x7136;&#x540E;&#x590D;&#x5236;<code>html</code>&#x6587;&#x4EF6;&#x5230;<code>source</code>&#x6587;&#x4EF6;&#x4E0B;&#x3002;&#x4F46;&#x662F;&#x4ECD;&#x7136;&#x9700;&#x8981;&#x4FEE;&#x6539;&#x8BE5;<code>html</code>&#xFF0C;&#x5728;&#x6587;&#x4EF6;&#x5F00;&#x59CB;&#x52A0;&#x5165;</p>
+<h1 id="Workflow-2-Rmd-gt-html-gt-layout-false"><a href="#Workflow-2-Rmd-gt-html-gt-layout-false" class="headerlink" title="Workflow 2 Rmd-&gt;html-&gt;layout: false"></a>Workflow 2 <code>Rmd</code>-&gt;<code>html</code>-&gt;<code>layout: false</code></h1><p>&#x76F4;&#x63A5;&#x7528;<code>knit</code>&#x672C;&#x8EAB;&#x9ED8;&#x8BA4;&#x7684;&#x529F;&#x80FD;&#x751F;&#x6210;<code>html</code>&#x6587;&#x4EF6;&#xFF0C;&#x7136;&#x540E;&#x590D;&#x5236;<code>html</code>&#x6587;&#x4EF6;&#x5230;<code>source</code>&#x6587;&#x4EF6;&#x4E0B;&#x3002;&#x4F46;&#x662F;&#x4ECD;&#x7136;&#x9700;&#x8981;&#x4FEE;&#x6539;&#x8BE5;<code>html</code>&#xFF0C;&#x5728;&#x6587;&#x4EF6;&#x5F00;&#x59CB;&#x52A0;&#x5165;</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">layout: false</div><div class="line">---</div></pre></td></tr></table></figure>
 <p>&#x8FD9;&#x6837;Hexo&#x5C31;&#x4E0D;&#x4F1A;&#x6E32;&#x67D3;&#x8BE5;<code>html</code>&#x6587;&#x4EF6;&#x3002;&#x4F46;&#x662F;&#x7F3A;&#x70B9;&#x662F;&#x5728;Hexo&#x535A;&#x5BA2;&#x7684;&#x9996;&#x9875;&#x65E0;&#x6CD5;&#x663E;&#x793A;&#x8FD9;&#x4E2A;&#x6587;&#x4EF6;&#xFF0C;&#x9700;&#x8981;&#x5728;&#x8F93;&#x5165;&#x680F;&#x91CC;&#x8F93;&#x5165;URL&#x624D;&#x80FD;&#x591F;&#x663E;&#x793A;&#x8FD9;&#x4E2A;&#x7F51;&#x9875;&#x3002;URL&#x4E3A;<code>http://&lt;your blog&gt;/&lt;name of html&gt;.html</code>&#x3002;</p>
 <p>&#x53EF;&#x53C2;&#x8003;&#x4EE5;&#x4E0B;&#x6587;&#x7AE0;&#xFF1A;</p>
@@ -460,14 +460,14 @@
 <li><a href="https://login926.xyz/%E5%9C%A8-hexo-%E5%8D%9A%E5%AE%A2%E4%B8%AD%E8%B7%B3%E8%BF%87%E6%B8%B2%E6%9F%93%EF%BC%8C%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E7%BD%91%E9%A1%B5" target="_blank" rel="external">&#x5728; Hexo &#x535A;&#x5BA2;&#x4E2D;&#x8DF3;&#x8FC7;&#x6E32;&#x67D3;&#xFF0C;&#x521B;&#x5EFA;&#x81EA;&#x5B9A;&#x4E49;&#x7F51;&#x9875;</a></li>
 <li><a href="https://www.zhihu.com/question/32235996" target="_blank" rel="external">&#x600E;&#x4E48;&#x628A;&#x81EA;&#x5DF1;&#x5236;&#x4F5C;&#x7684;HTML5&#x7F51;&#x9875;&#x4F20;&#x5230;&#x81EA;&#x5DF1;&#x7684;hexo&#x535A;&#x5BA2;&#x4E0A;&#xFF1F;&#x9700;&#x8981;&#x8BE6;&#x7EC6;&#x7684;&#x6B65;&#x9AA4;&#x3002;&#xFF1F;</a></li>
 </ul>
-<h1 id="Solution-3-Rmd-gt-html-gt-raw-code"><a href="#Solution-3-Rmd-gt-html-gt-raw-code" class="headerlink" title="Solution 3 Rmd-&gt;html-&gt;raw code"></a>Solution 3 <code>Rmd</code>-&gt;<code>html</code>-&gt;raw code</h1><p>&#x76F4;&#x63A5;&#x7528;<code>knit</code>&#x672C;&#x8EAB;&#x9ED8;&#x8BA4;&#x7684;&#x529F;&#x80FD;&#x751F;&#x6210;<code>html</code>&#x6587;&#x4EF6;&#xFF0C;&#x6253;&#x5F00;&#x8BE5;&#x6587;&#x4EF6;&#xFF0C;&#x590D;&#x5236;<code>html</code>&#x4EE3;&#x7801;&#x5230;&#x4F60;&#x65B0;&#x5EFA;post&#x7684;<code>.md</code>&#x6587;&#x4EF6;&#x91CC;&#xFF0C;&#x53EA;&#x662F;&#x5728;<code>html</code>&#x4EE3;&#x7801;&#x524D;&#x540E;&#x9700;&#x8981;&#x52A0;&#x5165;&#x51E0;&#x884C;&#x4EE3;&#x7801;&#xFF0C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<h1 id="Workflow-3-Rmd-gt-html-gt-raw-code"><a href="#Workflow-3-Rmd-gt-html-gt-raw-code" class="headerlink" title="Workflow 3 Rmd-&gt;html-&gt;raw code"></a>Workflow 3 <code>Rmd</code>-&gt;<code>html</code>-&gt;raw code</h1><p>&#x76F4;&#x63A5;&#x7528;<code>knit</code>&#x672C;&#x8EAB;&#x9ED8;&#x8BA4;&#x7684;&#x529F;&#x80FD;&#x751F;&#x6210;<code>html</code>&#x6587;&#x4EF6;&#xFF0C;&#x6253;&#x5F00;&#x8BE5;&#x6587;&#x4EF6;&#xFF0C;&#x590D;&#x5236;<code>html</code>&#x4EE3;&#x7801;&#x5230;&#x4F60;&#x65B0;&#x5EFA;post&#x7684;<code>.md</code>&#x6587;&#x4EF6;&#x91CC;&#xFF0C;&#x53EA;&#x662F;&#x5728;<code>html</code>&#x4EE3;&#x7801;&#x524D;&#x540E;&#x9700;&#x8981;&#x52A0;&#x5165;&#x51E0;&#x884C;&#x4EE3;&#x7801;&#xFF0C;&#x5982;&#x4E0B;&#xFF1A;</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">{% raw %}</div><div class="line">your html code</div><div class="line">{% endraw %}</div></pre></td></tr></table></figure>
 <p>&#x4F46;&#x662F;&#x4EB2;&#x6D4B;&#xFF0C;&#x6548;&#x679C;&#x5E76;&#x4E0D;&#x662F;&#x7279;&#x522B;&#x7406;&#x60F3;&#x3002;&#x6574;&#x4E2A;&#x6392;&#x7248;&#x5E76;&#x4E0D;&#x7F8E;&#x89C2;&#x3002;</p>
 <p>&#x53EF;&#x53C2;&#x8003;&#x4EE5;&#x4E0B;&#x6587;&#x7AE0;&#xFF1A;</p>
 <ul>
 <li><a href="https://github.com/hexojs/hexo/issues/1692" target="_blank" rel="external">hexo&#x80FD;&#x5728;markdown&#x4E2D;&#x63D2;&#x5165;&#x4E00;&#x6BB5;html&#x4EE3;&#x7801;&#x4E0D;&#x88AB;&#x6E32;&#x67D3;&#x4E48;&#xFF1F;(&#xB4;&#xFF65;_&#xFF65;`) #1692</a></li>
 </ul>
-<h1 id="Solution-4-Rmd-gt-html-gt-iframe"><a href="#Solution-4-Rmd-gt-html-gt-iframe" class="headerlink" title="Solution 4 Rmd-&gt;html-&gt;iframe"></a>Solution 4 <code>Rmd</code>-&gt;<code>html</code>-&gt;<code>iframe</code></h1><p>&#x8FD9;&#x662F;&#x76EE;&#x524D;&#x4E3A;&#x6B62;&#xFF0C;&#x6211;&#x89C1;&#x8FC7;&#x7684;&#x6700;&#x4F73;&#x65B9;&#x6848;&#xFF0C;&#x65E2;&#x80FD;&#x591F;&#x8BA9;&#x4F60;&#x7684;post&#x663E;&#x793A;&#x5728;&#x4E3B;&#x9875;&#xFF0C;&#x53C8;&#x80FD;&#x591F;&#x5728;&#x535A;&#x5BA2;&#x7684;&#x641C;&#x7D22;&#x680F;&#x91CC;&#x641C;&#x5230;&#x4F60;&#x7684;R project&#x7684;&#x5185;&#x5BB9;&#x3002;</p>
+<h1 id="Workflow-4-Rmd-gt-html-gt-iframe"><a href="#Workflow-4-Rmd-gt-html-gt-iframe" class="headerlink" title="Workflow 4 Rmd-&gt;html-&gt;iframe"></a>Workflow 4 <code>Rmd</code>-&gt;<code>html</code>-&gt;<code>iframe</code></h1><p><strong>&#x8FD9;&#x662F;&#x76EE;&#x524D;&#x4E3A;&#x6B62;&#xFF0C;&#x6211;&#x89C1;&#x8FC7;&#x7684;&#x6700;&#x4F73;&#x65B9;&#x6848;&#xFF0C;&#x65E2;&#x80FD;&#x591F;&#x8BA9;&#x4F60;&#x7684;post&#x663E;&#x793A;&#x5728;&#x4E3B;&#x9875;&#xFF0C;&#x53C8;&#x80FD;&#x591F;&#x5728;&#x535A;&#x5BA2;&#x7684;&#x641C;&#x7D22;&#x680F;&#x91CC;&#x641C;&#x5230;&#x4F60;&#x7684;R project&#x7684;&#x5185;&#x5BB9;&#x3002;</strong></p>
 <p>&#x4F9D;&#x7136;&#x76F4;&#x63A5;&#x7528;<code>knit</code>&#x672C;&#x8EAB;&#x9ED8;&#x8BA4;&#x7684;&#x529F;&#x80FD;&#x751F;&#x6210;<code>html</code>&#x6587;&#x4EF6;&#xFF0C;&#x7136;&#x540E;&#x590D;&#x5236;<code>html</code>&#x6587;&#x4EF6;&#x5230;<code>source</code>&#x6587;&#x4EF6;&#x4E0B;&#x3002;&#x4FEE;&#x6539;&#x8BE5;<code>html</code>&#xFF0C;&#x5728;&#x6587;&#x4EF6;&#x5F00;&#x59CB;&#x52A0;&#x5165;</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">layout: false</div><div class="line">---</div></pre></td></tr></table></figure>
 <p>&#x5728;&#x4F60;&#x65B0;&#x5EFA;post&#x7684;<code>.md</code>&#x6587;&#x4EF6;&#x91CC;&#x63D2;&#x5165;</p>
@@ -537,9 +537,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/rmarkdown/" rel="tag"># rmarkdown</a>
-          
             <a href="/tags/hexo/" rel="tag"># hexo</a>
+          
+            <a href="/tags/rmarkdown/" rel="tag"># rmarkdown</a>
           
             <a href="/tags/workflow/" rel="tag"># workflow</a>
           
@@ -809,7 +809,7 @@ show_date_time();
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Blogdown"><span class="nav-number">1.</span> <span class="nav-text">Blogdown</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Solution-1-Rmd-gt-md-gt-Hexo"><span class="nav-number">2.</span> <span class="nav-text">Solution 1 Rmd->md->Hexo</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Solurion-2-Rmd-gt-html-gt-layout-false"><span class="nav-number">3.</span> <span class="nav-text">Solurion 2 Rmd->html->layout: false</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Solution-3-Rmd-gt-html-gt-raw-code"><span class="nav-number">4.</span> <span class="nav-text">Solution 3 Rmd->html->raw code</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Solution-4-Rmd-gt-html-gt-iframe"><span class="nav-number">5.</span> <span class="nav-text">Solution 4 Rmd->html->iframe</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#R-gt-html"><span class="nav-number">6.</span> <span class="nav-text">R->html</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Blogdown"><span class="nav-number">1.</span> <span class="nav-text">Blogdown</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Workflow-1-Rmd-gt-md-gt-Hexo"><span class="nav-number">2.</span> <span class="nav-text">Workflow 1 Rmd->md->Hexo</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Workflow-2-Rmd-gt-html-gt-layout-false"><span class="nav-number">3.</span> <span class="nav-text">Workflow 2 Rmd->html->layout: false</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Workflow-3-Rmd-gt-html-gt-raw-code"><span class="nav-number">4.</span> <span class="nav-text">Workflow 3 Rmd->html->raw code</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Workflow-4-Rmd-gt-html-gt-iframe"><span class="nav-number">5.</span> <span class="nav-text">Workflow 4 Rmd->html->iframe</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#R-gt-html"><span class="nav-number">6.</span> <span class="nav-text">R->html</span></a></li></ol></div>
             
 
           </div>
