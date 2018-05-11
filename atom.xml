@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.baoduge.com/"/>
-  <updated>2018-02-03T14:08:58.000Z</updated>
+  <updated>2018-05-11T16:48:41.000Z</updated>
   <id>http://blog.baoduge.com/</id>
   
   <author>
@@ -15,6 +15,158 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何将我的R project发布在Hexo上？</title>
+    <link href="http://blog.baoduge.com/test/"/>
+    <id>http://blog.baoduge.com/test/</id>
+    <published>2018-05-11T16:00:00.000Z</published>
+    <updated>2018-05-11T16:48:41.000Z</updated>
+    
+    <summary type="html">
+    
+      This is an solution about how to post my R code and result on Hexo blog
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Monte Carlo Experiment for Fama French 5 Factor Model</title>
+    <link href="http://blog.baoduge.com/MC_FF5/"/>
+    <id>http://blog.baoduge.com/MC_FF5/</id>
+    <published>2018-04-01T16:00:00.000Z</published>
+    <updated>2018-05-11T15:26:14.000Z</updated>
+    
+    <summary type="html">
+    
+      We use Monte Carlo simulations to validate the Fama-French five-factor model and the O.L.S properties
+    
+    </summary>
+    
+      <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
+    
+    
+      <category term="statistics" scheme="http://blog.baoduge.com/tags/statistics/"/>
+    
+      <category term="rmarkdown" scheme="http://blog.baoduge.com/tags/rmarkdown/"/>
+    
+      <category term="rlang" scheme="http://blog.baoduge.com/tags/rlang/"/>
+    
+      <category term="experiment" scheme="http://blog.baoduge.com/tags/experiment/"/>
+    
+      <category term="monte_carlo" scheme="http://blog.baoduge.com/tags/monte-carlo/"/>
+    
+      <category term="famafrench" scheme="http://blog.baoduge.com/tags/famafrench/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Monte Carlo Experiment for House Pricing Prediction</title>
+    <link href="http://blog.baoduge.com/MC_HP/"/>
+    <id>http://blog.baoduge.com/MC_HP/</id>
+    <published>2018-03-28T16:00:00.000Z</published>
+    <updated>2018-05-11T15:04:59.000Z</updated>
+    
+    <summary type="html">
+    
+      We use Monte Carlo simulations to validate the house pricing model and the O.L.S properties
+    
+    </summary>
+    
+      <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
+    
+    
+      <category term="statistics" scheme="http://blog.baoduge.com/tags/statistics/"/>
+    
+      <category term="rmarkdown" scheme="http://blog.baoduge.com/tags/rmarkdown/"/>
+    
+      <category term="rlang" scheme="http://blog.baoduge.com/tags/rlang/"/>
+    
+      <category term="experiment" scheme="http://blog.baoduge.com/tags/experiment/"/>
+    
+      <category term="monte_carlo" scheme="http://blog.baoduge.com/tags/monte-carlo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Literature Review: Predicting the Semantic Orientation of Adjectives</title>
+    <link href="http://blog.baoduge.com/SA_FN4/"/>
+    <id>http://blog.baoduge.com/SA_FN4/</id>
+    <published>2018-03-21T16:00:00.000Z</published>
+    <updated>2018-05-11T14:50:06.000Z</updated>
+    
+    <summary type="html">
+    
+      This is the literature review on one paper of Hatzivassiloglou et al (1997) on ACL.
+    
+    </summary>
+    
+      <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
+    
+    
+      <category term="finance" scheme="http://blog.baoduge.com/tags/finance/"/>
+    
+      <category term="statistics" scheme="http://blog.baoduge.com/tags/statistics/"/>
+    
+      <category term="rmarkdown" scheme="http://blog.baoduge.com/tags/rmarkdown/"/>
+    
+      <category term="rlang" scheme="http://blog.baoduge.com/tags/rlang/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>How to Simply Get the Overview of Textual Data and Numerical Data</title>
+    <link href="http://blog.baoduge.com/StkPreHL/"/>
+    <id>http://blog.baoduge.com/StkPreHL/</id>
+    <published>2018-03-04T16:00:00.000Z</published>
+    <updated>2018-05-11T15:46:25.000Z</updated>
+    
+    <summary type="html">
+    
+      This is a simple demo of how to analyze the textual data and numerical data using R language.
+    
+    </summary>
+    
+      <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
+    
+    
+      <category term="finance" scheme="http://blog.baoduge.com/tags/finance/"/>
+    
+      <category term="statistics" scheme="http://blog.baoduge.com/tags/statistics/"/>
+    
+      <category term="rmarkdown" scheme="http://blog.baoduge.com/tags/rmarkdown/"/>
+    
+      <category term="rlang" scheme="http://blog.baoduge.com/tags/rlang/"/>
+    
+      <category term="data_analysis" scheme="http://blog.baoduge.com/tags/data-analysis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Descriptive Statistics and Map Plot of Twitter Data</title>
+    <link href="http://blog.baoduge.com/SentiMap/"/>
+    <id>http://blog.baoduge.com/SentiMap/</id>
+    <published>2018-02-28T16:00:00.000Z</published>
+    <updated>2018-05-11T15:54:29.000Z</updated>
+    
+    <summary type="html">
+    
+      This is a R experiment about how to get the descriptive statistics of Twitter data and plot the sentiment map.
+    
+    </summary>
+    
+      <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
+    
+    
+      <category term="statistics" scheme="http://blog.baoduge.com/tags/statistics/"/>
+    
+      <category term="rmarkdown" scheme="http://blog.baoduge.com/tags/rmarkdown/"/>
+    
+      <category term="rlang" scheme="http://blog.baoduge.com/tags/rlang/"/>
+    
+  </entry>
   
   <entry>
     <title>What&#39;s on-line portfolio selection?</title>
@@ -60,9 +212,9 @@
     
       <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
     
-      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
-    
       <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
+    
+      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
     
       <category term="deep_learning" scheme="http://blog.baoduge.com/tags/deep-learning/"/>
     
@@ -115,34 +267,6 @@
   </entry>
   
   <entry>
-    <title>Literature Review: Asset Allocation based on Sentiment Analysis and Machine Learning</title>
-    <link href="http://blog.baoduge.com/literature_review_saf/"/>
-    <id>http://blog.baoduge.com/literature_review_saf/</id>
-    <published>2017-12-05T16:00:00.000Z</published>
-    <updated>2018-01-16T13:10:20.000Z</updated>
-    
-    <summary type="html">
-    
-      This is the literature review on Asset Allocation based on Sentiment Analysis and Machine Learning.
-    
-    </summary>
-    
-      <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
-    
-    
-      <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
-    
-      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
-    
-      <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
-    
-      <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
-    
-      <category term="finance" scheme="http://blog.baoduge.com/tags/finance/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Notes on the Structural Modeling</title>
     <link href="http://blog.baoduge.com/Structural_Model/"/>
     <id>http://blog.baoduge.com/Structural_Model/</id>
@@ -158,9 +282,9 @@
       <category term="中文" scheme="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
     
     
-      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
-    
       <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
+    
+      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
     
       <category term="structural_modeling" scheme="http://blog.baoduge.com/tags/structural-modeling/"/>
     
@@ -184,13 +308,13 @@
     
       <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
     
-      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
-    
       <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
       <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
     
       <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
+    
+      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
     
       <category term="natural_language_processing" scheme="http://blog.baoduge.com/tags/natural-language-processing/"/>
     
@@ -261,38 +385,6 @@
       <category term="control_theory" scheme="http://blog.baoduge.com/tags/control-theory/"/>
     
       <category term="mathematics" scheme="http://blog.baoduge.com/tags/mathematics/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Literature Review: Predicting the Semantic Orientation of Adjectives</title>
-    <link href="http://blog.baoduge.com/SA_FN4/"/>
-    <id>http://blog.baoduge.com/SA_FN4/</id>
-    <published>2017-11-20T16:00:00.000Z</published>
-    <updated>2017-11-25T16:51:32.000Z</updated>
-    
-    <summary type="html">
-    
-      This is the literature review on one paper of Hatzivassiloglou et al (1997) on ACL.
-    
-    </summary>
-    
-      <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
-    
-    
-      <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
-    
-      <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
-    
-      <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
-    
-      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
-    
-      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
-    
-      <category term="cluster" scheme="http://blog.baoduge.com/tags/cluster/"/>
-    
-      <category term="logit_regression" scheme="http://blog.baoduge.com/tags/logit-regression/"/>
     
   </entry>
   
@@ -487,124 +579,6 @@
       <category term="twitter" scheme="http://blog.baoduge.com/tags/twitter/"/>
     
       <category term="neural_network" scheme="http://blog.baoduge.com/tags/neural-network/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Literature Review on Social Media in Financial Market</title>
-    <link href="http://blog.baoduge.com/SA_FN2/"/>
-    <id>http://blog.baoduge.com/SA_FN2/</id>
-    <published>2017-11-01T16:00:00.000Z</published>
-    <updated>2017-11-25T16:56:49.000Z</updated>
-    
-    <summary type="html">
-    
-      This is the literature review on sentiment analysis on financial market.
-    
-    </summary>
-    
-      <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
-    
-    
-      <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
-    
-      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
-    
-      <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
-    
-      <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
-    
-      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
-    
-      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
-    
-      <category term="opinion_mining" scheme="http://blog.baoduge.com/tags/opinion-mining/"/>
-    
-      <category term="time_series" scheme="http://blog.baoduge.com/tags/time-series/"/>
-    
-      <category term="finance" scheme="http://blog.baoduge.com/tags/finance/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Literature Review on UGC/WOM</title>
-    <link href="http://blog.baoduge.com/SA_FN/"/>
-    <id>http://blog.baoduge.com/SA_FN/</id>
-    <published>2017-10-30T16:00:00.000Z</published>
-    <updated>2017-11-25T16:50:32.000Z</updated>
-    
-    <summary type="html">
-    
-      This is the literature review on UGC/WOM.
-    
-    </summary>
-    
-      <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
-    
-    
-      <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
-    
-      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
-    
-      <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
-    
-      <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
-    
-      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
-    
-      <category term="user_generated_content" scheme="http://blog.baoduge.com/tags/user-generated-content/"/>
-    
-      <category term="word_of_mouth" scheme="http://blog.baoduge.com/tags/word-of-mouth/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Can online scoring really reflects the rankings of products?</title>
-    <link href="http://blog.baoduge.com/expectation_on_online%20scoring/"/>
-    <id>http://blog.baoduge.com/expectation_on_online scoring/</id>
-    <published>2017-10-29T16:00:00.000Z</published>
-    <updated>2017-11-25T16:41:03.000Z</updated>
-    
-    <summary type="html">
-    
-      There are lots of scenarios that we need to do evaluations, for example, `online scoring` of movies on IMDB or products on Amazon.com. Via the the `online scoring`, customers can easily judge which items they would like to choose.
-    
-    </summary>
-    
-    
-      <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
-    
-      <category term="notes" scheme="http://blog.baoduge.com/tags/notes/"/>
-    
-      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
-    
-      <category term="economics" scheme="http://blog.baoduge.com/tags/economics/"/>
-    
-      <category term="online_scoring" scheme="http://blog.baoduge.com/tags/online-scoring/"/>
-    
-      <category term="modeling" scheme="http://blog.baoduge.com/tags/modeling/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux/Mac Terminal Tutorial</title>
-    <link href="http://blog.baoduge.com/Terminal_tutorial/"/>
-    <id>http://blog.baoduge.com/Terminal_tutorial/</id>
-    <published>2017-10-24T16:00:00.000Z</published>
-    <updated>2017-11-10T07:45:22.000Z</updated>
-    
-    <summary type="html">
-    
-      This is a tutorial of terminal commands on Linux/Mac System.
-    
-    </summary>
-    
-      <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
-    
-    
-      <category term="terminal" scheme="http://blog.baoduge.com/tags/terminal/"/>
-    
-      <category term="tutorial" scheme="http://blog.baoduge.com/tags/tutorial/"/>
     
   </entry>
   

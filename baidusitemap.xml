@@ -4,6 +4,232 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/test/</loc>
+    <lastmod>2018-05-11T16:48:41.000Z</lastmod>
+    <data>
+        <display>
+        <title>如何将我的R project发布在Hexo上？</title>
+        <pubTime>2018-05-11T16:00:00.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://blog.baoduge.com/SentiMap/</loc>
+    <lastmod>2018-05-11T15:54:29.000Z</lastmod>
+    <data>
+        <display>
+        <title>Descriptive Statistics and Map Plot of Twitter Data</title>
+        <pubTime>2018-02-28T16:00:00.000Z</pubTime>
+        
+        <tag>statistics</tag>
+         
+        <tag>rmarkdown</tag>
+         
+        <tag>rlang</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/StkPreHL/</loc>
+    <lastmod>2018-05-11T15:46:25.000Z</lastmod>
+    <data>
+        <display>
+        <title>How to Simply Get the Overview of Textual Data and Numerical Data</title>
+        <pubTime>2018-03-04T16:00:00.000Z</pubTime>
+        
+        <tag>finance</tag>
+         
+        <tag>statistics</tag>
+         
+        <tag>rmarkdown</tag>
+         
+        <tag>rlang</tag>
+         
+        <tag>data_analysis</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/MC_FF5/</loc>
+    <lastmod>2018-05-11T15:26:14.000Z</lastmod>
+    <data>
+        <display>
+        <title>Monte Carlo Experiment for Fama French 5 Factor Model</title>
+        <pubTime>2018-04-01T16:00:00.000Z</pubTime>
+        
+        <tag>statistics</tag>
+         
+        <tag>rmarkdown</tag>
+         
+        <tag>rlang</tag>
+         
+        <tag>experiment</tag>
+         
+        <tag>monte_carlo</tag>
+         
+        <tag>famafrench</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/MC_HP/</loc>
+    <lastmod>2018-05-11T15:04:59.000Z</lastmod>
+    <data>
+        <display>
+        <title>Monte Carlo Experiment for House Pricing Prediction</title>
+        <pubTime>2018-03-28T16:00:00.000Z</pubTime>
+        
+        <tag>statistics</tag>
+         
+        <tag>rmarkdown</tag>
+         
+        <tag>rlang</tag>
+         
+        <tag>experiment</tag>
+         
+        <tag>monte_carlo</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/SA_FN4/</loc>
+    <lastmod>2018-05-11T14:50:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>Literature Review: Predicting the Semantic Orientation of Adjectives</title>
+        <pubTime>2018-03-21T16:00:00.000Z</pubTime>
+        
+        <tag>finance</tag>
+         
+        <tag>statistics</tag>
+         
+        <tag>rmarkdown</tag>
+         
+        <tag>rlang</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
+    <lastmod>2018-05-01T08:49:19.000Z</lastmod>
+    <data>
+        <display>
+        <title>2017-18 Open-Course Challenges: Data Science on IS</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>machine_learning</tag>
+         
+        <tag>natural_language_processing</tag>
+         
+        <tag>information_system</tag>
+         
+        <tag>deep_learning</tag>
+         
+        <tag>markdown_table</tag>
+         
+        <tag>image</tag>
+         
+        <tag>github</tag>
+         
+        <tag>hexo_pdf</tag>
+         
+        <tag>finance</tag>
+         
+        <tag>statistics</tag>
+         
+        <tag>economics</tag>
+         
+        <tag>mathematics</tag>
+         
+        <tag>artificial_intelligence</tag>
+         
+        <tag>open_course</tag>
+         
+        <tag>span_id_anchor</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/IS_reseources/</loc>
+    <lastmod>2018-03-22T14:49:31.000Z</lastmod>
+    <data>
+        <display>
+        <title>Resources & Tools of Information System Research</title>
+        <pubTime>2017-10-23T16:00:00.000Z</pubTime>
+        
+        <tag>research</tag>
+         
+        <tag>information_system</tag>
+         
+        <tag>markdown_table</tag>
+         
+        <tag>image</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/Type_I_Type_II_error/</loc>
     <lastmod>2018-03-18T17:18:13.000Z</lastmod>
     <data>
@@ -50,54 +276,6 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2018-03-13T12:40:44.000Z</lastmod>
-    <data>
-        <display>
-        <title>2017-18 Open-Course Challenges: Data Science on IS</title>
-        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
-        
-        <tag>information_system</tag>
-         
-        <tag>machine_learning</tag>
-         
-        <tag>natural_language_processing</tag>
-         
-        <tag>deep_learning</tag>
-         
-        <tag>markdown_table</tag>
-         
-        <tag>image</tag>
-         
-        <tag>github</tag>
-         
-        <tag>hexo_pdf</tag>
-         
-        <tag>finance</tag>
-         
-        <tag>statistics</tag>
-         
-        <tag>economics</tag>
-         
-        <tag>mathematics</tag>
-         
-        <tag>artificial_intelligence</tag>
-         
-        <tag>open_course</tag>
-         
-        <tag>span_id_anchor</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
     <lastmod>2018-03-08T10:45:54.000Z</lastmod>
     <data>
@@ -105,9 +283,11 @@
         <title>NEVERLAND - Blog Logs</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>study</tag>
-         
         <tag>research</tag>
+         
+        <tag>machine_learning</tag>
+         
+        <tag>study</tag>
          
         <tag>blog</tag>
          
@@ -118,8 +298,6 @@
         <tag>notes</tag>
          
         <tag>information_system</tag>
-         
-        <tag>machine_learning</tag>
          
         <tag>music</tag>
          
@@ -273,39 +451,11 @@
         
         <tag>research</tag>
          
-        <tag>machine_learning</tag>
-         
         <tag>sentiment_analysis</tag>
+         
+        <tag>machine_learning</tag>
          
         <tag>deep_learning</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/literature_review_saf/</loc>
-    <lastmod>2018-01-16T13:10:20.000Z</lastmod>
-    <data>
-        <display>
-        <title>Literature Review: Asset Allocation based on Sentiment Analysis and Machine Learning</title>
-        <pubTime>2017-12-05T16:00:00.000Z</pubTime>
-        
-        <tag>research</tag>
-         
-        <tag>machine_learning</tag>
-         
-        <tag>sentiment_analysis</tag>
-         
-        <tag>literature_review</tag>
-         
-        <tag>finance</tag>
          
          
            
@@ -327,13 +477,13 @@
         
         <tag>research</tag>
          
-        <tag>machine_learning</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
          
         <tag>faicon</tag>
+         
+        <tag>machine_learning</tag>
          
         <tag>natural_language_processing</tag>
          
@@ -356,9 +506,9 @@
         <title>Notes on the Structural Modeling</title>
         <pubTime>2017-11-28T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>machine_learning</tag>
+         
+        <tag>information_system</tag>
          
         <tag>structural_modeling</tag>
          
@@ -409,32 +559,6 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/IS_reseources/</loc>
-    <lastmod>2017-12-08T04:51:30.000Z</lastmod>
-    <data>
-        <display>
-        <title>Resources & Tools of Information System Research</title>
-        <pubTime>2017-10-23T16:00:00.000Z</pubTime>
-        
-        <tag>research</tag>
-         
-        <tag>information_system</tag>
-         
-        <tag>markdown_table</tag>
-         
-        <tag>image</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.baoduge.com/Mendeley/</loc>
     <lastmod>2017-11-29T07:05:24.000Z</lastmod>
     <data>
@@ -470,11 +594,11 @@
         <title>用Sublime Text 3管理文献</title>
         <pubTime>2017-09-27T16:00:00.000Z</pubTime>
         
-        <tag>hexo_pdf</tag>
-         
         <tag>document_management</tag>
          
         <tag>bibtex</tag>
+         
+        <tag>hexo_pdf</tag>
          
         <tag>sublime_text_3</tag>
          
@@ -500,9 +624,9 @@
         <title>Introduction to Sentiment Analysis</title>
         <pubTime>2017-10-22T16:00:00.000Z</pubTime>
         
-        <tag>machine_learning</tag>
-         
         <tag>sentiment_analysis</tag>
+         
+        <tag>machine_learning</tag>
          
         <tag>natural_language_processing</tag>
          
@@ -564,9 +688,9 @@
         
         <tag>tutorial</tag>
          
-        <tag>latex</tag>
-         
         <tag>sublime_text_3</tag>
+         
+        <tag>latex</tag>
          
         <tag>skim</tag>
          
@@ -590,11 +714,11 @@
         
         <tag>research</tag>
          
-        <tag>information_system</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
+         
+        <tag>information_system</tag>
          
         <tag>image</tag>
          
@@ -673,38 +797,6 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/SA_FN4/</loc>
-    <lastmod>2017-11-25T16:51:32.000Z</lastmod>
-    <data>
-        <display>
-        <title>Literature Review: Predicting the Semantic Orientation of Adjectives</title>
-        <pubTime>2017-11-20T16:00:00.000Z</pubTime>
-        
-        <tag>research</tag>
-         
-        <tag>sentiment_analysis</tag>
-         
-        <tag>literature_review</tag>
-         
-        <tag>image</tag>
-         
-        <tag>mathjax</tag>
-         
-        <tag>cluster</tag>
-         
-        <tag>logit_regression</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.baoduge.com/SA_FN3/</loc>
     <lastmod>2017-11-25T16:51:15.000Z</lastmod>
     <data>
@@ -752,11 +844,11 @@
         
         <tag>research</tag>
          
-        <tag>information_system</tag>
-         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
+         
+        <tag>information_system</tag>
          
         <tag>mathjax</tag>
          
@@ -782,9 +874,9 @@
         <title>Robo-Advisor Introduction</title>
         <pubTime>2017-09-13T16:00:00.000Z</pubTime>
         
-        <tag>hexo_pdf</tag>
-         
         <tag>tbc</tag>
+         
+        <tag>hexo_pdf</tag>
          
         <tag>robo_advisor</tag>
          
@@ -870,9 +962,9 @@
         <title>Using MATLAB to batch search #citation of IS papers</title>
         <pubTime>2017-09-18T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>faicon</tag>
+         
+        <tag>information_system</tag>
          
         <tag>matlab</tag>
          
