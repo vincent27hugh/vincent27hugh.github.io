@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.baoduge.com/"/>
-  <updated>2018-05-11T16:48:41.000Z</updated>
+  <updated>2018-05-11T16:54:37.000Z</updated>
   <id>http://blog.baoduge.com/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>如何将我的R project发布在Hexo上？</title>
-    <link href="http://blog.baoduge.com/test/"/>
-    <id>http://blog.baoduge.com/test/</id>
+    <link href="http://blog.baoduge.com/rproject_hexo/"/>
+    <id>http://blog.baoduge.com/rproject_hexo/</id>
     <published>2018-05-11T16:00:00.000Z</published>
-    <updated>2018-05-11T16:48:41.000Z</updated>
+    <updated>2018-05-11T16:54:37.000Z</updated>
     
     <summary type="html">
     
@@ -48,8 +48,6 @@
       <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
-      <category term="statistics" scheme="http://blog.baoduge.com/tags/statistics/"/>
-    
       <category term="rmarkdown" scheme="http://blog.baoduge.com/tags/rmarkdown/"/>
     
       <category term="rlang" scheme="http://blog.baoduge.com/tags/rlang/"/>
@@ -57,6 +55,8 @@
       <category term="experiment" scheme="http://blog.baoduge.com/tags/experiment/"/>
     
       <category term="monte_carlo" scheme="http://blog.baoduge.com/tags/monte-carlo/"/>
+    
+      <category term="statistics" scheme="http://blog.baoduge.com/tags/statistics/"/>
     
       <category term="famafrench" scheme="http://blog.baoduge.com/tags/famafrench/"/>
     
@@ -78,8 +78,6 @@
       <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
-      <category term="statistics" scheme="http://blog.baoduge.com/tags/statistics/"/>
-    
       <category term="rmarkdown" scheme="http://blog.baoduge.com/tags/rmarkdown/"/>
     
       <category term="rlang" scheme="http://blog.baoduge.com/tags/rlang/"/>
@@ -87,6 +85,8 @@
       <category term="experiment" scheme="http://blog.baoduge.com/tags/experiment/"/>
     
       <category term="monte_carlo" scheme="http://blog.baoduge.com/tags/monte-carlo/"/>
+    
+      <category term="statistics" scheme="http://blog.baoduge.com/tags/statistics/"/>
     
   </entry>
   
@@ -106,13 +106,13 @@
       <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
-      <category term="finance" scheme="http://blog.baoduge.com/tags/finance/"/>
-    
-      <category term="statistics" scheme="http://blog.baoduge.com/tags/statistics/"/>
-    
       <category term="rmarkdown" scheme="http://blog.baoduge.com/tags/rmarkdown/"/>
     
       <category term="rlang" scheme="http://blog.baoduge.com/tags/rlang/"/>
+    
+      <category term="statistics" scheme="http://blog.baoduge.com/tags/statistics/"/>
+    
+      <category term="finance" scheme="http://blog.baoduge.com/tags/finance/"/>
     
   </entry>
   
@@ -132,13 +132,13 @@
       <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
-      <category term="finance" scheme="http://blog.baoduge.com/tags/finance/"/>
-    
-      <category term="statistics" scheme="http://blog.baoduge.com/tags/statistics/"/>
-    
       <category term="rmarkdown" scheme="http://blog.baoduge.com/tags/rmarkdown/"/>
     
       <category term="rlang" scheme="http://blog.baoduge.com/tags/rlang/"/>
+    
+      <category term="statistics" scheme="http://blog.baoduge.com/tags/statistics/"/>
+    
+      <category term="finance" scheme="http://blog.baoduge.com/tags/finance/"/>
     
       <category term="data_analysis" scheme="http://blog.baoduge.com/tags/data-analysis/"/>
     
@@ -160,11 +160,11 @@
       <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
-      <category term="statistics" scheme="http://blog.baoduge.com/tags/statistics/"/>
-    
       <category term="rmarkdown" scheme="http://blog.baoduge.com/tags/rmarkdown/"/>
     
       <category term="rlang" scheme="http://blog.baoduge.com/tags/rlang/"/>
+    
+      <category term="statistics" scheme="http://blog.baoduge.com/tags/statistics/"/>
     
   </entry>
   
@@ -212,11 +212,11 @@
     
       <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
     
-      <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
-    
       <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
     
       <category term="deep_learning" scheme="http://blog.baoduge.com/tags/deep-learning/"/>
+    
+      <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
   </entry>
   
@@ -282,9 +282,9 @@
       <category term="中文" scheme="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
     
     
-      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
-    
       <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
+    
+      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
     
       <category term="structural_modeling" scheme="http://blog.baoduge.com/tags/structural-modeling/"/>
     
@@ -308,13 +308,13 @@
     
       <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
     
+      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
+    
       <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
       <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
     
       <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
-    
-      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
     
       <category term="natural_language_processing" scheme="http://blog.baoduge.com/tags/natural-language-processing/"/>
     
@@ -440,11 +440,11 @@
       <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
-      <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
-    
       <category term="python" scheme="http://blog.baoduge.com/tags/python/"/>
     
       <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
+    
+      <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
     
       <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
     
@@ -478,9 +478,9 @@
       <category term="中文" scheme="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
     
     
-      <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
-    
       <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
+    
+      <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
     
       <category term="mendeley" scheme="http://blog.baoduge.com/tags/mendeley/"/>
     
@@ -564,9 +564,9 @@
     
       <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
-      <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
-    
       <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
+    
+      <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
     
       <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     

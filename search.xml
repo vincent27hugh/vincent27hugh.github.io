@@ -2,8 +2,8 @@
 <search>
   <entry>
     <title><![CDATA[如何将我的R project发布在Hexo上？]]></title>
-    <url>%2Ftest%2F</url>
-    <content type="text"><![CDATA[Blogdown &#x73B0;&#x5B9E;&#x60C5;&#x51B5;&#xFF1A;Hexo blog&#x5DF2;&#x7ECF;&#x642D;&#x5EFA;&#x5F88;&#x4E45;&#xFF0C;&#x4E0D;&#x60F3;&#x5728;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#x7F51;&#x7AD9; &#x9700;&#x6C42;&#xFF1A; &#x53EA;&#x662F;&#x60F3;&#x5728;&#x67D0;&#x4E9B;post&#x91CC;&#x4F53;&#x73B0;R&#x4EE3;&#x7801;&#xFF1B; &#x60F3;&#x8BA9;post&#x663E;&#x793A;&#x5728;&#x4E3B;&#x9875;; &#x60F3;&#x5728;&#x535A;&#x5BA2;&#x641C;&#x7D22;&#x680F;&#x91CC;&#x53EF;&#x4EE5;&#x641C;&#x5230;R project&#x7684;&#x5185;&#x5BB9;; &#x6392;&#x7248;&#x5C3D;&#x91CF;&#x7F8E;&#x89C2;&#xFF1B; &#x56F0;&#x96BE;&#xFF1A;blogdown&#x4F3C;&#x4E4E;&#x4E0D;&#x9002;&#x7528;&#x6211;&#x7684;&#x60C5;&#x51B5;&#x3002;&#x5982;&#x679C;&#x6709;&#x4EBA;&#x77E5;&#x9053;&#x53EF;&#x4EE5;&#x7528;blogdown&#x89E3;&#x51B3;&#x7684;&#x65B9;&#x6848;&#xFF0C;&#x53EF;&#x4EE5;&#x90AE;&#x4EF6;&#x7ED9;&#x6211;&#x6216;&#x8005;&#x5728;&#x4E0B;&#x65B9;&#x7559;&#x8A00;&#x3002;&#x5341;&#x5206;&#x6B22;&#x8FCE;~ Solution 1 Rmd-&gt;md-&gt;Hexo&#x5728;&#x4F60;&#x7684;Rmd&#x6587;&#x4EF6;YAML head&#x91CC;&#x52A0;&#x5165;&#x4EE5;&#x4E0B;&#x4EE3;&#x7801;&#xFF1A; 12345---output: md_document: variant: markdown_github--- &#x5C31;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;Knit&#x76F4;&#x63A5;&#x751F;&#x6210;.md&#x6587;&#x4EF6;&#x3002;&#x7136;&#x540E;&#x590D;&#x5236;&#x5230;Hexo&#x7684;source/_post&#x6587;&#x4EF6;&#x5939;&#x91CC;&#x3002;&#x4F46;&#x662F;&#x751F;&#x6210;&#x7684;.md&#x6587;&#x4EF6;&#x5E76;&#x4E0D;&#x662F;&#x7279;&#x522B;&#x7406;&#x60F3;&#xFF0C;&#x8FD8;&#x662F;&#x9700;&#x8981;&#x518D;&#x5BC4;&#x624B;&#x52A8;&#x4FEE;&#x6539;&#xFF0C;&#x6BD4;&#x5982;&#x52A0;&#x5165;YAML head&#xFF0C;&#x4FEE;&#x6539;title&#x548C;subtitle&#x7B49;&#x7B49;&#x3002;&#x53EF;&#x53C2;&#x8003;&#x4EE5;&#x4E0B;&#x6587;&#x7AE0;&#xFF1A; R Markdown from R Studio | Markdown Documents - Overview How to convert .Rmd into .md in R studio? Solurion 2 Rmd-&gt;html-&gt;layout: false&#x76F4;&#x63A5;&#x7528;knit&#x672C;&#x8EAB;&#x9ED8;&#x8BA4;&#x7684;&#x529F;&#x80FD;&#x751F;&#x6210;html&#x6587;&#x4EF6;&#xFF0C;&#x7136;&#x540E;&#x590D;&#x5236;html&#x6587;&#x4EF6;&#x5230;source&#x6587;&#x4EF6;&#x4E0B;&#x3002;&#x4F46;&#x662F;&#x4ECD;&#x7136;&#x9700;&#x8981;&#x4FEE;&#x6539;&#x8BE5;html&#xFF0C;&#x5728;&#x6587;&#x4EF6;&#x5F00;&#x59CB;&#x52A0;&#x5165; 123---layout: false--- &#x8FD9;&#x6837;Hexo&#x5C31;&#x4E0D;&#x4F1A;&#x6E32;&#x67D3;&#x8BE5;html&#x6587;&#x4EF6;&#x3002;&#x4F46;&#x662F;&#x7F3A;&#x70B9;&#x662F;&#x5728;Hexo&#x535A;&#x5BA2;&#x7684;&#x9996;&#x9875;&#x65E0;&#x6CD5;&#x663E;&#x793A;&#x8FD9;&#x4E2A;&#x6587;&#x4EF6;&#xFF0C;&#x9700;&#x8981;&#x5728;&#x8F93;&#x5165;&#x680F;&#x91CC;&#x8F93;&#x5165;URL&#x624D;&#x80FD;&#x591F;&#x663E;&#x793A;&#x8FD9;&#x4E2A;&#x7F51;&#x9875;&#x3002;URL&#x4E3A;http://&lt;your blog&gt;/&lt;name of html&gt;.html&#x3002; &#x53EF;&#x53C2;&#x8003;&#x4EE5;&#x4E0B;&#x6587;&#x7AE0;&#xFF1A; &#x5728; Hexo &#x535A;&#x5BA2;&#x4E2D;&#x8DF3;&#x8FC7;&#x6E32;&#x67D3;&#xFF0C;&#x521B;&#x5EFA;&#x81EA;&#x5B9A;&#x4E49;&#x7F51;&#x9875; &#x600E;&#x4E48;&#x628A;&#x81EA;&#x5DF1;&#x5236;&#x4F5C;&#x7684;HTML5&#x7F51;&#x9875;&#x4F20;&#x5230;&#x81EA;&#x5DF1;&#x7684;hexo&#x535A;&#x5BA2;&#x4E0A;&#xFF1F;&#x9700;&#x8981;&#x8BE6;&#x7EC6;&#x7684;&#x6B65;&#x9AA4;&#x3002;&#xFF1F; Solution 3 Rmd-&gt;html-&gt;raw code&#x76F4;&#x63A5;&#x7528;knit&#x672C;&#x8EAB;&#x9ED8;&#x8BA4;&#x7684;&#x529F;&#x80FD;&#x751F;&#x6210;html&#x6587;&#x4EF6;&#xFF0C;&#x6253;&#x5F00;&#x8BE5;&#x6587;&#x4EF6;&#xFF0C;&#x590D;&#x5236;html&#x4EE3;&#x7801;&#x5230;&#x4F60;&#x65B0;&#x5EFA;post&#x7684;.md&#x6587;&#x4EF6;&#x91CC;&#xFF0C;&#x53EA;&#x662F;&#x5728;html&#x4EE3;&#x7801;&#x524D;&#x540E;&#x9700;&#x8981;&#x52A0;&#x5165;&#x51E0;&#x884C;&#x4EE3;&#x7801;&#xFF0C;&#x5982;&#x4E0B;&#xFF1A; 123{% raw %}your html code{% endraw %} &#x4F46;&#x662F;&#x4EB2;&#x6D4B;&#xFF0C;&#x6548;&#x679C;&#x5E76;&#x4E0D;&#x662F;&#x7279;&#x522B;&#x7406;&#x60F3;&#x3002;&#x6574;&#x4E2A;&#x6392;&#x7248;&#x5E76;&#x4E0D;&#x7F8E;&#x89C2;&#x3002; &#x53EF;&#x53C2;&#x8003;&#x4EE5;&#x4E0B;&#x6587;&#x7AE0;&#xFF1A; hexo&#x80FD;&#x5728;markdown&#x4E2D;&#x63D2;&#x5165;&#x4E00;&#x6BB5;html&#x4EE3;&#x7801;&#x4E0D;&#x88AB;&#x6E32;&#x67D3;&#x4E48;&#xFF1F;(&#xB4;&#xFF65;_&#xFF65;`) #1692 Solution 4 Rmd-&gt;html-&gt;iframe&#x8FD9;&#x662F;&#x76EE;&#x524D;&#x4E3A;&#x6B62;&#xFF0C;&#x6211;&#x89C1;&#x8FC7;&#x7684;&#x6700;&#x4F73;&#x65B9;&#x6848;&#xFF0C;&#x65E2;&#x80FD;&#x591F;&#x8BA9;&#x4F60;&#x7684;post&#x663E;&#x793A;&#x5728;&#x4E3B;&#x9875;&#xFF0C;&#x53C8;&#x80FD;&#x591F;&#x5728;&#x535A;&#x5BA2;&#x7684;&#x641C;&#x7D22;&#x680F;&#x91CC;&#x641C;&#x5230;&#x4F60;&#x7684;R project&#x7684;&#x5185;&#x5BB9;&#x3002; &#x4F9D;&#x7136;&#x76F4;&#x63A5;&#x7528;knit&#x672C;&#x8EAB;&#x9ED8;&#x8BA4;&#x7684;&#x529F;&#x80FD;&#x751F;&#x6210;html&#x6587;&#x4EF6;&#xFF0C;&#x7136;&#x540E;&#x590D;&#x5236;html&#x6587;&#x4EF6;&#x5230;source&#x6587;&#x4EF6;&#x4E0B;&#x3002;&#x4FEE;&#x6539;&#x8BE5;html&#xFF0C;&#x5728;&#x6587;&#x4EF6;&#x5F00;&#x59CB;&#x52A0;&#x5165; 123---layout: false--- &#x5728;&#x4F60;&#x65B0;&#x5EFA;post&#x7684;.md&#x6587;&#x4EF6;&#x91CC;&#x63D2;&#x5165; 1&lt;iframe src=&quot;http://&lt;your blog&gt;/&lt;name of html&gt;.html&quot; width=&quot;700&quot; height=&quot;800&quot;&gt;&lt;/iframe&gt; &#x7136;&#x540E;&#x6548;&#x679C;&#x5982;&#x4E0B;: &#x611F;&#x89C9;&#x633A;&#x4E0D;&#x9519;~&#x5E0C;&#x671B;&#x53EF;&#x4EE5;&#x5BF9;&#x6709;&#x540C;&#x6837;&#x73B0;&#x5B9E;&#x60C5;&#x51B5;&#x3001;&#x9700;&#x6C42;&#x548C;&#x56F0;&#x96BE;&#x7684;&#x670B;&#x53CB;&#x4E00;&#x70B9;&#x5E2E;&#x52A9;&#x3002; &#x53EF;&#x53C2;&#x8003;&#x4EE5;&#x4E0B;&#x6587;&#x7AE0;&#xFF1A; Render reports directly from R scripts]]></content>
+    <url>%2Frproject_hexo%2F</url>
+    <content type="text"><![CDATA[Blogdown &#x73B0;&#x5B9E;&#x60C5;&#x51B5;&#xFF1A;Hexo blog&#x5DF2;&#x7ECF;&#x642D;&#x5EFA;&#x5F88;&#x4E45;&#xFF0C;&#x4E0D;&#x60F3;&#x5728;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#x7F51;&#x7AD9; &#x9700;&#x6C42;&#xFF1A; &#x53EA;&#x662F;&#x60F3;&#x5728;&#x67D0;&#x4E9B;post&#x91CC;&#x4F53;&#x73B0;R&#x4EE3;&#x7801;&#xFF1B; &#x60F3;&#x8BA9;post&#x663E;&#x793A;&#x5728;&#x4E3B;&#x9875;; &#x60F3;&#x5728;&#x535A;&#x5BA2;&#x641C;&#x7D22;&#x680F;&#x91CC;&#x53EF;&#x4EE5;&#x641C;&#x5230;R project&#x7684;&#x5185;&#x5BB9;; &#x6392;&#x7248;&#x5C3D;&#x91CF;&#x7F8E;&#x89C2;&#xFF1B; &#x56F0;&#x96BE;&#xFF1A;blogdown&#x4F3C;&#x4E4E;&#x4E0D;&#x9002;&#x7528;&#x6211;&#x7684;&#x60C5;&#x51B5;&#x3002;&#x5982;&#x679C;&#x6709;&#x4EBA;&#x77E5;&#x9053;&#x53EF;&#x4EE5;&#x7528;blogdown&#x89E3;&#x51B3;&#x7684;&#x65B9;&#x6848;&#xFF0C;&#x53EF;&#x4EE5;&#x90AE;&#x4EF6;&#x7ED9;&#x6211;&#x6216;&#x8005;&#x5728;&#x4E0B;&#x65B9;&#x7559;&#x8A00;&#x3002;&#x5341;&#x5206;&#x6B22;&#x8FCE;~ Solution 1 Rmd-&gt;md-&gt;Hexo&#x5728;&#x4F60;&#x7684;Rmd&#x6587;&#x4EF6;YAML head&#x91CC;&#x52A0;&#x5165;&#x4EE5;&#x4E0B;&#x4EE3;&#x7801;&#xFF1A; 12345---output: md_document: variant: markdown_github--- &#x5C31;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;Knit&#x76F4;&#x63A5;&#x751F;&#x6210;.md&#x6587;&#x4EF6;&#x3002;&#x7136;&#x540E;&#x590D;&#x5236;&#x5230;Hexo&#x7684;source/_post&#x6587;&#x4EF6;&#x5939;&#x91CC;&#x3002;&#x4F46;&#x662F;&#x751F;&#x6210;&#x7684;.md&#x6587;&#x4EF6;&#x5E76;&#x4E0D;&#x662F;&#x7279;&#x522B;&#x7406;&#x60F3;&#xFF0C;&#x8FD8;&#x662F;&#x9700;&#x8981;&#x518D;&#x5BC4;&#x624B;&#x52A8;&#x4FEE;&#x6539;&#xFF0C;&#x6BD4;&#x5982;&#x52A0;&#x5165;YAML head&#xFF0C;&#x4FEE;&#x6539;title&#x548C;subtitle&#x7B49;&#x7B49;&#x3002;&#x53EF;&#x53C2;&#x8003;&#x4EE5;&#x4E0B;&#x6587;&#x7AE0;&#xFF1A; R Markdown from R Studio | Markdown Documents - Overview How to convert .Rmd into .md in R studio? Solurion 2 Rmd-&gt;html-&gt;layout: false&#x76F4;&#x63A5;&#x7528;knit&#x672C;&#x8EAB;&#x9ED8;&#x8BA4;&#x7684;&#x529F;&#x80FD;&#x751F;&#x6210;html&#x6587;&#x4EF6;&#xFF0C;&#x7136;&#x540E;&#x590D;&#x5236;html&#x6587;&#x4EF6;&#x5230;source&#x6587;&#x4EF6;&#x4E0B;&#x3002;&#x4F46;&#x662F;&#x4ECD;&#x7136;&#x9700;&#x8981;&#x4FEE;&#x6539;&#x8BE5;html&#xFF0C;&#x5728;&#x6587;&#x4EF6;&#x5F00;&#x59CB;&#x52A0;&#x5165; 123---layout: false--- &#x8FD9;&#x6837;Hexo&#x5C31;&#x4E0D;&#x4F1A;&#x6E32;&#x67D3;&#x8BE5;html&#x6587;&#x4EF6;&#x3002;&#x4F46;&#x662F;&#x7F3A;&#x70B9;&#x662F;&#x5728;Hexo&#x535A;&#x5BA2;&#x7684;&#x9996;&#x9875;&#x65E0;&#x6CD5;&#x663E;&#x793A;&#x8FD9;&#x4E2A;&#x6587;&#x4EF6;&#xFF0C;&#x9700;&#x8981;&#x5728;&#x8F93;&#x5165;&#x680F;&#x91CC;&#x8F93;&#x5165;URL&#x624D;&#x80FD;&#x591F;&#x663E;&#x793A;&#x8FD9;&#x4E2A;&#x7F51;&#x9875;&#x3002;URL&#x4E3A;http://&lt;your blog&gt;/&lt;name of html&gt;.html&#x3002; &#x53EF;&#x53C2;&#x8003;&#x4EE5;&#x4E0B;&#x6587;&#x7AE0;&#xFF1A; &#x5728; Hexo &#x535A;&#x5BA2;&#x4E2D;&#x8DF3;&#x8FC7;&#x6E32;&#x67D3;&#xFF0C;&#x521B;&#x5EFA;&#x81EA;&#x5B9A;&#x4E49;&#x7F51;&#x9875; &#x600E;&#x4E48;&#x628A;&#x81EA;&#x5DF1;&#x5236;&#x4F5C;&#x7684;HTML5&#x7F51;&#x9875;&#x4F20;&#x5230;&#x81EA;&#x5DF1;&#x7684;hexo&#x535A;&#x5BA2;&#x4E0A;&#xFF1F;&#x9700;&#x8981;&#x8BE6;&#x7EC6;&#x7684;&#x6B65;&#x9AA4;&#x3002;&#xFF1F; Solution 3 Rmd-&gt;html-&gt;raw code&#x76F4;&#x63A5;&#x7528;knit&#x672C;&#x8EAB;&#x9ED8;&#x8BA4;&#x7684;&#x529F;&#x80FD;&#x751F;&#x6210;html&#x6587;&#x4EF6;&#xFF0C;&#x6253;&#x5F00;&#x8BE5;&#x6587;&#x4EF6;&#xFF0C;&#x590D;&#x5236;html&#x4EE3;&#x7801;&#x5230;&#x4F60;&#x65B0;&#x5EFA;post&#x7684;.md&#x6587;&#x4EF6;&#x91CC;&#xFF0C;&#x53EA;&#x662F;&#x5728;html&#x4EE3;&#x7801;&#x524D;&#x540E;&#x9700;&#x8981;&#x52A0;&#x5165;&#x51E0;&#x884C;&#x4EE3;&#x7801;&#xFF0C;&#x5982;&#x4E0B;&#xFF1A; 123{% raw %}your html code{% endraw %} &#x4F46;&#x662F;&#x4EB2;&#x6D4B;&#xFF0C;&#x6548;&#x679C;&#x5E76;&#x4E0D;&#x662F;&#x7279;&#x522B;&#x7406;&#x60F3;&#x3002;&#x6574;&#x4E2A;&#x6392;&#x7248;&#x5E76;&#x4E0D;&#x7F8E;&#x89C2;&#x3002; &#x53EF;&#x53C2;&#x8003;&#x4EE5;&#x4E0B;&#x6587;&#x7AE0;&#xFF1A; hexo&#x80FD;&#x5728;markdown&#x4E2D;&#x63D2;&#x5165;&#x4E00;&#x6BB5;html&#x4EE3;&#x7801;&#x4E0D;&#x88AB;&#x6E32;&#x67D3;&#x4E48;&#xFF1F;(&#xB4;&#xFF65;_&#xFF65;`) #1692 Solution 4 Rmd-&gt;html-&gt;iframe&#x8FD9;&#x662F;&#x76EE;&#x524D;&#x4E3A;&#x6B62;&#xFF0C;&#x6211;&#x89C1;&#x8FC7;&#x7684;&#x6700;&#x4F73;&#x65B9;&#x6848;&#xFF0C;&#x65E2;&#x80FD;&#x591F;&#x8BA9;&#x4F60;&#x7684;post&#x663E;&#x793A;&#x5728;&#x4E3B;&#x9875;&#xFF0C;&#x53C8;&#x80FD;&#x591F;&#x5728;&#x535A;&#x5BA2;&#x7684;&#x641C;&#x7D22;&#x680F;&#x91CC;&#x641C;&#x5230;&#x4F60;&#x7684;R project&#x7684;&#x5185;&#x5BB9;&#x3002; &#x4F9D;&#x7136;&#x76F4;&#x63A5;&#x7528;knit&#x672C;&#x8EAB;&#x9ED8;&#x8BA4;&#x7684;&#x529F;&#x80FD;&#x751F;&#x6210;html&#x6587;&#x4EF6;&#xFF0C;&#x7136;&#x540E;&#x590D;&#x5236;html&#x6587;&#x4EF6;&#x5230;source&#x6587;&#x4EF6;&#x4E0B;&#x3002;&#x4FEE;&#x6539;&#x8BE5;html&#xFF0C;&#x5728;&#x6587;&#x4EF6;&#x5F00;&#x59CB;&#x52A0;&#x5165; 123---layout: false--- &#x5728;&#x4F60;&#x65B0;&#x5EFA;post&#x7684;.md&#x6587;&#x4EF6;&#x91CC;&#x63D2;&#x5165; 1&lt;iframe src=&quot;http://&lt;your blog&gt;/&lt;name of html&gt;.html&quot; width=&quot;700&quot; height=&quot;800&quot;&gt;&lt;/iframe&gt; &#x7136;&#x540E;&#x6548;&#x679C;&#x5982;&#x4E0B;: &#x611F;&#x89C9;&#x633A;&#x4E0D;&#x9519;~&#x5E0C;&#x671B;&#x53EF;&#x4EE5;&#x5BF9;&#x6709;&#x540C;&#x6837;&#x73B0;&#x5B9E;&#x60C5;&#x51B5;&#x3001;&#x9700;&#x6C42;&#x548C;&#x56F0;&#x96BE;&#x7684;&#x670B;&#x53CB;&#x4E00;&#x70B9;&#x5E2E;&#x52A9;&#x3002; &#x53EF;&#x53C2;&#x8003;&#x4EE5;&#x4E0B;&#x6587;&#x7AE0;&#xFF1A; Render reports directly from R scripts R-&gt;html&#x53E6;&#x5916;R Studio&#x91CC;&#x662F;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x5C06;.R&#x6587;&#x4EF6;&#x91CC;&#x7684;souce code&#x8F6C;&#x6210;html&#x6216;&#x8005;pdf&#x7684;&#xFF0C;&#x4E0D;&#x7528;&#x518D;&#x65B0;&#x5EFA;Rmd&#x6587;&#x4EF6;&#x3002;&#x4EE3;&#x7801;&#x5982;&#x4E0B;: 12library(&apos;rmarkdown&apos;)rmarkdown::render(&apos;&lt;your file&gt;.R&apos;, &quot;pdf_document&quot;) &#x8FD9;&#x6837;&#x7684;&#x8BDD;,R-&gt;html-&gt;Hexo&#x7684;&#x5DE5;&#x4F5C;&#x6D41;&#x5C31;&#x5F88;easy&#x5566;&#xFF01;]]></content>
   </entry>
   <entry>
     <title><![CDATA[Monte Carlo Experiment for Fama French 5 Factor Model]]></title>
@@ -13,11 +13,11 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>statistics</tag>
         <tag>rmarkdown</tag>
         <tag>rlang</tag>
         <tag>experiment</tag>
         <tag>monte_carlo</tag>
+        <tag>statistics</tag>
         <tag>famafrench</tag>
       </tags>
   </entry>
@@ -29,11 +29,11 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>statistics</tag>
         <tag>rmarkdown</tag>
         <tag>rlang</tag>
         <tag>experiment</tag>
         <tag>monte_carlo</tag>
+        <tag>statistics</tag>
       </tags>
   </entry>
   <entry>
@@ -44,10 +44,10 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>finance</tag>
-        <tag>statistics</tag>
         <tag>rmarkdown</tag>
         <tag>rlang</tag>
+        <tag>statistics</tag>
+        <tag>finance</tag>
       </tags>
   </entry>
   <entry>
@@ -58,10 +58,10 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>finance</tag>
-        <tag>statistics</tag>
         <tag>rmarkdown</tag>
         <tag>rlang</tag>
+        <tag>statistics</tag>
+        <tag>finance</tag>
         <tag>data_analysis</tag>
       </tags>
   </entry>
@@ -73,9 +73,9 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>statistics</tag>
         <tag>rmarkdown</tag>
         <tag>rlang</tag>
+        <tag>statistics</tag>
       </tags>
   </entry>
   <entry>
@@ -101,9 +101,9 @@
       </categories>
       <tags>
         <tag>research</tag>
-        <tag>sentiment_analysis</tag>
         <tag>machine_learning</tag>
         <tag>deep_learning</tag>
+        <tag>sentiment_analysis</tag>
       </tags>
   </entry>
   <entry>
@@ -139,8 +139,8 @@
         <category>中文</category>
       </categories>
       <tags>
-        <tag>machine_learning</tag>
         <tag>information_system</tag>
+        <tag>machine_learning</tag>
         <tag>structural_modeling</tag>
       </tags>
   </entry>
@@ -153,10 +153,10 @@
       </categories>
       <tags>
         <tag>research</tag>
+        <tag>machine_learning</tag>
         <tag>sentiment_analysis</tag>
         <tag>literature_review</tag>
         <tag>faicon</tag>
-        <tag>machine_learning</tag>
         <tag>natural_language_processing</tag>
       </tags>
   </entry>
@@ -223,9 +223,9 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>faicon</tag>
         <tag>python</tag>
         <tag>image</tag>
+        <tag>faicon</tag>
         <tag>r_language</tag>
         <tag>nonlinear_equations</tag>
         <tag>numerical_analysis</tag>
@@ -243,8 +243,8 @@
         <category>中文</category>
       </categories>
       <tags>
-        <tag>faicon</tag>
         <tag>image</tag>
+        <tag>faicon</tag>
         <tag>mendeley</tag>
         <tag>document_management</tag>
         <tag>bibtex</tag>
@@ -289,8 +289,8 @@
       <tags>
         <tag>research</tag>
         <tag>sentiment_analysis</tag>
-        <tag>literature_review</tag>
         <tag>image</tag>
+        <tag>literature_review</tag>
         <tag>mathjax</tag>
         <tag>opinion_mining</tag>
         <tag>feature_engineering</tag>
@@ -308,10 +308,10 @@
       </categories>
       <tags>
         <tag>research</tag>
-        <tag>sentiment_analysis</tag>
-        <tag>literature_review</tag>
         <tag>information_system</tag>
+        <tag>sentiment_analysis</tag>
         <tag>image</tag>
+        <tag>literature_review</tag>
         <tag>mathjax</tag>
         <tag>opinion_mining</tag>
         <tag>time_series</tag>
@@ -327,9 +327,9 @@
       </categories>
       <tags>
         <tag>research</tag>
+        <tag>information_system</tag>
         <tag>sentiment_analysis</tag>
         <tag>literature_review</tag>
-        <tag>information_system</tag>
         <tag>mathjax</tag>
         <tag>user_generated_content</tag>
         <tag>word_of_mouth</tag>
@@ -356,8 +356,8 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>terminal</tag>
         <tag>tutorial</tag>
+        <tag>terminal</tag>
       </tags>
   </entry>
   <entry>
@@ -382,10 +382,10 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>sentiment_analysis</tag>
         <tag>machine_learning</tag>
-        <tag>natural_language_processing</tag>
+        <tag>sentiment_analysis</tag>
         <tag>image</tag>
+        <tag>natural_language_processing</tag>
         <tag>hexo_pdf</tag>
       </tags>
   </entry>
@@ -398,8 +398,8 @@
       </categories>
       <tags>
         <tag>machine_learning</tag>
-        <tag>python</tag>
         <tag>deep_learning</tag>
+        <tag>python</tag>
         <tag>virtualenv</tag>
         <tag>virtualwrapper</tag>
         <tag>tensorflow</tag>
@@ -414,9 +414,9 @@
         <category>中文</category>
       </categories>
       <tags>
+        <tag>hexo_pdf</tag>
         <tag>document_management</tag>
         <tag>bibtex</tag>
-        <tag>hexo_pdf</tag>
         <tag>sublime_text_3</tag>
         <tag>academic_reference</tag>
         <tag>markdown</tag>
@@ -430,8 +430,8 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>faicon</tag>
         <tag>information_system</tag>
+        <tag>faicon</tag>
         <tag>matlab</tag>
         <tag>google_scholar</tag>
         <tag>reference</tag>
@@ -445,8 +445,8 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>tbc</tag>
         <tag>hexo_pdf</tag>
+        <tag>tbc</tag>
         <tag>robo_advisor</tag>
         <tag>fintech</tag>
       </tags>
@@ -459,14 +459,14 @@
         <category>中文</category>
       </categories>
       <tags>
-        <tag>research</tag>
-        <tag>machine_learning</tag>
         <tag>study</tag>
+        <tag>research</tag>
         <tag>blog</tag>
         <tag>logs</tag>
         <tag>hexo</tag>
         <tag>notes</tag>
         <tag>information_system</tag>
+        <tag>machine_learning</tag>
         <tag>music</tag>
       </tags>
   </entry>
@@ -478,16 +478,16 @@
         <category>English</category>
       </categories>
       <tags>
-        <tag>machine_learning</tag>
-        <tag>natural_language_processing</tag>
         <tag>information_system</tag>
+        <tag>machine_learning</tag>
         <tag>deep_learning</tag>
         <tag>markdown_table</tag>
         <tag>image</tag>
-        <tag>github</tag>
+        <tag>natural_language_processing</tag>
         <tag>hexo_pdf</tag>
-        <tag>finance</tag>
         <tag>statistics</tag>
+        <tag>github</tag>
+        <tag>finance</tag>
         <tag>economics</tag>
         <tag>mathematics</tag>
         <tag>artificial_intelligence</tag>
@@ -541,8 +541,8 @@
       </categories>
       <tags>
         <tag>tutorial</tag>
-        <tag>sublime_text_3</tag>
         <tag>latex</tag>
+        <tag>sublime_text_3</tag>
         <tag>skim</tag>
       </tags>
   </entry>
@@ -574,14 +574,14 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[All Categories]]></title>
-    <url>%2Fcategories%2Findex.html</url>
-    <content type="text"><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[About Neverland]]></title>
     <url>%2Fabout%2Findex.html</url>
     <content type="text"><![CDATA[var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"random","mutex":true,"theme":"#e6d0b2","preload":"metadata","listmaxheight":"300px","music":[{"title":"Intro","author":"The XX","url":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/The%20xx%20-%20Intro.lrc"},{"title":"Casey's Last Ride","author":"Kris Kristofferson","url":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/Kris%20Kristofferson%20-%20Casey%27s%20Last%20Ride.lrc"},{"title":"Free Loop","author":"Daniel Powter","url":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.jpeg","lrc":"http://on21nqqjz.bkt.gdipper.com/Free%20Loop.lrc"},{"title":"Future Starts Slow","author":"The Kills","url":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/The%20Kills%20-%20Future%20Starts%20Slow.lrc"},{"title":"Medicine","author":"Daughter","url":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.jpg","lrc":"http://on21nqqjz.bkt.gdipper.com/Daughter%20-%20Medicine.lrc"},{"title":"Exit Music (For a Film)","author":"Radiohead","url":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.mp3","pic":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.png","lrc":"http://on21nqqjz.bkt.gdipper.com/Radiohead%20-%20Exit%20Music%20%28For%20a%20Film%29.lrc"}]}; options.element = document.getElementById("aplayer0"); new APlayer(options); Hello, welcome to my blog, the NERVERLAND, which is supported by GitHub and Hexo. Neverland is a fictional location featured in the works of J. M. Barrie and those based on them. It is an imaginary faraway place, where Peter Pan, Tinker Bell, the Lost Boys and other mythical creatures and beings live. &#x2014;Wikipedia NEVERLAND is a place of fantacy and I hope to build a blog full of bold innovation and wonderful ideas. If you have any creative thoughs on no matter science&amp;technology or phylosophy of life, feel free to contact with me via email. Click E-Mail button of the sidebar. If you would like to know more about me, click BAODUGE-About. Enjoy it? Subscribe to my blog by scanning my public Wechat account]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[All Categories]]></title>
+    <url>%2Fcategories%2Findex.html</url>
+    <content type="text"><![CDATA[]]></content>
   </entry>
   <entry>
     <title><![CDATA[All Tags]]></title>
