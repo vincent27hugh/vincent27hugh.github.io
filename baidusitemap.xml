@@ -5,10 +5,10 @@
     
   <url>
     <loc>http://blog.baoduge.com/rproject_hexo/</loc>
-    <lastmod>2018-05-11T17:01:34.000Z</lastmod>
+    <lastmod>2018-05-11T17:02:46.000Z</lastmod>
     <data>
         <display>
-        <title>如何将我的R project发布在Hexo上？</title>
+        <title>如何将我的R项目更好地展示在Hexo博客上？</title>
         <pubTime>2018-05-11T16:00:00.000Z</pubTime>
         
         <tag>hexo</tag>
@@ -96,9 +96,9 @@
          
         <tag>monte_carlo</tag>
          
-        <tag>famafrench</tag>
-         
         <tag>statistics</tag>
+         
+        <tag>famafrench</tag>
          
          
            
@@ -184,9 +184,9 @@
          
         <tag>image</tag>
          
-        <tag>github</tag>
-         
         <tag>statistics</tag>
+         
+        <tag>github</tag>
          
         <tag>hexo_pdf</tag>
          
@@ -328,13 +328,13 @@
         <title>Conda Manual on MAC and The Jupyter Notebook - iPython</title>
         <pubTime>2017-07-24T16:00:00.000Z</pubTime>
         
-        <tag>anaconda</tag>
-         
-        <tag>conda</tag>
-         
         <tag>python</tag>
          
         <tag>terminal</tag>
+         
+        <tag>anaconda</tag>
+         
+        <tag>conda</tag>
          
          
            
@@ -731,9 +731,9 @@
          
         <tag>image</tag>
          
-        <tag>finance</tag>
-         
         <tag>mathjax</tag>
+         
+        <tag>finance</tag>
          
         <tag>opinion_mining</tag>
          
@@ -783,9 +783,9 @@
         
         <tag>machine_learning</tag>
          
-        <tag>python</tag>
-         
         <tag>deep_learning</tag>
+         
+        <tag>python</tag>
          
         <tag>virtualenv</tag>
          
@@ -859,11 +859,11 @@
          
         <tag>literature_review</tag>
          
+        <tag>mathjax</tag>
+         
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
-         
-        <tag>mathjax</tag>
          
          
            
@@ -909,9 +909,9 @@
         <title>R语言的科学计算</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>tbc</tag>
-         
         <tag>r_language</tag>
+         
+        <tag>tbc</tag>
          
         <tag>science_computing</tag>
          
@@ -935,23 +935,23 @@
         
         <tag>faicon</tag>
          
-        <tag>python</tag>
-         
         <tag>image</tag>
-         
-        <tag>r_language</tag>
-         
-        <tag>mathjax</tag>
-         
-        <tag>matlab</tag>
          
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
          
+        <tag>matlab</tag>
+         
         <tag>fortran</tag>
          
+        <tag>python</tag>
+         
+        <tag>r_language</tag>
+         
         <tag>mathematica</tag>
+         
+        <tag>mathjax</tag>
          
          
            
@@ -1056,9 +1056,9 @@
         <title>Linux/Mac Terminal Tutorial</title>
         <pubTime>2017-10-24T16:00:00.000Z</pubTime>
         
-        <tag>terminal</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>terminal</tag>
          
          
            
