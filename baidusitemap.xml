@@ -92,11 +92,11 @@
          
         <tag>rlang</tag>
          
+        <tag>statistics</tag>
+         
         <tag>experiment</tag>
          
         <tag>monte_carlo</tag>
-         
-        <tag>statistics</tag>
          
         <tag>famafrench</tag>
          
@@ -122,37 +122,11 @@
          
         <tag>rlang</tag>
          
+        <tag>statistics</tag>
+         
         <tag>experiment</tag>
          
         <tag>monte_carlo</tag>
-         
-        <tag>statistics</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/SA_FN4/</loc>
-    <lastmod>2018-05-11T14:50:06.000Z</lastmod>
-    <data>
-        <display>
-        <title>Literature Review: Predicting the Semantic Orientation of Adjectives</title>
-        <pubTime>2018-03-21T16:00:00.000Z</pubTime>
-        
-        <tag>rmarkdown</tag>
-         
-        <tag>rlang</tag>
-         
-        <tag>statistics</tag>
-         
-        <tag>finance</tag>
          
          
            
@@ -178,17 +152,17 @@
          
         <tag>information_system</tag>
          
+        <tag>deep_learning</tag>
+         
         <tag>markdown_table</tag>
          
         <tag>image</tag>
          
         <tag>github</tag>
          
-        <tag>deep_learning</tag>
+        <tag>hexo_pdf</tag>
          
         <tag>statistics</tag>
-         
-        <tag>hexo_pdf</tag>
          
         <tag>finance</tag>
          
@@ -356,9 +330,9 @@
         
         <tag>image</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>hexo_pdf</tag>
+         
+        <tag>mathjax</tag>
          
         <tag>stochastic_process</tag>
          
@@ -541,9 +515,9 @@
         
         <tag>image</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>hexo_pdf</tag>
+         
+        <tag>mathjax</tag>
          
         <tag>stochastic_process</tag>
          
@@ -579,11 +553,11 @@
          
         <tag>image</tag>
          
-        <tag>mendeley</tag>
+        <tag>bibtex</tag>
          
         <tag>document_management</tag>
          
-        <tag>bibtex</tag>
+        <tag>mendeley</tag>
          
          
            
@@ -603,10 +577,6 @@
         <title>用Sublime Text 3管理文献</title>
         <pubTime>2017-09-27T16:00:00.000Z</pubTime>
         
-        <tag>document_management</tag>
-         
-        <tag>bibtex</tag>
-         
         <tag>hexo_pdf</tag>
          
         <tag>sublime_text_3</tag>
@@ -614,6 +584,10 @@
         <tag>academic_reference</tag>
          
         <tag>markdown</tag>
+         
+        <tag>bibtex</tag>
+         
+        <tag>document_management</tag>
          
          
            
@@ -654,40 +628,6 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/SA_FN4-3/</loc>
-    <lastmod>2017-11-26T08:17:12.000Z</lastmod>
-    <data>
-        <display>
-        <title>Literature Review: Yahoo! for Amazon</title>
-        <pubTime>2017-11-23T16:00:00.000Z</pubTime>
-        
-        <tag>research</tag>
-         
-        <tag>sentiment_analysis</tag>
-         
-        <tag>literature_review</tag>
-         
-        <tag>naive_classifier</tag>
-         
-        <tag>vector_distance_classifier</tag>
-         
-        <tag>discriminant-based_classifier</tag>
-         
-        <tag>adjective-adverb_phrase_classifier</tag>
-         
-        <tag>bayesian_classifier</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.baoduge.com/SublimeText3_LaTex/</loc>
     <lastmod>2017-11-25T16:58:21.000Z</lastmod>
     <data>
@@ -714,42 +654,6 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/SA_FN2/</loc>
-    <lastmod>2017-11-25T16:56:49.000Z</lastmod>
-    <data>
-        <display>
-        <title>Literature Review on Social Media in Financial Market</title>
-        <pubTime>2017-11-01T16:00:00.000Z</pubTime>
-        
-        <tag>research</tag>
-         
-        <tag>sentiment_analysis</tag>
-         
-        <tag>literature_review</tag>
-         
-        <tag>information_system</tag>
-         
-        <tag>image</tag>
-         
-        <tag>mathjax</tag>
-         
-        <tag>finance</tag>
-         
-        <tag>opinion_mining</tag>
-         
-        <tag>time_series</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.baoduge.com/DL_hardware/</loc>
     <lastmod>2017-11-25T16:56:05.000Z</lastmod>
     <data>
@@ -757,11 +661,11 @@
         <title>Deep Learning hardware</title>
         <pubTime>2017-11-07T16:00:00.000Z</pubTime>
         
-        <tag>tutorial</tag>
-         
         <tag>deep_learning</tag>
          
         <tag>hardware</tag>
+         
+        <tag>tutorial</tag>
          
          
            
@@ -783,9 +687,9 @@
         
         <tag>machine_learning</tag>
          
-        <tag>python</tag>
-         
         <tag>deep_learning</tag>
+         
+        <tag>python</tag>
          
         <tag>virtualenv</tag>
          
@@ -806,76 +710,6 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/SA_FN3/</loc>
-    <lastmod>2017-11-25T16:51:15.000Z</lastmod>
-    <data>
-        <display>
-        <title>Literature Review on Special Paper: Feature Engineering + Neural Network</title>
-        <pubTime>2017-11-02T16:00:00.000Z</pubTime>
-        
-        <tag>research</tag>
-         
-        <tag>sentiment_analysis</tag>
-         
-        <tag>literature_review</tag>
-         
-        <tag>image</tag>
-         
-        <tag>mathjax</tag>
-         
-        <tag>opinion_mining</tag>
-         
-        <tag>feature_engineering</tag>
-         
-        <tag>brand_marketing</tag>
-         
-        <tag>twitter</tag>
-         
-        <tag>neural_network</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/SA_FN/</loc>
-    <lastmod>2017-11-25T16:50:32.000Z</lastmod>
-    <data>
-        <display>
-        <title>Literature Review on UGC/WOM</title>
-        <pubTime>2017-10-30T16:00:00.000Z</pubTime>
-        
-        <tag>research</tag>
-         
-        <tag>sentiment_analysis</tag>
-         
-        <tag>literature_review</tag>
-         
-        <tag>information_system</tag>
-         
-        <tag>mathjax</tag>
-         
-        <tag>user_generated_content</tag>
-         
-        <tag>word_of_mouth</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://blog.baoduge.com/Robo_Advisor_Introduction/</loc>
     <lastmod>2017-11-25T16:50:10.000Z</lastmod>
     <data>
@@ -885,11 +719,11 @@
         
         <tag>hexo_pdf</tag>
          
+        <tag>tbc</tag>
+         
         <tag>robo_advisor</tag>
          
         <tag>fintech</tag>
-         
-        <tag>tbc</tag>
          
          
            
@@ -911,9 +745,9 @@
         
         <tag>r_language</tag>
          
-        <tag>tbc</tag>
-         
         <tag>science_computing</tag>
+         
+        <tag>tbc</tag>
          
          
            
@@ -939,19 +773,19 @@
          
         <tag>image</tag>
          
+        <tag>r_language</tag>
+         
+        <tag>matlab</tag>
+         
+        <tag>mathjax</tag>
+         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
          
-        <tag>matlab</tag>
-         
         <tag>fortran</tag>
          
-        <tag>r_language</tag>
-         
         <tag>mathematica</tag>
-         
-        <tag>mathjax</tag>
          
          
            
@@ -1001,15 +835,15 @@
         
         <tag>notes</tag>
          
+        <tag>markdown_table</tag>
+         
+        <tag>image</tag>
+         
         <tag>reputation_system</tag>
          
         <tag>variable_type</tag>
          
         <tag>data_type</tag>
-         
-        <tag>markdown_table</tag>
-         
-        <tag>image</tag>
          
          
            
@@ -1033,13 +867,13 @@
          
         <tag>notes</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>economics</tag>
          
         <tag>online_scoring</tag>
          
         <tag>modeling</tag>
+         
+        <tag>mathjax</tag>
          
          
            
@@ -1056,9 +890,9 @@
         <title>Linux/Mac Terminal Tutorial</title>
         <pubTime>2017-10-24T16:00:00.000Z</pubTime>
         
-        <tag>terminal</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>terminal</tag>
          
          
            
@@ -1080,9 +914,9 @@
         
         <tag>hexo</tag>
          
-        <tag>github</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>github</tag>
          
          
            
