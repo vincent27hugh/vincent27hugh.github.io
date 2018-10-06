@@ -4,11 +4,11 @@
 
     
   <url>
-    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
-    <lastmod>2018-08-23T06:40:47.000Z</lastmod>
+    <loc>http://blog.baoduge.com/My_Study_Plan/</loc>
+    <lastmod>2018-10-06T07:25:51.000Z</lastmod>
     <data>
         <display>
-        <title>2017-18 Open-Course Challenges: Data Science on IS</title>
+        <title>My Open-Course Challenges: Data Science on IS</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
         <tag>information_system</tag>
@@ -17,17 +17,17 @@
          
         <tag>natural_language_processing</tag>
          
-        <tag>deep_learning</tag>
+        <tag>github</tag>
          
         <tag>markdown_table</tag>
          
         <tag>image</tag>
          
-        <tag>github</tag>
-         
-        <tag>hexo_pdf</tag>
+        <tag>deep_learning</tag>
          
         <tag>statistics</tag>
+         
+        <tag>hexo_pdf</tag>
          
         <tag>finance</tag>
          
@@ -45,6 +45,28 @@
            
              
               <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/Type_I_Type_II_error/</loc>
+    <lastmod>2018-09-13T06:48:35.000Z</lastmod>
+    <data>
+        <display>
+        <title>关于Type I和Type II Error的一点想法</title>
+        <pubTime>2018-01-09T16:00:00.000Z</pubTime>
+        
+        <tag>notes</tag>
+         
+        <tag>statistics</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
           
         </display>
     </data>
@@ -194,9 +216,9 @@
         <title>Resources & Tools of Information System Research</title>
         <pubTime>2017-10-23T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>research</tag>
          
         <tag>markdown_table</tag>
          
@@ -206,28 +228,6 @@
            
              
               <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/Type_I_Type_II_error/</loc>
-    <lastmod>2018-03-18T17:18:13.000Z</lastmod>
-    <data>
-        <display>
-        <title>关于Type I和Type II Error的一点想法</title>
-        <pubTime>2018-01-09T16:00:00.000Z</pubTime>
-        
-        <tag>notes</tag>
-         
-        <tag>statistics</tag>
-         
-         
-           
-             
-              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
           
         </display>
     </data>
@@ -266,6 +266,10 @@
         <title>NEVERLAND - Blog Logs</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
+        <tag>information_system</tag>
+         
+        <tag>notes</tag>
+         
         <tag>study</tag>
          
         <tag>research</tag>
@@ -275,10 +279,6 @@
         <tag>logs</tag>
          
         <tag>hexo</tag>
-         
-        <tag>notes</tag>
-         
-        <tag>information_system</tag>
          
         <tag>machine_learning</tag>
          
@@ -410,9 +410,9 @@
         <title>Experiments in IS research</title>
         <pubTime>2017-09-10T16:00:00.000Z</pubTime>
         
-        <tag>notes</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>notes</tag>
          
          
            
@@ -661,11 +661,11 @@
         <title>Deep Learning hardware</title>
         <pubTime>2017-11-07T16:00:00.000Z</pubTime>
         
+        <tag>tutorial</tag>
+         
         <tag>deep_learning</tag>
          
         <tag>hardware</tag>
-         
-        <tag>tutorial</tag>
          
          
            
@@ -685,11 +685,11 @@
         <title>virtualenv+tensorflow初体验</title>
         <pubTime>2017-10-12T16:00:00.000Z</pubTime>
         
+        <tag>python</tag>
+         
         <tag>machine_learning</tag>
          
         <tag>deep_learning</tag>
-         
-        <tag>python</tag>
          
         <tag>virtualenv</tag>
          
@@ -767,11 +767,13 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
+        <tag>python</tag>
+         
         <tag>faicon</tag>
          
         <tag>image</tag>
          
-        <tag>python</tag>
+        <tag>r_language</tag>
          
         <tag>nonlinear_equations</tag>
          
@@ -780,8 +782,6 @@
         <tag>matlab</tag>
          
         <tag>fortran</tag>
-         
-        <tag>r_language</tag>
          
         <tag>mathematica</tag>
          
@@ -863,9 +863,9 @@
         <title>Can online scoring really reflects the rankings of products?</title>
         <pubTime>2017-10-29T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
         <tag>notes</tag>
+         
+        <tag>research</tag>
          
         <tag>mathjax</tag>
          
@@ -890,9 +890,9 @@
         <title>Linux/Mac Terminal Tutorial</title>
         <pubTime>2017-10-24T16:00:00.000Z</pubTime>
         
-        <tag>tutorial</tag>
-         
         <tag>terminal</tag>
+         
+        <tag>tutorial</tag>
          
          
            
@@ -914,9 +914,9 @@
         
         <tag>hexo</tag>
          
-        <tag>tutorial</tag>
-         
         <tag>github</tag>
+         
+        <tag>tutorial</tag>
          
          
            

@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.baoduge.com/2017_Study_Plan/</loc>
+    <loc>http://blog.baoduge.com/My_Study_Plan/</loc>
     
-    <lastmod>2018-08-23T06:40:47.000Z</lastmod>
+    <lastmod>2018-10-06T07:25:51.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.baoduge.com/Type_I_Type_II_error/</loc>
+    
+    <lastmod>2018-09-13T06:48:35.000Z</lastmod>
     
   </url>
   
@@ -54,13 +61,6 @@
     <loc>http://blog.baoduge.com/IS_reseources/</loc>
     
     <lastmod>2018-03-22T14:49:31.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.baoduge.com/Type_I_Type_II_error/</loc>
-    
-    <lastmod>2018-03-18T17:18:13.000Z</lastmod>
     
   </url>
   
