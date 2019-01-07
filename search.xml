@@ -486,9 +486,9 @@
             
             <tag> monte_carlo </tag>
             
-            <tag> famafrench </tag>
-            
             <tag> statistics </tag>
+            
+            <tag> famafrench </tag>
             
         </tags>
         
@@ -2141,11 +2141,13 @@ end
         
         <tags>
             
-            <tag> faicon </tag>
-            
             <tag> python </tag>
             
+            <tag> faicon </tag>
+            
             <tag> image </tag>
+            
+            <tag> r_language </tag>
             
             <tag> nonlinear_equations </tag>
             
@@ -2154,8 +2156,6 @@ end
             <tag> matlab </tag>
             
             <tag> fortran </tag>
-            
-            <tag> r_language </tag>
             
             <tag> mathematica </tag>
             
@@ -4413,11 +4413,11 @@ Ref 2\cite{kom2016stochastic}
             
             <tag> hexo_pdf </tag>
             
-            <tag> tbc </tag>
-            
             <tag> robo_advisor </tag>
             
             <tag> fintech </tag>
+            
+            <tag> tbc </tag>
             
         </tags>
         
@@ -4746,6 +4746,10 @@ Ref 2\cite{kom2016stochastic}
 <li><a href="https://linux.101hacks.com/unix/tee-command-examples/" target="_blank" rel="external">Linux 101 Hacks: Tee Command Usage Examples</a></li>
 <li><a href="http://blog.csdn.net/andy572633/article/details/8081591" target="_blank" rel="external">Linux&#x5373;&#x8F93;&#x51FA;&#x5230;&#x5C4F;&#x5E55;&#xFF0C;&#x53C8;&#x4FDD;&#x5B58;&#x5230;&#x6587;&#x4EF6;</a></li>
 <li><a href="https://aws.amazon.com/cn/getting-started/tutorials/launch-a-virtual-machine/" target="_blank" rel="external">&#x6559;&#x7A0B;&#xFF1A;&#x901A;&#x8FC7; Amazon EC2 - &#x542F;&#x52A8; Linux &#x865A;&#x62DF;&#x673A;</a></li>
+</ul>
+<h1 id="2019"><a href="#2019" class="headerlink" title="2019"></a>2019</h1><h2 id="2019-01"><a href="#2019-01" class="headerlink" title="2019-01"></a>2019-01</h2><h3 id="2019-01-07"><a href="#2019-01-07" class="headerlink" title="2019-01-07"></a>2019-01-07</h3><ul>
+<li>Problem: <a href="http://ibruce.info/2015/04/04/busuanzi/" target="_blank" rel="external">&#x4E0D;&#x849C;&#x5B50;&#x57DF;&#x540D;&#x8FC7;&#x671F;</a></li>
+<li>Solution: <a href="http://blog.sciencenet.cn/blog-3247241-1139774.html" target="_blank" rel="external">hexo&#x535A;&#x5BA2;&#x89E3;&#x51B3;&#x4E0D;&#x849C;&#x5B50;&#x7EDF;&#x8BA1;&#x65E0;&#x6CD5;&#x663E;&#x793A;&#x95EE;&#x9898;</a></li>
 </ul>
 ]]></content>
       
@@ -5927,11 +5931,11 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
+            <tag> tbc </tag>
+            
             <tag> r_language </tag>
             
             <tag> science_computing </tag>
-            
-            <tag> tbc </tag>
             
         </tags>
         
@@ -6244,9 +6248,9 @@ SyntaxError: unexpected character after line continuation character
             
             <tag> tutorial </tag>
             
-            <tag> sublime_text_3 </tag>
-            
             <tag> latex </tag>
+            
+            <tag> sublime_text_3 </tag>
             
             <tag> skim </tag>
             
@@ -6437,6 +6441,12 @@ I couldn&apos;t find a kenel matching Python 3. Please select a kernel:
   
     
     <entry>
+      <title><![CDATA[All Categories]]></title>
+      <url>/categories/index.html</url>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[About Neverland]]></title>
       <url>/about/index.html</url>
       <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><hr>
@@ -6464,12 +6474,6 @@ I couldn&apos;t find a kenel matching Python 3. Please select a kernel:
 
 
 ]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[All Categories]]></title>
-      <url>/categories/index.html</url>
-      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
     </entry>
     
     <entry>

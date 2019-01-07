@@ -64,9 +64,9 @@
     
       <category term="monte_carlo" scheme="http://blog.baoduge.com/tags/monte-carlo/"/>
     
-      <category term="famafrench" scheme="http://blog.baoduge.com/tags/famafrench/"/>
-    
       <category term="statistics" scheme="http://blog.baoduge.com/tags/statistics/"/>
+    
+      <category term="famafrench" scheme="http://blog.baoduge.com/tags/famafrench/"/>
     
   </entry>
   
@@ -388,11 +388,13 @@
       <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
-      <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
-    
       <category term="python" scheme="http://blog.baoduge.com/tags/python/"/>
     
+      <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
+    
       <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
+    
+      <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
     
       <category term="nonlinear_equations" scheme="http://blog.baoduge.com/tags/nonlinear-equations/"/>
     
@@ -401,8 +403,6 @@
       <category term="matlab" scheme="http://blog.baoduge.com/tags/matlab/"/>
     
       <category term="fortran" scheme="http://blog.baoduge.com/tags/fortran/"/>
-    
-      <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
     
       <category term="mathematica" scheme="http://blog.baoduge.com/tags/mathematica/"/>
     
