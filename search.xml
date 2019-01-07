@@ -1344,9 +1344,9 @@ write.csv(geocoded, &quot;geocoded.csv&quot;, row.names=FALSE)
             
             <tag> machine_learning </tag>
             
-            <tag> sentiment_analysis </tag>
-            
             <tag> deep_learning </tag>
+            
+            <tag> sentiment_analysis </tag>
             
         </tags>
         
@@ -2141,11 +2141,11 @@ end
         
         <tags>
             
-            <tag> python </tag>
-            
             <tag> faicon </tag>
             
             <tag> image </tag>
+            
+            <tag> python </tag>
             
             <tag> r_language </tag>
             
@@ -2493,15 +2493,15 @@ end
             
             <tag> notes </tag>
             
+            <tag> markdown_table </tag>
+            
+            <tag> image </tag>
+            
             <tag> reputation_system </tag>
             
             <tag> variable_type </tag>
             
             <tag> data_type </tag>
-            
-            <tag> markdown_table </tag>
-            
-            <tag> image </tag>
             
         </tags>
         
@@ -2823,9 +2823,9 @@ killall Finder
         
         <tags>
             
-            <tag> terminal </tag>
-            
             <tag> tutorial </tag>
+            
+            <tag> terminal </tag>
             
         </tags>
         
@@ -4031,9 +4031,9 @@ Training Step: 7040  | total loss: 0.09154 | time: 175.630s
             
             <tag> machine_learning </tag>
             
-            <tag> python </tag>
-            
             <tag> deep_learning </tag>
+            
+            <tag> python </tag>
             
             <tag> virtualenv </tag>
             
@@ -4151,11 +4151,11 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
-            <tag> hexo_pdf </tag>
-            
             <tag> document_management </tag>
             
             <tag> bibtex </tag>
+            
+            <tag> hexo_pdf </tag>
             
             <tag> sublime_text_3 </tag>
             
@@ -4411,11 +4411,11 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
-            <tag> hexo_pdf </tag>
-            
             <tag> robo_advisor </tag>
             
             <tag> fintech </tag>
+            
+            <tag> hexo_pdf </tag>
             
             <tag> tbc </tag>
             
@@ -5845,19 +5845,19 @@ Ref 2\cite{kom2016stochastic}
             
             <tag> machine_learning </tag>
             
+            <tag> deep_learning </tag>
+            
             <tag> natural_language_processing </tag>
             
-            <tag> deep_learning </tag>
+            <tag> github </tag>
             
             <tag> markdown_table </tag>
             
             <tag> image </tag>
             
-            <tag> github </tag>
+            <tag> statistics </tag>
             
             <tag> hexo_pdf </tag>
-            
-            <tag> statistics </tag>
             
             <tag> finance </tag>
             
@@ -6441,12 +6441,6 @@ I couldn&apos;t find a kenel matching Python 3. Please select a kernel:
   
     
     <entry>
-      <title><![CDATA[All Categories]]></title>
-      <url>/categories/index.html</url>
-      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[About Neverland]]></title>
       <url>/about/index.html</url>
       <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><hr>
@@ -6474,6 +6468,12 @@ I couldn&apos;t find a kenel matching Python 3. Please select a kernel:
 
 
 ]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[All Categories]]></title>
+      <url>/categories/index.html</url>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
     </entry>
     
     <entry>
