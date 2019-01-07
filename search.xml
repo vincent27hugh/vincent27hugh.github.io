@@ -25,8 +25,8 @@
         <tag>rlang</tag>
         <tag>experiment</tag>
         <tag>monte_carlo</tag>
-        <tag>statistics</tag>
         <tag>famafrench</tag>
+        <tag>statistics</tag>
       </tags>
   </entry>
   <entry>
@@ -366,9 +366,9 @@
       </categories>
       <tags>
         <tag>hexo_pdf</tag>
+        <tag>tbc</tag>
         <tag>robo_advisor</tag>
         <tag>fintech</tag>
-        <tag>tbc</tag>
       </tags>
   </entry>
   <entry>
@@ -401,9 +401,9 @@
         <tag>information_system</tag>
         <tag>machine_learning</tag>
         <tag>natural_language_processing</tag>
+        <tag>deep_learning</tag>
         <tag>markdown_table</tag>
         <tag>image</tag>
-        <tag>deep_learning</tag>
         <tag>github</tag>
         <tag>hexo_pdf</tag>
         <tag>statistics</tag>
@@ -435,9 +435,9 @@
         <category>中文</category>
       </categories>
       <tags>
-        <tag>tbc</tag>
         <tag>r_language</tag>
         <tag>science_computing</tag>
+        <tag>tbc</tag>
       </tags>
   </entry>
   <entry>
@@ -494,14 +494,14 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[About Neverland]]></title>
-    <url>%2Fabout%2Findex.html</url>
-    <content type="text"><![CDATA[Hello, welcome to my blog, the NERVERLAND, which is supported by GitHub and Hexo. Neverland is a fictional location featured in the works of J. M. Barrie and those based on them. It is an imaginary faraway place, where Peter Pan, Tinker Bell, the Lost Boys and other mythical creatures and beings live. &#x2014;Wikipedia NEVERLAND is a place of fantacy and I hope to build a blog full of bold innovation and wonderful ideas. If you have any creative thoughs on no matter science&amp;technology or phylosophy of life, feel free to contact with me via email. Click E-Mail button of the sidebar. If you would like to know more about me, click BAODUGE-About. Enjoy it? Subscribe to my blog by scanning my public Wechat account]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[All Categories]]></title>
     <url>%2Fcategories%2Findex.html</url>
     <content type="text"><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[About Neverland]]></title>
+    <url>%2Fabout%2Findex.html</url>
+    <content type="text"><![CDATA[var options = {"narrow":false,"autoplay":true,"showlrc":3,"mode":"circulation","mutex":true,"music":[{"title":"Free Loop","author":"Daniel Powter","url":"http://baoduge.com/My/Free%20Loop.mp3","pic":"http://baoduge.com/My/Free%20Loop.jpeg","lrc":"http://baoduge.com/My/Free%20Loop.lrc"}]}; options.element = document.getElementById("aplayer0"); new APlayer(options); I&#x2019;m HU, Wei (Vincent), a PhD. student at Information System Department, City University of Hong Kong. As for my educational background, I got Bachelor Degree of Applied Physics from Tongji University in July, 2015. Then, I received my Master degree of Mathematics for Finance and Actuarial Science (MSMFAS) jointly awarded by City University of Hong Kong and Universite&#x301; Paris-Dauphine in July, 2016. My research interest focus on FinTech, application of machine learning, econometrics, and statistics on business/finance problem. Welcome to my blog, the NERVERLAND, which is supported by GitHub and Hexo. Neverland is a fictional location featured in the works of J. M. Barrie and those based on them. It is an imaginary faraway place, where Peter Pan, Tinker Bell, the Lost Boys and other mythical creatures and beings live. &#x2014;Wikipedia NEVERLAND is a place of fantacy and I hope to build a blog full of bold innovation and wonderful ideas. If you have any creative thoughs on no matter science&amp;technology or phylosophy of life, feel free to contact with me via email. Click E-Mail button of the sidebar. If you would like to know more about me, click BAODUGE-About. Enjoy it? Subscribe to my blog by scanning my public Wechat account]]></content>
   </entry>
   <entry>
     <title><![CDATA[All Tags]]></title>

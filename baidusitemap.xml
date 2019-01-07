@@ -54,11 +54,11 @@
          
         <tag>natural_language_processing</tag>
          
+        <tag>deep_learning</tag>
+         
         <tag>markdown_table</tag>
          
         <tag>image</tag>
-         
-        <tag>deep_learning</tag>
          
         <tag>github</tag>
          
@@ -203,9 +203,9 @@
          
         <tag>monte_carlo</tag>
          
-        <tag>statistics</tag>
-         
         <tag>famafrench</tag>
+         
+        <tag>statistics</tag>
          
          
            
@@ -719,11 +719,11 @@
         
         <tag>hexo_pdf</tag>
          
+        <tag>tbc</tag>
+         
         <tag>robo_advisor</tag>
          
         <tag>fintech</tag>
-         
-        <tag>tbc</tag>
          
          
            
@@ -743,11 +743,11 @@
         <title>R语言的科学计算</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>tbc</tag>
-         
         <tag>r_language</tag>
          
         <tag>science_computing</tag>
+         
+        <tag>tbc</tag>
          
          
            
