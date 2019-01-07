@@ -3,6 +3,7 @@
 
 
     
+    
   <url>
     <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
     <lastmod>2019-01-07T03:25:22.000Z</lastmod>
@@ -51,19 +52,19 @@
          
         <tag>machine_learning</tag>
          
-        <tag>deep_learning</tag>
-         
         <tag>natural_language_processing</tag>
-         
-        <tag>github</tag>
          
         <tag>markdown_table</tag>
          
         <tag>image</tag>
          
-        <tag>statistics</tag>
+        <tag>deep_learning</tag>
+         
+        <tag>github</tag>
          
         <tag>hexo_pdf</tag>
+         
+        <tag>statistics</tag>
          
         <tag>finance</tag>
          
@@ -436,9 +437,9 @@
          
         <tag>machine_learning</tag>
          
-        <tag>deep_learning</tag>
-         
         <tag>sentiment_analysis</tag>
+         
+        <tag>deep_learning</tag>
          
          
            
@@ -479,7 +480,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>http://blog.baoduge.com/Structural_Model/</loc>
@@ -577,11 +577,11 @@
         <title>用Sublime Text 3管理文献</title>
         <pubTime>2017-09-27T16:00:00.000Z</pubTime>
         
+        <tag>hexo_pdf</tag>
+         
         <tag>document_management</tag>
          
         <tag>bibtex</tag>
-         
-        <tag>hexo_pdf</tag>
          
         <tag>sublime_text_3</tag>
          
@@ -687,9 +687,9 @@
         
         <tag>machine_learning</tag>
          
-        <tag>deep_learning</tag>
-         
         <tag>python</tag>
+         
+        <tag>deep_learning</tag>
          
         <tag>virtualenv</tag>
          
@@ -717,11 +717,11 @@
         <title>Robo-Advisor Introduction</title>
         <pubTime>2017-09-13T16:00:00.000Z</pubTime>
         
+        <tag>hexo_pdf</tag>
+         
         <tag>robo_advisor</tag>
          
         <tag>fintech</tag>
-         
-        <tag>hexo_pdf</tag>
          
         <tag>tbc</tag>
          
@@ -769,9 +769,9 @@
         
         <tag>faicon</tag>
          
-        <tag>image</tag>
-         
         <tag>python</tag>
+         
+        <tag>image</tag>
          
         <tag>r_language</tag>
          
@@ -835,15 +835,15 @@
         
         <tag>notes</tag>
          
-        <tag>markdown_table</tag>
-         
-        <tag>image</tag>
-         
         <tag>reputation_system</tag>
          
         <tag>variable_type</tag>
          
         <tag>data_type</tag>
+         
+        <tag>markdown_table</tag>
+         
+        <tag>image</tag>
          
          
            
@@ -890,9 +890,9 @@
         <title>Linux/Mac Terminal Tutorial</title>
         <pubTime>2017-10-24T16:00:00.000Z</pubTime>
         
-        <tag>tutorial</tag>
-         
         <tag>terminal</tag>
+         
+        <tag>tutorial</tag>
          
          
            
