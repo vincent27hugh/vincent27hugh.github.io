@@ -99,6 +99,32 @@
   </entry>
   
   <entry>
+    <title>Literature Review: Predicting the Semantic Orientation of Adjectives</title>
+    <link href="http://blog.baoduge.com/SA_FN4/"/>
+    <id>http://blog.baoduge.com/SA_FN4/</id>
+    <published>2018-03-21T16:00:00.000Z</published>
+    <updated>2018-05-11T14:50:06.000Z</updated>
+    
+    <summary type="html">
+    
+      This is the literature review on one paper of Hatzivassiloglou et al (1997) on ACL.
+    
+    </summary>
+    
+      <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
+    
+    
+      <category term="rmarkdown" scheme="http://blog.baoduge.com/tags/rmarkdown/"/>
+    
+      <category term="rlang" scheme="http://blog.baoduge.com/tags/rlang/"/>
+    
+      <category term="statistics" scheme="http://blog.baoduge.com/tags/statistics/"/>
+    
+      <category term="finance" scheme="http://blog.baoduge.com/tags/finance/"/>
+    
+  </entry>
+  
+  <entry>
     <title>How to Simply Get the Overview of Textual Data and Numerical Data</title>
     <link href="http://blog.baoduge.com/StkPreHL/"/>
     <id>http://blog.baoduge.com/StkPreHL/</id>
@@ -194,9 +220,9 @@
     
       <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
     
-      <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
-    
       <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
+    
+      <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
       <category term="deep_learning" scheme="http://blog.baoduge.com/tags/deep-learning/"/>
     
@@ -264,9 +290,9 @@
       <category term="中文" scheme="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
     
     
-      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
-    
       <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
+    
+      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
     
       <category term="structural_modeling" scheme="http://blog.baoduge.com/tags/structural-modeling/"/>
     
@@ -290,15 +316,49 @@
     
       <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
     
+      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
+    
       <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
       <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
     
       <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
     
-      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
-    
       <category term="natural_language_processing" scheme="http://blog.baoduge.com/tags/natural-language-processing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Literature Review: Yahoo! for Amazon</title>
+    <link href="http://blog.baoduge.com/SA_FN4-3/"/>
+    <id>http://blog.baoduge.com/SA_FN4-3/</id>
+    <published>2017-11-23T16:00:00.000Z</published>
+    <updated>2017-11-26T08:17:12.000Z</updated>
+    
+    <summary type="html">
+    
+      This is the literature review on one paper of Das and Chen (2007) on Management Science.
+    
+    </summary>
+    
+      <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
+    
+    
+      <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
+    
+      <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
+    
+      <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
+    
+      <category term="naive_classifier" scheme="http://blog.baoduge.com/tags/naive-classifier/"/>
+    
+      <category term="vector_distance_classifier" scheme="http://blog.baoduge.com/tags/vector-distance-classifier/"/>
+    
+      <category term="discriminant-based_classifier" scheme="http://blog.baoduge.com/tags/discriminant-based-classifier/"/>
+    
+      <category term="adjective-adverb_phrase_classifier" scheme="http://blog.baoduge.com/tags/adjective-adverb-phrase-classifier/"/>
+    
+      <category term="bayesian_classifier" scheme="http://blog.baoduge.com/tags/bayesian-classifier/"/>
     
   </entry>
   
@@ -388,11 +448,13 @@
       <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
-      <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
-    
       <category term="python" scheme="http://blog.baoduge.com/tags/python/"/>
     
+      <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
+    
       <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
+    
+      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
       <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
     
@@ -405,8 +467,6 @@
       <category term="fortran" scheme="http://blog.baoduge.com/tags/fortran/"/>
     
       <category term="mathematica" scheme="http://blog.baoduge.com/tags/mathematica/"/>
-    
-      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
   </entry>
   
@@ -493,78 +553,40 @@
   </entry>
   
   <entry>
-    <title>Can online scoring really reflects the rankings of products?</title>
-    <link href="http://blog.baoduge.com/expectation_on_online%20scoring/"/>
-    <id>http://blog.baoduge.com/expectation_on_online scoring/</id>
-    <published>2017-10-29T16:00:00.000Z</published>
-    <updated>2017-11-25T16:41:03.000Z</updated>
+    <title>Literature Review on Special Paper: Feature Engineering + Neural Network</title>
+    <link href="http://blog.baoduge.com/SA_FN3/"/>
+    <id>http://blog.baoduge.com/SA_FN3/</id>
+    <published>2017-11-02T16:00:00.000Z</published>
+    <updated>2017-11-25T16:51:15.000Z</updated>
     
     <summary type="html">
     
-      There are lots of scenarios that we need to do evaluations, for example, `online scoring` of movies on IMDB or products on Amazon.com. Via the the `online scoring`, customers can easily judge which items they would like to choose.
+      This is the literature review on one paper of Ghiassi et al (2016) on JMIS.
     
     </summary>
+    
+      <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
     
     
       <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
     
-      <category term="notes" scheme="http://blog.baoduge.com/tags/notes/"/>
+      <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
+    
+      <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
+    
+      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
     
       <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
-      <category term="economics" scheme="http://blog.baoduge.com/tags/economics/"/>
+      <category term="opinion_mining" scheme="http://blog.baoduge.com/tags/opinion-mining/"/>
     
-      <category term="online_scoring" scheme="http://blog.baoduge.com/tags/online-scoring/"/>
+      <category term="feature_engineering" scheme="http://blog.baoduge.com/tags/feature-engineering/"/>
     
-      <category term="modeling" scheme="http://blog.baoduge.com/tags/modeling/"/>
+      <category term="brand_marketing" scheme="http://blog.baoduge.com/tags/brand-marketing/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Linux/Mac Terminal Tutorial</title>
-    <link href="http://blog.baoduge.com/Terminal_tutorial/"/>
-    <id>http://blog.baoduge.com/Terminal_tutorial/</id>
-    <published>2017-10-24T16:00:00.000Z</published>
-    <updated>2017-11-10T07:45:22.000Z</updated>
+      <category term="twitter" scheme="http://blog.baoduge.com/tags/twitter/"/>
     
-    <summary type="html">
-    
-      This is a tutorial of terminal commands on Linux/Mac System.
-    
-    </summary>
-    
-      <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
-    
-    
-      <category term="terminal" scheme="http://blog.baoduge.com/tags/terminal/"/>
-    
-      <category term="tutorial" scheme="http://blog.baoduge.com/tags/tutorial/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Resources &amp; Tools of Information System Research</title>
-    <link href="http://blog.baoduge.com/IS_reseources/"/>
-    <id>http://blog.baoduge.com/IS_reseources/</id>
-    <published>2017-10-23T16:00:00.000Z</published>
-    <updated>2018-03-22T14:49:31.000Z</updated>
-    
-    <summary type="html">
-    
-      This is the collection of resources of information system research.
-    
-    </summary>
-    
-      <category term="English" scheme="http://blog.baoduge.com/categories/English/"/>
-    
-    
-      <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
-    
-      <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
-    
-      <category term="markdown_table" scheme="http://blog.baoduge.com/tags/markdown-table/"/>
-    
-      <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
+      <category term="neural_network" scheme="http://blog.baoduge.com/tags/neural-network/"/>
     
   </entry>
   
