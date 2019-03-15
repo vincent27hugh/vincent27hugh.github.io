@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/Type_I_Type_II_error/</loc>
-    <lastmod>2019-03-15T07:47:56.000Z</lastmod>
+    <lastmod>2019-03-15T08:06:26.000Z</lastmod>
     <data>
         <display>
         <title>关于Type I&Type II Error的一点想法</title>
@@ -34,13 +34,9 @@
         <title>NEVERLAND - Blog Logs</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>study</tag>
-         
         <tag>research</tag>
          
-        <tag>blog</tag>
-         
-        <tag>logs</tag>
+        <tag>machine_learning</tag>
          
         <tag>hexo</tag>
          
@@ -48,7 +44,11 @@
          
         <tag>information_system</tag>
          
-        <tag>machine_learning</tag>
+        <tag>study</tag>
+         
+        <tag>blog</tag>
+         
+        <tag>logs</tag>
          
         <tag>music</tag>
          
@@ -70,23 +70,23 @@
         <title>My Open-Course Challenges: Data Science on IS</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>machine_learning</tag>
          
-        <tag>natural_language_processing</tag>
-         
         <tag>deep_learning</tag>
+         
+        <tag>github</tag>
          
         <tag>markdown_table</tag>
          
         <tag>image</tag>
          
-        <tag>github</tag>
+        <tag>information_system</tag>
          
-        <tag>statistics</tag>
+        <tag>natural_language_processing</tag>
          
         <tag>hexo_pdf</tag>
+         
+        <tag>statistics</tag>
          
         <tag>finance</tag>
          
@@ -281,11 +281,11 @@
         
         <tag>research</tag>
          
-        <tag>information_system</tag>
-         
         <tag>markdown_table</tag>
          
         <tag>image</tag>
+         
+        <tag>information_system</tag>
          
          
            
@@ -461,9 +461,9 @@
         
         <tag>research</tag>
          
-        <tag>machine_learning</tag>
-         
         <tag>sentiment_analysis</tag>
+         
+        <tag>machine_learning</tag>
          
         <tag>deep_learning</tag>
          
@@ -487,15 +487,15 @@
         
         <tag>research</tag>
          
-        <tag>machine_learning</tag>
-         
         <tag>sentiment_analysis</tag>
          
-        <tag>literature_review</tag>
+        <tag>machine_learning</tag>
+         
+        <tag>natural_language_processing</tag>
          
         <tag>faicon</tag>
          
-        <tag>natural_language_processing</tag>
+        <tag>literature_review</tag>
          
          
            
@@ -515,9 +515,9 @@
         <title>Notes on the Structural Modeling</title>
         <pubTime>2017-11-28T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>machine_learning</tag>
+         
+        <tag>information_system</tag>
          
         <tag>structural_modeling</tag>
          
@@ -575,8 +575,6 @@
         <title>如何管理文献:Mendeley小技巧</title>
         <pubTime>2017-11-11T16:00:00.000Z</pubTime>
         
-        <tag>faicon</tag>
-         
         <tag>image</tag>
          
         <tag>mendeley</tag>
@@ -584,6 +582,8 @@
         <tag>document_management</tag>
          
         <tag>bibtex</tag>
+         
+        <tag>faicon</tag>
          
          
            
@@ -633,13 +633,13 @@
         <title>Introduction to Sentiment Analysis</title>
         <pubTime>2017-10-22T16:00:00.000Z</pubTime>
         
-        <tag>machine_learning</tag>
-         
         <tag>sentiment_analysis</tag>
          
-        <tag>natural_language_processing</tag>
+        <tag>machine_learning</tag>
          
         <tag>image</tag>
+         
+        <tag>natural_language_processing</tag>
          
         <tag>hexo_pdf</tag>
          
@@ -723,13 +723,13 @@
         
         <tag>research</tag>
          
-        <tag>information_system</tag>
-         
         <tag>sentiment_analysis</tag>
          
-        <tag>literature_review</tag>
-         
         <tag>image</tag>
+         
+        <tag>information_system</tag>
+         
+        <tag>literature_review</tag>
          
         <tag>mathjax</tag>
          
@@ -759,9 +759,9 @@
         
         <tag>deep_learning</tag>
          
-        <tag>hardware</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>hardware</tag>
          
          
            
@@ -783,9 +783,9 @@
         
         <tag>machine_learning</tag>
          
-        <tag>python</tag>
-         
         <tag>deep_learning</tag>
+         
+        <tag>python</tag>
          
         <tag>virtualenv</tag>
          
@@ -817,9 +817,9 @@
          
         <tag>sentiment_analysis</tag>
          
-        <tag>literature_review</tag>
-         
         <tag>image</tag>
+         
+        <tag>literature_review</tag>
          
         <tag>mathjax</tag>
          
@@ -853,15 +853,15 @@
         
         <tag>research</tag>
          
-        <tag>information_system</tag>
-         
         <tag>sentiment_analysis</tag>
          
-        <tag>literature_review</tag>
+        <tag>information_system</tag>
          
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
+         
+        <tag>literature_review</tag>
          
         <tag>mathjax</tag>
          
@@ -885,11 +885,11 @@
         
         <tag>hexo_pdf</tag>
          
+        <tag>tbc</tag>
+         
         <tag>robo_advisor</tag>
          
         <tag>fintech</tag>
-         
-        <tag>tbc</tag>
          
          
            
@@ -909,11 +909,11 @@
         <title>R语言的科学计算</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>tbc</tag>
-         
         <tag>r_language</tag>
          
         <tag>science_computing</tag>
+         
+        <tag>tbc</tag>
          
          
            
@@ -933,11 +933,13 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
+        <tag>image</tag>
+         
         <tag>python</tag>
          
         <tag>faicon</tag>
          
-        <tag>image</tag>
+        <tag>r_language</tag>
          
         <tag>mathjax</tag>
          
@@ -948,8 +950,6 @@
         <tag>matlab</tag>
          
         <tag>fortran</tag>
-         
-        <tag>r_language</tag>
          
         <tag>mathematica</tag>
          
@@ -1056,9 +1056,9 @@
         <title>Linux/Mac Terminal Tutorial</title>
         <pubTime>2017-10-24T16:00:00.000Z</pubTime>
         
-        <tag>terminal</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>terminal</tag>
          
          
            
@@ -1080,9 +1080,9 @@
         
         <tag>hexo</tag>
          
-        <tag>tutorial</tag>
-         
         <tag>github</tag>
+         
+        <tag>tutorial</tag>
          
          
            
