@@ -229,11 +229,11 @@
   </entry>
   
   <entry>
-    <title>关于Type I和Type II Error的一点想法</title>
+    <title>关于Type I&amp;Type II Error的一点想法</title>
     <link href="http://blog.baoduge.com/Type_I_Type_II_error/"/>
     <id>http://blog.baoduge.com/Type_I_Type_II_error/</id>
     <published>2018-01-09T16:00:00.000Z</published>
-    <updated>2018-09-13T06:48:35.000Z</updated>
+    <updated>2019-03-15T07:47:56.000Z</updated>
     
     <summary type="html">
     
@@ -456,8 +456,6 @@
     
       <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
-      <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
-    
       <category term="nonlinear_equations" scheme="http://blog.baoduge.com/tags/nonlinear-equations/"/>
     
       <category term="numerical_analysis" scheme="http://blog.baoduge.com/tags/numerical-analysis/"/>
@@ -465,6 +463,8 @@
       <category term="matlab" scheme="http://blog.baoduge.com/tags/matlab/"/>
     
       <category term="fortran" scheme="http://blog.baoduge.com/tags/fortran/"/>
+    
+      <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
     
       <category term="mathematica" scheme="http://blog.baoduge.com/tags/mathematica/"/>
     

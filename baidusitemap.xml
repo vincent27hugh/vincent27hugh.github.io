@@ -3,6 +3,28 @@
 
 
     
+  <url>
+    <loc>http://blog.baoduge.com/Type_I_Type_II_error/</loc>
+    <lastmod>2019-03-15T07:47:56.000Z</lastmod>
+    <data>
+        <display>
+        <title>关于Type I&Type II Error的一点想法</title>
+        <pubTime>2018-01-09T16:00:00.000Z</pubTime>
+        
+        <tag>notes</tag>
+         
+        <tag>statistics</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
@@ -62,9 +84,9 @@
          
         <tag>github</tag>
          
-        <tag>hexo_pdf</tag>
-         
         <tag>statistics</tag>
+         
+        <tag>hexo_pdf</tag>
          
         <tag>finance</tag>
          
@@ -82,28 +104,6 @@
            
              
               <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/Type_I_Type_II_error/</loc>
-    <lastmod>2018-09-13T06:48:35.000Z</lastmod>
-    <data>
-        <display>
-        <title>关于Type I和Type II Error的一点想法</title>
-        <pubTime>2018-01-09T16:00:00.000Z</pubTime>
-        
-        <tag>notes</tag>
-         
-        <tag>statistics</tag>
-         
-         
-           
-             
-              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
           
         </display>
     </data>
@@ -885,11 +885,11 @@
         
         <tag>hexo_pdf</tag>
          
-        <tag>tbc</tag>
-         
         <tag>robo_advisor</tag>
          
         <tag>fintech</tag>
+         
+        <tag>tbc</tag>
          
          
            
@@ -909,11 +909,11 @@
         <title>R语言的科学计算</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
+        <tag>tbc</tag>
+         
         <tag>r_language</tag>
          
         <tag>science_computing</tag>
-         
-        <tag>tbc</tag>
          
          
            
@@ -941,8 +941,6 @@
          
         <tag>mathjax</tag>
          
-        <tag>r_language</tag>
-         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
@@ -950,6 +948,8 @@
         <tag>matlab</tag>
          
         <tag>fortran</tag>
+         
+        <tag>r_language</tag>
          
         <tag>mathematica</tag>
          
