@@ -4,6 +4,54 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/My_Study_Plan/</loc>
+    <lastmod>2019-03-29T07:11:35.000Z</lastmod>
+    <data>
+        <display>
+        <title>Data Science Open-Course Challenges</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>information_system</tag>
+         
+        <tag>machine_learning</tag>
+         
+        <tag>deep_learning</tag>
+         
+        <tag>natural_language_processing</tag>
+         
+        <tag>markdown_table</tag>
+         
+        <tag>image</tag>
+         
+        <tag>github</tag>
+         
+        <tag>hexo_pdf</tag>
+         
+        <tag>statistics</tag>
+         
+        <tag>finance</tag>
+         
+        <tag>economics</tag>
+         
+        <tag>mathematics</tag>
+         
+        <tag>artificial_intelligence</tag>
+         
+        <tag>open_course</tag>
+         
+        <tag>span_id_anchor</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/Type_I_Type_II_error/</loc>
     <lastmod>2019-03-15T08:06:26.000Z</lastmod>
     <data>
@@ -34,9 +82,13 @@
         <title>NEVERLAND - Blog Logs</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
+        <tag>study</tag>
+         
         <tag>research</tag>
          
-        <tag>machine_learning</tag>
+        <tag>blog</tag>
+         
+        <tag>logs</tag>
          
         <tag>hexo</tag>
          
@@ -44,11 +96,7 @@
          
         <tag>information_system</tag>
          
-        <tag>study</tag>
-         
-        <tag>blog</tag>
-         
-        <tag>logs</tag>
+        <tag>machine_learning</tag>
          
         <tag>music</tag>
          
@@ -56,54 +104,6 @@
            
              
               <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.baoduge.com/My_Study_Plan/</loc>
-    <lastmod>2018-11-30T07:40:40.000Z</lastmod>
-    <data>
-        <display>
-        <title>My Open-Course Challenges: Data Science on IS</title>
-        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
-        
-        <tag>machine_learning</tag>
-         
-        <tag>deep_learning</tag>
-         
-        <tag>github</tag>
-         
-        <tag>markdown_table</tag>
-         
-        <tag>image</tag>
-         
-        <tag>information_system</tag>
-         
-        <tag>natural_language_processing</tag>
-         
-        <tag>hexo_pdf</tag>
-         
-        <tag>statistics</tag>
-         
-        <tag>finance</tag>
-         
-        <tag>economics</tag>
-         
-        <tag>mathematics</tag>
-         
-        <tag>artificial_intelligence</tag>
-         
-        <tag>open_course</tag>
-         
-        <tag>span_id_anchor</tag>
-         
-         
-           
-             
-              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
           
         </display>
     </data>
@@ -281,11 +281,11 @@
         
         <tag>research</tag>
          
+        <tag>information_system</tag>
+         
         <tag>markdown_table</tag>
          
         <tag>image</tag>
-         
-        <tag>information_system</tag>
          
          
            
@@ -461,11 +461,11 @@
         
         <tag>research</tag>
          
-        <tag>sentiment_analysis</tag>
-         
         <tag>machine_learning</tag>
          
         <tag>deep_learning</tag>
+         
+        <tag>sentiment_analysis</tag>
          
          
            
@@ -487,15 +487,15 @@
         
         <tag>research</tag>
          
-        <tag>sentiment_analysis</tag>
-         
         <tag>machine_learning</tag>
          
-        <tag>natural_language_processing</tag>
+        <tag>sentiment_analysis</tag>
+         
+        <tag>literature_review</tag>
          
         <tag>faicon</tag>
          
-        <tag>literature_review</tag>
+        <tag>natural_language_processing</tag>
          
          
            
@@ -515,9 +515,9 @@
         <title>Notes on the Structural Modeling</title>
         <pubTime>2017-11-28T16:00:00.000Z</pubTime>
         
-        <tag>machine_learning</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>machine_learning</tag>
          
         <tag>structural_modeling</tag>
          
@@ -575,6 +575,8 @@
         <title>如何管理文献:Mendeley小技巧</title>
         <pubTime>2017-11-11T16:00:00.000Z</pubTime>
         
+        <tag>faicon</tag>
+         
         <tag>image</tag>
          
         <tag>mendeley</tag>
@@ -582,8 +584,6 @@
         <tag>document_management</tag>
          
         <tag>bibtex</tag>
-         
-        <tag>faicon</tag>
          
          
            
@@ -633,13 +633,13 @@
         <title>Introduction to Sentiment Analysis</title>
         <pubTime>2017-10-22T16:00:00.000Z</pubTime>
         
-        <tag>sentiment_analysis</tag>
-         
         <tag>machine_learning</tag>
          
-        <tag>image</tag>
+        <tag>sentiment_analysis</tag>
          
         <tag>natural_language_processing</tag>
+         
+        <tag>image</tag>
          
         <tag>hexo_pdf</tag>
          
@@ -723,21 +723,21 @@
         
         <tag>research</tag>
          
-        <tag>sentiment_analysis</tag>
-         
-        <tag>image</tag>
-         
         <tag>information_system</tag>
          
+        <tag>sentiment_analysis</tag>
+         
         <tag>literature_review</tag>
+         
+        <tag>image</tag>
          
         <tag>mathjax</tag>
          
         <tag>opinion_mining</tag>
          
-        <tag>time_series</tag>
-         
         <tag>finance</tag>
+         
+        <tag>time_series</tag>
          
          
            
@@ -759,9 +759,9 @@
         
         <tag>deep_learning</tag>
          
-        <tag>tutorial</tag>
-         
         <tag>hardware</tag>
+         
+        <tag>tutorial</tag>
          
          
            
@@ -783,9 +783,9 @@
         
         <tag>machine_learning</tag>
          
-        <tag>deep_learning</tag>
-         
         <tag>python</tag>
+         
+        <tag>deep_learning</tag>
          
         <tag>virtualenv</tag>
          
@@ -817,9 +817,9 @@
          
         <tag>sentiment_analysis</tag>
          
-        <tag>image</tag>
-         
         <tag>literature_review</tag>
+         
+        <tag>image</tag>
          
         <tag>mathjax</tag>
          
@@ -853,17 +853,17 @@
         
         <tag>research</tag>
          
-        <tag>sentiment_analysis</tag>
-         
         <tag>information_system</tag>
          
-        <tag>user_generated_content</tag>
-         
-        <tag>word_of_mouth</tag>
+        <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
          
         <tag>mathjax</tag>
+         
+        <tag>user_generated_content</tag>
+         
+        <tag>word_of_mouth</tag>
          
          
            
@@ -933,15 +933,13 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
-        <tag>image</tag>
-         
         <tag>python</tag>
          
         <tag>faicon</tag>
          
-        <tag>r_language</tag>
+        <tag>image</tag>
          
-        <tag>mathjax</tag>
+        <tag>r_language</tag>
          
         <tag>nonlinear_equations</tag>
          
@@ -952,6 +950,8 @@
         <tag>fortran</tag>
          
         <tag>mathematica</tag>
+         
+        <tag>mathjax</tag>
          
          
            
@@ -1056,9 +1056,9 @@
         <title>Linux/Mac Terminal Tutorial</title>
         <pubTime>2017-10-24T16:00:00.000Z</pubTime>
         
-        <tag>tutorial</tag>
-         
         <tag>terminal</tag>
+         
+        <tag>tutorial</tag>
          
          
            
@@ -1080,9 +1080,9 @@
         
         <tag>hexo</tag>
          
-        <tag>github</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>github</tag>
          
          
            
