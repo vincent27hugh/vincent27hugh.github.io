@@ -72,6 +72,15 @@
 <li><a href="https://github.com/kbenoit/wordshoal" target="_blank" rel="external">kbenoit/wordshoal</a>: An extension package for quanteda for computing the &#x201C;wordshoal&#x201D; text model from Benjamin E. Lauderdale and Alexander Herzog. 2016. &#x201C;Measuring <strong>Political Positions</strong> from Legislative Speech.&#x201D; Political Analysis 24 (3, July): 374-394.</li>
 </ul>
 </li>
+<li>Negation:<ul>
+<li><a href="https://paperswithcode.com/task/negation-detection/codeless" target="_blank" rel="external">Negation Detection - Papers With Code</a></li>
+<li><a href="https://github.com/gkotsis/negation-detection" target="_blank" rel="external">gkotsis/negation-detection</a></li>
+</ul>
+</li>
+<li><a href="https://en.wikipedia.org/wiki/Stylometry" target="_blank" rel="external">stylometry</a>:<ul>
+<li><a href="https://github.com/jpotts18/stylometry" target="_blank" rel="external">jpotts18/stylometry</a></li>
+</ul>
+</li>
 </ul>
 <hr>
 <h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><ul>
@@ -578,9 +587,9 @@
             
             <tag> monte_carlo </tag>
             
-            <tag> statistics </tag>
-            
             <tag> famafrench </tag>
+            
+            <tag> statistics </tag>
             
         </tags>
         
@@ -1534,9 +1543,9 @@ write.csv(geocoded, &quot;geocoded.csv&quot;, row.names=FALSE)
             
             <tag> research </tag>
             
-            <tag> sentiment_analysis </tag>
-            
             <tag> machine_learning </tag>
+            
+            <tag> sentiment_analysis </tag>
             
             <tag> deep_learning </tag>
             
@@ -1712,9 +1721,9 @@ write.csv(geocoded, &quot;geocoded.csv&quot;, row.names=FALSE)
         
         <tags>
             
-            <tag> machine_learning </tag>
-            
             <tag> information_system </tag>
+            
+            <tag> machine_learning </tag>
             
             <tag> structural_modeling </tag>
             
@@ -1834,13 +1843,13 @@ write.csv(geocoded, &quot;geocoded.csv&quot;, row.names=FALSE)
             
             <tag> research </tag>
             
+            <tag> machine_learning </tag>
+            
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
             
             <tag> faicon </tag>
-            
-            <tag> machine_learning </tag>
             
             <tag> natural_language_processing </tag>
             
@@ -2422,15 +2431,11 @@ end
         
         <tags>
             
-            <tag> faicon </tag>
-            
             <tag> python </tag>
             
+            <tag> faicon </tag>
+            
             <tag> image </tag>
-            
-            <tag> r_language </tag>
-            
-            <tag> mathjax </tag>
             
             <tag> nonlinear_equations </tag>
             
@@ -2440,7 +2445,11 @@ end
             
             <tag> fortran </tag>
             
+            <tag> r_language </tag>
+            
             <tag> mathematica </tag>
+            
+            <tag> mathjax </tag>
             
         </tags>
         
@@ -2608,9 +2617,9 @@ end
             
             <tag> deep_learning </tag>
             
-            <tag> hardware </tag>
-            
             <tag> tutorial </tag>
+            
+            <tag> hardware </tag>
             
         </tags>
         
@@ -2774,15 +2783,15 @@ end
             
             <tag> notes </tag>
             
-            <tag> markdown_table </tag>
-            
-            <tag> image </tag>
-            
             <tag> reputation_system </tag>
             
             <tag> variable_type </tag>
             
             <tag> data_type </tag>
+            
+            <tag> markdown_table </tag>
+            
+            <tag> image </tag>
             
         </tags>
         
@@ -3112,21 +3121,21 @@ end
             
             <tag> research </tag>
             
+            <tag> information_system </tag>
+            
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
-            
-            <tag> information_system </tag>
             
             <tag> image </tag>
             
             <tag> mathjax </tag>
             
+            <tag> finance </tag>
+            
             <tag> opinion_mining </tag>
             
             <tag> time_series </tag>
-            
-            <tag> finance </tag>
             
         </tags>
         
@@ -3383,17 +3392,17 @@ end
             
             <tag> research </tag>
             
+            <tag> information_system </tag>
+            
             <tag> sentiment_analysis </tag>
             
             <tag> literature_review </tag>
             
-            <tag> information_system </tag>
+            <tag> mathjax </tag>
             
             <tag> user_generated_content </tag>
             
             <tag> word_of_mouth </tag>
-            
-            <tag> mathjax </tag>
             
         </tags>
         
@@ -4759,9 +4768,9 @@ killall Finder
         
         <tags>
             
-            <tag> sentiment_analysis </tag>
-            
             <tag> machine_learning </tag>
+            
+            <tag> sentiment_analysis </tag>
             
             <tag> natural_language_processing </tag>
             
@@ -4921,9 +4930,9 @@ Training Step: 7040  | total loss: 0.09154 | time: 175.630s
         
         <tags>
             
-            <tag> machine_learning </tag>
-            
             <tag> python </tag>
+            
+            <tag> machine_learning </tag>
             
             <tag> deep_learning </tag>
             
@@ -5119,9 +5128,9 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
-            <tag> faicon </tag>
-            
             <tag> information_system </tag>
+            
+            <tag> faicon </tag>
             
             <tag> matlab </tag>
             
@@ -5338,8 +5347,8 @@ Ref 2\cite{kom2016stochastic}
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center"><img src="https://img.shields.io/badge/OnProgress-14-green.svg" alt="OnProgress"></td>
-<td style="text-align:center"><img src="http://progressed.io/bar/37?title=done" alt="4.77/13"></td>
+<td style="text-align:center"><img src="https://img.shields.io/badge/OnProgress-15-green.svg" alt="OnProgress"></td>
+<td style="text-align:center"><a href="https://changaco.oy.lc/unicode-progress-bars/" target="_blank" rel="external">&#x2B24;&#x2B24;&#x2B24;&#x2B24;&#x2B24;&#x2B24;&#x2B24;&#x25D4;&#x25CB;&#x25CB;&#x25CB;&#x25CB;&#x25CB;&#x25CB;&#x25CB;&#x25CB;&#x25CB;&#x25CB;&#x25CB; 38.2%</a> (5.73/15)</td>
 </tr>
 </tbody>
 </table>
@@ -5357,72 +5366,77 @@ Ref 2\cite{kom2016stochastic}
 <tr>
 <td style="text-align:center">1</td>
 <td style="text-align:center"><a href="#OP1">Stanford CS229 UG-ML</a></td>
-<td style="text-align:center"><img src="http://progressed.io/bar/95?title=done" alt="19/20"></td>
+<td style="text-align:center"><img src="https://img.shields.io/badge/completed%20%2819%2F20%29-95%25-green" alt=""></td>
 </tr>
 <tr>
 <td style="text-align:center">2</td>
 <td style="text-align:center"><a href="#OP2">UCambridge ITPRNN</a></td>
-<td style="text-align:center"><img src="http://progressed.io/bar/32?title=done" alt="5/16"></td>
+<td style="text-align:center"><img src="https://img.shields.io/badge/completed%20%285/16%29-31%25-green" alt=""></td>
 </tr>
 <tr>
 <td style="text-align:center">3</td>
 <td style="text-align:center"><a href="#OP3">Coursera NN4ML</a></td>
-<td style="text-align:center"><img src="http://progressed.io/bar/44?title=done" alt="34/78"></td>
+<td style="text-align:center"><img src="https://img.shields.io/badge/completed%20%2834/78%29-44%25-green" alt=""></td>
 </tr>
 <tr>
 <td style="text-align:center">4</td>
 <td style="text-align:center"><a href="#OP4">Coursera PGM</a></td>
-<td style="text-align:center"><img src="http://progressed.io/bar/37?title=done" alt="35/94"></td>
+<td style="text-align:center"><img src="https://img.shields.io/badge/completed%20%2835/94%29-37%25-green" alt=""></td>
 </tr>
 <tr>
 <td style="text-align:center">5</td>
 <td style="text-align:center"><a href="#OP5">Udacity ML4Trading</a></td>
-<td style="text-align:center"><img src="http://progressed.io/bar/4?title=done" alt="1/28"></td>
+<td style="text-align:center"><img src="https://img.shields.io/badge/completed%20%281/28%29-4%25-green" alt=""></td>
 </tr>
 <tr>
 <td style="text-align:center">6</td>
 <td style="text-align:center"><a href="#OP6">Stanford CS124 NLP</a></td>
-<td style="text-align:center"><img src="http://progressed.io/bar/35?title=done" alt="37/102"></td>
+<td style="text-align:center"><img src="https://img.shields.io/badge/completed%20(37/102%29-36%25-green" alt=""></td>
 </tr>
 <tr>
 <td style="text-align:center">7</td>
 <td style="text-align:center"><a href="#OP7">Stanford CS224N DL4NLP</a></td>
-<td style="text-align:center"><img src="http://progressed.io/bar/11?title=done" alt="2/18"></td>
+<td style="text-align:center"><img src="https://img.shields.io/badge/completed%20%285/18%29-28%25-green" alt=""></td>
 </tr>
 <tr>
 <td style="text-align:center">8</td>
 <td style="text-align:center"><a href="#OP8">CMU 10-701 G-ML</a></td>
-<td style="text-align:center"><img src="http://progressed.io/bar/4?title=done" alt="0/31"></td>
+<td style="text-align:center"><img src="https://img.shields.io/badge/completed%20%280/31%29-0%25-green" alt=""></td>
 </tr>
 <tr>
 <td style="text-align:center">9</td>
 <td style="text-align:center"><a href="#OP9">MIT 6.034 AI</a></td>
-<td style="text-align:center"><img src="http://progressed.io/bar/20?title=done" alt="6/30"></td>
+<td style="text-align:center"><img src="https://img.shields.io/badge/completed%20%286/30%29-20%25-green" alt=""></td>
 </tr>
 <tr>
 <td style="text-align:center">10</td>
 <td style="text-align:center"><a href="#OP10">MIT 6.006 Into2Algo</a></td>
-<td style="text-align:center"><img src="http://progressed.io/bar/6?title=done" alt="3/47"></td>
+<td style="text-align:center"><img src="https://img.shields.io/badge/completed%20%283/47%29-6%25-green" alt=""></td>
 </tr>
 <tr>
 <td style="text-align:center">11</td>
 <td style="text-align:center"><a href="#OP11">MIT 18.650 Stat4App</a></td>
-<td style="text-align:center"><img src="http://progressed.io/bar/73?title=done" alt="16/22"></td>
+<td style="text-align:center"><img src="https://img.shields.io/badge/completed%20%2821/24%29-88%25-green" alt=""></td>
 </tr>
 <tr>
 <td style="text-align:center">12</td>
 <td style="text-align:center"><a href="#OP12">Stanford StatLearning</a></td>
-<td style="text-align:center"><img src="http://progressed.io/bar/40?title=done" alt="4/10"></td>
+<td style="text-align:center"><img src="https://img.shields.io/badge/completed%20%284/10%29-40%25-green" alt=""></td>
 </tr>
 <tr>
 <td style="text-align:center">13</td>
 <td style="text-align:center"><a href="#OP13">MIT 6.431 PSA&amp;AP</a></td>
-<td style="text-align:center"><img src="http://progressed.io/bar/80?title=done" alt="61/76"></td>
+<td style="text-align:center"><img src="https://img.shields.io/badge/completed%20%2861/76%29-80%25-green" alt=""></td>
 </tr>
 <tr>
 <td style="text-align:center">14</td>
 <td style="text-align:center"><a href="#OP14">MIT 18.06 LinAlg</a></td>
-<td style="text-align:center"><img src="http://progressed.io/bar/43?title=done" alt="15/35"></td>
+<td style="text-align:center"><img src="https://img.shields.io/badge/completed%20%2815/35%29-43%25-green" alt=""></td>
+</tr>
+<tr>
+<td style="text-align:center">15</td>
+<td style="text-align:center"><a href="#OP15">Stanford CS224W SNA</a></td>
+<td style="text-align:center"><img src="https://img.shields.io/badge/completed%20%284/19%29-21%25-green" alt=""></td>
 </tr>
 </tbody>
 </table>
@@ -6292,7 +6306,7 @@ Ref 2\cite{kom2016stochastic}
 <li>Course Description: The course provides an introduction to complex network theory and its applications in physics, biology, technology and social sciences. Basic graph theory and the statistical physics foundations as well as applications to real world networks will be covered. A hands-on approach to analytical and computational techniques for real world networks will be provided. Essential network models, e.g. small world networks, scale free networks, spatial and hierarchical networks will be discussed and methods to generate them with a computer will be covered. Different  network visualization techniques and complex network tools will be explored as well. The course will cover three main branches of network science: 1.) Network structure, 2.) Dynamical processes on networks, and 3.) Network evolution.</li>
 </ul>
 </li>
-<li><font color="#1E8449"><strong>$\mathbb{G}$</strong>Stanford CS224W: Social and Information Network Analysis by Jure Leskovec, Autumn 2014</font>: <a href="http://snap.stanford.edu/class/cs224w-2014/" target="_blank" rel="external">Course Page</a>, <a href="http://snap.stanford.edu/class/cs224w-videos-2016/" target="_blank" rel="external">Videos</a><ul>
+<li><font color="#1E8449"><strong>$\mathbb{G}$</strong><span id="OP15"></span>Stanford CS224W: Social and Information Network Analysis by Jure Leskovec, Fall 2019</font>: <a href="http://web.stanford.edu/class/cs224w/" target="_blank" rel="external">Course Page</a>, <a href="https://snap-stanford.github.io/cs224w-notes/" target="_blank" rel="external">Notes</a>, <a href="http://snap.stanford.edu/class/cs224w-videos-2019/" target="_blank" rel="external">Videos</a>, <a href="https://www.youtube.com/playlist?list=PLOl6V2H5_aPv9tq57agsl6s3WtRfYpS6u" target="_blank" rel="external">YouTube<i class="fa fa-youtube" aria-hidden="true"></i></a>, <a href="https://www.bilibili.com/video/av84385561?from=search&amp;seid=6876374988659351551" target="_blank" rel="external">BiliBili</a><ul>
 <li>Students are expected to have the following background:<ul>
 <li>Knowledge of basic computer science principles at a level sufficient to write a reasonably non-trivial computer program. (e.g., CS107 or CS145 or equivalent are recommended).</li>
 <li>Familiarity with the basic probability theory. (CS109 or Stat116 is sufficient but not necessary.)</li>
@@ -6372,19 +6386,19 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
+            <tag> information_system </tag>
+            
             <tag> machine_learning </tag>
             
             <tag> natural_language_processing </tag>
             
-            <tag> information_system </tag>
-            
             <tag> deep_learning </tag>
-            
-            <tag> github </tag>
             
             <tag> markdown_table </tag>
             
             <tag> image </tag>
+            
+            <tag> github </tag>
             
             <tag> hexo_pdf </tag>
             
@@ -6392,9 +6406,9 @@ Ref 2\cite{kom2016stochastic}
             
             <tag> finance </tag>
             
-            <tag> mathematics </tag>
-            
             <tag> economics </tag>
+            
+            <tag> mathematics </tag>
             
             <tag> artificial_intelligence </tag>
             
@@ -6745,11 +6759,9 @@ Ref 2\cite{kom2016stochastic}
         
         <tags>
             
-            <tag> research </tag>
-            
-            <tag> machine_learning </tag>
-            
             <tag> study </tag>
+            
+            <tag> research </tag>
             
             <tag> blog </tag>
             
@@ -6761,7 +6773,35 @@ Ref 2\cite{kom2016stochastic}
             
             <tag> information_system </tag>
             
+            <tag> machine_learning </tag>
+            
             <tag> music </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[R语言的科学计算]]></title>
+      <url>/R_science_computing/</url>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h2 id="&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;"><a href="#&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;" class="headerlink" title="&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;"></a>&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;</h2><p><a href="http://blog.csdn.net/skyonefly/article/details/50899661" target="_blank" rel="external">R&#x8BED;&#x8A00;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x6C42;&#x89E3;dfsane,nleqslv</a><br><a href="https://cos.name/cn/topic/11574/" target="_blank" rel="external">&#x8BF7;&#x6559;&#xFF1A;R&#x8BED;&#x8A00;&#x6709;&#x6CA1;&#x6709;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x7684;&#x51FD;&#x6570;&#xFF01;</a><br><a href="http://www.cnblogs.com/dj123jary/p/4142150.html" target="_blank" rel="external">&#x7528;R&#x8BED;&#x8A00;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;</a><br><a href="https://cran.r-project.org/web/packages/nleqslv/nleqslv.pdf" target="_blank" rel="external">Package &#x2018;nleqslv&#x2019;</a><br><a href="https://cran.r-project.org/web/packages/BB/vignettes/BBvignetteJSS.pdf" target="_blank" rel="external">BB: An R Package for Solving a Large System of Nonlinear Equations and for Optimizing a High-Dimensional Nonlinear Objective Function</a></p>
+<p><a href="https://stackoverflow.com/questions/38684295/how-to-solve-a-non-linear-equation-using-nleqslv-package-in-r" target="_blank" rel="external">How to solve a non-linear equation using nleqslv package in R?</a><br><a href="https://stackoverflow.com/questions/22993787/solving-system-of-nonlinear-equations-in-r" target="_blank" rel="external">Solving system of nonlinear equations in R</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 中文 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> r_language </tag>
+            
+            <tag> science_computing </tag>
+            
+            <tag> tbc </tag>
             
         </tags>
         
@@ -6802,32 +6842,6 @@ Ref 2\cite{kom2016stochastic}
             <tag> bloackchain </tag>
             
             <tag> font </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[R语言的科学计算]]></title>
-      <url>/R_science_computing/</url>
-      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h2 id="&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;"><a href="#&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;" class="headerlink" title="&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;"></a>&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;</h2><p><a href="http://blog.csdn.net/skyonefly/article/details/50899661" target="_blank" rel="external">R&#x8BED;&#x8A00;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x6C42;&#x89E3;dfsane,nleqslv</a><br><a href="https://cos.name/cn/topic/11574/" target="_blank" rel="external">&#x8BF7;&#x6559;&#xFF1A;R&#x8BED;&#x8A00;&#x6709;&#x6CA1;&#x6709;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x7EC4;&#x7684;&#x51FD;&#x6570;&#xFF01;</a><br><a href="http://www.cnblogs.com/dj123jary/p/4142150.html" target="_blank" rel="external">&#x7528;R&#x8BED;&#x8A00;&#x6C42;&#x89E3;&#x975E;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;</a><br><a href="https://cran.r-project.org/web/packages/nleqslv/nleqslv.pdf" target="_blank" rel="external">Package &#x2018;nleqslv&#x2019;</a><br><a href="https://cran.r-project.org/web/packages/BB/vignettes/BBvignetteJSS.pdf" target="_blank" rel="external">BB: An R Package for Solving a Large System of Nonlinear Equations and for Optimizing a High-Dimensional Nonlinear Objective Function</a></p>
-<p><a href="https://stackoverflow.com/questions/38684295/how-to-solve-a-non-linear-equation-using-nleqslv-package-in-r" target="_blank" rel="external">How to solve a non-linear equation using nleqslv package in R?</a><br><a href="https://stackoverflow.com/questions/22993787/solving-system-of-nonlinear-equations-in-r" target="_blank" rel="external">Solving system of nonlinear equations in R</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> 中文 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> r_language </tag>
-            
-            <tag> science_computing </tag>
-            
-            <tag> tbc </tag>
             
         </tags>
         
@@ -7186,9 +7200,9 @@ $ hexo d
             
             <tag> hexo </tag>
             
-            <tag> tutorial </tag>
-            
             <tag> github </tag>
+            
+            <tag> tutorial </tag>
             
         </tags>
         
@@ -7333,12 +7347,6 @@ I couldn&apos;t find a kenel matching Python 3. Please select a kernel:
   
     
     <entry>
-      <title><![CDATA[All Categories]]></title>
-      <url>/categories/index.html</url>
-      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[About Neverland]]></title>
       <url>/about/index.html</url>
       <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><hr>
@@ -7372,6 +7380,12 @@ I couldn&apos;t find a kenel matching Python 3. Please select a kernel:
     <entry>
       <title><![CDATA[All Tags]]></title>
       <url>/tags/index.html</url>
+      <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[All Categories]]></title>
+      <url>/categories/index.html</url>
       <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
     </entry>
     
