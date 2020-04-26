@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/My_Study_Plan/</loc>
-    <lastmod>2020-04-26T08:15:07.477Z</lastmod>
+    <lastmod>2020-04-26T08:20:53.436Z</lastmod>
     <data>
         <display>
         <title>Data Science Open-Course Challenges</title>
@@ -15,11 +15,11 @@
          
         <tag>machine_learning</tag>
          
+        <tag>natural_language_processing</tag>
+         
         <tag>deep_learning</tag>
          
         <tag>github</tag>
-         
-        <tag>natural_language_processing</tag>
          
         <tag>markdown_table</tag>
          
@@ -803,9 +803,9 @@
         
         <tag>deep_learning</tag>
          
-        <tag>tutorial</tag>
-         
         <tag>hardware</tag>
+         
+        <tag>tutorial</tag>
          
          
            
@@ -903,11 +903,11 @@
          
         <tag>literature_review</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
+         
+        <tag>mathjax</tag>
          
          
            
@@ -977,13 +977,15 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
-        <tag>python</tag>
-         
         <tag>faicon</tag>
+         
+        <tag>python</tag>
          
         <tag>image</tag>
          
         <tag>r_language</tag>
+         
+        <tag>mathjax</tag>
          
         <tag>nonlinear_equations</tag>
          
@@ -994,8 +996,6 @@
         <tag>fortran</tag>
          
         <tag>mathematica</tag>
-         
-        <tag>mathjax</tag>
          
          
            
@@ -1124,9 +1124,9 @@
         
         <tag>hexo</tag>
          
-        <tag>github</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>github</tag>
          
          
            
