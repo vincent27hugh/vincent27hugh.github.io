@@ -5,35 +5,35 @@
     
   <url>
     <loc>http://blog.baoduge.com/My_Study_Plan/</loc>
-    <lastmod>2020-04-26T07:40:25.064Z</lastmod>
+    <lastmod>2020-04-26T08:08:43.614Z</lastmod>
     <data>
         <display>
         <title>Data Science Open-Course Challenges</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
+        <tag>information_system</tag>
+         
         <tag>machine_learning</tag>
          
         <tag>natural_language_processing</tag>
          
-        <tag>information_system</tag>
-         
         <tag>deep_learning</tag>
+         
+        <tag>github</tag>
          
         <tag>markdown_table</tag>
          
         <tag>image</tag>
          
-        <tag>github</tag>
+        <tag>hexo_pdf</tag>
          
         <tag>statistics</tag>
          
-        <tag>hexo_pdf</tag>
-         
         <tag>finance</tag>
          
-        <tag>economics</tag>
-         
         <tag>mathematics</tag>
+         
+        <tag>economics</tag>
          
         <tag>artificial_intelligence</tag>
          
@@ -126,21 +126,21 @@
         <title>NEVERLAND - Blog Logs</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
-        <tag>machine_learning</tag>
-         
-        <tag>information_system</tag>
-         
-        <tag>notes</tag>
-         
-        <tag>hexo</tag>
-         
         <tag>study</tag>
+         
+        <tag>research</tag>
          
         <tag>blog</tag>
          
         <tag>logs</tag>
+         
+        <tag>hexo</tag>
+         
+        <tag>notes</tag>
+         
+        <tag>information_system</tag>
+         
+        <tag>machine_learning</tag>
          
         <tag>music</tag>
          
@@ -247,9 +247,9 @@
          
         <tag>monte_carlo</tag>
          
-        <tag>statistics</tag>
-         
         <tag>famafrench</tag>
+         
+        <tag>statistics</tag>
          
          
            
@@ -481,9 +481,9 @@
         <title>Experiments in IS research</title>
         <pubTime>2017-09-10T16:00:00.000Z</pubTime>
         
-        <tag>information_system</tag>
-         
         <tag>notes</tag>
+         
+        <tag>information_system</tag>
          
          
            
@@ -505,9 +505,9 @@
         
         <tag>research</tag>
          
-        <tag>sentiment_analysis</tag>
-         
         <tag>machine_learning</tag>
+         
+        <tag>sentiment_analysis</tag>
          
         <tag>deep_learning</tag>
          
@@ -531,13 +531,13 @@
         
         <tag>research</tag>
          
+        <tag>machine_learning</tag>
+         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
          
         <tag>faicon</tag>
-         
-        <tag>machine_learning</tag>
          
         <tag>natural_language_processing</tag>
          
@@ -559,9 +559,9 @@
         <title>Notes on the Structural Modeling</title>
         <pubTime>2017-11-28T16:00:00.000Z</pubTime>
         
-        <tag>machine_learning</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>machine_learning</tag>
          
         <tag>structural_modeling</tag>
          
@@ -677,9 +677,9 @@
         <title>Introduction to Sentiment Analysis</title>
         <pubTime>2017-10-22T16:00:00.000Z</pubTime>
         
-        <tag>sentiment_analysis</tag>
-         
         <tag>machine_learning</tag>
+         
+        <tag>sentiment_analysis</tag>
          
         <tag>natural_language_processing</tag>
          
@@ -767,11 +767,11 @@
         
         <tag>research</tag>
          
+        <tag>information_system</tag>
+         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
-         
-        <tag>information_system</tag>
          
         <tag>image</tag>
          
@@ -825,11 +825,11 @@
         <title>virtualenv+tensorflow初体验</title>
         <pubTime>2017-10-12T16:00:00.000Z</pubTime>
         
-        <tag>python</tag>
-         
         <tag>machine_learning</tag>
          
         <tag>deep_learning</tag>
+         
+        <tag>python</tag>
          
         <tag>virtualenv</tag>
          
@@ -897,17 +897,17 @@
         
         <tag>research</tag>
          
+        <tag>information_system</tag>
+         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
          
-        <tag>information_system</tag>
+        <tag>mathjax</tag>
          
         <tag>user_generated_content</tag>
          
         <tag>word_of_mouth</tag>
-         
-        <tag>mathjax</tag>
          
          
            
@@ -977,15 +977,13 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
-        <tag>python</tag>
-         
         <tag>faicon</tag>
+         
+        <tag>python</tag>
          
         <tag>image</tag>
          
         <tag>r_language</tag>
-         
-        <tag>mathjax</tag>
          
         <tag>nonlinear_equations</tag>
          
@@ -996,6 +994,8 @@
         <tag>fortran</tag>
          
         <tag>mathematica</tag>
+         
+        <tag>mathjax</tag>
          
          
            
@@ -1015,9 +1015,9 @@
         <title>Using MATLAB to batch search #citation of IS papers</title>
         <pubTime>2017-09-18T16:00:00.000Z</pubTime>
         
-        <tag>faicon</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>faicon</tag>
          
         <tag>matlab</tag>
          
@@ -1122,9 +1122,9 @@
         <title>我在Github上搭建Hexo博客</title>
         <pubTime>2017-09-07T16:00:00.000Z</pubTime>
         
-        <tag>tutorial</tag>
-         
         <tag>hexo</tag>
+         
+        <tag>tutorial</tag>
          
         <tag>github</tag>
          
