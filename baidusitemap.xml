@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/My_Study_Plan/</loc>
-    <lastmod>2020-04-25T18:21:35.492Z</lastmod>
+    <lastmod>2020-04-26T06:13:24.632Z</lastmod>
     <data>
         <display>
         <title>Data Science Open-Course Challenges</title>
@@ -15,15 +15,15 @@
          
         <tag>machine_learning</tag>
          
+        <tag>deep_learning</tag>
+         
         <tag>natural_language_processing</tag>
          
-        <tag>deep_learning</tag>
+        <tag>github</tag>
          
         <tag>markdown_table</tag>
          
         <tag>image</tag>
-         
-        <tag>github</tag>
          
         <tag>hexo_pdf</tag>
          
@@ -777,11 +777,11 @@
          
         <tag>mathjax</tag>
          
-        <tag>finance</tag>
-         
         <tag>opinion_mining</tag>
          
         <tag>time_series</tag>
+         
+        <tag>finance</tag>
          
          
            
@@ -983,6 +983,8 @@
          
         <tag>image</tag>
          
+        <tag>r_language</tag>
+         
         <tag>nonlinear_equations</tag>
          
         <tag>numerical_analysis</tag>
@@ -990,8 +992,6 @@
         <tag>matlab</tag>
          
         <tag>fortran</tag>
-         
-        <tag>r_language</tag>
          
         <tag>mathematica</tag>
          
