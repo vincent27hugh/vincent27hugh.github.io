@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/My_Study_Plan/</loc>
-    <lastmod>2020-04-26T08:08:43.614Z</lastmod>
+    <lastmod>2020-04-26T08:11:39.170Z</lastmod>
     <data>
         <display>
         <title>Data Science Open-Course Challenges</title>
@@ -15,15 +15,15 @@
          
         <tag>machine_learning</tag>
          
-        <tag>natural_language_processing</tag>
-         
-        <tag>deep_learning</tag>
-         
         <tag>github</tag>
+         
+        <tag>natural_language_processing</tag>
          
         <tag>markdown_table</tag>
          
         <tag>image</tag>
+         
+        <tag>deep_learning</tag>
          
         <tag>hexo_pdf</tag>
          
@@ -31,9 +31,9 @@
          
         <tag>finance</tag>
          
-        <tag>mathematics</tag>
-         
         <tag>economics</tag>
+         
+        <tag>mathematics</tag>
          
         <tag>artificial_intelligence</tag>
          
@@ -741,9 +741,9 @@
         
         <tag>tutorial</tag>
          
-        <tag>latex</tag>
-         
         <tag>sublime_text_3</tag>
+         
+        <tag>latex</tag>
          
         <tag>skim</tag>
          
@@ -779,9 +779,9 @@
          
         <tag>opinion_mining</tag>
          
-        <tag>time_series</tag>
-         
         <tag>finance</tag>
+         
+        <tag>time_series</tag>
          
          
            
@@ -801,11 +801,11 @@
         <title>Deep Learning hardware</title>
         <pubTime>2017-11-07T16:00:00.000Z</pubTime>
         
+        <tag>tutorial</tag>
+         
         <tag>deep_learning</tag>
          
         <tag>hardware</tag>
-         
-        <tag>tutorial</tag>
          
          
            
@@ -827,9 +827,9 @@
         
         <tag>machine_learning</tag>
          
-        <tag>deep_learning</tag>
-         
         <tag>python</tag>
+         
+        <tag>deep_learning</tag>
          
         <tag>virtualenv</tag>
          
@@ -979,11 +979,9 @@
         
         <tag>faicon</tag>
          
-        <tag>python</tag>
-         
         <tag>image</tag>
          
-        <tag>r_language</tag>
+        <tag>python</tag>
          
         <tag>nonlinear_equations</tag>
          
@@ -992,6 +990,8 @@
         <tag>matlab</tag>
          
         <tag>fortran</tag>
+         
+        <tag>r_language</tag>
          
         <tag>mathematica</tag>
          
@@ -1100,9 +1100,9 @@
         <title>Linux/Mac Terminal Tutorial</title>
         <pubTime>2017-10-24T16:00:00.000Z</pubTime>
         
-        <tag>terminal</tag>
-         
         <tag>tutorial</tag>
+         
+        <tag>terminal</tag>
          
          
            
@@ -1124,9 +1124,9 @@
         
         <tag>hexo</tag>
          
-        <tag>tutorial</tag>
-         
         <tag>github</tag>
+         
+        <tag>tutorial</tag>
          
          
            
