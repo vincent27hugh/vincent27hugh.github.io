@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://blog.baoduge.com/My_Study_Plan/</loc>
-    <lastmod>2020-04-30T04:44:19.323Z</lastmod>
+    <lastmod>2020-05-15T07:12:04.569Z</lastmod>
     <data>
         <display>
         <title>Data Science Open-Course Challenges</title>
@@ -23,9 +23,9 @@
          
         <tag>image</tag>
          
-        <tag>github</tag>
-         
         <tag>hexo_pdf</tag>
+         
+        <tag>github</tag>
          
         <tag>statistics</tag>
          
@@ -247,9 +247,9 @@
          
         <tag>monte_carlo</tag>
          
-        <tag>famafrench</tag>
-         
         <tag>statistics</tag>
+         
+        <tag>famafrench</tag>
          
          
            
@@ -779,9 +779,9 @@
          
         <tag>opinion_mining</tag>
          
-        <tag>time_series</tag>
-         
         <tag>finance</tag>
+         
+        <tag>time_series</tag>
          
          
            
@@ -825,9 +825,9 @@
         <title>virtualenv+tensorflow初体验</title>
         <pubTime>2017-10-12T16:00:00.000Z</pubTime>
         
-        <tag>python</tag>
-         
         <tag>machine_learning</tag>
+         
+        <tag>python</tag>
          
         <tag>deep_learning</tag>
          
@@ -977,9 +977,9 @@
         <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
         <pubTime>2017-11-16T16:00:00.000Z</pubTime>
         
-        <tag>python</tag>
-         
         <tag>faicon</tag>
+         
+        <tag>python</tag>
          
         <tag>image</tag>
          
