@@ -1,0 +1,1142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/My_Study_Plan/</loc>
+    <lastmod>2020-05-21T12:58:43.000Z</lastmod>
+    <data>
+        <display>
+        <title>Data Science Open-Course Challenges</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>machine_learning</tag>
+         
+        <tag>natural_language_processing</tag>
+         
+        <tag>information_system</tag>
+         
+        <tag>deep_learning</tag>
+         
+        <tag>github</tag>
+         
+        <tag>markdown_table</tag>
+         
+        <tag>image</tag>
+         
+        <tag>statistics</tag>
+         
+        <tag>hexo_pdf</tag>
+         
+        <tag>finance</tag>
+         
+        <tag>mathematics</tag>
+         
+        <tag>economics</tag>
+         
+        <tag>artificial_intelligence</tag>
+         
+        <tag>open_course</tag>
+         
+        <tag>span_id_anchor</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/text_analysis_resources/</loc>
+    <lastmod>2020-04-01T10:45:17.000Z</lastmod>
+    <data>
+        <display>
+        <title>Text Analysis Resources</title>
+        <pubTime>2020-02-13T16:00:00.000Z</pubTime>
+        
+        <tag>text_analysis</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/2019nCoV/</loc>
+    <lastmod>2020-03-29T13:27:48.000Z</lastmod>
+    <data>
+        <display>
+        <title>2019nCoV疫情舆情检测</title>
+        <pubTime>2020-03-25T16:00:00.000Z</pubTime>
+        
+        <tag>2019nCoV</tag>
+         
+        <tag>html</tag>
+         
+        <tag>map</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/Type_I_Type_II_error/</loc>
+    <lastmod>2019-03-15T08:06:26.000Z</lastmod>
+    <data>
+        <display>
+        <title>关于Type I&Type II Error的一点想法</title>
+        <pubTime>2018-01-09T16:00:00.000Z</pubTime>
+        
+        <tag>notes</tag>
+         
+        <tag>statistics</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://blog.baoduge.com/2017_Logs_Questions/</loc>
+    <lastmod>2019-01-07T03:25:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>NEVERLAND - Blog Logs</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>research</tag>
+         
+        <tag>machine_learning</tag>
+         
+        <tag>study</tag>
+         
+        <tag>blog</tag>
+         
+        <tag>logs</tag>
+         
+        <tag>hexo</tag>
+         
+        <tag>notes</tag>
+         
+        <tag>information_system</tag>
+         
+        <tag>music</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/rproject_hexo/</loc>
+    <lastmod>2018-05-11T17:07:42.000Z</lastmod>
+    <data>
+        <display>
+        <title>如何将我的R项目更好地展示在Hexo博客上？</title>
+        <pubTime>2018-05-11T16:00:00.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>rmarkdown</tag>
+         
+        <tag>workflow</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://blog.baoduge.com/SentiMap/</loc>
+    <lastmod>2018-05-11T15:54:29.000Z</lastmod>
+    <data>
+        <display>
+        <title>Descriptive Statistics and Map Plot of Twitter Data</title>
+        <pubTime>2018-02-28T16:00:00.000Z</pubTime>
+        
+        <tag>rmarkdown</tag>
+         
+        <tag>rlang</tag>
+         
+        <tag>statistics</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/StkPreHL/</loc>
+    <lastmod>2018-05-11T15:46:25.000Z</lastmod>
+    <data>
+        <display>
+        <title>How to Simply Get the Overview of Textual Data and Numerical Data</title>
+        <pubTime>2018-03-04T16:00:00.000Z</pubTime>
+        
+        <tag>rmarkdown</tag>
+         
+        <tag>rlang</tag>
+         
+        <tag>statistics</tag>
+         
+        <tag>finance</tag>
+         
+        <tag>data_analysis</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/MC_FF5/</loc>
+    <lastmod>2018-05-11T15:26:14.000Z</lastmod>
+    <data>
+        <display>
+        <title>Monte Carlo Experiment for Fama French 5 Factor Model</title>
+        <pubTime>2018-04-01T16:00:00.000Z</pubTime>
+        
+        <tag>rmarkdown</tag>
+         
+        <tag>rlang</tag>
+         
+        <tag>experiment</tag>
+         
+        <tag>monte_carlo</tag>
+         
+        <tag>statistics</tag>
+         
+        <tag>famafrench</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/MC_HP/</loc>
+    <lastmod>2018-05-11T15:04:59.000Z</lastmod>
+    <data>
+        <display>
+        <title>Monte Carlo Experiment for House Pricing Prediction</title>
+        <pubTime>2018-03-28T16:00:00.000Z</pubTime>
+        
+        <tag>rmarkdown</tag>
+         
+        <tag>rlang</tag>
+         
+        <tag>experiment</tag>
+         
+        <tag>monte_carlo</tag>
+         
+        <tag>statistics</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/SA_FN4/</loc>
+    <lastmod>2018-05-11T14:50:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>Literature Review: Predicting the Semantic Orientation of Adjectives</title>
+        <pubTime>2018-03-21T16:00:00.000Z</pubTime>
+        
+        <tag>rmarkdown</tag>
+         
+        <tag>rlang</tag>
+         
+        <tag>statistics</tag>
+         
+        <tag>finance</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/IS_reseources/</loc>
+    <lastmod>2018-03-22T14:49:31.000Z</lastmod>
+    <data>
+        <display>
+        <title>Resources & Tools of Information System Research</title>
+        <pubTime>2017-10-23T16:00:00.000Z</pubTime>
+        
+        <tag>research</tag>
+         
+        <tag>information_system</tag>
+         
+        <tag>markdown_table</tag>
+         
+        <tag>image</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/pdf_pandoc_command/</loc>
+    <lastmod>2018-03-18T13:22:24.000Z</lastmod>
+    <data>
+        <display>
+        <title>How to convert Markdown into PDF file</title>
+        <pubTime>2017-12-19T16:00:00.000Z</pubTime>
+        
+        <tag>sublime_text_3</tag>
+         
+        <tag>markdown</tag>
+         
+        <tag>pandoc</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/Anaconda_Mac/</loc>
+    <lastmod>2018-03-08T07:25:04.000Z</lastmod>
+    <data>
+        <display>
+        <title>Conda Manual on MAC and The Jupyter Notebook - iPython</title>
+        <pubTime>2017-07-24T16:00:00.000Z</pubTime>
+        
+        <tag>anaconda</tag>
+         
+        <tag>conda</tag>
+         
+        <tag>python</tag>
+         
+        <tag>terminal</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/notes_CCSMA2/</loc>
+    <lastmod>2018-02-05T05:18:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>20171123 Notes: Application of Stochastic Structure Model: Control of Negative Reviews</title>
+        <pubTime>2017-11-22T16:00:00.000Z</pubTime>
+        
+        <tag>image</tag>
+         
+        <tag>hexo_pdf</tag>
+         
+        <tag>mathjax</tag>
+         
+        <tag>stochastic_process</tag>
+         
+        <tag>parameter_estimation</tag>
+         
+        <tag>pde</tag>
+         
+        <tag>control_theory</tag>
+         
+        <tag>mathematics</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/online_portfolion_selection/</loc>
+    <lastmod>2018-02-03T14:08:58.000Z</lastmod>
+    <data>
+        <display>
+        <title>What's on-line portfolio selection?</title>
+        <pubTime>2018-02-02T16:00:00.000Z</pubTime>
+        
+        <tag>research</tag>
+         
+        <tag>online_learning</tag>
+         
+        <tag>portfolion_selection</tag>
+         
+        <tag>reinforcement_learning</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/current_blockchain/</loc>
+    <lastmod>2018-02-03T13:14:16.000Z</lastmod>
+    <data>
+        <display>
+        <title>区块链现状</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>bloackchain</tag>
+         
+        <tag>font</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/CUHK_DSME6622_Lec2/</loc>
+    <lastmod>2018-02-03T13:14:07.000Z</lastmod>
+    <data>
+        <display>
+        <title>Experiments in IS research</title>
+        <pubTime>2017-09-10T16:00:00.000Z</pubTime>
+        
+        <tag>notes</tag>
+         
+        <tag>information_system</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/Collection_Sentiment_Analysis_Tools/</loc>
+    <lastmod>2018-02-03T13:13:41.000Z</lastmod>
+    <data>
+        <display>
+        <title>Collection of materials on Sentiment Analysis</title>
+        <pubTime>2018-01-28T16:00:00.000Z</pubTime>
+        
+        <tag>research</tag>
+         
+        <tag>sentiment_analysis</tag>
+         
+        <tag>machine_learning</tag>
+         
+        <tag>deep_learning</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/8002_reference_list/</loc>
+    <lastmod>2018-01-15T06:15:53.000Z</lastmod>
+    <data>
+        <display>
+        <title>ToDo List: Reference List about Sentiment Analysis</title>
+        <pubTime>2017-11-24T16:00:00.000Z</pubTime>
+        
+        <tag>research</tag>
+         
+        <tag>sentiment_analysis</tag>
+         
+        <tag>literature_review</tag>
+         
+        <tag>faicon</tag>
+         
+        <tag>machine_learning</tag>
+         
+        <tag>natural_language_processing</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/Structural_Model/</loc>
+    <lastmod>2017-12-21T05:07:23.000Z</lastmod>
+    <data>
+        <display>
+        <title>Notes on the Structural Modeling</title>
+        <pubTime>2017-11-28T16:00:00.000Z</pubTime>
+        
+        <tag>machine_learning</tag>
+         
+        <tag>information_system</tag>
+         
+        <tag>structural_modeling</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/notes_CCSMA/</loc>
+    <lastmod>2017-12-13T17:27:37.000Z</lastmod>
+    <data>
+        <display>
+        <title>20171117 Notes: Stochastic Process, Parameter Estimation, PDE</title>
+        <pubTime>2017-11-17T16:00:00.000Z</pubTime>
+        
+        <tag>image</tag>
+         
+        <tag>hexo_pdf</tag>
+         
+        <tag>mathjax</tag>
+         
+        <tag>stochastic_process</tag>
+         
+        <tag>parameter_estimation</tag>
+         
+        <tag>pde</tag>
+         
+        <tag>control_theory</tag>
+         
+        <tag>mathematics</tag>
+         
+        <tag>video</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/Mendeley/</loc>
+    <lastmod>2017-11-29T07:05:24.000Z</lastmod>
+    <data>
+        <display>
+        <title>如何管理文献:Mendeley小技巧</title>
+        <pubTime>2017-11-11T16:00:00.000Z</pubTime>
+        
+        <tag>faicon</tag>
+         
+        <tag>image</tag>
+         
+        <tag>mendeley</tag>
+         
+        <tag>document_management</tag>
+         
+        <tag>bibtex</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/Use_ST3_manage_reference/</loc>
+    <lastmod>2017-11-29T07:05:17.000Z</lastmod>
+    <data>
+        <display>
+        <title>用Sublime Text 3管理文献</title>
+        <pubTime>2017-09-27T16:00:00.000Z</pubTime>
+        
+        <tag>document_management</tag>
+         
+        <tag>bibtex</tag>
+         
+        <tag>hexo_pdf</tag>
+         
+        <tag>sublime_text_3</tag>
+         
+        <tag>academic_reference</tag>
+         
+        <tag>markdown</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/Introduction_to_Sentiment_Analysis/</loc>
+    <lastmod>2017-11-27T05:17:02.000Z</lastmod>
+    <data>
+        <display>
+        <title>Introduction to Sentiment Analysis</title>
+        <pubTime>2017-10-22T16:00:00.000Z</pubTime>
+        
+        <tag>sentiment_analysis</tag>
+         
+        <tag>machine_learning</tag>
+         
+        <tag>natural_language_processing</tag>
+         
+        <tag>image</tag>
+         
+        <tag>hexo_pdf</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/SA_FN4-3/</loc>
+    <lastmod>2017-11-26T08:17:12.000Z</lastmod>
+    <data>
+        <display>
+        <title>Literature Review: Yahoo! for Amazon</title>
+        <pubTime>2017-11-23T16:00:00.000Z</pubTime>
+        
+        <tag>research</tag>
+         
+        <tag>sentiment_analysis</tag>
+         
+        <tag>literature_review</tag>
+         
+        <tag>naive_classifier</tag>
+         
+        <tag>vector_distance_classifier</tag>
+         
+        <tag>discriminant-based_classifier</tag>
+         
+        <tag>adjective-adverb_phrase_classifier</tag>
+         
+        <tag>bayesian_classifier</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/SublimeText3_LaTex/</loc>
+    <lastmod>2017-11-25T16:58:21.000Z</lastmod>
+    <data>
+        <display>
+        <title>MAC上使用SUBLIME TEXT3编写LATEX</title>
+        <pubTime>2017-09-09T16:00:00.000Z</pubTime>
+        
+        <tag>tutorial</tag>
+         
+        <tag>sublime_text_3</tag>
+         
+        <tag>latex</tag>
+         
+        <tag>skim</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/SA_FN2/</loc>
+    <lastmod>2017-11-25T16:56:49.000Z</lastmod>
+    <data>
+        <display>
+        <title>Literature Review on Social Media in Financial Market</title>
+        <pubTime>2017-11-01T16:00:00.000Z</pubTime>
+        
+        <tag>research</tag>
+         
+        <tag>sentiment_analysis</tag>
+         
+        <tag>literature_review</tag>
+         
+        <tag>information_system</tag>
+         
+        <tag>image</tag>
+         
+        <tag>mathjax</tag>
+         
+        <tag>opinion_mining</tag>
+         
+        <tag>time_series</tag>
+         
+        <tag>finance</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/DL_hardware/</loc>
+    <lastmod>2017-11-25T16:56:05.000Z</lastmod>
+    <data>
+        <display>
+        <title>Deep Learning hardware</title>
+        <pubTime>2017-11-07T16:00:00.000Z</pubTime>
+        
+        <tag>deep_learning</tag>
+         
+        <tag>hardware</tag>
+         
+        <tag>tutorial</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/virtualenv_tensorflow/</loc>
+    <lastmod>2017-11-25T16:53:31.000Z</lastmod>
+    <data>
+        <display>
+        <title>virtualenv+tensorflow初体验</title>
+        <pubTime>2017-10-12T16:00:00.000Z</pubTime>
+        
+        <tag>machine_learning</tag>
+         
+        <tag>python</tag>
+         
+        <tag>deep_learning</tag>
+         
+        <tag>virtualenv</tag>
+         
+        <tag>virtualwrapper</tag>
+         
+        <tag>tensorflow</tag>
+         
+        <tag>tflearn</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/SA_FN3/</loc>
+    <lastmod>2017-11-25T16:51:15.000Z</lastmod>
+    <data>
+        <display>
+        <title>Literature Review on Special Paper: Feature Engineering + Neural Network</title>
+        <pubTime>2017-11-02T16:00:00.000Z</pubTime>
+        
+        <tag>research</tag>
+         
+        <tag>sentiment_analysis</tag>
+         
+        <tag>literature_review</tag>
+         
+        <tag>image</tag>
+         
+        <tag>mathjax</tag>
+         
+        <tag>opinion_mining</tag>
+         
+        <tag>feature_engineering</tag>
+         
+        <tag>brand_marketing</tag>
+         
+        <tag>twitter</tag>
+         
+        <tag>neural_network</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/SA_FN/</loc>
+    <lastmod>2017-11-25T16:50:32.000Z</lastmod>
+    <data>
+        <display>
+        <title>Literature Review on UGC/WOM</title>
+        <pubTime>2017-10-30T16:00:00.000Z</pubTime>
+        
+        <tag>research</tag>
+         
+        <tag>sentiment_analysis</tag>
+         
+        <tag>literature_review</tag>
+         
+        <tag>information_system</tag>
+         
+        <tag>user_generated_content</tag>
+         
+        <tag>word_of_mouth</tag>
+         
+        <tag>mathjax</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/Robo_Advisor_Introduction/</loc>
+    <lastmod>2017-11-25T16:50:10.000Z</lastmod>
+    <data>
+        <display>
+        <title>Robo-Advisor Introduction</title>
+        <pubTime>2017-09-13T16:00:00.000Z</pubTime>
+        
+        <tag>hexo_pdf</tag>
+         
+        <tag>robo_advisor</tag>
+         
+        <tag>fintech</tag>
+         
+        <tag>tbc</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/R_science_computing/</loc>
+    <lastmod>2017-11-25T16:49:42.000Z</lastmod>
+    <data>
+        <display>
+        <title>R语言的科学计算</title>
+        <pubTime>2017-09-11T16:00:00.000Z</pubTime>
+        
+        <tag>tbc</tag>
+         
+        <tag>r_language</tag>
+         
+        <tag>science_computing</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/NonlinearEquations/</loc>
+    <lastmod>2017-11-25T16:48:23.000Z</lastmod>
+    <data>
+        <display>
+        <title>Solving System of Nonlinear Equations: using MATLAB, Fortran, Python and R language</title>
+        <pubTime>2017-11-16T16:00:00.000Z</pubTime>
+        
+        <tag>faicon</tag>
+         
+        <tag>python</tag>
+         
+        <tag>image</tag>
+         
+        <tag>mathjax</tag>
+         
+        <tag>r_language</tag>
+         
+        <tag>nonlinear_equations</tag>
+         
+        <tag>numerical_analysis</tag>
+         
+        <tag>matlab</tag>
+         
+        <tag>fortran</tag>
+         
+        <tag>mathematica</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/gogle_citation_isr/</loc>
+    <lastmod>2017-11-25T16:45:40.000Z</lastmod>
+    <data>
+        <display>
+        <title>Using MATLAB to batch search #citation of IS papers</title>
+        <pubTime>2017-09-18T16:00:00.000Z</pubTime>
+        
+        <tag>faicon</tag>
+         
+        <tag>information_system</tag>
+         
+        <tag>matlab</tag>
+         
+        <tag>google_scholar</tag>
+         
+        <tag>reference</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/GM_Notes/</loc>
+    <lastmod>2017-11-25T16:41:37.000Z</lastmod>
+    <data>
+        <display>
+        <title>20171104 Notes: Reputation System, Data Types, Variable Types</title>
+        <pubTime>2017-11-03T16:00:00.000Z</pubTime>
+        
+        <tag>notes</tag>
+         
+        <tag>reputation_system</tag>
+         
+        <tag>variable_type</tag>
+         
+        <tag>data_type</tag>
+         
+        <tag>markdown_table</tag>
+         
+        <tag>image</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/expectation_on_online%20scoring/</loc>
+    <lastmod>2017-11-25T16:41:03.000Z</lastmod>
+    <data>
+        <display>
+        <title>Can online scoring really reflects the rankings of products?</title>
+        <pubTime>2017-10-29T16:00:00.000Z</pubTime>
+        
+        <tag>research</tag>
+         
+        <tag>notes</tag>
+         
+        <tag>mathjax</tag>
+         
+        <tag>economics</tag>
+         
+        <tag>online_scoring</tag>
+         
+        <tag>modeling</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/Terminal_tutorial/</loc>
+    <lastmod>2017-11-10T07:45:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>Linux/Mac Terminal Tutorial</title>
+        <pubTime>2017-10-24T16:00:00.000Z</pubTime>
+        
+        <tag>terminal</tag>
+         
+        <tag>tutorial</tag>
+         
+         
+           
+             
+              <breadCrumb title="English" url="http://blog.baoduge.com/categories/English/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.baoduge.com/Hexo/</loc>
+    <lastmod>2017-10-26T07:01:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>我在Github上搭建Hexo博客</title>
+        <pubTime>2017-09-07T16:00:00.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>tutorial</tag>
+         
+        <tag>github</tag>
+         
+         
+           
+             
+              <breadCrumb title="中文" url="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+</urlset>

@@ -1,0 +1,1595 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="en">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+  
+  
+  <link rel="stylesheet" media="all" href="/lib/Han/dist/han.min.css?v=3.3">
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css">
+
+
+  <meta name="keywords" content="sentiment_analysis,machine_learning,natural_language_processing,image,hexo_pdf,">
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="NEVERLAND夢幻島" type="application/atom+xml">
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.jpg?v=5.1.2">
+
+
+
+
+
+
+<meta name="description" content="This is an introduction to the Sentiment Analysis.">
+<meta name="keywords" content="sentiment_analysis,machine_learning,natural_language_processing,image,hexo_pdf">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Introduction to Sentiment Analysis">
+<meta property="og:url" content="http://blog.baoduge.com/Introduction_to_Sentiment_Analysis/index.html">
+<meta property="og:site_name" content="NEVERLAND夢幻島">
+<meta property="og:description" content="This is an introduction to the Sentiment Analysis.">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="http://blog.baoduge.com/images/social_media2.jpg">
+<meta property="og:image" content="http://blog.baoduge.com/images/emotion.jpg">
+<meta property="og:updated_time" content="2017-11-27T05:17:02.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Introduction to Sentiment Analysis">
+<meta name="twitter:description" content="This is an introduction to the Sentiment Analysis.">
+<meta name="twitter:image" content="http://blog.baoduge.com/images/social_media2.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '5.1.2',
+    sidebar: {"position":"left","display":"always","offset":12,"offset_float":12,"b2t":true,"scrollpercent":true,"onmobile":true},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://blog.baoduge.com/Introduction_to_Sentiment_Analysis/">
+
+
+
+
+
+  <title>Introduction to Sentiment Analysis | NEVERLAND夢幻島</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">NEVERLAND夢幻島</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <h1 class="site-subtitle" itemprop="description">Welcome!</h1>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
+            
+            Search
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="Searching..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://blog.baoduge.com/Introduction_to_Sentiment_Analysis/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="BaoDuGe_飽蠹閣">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://baoduge.com/My/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="NEVERLAND夢幻島">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">Introduction to Sentiment Analysis</h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-10-23T00:00:00+08:00">
+                2017-10-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/English/" itemprop="url" rel="index">
+                    <span itemprop="name">English</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/Introduction_to_Sentiment_Analysis/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="Introduction_to_Sentiment_Analysis/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/Introduction_to_Sentiment_Analysis/" class="leancloud_visitors" data-flag-title="Introduction to Sentiment Analysis">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">Visitors&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
+
+          
+
+          
+              <div class="post-description">
+                  This is an introduction to the Sentiment Analysis.
+              </div>
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body han-init-context" itemprop="articleBody">
+
+      
+      
+
+      
+        <script src="/assets/js/APlayer.min.js"> </script><hr>
+
+
+	<div class="row">
+		<iframe src="https://drive.google.com/file/d/1ZH1fG73uB6T9alo5luxG7ZXGu-KHmHaQ/preview" style="width:100%; height:550px"></iframe>
+	</div>
+
+
+
+<hr>
+<p>Hello, everyone! Today I&#x2019;m going to introduce some basic ideas about the sentiment analysis.</p>
+<h1 id="How-can-you-know-what-other-people-are-thinking"><a href="#How-can-you-know-what-other-people-are-thinking" class="headerlink" title="How can you know what other people are thinking?"></a>How can you know what other people are thinking?</h1><p>We can judge from the gesture or facial expression (Facial Recognition) and we can also talk with them, give them a call or email/text them (Natural Language). We can extract different kind of information from different information channels.</p>
+<p>In sentiment analysis, we are supposed to deal with the natural language (unstructured data). We extract other peoples&#x2019; opinion from words, sentences or documents.</p>
+<h1 id="What&#x2019;s-sentiment-analysis"><a href="#What&#x2019;s-sentiment-analysis" class="headerlink" title="What&#x2019;s sentiment analysis"></a>What&#x2019;s sentiment analysis</h1><p>It&#x2019;s a computational treatment to identify, extract, quantify and study affective states and subjective information, from which we can take use of some models and algorithms to compute.<sup><a href="#fn_1" id="reffn_1">1</a></sup></p>
+<blockquote>
+<p>Affective state means the moods, feelings or attitudes.</p>
+<p>Subjective information means the information based on personal feelings.</p>
+</blockquote>
+<h1 id="Terminologies"><a href="#Terminologies" class="headerlink" title="Terminologies"></a>Terminologies</h1><p>Before I describe the details, I&#x2019;d like to explain quintuple terminologies.<sup><a href="#fn_3" id="reffn_3">3</a></sup></p>
+<ol>
+<li><strong>The target entity</strong> is the object that we describe, such as the opinion on Michael Jackson.</li>
+<li><strong>Aspect or feature of the entity</strong> is an attribute or component of an entity, such as the screen of a cell phone.</li>
+<li><strong>Opinion holder</strong> is the person who expresses the opinion.</li>
+<li><strong>The time</strong> is the when the opinion is expressed.</li>
+<li><em>The polarity or sentiment value*</em> can be defined as positive, neutral and negative. Sometimes, we can use score to assess the sentiment.</li>
+</ol>
+<h1 id="History-of-WWW-social-media-big-data"><a href="#History-of-WWW-social-media-big-data" class="headerlink" title="History of WWW, social media, big data"></a>History of WWW, social media, big data</h1><p>As World Wide Web was invented in 1989, there emerged numerous information on the web where we can easily get. With the birth of social media in around 2004, we entered into the era of Web 2.0. More and more user-generated contents, which are also opinion rich contents, become accessible: the online reviews, the microblogging, the comments on items and so on. We can say that it is a really challenging task to mining the opinion online with such kind of large amount of data.</p>
+<p>Figure 1<sup><a href="#fn_2" id="reffn_2">2</a></sup>:<br><img src="/images/social_media2.jpg" alt="figure_1"></p>
+<p>However, with the development of some technologies such as distributed system, and the increasing computational capacity of computers, it become achievable to mining opinion online.</p>
+<h1 id="Types"><a href="#Types" class="headerlink" title="Types"></a>Types</h1><p>The basic task of sentiment analysis is classify the opinion of the opinion holder on some entities. Based on the classification task, we can group the sentiment analysis as such several types.<sup><a href="#fn_1" id="reffn_1">1</a></sup></p>
+<ul>
+<li>If the sentiment value is binary or ternary, such as positive, negative and neutral, we can say that it&#x2019;s polarity type of sentiment analysis.</li>
+<li>If the sentiment value is diverse (for example, angry, sad and happy), we can say that it&#x2019;s emotional state type. In figure 2, there are really lots of level of emotional state. Generally, we use 6~20 distinctive emotional states.</li>
+<li>If we would like to classify the text into objective or subjective, we can say that it is a subjectivity and objectivity identification type.</li>
+</ul>
+<p>Figure 2<sup><a href="#fn_4" id="reffn_4">4</a></sup>:<br><img src="/images/emotion.jpg" alt="figure_2"></p>
+<h1 id="Applications"><a href="#Applications" class="headerlink" title="Applications"></a>Applications</h1><p>Sentiment analysis is really powerful and there are already some applications.<sup><a href="#fn_5" id="reffn_5">5</a></sup></p>
+<p><strong>The review-related websites</strong> are the websites extracting real-time opinions about product, political issues online. For example, the <a href="http://www.epinions.com/" target="_blank" rel="noopener">Epinions.com</a> is a website established in 1999, where visitors could read new and old reviews about a variety of items to help them decide on a purchase.</p>
+<p>What&#x2019;s more, sentiment analysis can also be a component in other technologies. For example:</p>
+<ul>
+<li>Recommendation system - the website can recommend some product or music to you based on your history of opinions.</li>
+<li>Detection of &#x201C;flames&#x201D; - the email system can detect the emails with overly heated or sensitive or inappropriate content.</li>
+<li>In Question answering system, opinion-oriented questions may require different treatment. For example, if you ask Siri, Do you like doing presentation in the morning of Sunday. It would give you the answer.</li>
+</ul>
+<p>For the Business Intelligence &amp; Government Intelligence, sentiment analysis can be used for:</p>
+<ul>
+<li>Reputation management</li>
+<li>Trend prediction</li>
+<li>Public opinion monitoring.</li>
+</ul>
+<p>It can help the corporations or governments to extract the public mood and attitude.</p>
+<h1 id="Task"><a href="#Task" class="headerlink" title="Task"></a>Task</h1><p>Here are some examples that you can have a taste on sentiment analysis</p>
+
+
+	<div class="row">
+		<iframe src="https://drive.google.com/file/d/0ByuqsS9ThqpcemkyUldHMV94dHc/preview" style="width:100%; height:550px"></iframe>
+	</div>
+
+
+
+<p>The #1~#4 is obvious. But the #5 and #6 might be a little bit tricky. Based on English grammar, they are double negation. But in spoken English, it can still express negation.</p>
+<p>For the #11, there is negative word in the positive sentence. If we just use lexicon to count the positive word or negative words, sometimes we might get into trouble.</p>
+<p>For the #12, <strong>decadent</strong> means <code>moral or cultural decline</code>, which is a negative word. However, the decadent dessert is a kind of dessert. Like this figure.</p>
+<p>And for the #14, there is a multilingual problem. <code>koide9</code> is homophonic with &#x2018;Quoi de neuf&#x2019; in French, which means &#x2018;What&#x2019;s up&#x2019; in English. It is a very popular Internet slang on Twitter even in the English environment. However, newly minted terms can be highly attitudinal but volatile in polarity and often out of known vocabulary.</p>
+<h1 id="General-Challenges6"><a href="#General-Challenges6" class="headerlink" title="General Challenges6"></a>General Challenges<sup><a href="#fn_6" id="reffn_6">6</a></sup></h1><p>The roots of sentiment analysis is said to be in the studies on public opinion analysis at the beginning of 20th century and performed by the computational linguistics community in 1990&#x2019;s. Even though, studies on sentiment analysis has developed for around 30 years. There are still lots of challenges. We can have a taste on the difficulties of sentiment analysis from previous task.</p>
+<p>We generalized the challenges at present as such 8 categories:</p>
+<ul>
+<li>Huge lexicon</li>
+<li>Bi-polar</li>
+<li>Extracting features</li>
+<li>NLP Overheads (Ambiguity/Short Abbreviations/Sacasm&#x2026;)</li>
+<li>World knowledge</li>
+<li>Negation</li>
+<li>Domain dependence</li>
+<li>Spam and fake</li>
+</ul>
+<h1 id="Knowledge-based-techniques"><a href="#Knowledge-based-techniques" class="headerlink" title="Knowledge-based techniques"></a>Knowledge-based techniques</h1><p>First of all, I&#x2019;ll introduce one of the mainly used techniques, which is knowledge-based techniques. Based on the knowledge we have, we can artificially classify some affect word and label them, such as positive or negative.</p>
+<p>Tokenization is splitting a string into its desired constituent parts. (Read more on <a href="https://en.wikipedia.org/wiki/Lexical_analysis#Tokenization" target="_blank" rel="noopener">Wikipedia: Lexical analysis</a>)</p>
+<p>In <a href="https://en.wikipedia.org/wiki/Bag-of-words_model" target="_blank" rel="noopener">Bag of word model</a>, a text (such as a sentence or a document) is represented as the bag (multiset) of its words, disregarding grammar and even word order but keeping multiplicity.</p>
+<p>For example,</p>
+<pre><code>(1) John likes to watch movies. Mary likes movies too.
+(2) John also likes to watch football games.
+</code></pre><p>We construct a lexicon contains all the words after tokenization:</p>
+<pre><code>[
+&quot;John&quot;,
+&quot;likes&quot;,
+&quot;to&quot;,
+&quot;watch&quot;,
+&quot;movies&quot;,
+&quot;Mary&quot;,
+&quot;too&quot;,
+&quot;also&quot;,
+&quot;football&quot;,
+&quot;games&quot;
+]
+</code></pre><p>And based on the <code>#occurrence</code> of the word in the lexicon, we get a vector.</p>
+<pre><code>(1) [1, 2, 1, 1, 2, 1, 1, 0, 0, 0]
+(2) [1, 1, 1, 1, 0, 0, 0, 1, 1, 1]
+</code></pre><p>And then we can use some model such <a href="https://en.wikipedia.org/wiki/Naive_Bayes_classifier" target="_blank" rel="noopener">navie bayes classifier</a> to classify the text. It is successfully applied in email filtering.</p>
+<h1 id="Statistical-Method"><a href="#Statistical-Method" class="headerlink" title="Statistical Method"></a>Statistical Method</h1><p>After the <strong>tokenization</strong> and <strong>vectorization</strong>, we get the vectors of the text. Then generally we would use machine learning techniques.</p>
+<ul>
+<li><p><strong>Supervised learning</strong> is the method with specific labeled data for training. For example, if we have a bunch of documents and we already manually labeled the sentiment values of the text, we can take use of models such as <a href="https://en.wikipedia.org/wiki/Support_vector_machine" target="_blank" rel="noopener">Support Vector Machine</a> to do the classification task.</p>
+</li>
+<li><p><strong>Unsupervised Learning</strong> is the method for data without labels, such as <a href="https://en.wikipedia.org/wiki/Latent_semantic_analysis" target="_blank" rel="noopener">Latent Semantic Analysis (LSA)</a>. LSA is similar to <a href="https://en.wikipedia.org/wiki/Principal_component_analysis" target="_blank" rel="noopener">Principle Component Analysis</a> and can get the eigenvectors of the text vis <a href="https://en.wikipedia.org/wiki/Singular_value_decomposition" target="_blank" rel="noopener">Singular Value Decomposition</a>. After selecting the main top eigenvectors, we can analyze a set of concepts (such as <code>topics</code>) related to the text.</p>
+</li>
+</ul>
+<h1 id="Useful-resources7"><a href="#Useful-resources7" class="headerlink" title="Useful resources7"></a>Useful resources<sup><a href="#fn_7" id="reffn_7">7</a></sup></h1><h2 id="Tools-amp-Packages"><a href="#Tools-amp-Packages" class="headerlink" title="Tools &amp; Packages"></a>Tools &amp; Packages</h2><ul>
+<li><a href="http://www.nltk.org/" target="_blank" rel="noopener">Python - NLTK (Natural Language Toolkit)</a></li>
+<li><a href="http://cran.r-project.org/web/packages/tm/index.html" target="_blank" rel="noopener">R - TM (text mining) module</a></li>
+<li><a href="http://rapid-i.com/content/view/184/196/" target="_blank" rel="noopener">RapidMiner</a></li>
+<li><a href="https://www.repustate.com/" target="_blank" rel="noopener">Repustate</a></li>
+</ul>
+<h2 id="Some-Corporas-amp-Datasets"><a href="#Some-Corporas-amp-Datasets" class="headerlink" title="Some Corporas &amp; Datasets"></a>Some Corporas &amp; Datasets</h2><ul>
+<li><a href="http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010" target="_blank" rel="noopener">AFINN</a>: -5 to 5</li>
+<li><a href="http://sentiwordnet.isti.cnr.it/" target="_blank" rel="noopener">SentiWordNet</a>: Ternary</li>
+<li><a href="http://www.sananalytics.com/lab/twitter-sentiment/" target="_blank" rel="noopener">Twitter Sentiment Corpus</a></li>
+<li><a href="http://thinknook.com/twitter-sentiment-analysis-training-corpus-dataset-2012-09-22/" target="_blank" rel="noopener">Twitter Sentiment Analysis Training Corpus</a></li>
+<li><a href="http://www.cs.jhu.edu/~mdredze/datasets/sentiment/" target="_blank" rel="noopener">Multi-Domain Sentiment Dataset</a></li>
+<li><a href="https://nlp.stanford.edu/sentiment/code.html" target="_blank" rel="noopener">Stanford Sentiment Treebank</a></li>
+</ul>
+<h2 id="Some-Projects"><a href="#Some-Projects" class="headerlink" title="Some Projects"></a>Some Projects</h2><ul>
+<li><a href="https://www.kaggle.com/c/si650winter11#description" target="_blank" rel="noopener">Kaggle: UMICH SI650 - Sentiment Classification</a></li>
+<li><a href="https://www.kaggle.com/c/word2vec-nlp-tutorial" target="_blank" rel="noopener">Kaggle: Bag of Words Meets Bags of Popcorn</a></li>
+<li><a href="http://alt.qcri.org/semeval2017/task4/" target="_blank" rel="noopener">SemEval-2017 Task 4: Sentiment Analysis in Twitter</a></li>
+<li><a href="http://alt.qcri.org/semeval2017/task5/" target="_blank" rel="noopener">SemEval-2017 Task 5: Fine-Grained Sentiment Analysis on Financial Microblogsand News</a></li>
+<li><a href="http://sentic.net/" target="_blank" rel="noopener">SenticNet</a></li>
+</ul>
+<h2 id="More"><a href="#More" class="headerlink" title="More"></a>More</h2><ul>
+<li><a href="https://github.com/xiamx/awesome-sentiment-analysis" target="_blank" rel="noopener">Github - Awesome Sentiment Analysis</a></li>
+</ul>
+<blockquote id="fn_1">
+<sup>1</sup>. <a href="https://en.wikipedia.org/wiki/Sentiment_analysis" target="_blank" rel="noopener">Wikipedia: Sentiment Analysis</a><a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_2">
+<sup>2</sup>. <a href="http://www.jaydeemedia.co.za/blog/blog-2/social-media-facts-and-statistics-you-should-know-in-2016" target="_blank" rel="noopener">Social Media Facts and Statistics You Should Know in 2016</a><a href="#reffn_2" title="Jump back to footnote [2] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_3">
+<sup>3</sup>. <a href="http://systems-sciences.uni-graz.at/etextbook/bigdata/sentiment_analysis.html" target="_blank" rel="noopener">Sentiment analysis at ISIS</a><a href="#reffn_3" title="Jump back to footnote [3] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_4">
+<sup>4</sup>. <a href="https://centiment.io/beta/blog/emotion-vs-sentiment-the-difference/" target="_blank" rel="noopener">Emotion Analysis vs Sentiment Analysis - the difference</a><a href="#reffn_4" title="Jump back to footnote [4] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_5">
+<sup>5</sup>. Pang, B., &amp; Lee, L. (2008). Opinion mining and sentiment analysis. Foundations and Trends in Information Retrieval, 2(1-2), 1-135.<a href="#reffn_5" title="Jump back to footnote [5] in the text."> &#x21A9;</a>
+</blockquote>
+<blockquote id="fn_6">
+<sup>6</sup>. Hussein, D. M. E. D. M. (2016). A survey on sentiment analysis challenges. Journal of King Saud University-Engineering Sciences.<a href="#reffn_6" title="Jump back to footnote [6] in the text."> &#x21A9;</a>
+</blockquote>
+
+      
+    </div>
+    
+    
+    
+
+    <div>
+    
+      <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------End of post<i class="fa fa-flag"></i>Thanks for your time-------------</div>
+    
+</div>
+
+    
+    </div>
+
+    
+      <div>
+        <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="/qrcode_for_wechat_bdg.jpg" alt="BaoDuGe_飽蠹閣 wechat" style="width: 200px; max-width: 100%;">
+    <div>Enjoy it? Subscribe to my blog by scanning my public wechat account</div>
+</div>
+
+      </div>
+    
+
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>Post author:</strong>
+    BaoDuGe_飽蠹閣
+  </li>
+  <li class="post-copyright-link">
+    <strong>Post link:</strong>
+    <a href="http://blog.baoduge.com/Introduction_to_Sentiment_Analysis/" title="Introduction to Sentiment Analysis">http://blog.baoduge.com/Introduction_to_Sentiment_Analysis/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice: </strong>
+    All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> unless stating additionally.
+  </li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/sentiment-analysis/" rel="tag"># sentiment_analysis</a>
+          
+            <a href="/tags/machine-learning/" rel="tag"># machine_learning</a>
+          
+            <a href="/tags/natural-language-processing/" rel="tag"># natural_language_processing</a>
+          
+            <a href="/tags/image/" rel="tag"># image</a>
+          
+            <a href="/tags/hexo-pdf/" rel="tag"># hexo_pdf</a>
+          
+        </div>
+      
+
+      
+      
+        <div class="post-widgets">
+        
+          <div class="wp_rating">
+            <div style="color:rgb(0, 0, 0); font-size:13px; letter-spacing:3px;">Rate this post</div>
+            <div id="wpac-rating"></div>
+          </div>
+        
+
+        
+        </div>
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/virtualenv_tensorflow/" rel="next" title="virtualenv+tensorflow初体验">
+                <i class="fa fa-chevron-left"></i> virtualenv+tensorflow初体验
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/IS_reseources/" rel="prev" title="Resources & Tools of Information System Research">
+                Resources & Tools of Information System Research <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+      <div id="sidebar-dimmer"></div>
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+          
+            <img class="site-author-image" itemprop="image" src="http://baoduge.com/My/avatar.gif" alt="BaoDuGe_飽蠹閣">
+          
+            <p class="site-author-name" itemprop="name">BaoDuGe_飽蠹閣</p>
+            <p class="site-description motion-element" itemprop="description"></p>
+        </div>
+
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+            
+              <a href="/archives">
+            
+                <span class="site-state-item-count">40</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">categories</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">97</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/vincent27hugh" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>GitHub</a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="mailto:huweihugh@gmail.com" target="_blank" title="E-Mail">
+                  
+                    <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://baoduge.com/" title="飽蠹閣BAODUGE" target="_blank">飽蠹閣BAODUGE</a>
+                </li>
+              
+            </ul>
+            
+            <div id="days"></div>
+
+<script language="javascript">
+function show_date_time(){
+window.setTimeout("show_date_time()", 1000);
+BirthDay=new Date("09/08/2017 00:00:00");
+today=new Date();
+timeold=(today.getTime()-BirthDay.getTime());
+sectimeold=timeold/1000
+secondsold=Math.floor(sectimeold);
+msPerDay=24*60*60*1000
+e_daysold=timeold/msPerDay
+daysold=Math.floor(e_daysold);
+e_hrsold=(e_daysold-daysold)*24;
+hrsold=setzero(Math.floor(e_hrsold));
+e_minsold=(e_hrsold-hrsold)*60;
+minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+seconds=setzero(Math.floor((e_minsold-minsold)*60));
+document.getElementById('days').innerHTML="Has been runing "+daysold+" Days "+hrsold+" Hours "+minsold+" Min "+seconds+" Sec ";
+}
+function setzero(i){
+if (i<10)
+{i="0" + i};
+return i;
+}
+show_date_time();
+</script>
+
+          </div>
+        
+
+        <div id="days"></div>
+
+<script language="javascript">
+function show_date_time(){
+window.setTimeout("show_date_time()", 1000);
+BirthDay=new Date("09/08/2017 00:00:00");
+today=new Date();
+timeold=(today.getTime()-BirthDay.getTime());
+sectimeold=timeold/1000
+secondsold=Math.floor(sectimeold);
+msPerDay=24*60*60*1000
+e_daysold=timeold/msPerDay
+daysold=Math.floor(e_daysold);
+e_hrsold=(e_daysold-daysold)*24;
+hrsold=setzero(Math.floor(e_hrsold));
+e_minsold=(e_hrsold-hrsold)*60;
+minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+seconds=setzero(Math.floor((e_minsold-minsold)*60));
+document.getElementById('days').innerHTML="Has been runing "+daysold+" Days "+hrsold+" Hours "+minsold+" Min "+seconds+" Sec ";
+}
+function setzero(i){
+if (i<10)
+{i="0" + i};
+return i;
+}
+show_date_time();
+</script>
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#How-can-you-know-what-other-people-are-thinking"><span class="nav-number">1.</span> <span class="nav-text">How can you know what other people are thinking?</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#What’s-sentiment-analysis"><span class="nav-number">2.</span> <span class="nav-text">What’s sentiment analysis</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Terminologies"><span class="nav-number">3.</span> <span class="nav-text">Terminologies</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#History-of-WWW-social-media-big-data"><span class="nav-number">4.</span> <span class="nav-text">History of WWW, social media, big data</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Types"><span class="nav-number">5.</span> <span class="nav-text">Types</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Applications"><span class="nav-number">6.</span> <span class="nav-text">Applications</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Task"><span class="nav-number">7.</span> <span class="nav-text">Task</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#General-Challenges6"><span class="nav-number">8.</span> <span class="nav-text">General Challenges6</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Knowledge-based-techniques"><span class="nav-number">9.</span> <span class="nav-text">Knowledge-based techniques</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Statistical-Method"><span class="nav-number">10.</span> <span class="nav-text">Statistical Method</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Useful-resources7"><span class="nav-number">11.</span> <span class="nav-text">Useful resources7</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Tools-amp-Packages"><span class="nav-number">11.1.</span> <span class="nav-text">Tools &amp; Packages</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Some-Corporas-amp-Datasets"><span class="nav-number">11.2.</span> <span class="nav-text">Some Corporas &amp; Datasets</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Some-Projects"><span class="nav-number">11.3.</span> <span class="nav-text">Some Projects</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#More"><span class="nav-number">11.4.</span> <span class="nav-text">More</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">
+  
+  &copy;  2017 &mdash; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">BaoDuGe_飽蠹閣</span>
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" href="https://hexo.io">Hexo</a></div>
+
+  <span class="post-meta-divider">|</span>
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.2</div>
+
+  <div>
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  Total Visits: <span id="busuanzi_value_site_pv"></span> &nbsp&nbsp&nbsp
+  Total Visitors: <span id="busuanzi_value_site_uv"></span>
+</div>
+
+
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      
+    </span>
+  
+</div>
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+  
+  <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.2"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.2"></script>
+
+
+
+  
+  
+
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://baoduge.disqus.com/count.js" async></script>
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://blog.baoduge.com/Introduction_to_Sentiment_Analysis/';
+          this.page.identifier = 'Introduction_to_Sentiment_Analysis/';
+          this.page.title = 'Introduction to Sentiment Analysis';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://baoduge.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('5');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("EkPIkYolbkzKanbzn4mNKpf7-gzGzoHsz", "lP1WbRwpyyu9r1NAqva2xWmS");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+  <script type="text/javascript">
+  wpac_init = window.wpac_init || [];
+  wpac_init.push({widget: 'Rating', id: 7746,
+    el: 'wpac-rating',
+    color: 'fc6423'
+  });
+  (function() {
+    if ('WIDGETPACK_LOADED' in window) return;
+    WIDGETPACK_LOADED = true;
+    var mc = document.createElement('script');
+    mc.type = 'text/javascript';
+    mc.async = true;
+    mc.src = '//embed.widgetpack.com/widget.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+  })();
+  </script>
+
+
+  
+  
+
+
+  
+
+  
+
+</body>
+</html>

@@ -1,0 +1,1456 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="en">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+  
+  
+  <link rel="stylesheet" media="all" href="/lib/Han/dist/han.min.css?v=3.3">
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css">
+
+
+  <meta name="keywords" content="bloackchain,font,">
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="NEVERLAND夢幻島" type="application/atom+xml">
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.jpg?v=5.1.2">
+
+
+
+
+
+
+<meta name="description" content="This is the notes of one talk about Bloack chain.">
+<meta name="keywords" content="bloackchain,font">
+<meta property="og:type" content="article">
+<meta property="og:title" content="区块链现状">
+<meta property="og:url" content="http://blog.baoduge.com/current_blockchain/index.html">
+<meta property="og:site_name" content="NEVERLAND夢幻島">
+<meta property="og:description" content="This is the notes of one talk about Bloack chain.">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2018-02-03T13:14:16.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="区块链现状">
+<meta name="twitter:description" content="This is the notes of one talk about Bloack chain.">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '5.1.2',
+    sidebar: {"position":"left","display":"always","offset":12,"offset_float":12,"b2t":true,"scrollpercent":true,"onmobile":true},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://blog.baoduge.com/current_blockchain/">
+
+
+
+
+
+  <title>区块链现状 | NEVERLAND夢幻島</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">NEVERLAND夢幻島</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <h1 class="site-subtitle" itemprop="description">Welcome!</h1>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
+            
+            Search
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="Searching..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://blog.baoduge.com/current_blockchain/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="BaoDuGe_飽蠹閣">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://baoduge.com/My/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="NEVERLAND夢幻島">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">区块链现状</h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-09-12T00:00:00+08:00">
+                2017-09-12
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/中文/" itemprop="url" rel="index">
+                    <span itemprop="name">中文</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/current_blockchain/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="current_blockchain/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/current_blockchain/" class="leancloud_visitors" data-flag-title="区块链现状">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">Visitors&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
+
+          
+
+          
+              <div class="post-description">
+                  This is the notes of one talk about Bloack chain.
+              </div>
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body han-init-context" itemprop="articleBody">
+
+      
+      
+
+      
+        <script src="/assets/js/APlayer.min.js"> </script><p>&#x6211;&#x5728;&#x4E4B;&#x524D;&#x7684;&#x6587;&#x7AE0;<font color="#00ffff"><a href="http://baoduge.com/preliminary_study_on_blockchain_and_smart_contract/" target="_blank" rel="noopener">&#x300A;&#x533A;&#x5757;&#x94FE;&#x521D;&#x63A2;-&#x7EFC;&#x8FF0;&#x300B;</a></font>&#x4E2D;&#x6709;&#x6709;&#x8FC7;&#x5BF9;&#x533A;&#x5757;&#x94FE;&#x7684;&#x4E00;&#x4E9B;&#x63A2;&#x7A76;&#x3002;</p>
+<h1 id="&#x533A;&#x5757;&#x94FE;&#x6838;&#x5FC3;&#x6280;&#x672F;"><a href="#&#x533A;&#x5757;&#x94FE;&#x6838;&#x5FC3;&#x6280;&#x672F;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;&#x6838;&#x5FC3;&#x6280;&#x672F;"></a>&#x533A;&#x5757;&#x94FE;&#x6838;&#x5FC3;&#x6280;&#x672F;</h1><p>&#x533A;&#x5757;&#x94FE;&#x662F;&#x6307;&#x4E00;&#x79CD;&#x6309;&#x7167;&#x65F6;&#x95F4;&#x987A;&#x5E8F;&#x5C06;&#x6570;&#x636E;&#x533A;&#x5757;&#x4EE5;&#x987A;&#x5E8F;&#x76F8;&#x8FDE;&#x7684;&#x65B9;&#x5F0F;&#x7EC4;&#x5408;&#x6210;&#x7684;&#x4E00;&#x79CD;&#x94FE;&#x5F0F;&#x6570;&#x636E;&#x7ED3;&#x6784;,&#x5E76;&#x4EE5;&#x5BC6;&#x7801;&#x5B66;&#x65B9;&#x5F0F;&#x4FDD;&#x8BC1;&#x4E0D;&#x53EF;&#x7BE1;&#x6539;&#x548C;&#x4E0D;&#x53EF;&#x4F2A;&#x9020;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x8D26;&#x672C;&#x3002;&#x4ECE;&#x672C;&#x8D28;&#x4E0A;&#x6765;&#x8BF4;,&#x533A;&#x5757;&#x94FE;&#x662F;&#x4E00;&#x79CD;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;,&#x53BB;&#x4FE1;&#x4EFB;&#x7684;&#x96C6;&#x4F53;&#x7EF4;&#x62A4;&#x6570;&#x636E;&#x5E93;&#x6280;&#x672F;&#x3002;</p>
+<h2 id="&#x533A;&#x5757;&#x94FE;&#x6570;&#x636E;&#x5E93;"><a href="#&#x533A;&#x5757;&#x94FE;&#x6570;&#x636E;&#x5E93;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;&#x6570;&#x636E;&#x5E93;"></a>&#x533A;&#x5757;&#x94FE;&#x6570;&#x636E;&#x5E93;</h2><ul>
+<li><p>&#x201C;&#x533A;&#x5757;+&#x94FE;&#x201D;&#x7684;&#x7ED3;&#x6784;&#x4E3A;&#x6211;&#x4EEC;&#x63D0;&#x4F9B;&#x4E86;&#x5B8C;&#x6574;&#x7684;&#x5386;&#x53F2;&#x6570;&#x636E;,&#x4F7F;&#x5F97;&#x6570;&#x636E;&#x5E93;&#x5185;&#x7684;&#x6BCF;&#x4E00;&#x7B14;&#x4EA4;&#x6613;&#x90FD;&#x80FD;&#x8FFD;&#x672C;&#x6EAF;&#x6E90;&#x3002;</p>
+</li>
+<li><p>&#x201C;&#x533A;&#x5757;+&#x94FE;+&#x65F6;&#x95F4;&#x6233;&#x201D;&#x8BA9;&#x5B58;&#x5728;&#x6027;&#x8BC1;&#x660E;&#x53D8;&#x5F97;&#x7B80;&#x5355;&#x53EF;&#x9760;&#x3002;</p>
+</li>
+</ul>
+<h2 id="&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;&#x548C;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x534F;&#x8BAE;"><a href="#&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;&#x548C;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x534F;&#x8BAE;" class="headerlink" title="&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;&#x548C;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x534F;&#x8BAE;"></a>&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;&#x548C;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x534F;&#x8BAE;</h2><p>&#x901A;&#x8FC7;&#x8BA9;&#x6BCF;&#x4E00;&#x4E2A;&#x53C2;&#x4E0E;&#x6570;&#x636E;&#x4EA4;&#x6613;&#x7684;&#x8282;&#x70B9;&#x8BB0;&#x5F55;&#x5E76;&#x50A8;&#x5B58;&#x6240;&#x6709;&#x6570;&#x636E;,&#x8FD9;&#x4F7F;&#x5F97;&#x90E8;&#x5206;&#x8282;&#x70B9;&#x7684;&#x635F;&#x574F;,&#x5E76;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x5230;&#x6574;&#x4E2A;&#x6570;&#x636E;&#x5E93;&#x7684;&#x6570;&#x636E;&#x8BB0;&#x5F55;&#x4E0E;&#x66F4;&#x65B0;,&#x5927;&#x5927;&#x63D0;&#x9AD8;&#x4E86;&#x6570;&#x636E;&#x5E93;&#x7684;&#x5B89;&#x5168;&#x6027;&#x3002;&#x53EA;&#x8981;&#x4E0D;&#x662F;&#x6240;&#x6709;&#x8282;&#x70B9;&#x540C;&#x65F6;&#x5D29;&#x6E83;,&#x6570;&#x636E;&#x5E93;&#x5C31;&#x53EF;&#x4EE5;&#x8FD0;&#x8F6C;&#x4E0B;&#x53BB;,&#x56E0;&#x6B64;&#x63D0;&#x9AD8;&#x4E86;&#x7CFB;&#x7EDF;&#x7684;&#x6C38;&#x7EED;&#x6027;&#x548C;&#x53EF;&#x5BB9;&#x9519;&#x6027;&#x3002;</p>
+<h2 id="&#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x7801;&#x5B66;"><a href="#&#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x7801;&#x5B66;" class="headerlink" title="&#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x7801;&#x5B66;"></a>&#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x7801;&#x5B66;</h2><p>&#x975E;&#x5BF9;&#x79F0;&#x5BC6;&#x7801;&#x5B66;&#x8BA9;&#x533A;&#x5757;&#x94FE; &#x6280;&#x672F;&#x7684;&#x4FE1;&#x4EFB;&#x673A;&#x5236;&#x5EFA;&#x8BAE;&#x5728;&#x6570;&#x5B66;&#x539F;&#x7406;&#x57FA;&#x7840;&#x4E4B;&#x4E0A;&#x3002;&#x8FD9;&#x4F7F;&#x5F97;&#x4EBA;&#x4EEC;&#x65E0;&#x9700;&#x4E86;&#x89E3;&#x5BF9;&#x65B9;&#x7684;&#x57FA;&#x672C;&#x60C5;&#x51B5;&#x4ECD;&#x7136;&#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x4FE1;&#x4EFB;&#x7684;&#x4EF7;&#x503C;&#x4EA4;&#x6362;,&#x4ECE;&#x800C;&#x63D0;&#x9AD8;&#x4E86;&#x7CFB;&#x7EDF;&#x7684;&#x8FD0;&#x8425;&#x6548;&#x7387;&#x3002;</p>
+<h2 id="&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;&#x811A;&#x672C;"><a href="#&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;&#x811A;&#x672C;" class="headerlink" title="&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;&#x811A;&#x672C;"></a>&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;&#x811A;&#x672C;</h2><p>&#x811A;&#x672C;&#x672C;&#x8D28;&#x662F;&#x4F17;&#x591A;&#x6307;&#x4EE4;&#x7684;&#x5217;&#x8868;&#x3002;&#x5728;&#x533A;&#x5757;&#x94FE;&#x4E2D;,&#x811A;&#x672C;&#x901A;&#x5E38;&#x9700;&#x8981;&#x4EF7;&#x503C;&#x63A5;&#x6536;&#x8005;&#x5177;&#x6709;&#x516C;&#x94A5;&#x548C;&#x7B7E;&#x540D;&#x3002;&#x968F;&#x7740;&#x5177;&#x4F53;&#x60C5;&#x5F62;&#x8981;&#x6C42;,&#x811A;&#x672C;&#x53EF;&#x4EE5;&#x7075;&#x6D3B;&#x53D8;&#x901A;&#x751F;&#x6210;&#x5176;&#x4ED6;&#x8FD0;&#x884C;&#x6761;&#x4EF6;,&#x4F8B;&#x5982;&#x9700;&#x8981;&#x591A;&#x91CD;&#x79C1;&#x94A5;&#x7B49;&#x7B49;&#x3002;&#x8FD9;&#x8BA9;&#x533A;&#x5757;&#x94FE;&#x6280;&#x672F;&#x53EF;&#x4EE5;&#x5904;&#x7406;&#x4E00;&#x4E9B;&#x65E0;&#x6CD5;&#x9884;&#x89C1;&#x7684;&#x4EA4;&#x6613;&#x6A21;&#x5F0F;,&#x4E0D;&#x4F1A;&#x5728;&#x672A;&#x6765;&#x7684;&#x5E94;&#x7528;&#x4E2D;&#x8FC7;&#x65F6;&#x3002;</p>
+<h1 id="&#x533A;&#x5757;&#x94FE;&#x6F5C;&#x5728;&#x5E94;&#x7528;&#x65B9;&#x5411;"><a href="#&#x533A;&#x5757;&#x94FE;&#x6F5C;&#x5728;&#x5E94;&#x7528;&#x65B9;&#x5411;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;&#x6F5C;&#x5728;&#x5E94;&#x7528;&#x65B9;&#x5411;"></a>&#x533A;&#x5757;&#x94FE;&#x6F5C;&#x5728;&#x5E94;&#x7528;&#x65B9;&#x5411;</h1><h2 id="&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;"><a href="#&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;" class="headerlink" title="&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;"></a>&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x7ED3;&#x6784;</h2><p>&#x53EF;&#x4EE5;&#x8282;&#x7EA6;&#x5927;&#x91CF;&#x7684;&#x4E2D;&#x4ECB;&#x6210;&#x672C;</p>
+<h2 id="&#x4E0D;&#x53EF;&#x7BE1;&#x6539;&#x7684;&#x65F6;&#x95F4;&#x6233;"><a href="#&#x4E0D;&#x53EF;&#x7BE1;&#x6539;&#x7684;&#x65F6;&#x95F4;&#x6233;" class="headerlink" title="&#x4E0D;&#x53EF;&#x7BE1;&#x6539;&#x7684;&#x65F6;&#x95F4;&#x6233;"></a>&#x4E0D;&#x53EF;&#x7BE1;&#x6539;&#x7684;&#x65F6;&#x95F4;&#x6233;</h2><p>&#x53EF;&#x4EE5;&#x89E3;&#x51B3;&#x6570;&#x636E;&#x8FFD;&#x8E2A;&#x4E0E;&#x4FE1;&#x606F;&#x9632;&#x4F2A;&#x95EE;&#x9898; </p>
+<h2 id="&#x5B89;&#x5168;&#x7684;&#x4FE1;&#x4EFB;&#x673A;&#x5236;"><a href="#&#x5B89;&#x5168;&#x7684;&#x4FE1;&#x4EFB;&#x673A;&#x5236;" class="headerlink" title="&#x5B89;&#x5168;&#x7684;&#x4FE1;&#x4EFB;&#x673A;&#x5236;"></a>&#x5B89;&#x5168;&#x7684;&#x4FE1;&#x4EFB;&#x673A;&#x5236;</h2><p>&#x53EF;&#x4EE5;&#x89E3;&#x51B3;&#x73B0;&#x4ECA;&#x7269;&#x8054;&#x7F51;&#x7684;&#x6838;&#x5FC3;&#x7F3A;&#x9677;</p>
+<h2 id="&#x7075;&#x6D3B;&#x7684;&#x53EF;&#x7F16;&#x7A0B;&#x6027;"><a href="#&#x7075;&#x6D3B;&#x7684;&#x53EF;&#x7F16;&#x7A0B;&#x6027;" class="headerlink" title="&#x7075;&#x6D3B;&#x7684;&#x53EF;&#x7F16;&#x7A0B;&#x6027;"></a>&#x7075;&#x6D3B;&#x7684;&#x53EF;&#x7F16;&#x7A0B;&#x6027;</h2><p>&#x53EF;&#x4EE5;&#x6709;&#x6548;&#x5E2E;&#x52A9;&#x89C4;&#x8303;&#x5E02;&#x573A;&#x79E9;&#x5E8F;</p>
+<h1 id="&#x533A;&#x5757;&#x94FE;&#x6F14;&#x5316;&#x9636;&#x6BB5;"><a href="#&#x533A;&#x5757;&#x94FE;&#x6F14;&#x5316;&#x9636;&#x6BB5;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;&#x6F14;&#x5316;&#x9636;&#x6BB5;"></a>&#x533A;&#x5757;&#x94FE;&#x6F14;&#x5316;&#x9636;&#x6BB5;</h1><h2 id="&#x533A;&#x5757;&#x94FE;1-0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x6570;&#x5B57;&#x5316;&#x8D27;&#x5E01;"><a href="#&#x533A;&#x5757;&#x94FE;1-0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x6570;&#x5B57;&#x5316;&#x8D27;&#x5E01;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;1.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x6570;&#x5B57;&#x5316;&#x8D27;&#x5E01;"></a>&#x533A;&#x5757;&#x94FE;1.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x6570;&#x5B57;&#x5316;&#x8D27;&#x5E01;</h2><p>&#x4E3B;&#x8981;&#x901A;&#x8FC7;&#x5206;&#x5E03;&#x5F0F;&#x8D26;&#x672C;&#x7684;&#x52A0;&#x5BC6;&#x6280;&#x672F;,&#x5EFA;&#x7ACB;&#x4E86;&#x6570;&#x5B57;&#x8D27;&#x5E01;&#x7684;&#x53D1;&#x884C;&#x3001;&#x5206;&#x914D;&#x3001;&#x5E01;&#x503C;&#x8C03;&#x8282;&#x7B49;&#x673A;&#x5236;&#x3002;&#x4F17;&#x6240;&#x5468;&#x77E5;&#x7684;&#x6BD4;&#x7279;&#x5E01;,&#x4FBF;&#x53EF;&#x89C6;&#x4E3A;&#x533A;&#x5757;&#x94FE;&#x7684;&#x9996;&#x4E2A;&#x5728;&#x91D1;&#x878D;&#x652F;&#x4ED8;&#x9886;&#x57DF;&#x4E2D;&#x7684;&#x5E94;&#x7528;&#x3002;</p>
+<h2 id="&#x533A;&#x5757;&#x94FE;2-0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;"><a href="#&#x533A;&#x5757;&#x94FE;2-0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;2.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;"></a>&#x533A;&#x5757;&#x94FE;2.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x667A;&#x80FD;&#x5408;&#x7EA6;</h2><p>2015&#x5E74;10&#x6708;,&#x4EE5;&#x592A;&#x574A;&#x7684;&#x521B;&#x59CB;&#x4EBA;Vitalik Buterin&#x53D1;&#x8868;&#x4E86;&#x9898;&#x4E3A;<font color="#00ffff"><a href="https://blog.ethereum.org/2015/04/13/visions-part-1-the-value-of-blockchain-technology/" target="_blank" rel="noopener">&#x300A;Visions, Part 1: The Value of Blockchain Technology&#x300B;</a></font>&#x4E3B;&#x9898;&#x6F14;&#x8BB2;&#x4E2D;,&#x533A;&#x5757;&#x94FE;&#x88AB;&#x8D4B;&#x4E88;&#x4E86;&#x65B0;&#x7684;&#x542B;&#x4E49;&#x3002;&#x533A;&#x5757;&#x94FE;&#x662F;&#x4EFB;&#x4F55;&#x4EBA;&#x90FD;&#x53EF;&#x4EE5;&#x4E0A;&#x4F20;&#x7A0B;&#x5E8F;&#x5E76;&#x4F7F;&#x7A0B;&#x5E8F;&#x81EA;&#x5DF1;&#x6267;&#x884C;&#x7684;&#x8F7D;&#x4F53;,&#x5E76;&#x4E14;&#x533A;&#x5757;&#x94FE;&#x901A;&#x8FC7;&#x81EA;&#x6211;&#x9650;&#x5236;&#x548C;&#x5B89;&#x5168;&#x52A0;&#x5BC6;,&#x786E;&#x4FDD;&#x4E86;&#x4E0A;&#x4F20;&#x7684;&#x7A0B;&#x5E8F;&#x80FD;&#x591F;&#x53EF;&#x4FE1;&#x5730;&#x81EA;&#x52A8;&#x6267;&#x884C;&#x9884;&#x8BBE;&#x7684;&#x903B;&#x8F91;&#x3002;</p>
+<h2 id="&#x533A;&#x5757;&#x94FE;3-0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x793E;&#x4F1A;&#x6CBB;&#x7406;"><a href="#&#x533A;&#x5757;&#x94FE;3-0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x793E;&#x4F1A;&#x6CBB;&#x7406;" class="headerlink" title="&#x533A;&#x5757;&#x94FE;3.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x793E;&#x4F1A;&#x6CBB;&#x7406;"></a>&#x533A;&#x5757;&#x94FE;3.0&#xFF1A;&#x53EF;&#x7F16;&#x7A0B;&#x7684;&#x793E;&#x4F1A;&#x6CBB;&#x7406;</h2><p>&#x7531;&#x4E8E;&#x8BE5;&#x6280;&#x672F;&#x5177;&#x6709;&#x8D85;&#x8D8A;&#x8D27;&#x5E01;&#x7684;&#x516C;&#x6B63;&#x7279;&#x6027;,&#x8BE5;&#x6280;&#x672F;&#x53EF;&#x4EE5;&#x88AB;&#x5E7F;&#x6CDB;&#x5E94;&#x7528;&#x5728;&#x53F8;&#x6CD5;&#x4EF2;&#x88C1;,&#x8EAB;&#x4EFD;&#x8BA4;&#x8BC1;&#x7B49;&#x9886;&#x57DF;&#x3002;&#x4ECE;&#x957F;&#x8FDC;&#x6765;&#x770B;,&#x533A;&#x5757;&#x94FE;&#x7684;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x6A21;&#x5F0F;,&#x5C06;&#x901A;&#x8FC7;&#x66F4;&#x597D;&#x7684;&#x534F;&#x4F5C;&#x4E0E;&#x6CBB;&#x7406;,&#x6765;&#x91CD;&#x5851;&#x6574;&#x4E2A;&#x4EBA;&#x7C7B;&#x793E;&#x4F1A;&#x6D3B;&#x52A8;&#x3002;&#x867D;&#x7136;&#x73B0;&#x5982;&#x4ECA;&#x56FD;&#x5185;&#x5916;&#x5BF9;&#x4E8E;&#x533A;&#x5757;&#x94FE;&#x6280;&#x672F;&#x7684;&#x6295;&#x5165;&#x4F7F;&#x7528;&#x90FD;&#x5DF2;&#x7ECF;&#x9010;&#x6E10;&#x5C55;&#x5F00;,&#x4F46;&#x76EE;&#x524D;&#x5C1A;&#x672A;&#x6709;&#x5B8C;&#x5168;&#x843D;&#x5730;&#x7684;&#x5E94;&#x7528;&#x6027;&#x6210;&#x679C;&#x3002;&#x56E0;&#x6B64;,&#x533A;&#x5757;&#x94FE;&#x6280;&#x672F;&#x76EE;&#x524D;&#x4ECD;&#x7136;&#x5904;&#x4E8E;&#x7406;&#x8BBA;&#x9636;&#x6BB5;,&#x4ECA;&#x540E;&#x7684;&#x6280;&#x672F;&#x8F6C;&#x6362;&#x5C1A;&#x9700;&#x4E00;&#x6BB5;&#x5F88;&#x957F;&#x65F6;&#x95F4;&#x7684;&#x5B9E;&#x8DF5;&#x3002;</p>
+
+      
+    </div>
+    
+    
+    
+
+    <div>
+    
+      <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------End of post<i class="fa fa-flag"></i>Thanks for your time-------------</div>
+    
+</div>
+
+    
+    </div>
+
+    
+      <div>
+        <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="/qrcode_for_wechat_bdg.jpg" alt="BaoDuGe_飽蠹閣 wechat" style="width: 200px; max-width: 100%;">
+    <div>Enjoy it? Subscribe to my blog by scanning my public wechat account</div>
+</div>
+
+      </div>
+    
+
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>Post author:</strong>
+    BaoDuGe_飽蠹閣
+  </li>
+  <li class="post-copyright-link">
+    <strong>Post link:</strong>
+    <a href="http://blog.baoduge.com/current_blockchain/" title="区块链现状">http://blog.baoduge.com/current_blockchain/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice: </strong>
+    All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> unless stating additionally.
+  </li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/bloackchain/" rel="tag"># bloackchain</a>
+          
+            <a href="/tags/font/" rel="tag"># font</a>
+          
+        </div>
+      
+
+      
+      
+        <div class="post-widgets">
+        
+          <div class="wp_rating">
+            <div style="color:rgb(0, 0, 0); font-size:13px; letter-spacing:3px;">Rate this post</div>
+            <div id="wpac-rating"></div>
+          </div>
+        
+
+        
+        </div>
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/My_Study_Plan/" rel="next" title="Data Science Open-Course Challenges">
+                <i class="fa fa-chevron-left"></i> Data Science Open-Course Challenges
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/R_science_computing/" rel="prev" title="R语言的科学计算">
+                R语言的科学计算 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+      <div id="sidebar-dimmer"></div>
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+          
+            <img class="site-author-image" itemprop="image" src="http://baoduge.com/My/avatar.gif" alt="BaoDuGe_飽蠹閣">
+          
+            <p class="site-author-name" itemprop="name">BaoDuGe_飽蠹閣</p>
+            <p class="site-description motion-element" itemprop="description"></p>
+        </div>
+
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+            
+              <a href="/archives">
+            
+                <span class="site-state-item-count">40</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">categories</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">97</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/vincent27hugh" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>GitHub</a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="mailto:huweihugh@gmail.com" target="_blank" title="E-Mail">
+                  
+                    <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://baoduge.com/" title="飽蠹閣BAODUGE" target="_blank">飽蠹閣BAODUGE</a>
+                </li>
+              
+            </ul>
+            
+            <div id="days"></div>
+
+<script language="javascript">
+function show_date_time(){
+window.setTimeout("show_date_time()", 1000);
+BirthDay=new Date("09/08/2017 00:00:00");
+today=new Date();
+timeold=(today.getTime()-BirthDay.getTime());
+sectimeold=timeold/1000
+secondsold=Math.floor(sectimeold);
+msPerDay=24*60*60*1000
+e_daysold=timeold/msPerDay
+daysold=Math.floor(e_daysold);
+e_hrsold=(e_daysold-daysold)*24;
+hrsold=setzero(Math.floor(e_hrsold));
+e_minsold=(e_hrsold-hrsold)*60;
+minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+seconds=setzero(Math.floor((e_minsold-minsold)*60));
+document.getElementById('days').innerHTML="Has been runing "+daysold+" Days "+hrsold+" Hours "+minsold+" Min "+seconds+" Sec ";
+}
+function setzero(i){
+if (i<10)
+{i="0" + i};
+return i;
+}
+show_date_time();
+</script>
+
+          </div>
+        
+
+        <div id="days"></div>
+
+<script language="javascript">
+function show_date_time(){
+window.setTimeout("show_date_time()", 1000);
+BirthDay=new Date("09/08/2017 00:00:00");
+today=new Date();
+timeold=(today.getTime()-BirthDay.getTime());
+sectimeold=timeold/1000
+secondsold=Math.floor(sectimeold);
+msPerDay=24*60*60*1000
+e_daysold=timeold/msPerDay
+daysold=Math.floor(e_daysold);
+e_hrsold=(e_daysold-daysold)*24;
+hrsold=setzero(Math.floor(e_hrsold));
+e_minsold=(e_hrsold-hrsold)*60;
+minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+seconds=setzero(Math.floor((e_minsold-minsold)*60));
+document.getElementById('days').innerHTML="Has been runing "+daysold+" Days "+hrsold+" Hours "+minsold+" Min "+seconds+" Sec ";
+}
+function setzero(i){
+if (i<10)
+{i="0" + i};
+return i;
+}
+show_date_time();
+</script>
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#区块链核心技术"><span class="nav-number">1.</span> <span class="nav-text">区块链核心技术</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#区块链数据库"><span class="nav-number">1.1.</span> <span class="nav-text">区块链数据库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#分布式结构和去中心化的协议"><span class="nav-number">1.2.</span> <span class="nav-text">分布式结构和去中心化的协议</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#非对称密码学"><span class="nav-number">1.3.</span> <span class="nav-text">非对称密码学</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#可编程的智能合约脚本"><span class="nav-number">1.4.</span> <span class="nav-text">可编程的智能合约脚本</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#区块链潜在应用方向"><span class="nav-number">2.</span> <span class="nav-text">区块链潜在应用方向</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#去中心化的分布式结构"><span class="nav-number">2.1.</span> <span class="nav-text">去中心化的分布式结构</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#不可篡改的时间戳"><span class="nav-number">2.2.</span> <span class="nav-text">不可篡改的时间戳</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安全的信任机制"><span class="nav-number">2.3.</span> <span class="nav-text">安全的信任机制</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#灵活的可编程性"><span class="nav-number">2.4.</span> <span class="nav-text">灵活的可编程性</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#区块链演化阶段"><span class="nav-number">3.</span> <span class="nav-text">区块链演化阶段</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#区块链1-0：可编程数字化货币"><span class="nav-number">3.1.</span> <span class="nav-text">区块链1.0：可编程数字化货币</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#区块链2-0：可编程的智能合约"><span class="nav-number">3.2.</span> <span class="nav-text">区块链2.0：可编程的智能合约</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#区块链3-0：可编程的社会治理"><span class="nav-number">3.3.</span> <span class="nav-text">区块链3.0：可编程的社会治理</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">
+  
+  &copy;  2017 &mdash; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">BaoDuGe_飽蠹閣</span>
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" href="https://hexo.io">Hexo</a></div>
+
+  <span class="post-meta-divider">|</span>
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.2</div>
+
+  <div>
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  Total Visits: <span id="busuanzi_value_site_pv"></span> &nbsp&nbsp&nbsp
+  Total Visitors: <span id="busuanzi_value_site_uv"></span>
+</div>
+
+
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      
+    </span>
+  
+</div>
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+  
+  <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.2"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.2"></script>
+
+
+
+  
+  
+
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://baoduge.disqus.com/count.js" async></script>
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://blog.baoduge.com/current_blockchain/';
+          this.page.identifier = 'current_blockchain/';
+          this.page.title = '区块链现状';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://baoduge.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('5');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("EkPIkYolbkzKanbzn4mNKpf7-gzGzoHsz", "lP1WbRwpyyu9r1NAqva2xWmS");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+  <script type="text/javascript">
+  wpac_init = window.wpac_init || [];
+  wpac_init.push({widget: 'Rating', id: 7746,
+    el: 'wpac-rating',
+    color: 'fc6423'
+  });
+  (function() {
+    if ('WIDGETPACK_LOADED' in window) return;
+    WIDGETPACK_LOADED = true;
+    var mc = document.createElement('script');
+    mc.type = 'text/javascript';
+    mc.async = true;
+    mc.src = '//embed.widgetpack.com/widget.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+  })();
+  </script>
+
+
+  
+  
+
+
+  
+
+  
+
+</body>
+</html>
