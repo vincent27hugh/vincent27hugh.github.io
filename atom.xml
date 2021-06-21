@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.baoduge.com/"/>
-  <updated>2020-03-29T13:27:48.000Z</updated>
+  <updated>2021-06-21T07:41:44.660Z</updated>
   <id>http://blog.baoduge.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我报之以歌</title>
+    <link href="http://blog.baoduge.com/Life_20210621/"/>
+    <id>http://blog.baoduge.com/Life_20210621/</id>
+    <published>2021-06-20T16:00:00.000Z</published>
+    <updated>2021-06-21T07:41:44.660Z</updated>
+    
+    <summary type="html">
+    
+      《世界上另一个我》观后感
+    
+    </summary>
+    
+      <category term="Chinese" scheme="http://blog.baoduge.com/categories/Chinese/"/>
+    
+    
+      <category term="poetry" scheme="http://blog.baoduge.com/tags/poetry/"/>
+    
+  </entry>
   
   <entry>
     <title>2019nCoV疫情舆情检测</title>
@@ -108,9 +128,9 @@
     
       <category term="monte_carlo" scheme="http://blog.baoduge.com/tags/monte-carlo/"/>
     
-      <category term="statistics" scheme="http://blog.baoduge.com/tags/statistics/"/>
-    
       <category term="famafrench" scheme="http://blog.baoduge.com/tags/famafrench/"/>
+    
+      <category term="statistics" scheme="http://blog.baoduge.com/tags/statistics/"/>
     
   </entry>
   
@@ -264,9 +284,9 @@
     
       <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
     
-      <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
-    
       <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
+    
+      <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
       <category term="deep_learning" scheme="http://blog.baoduge.com/tags/deep-learning/"/>
     
@@ -334,9 +354,9 @@
       <category term="中文" scheme="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
     
     
-      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
-    
       <category term="information_system" scheme="http://blog.baoduge.com/tags/information-system/"/>
+    
+      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
     
       <category term="structural_modeling" scheme="http://blog.baoduge.com/tags/structural-modeling/"/>
     
@@ -360,13 +380,13 @@
     
       <category term="research" scheme="http://blog.baoduge.com/tags/research/"/>
     
+      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
+    
       <category term="sentiment_analysis" scheme="http://blog.baoduge.com/tags/sentiment-analysis/"/>
     
       <category term="literature_review" scheme="http://blog.baoduge.com/tags/literature-review/"/>
     
       <category term="faicon" scheme="http://blog.baoduge.com/tags/faicon/"/>
-    
-      <category term="machine_learning" scheme="http://blog.baoduge.com/tags/machine-learning/"/>
     
       <category term="natural_language_processing" scheme="http://blog.baoduge.com/tags/natural-language-processing/"/>
     
@@ -498,9 +518,9 @@
     
       <category term="image" scheme="http://blog.baoduge.com/tags/image/"/>
     
-      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
-    
       <category term="r_language" scheme="http://blog.baoduge.com/tags/r-language/"/>
+    
+      <category term="mathjax" scheme="http://blog.baoduge.com/tags/mathjax/"/>
     
       <category term="nonlinear_equations" scheme="http://blog.baoduge.com/tags/nonlinear-equations/"/>
     
@@ -539,30 +559,6 @@
       <category term="document_management" scheme="http://blog.baoduge.com/tags/document-management/"/>
     
       <category term="bibtex" scheme="http://blog.baoduge.com/tags/bibtex/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Deep Learning hardware</title>
-    <link href="http://blog.baoduge.com/DL_hardware/"/>
-    <id>http://blog.baoduge.com/DL_hardware/</id>
-    <published>2017-11-07T16:00:00.000Z</published>
-    <updated>2017-11-25T16:56:05.000Z</updated>
-    
-    <summary type="html">
-    
-      This is a list of how to set up hardware for deep learning.
-    
-    </summary>
-    
-      <category term="中文" scheme="http://blog.baoduge.com/categories/%E4%B8%AD%E6%96%87/"/>
-    
-    
-      <category term="deep_learning" scheme="http://blog.baoduge.com/tags/deep-learning/"/>
-    
-      <category term="hardware" scheme="http://blog.baoduge.com/tags/hardware/"/>
-    
-      <category term="tutorial" scheme="http://blog.baoduge.com/tags/tutorial/"/>
     
   </entry>
   

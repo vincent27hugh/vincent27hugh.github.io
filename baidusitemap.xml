@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://blog.baoduge.com/Life_20210621/</loc>
+    <lastmod>2021-06-21T07:41:44.660Z</lastmod>
+    <data>
+        <display>
+        <title>我报之以歌</title>
+        <pubTime>2021-06-20T16:00:00.000Z</pubTime>
+        
+        <tag>poetry</tag>
+         
+         
+           
+             
+              <breadCrumb title="Chinese" url="http://blog.baoduge.com/categories/Chinese/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://blog.baoduge.com/My_Study_Plan/</loc>
     <lastmod>2020-05-21T12:58:43.000Z</lastmod>
     <data>
@@ -11,29 +31,29 @@
         <title>Data Science Open-Course Challenges</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
+        <tag>information_system</tag>
+         
         <tag>machine_learning</tag>
          
         <tag>natural_language_processing</tag>
          
-        <tag>information_system</tag>
-         
         <tag>deep_learning</tag>
-         
-        <tag>github</tag>
          
         <tag>markdown_table</tag>
          
         <tag>image</tag>
          
-        <tag>statistics</tag>
+        <tag>github</tag>
          
         <tag>hexo_pdf</tag>
          
+        <tag>statistics</tag>
+         
         <tag>finance</tag>
          
-        <tag>mathematics</tag>
-         
         <tag>economics</tag>
+         
+        <tag>mathematics</tag>
          
         <tag>artificial_intelligence</tag>
          
@@ -126,11 +146,9 @@
         <title>NEVERLAND - Blog Logs</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>research</tag>
-         
-        <tag>machine_learning</tag>
-         
         <tag>study</tag>
+         
+        <tag>research</tag>
          
         <tag>blog</tag>
          
@@ -141,6 +159,8 @@
         <tag>notes</tag>
          
         <tag>information_system</tag>
+         
+        <tag>machine_learning</tag>
          
         <tag>music</tag>
          
@@ -247,9 +267,9 @@
          
         <tag>monte_carlo</tag>
          
-        <tag>statistics</tag>
-         
         <tag>famafrench</tag>
+         
+        <tag>statistics</tag>
          
          
            
@@ -505,9 +525,9 @@
         
         <tag>research</tag>
          
-        <tag>sentiment_analysis</tag>
-         
         <tag>machine_learning</tag>
+         
+        <tag>sentiment_analysis</tag>
          
         <tag>deep_learning</tag>
          
@@ -531,13 +551,13 @@
         
         <tag>research</tag>
          
+        <tag>machine_learning</tag>
+         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
          
         <tag>faicon</tag>
-         
-        <tag>machine_learning</tag>
          
         <tag>natural_language_processing</tag>
          
@@ -559,9 +579,9 @@
         <title>Notes on the Structural Modeling</title>
         <pubTime>2017-11-28T16:00:00.000Z</pubTime>
         
-        <tag>machine_learning</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>machine_learning</tag>
          
         <tag>structural_modeling</tag>
          
@@ -647,11 +667,11 @@
         <title>用Sublime Text 3管理文献</title>
         <pubTime>2017-09-27T16:00:00.000Z</pubTime>
         
+        <tag>hexo_pdf</tag>
+         
         <tag>document_management</tag>
          
         <tag>bibtex</tag>
-         
-        <tag>hexo_pdf</tag>
          
         <tag>sublime_text_3</tag>
          
@@ -677,9 +697,9 @@
         <title>Introduction to Sentiment Analysis</title>
         <pubTime>2017-10-22T16:00:00.000Z</pubTime>
         
-        <tag>sentiment_analysis</tag>
-         
         <tag>machine_learning</tag>
+         
+        <tag>sentiment_analysis</tag>
          
         <tag>natural_language_processing</tag>
          
@@ -741,9 +761,9 @@
         
         <tag>tutorial</tag>
          
-        <tag>sublime_text_3</tag>
-         
         <tag>latex</tag>
+         
+        <tag>sublime_text_3</tag>
          
         <tag>skim</tag>
          
@@ -767,11 +787,11 @@
         
         <tag>research</tag>
          
+        <tag>information_system</tag>
+         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
-         
-        <tag>information_system</tag>
          
         <tag>image</tag>
          
@@ -897,11 +917,11 @@
         
         <tag>research</tag>
          
+        <tag>information_system</tag>
+         
         <tag>sentiment_analysis</tag>
          
         <tag>literature_review</tag>
-         
-        <tag>information_system</tag>
          
         <tag>user_generated_content</tag>
          
@@ -929,11 +949,11 @@
         
         <tag>hexo_pdf</tag>
          
+        <tag>tbc</tag>
+         
         <tag>robo_advisor</tag>
          
         <tag>fintech</tag>
-         
-        <tag>tbc</tag>
          
          
            
@@ -953,11 +973,11 @@
         <title>R语言的科学计算</title>
         <pubTime>2017-09-11T16:00:00.000Z</pubTime>
         
-        <tag>tbc</tag>
-         
         <tag>r_language</tag>
          
         <tag>science_computing</tag>
+         
+        <tag>tbc</tag>
          
          
            
@@ -983,9 +1003,9 @@
          
         <tag>image</tag>
          
-        <tag>mathjax</tag>
-         
         <tag>r_language</tag>
+         
+        <tag>mathjax</tag>
          
         <tag>nonlinear_equations</tag>
          
@@ -1015,9 +1035,9 @@
         <title>Using MATLAB to batch search #citation of IS papers</title>
         <pubTime>2017-09-18T16:00:00.000Z</pubTime>
         
-        <tag>faicon</tag>
-         
         <tag>information_system</tag>
+         
+        <tag>faicon</tag>
          
         <tag>matlab</tag>
          
